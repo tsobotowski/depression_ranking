@@ -62,8 +62,8 @@ def predict(statement):
         print(new_row)
     return eval
 
-result = predict("Today my day was very busy. My friend thinks that one of the conference men was hitting on me. I did not believe her until she mentioned that he called me a model oops. Busy day, I'm scare of people and being an intern is boring. Rip")
-result.to_csv('BDI_single_eval4.csv', index=False) 
+result = predict("I'm doing well, Im a little busy and a little stressed out. I'm approaching the end of a long term goal.")
+result.to_csv('BDI_single_eval5.csv', index=False) 
 print(result.head())
 
 
