@@ -3,3 +3,4 @@ pandas==2.2.3
 ranx==0.3.20
 torch==2.4.1
 transformers==4.45.0
+accelerate>=0.26.0
