@@ -1,0 +1,398 @@
+        <DOC>
+            	<DOCNO>s_2153_0_0</DOCNO>
+            	<TEXT>The largest solar generator I can find on the 4Patriots site is the "Patriot Power Generator 1800" which only supplies " up to 768 Wh (60 Ah)" of power That is ... not a lot ... I can't find the 24hr fridge claim but I'd be willing to bet money that the "fridge" they are talking about is some sort of 24v fridge sold into RVs and campers Also watch out as you are clearly paying a branding tax on that stuff at that site-- lots of companies like to grift and squeeze profit this way-- it looks like 4Patriots is simply white-labeling their logos on stuff designed and manufactured by others.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_0_1</DOCNO>
+            	<TEXT>I bet it would be a simple internet search to find the actual Chinese manufacturer and you could purchase the same thing for 20-50% less.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_0_2</DOCNO>
+            	<TEXT>The exact same things happens in many "specific" niche markets where companies take mass-market stuff and apply a branding logo, increase the price and then sell the unit into the "niche" market.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_0_3</DOCNO>
+            	<TEXT>One of the best examples of this in the cannabis space are the "bubble hash wash machines" which are actually $50 dollar chinese tabletop clothes washers that are rebranded and sold for $150 plus into the cannabis "niche" -- literally the exact same hardware with just a different logo silkscreen</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_1_0</DOCNO>
+            	<TEXT>Yeah no worries -- the issue with HR is the long duty cycle AND the use of both a vacuum pump and heat + freeze tech.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_1_1</DOCNO>
+            	<TEXT>I think that is gonna require a large system to sustain and I suspect the power draw of the HR will swing wildly between cycles etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_1_2</DOCNO>
+            	<TEXT>so it's not a consistent usage pattern either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_1_3</DOCNO>
+            	<TEXT>This may mean you may be looking at a more standard battery bank + standalone inverter if you want to do this at scale at the lowest possible setup cost</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_2_0</DOCNO>
+            	<TEXT> If wordpress is important to you, pay a specialist who does nothing but host high scale high profile wordpress sites -- I'm specifically talking about [https://wpengine.com/](https://wpengine.com/) which is where we run our WP-based public business website despite internally all of our tech staff being a huge bunch of AWS loving nerds You would be able to meet your 3-day deadline if you avoided the AWS learning curve and went straight to [https://wpengine.com/](https://wpengine.com/) or some other non-terrible hosting provider my $.02 only of course</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_3_0</DOCNO>
+            	<TEXT>What OS or distro did you make the AMI off of and why are you SSH'ing in as root?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_3_1</DOCNO>
+            	<TEXT>A lot of the standard AMIs used in EC2 are explicitly set up with /root/.ssh/authorized\_keys files containing statements that basically disconnect the SSH session instantly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_3_2</DOCNO>
+            	<TEXT>This is the point where I'd be firing up AWS SSM Session Manager to get an alternative console path into my broken AMis to see whats wrong.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_3_3</DOCNO>
+            	<TEXT>If you cant get in via SSH and your health checks are showing unhealthy then something is seriously wrong</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_4_0</DOCNO>
+            	<TEXT>Lets not overlook the source Quillette is best known as a site that publishes just asking questions racial theories based on forehead size and head shape aka a great website for alt-right dorks and intellectuals who hide their racism behind libertarianism</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_5_0</DOCNO>
+            	<TEXT>Oh I agree the parade situation is a shit show but the source site does not actually care about this event as much as they care about generating clickable urls for your angry racist uncle to share on Facebook in one of his screeds about the evils of libs and wokism quillete is one of the sites that exists mostly to whitewash and get some of the uhhhh more extreme ideologies bubbling up inside gab/parler/telegram and put them somewhere mainstream where the conservative outrage complex can point to basically</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_6_0</DOCNO>
+            	<TEXT> Well the first problem is that you have a "yum install ..." command running on an Ubuntu OS in your userdata section -- yum is for CentOS/RHEL and amazon-Linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_6_1</DOCNO>
+            	<TEXT>The package manager on Ubuntu is gonna be apt aka "apt-get install aws-cfn-bootstrap .." The earlier part of your CF template looks OK where you have a Packages section that seems to install apt and apache2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_7_0</DOCNO>
+            	<TEXT>Is it cool tho?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_8_0</DOCNO>
+            	<TEXT>Zef style baby</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_9_0</DOCNO>
+            	<TEXT>You need to figure out what the license is tied to and how the license is enforced Almost all of the commercially licensed expensive software I've deployed on AWS that did not use a FlexLM license server had licenses that "broke" when one of the following occurred: * hostname change * IP address change * MAC address change So in that situation we basically pre-allocated an ENI network interface with a known IP address and fixed MAC address and always associated that with the EC2 server running the licensed code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_9_1</DOCNO>
+            	<TEXT>We set that up before installing the license though Other license enforcement schemes fingerprint hardware IDs by looking at devices, serial #s and other info so its pretty variable But all of the above is based on my own experience with specific software.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_9_2</DOCNO>
+            	<TEXT>You've got to do your own research on how your license is handled and verified.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_9_3</DOCNO>
+            	<TEXT>Figure out what your license allows and how the license checking is managed/enforced and from there you can figure out your EC2 package and distribution settings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_10_0</DOCNO>
+            	<TEXT> **General advice**: Any use of s3fs in a production context is a mistake and a sign that that things should be re-thought from first principals.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_10_1</DOCNO>
+            	<TEXT>Very bad things can happen when you wedge a POSIX interface on top of an object store via a Fuse based kernel module.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_10_2</DOCNO>
+            	<TEXT>That said your specific use case is highly constrained so maybe s3fs could work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_10_3</DOCNO>
+            	<TEXT>But overall a recurring 'aws s3 sync ..' process is going to be safer and cleaner</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_11_0</DOCNO>
+            	<TEXT>These are all standard premise based jobs so I think they are missing data on some of the software, devOps, cloud and consulting gigs that are done fully remote by people working from home.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_12_0</DOCNO>
+            	<TEXT>Rick bird Barry on IG makes them to custom order and often posts random sales of standard ones as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_12_1</DOCNO>
+            	<TEXT>Ive ordered 4 from him and they are fantastic</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_13_0</DOCNO>
+            	<TEXT>I build data and compute infra for genomics and other data intensive life science startups as my consulting day job on premise, on the cloud or hybrid There are places to use cheap IT but your scientific storage layer is NOT the place.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_13_1</DOCNO>
+            	<TEXT>You are inviting data loss, high operational burden or both.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_13_2</DOCNO>
+            	<TEXT>Hire this expertise if your company does not have it internally they can tell you how to be most effective in your spend relative to your budget and science/business requirements Also as a random observation almost every startup Ive worked with in the last two years is FLUSH with tens or even hundreds of millions of dollars in series b funding so as a side note in this era if you are at a genomics startup that is not having VC money thrown at it then you may want to have some backup plans as it may indicate that the market does not think your startup has a viable path to anything</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_14_0</DOCNO>
+            	<TEXT>The area is safe because it's on the Harvard University academic complex fields and will INCREDIBLY busy with people when you enter/exit the festival so no issues walking around or even ranging far to find a less populated bus stop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_14_1</DOCNO>
+            	<TEXT>The main issue is that the festival has no real parking at all except for a few VIPS so everyone takes public transit, walks or uber|lyft.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_14_2</DOCNO>
+            	<TEXT>So think about thousands of people all going to try walking to the same small set of MBTA subway and Bus stops (Harvard Square, Central Square, etc.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_14_3</DOCNO>
+            	<TEXT>so be prepared to walk in a largely happy crowd or wait for a seat on an outbound bus or subway.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_14_4</DOCNO>
+            	<TEXT>The past few years Boston Calling has run dedicated zones for Uber and Lyft drop-offs which may be your best bet -- take Uber/Lyft and you can extend your hotel search out much farther.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_15_0</DOCNO>
+            	<TEXT>I think you are gonna have to post some pictures for the hivemind to assess things?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_0</DOCNO>
+            	<TEXT>I've only done proctored Pearson VUE exams over the last year (4 of them I think) so here are some answers regarding VUE: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_1</DOCNO>
+            	<TEXT>The software is Pearson VUE and after registering they offer multiple ways to download the software and run laptop compatibility checks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_2</DOCNO>
+            	<TEXT>The checks go all the way up through answering 1 fake exam question so they are comprehensive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_3</DOCNO>
+            	<TEXT>You are encouraged to run this software test early and I think they may run it again as you sit for the exam.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_4</DOCNO>
+            	<TEXT>If your laptop fails the VUE test you will not even be allowed to start the exam 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_5</DOCNO>
+            	<TEXT>Can't answer this one, sorry!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_6</DOCNO>
+            	<TEXT>CCP exam is fixed in length and the # of questions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_7</DOCNO>
+            	<TEXT>The questions you get will be different than the questions others get which is why AWS uses a fancy grading algorithm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_8</DOCNO>
+            	<TEXT>They have tons of data on how '"hard" each question is so your final score takes into consideration the relative difficulty of the questions that landed on your specific test 4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_9</DOCNO>
+            	<TEXT>You have to pick and register a specific day and time for the proctored exam but they encourage you to "check in early" so you can get to the top of the queue where they examine your room etc before your official exam is started.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_10</DOCNO>
+            	<TEXT>I've checked in as early as 60 minutes before my scheduled exam and got through the queue fast so I ended up taking the exam 40 minutes earlier than my official registration time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_11</DOCNO>
+            	<TEXT>I think you can check in early but if you check in late beyond a certain time you may lose your exam slot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_12</DOCNO>
+            	<TEXT>I've registered and taken same-day exams but never shorter than a half day or so before the official start time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_13</DOCNO>
+            	<TEXT>The list of open days and slots is pretty expansive and updated often.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_16_14</DOCNO>
+            	<TEXT>You can schedule them very far out in advance but I'm not specifically sure how far out -- I'd guess they let you pick pretty far in advance</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_17_0</DOCNO>
+            	<TEXT>Thanks for this!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_17_1</DOCNO>
+            	<TEXT>Thought it had been pretty quiet here ...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_18_0</DOCNO>
+            	<TEXT>I've got a remote-work/office yurt in western maine but code enforcement in my town views it as a "raised camping structure" so they are fine with it and it would not affect sale or anything like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_18_1</DOCNO>
+            	<TEXT>They did sorta screw me years later by counting it as a "dwelling" when the subject of a 250ft offset from a river line came up on a different thing I was trying to build -- the presence of a yurt as a recognized "dwelling" triggered a statewide wetland protection rule that anything new we put on our lot has to be 250feet minimum from any water line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_18_2</DOCNO>
+            	<TEXT>That said, I don't think I could have gotten it financed because it would not meet code for a occupied residence where we live and I think the bank would not be cool with that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_18_3</DOCNO>
+            	<TEXT>I think you may have to start first with a state and town (and perhaps even lot plan or deed) in mind before you can really answer the finance question.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_18_4</DOCNO>
+            	<TEXT>In Maine I've noticed that some towns are "wild west" from a permitting and code perspective while the town right next door may have rigid zoning and a fully staffed code enforcement team.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_18_5</DOCNO>
+            	<TEXT>It really does vary wildly across jurisdictions</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_19_0</DOCNO>
+            	<TEXT>Most of the answers here may be predicated on if your laptop is centrally managed by an MDM platform as MDM capabilities would usually include being able to change login configuration setups etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_19_1</DOCNO>
+            	<TEXT>So question #1 is going to be "*is your laptop centrally managed by anything?*"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_19_2</DOCNO>
+            	<TEXT>Without an MDM option --You may be looking at a "wipe and restore from Time Machine" type scenario if you hit the config option for "mandatory smartcard login" ...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_20_0</DOCNO>
+            	<TEXT>The major cloud training platforms ([acloud.guru](https://acloud.guru), cloudacademy) etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_20_1</DOCNO>
+            	<TEXT>all have started building lab capabilities into their training offerings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_20_2</DOCNO>
+            	<TEXT>And if you want standalone resources than there are companies like [https://www.qwiklabs.com/](https://www.qwiklabs.com/) that specialize in selling access to nice temporary lab/training environments All of them cost money though, I'm not aware of free sources of free labs that would offer up a significant training environment</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_21_0</DOCNO>
+            	<TEXT>In consulting and professional services market this is super common -- if I build out an AWS Org or environment then we and the client both want to be fully transparent that they own the environment and can boot us out at any time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_21_1</DOCNO>
+            	<TEXT>Plus the responsibility for paying AWS is on them and not us.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_21_2</DOCNO>
+            	<TEXT>We always work in someone else's account with their permission, we only rarely run customer stuff in our own AWS Org because billing or reimbursement is a hassle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_22_0</DOCNO>
+            	<TEXT>Lots of software out that does this; most is commercial some is open source and free.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_22_1</DOCNO>
+            	<TEXT>We use a mix of https://www.cloudockit.com and LucidChart depending on the output type we need and the audience that is getting the material</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_23_0</DOCNO>
+            	<TEXT>If you follow the Maine reddit there are tons of people who have job or offers of jobs at BIW but are struggling to find a place to live or rent within a reasonable commuting distance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_23_1</DOCNO>
+            	<TEXT>So as others suggest you may need to focus both on the job search and a housing search at the same time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_24_0</DOCNO>
+            	<TEXT>I split time between boston and western maine and have learned some things: * Maine people are totally fine with clean energy * Maine people hate the CMP power company with the power of 10,000 suns * Maine people do not trust a single word CMP says * Maine people believe that anything CMP says is "good" is in fact bad for Maine Basically the vote was a giant "fuck-you" to CMP from the state -- they will never support anything CMP pushes because the company is such a giant dumpster fire that has alienated and pissed off people from every age group, demographic and political camp The actual question did not matter -- Mainers saw a chance to fuck with CMP to get some payback and they took it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_24_1</DOCNO>
+            	<TEXT>Can't blame them myself -- CMP sucks hard</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_25_0</DOCNO>
+            	<TEXT>Western Maine here our standby generator ran for 42 hours straight for one outage this summer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_25_1</DOCNO>
+            	<TEXT>There have been others but the outages were much shorter To set expectations we ordered the generator in May of 2020 and it was installed late November 2020 Same in MA this year ordered in June 2021 and my 18kva Generac is being installed November 18 Long lead time for both electricians and gensets</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_26_0</DOCNO>
+            	<TEXT>Holup SAN in my world is built from block storage luns where you build a SAN from things that present themselves on the network fabric as physical disk devices and umm AWS EFS is POSIX style NFSv4 network file sharing - totally different things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_26_1</DOCNO>
+            	<TEXT>What am I missing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_26_2</DOCNO>
+            	<TEXT>Anyway FSx/Lustre may be worth checking out as it was built for the massively parallel reader/writer use case although you may also have the small file IO issue</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_27_0</DOCNO>
+            	<TEXT>Out of curiosity What is at-scale to you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_27_1</DOCNO>
+            	<TEXT>I hated EFS years ago but its gotten way way better for our use cases and we now use it often.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_27_2</DOCNO>
+            	<TEXT>Are your performance issues seen with increases in # of clients or when EFS gets super big?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_0</DOCNO>
+            	<TEXT>Congrats on the OpenMP and Slurm stuff!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_1</DOCNO>
+            	<TEXT>For your specific problem where \*exactly\* is the python3.9 binary?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_2</DOCNO>
+            	<TEXT>It looks like you are putting in full explicit paths in your environment module settings instead of passing in directories -- PATH should point to a directory and so should PYTHONHOME More generic advice ... Some advice on environment modules (I have systems where we have 5 different python versions installed and 10+ versions of R ) * I'd encourage you to step away from the OS provided version of Python if you are going to go down this path.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_3</DOCNO>
+            	<TEXT>The OS versions of anything can be changed or altered via system patching and updates and that is not a good thing in HPC where you want to be as reproducible as possible * Environment modules is cleaner when your tool or app is installed into an upper level folder that has it's own "bin/" "lib/" "man/" subdirectories * Building from source code is the way to solve the above two issues -- (a) you get away from the OS version that can be altered at any time and (b) when you compile you can do stuff like "./configure --prefix=/opt/python/3.9.x/" and the end result is that your build will install into /opt/python/3.9.x/ and all your bin/ lib/ and other subfolders will be there which makes setting up the environment modules easier * Start planning now for having multiple pythons which means your modulesfile/ folder should not be set up as "python-3.9" but rather as a folder called python/ with a "3.9" file in it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_4</DOCNO>
+            	<TEXT>This will set you up for "module load python/3.9" or "module load python/3.10" etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_5</DOCNO>
+            	<TEXT>in the future.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_6</DOCNO>
+            	<TEXT>And if you name your files by the python version number the default sort from "module load" means that someone typing "module load python" is gonna get the 3.10 version unless you override that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_28_7</DOCNO>
+            	<TEXT>Nice and clean</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_29_0</DOCNO>
+            	<TEXT>The point of environment modules is to put your software AWAY from common locations like /usr/bin -- for instance /usr/bin is likely already in your $PATH so there is no need at all for environment modules at all because it's in your default path already so anyone typing "python3" or whatever is gonna be using what was installed in /usr/bin/ Basically environment modules is just a framework for messing with environment variables in ways that facilitate the usage of many apps (or many versions of the same apps) installed in nonstandard locations Imagine you unpack python-3.10.tgz source code into a temp build directory and then run the command "./configure --prefix=/opt/python/3.10/" followed by "make" and "make install" What would happen then is that the build script will compile python and install all of that new python under the /opt/python/3.10/ folder And inside that you would have: /opt/python/3.10/bin /opt/python/3.10/lib /opt/python/3.10/man .. and so on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_29_1</DOCNO>
+            	<TEXT> So that means in environment modules for python/3.10 you'd do stuff like: setenv PYTHONHOME /opt/python/3.10 prepend-path PATH /opt/python/3.10/bin prepend-path LD\_LIBRARY\_PATH /opt/python/3.10/lib prepend-path MANPATH /opt/python/3.10/man The "trick" here is that your custom software has custom bin/ lib/ man/ and other folders inside the special location where you chose to install it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_29_2</DOCNO>
+            	<TEXT>Then all environment modules does is make it easy to use that app in scripts or on the command line and switch between different tools or versions of the same tool</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_30_0</DOCNO>
+            	<TEXT>I work as an HPC/cloud consultant and I have to connect to many different VPNs for my clients -- I probably have 8 configured at any given time Not all support split tunnel and I don't trust any of them not to snoop on my regular traffic The solution for me on MacOS is to run Parallels VM -- I run an Ubuntu 20 VM for every client with a VPN that supports Linux and a Windows 10 VM for the clients that force windows only.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_30_1</DOCNO>
+            	<TEXT>Works very well and the VMs keep your network traffic isolated enough so that I can browse or use slack on my laptop without worrying about the VPN tunnel running in the Ubuntu VM And working with the VM does not impact your daily workflow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2153_30_2</DOCNO>
+            	<TEXT>Via SSH tunnels and edits to .ssh/config on my Macbook I can still use "ssh 
+    remote HPC="" with="" connection="" proxied="" through="" VPN-linked="" virtual="" machine.="" So="" not="" like="" I="" have="" to="" do="" any="" real="" work="" inside="" the="" VM="" can="" still="" use="" iTerm="" and="" VSCode="" or="" whatever="" as="" needed=""
+      </TEXT>
+        </DOC>

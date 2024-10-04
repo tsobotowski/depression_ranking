@@ -1,0 +1,2321 @@
+        <DOC>
+            	<DOCNO>s_1708_0_0</DOCNO>
+            	<TEXT>Holy sh!t.. This is definitely new!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_0_1</DOCNO>
+            	<TEXT>Thanks for the heads up</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_1_0</DOCNO>
+            	<TEXT>My phone is way more than 180, and it can't do that either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_1_1</DOCNO>
+            	<TEXT>Not natively.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_1_2</DOCNO>
+            	<TEXT>It can select any songs from local storage, but not from streaming services.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_2_0</DOCNO>
+            	<TEXT>It will play on Echo Dot</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_3_0</DOCNO>
+            	<TEXT>Fwiw, my sony does that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_4_0</DOCNO>
+            	<TEXT>Sample use case?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_5_0</DOCNO>
+            	<TEXT>With mouse clicks and key presses?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_5_1</DOCNO>
+            	<TEXT>I mean, wouldn't it easier if you just hook the keyboard and mouse directly to the ATV?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_5_2</DOCNO>
+            	<TEXT>Unless you want to do it programmatically, like autohotkey or something..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_6_0</DOCNO>
+            	<TEXT>AFAIK, the Blackbean is IR only, not RF.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_7_0</DOCNO>
+            	<TEXT>That too, has to do with the speaker.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_7_1</DOCNO>
+            	<TEXT>Not the dot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_7_2</DOCNO>
+            	<TEXT>My Samsung soundstand has a feature called "bluetooth power-on", which will wake itself up when a paired bluetooth device tries to connect to it. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_7_3</DOCNO>
+            	<TEXT>And never sleeps as long as it's connected, even when not playing anything)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_8_0</DOCNO>
+            	<TEXT>Use a smart outlet to schedule Echo's sleep time</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_9_0</DOCNO>
+            	<TEXT>Not sure about your issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_9_1</DOCNO>
+            	<TEXT>To my findings, Dot never tries to reconnect automatically upon disconnection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_9_2</DOCNO>
+            	<TEXT>Probably because Dot always thinks that the disconnection was on purpose, since the Dot and the speaker should always stay within proximity range.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_9_3</DOCNO>
+            	<TEXT>I don't know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_9_4</DOCNO>
+            	<TEXT>What if your dot that loses power (not the speaker)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_9_5</DOCNO>
+            	<TEXT>Will it automatically reconnect?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_10_0</DOCNO>
+            	<TEXT>Seeing how Spotify works, i think it's up to Google.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_12_0</DOCNO>
+            	<TEXT>I don't think so.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_12_1</DOCNO>
+            	<TEXT>Check wether your TV came with an IR Blaster cable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_12_2</DOCNO>
+            	<TEXT>This way you can control both using a single remote.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_13_0</DOCNO>
+            	<TEXT>Well, this is not a 'plug', but i thought you might want to take a look... https://www.itead.cc/smart-home/sonoff-rf.html</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_14_0</DOCNO>
+            	<TEXT>Then mine is probably the only Dot there is here in Indonesia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_15_0</DOCNO>
+            	<TEXT>I love mine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_15_1</DOCNO>
+            	<TEXT>Especially its HTTP API.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_16_0</DOCNO>
+            	<TEXT>..instead of Echo-[enter last 3 chars of you echo SN here]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_17_0</DOCNO>
+            	<TEXT>To set or query status of my TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_17_1</DOCNO>
+            	<TEXT>Power on/off, input source, speaker volume level (0-100), launch apps, and much more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_17_2</DOCNO>
+            	<TEXT>So i can control it using my Echo, and see its state on my openHAB dashboard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_18_0</DOCNO>
+            	<TEXT>Happened sometimes on my Sony, too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_18_1</DOCNO>
+            	<TEXT>Had to reboot to fix it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_18_2</DOCNO>
+            	<TEXT>AndroidTV bug, i think.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_19_0</DOCNO>
+            	<TEXT>I set Pandora as Default station service, and ask "Alexa, play Bruno Mars radio."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_19_1</DOCNO>
+            	<TEXT>Works fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_20_0</DOCNO>
+            	<TEXT>What about Esc ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_21_0</DOCNO>
+            	<TEXT>Add every Artists/Stations to his Todo/Shopping List. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_21_1</DOCNO>
+            	<TEXT>Alexa, Play Adele station on Pandora", followed by "Alexa, add Adele to my todo list."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_22_0</DOCNO>
+            	<TEXT>No, it's enabled by default.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_22_1</DOCNO>
+            	<TEXT>We just need to make proper http post request.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_22_2</DOCNO>
+            	<TEXT>Here's a blog post about this https://aydbe.com/blog/65. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_22_3</DOCNO>
+            	<TEXT>written for 2014 bravia, but also applicable on 2015 androidtv bravia)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_23_0</DOCNO>
+            	<TEXT>I mean, i can set volume level to a specific value,say 25 (using http post request) when i use TV Speaker or Headphones.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_23_1</DOCNO>
+            	<TEXT>I want to do the same when i use Audio System (i.e my soundbar).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_24_0</DOCNO>
+            	<TEXT>[here](http://www.openremote.org/display/forums/Sony+TV+HTTP+control) and [here](https://aydbe.com/blog/65)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_25_0</DOCNO>
+            	<TEXT>Does this allows you to connect the TV to a bluetooth speaker/soundbar?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_26_0</DOCNO>
+            	<TEXT>Which method?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_26_1</DOCNO>
+            	<TEXT>Miracast or Chromecast?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_27_0</DOCNO>
+            	<TEXT>On my old Z Ultra, "cast screen" from quick settings is Miracast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_27_1</DOCNO>
+            	<TEXT>So, try screen casting from Google Cast app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_27_2</DOCNO>
+            	<TEXT>Also, check Google cast receiver version on your TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_27_3</DOCNO>
+            	<TEXT>Mine is 1.20.67611</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_28_0</DOCNO>
+            	<TEXT>I think YouTube videos are encoded to stereo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_29_0</DOCNO>
+            	<TEXT>Haven't tried myself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_29_1</DOCNO>
+            	<TEXT>But the option is there, yes.. http://i.imgur.com/se7LRsr.png Using KDL-50W800C</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_30_0</DOCNO>
+            	<TEXT>Not at home right now, but enabling 3D before casting won't work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_30_1</DOCNO>
+            	<TEXT>I'll give it a try later.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_30_2</DOCNO>
+            	<TEXT>EDIT: i found "DirectSettings" crashed when I hit ActionMenu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_30_3</DOCNO>
+            	<TEXT>SyncMenu button also caused the cast to stop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_30_4</DOCNO>
+            	<TEXT>Playing from built-in YouTube app works fine though</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_31_0</DOCNO>
+            	<TEXT>Well i think Echo is just an interface for a Home automation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_31_1</DOCNO>
+            	<TEXT>That kind of activities will need more powerful home automation software or hubs as backends</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_32_0</DOCNO>
+            	<TEXT>But the problem is, while FireTV is working fine, Shield isn't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_33_0</DOCNO>
+            	<TEXT> gt; TLDR: want the meatiest box I can get for ~50, kodi and ability to mount a NAS drive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_33_1</DOCNO>
+            	<TEXT>Just stick with your Pi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_33_2</DOCNO>
+            	<TEXT>It's the gold standard for kodi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_33_3</DOCNO>
+            	<TEXT>Try OSMC install on a fast USB flashdrive, not sdcard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_34_0</DOCNO>
+            	<TEXT>Web version will do</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_35_0</DOCNO>
+            	<TEXT>Is there static sound/noise when powering on/off?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_36_0</DOCNO>
+            	<TEXT>Which routers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_37_0</DOCNO>
+            	<TEXT>Try freaktab.com forum.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_37_1</DOCNO>
+            	<TEXT>You might find answers there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_38_0</DOCNO>
+            	<TEXT>Which TV and phone?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_39_0</DOCNO>
+            	<TEXT>* enable Pre-Shared Key authentication on your TV (Settings - Network - Home Network Setup - IP Control, e.g "1111") * install **curl** on the phone * use Tasker Run Shell action  gt; curl "http://YOUR-TV-IP/sony/IRCC" -H "X-Auth-PSK:1111" -H "SOAPAction: ""urn:schemas-sony-com:service:IRCC:1#X_SendIRCC""" --data-binary "?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_39_1</DOCNO>
+            	<TEXT>xml version="" encoding=""?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_39_2</DOCNO>
+            	<TEXT>
+    s:Envelope xmlns:s="" s:encodingStyle=""
+      s:Body
+        u:X_SendIRCC xmlns:u=""
+          IRCCCodeAAAAAQAAAAEAAAAuAw==/IRCCCode
+        /u:X_SendIRCC
+      /s:Body
+    /s:Envelope" * alternatively, you can use RESTask plugin to send POST request **URL** = http://YOUR-TV-IP/sony/system **Header** = X-Auth-PSK : 1111 **Body** = {"id":3,"method":"setPowerStatus","version":"1.0","params":[{"status":true}]}</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_40_0</DOCNO>
+            	<TEXT>Compatible for my Sony TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_40_1</DOCNO>
+            	<TEXT>Thanks for the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_41_0</DOCNO>
+            	<TEXT>This is where Bravia shines.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_41_1</DOCNO>
+            	<TEXT>You can send command like:  gt; curl "http://192.168.31.157/sony/appControl" -H "X-Auth-PSK:0000" -d '{"id":3,"method":"setActiveApp","version":"1.0","params":[{"uri":"com.sony.dtv.com.netflix.ninja.com.netflix.ninja.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_41_2</DOCNO>
+            	<TEXT>MainActivity"}]}' This will open Netflix (and wake the TV up from standby state).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_42_0</DOCNO>
+            	<TEXT>You can try playing with Tasker on your Shield.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_42_1</DOCNO>
+            	<TEXT>It can launch apps and tell your harmony to do things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_43_0</DOCNO>
+            	<TEXT>Because i think Android(TV) is the problem...not KODI.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_44_0</DOCNO>
+            	<TEXT>I don't think Roger (or any similar app) can make Echo talks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_45_0</DOCNO>
+            	<TEXT>The latter is already possible with Spotify.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_46_0</DOCNO>
+            	<TEXT>What concerns me more is developers support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_46_1</DOCNO>
+            	<TEXT>I have 2015 sony android tv.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_46_2</DOCNO>
+            	<TEXT>Besides games, i practically see 'no apps' in the Playstore, very disappointing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_46_3</DOCNO>
+            	<TEXT>At current state, i think Sony's smart is smarter than AndroidTV's smart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_47_0</DOCNO>
+            	<TEXT>Because Echo is a speaker?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_47_1</DOCNO>
+            	<TEXT>Taking audio out off Echo would've hurt its feeling</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_48_0</DOCNO>
+            	<TEXT>I just set some frequently watched channels as separate devices. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_48_1</DOCNO>
+            	<TEXT>Alexa, turn on [HBO|Fox Movies|Disney Junior|etc]".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_48_2</DOCNO>
+            	<TEXT>Generally works very well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_49_0</DOCNO>
+            	<TEXT>All alarms do, i think.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_49_1</DOCNO>
+            	<TEXT>What you want is a 'reminder'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_49_2</DOCNO>
+            	<TEXT>You can set repeating alarm, though</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_50_0</DOCNO>
+            	<TEXT>And neither Google Now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_50_1</DOCNO>
+            	<TEXT>Because that's how alarm works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_51_0</DOCNO>
+            	<TEXT>[about LED illumination](http://i.imgur.com/qyPzWsT.jpg)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_52_0</DOCNO>
+            	<TEXT>I think that's app dependant</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_53_0</DOCNO>
+            	<TEXT>A Service Manual [pdf](https://drive.google.com/file/d/0B82Kwm3QlrAudFJoNnh6VU5SX1k/view?usp=drivesdk) i got from the net.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_53_1</DOCNO>
+            	<TEXT>Can't remember the link.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_53_2</DOCNO>
+            	<TEXT>I'll upload it later.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_53_3</DOCNO>
+            	<TEXT>Edit: uploaded</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_54_0</DOCNO>
+            	<TEXT>Today, "HBO" also no longer working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_55_0</DOCNO>
+            	<TEXT>Echo supports both 2.4 and 5ghz wifi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_56_0</DOCNO>
+            	<TEXT>Seems like a wide spread [issue](https://www.amazon.com/gp/help/customer/forums/ref=cs_hc_g_tv?ie=UTF8 amp;forumID=Fx1SKFFP8U1B6N5 amp;cdThread=TxL38FAK17VGTN).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_56_1</DOCNO>
+            	<TEXT>Can you access this page?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_56_2</DOCNO>
+            	<TEXT>alexa.amazon.com/spa/index.html#music/PANDORA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_57_0</DOCNO>
+            	<TEXT>There's no way to do that right now</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_58_0</DOCNO>
+            	<TEXT>That explains.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_59_0</DOCNO>
+            	<TEXT>No, you're not</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_60_0</DOCNO>
+            	<TEXT>Yes, that would be a nice addition.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_61_0</DOCNO>
+            	<TEXT>I don't have Shield.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_61_1</DOCNO>
+            	<TEXT>But if it really has HDMI-CEC, then you should be able to control it using the TV remote including Rewind and FF, right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_61_2</DOCNO>
+            	<TEXT>Just like my RasPi with KODI</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_63_0</DOCNO>
+            	<TEXT>I'm gonna give it a try</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_64_0</DOCNO>
+            	<TEXT>Yes, usb or bluetooth mouse.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_64_1</DOCNO>
+            	<TEXT>Or sony own Video amp;TV Sideview app</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_65_0</DOCNO>
+            	<TEXT>https://www.reddit.com/r/amazonecho/comments/4h6lqs/alexa_loves_the_sloths/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_66_0</DOCNO>
+            	<TEXT>Yes, you can.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_66_1</DOCNO>
+            	<TEXT>Dot is able to act as bt speaker.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_67_0</DOCNO>
+            	<TEXT>I don't know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_67_1</DOCNO>
+            	<TEXT>Maybe you can try [SpotControl](https://github.com/badfortrains/spotcontrol)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_68_0</DOCNO>
+            	<TEXT>What does Raspberry Pi fail you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_69_0</DOCNO>
+            	<TEXT>Then you should set up HA-Bridge on the Pi if you haven't already.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_70_0</DOCNO>
+            	<TEXT>How about sending hourly chime, like a grandfather clock?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_72_0</DOCNO>
+            	<TEXT>Adapters with Asix ax88772 chipset (e.g apple one) works with android, even Chromecasts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_72_1</DOCNO>
+            	<TEXT>Can't see why it would not work with Android TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_73_0</DOCNO>
+            	<TEXT>A simple hub and an adapter will fix that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_73_1</DOCNO>
+            	<TEXT>No problem really.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_74_0</DOCNO>
+            	<TEXT>"many other options?"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_74_1</DOCNO>
+            	<TEXT>The options i know are on the right side, and they're not many..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_75_0</DOCNO>
+            	<TEXT>Glad I've linked Pandora to my account earlier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_75_1</DOCNO>
+            	<TEXT>Which, to me, even better than Spotify for stations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_75_2</DOCNO>
+            	<TEXT>Now Pandora no longer listed in my alexa app, yet still working as default station service.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_76_0</DOCNO>
+            	<TEXT>Something like this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_76_1</DOCNO>
+            	<TEXT>https://youtu.be/xenOYWVwkGY</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_77_0</DOCNO>
+            	<TEXT>Alexa is just an interface, not a hub.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_77_1</DOCNO>
+            	<TEXT>You need something that can bind all of them together, like OpenHAB, Home-Assistant, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_78_0</DOCNO>
+            	<TEXT>Probably the most simple and reliable solution.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_79_0</DOCNO>
+            	<TEXT>Is it good enough for powering an Esp8266 or arduino and modules?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_80_0</DOCNO>
+            	<TEXT>Alexa talks without being prompted would scare people.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_80_1</DOCNO>
+            	<TEXT>Especially when they have no idea about the reminder.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_81_0</DOCNO>
+            	<TEXT>Well, some people find it annoying when Alexa suddenly says "HELLO!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_81_1</DOCNO>
+            	<TEXT>after a power loss</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_82_0</DOCNO>
+            	<TEXT>What if your wife created a reminder, and notification shows up on your phone?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_82_1</DOCNO>
+            	<TEXT>Alexa is not meant to be a personal assistant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_83_0</DOCNO>
+            	<TEXT>Wait, you can make Echo/Dot talks using Roger?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_84_0</DOCNO>
+            	<TEXT>I wonder how we choose an app to cast from, by voice.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_84_1</DOCNO>
+            	<TEXT>On phones, we need to launch the app, pick a content, and cast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_84_2</DOCNO>
+            	<TEXT>Google home?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_85_0</DOCNO>
+            	<TEXT>Actually, casting is quite [simple](https://www.reddit.com/r/AmazonEchoDev/comments/53s35t/skill_requestidea_cast_youtube_video/) really.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_85_1</DOCNO>
+            	<TEXT>At least for YouTube.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_85_2</DOCNO>
+            	<TEXT>We just need to find out how to feed those lines to Alexa.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_86_0</DOCNO>
+            	<TEXT>If you have the Dot, no fix is necessary.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_86_1</DOCNO>
+            	<TEXT>Just plug it to the receiver, and ask it to play, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_87_0</DOCNO>
+            	<TEXT>You mean the upcoming Google Home app?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_87_1</DOCNO>
+            	<TEXT>Because i can't do a search inside current Google cast app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_88_0</DOCNO>
+            	<TEXT>I see no search button or something like that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_89_0</DOCNO>
+            	<TEXT>One thing I want to have from Echo is for it to act as a speakerphone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_89_1</DOCNO>
+            	<TEXT>Now Google Home has no bluetooth..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_90_0</DOCNO>
+            	<TEXT>I thought so..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_91_0</DOCNO>
+            	<TEXT>Had a feeling they started to forget about AndroidTV, Wear, and Auto..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_92_0</DOCNO>
+            	<TEXT>Tp-link has bulbs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_92_1</DOCNO>
+            	<TEXT>I didn't know that Anyway.. I already have alexa, i think i can wait.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_93_0</DOCNO>
+            	<TEXT>Made an [IFTTT recipe](https://ifttt.com/recipes/472463-amazon-alexa-app-update-notifier) to notify me whenever there's an update on apkmirror</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_94_0</DOCNO>
+            	<TEXT>Just 'play music' won't work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_94_1</DOCNO>
+            	<TEXT>Either 'play spotify' or 'play [something]'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_96_0</DOCNO>
+            	<TEXT>Also, if you were listening to spotify on other devices (phone, pc, or other echo), saying 'play spotify' will continue what's playing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_96_1</DOCNO>
+            	<TEXT>After that, you can just say 'Alexa, play'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_97_0</DOCNO>
+            	<TEXT>FWIW, asking "play life on mars" gave me 2016 Mix version</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_98_0</DOCNO>
+            	<TEXT>You have multiple accounts linked to the Echo?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_99_0</DOCNO>
+            	<TEXT>Yes, i think a smart socket should work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_100_0</DOCNO>
+            	<TEXT>You can say "Activate.."?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_100_1</DOCNO>
+            	<TEXT>Now, that's cool.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_101_0</DOCNO>
+            	<TEXT>I took DIY route.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_101_1</DOCNO>
+            	<TEXT>Raspberry Pi + ir modules, which also runs HA-Bridge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_101_2</DOCNO>
+            	<TEXT>Works great so far.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_102_0</DOCNO>
+            	<TEXT>I think I've followed [this guide](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/) and use [this module](http://linksprite.com/wiki/index.php5?title=File:KY005.png).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_102_1</DOCNO>
+            	<TEXT>The blaster range is not that good, but i have my Pi sitting near my TV and cable box, so it's not an issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_103_0</DOCNO>
+            	<TEXT>I'm using a Sony Bravia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_103_1</DOCNO>
+            	<TEXT>It has excellent network protocol that can be used with the Echo (with HA-Bridge)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_104_0</DOCNO>
+            	<TEXT>Assuming you're using smart lightings, you can make certain lights to blink whenever the timer is off with the help of IFTTT.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_105_0</DOCNO>
+            	<TEXT>Add mixer to the output?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_106_0</DOCNO>
+            	<TEXT>AFAIK, Spotify only allow you to play on single device at a time too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_107_0</DOCNO>
+            	<TEXT>IFTTT has "New Song Played" trigger.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_107_1</DOCNO>
+            	<TEXT>Only works with Amazon Music, i think.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_107_2</DOCNO>
+            	<TEXT>Haven't tried, I'm not a subscriber.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_108_0</DOCNO>
+            	<TEXT>On which device you usually play those kind of videos?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_109_0</DOCNO>
+            	<TEXT>Alexa app - Settings - [Lists](http://i.imgur.com/RhlG7sy.jpg)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_110_0</DOCNO>
+            	<TEXT>Wait, you can stream to multiple chromecast from Spotify?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_110_1</DOCNO>
+            	<TEXT>IIRC Spotify app doesn't have Google Cast button.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_112_0</DOCNO>
+            	<TEXT>Is it possible to add plugin that can 'read' iptv m3u playlists?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_113_0</DOCNO>
+            	<TEXT>One thing about Todoist is that it has ifttt channel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_113_1</DOCNO>
+            	<TEXT>May open to other possibilities.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_114_0</DOCNO>
+            	<TEXT>What if it's the push notifications everybody's been asking?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_115_0</DOCNO>
+            	<TEXT>My Echo and Dot are still on 4008</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_117_0</DOCNO>
+            	<TEXT>Attach the speakers to the Dot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_118_0</DOCNO>
+            	<TEXT>I don't use Roku.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_118_1</DOCNO>
+            	<TEXT>But i saw it has [External Control Protocol](https://sdkdocs.roku.com/plugins/servlet/mobile#ExternalControlGuide-ExternalControlProtocolExamples).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_118_2</DOCNO>
+            	<TEXT>Combine them with BWSSYTEMS HA-Bridge, then probably you can say 'Alexa, turn on netflix!'</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_119_0</DOCNO>
+            	<TEXT>Use the mac as bluetooth source, and outputs its sound to the speakers that's wired to the Dot. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_119_1</DOCNO>
+            	<TEXT>i.e make the speakers bluetooth enable with a Dot)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_120_0</DOCNO>
+            	<TEXT>Works fine on my end</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_121_0</DOCNO>
+            	<TEXT>If it does alerts you on your phone, then you can setup an android phone/device that is always connected to echo via bluetooth.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_121_1</DOCNO>
+            	<TEXT>Catch the notification using TASKER, and make the phone play music or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_121_2</DOCNO>
+            	<TEXT>The sound will came out of echo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_121_3</DOCNO>
+            	<TEXT>I think its doable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_122_0</DOCNO>
+            	<TEXT>Yes, but 5ghz range is also a lot shorter than 2.4ghz.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_122_1</DOCNO>
+            	<TEXT>Try moving the dot closer to the router and see if it makes any difference.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_123_0</DOCNO>
+            	<TEXT>Not a speaker, but this looks like a good start... http://www.androidpolice.com/2016/10/24/evo-perfectly-matching-portable-battery-base-amazons-echo-dot/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_124_0</DOCNO>
+            	<TEXT>I know this is ugly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_124_1</DOCNO>
+            	<TEXT>But you can add those playlist to your ToDo or Shopping list, and ask alexa read them anytime you want.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_125_0</DOCNO>
+            	<TEXT>So, your router can't have 2.4ghz AND 5ghz simultaneously?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_126_0</DOCNO>
+            	<TEXT>You should ask Logitech instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_127_0</DOCNO>
+            	<TEXT>Because i can already change channels (and more) on my Sony TV without Harmony</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_128_0</DOCNO>
+            	<TEXT>Can Harmony send HTTP POST command?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_128_1</DOCNO>
+            	<TEXT>On Sony TVs, you can send [this](http://i.imgur.com/Tm3SYzf.jpg) to list installed apps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_128_2</DOCNO>
+            	<TEXT>And then launch an app (e.g Netflix) like [this](http://i.imgur.com/FL5dlaK.jpg)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_129_0</DOCNO>
+            	<TEXT>Actually it's Sony features apart from AndroidTV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_129_1</DOCNO>
+            	<TEXT>It has very good RESTful API.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_130_0</DOCNO>
+            	<TEXT>Frozen soundtracks, lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_130_1</DOCNO>
+            	<TEXT>Yeah valid reason.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_130_2</DOCNO>
+            	<TEXT>Either schedule for network disconnection (router feature), or cut the power (using smart socket).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_131_0</DOCNO>
+            	<TEXT>Same amazon account?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_132_0</DOCNO>
+            	<TEXT>I don't know if it's within range.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_132_1</DOCNO>
+            	<TEXT>If you can get Echo remote, pair it to your Echo, and hand it to them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_132_2</DOCNO>
+            	<TEXT>Use 'Simon says' feature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_133_0</DOCNO>
+            	<TEXT>Thats old, use this one https://github.com/bwssytems/ha-bridge You don't have to build it yourself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_134_0</DOCNO>
+            	<TEXT>I don't have amazon video app installed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_134_1</DOCNO>
+            	<TEXT>But, yes, getApplicationList method will return something like this.. {"title":"Netflix","uri":"com.sony.dtv.com.netflix.ninja.com.netflix.ninja.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_134_2</DOCNO>
+            	<TEXT>MainActivity","icon":"http:\/\/192.168.31.157\/DIAL\/icon\/com.sony.dtv.com.netflix.ninja.com.netflix.ninja.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_134_3</DOCNO>
+            	<TEXT>MainActivity.png"} You will need the "uri" as params in setActiveApp method.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_134_4</DOCNO>
+            	<TEXT>Also note that you need to set Network Authentication to Pre-Shared Key (PSK).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_134_5</DOCNO>
+            	<TEXT>In my example, i use 0000 as key.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_134_6</DOCNO>
+            	<TEXT>Settings - Network - Home Network Setup - IP Control - Authentication</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_135_0</DOCNO>
+            	<TEXT>Not my Sony TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_135_1</DOCNO>
+            	<TEXT>While you can choose which output, they can't make sounds simultaneously.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_135_2</DOCNO>
+            	<TEXT>3.5mm will override by default.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_136_0</DOCNO>
+            	<TEXT>But, can it make sounds simultaneously, though?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_137_0</DOCNO>
+            	<TEXT>In practice, though, how would it differs which phrase goes to IFTTT or not?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_137_1</DOCNO>
+            	<TEXT>Too random, i think.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_138_0</DOCNO>
+            	<TEXT>I'm all android, but pretty disappointed with my Android Wear and Android TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_138_1</DOCNO>
+            	<TEXT>Not really sure about Google Home.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_138_2</DOCNO>
+            	<TEXT>I'll keep my Echo and Dot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_138_3</DOCNO>
+            	<TEXT>HA-bridge makes them 1024 times better and more useful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_139_0</DOCNO>
+            	<TEXT>Ability to add variables inside the trigger phrase is a HUGE difference.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_141_0</DOCNO>
+            	<TEXT>Define "Work"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_0</DOCNO>
+            	<TEXT>I've changed my timezone and location of my echo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_1</DOCNO>
+            	<TEXT>Changing timezone does help me with Alarm, but that's it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_2</DOCNO>
+            	<TEXT>I can just use Chicago (which is 12h different) as my location, and it works too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_3</DOCNO>
+            	<TEXT>Changing location is purely cosmetic.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_4</DOCNO>
+            	<TEXT>It adds nothing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_5</DOCNO>
+            	<TEXT>Alexa still doesn't know where I am.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_6</DOCNO>
+            	<TEXT>No weather (without explicitly asking the city), no traffic, or any other location based features.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_7</DOCNO>
+            	<TEXT>Other than that, everything is working fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_8</DOCNO>
+            	<TEXT>Music, Lists, Smart home, ifttt, jokes, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_142_9</DOCNO>
+            	<TEXT>So, for me, Alexa works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_143_0</DOCNO>
+            	<TEXT>Backdrop Settings has always been there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_143_1</DOCNO>
+            	<TEXT>In fact, now I'm missing "Device Settings" that previously available in Google Cast app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_144_0</DOCNO>
+            	<TEXT>https://youtu.be/1plnA_kdCXU</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_145_0</DOCNO>
+            	<TEXT>My phone alarm doesn't shuts off until the battery is dead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_146_0</DOCNO>
+            	<TEXT>[this](http://m.banggood.com/Broadlink-Black-Bean-Smart-Home-Wifi-Remote-IR-Controller-Universal-Appliances-Smart-Control-p-1049494.html) guy is cheaper if all you need is IR.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_146_1</DOCNO>
+            	<TEXT>But yes, need a spare, always-on, android device.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_147_0</DOCNO>
+            	<TEXT>I don't know about Philips, but Sony TV has excellent network protocol if you're interested in home automation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_147_1</DOCNO>
+            	<TEXT>You can control almost every aspect of the TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_147_2</DOCNO>
+            	<TEXT>The TV itself is great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_147_3</DOCNO>
+            	<TEXT>Good picture quality and good looking as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_147_4</DOCNO>
+            	<TEXT>It has plenty enough hdmi input (mine has 4) to connect your peripheral devices, including Shields or any other boxes anytime you feel the 'internal' androidtv part is lacking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_148_0</DOCNO>
+            	<TEXT>Regarding connectivity, i enabled the "Start of Requests Sound".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_148_1</DOCNO>
+            	<TEXT>So that I will know its status by calling "Alexa!".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_148_2</DOCNO>
+            	<TEXT>If the "Ding" sound came out of its internal speaker, means bluetooth is disconnected and i can just follow up with "connect bluetooth" command.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_148_3</DOCNO>
+            	<TEXT>If there's no "ding" sound, means it's connected via 3.5mm and the stereo is off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_148_4</DOCNO>
+            	<TEXT>Then ask alexa to turn it on (if possible).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_149_0</DOCNO>
+            	<TEXT>I learned a lot from these links.. http://www.openremote.org/display/forums/Sony+TV+HTTP+control https://github.com/breunigs/bravia-auth-and-remote https://aydbe.com/blog/65 (Russian) https://aydbe.com/assets/uploads/2014/11/json.txt For example, [to launch an app](https://www.reddit.com/r/AndroidTV/comments/59aj68/open_apps_on_android_tv_nvidia_shield_or_sony/) [get TV volume information](http://i.imgur.com/1HKJeXA.jpg) [set internal speaker volume to 20](http://i.imgur.com/6vCSCa2.jpg) etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_150_0</DOCNO>
+            	<TEXT>Wait, you can pair your Dot with Sony TV via bluetooth?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_150_1</DOCNO>
+            	<TEXT>Which sony model do you have?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_150_2</DOCNO>
+            	<TEXT>What version of Android?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_151_0</DOCNO>
+            	<TEXT>I don't think they're paired.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_151_1</DOCNO>
+            	<TEXT>Just tried it, my sony didn't even see the dot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_152_0</DOCNO>
+            	<TEXT>New cars these days have something (if not everything) integrated into the stereo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_152_1</DOCNO>
+            	<TEXT>You might lose that functionality when you switched to a 3rd party.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_153_0</DOCNO>
+            	<TEXT>You mean torrent client?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_153_1</DOCNO>
+            	<TEXT>One of the few app listed on my ATV PlayStore.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_154_0</DOCNO>
+            	<TEXT>I've sent a feedback about this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_154_1</DOCNO>
+            	<TEXT>Maybe you should too :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_155_0</DOCNO>
+            	<TEXT>Yes, what you're looking for is a 'client'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_155_1</DOCNO>
+            	<TEXT>BitTorrent is a peer2peer file sharing, there's no server.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_155_2</DOCNO>
+            	<TEXT>What you have on your phone is a remote that control the 'client'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_155_3</DOCNO>
+            	<TEXT>You tried this one, right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_155_4</DOCNO>
+            	<TEXT>https://play.google.com/store/apps/details?id=net.sf.aria2 I think when you turn it on, it will act as service and runs in background.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_156_0</DOCNO>
+            	<TEXT>http://www.computerworld.com/article/3137187/personal-technology/google-home-glaring-flaw.html</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_157_0</DOCNO>
+            	<TEXT>Do you have Echo/Dot as comparison?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_158_0</DOCNO>
+            	<TEXT>Maybe Amazon want us to save energy and electricity bill.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_159_0</DOCNO>
+            	<TEXT>Why stripped the "OK Google!",</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_160_0</DOCNO>
+            	<TEXT>What do you expect from 6.0 or 7.0?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_161_0</DOCNO>
+            	<TEXT>Like [this](https://www.reddit.com/r/AndroidTV/comments/59aj68/open_apps_on_android_tv_nvidia_shield_or_sony/)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_162_0</DOCNO>
+            	<TEXT>First commenter [here](https://www.reddit.com/r/googlehome/comments/5aygr3/can_anyone_with_the_home_confirm_that_it_works/) says otherwise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_162_1</DOCNO>
+            	<TEXT>Not sure which bravia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_163_0</DOCNO>
+            	<TEXT>1) why would I want to play something to another TV where I'm not present?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_164_0</DOCNO>
+            	<TEXT>Thanks for the heads up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_164_1</DOCNO>
+            	<TEXT>Haven't got it yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_164_2</DOCNO>
+            	<TEXT>https://esupport.sony.com/US/p/swu-download.pl?mdl=KDL50W800C amp;upd_id=10990 amp;os_group_id=18</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_165_0</DOCNO>
+            	<TEXT>I think Spotify Connect does that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_166_0</DOCNO>
+            	<TEXT>What about one-time token sent via sms to your phone number?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_167_0</DOCNO>
+            	<TEXT>[voice is not an option](https://youtu.be/lI6Ci-fkFtA)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_168_0</DOCNO>
+            	<TEXT>Just did a quick test, i cut Alexa's internet access (via router setting).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_168_1</DOCNO>
+            	<TEXT>She didn't prompt me anything upon disconnection/reconnection, until i wake her up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_169_0</DOCNO>
+            	<TEXT>"Echo, who wrote The Screwtape letters?"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_170_0</DOCNO>
+            	<TEXT>But you can't see it if the light is in another room</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_171_0</DOCNO>
+            	<TEXT>Lucky i don't ask questions a lot</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_172_0</DOCNO>
+            	<TEXT>Live channels (Streaming channels) still not working on my Sony Bravia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_172_1</DOCNO>
+            	<TEXT>Is this known issue?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_173_0</DOCNO>
+            	<TEXT>Puppetmaster.tv listed as source in Streaming Channels setting (Sony's Live Channels app?).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_173_1</DOCNO>
+            	<TEXT>But, when i tried to setup, i got "Couldn't find any channels.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_173_2</DOCNO>
+            	<TEXT>The stream works fine inside puppetmaster app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_173_3</DOCNO>
+            	<TEXT>Also, how to remove no longer used Pastey pastebin?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_174_0</DOCNO>
+            	<TEXT>Sorry, i asked this because [Cumulus and Pluto works](http://i.imgur.com/8Xp1nxd.jpg) while puppetmaster doesn't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_174_1</DOCNO>
+            	<TEXT>Probably something is wrong on my end.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_174_2</DOCNO>
+            	<TEXT>And, the one I'm trying to remove is the pastebin ID, not the #Pastey itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_175_0</DOCNO>
+            	<TEXT>That link only for Sony's</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_177_0</DOCNO>
+            	<TEXT>https://smile.amazon.com/gp/help/customer/display.html?nodeId=202011860</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_178_0</DOCNO>
+            	<TEXT>Do you need root access, XposedFramework, flexibility, and other powerful functionality your Android phone has?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_179_0</DOCNO>
+            	<TEXT>[Paired with my Echo](http://i.imgur.com/TZ7J3Hu.jpg), as headphone (?).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_179_1</DOCNO>
+            	<TEXT>Can't connect, though..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_180_0</DOCNO>
+            	<TEXT>You need to say "Play Spotify" instead of "Play music".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_180_1</DOCNO>
+            	<TEXT>Or, just say "Play"..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_181_0</DOCNO>
+            	<TEXT>That's Spotify limitations i believe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_181_1</DOCNO>
+            	<TEXT>All 3rd party integration needs premium.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_182_0</DOCNO>
+            	<TEXT>Use the app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_183_0</DOCNO>
+            	<TEXT>Hmm, that's sounds like STATIONS that kicks in instead of LIBRARY.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_183_1</DOCNO>
+            	<TEXT>Amazon has both services, while Spotify radio station doesn't work on Echo. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_183_2</DOCNO>
+            	<TEXT>Play Pandora" will probably yields equal results.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_184_0</DOCNO>
+            	<TEXT>What about [EventGhost](http://www.eventghost.org)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_185_0</DOCNO>
+            	<TEXT>Does the analog stick on DS4 work as a mouse?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_186_0</DOCNO>
+            	<TEXT>Do you have mobdro apk that has leanback launcher shortcut?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_186_1</DOCNO>
+            	<TEXT>I've tried creating my own using AppCloner app, but it didn't work properly</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_187_0</DOCNO>
+            	<TEXT>Sorry, i was talking about stock Android TV launcher. '</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_187_1</DOCNO>
+            	<TEXT>standard' mobdro apk won't show up in the app list, right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_187_2</DOCNO>
+            	<TEXT>Need to go to settings-apps-installedapp to launch..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_188_0</DOCNO>
+            	<TEXT>I like StreamIn FREE app</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_189_0</DOCNO>
+            	<TEXT>BT headphones support.. You sure?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_189_1</DOCNO>
+            	<TEXT>AFAIK, Bravias with 6.0 out-of-the box don't have that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_190_0</DOCNO>
+            	<TEXT>Tasker on Android also has "say" action</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_191_0</DOCNO>
+            	<TEXT>Hi, Care to share the playlist? :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_192_0</DOCNO>
+            	<TEXT>Are you using 3rd party launcher?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_193_0</DOCNO>
+            	<TEXT>The fullscreen ads is annoying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_193_1</DOCNO>
+            	<TEXT>Makes it unusable on my sony tv.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_194_0</DOCNO>
+            	<TEXT>https://github.com/mjg59/python-broadlink</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_195_0</DOCNO>
+            	<TEXT>USB mics works on Bravia, but not "always-on".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_196_0</DOCNO>
+            	<TEXT>Need to activate the search icon, then it will pick up my voice. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_196_1</DOCNO>
+            	<TEXT>OK Google" hotword didn't work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_197_0</DOCNO>
+            	<TEXT>I have the same model, and i use [Samson Go Mic](https://www.amazon.com/Samson-Mic-Portable-Condenser-Microphone/dp/B001R76D42)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_198_0</DOCNO>
+            	<TEXT>Custom shortcut creator, that will shows up on leanback launcher. -</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_198_1</DOCNO>
+            	<TEXT>Execute shell command - Launch apps/intents - Open custom URI, etc</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_199_0</DOCNO>
+            	<TEXT>Alexa understands "turn up.." command?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_200_0</DOCNO>
+            	<TEXT>Hmm.. This is probably why the Asia Pacific region haven't got the update http://i.imgur.com/njLnWm1.jpg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_201_0</DOCNO>
+            	<TEXT>Set up https://github.com/bwssytems/ha-bridge on your OSMC pi</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_202_0</DOCNO>
+            	<TEXT>I've been running ha-bridge + domoticz (and currently testing OpenHAB2) on top of OSMC on my pi2 without issues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_202_1</DOCNO>
+            	<TEXT>Not a heavy kodi user though, only occasional movie streaming from exodus and some karaoke lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_203_0</DOCNO>
+            	<TEXT>kdl-50w800c, 5ghz wifi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_203_1</DOCNO>
+            	<TEXT>No issues so far.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_204_0</DOCNO>
+            	<TEXT>If your problem is Android, https://github.com/eschava/broadlink-mqtt</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_205_0</DOCNO>
+            	<TEXT>Regarding rockband wired usb mic.. While i can use it to do Google (voice) search, nothing gets passed through the speakers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_205_1</DOCNO>
+            	<TEXT>No apps can utilize the mic, including kodi/spmc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_205_2</DOCNO>
+            	<TEXT>No config or anything like that in the Settings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_205_3</DOCNO>
+            	<TEXT>Tested on my Sony Bravia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_206_0</DOCNO>
+            	<TEXT>You may want to try [Aria2](https://play.google.com/store/apps/details?id=net.sf.aria2)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_207_0</DOCNO>
+            	<TEXT>[YouTube v12.03 hints at intelligent auto-download for offline viewing, Picture-in-Picture support for Android TV, and viewer polls [APK Teardown]](http://www.androidpolice.com/2017/01/27/youtube-v12-03-hints-at-intelligent-auto-download-for-offline-viewing-picture-in-picture-support-for-android-tv-and-viewer-polls-apk-teardown/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_208_0</DOCNO>
+            	<TEXT>But it's already good now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_209_0</DOCNO>
+            	<TEXT>Interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_209_1</DOCNO>
+            	<TEXT>I wonder if it will work on an AndroidTV</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_210_0</DOCNO>
+            	<TEXT>Have you set Pre-Shared Key authentication on your Sony TV?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_210_1</DOCNO>
+            	<TEXT>You can launch any apps installed using openhab http binding</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_211_0</DOCNO>
+            	<TEXT>Actually this is Sony feature, not Android.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_211_1</DOCNO>
+            	<TEXT>Setup the Pre-Shared Key authentication, mine set to 0000.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_211_2</DOCNO>
+            	<TEXT>Send this command to get installed apps list curl "http://192.168.31.157/sony/appControl" -H "X-Auth-PSK:0000" -d '{"id":3,"method":"getApplicationList","version":"1.0","params":[]}' Look for your wanted app entry, take a note on the "uri".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_211_3</DOCNO>
+            	<TEXT>Send this command to launch an app, change the "uri" with your app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_211_4</DOCNO>
+            	<TEXT>I use netfix as example.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_211_5</DOCNO>
+            	<TEXT>curl "http://192.168.31.157/sony/appControl" -H "X-Auth-PSK:0000" -d '{"id":3,"method":"setActiveApp","version":"1.0","params":[{"uri":"com.sony.dtv.com.netflix.ninja.com.netflix.ninja.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_211_6</DOCNO>
+            	<TEXT>MainActivity"}]}'</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_212_0</DOCNO>
+            	<TEXT>Sorry, I'm not that good with openHAB, you probably should ask openhab community for better answer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_212_1</DOCNO>
+            	<TEXT>Alternatively, you can use Exec binding or sendCommandLine() inside rules with that curl command.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_213_0</DOCNO>
+            	<TEXT>What "Spotify Library"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_213_1</DOCNO>
+            	<TEXT>I didn't know Spotify has library Edit: ow, that "your music" thing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_214_0</DOCNO>
+            	<TEXT>a bluetooth speaker?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_215_0</DOCNO>
+            	<TEXT>so, it's Pi's voice casted to the Google Home?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_217_0</DOCNO>
+            	<TEXT>hmm, i don't see that option on my W800C (2015) :( Thanks anyway</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_218_0</DOCNO>
+            	<TEXT>apkmirror no longer has it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_219_0</DOCNO>
+            	<TEXT>not that easy, i think.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_219_1</DOCNO>
+            	<TEXT>alexa can't parse time variable, yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_219_2</DOCNO>
+            	<TEXT>need to create canned commands.. or maybe a skill can do that, i don't know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_220_0</DOCNO>
+            	<TEXT>maybe you can use alexa's timer with IFTTT.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_220_1</DOCNO>
+            	<TEXT>IF timer goes off THEN turn off tplink plug.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_221_0</DOCNO>
+            	<TEXT>that's weird.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_221_1</DOCNO>
+            	<TEXT>i can't reproduce the issue, using Android phone though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_221_2</DOCNO>
+            	<TEXT>can't think of anything else but bluetooth and shutter sound.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_222_0</DOCNO>
+            	<TEXT>Alexa answered "Yes?!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_222_1</DOCNO>
+            	<TEXT>after the wake word.. how?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_223_0</DOCNO>
+            	<TEXT>hmm.. missing from mine as well, weird.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_223_1</DOCNO>
+            	<TEXT>already set as my default service, though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_223_2</DOCNO>
+            	<TEXT>Spotify streaming is still working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_224_0</DOCNO>
+            	<TEXT>this works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_225_0</DOCNO>
+            	<TEXT>if the group name is Captain, then "Captain on.." will turn it on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_225_1</DOCNO>
+            	<TEXT>not sure if you follow it with "...bridge".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_226_0</DOCNO>
+            	<TEXT>Yeelight, Xiaomi aqara, RFLink, Broadlink, Sony Bravia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_226_1</DOCNO>
+            	<TEXT>All controlled by Domoticz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_227_0</DOCNO>
+            	<TEXT>home control, and spotify</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_228_0</DOCNO>
+            	<TEXT>yeah, it works only with external (hdmi) input.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_228_1</DOCNO>
+            	<TEXT>not even Google cast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_229_0</DOCNO>
+            	<TEXT>go to "Manage Your Content and Devices" on your Amazon account page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_229_1</DOCNO>
+            	<TEXT>Set "Country Settings" to US.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_229_2</DOCNO>
+            	<TEXT>http://i.imgur.com/vqQ7oUE.jpg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_230_0</DOCNO>
+            	<TEXT>wish you have female headers for the sonoff</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_231_0</DOCNO>
+            	<TEXT>so that's Bluetooth 5?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_232_0</DOCNO>
+            	<TEXT>because maybe most alarm clock app (including Alexa) can only play locally stored media, not a stream.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_232_1</DOCNO>
+            	<TEXT>so it will be less prone to failure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_232_2</DOCNO>
+            	<TEXT>imagine the music not playing when the alarm goes off (due to Spotify bugs, internet connection problems, etc).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_232_3</DOCNO>
+            	<TEXT>iirc, echo's alarm is still functional even when it is not connected to the Internet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_233_0</DOCNO>
+            	<TEXT>sigh.. what's wrong with PAA..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_234_0</DOCNO>
+            	<TEXT>APK PLZ EDIT: downloaded from this site https://m.apkpure.com/amazon-alexa/com.amazon.dee.app got "Certificate Error.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_234_1</DOCNO>
+            	<TEXT>Please Update Android System Webview" message.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_235_0</DOCNO>
+            	<TEXT>can you please upload the apk file somewhere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_237_0</DOCNO>
+            	<TEXT>ah, it was my wifi connection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_237_1</DOCNO>
+            	<TEXT>try using your mobile network just to login.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_237_2</DOCNO>
+            	<TEXT>after that i can use wifi network just fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_238_0</DOCNO>
+            	<TEXT>on all my devices, as well as my phone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_240_0</DOCNO>
+            	<TEXT>i have a motion sensor to switch my sprinkler on for a few seconds to keep cats and rats off my lawn</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_241_0</DOCNO>
+            	<TEXT>go to "Manage Your Content and Devices" on your Amazon account page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_241_1</DOCNO>
+            	<TEXT>Set "Country Settings" to US.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_241_2</DOCNO>
+            	<TEXT>http://i.imgur.com/vqQ7oUE.jpg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_242_0</DOCNO>
+            	<TEXT>just did a quick test.. works nicely :)  gt; curl -X PUT "https://api.spotify.com/v1/me/player/play?device_id=[YOUR-ECHO-DEVICE-ID]" -H "Accept: application/json" -H "Authorization: Bearer [OAUTH TOKEN]" -H "Content-Type: application/json" --data "{\"context_uri\":\"spotify:album:5ht7ItJgpBH7W6vJ5BqpPr\",\"offset\":{\"position\":5}}" this will open some more possibilities</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_243_0</DOCNO>
+            	<TEXT>if you say "Alexa, drop in", she will than ask which device you are trying to drop-in into</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_244_0</DOCNO>
+            	<TEXT>maybe you can try [this](https://developer.spotify.com/news-stories/2017/04/10/new-endpoints-beta-web-api-connect/) with Webhooks channel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_245_0</DOCNO>
+            	<TEXT>only on first setup, i guess.. enabling developer mode, pairing sensors and switches, and such.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_245_1</DOCNO>
+            	<TEXT>after that, it'll work offline.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_245_2</DOCNO>
+            	<TEXT>i use it with Domoticz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_246_0</DOCNO>
+            	<TEXT>i didn't know XBee can communicate with standard ZigBee HA profile.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_246_1</DOCNO>
+            	<TEXT>besides, XBee isn't cheap either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_247_0</DOCNO>
+            	<TEXT>Sony Bravias have excellent IP connectivity</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_248_0</DOCNO>
+            	<TEXT>https://www.apk4fun.com/apk/140209/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_249_0</DOCNO>
+            	<TEXT>Speedtest.net skill</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_250_0</DOCNO>
+            	<TEXT>when connected (via Hotspot), see if your gateway needs firmware updates.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_250_1</DOCNO>
+            	<TEXT>i had that issue with early (shipped) version.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_250_2</DOCNO>
+            	<TEXT>current firmware version is 1.4.1_150.0143</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_251_0</DOCNO>
+            	<TEXT>probably 315Mhz?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_252_0</DOCNO>
+            	<TEXT>Broadlink RM</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_253_0</DOCNO>
+            	<TEXT>I'll take **Friday**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_255_0</DOCNO>
+            	<TEXT>also works with Yeelight</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_256_0</DOCNO>
+            	<TEXT>https://us.en.kb.sony.com/app/answers/detail/a_id/75705 have you tried **Option C**?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_257_0</DOCNO>
+            	<TEXT>try launching Settings using your voice (i.e "Open Settings") via TV Sideview app.. you probably need a mouse so you can navigate faster</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_258_0</DOCNO>
+            	<TEXT>does your TV have "TV Control Setup with Amazon Alexa" app?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_258_1</DOCNO>
+            	<TEXT>can you extract that too?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_259_0</DOCNO>
+            	<TEXT>Which region is this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_260_0</DOCNO>
+            	<TEXT>install **TV App Repo** to create shortcut for sideloaded apps</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_261_0</DOCNO>
+            	<TEXT>so, do we have bluetooth a2dp?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_262_0</DOCNO>
+            	<TEXT>Sonoff T1 (https://www.itead.cc/sonoff-t1-eu.html) needs Neutral wire, though.. or just Sonoff RF, and place the switch next to the lamp.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_264_0</DOCNO>
+            	<TEXT>and Epson too</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_265_0</DOCNO>
+            	<TEXT>got it installed on my TV, but it's disabled :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_266_0</DOCNO>
+            	<TEXT>2015 KDL-50W800C</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_267_0</DOCNO>
+            	<TEXT>how about connecting the drive to the router?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_268_0</DOCNO>
+            	<TEXT>yes, it has Spotify connect built in</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_269_0</DOCNO>
+            	<TEXT>also, lately my echo does not automatically reconnected to the wifi and needs a reboot..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_270_0</DOCNO>
+            	<TEXT>how about Polk Audio Magnifi Mini.. or Max</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_271_0</DOCNO>
+            	<TEXT>not on my W800C</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_272_0</DOCNO>
+            	<TEXT>3D works only with stock Video app, or external (hdmi) input.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_273_0</DOCNO>
+            	<TEXT>that's not true.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_273_1</DOCNO>
+            	<TEXT>Sony 2015 TVs (except x900c) ARE active 3D TV.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_273_2</DOCNO>
+            	<TEXT>https://www.rtings.com/tv/learn/3d-tvs-active-3d-vs-passive-3d</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_275_0</DOCNO>
+            	<TEXT>isn't (private) YouTube easier?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_276_0</DOCNO>
+            	<TEXT>you sure it isn't listed under Featured Apps section?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_277_0</DOCNO>
+            	<TEXT>turn your tv OFF, then ON</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_278_0</DOCNO>
+            	<TEXT>any other hdmi devices connected to the soundbar?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_279_0</DOCNO>
+            	<TEXT>looks like it uses **amcodec** hwacceleration properly now, just like LibreELEC.. which is GREAT!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_279_1</DOCNO>
+            	<TEXT>can you take a look at kodi Settings - Player - Videos, under Processing section?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_280_0</DOCNO>
+            	<TEXT>ah, you need to set the Settings level to **Expert**.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_280_1</DOCNO>
+            	<TEXT>highlight that "Standard" text, and toggle it few times.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_281_0</DOCNO>
+            	<TEXT>Aria2 is native</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_282_0</DOCNO>
+            	<TEXT>have you run Audyssey yet?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_283_0</DOCNO>
+            	<TEXT>setup **Guest SSID** for visitors on your router</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_284_0</DOCNO>
+            	<TEXT>atmos works only for atmos content.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_284_1</DOCNO>
+            	<TEXT>everything else uses Neural:X or Dolby Surround</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_285_0</DOCNO>
+            	<TEXT>that, or DTS Neural:X. but it will utilize your upfiring/height speakers when detected.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_286_0</DOCNO>
+            	<TEXT>https://www.avforums.com/threads/how-can-atmos-avrs-upmix-5-1-content-to-make-use-of-atmos-content.1974610/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_287_0</DOCNO>
+            	<TEXT>same as sony bravia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_287_1</DOCNO>
+            	<TEXT>no overlay graphics when using TV's apps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_287_2</DOCNO>
+            	<TEXT>not only volume indicator.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_287_3</DOCNO>
+            	<TEXT>i guess TV's apps are not considered as hdmi input to the avr.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_288_0</DOCNO>
+            	<TEXT>Bravia has its own networking API apart from the AndroidTV OS</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_289_0</DOCNO>
+            	<TEXT>ability to remotely turn on/off tv, adjust volume, change channels/inputs, etc on Bravia is not part of AndroidTV</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_290_0</DOCNO>
+            	<TEXT>is there a way to play these clips automatically before the real movie starts in KODI?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_291_0</DOCNO>
+            	<TEXT>eh, but MiBox (similar SoC) can passthrough HD Audio, right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_291_1</DOCNO>
+            	<TEXT>at least with Kodi..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_292_0</DOCNO>
+            	<TEXT>Oreo does not seem to like my AVR (denon x1400h).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_292_1</DOCNO>
+            	<TEXT>auto switch best resolution is 480p no sound at all.. wtf.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_292_2</DOCNO>
+            	<TEXT>trying factory reset now</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_293_0</DOCNO>
+            	<TEXT>same here with denon x1400h.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_293_1</DOCNO>
+            	<TEXT>auto switch to best resolution gives me 480p60hz.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_293_2</DOCNO>
+            	<TEXT>no audio as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_294_0</DOCNO>
+            	<TEXT>same HDCP 2.2 issue when connected to the media player (back) hdmi port.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_294_1</DOCNO>
+            	<TEXT>only 480p when connected to the Aux (front) hdmi port.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_294_2</DOCNO>
+            	<TEXT>works fine when connected directly to an old 720p TV</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_296_0</DOCNO>
+            	<TEXT>for me, HD Audio passthrough works just fine with MM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_296_1</DOCNO>
+            	<TEXT>the only thing that is not working is auto frame rate switching.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_296_2</DOCNO>
+            	<TEXT>but now with Oreo, i got HDCP 2.2 issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_296_3</DOCNO>
+            	<TEXT>simply kills my mi box.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_298_0</DOCNO>
+            	<TEXT>four times, here</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_299_0</DOCNO>
+            	<TEXT>beta-testers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_300_0</DOCNO>
+            	<TEXT>and you gain what?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_300_1</DOCNO>
+            	<TEXT>besides new interface and greater version number..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_301_0</DOCNO>
+            	<TEXT>no sound after wake up from sleep.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_301_1</DOCNO>
+            	<TEXT>also, screen resolution goes down to 480p with only 8bit,rgb option available.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_301_2</DOCNO>
+            	<TEXT>mibox oreo plugged directly into TV (old 720p non HDCP 2.2 compliant)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_303_0</DOCNO>
+            	<TEXT>long press the select button</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_304_0</DOCNO>
+            	<TEXT>it doesn't help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_304_1</DOCNO>
+            	<TEXT>i just let it stay awake for now</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_305_0</DOCNO>
+            	<TEXT>how about Yamaha NS-SW 315/500/700?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_305_1</DOCNO>
+            	<TEXT>they said 20hz on paper</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_306_0</DOCNO>
+            	<TEXT>I'm in the same situation here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_306_1</DOCNO>
+            	<TEXT>been considering [Jamo Art A510](http://www.jamo.com/products/a510) as wall mounted surrounds.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_306_2</DOCNO>
+            	<TEXT>how good is it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_307_0</DOCNO>
+            	<TEXT>Tasker together with Button Mapper makes my Sony bravia remote much more powerful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_308_0</DOCNO>
+            	<TEXT>how to disable **Program Guide**?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_308_1</DOCNO>
+            	<TEXT>is it safe?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_309_0</DOCNO>
+            	<TEXT>how can I missed that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_310_0</DOCNO>
+            	<TEXT>lauch apps, activate my AVR quick preset, turn room lighting scenes on/off, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_310_1</DOCNO>
+            	<TEXT>plenty of buttons on that remote, each can do three actions (single press, double press, and long press).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_310_2</DOCNO>
+            	<TEXT>poor man's Logitech harmony.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_311_0</DOCNO>
+            	<TEXT>try Button Mapper, and see if it recognized all the buttons on your harmony 650.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_311_1</DOCNO>
+            	<TEXT>from there, you can configure a button to launch an app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_311_2</DOCNO>
+            	<TEXT>Tasker needed only for more complex tasks (ie make http calls, etc).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_311_3</DOCNO>
+            	<TEXT>as for alexa, i think you can tell broadlink to learn that button, and then use alexa-broadlink integration.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_312_0</DOCNO>
+            	<TEXT>reboot the TV</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_313_0</DOCNO>
+            	<TEXT>i just want to put 2-3 of my most used channels on the homescreen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_313_1</DOCNO>
+            	<TEXT>it's unbelievable that Google's Live Channels does not have that option.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_314_0</DOCNO>
+            	<TEXT>if you can do those things with your (android) phone, then yes..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_315_0</DOCNO>
+            	<TEXT>Pi has steeper learning curve, though</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_316_0</DOCNO>
+            	<TEXT>i know it's not helping, but I have 2015 bravia too and youtube works [just fine](https://i.imgur.com/ajE5Cde.png)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_317_0</DOCNO>
+            	<TEXT>probably the SoC itself doesn't support Gigabit ethernet</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_318_0</DOCNO>
+            	<TEXT>well, kodi on my cheap S912 android box (with minix firmware) can do that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_318_1</DOCNO>
+            	<TEXT>mi box can't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_319_0</DOCNO>
+            	<TEXT>it never worked since the beginning</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_320_0</DOCNO>
+            	<TEXT> gt; It also breaks the Leanback UI (pressing OK is seen as a long press, and I can no longer open "all apps" by going to the far left).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_320_1</DOCNO>
+            	<TEXT>does disabling Accessibility Service fixed the issue?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_321_0</DOCNO>
+            	<TEXT>I'm building a smart home, i want my TV to be a part of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_322_0</DOCNO>
+            	<TEXT>if you have a xiaomi phone with ir blaster (or other phones that have ir blaster, I'm not sure), you can use Mi Remote app on the phone... and then let your universal remote learn from it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_323_0</DOCNO>
+            	<TEXT>use [Button mapper](https://play.google.com/store/apps/details?id=flar2.homebutton) and [HTTP Request Shortcut](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts) (need sideloading) combo. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_323_1</DOCNO>
+            	<TEXT>enable Pre-Shared Key network authentication (Settings - Network - Home Network setup - IP control).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_323_2</DOCNO>
+            	<TEXT>i use 0000 * create HTTP shortcuts like [this](https://i.imgur.com/avpR9Qs.png).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_323_3</DOCNO>
+            	<TEXT>adjust tv IP address, X-Auth-PSK, and hdmi port num accordingly. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_323_4</DOCNO>
+            	<TEXT>use Button mapper, map a button to execute that shortcut.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_323_5</DOCNO>
+            	<TEXT>goodluck ps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_323_6</DOCNO>
+            	<TEXT>the request body is  gt; {"id":2,"method":"setPlayContent","version":"1.0","params":[{"uri":"extInput:hdmi?port=1"}]}</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_324_0</DOCNO>
+            	<TEXT>afaik, /storage/sdcard isn't unix filesystem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_324_1</DOCNO>
+            	<TEXT>you can't chmod there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_324_2</DOCNO>
+            	<TEXT>most likely you'll need root access too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_324_3</DOCNO>
+            	<TEXT>i wonder what's inside that script.sh?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_324_4</DOCNO>
+            	<TEXT>probably there's some other ways to achieve that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_325_0</DOCNO>
+            	<TEXT>here  gt; https://aydbe.com/assets/uploads/2014/11/json.txt</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_326_0</DOCNO>
+            	<TEXT>I'm not sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_326_1</DOCNO>
+            	<TEXT>I don't have Netflix button on my remote.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_327_0</DOCNO>
+            	<TEXT>i don't think so.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_327_1</DOCNO>
+            	<TEXT>what button mapper do is to change the behavior of that F4 key to do different activities, not the other way around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_327_2</DOCNO>
+            	<TEXT>anyway, on bravia, pressing 'info' key does that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_328_0</DOCNO>
+            	<TEXT>boy, that looks exactly like my [KM8 Pro](https://m.gearbest.com/tv-box-mini-pc/pp_458625.html), other than that external antenna..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_329_0</DOCNO>
+            	<TEXT>with youtube, I think casting is way easier than browsing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_330_0</DOCNO>
+            	<TEXT>try changing the power brick</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_331_0</DOCNO>
+            	<TEXT> gt; I plugged in my HDMI cable into the ARC socket of the TV, and into my DENOM HDMI input.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_331_1</DOCNO>
+            	<TEXT>should be Denon hdmi OUT.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1708_332_0</DOCNO>
+            	<TEXT>Denon HDMI OUT 
+    ---TV HDMI/ARC
+    </TEXT>
+        </DOC>

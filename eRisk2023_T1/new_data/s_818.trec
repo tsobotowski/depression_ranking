@@ -1,0 +1,4784 @@
+        <DOC>
+            	<DOCNO>s_818_0_0</DOCNO>
+            	<TEXT>thor is real</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1_0</DOCNO>
+            	<TEXT>Member limit?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1_1</DOCNO>
+            	<TEXT>What member limit?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_2_0</DOCNO>
+            	<TEXT>I just made this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_2_1</DOCNO>
+            	<TEXT>With 30 minutes of work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_3_0</DOCNO>
+            	<TEXT>stastmemes has been created</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_3_1</DOCNO>
+            	<TEXT>A subreddit about memes that are highly related with real-life statistics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_4_0</DOCNO>
+            	<TEXT>[LINUX ONLY] You can see and graph your (OBS) framerate in real time while recording.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_4_1</DOCNO>
+            	<TEXT>[https://github.com/flightlessmango/MangoHud](https://github.com/flightlessmango/MangoHud) It can also display CPU/GPU temperatures, CPU/GPU load, RAM/VRAM usage, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_4_2</DOCNO>
+            	<TEXT>Not on your recording, but on your OBS window.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_5_0</DOCNO>
+            	<TEXT>[LINUX ONLY] A way to boost recording performance. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_5_1</DOCNO>
+            	<TEXT>If you have a discrete GPU)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_5_2</DOCNO>
+            	<TEXT>If you are recording on a device with 2+ GPUs, you might want to give a try to the environment variable \`DRI\_PRIME\`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_5_3</DOCNO>
+            	<TEXT>Basically, it chooses the GPU used by the applications which have it set.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_5_4</DOCNO>
+            	<TEXT>You can use it with OBS by launching OBS like \`DRI\_PRIME=1 obs\`. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_5_5</DOCNO>
+            	<TEXT>0 is your integrated GPU, 1 and above is discrete) It does not require you to download anything, it's a built in Linux Feature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_5_6</DOCNO>
+            	<TEXT>You can combine this with MangoHUD like this: \`DRI\_PRIME=1 mangohud obs\`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_6_0</DOCNO>
+            	<TEXT>I have been blackmailed by the moderators, this is proof</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_7_0</DOCNO>
+            	<TEXT>my first arch install (uppercase is bloat)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_8_0</DOCNO>
+            	<TEXT>amd gt;nvidia</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_10_0</DOCNO>
+            	<TEXT>master hacker hacks me with red.virus.exe! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_10_1</DOCNO>
+            	<TEXT>and gets uno reverse card'd)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_10_2</DOCNO>
+            	<TEXT># Welcome to the 20th episode of "So this guy DM'd me" This guy sent this to mods in this server # what [what](https://preview.redd.it/pocvuissvdo61.png?width=458 amp;format=png amp;auto=webp amp;s=cb5edda7829c39cc09136b41f1f3ab128594f3a3) oh my god he knows about :document: :reforge: and hes gonna kill me!!11! [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_10_3</DOCNO>
+            	<TEXT>I use linux](https://preview.redd.it/j45rfrhvvdo61.png?width=370 amp;format=png amp;auto=webp amp;s=8e1ab39ecdf2b7e534495d1188a7a4b41b4f9c88) Since I had dwm cloned and cmatrix installed, I pulled out an uno reverse card [Reverse Trolling, you can see pulseaudio volume control open in the background lmao](https://preview.redd.it/zx0tjzixvdo61.png?width=489 amp;format=png amp;auto=webp amp;s=ddb44398b212bcb2f034f236be62c5ddf970caaa) He didn't respond after that lmao # Lesson of the day: DonAcDum</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_11_0</DOCNO>
+            	<TEXT>its turkish</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_13_0</DOCNO>
+            	<TEXT>I have come so far! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_13_1</DOCNO>
+            	<TEXT>Raspberry Pi 3B with Raspbian Lite, dwm and urxvt)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_14_0</DOCNO>
+            	<TEXT>Wait... This isn't Plasma! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_14_1</DOCNO>
+            	<TEXT>Enough flexing with WMs, this is my personal machine)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_15_0</DOCNO>
+            	<TEXT>Paid for Krita! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_15_1</DOCNO>
+            	<TEXT>Yes, at 2 AM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_15_2</DOCNO>
+            	<TEXT>And yes, my steam balance is worth a singular dollar now.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_16_0</DOCNO>
+            	<TEXT>Ah yes, enough ISOs for a day! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_16_1</DOCNO>
+            	<TEXT>updating ISOs and getting new ones for my Ventoy USB)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_17_0</DOCNO>
+            	<TEXT>Woah the bot update is here?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_18_0</DOCNO>
+            	<TEXT>It's 4:50 AM and I'm bored yet again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_19_0</DOCNO>
+            	<TEXT>This took me way too long to make</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_20_0</DOCNO>
+            	<TEXT>It, in fact, can not answer that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_21_0</DOCNO>
+            	<TEXT>That's not how history works...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_22_0</DOCNO>
+            	<TEXT>Mine craf good!!1!11!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_23_0</DOCNO>
+            	<TEXT>It's 5 AM again</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_23_1</DOCNO>
+            	<TEXT>I did a lot today.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_23_2</DOCNO>
+            	<TEXT>I learnt a new programming language, `i-use-arch-btw` (esoteric) which is a brainfuck clone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_23_3</DOCNO>
+            	<TEXT>And many more...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_24_0</DOCNO>
+            	<TEXT>dwm running on a base ubu- wait, this is a phone! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_24_1</DOCNO>
+            	<TEXT>Xiaomi Redmi 5 Plus with dwm, dmenu, nitrogen, urxvt, doas and other stuff)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_25_0</DOCNO>
+            	<TEXT>Fixed the fonts, made dwm smaller, played with /etc/os-release, got a virtual keyboard and boom!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_25_1</DOCNO>
+            	<TEXT>An usable Android environment!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_26_0</DOCNO>
+            	<TEXT>AmogOS is complete! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_26_1</DOCNO>
+            	<TEXT>Icon, Art  amp; Idea by u/__peekatchoo__)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_27_0</DOCNO>
+            	<TEXT>[Cinnamon] AmogOS is complete! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_27_1</DOCNO>
+            	<TEXT>Icon, Art  amp; Idea by u/__peekatchoo__)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_28_0</DOCNO>
+            	<TEXT>A web app I made to generate config for suckless' dwm! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_28_1</DOCNO>
+            	<TEXT>Link  amp; source code in comments)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_29_0</DOCNO>
+            	<TEXT>Why are you on my profile?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_29_1</DOCNO>
+            	<TEXT>How's your day been?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_29_2</DOCNO>
+            	<TEXT>https://alifurkany.ml</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_32_0</DOCNO>
+            	<TEXT>Rule (I got dragged into this sub again)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_33_0</DOCNO>
+            	<TEXT>Spy bribing the bots to protect him</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_35_0</DOCNO>
+            	<TEXT>The only acceptable form of spawncamping (killing them bots)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_36_0</DOCNO>
+            	<TEXT>Firing with a mouse has an animation when cancelling a reload while firing with a gamad doesnt.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_36_1</DOCNO>
+            	<TEXT>Thanks Valve</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_37_0</DOCNO>
+            	<TEXT>haha amogus you are slowly killing me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_38_0</DOCNO>
+            	<TEXT>I am not aware of the consequences of my actions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_38_1</DOCNO>
+            	<TEXT>Lorem Ipsum dolor sit amet</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_40_0</DOCNO>
+            	<TEXT>Subreddit for revisiting old game accounts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_40_1</DOCNO>
+            	<TEXT>Like going back to your account that you left behind 4 years ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_41_0</DOCNO>
+            	<TEXT>AmogOS is real now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_41_1</DOCNO>
+            	<TEXT>AmogOS has become a reality.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_41_2</DOCNO>
+            	<TEXT>This release ONLY has a wallpaper and a custom installer. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_41_3</DOCNO>
+            	<TEXT>It also has a theme set but I didn't include it in the ISO like a dumbass) [iso](https://preview.redd.it/b6a3uw3zoz571.png?width=667 amp;format=png amp;auto=webp amp;s=63acbd4b3a392e7bb382b9f3ba61fb371cd271a1) Come join the [Discord server](https://discord.gg/hwtuzdA7FB)!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_41_4</DOCNO>
+            	<TEXT>New releases and updates will be posted there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_41_5</DOCNO>
+            	<TEXT>Check comments for a torrent of the current one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_0</DOCNO>
+            	<TEXT>How does Debian generate a home directory for the Live user?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_1</DOCNO>
+            	<TEXT>/home/user doesn't actually exist in filesystem.squashfs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_2</DOCNO>
+            	<TEXT>It's like.. _magically_ generated... Is there a script to copy the bashrc, various DE config, and misc files from a location?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_3</DOCNO>
+            	<TEXT>If so, where is the script and "the location"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_4</DOCNO>
+            	<TEXT>Is it just the forked versions of apps generating their own config?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_5</DOCNO>
+            	<TEXT>If so, why does KDE config get placed in the home dir when I'm running the Cinnamon Live ISO?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_6</DOCNO>
+            	<TEXT>I tried searching for the files to no avail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_7</DOCNO>
+            	<TEXT>My question is, can I change the default config for the live user, and for users after the installation process?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_8</DOCNO>
+            	<TEXT>I tried to read up on several pages of documentation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_42_9</DOCNO>
+            	<TEXT>Never found where the live user gets their files.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_43_0</DOCNO>
+            	<TEXT>Late night adventures</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_46_0</DOCNO>
+            	<TEXT>Guys it's 4:39 AM and I can't fucking sleep</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_46_1</DOCNO>
+            	<TEXT>Here's the AmogOS Discord: https://discord.gg/hwtuzdA7FB</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_47_0</DOCNO>
+            	<TEXT>Guys it's 4:39 AM and I can't fucking sleep</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_47_1</DOCNO>
+            	<TEXT>Here's the AmogOS Discord: https://discord.gg/hwtuzdA7FB</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_48_0</DOCNO>
+            	<TEXT>Hello followers, it's 2:30 AM again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_48_1</DOCNO>
+            	<TEXT>I will now proceed to install Clash Royale [View Poll](https://www.reddit.com/poll/oej1vl)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_49_0</DOCNO>
+            	<TEXT>Why has literally no one played the heist?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_50_0</DOCNO>
+            	<TEXT>The highlighter male</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_51_0</DOCNO>
+            	<TEXT>AmogOS OP here, read below</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_51_1</DOCNO>
+            	<TEXT>This is AmogOS for the Raspberry Pi, not the desktop version.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_51_2</DOCNO>
+            	<TEXT>I request to be a mod here, since I made the post that included the Linux Mint version of AmogOS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_51_3</DOCNO>
+            	<TEXT>I also made an installable version of AmogOS, with custom calamares and stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_51_4</DOCNO>
+            	<TEXT>I'll place the discord in the comments.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_52_0</DOCNO>
+            	<TEXT>People complaining that the steam deck is expensive</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_52_1</DOCNO>
+            	<TEXT>It's literally better than my PC and a good deal for a **x86 (amd64)** handheld that beefy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_54_0</DOCNO>
+            	<TEXT>() doesn't mean it's a function</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_55_0</DOCNO>
+            	<TEXT>No reason at all?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_56_0</DOCNO>
+            	<TEXT>TFW MW3 only works multiplayer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_57_0</DOCNO>
+            	<TEXT>But it still doesn't make it a function</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_58_0</DOCNO>
+            	<TEXT>people are making this seem complicated just install any distro onto the usb with the installer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_59_0</DOCNO>
+            	<TEXT>Assembly of .zip and a vast number of java and html</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_60_0</DOCNO>
+            	<TEXT>yes start a terminal and type pacmd load-module module-loopback set it's input to the monitor of your main output and the output of it to your secondary output you can automate this in pulseaudio config but you should look that up in the docs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_61_0</DOCNO>
+            	<TEXT>me browsing old.reddit.com with RES confused screaming</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_62_0</DOCNO>
+            	<TEXT>And the shipping cost is more expensive than a new joycon</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_63_0</DOCNO>
+            	<TEXT>RAMs don't have partitions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_63_1</DOCNO>
+            	<TEXT>Everything else is accurate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_66_0</DOCNO>
+            	<TEXT>My friend did the same and got kicked</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_68_0</DOCNO>
+            	<TEXT>Nginx is for HTTP only.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_69_0</DOCNO>
+            	<TEXT>Try Debian (or Ubuntu if you have good specs)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_70_0</DOCNO>
+            	<TEXT>They don't have to pay for Windows (-$125) 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_70_1</DOCNO>
+            	<TEXT>Default storage is 64 GB eMMC (-$hitton) 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_70_2</DOCNO>
+            	<TEXT>The profit margin is lower than most companies (-$25%)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_71_0</DOCNO>
+            	<TEXT>They are making SteamOS 3 Edit: Valve's Proton is more important than SteamOS right now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_72_0</DOCNO>
+            	<TEXT>It will let you use any OS, tho if the OS actually works (no win11)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_73_0</DOCNO>
+            	<TEXT>Proton already runs 76% of games</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_74_0</DOCNO>
+            	<TEXT>Debian doesn't have a default</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_75_0</DOCNO>
+            	<TEXT>It doesn't install a DE.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_75_1</DOCNO>
+            	<TEXT>Perhaps you misclicked it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_76_0</DOCNO>
+            	<TEXT>11Mb/s ~= 1.4 MB/s</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_77_0</DOCNO>
+            	<TEXT>1,000 Kb/s is 1.22 MB/s :/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_79_0</DOCNO>
+            	<TEXT>Fuck I forgot to mention you with the discord</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_80_0</DOCNO>
+            	<TEXT>The art amp;idea comes from u/\_peekatchoo_ https://discord.gg/HVgGPt2t</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_81_0</DOCNO>
+            	<TEXT>The one that is on steam, has robots and built on source</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_83_0</DOCNO>
+            	<TEXT>Scout, soldier, demo, heavy, medic, sniper, spy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_84_0</DOCNO>
+            	<TEXT>it's not an issue it's just dkms logs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_85_0</DOCNO>
+            	<TEXT>if it was headless it wouldn't have a monitor.. or a keyboard</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_86_0</DOCNO>
+            	<TEXT>shit now i get it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_87_0</DOCNO>
+            	<TEXT>vibe Edit: I played CoD4:MW and CoD:MW2 in around 2014 only got to play CoD:MW3 in 2019</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_88_0</DOCNO>
+            	<TEXT>Definitely not TF2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_88_1</DOCNO>
+            	<TEXT>Starting with the game is painful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_89_0</DOCNO>
+            	<TEXT>Portal is short and it's replayability value is low.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_89_1</DOCNO>
+            	<TEXT>But it's a **great** game on every other aspect.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_89_2</DOCNO>
+            	<TEXT>Portal 2 is just Portal but perfect.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_89_3</DOCNO>
+            	<TEXT>source: i played portal 2 too many times</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_90_0</DOCNO>
+            	<TEXT>EAC and BattlEye work on Linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_90_1</DOCNO>
+            	<TEXT>just not through wine/proton.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_91_0</DOCNO>
+            	<TEXT>Light, secure, stable and open-source</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_92_0</DOCNO>
+            	<TEXT>assuming you are running PulseAudio pactl load-module module-loopback</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_93_0</DOCNO>
+            	<TEXT>how does it work tho does it take 15 litres of petrol?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_94_0</DOCNO>
+            	<TEXT>ARM isn't faster than x86 CPUs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_94_1</DOCNO>
+            	<TEXT>It's just more efficient and wastes less energy as heat</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_95_0</DOCNO>
+            	<TEXT>but it's not fast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_95_1</DOCNO>
+            	<TEXT>try tunning apt search on a phone and a pc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_95_2</DOCNO>
+            	<TEXT>even though my phone's processor is techically 4 times better than my laptop's, it takes more time</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_96_0</DOCNO>
+            	<TEXT> gt;twitter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_97_0</DOCNO>
+            	<TEXT>Added on 2/14/2020</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_98_0</DOCNO>
+            	<TEXT>SWAPOFF FIRST</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_99_0</DOCNO>
+            	<TEXT>I though /swap was an assumed location</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_101_0</DOCNO>
+            	<TEXT>literally never seen a nano user in turkey, nice</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_102_0</DOCNO>
+            	<TEXT>yyyy-mm-dd  gt; dd-mm-yyyy  gt; gt; gt; gt; gt; gt; gt; gt; gt; gt; gt; gt; mm-dd-yyyy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_104_0</DOCNO>
+            	<TEXT>I do stuff in the terminal in a few secs instead of using a GUI because it takes too long yes I have a dying HDD how could you tell</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_105_0</DOCNO>
+            	<TEXT>that is hardly ever the issue. ***</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_105_1</DOCNO>
+            	<TEXT>unless if you are using NTFS, then the issue is Microsoft***</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_106_0</DOCNO>
+            	<TEXT>no, that's the decompiler *decompiling*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_107_0</DOCNO>
+            	<TEXT>is that the r/196 celebrity u/Euphroic_Web</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_109_0</DOCNO>
+            	<TEXT>apt isn't fast for me see above comment</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_110_0</DOCNO>
+            	<TEXT>So I can't repost AmogOS?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_111_0</DOCNO>
+            	<TEXT>here come AmogOS 2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_112_0</DOCNO>
+            	<TEXT>Install AmogOS</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_113_0</DOCNO>
+            	<TEXT>dont worry i have a plan edit: https://imgur.com/a/RBcW6Jy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_114_0</DOCNO>
+            	<TEXT>i posted AmogOS and im not banned yet</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_115_0</DOCNO>
+            	<TEXT>https://imgur.com/a/C5h7VDA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_116_0</DOCNO>
+            	<TEXT>i carry one in a usb hard drive has stuff like tf2 and cs 1.6</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_117_0</DOCNO>
+            	<TEXT>Doesn't matter if you are transferring data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_117_1</DOCNO>
+            	<TEXT>Windows will find a way to fuck it up. .</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_118_0</DOCNO>
+            	<TEXT>different prompt, just `export PS1='%'` welcome to customizability Also: shell*, it's a feature of the shell, not the terminal</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_119_0</DOCNO>
+            	<TEXT>It's simpler, takes less space and saves a few cpu cycles</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_120_0</DOCNO>
+            	<TEXT>terminal is the program that allows you to interact with the shell shell is the program you interact with edit: terminal is what displays the shell shell is what runs the programs example: Terminal emulator - gnome-terminal Shell - bash</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_121_0</DOCNO>
+            	<TEXT>You are typing in the terminal, which directs the input to the shell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_121_1</DOCNO>
+            	<TEXT>Shell then takes that input and parses it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_121_2</DOCNO>
+            	<TEXT>Programs (inculding shells) can interact with the terminal to display text, colors, even images.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_121_3</DOCNO>
+            	<TEXT>Some programs depend on a terminal to do fancy stuff like ncurses \2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_121_4</DOCNO>
+            	<TEXT>but terminals don't do that edit: reddit shows 1 instead of 2 so i fixed that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_122_0</DOCNO>
+            	<TEXT>other shells have different ways of doing this</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_124_0</DOCNO>
+            	<TEXT>Make a comb that stops time to look less sus (amogus)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_125_0</DOCNO>
+            	<TEXT>based person</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_126_0</DOCNO>
+            	<TEXT>u/awkwardtheturtle</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_127_0</DOCNO>
+            	<TEXT>remindme 2h</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_128_0</DOCNO>
+            	<TEXT>too based for the internet, please take more red pills to balance based levels</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_129_0</DOCNO>
+            	<TEXT>god no this is both bad advice and factually incorrect</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_130_0</DOCNO>
+            	<TEXT> gt; By the way, I wouldn't recommend installing linux on an NTFS partition.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_130_1</DOCNO>
+            	<TEXT>It might not work correctly because of file permissions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_130_2</DOCNO>
+            	<TEXT>it will absolutely NOT work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_130_3</DOCNO>
+            	<TEXT>you wont even be able to init</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_131_0</DOCNO>
+            	<TEXT>The binaries Microsoft provide are Use Codium</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_132_0</DOCNO>
+            	<TEXT>upsides: - best food you can buy - has land in 2 continents - cool tourist attractions downsides: - government - economy - living conditions</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_133_0</DOCNO>
+            	<TEXT>you have prostate cancer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_134_0</DOCNO>
+            	<TEXT>you have prostate cancer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_136_0</DOCNO>
+            	<TEXT>pacstrap /mnt base base-devel linux linux-firmware grub efibootmgr os-prober git wget curl nano dhcpcd</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_137_0</DOCNO>
+            	<TEXT>Hasn't read Animal Cemetery</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_138_0</DOCNO>
+            	<TEXT>Debian, you can run it with 50 MiB of RAM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_140_0</DOCNO>
+            	<TEXT>If you just want a simple distro and not the "lightest" one, try Debian.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_140_1</DOCNO>
+            	<TEXT>If you actually want a very light distro, try one of below, - Alpine (?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_140_2</DOCNO>
+            	<TEXT>MB) - Tiny Core Linux (?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_140_3</DOCNO>
+            	<TEXT>MB) - Debian Base (60 MB) - Debian buildroot (?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_140_4</DOCNO>
+            	<TEXT>MB) - Artix (80 MB) - Devuan (?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_140_5</DOCNO>
+            	<TEXT>MB) - LFS (whatever you make it use MB) The MB counters are idle RAM usage of a base system.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_140_6</DOCNO>
+            	<TEXT>Tested by me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_141_0</DOCNO>
+            	<TEXT>sounds like you dont need a light distro light in Linux terms is 50 MB RAM usage</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_142_0</DOCNO>
+            	<TEXT>They don't know either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_143_0</DOCNO>
+            	<TEXT>Yes, no one is denying that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_143_1</DOCNO>
+            	<TEXT>Has firmware: Yes, UEFI Has processor: Yes, amd64/ARM64 Has motherboard: Yes, a SoC</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_144_0</DOCNO>
+            	<TEXT>Yes they are</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_145_0</DOCNO>
+            	<TEXT>tfw most PCs still run closed operating systems</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_146_0</DOCNO>
+            	<TEXT>Windows's ARM support still sucks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_146_1</DOCNO>
+            	<TEXT>Windows 10 IoT is currently the only release that supports it and is unusable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_147_0</DOCNO>
+            	<TEXT>You can replace it's firmware and it becomes a standart laptop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_148_0</DOCNO>
+            	<TEXT>PC refers to computers able to run any sofwtare of your choice.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_148_1</DOCNO>
+            	<TEXT>Not just Windows because that isn't a personal computer, that is a "Windows Computer".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_149_0</DOCNO>
+            	<TEXT>x86 Desktop computers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_150_0</DOCNO>
+            	<TEXT>it is the top of your desk</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_151_0</DOCNO>
+            	<TEXT>Not a release yet</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_152_0</DOCNO>
+            	<TEXT>"Wait, I'm an actor-"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_153_0</DOCNO>
+            	<TEXT>even if they do it will never take off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_153_1</DOCNO>
+            	<TEXT>it will fail just like 10 did</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_154_0</DOCNO>
+            	<TEXT>Jesus crust</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_155_0</DOCNO>
+            	<TEXT>Learn C instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_155_1</DOCNO>
+            	<TEXT>C can compile to x86 machine code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_156_0</DOCNO>
+            	<TEXT>Also used as Chestplate in MC multiplayer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_158_0</DOCNO>
+            	<TEXT>Upsides: rich money very rich dodge build downsides: bullet wounds</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_159_0</DOCNO>
+            	<TEXT>Read it again</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_160_0</DOCNO>
+            	<TEXT>other numbers starts with 11</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_161_0</DOCNO>
+            	<TEXT>It's not Cinnamon Edge, it's the edge version of Mint.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_161_1</DOCNO>
+            	<TEXT>has a newer kernel by default and you should only use it if you have new hardware</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_162_0</DOCNO>
+            	<TEXT>there is no milk but there's paint</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_164_0</DOCNO>
+            	<TEXT>If you are using an actual Pi, it should rub 30fps</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_165_0</DOCNO>
+            	<TEXT>jostros is the author.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_165_1</DOCNO>
+            	<TEXT>Try DietPi instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_166_0</DOCNO>
+            	<TEXT>mcpi runs smooth on my pi 3b</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_167_0</DOCNO>
+            	<TEXT>introducing python bootloader</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_168_0</DOCNO>
+            	<TEXT>was definitely posted before</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_169_0</DOCNO>
+            	<TEXT>why // edit: ah for the protocol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_170_0</DOCNO>
+            	<TEXT>Lol I finished HL in sven coop today I have to admit, not being able to save is hard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_171_0</DOCNO>
+            	<TEXT>I don't even remember how I got here</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_172_0</DOCNO>
+            	<TEXT>It is, it's borderline unplayable without respawns.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_172_1</DOCNO>
+            	<TEXT>When you and your partner dies, it restarts the WHOLE MAP (if your partner doesn't have HL, it redownloads the map too).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_172_2</DOCNO>
+            	<TEXT>With respawns, dying takes all your ammo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_172_3</DOCNO>
+            	<TEXT>It's hard either way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_173_0</DOCNO>
+            	<TEXT>That's for backslashes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_175_0</DOCNO>
+            	<TEXT>No, I'm gonna do that in 14.08.2021 UTC+3 18:00</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_176_0</DOCNO>
+            	<TEXT>I did finish Portal 2 **7** times though</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_177_0</DOCNO>
+            	<TEXT>bind mwheelup +jump bind mwheeldown +jump Now you can go zoooooom Edit: Oh also achievements.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_178_0</DOCNO>
+            	<TEXT>Trust me it's the most fun in Portal 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_178_1</DOCNO>
+            	<TEXT>Also you can master some tricks with portals.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_178_2</DOCNO>
+            	<TEXT>Let me find the link to a yt video I uploaded.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_178_3</DOCNO>
+            	<TEXT>https://youtu.be/8rm7YqrMfRs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_179_0</DOCNO>
+            	<TEXT>Well technically events of Portal 2 happen BEFORE HL2 *starts*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_180_0</DOCNO>
+            	<TEXT>agreed, nothing is worse than python</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_181_0</DOCNO>
+            	<TEXT>I'd do that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_181_1</DOCNO>
+            	<TEXT>But beware portal 2 can take 3-6 hours if done fast but Portal is long.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_182_0</DOCNO>
+            	<TEXT>It supports all valve games except for *The Lab* But it will work through a compatibility layer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_182_1</DOCNO>
+            	<TEXT>All download links of AmogOS Desktop are in the discord so dm me on reddit if you wanna try it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_183_0</DOCNO>
+            	<TEXT>ill probably be asleep in 24 hours</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_184_0</DOCNO>
+            	<TEXT>remindme 10h</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_185_0</DOCNO>
+            	<TEXT>it just has a large delay fetching comments</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_186_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_188_0</DOCNO>
+            	<TEXT>that is usually called `filesystem.squashfs` or `rootfs.squash`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_189_0</DOCNO>
+            	<TEXT>dpkg+apt is just WAY better than pacman.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_189_1</DOCNO>
+            	<TEXT>Sure, they might be a little slower butt they are better in every other way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_190_0</DOCNO>
+            	<TEXT>too less features complicated usage</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_191_0</DOCNO>
+            	<TEXT>Debian is lighter tho</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_192_0</DOCNO>
+            	<TEXT>Always did for me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_193_0</DOCNO>
+            	<TEXT>Arch discourages AUR helpers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_193_1</DOCNO>
+            	<TEXT>Paru isn't even a package manager for Arch repos.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_194_0</DOCNO>
+            	<TEXT>That's how chrome goes!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_195_0</DOCNO>
+            	<TEXT>Well this is just for the raspberry pi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_195_1</DOCNO>
+            	<TEXT>I, the OP of AmogOS on r/unixporn, made an installable version of it based on Debian 11, installable on desktop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_196_0</DOCNO>
+            	<TEXT>I am missing features such as manual marking in dpkg for dependecies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_196_1</DOCNO>
+            	<TEXT>Also there is no simple way of packing a .deb like package for pacman.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_196_2</DOCNO>
+            	<TEXT>Pacman's arguments suck in a way that they make no sense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_196_3</DOCNO>
+            	<TEXT>`pacman -Syyu`?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_196_4</DOCNO>
+            	<TEXT>`pacman -Rdns`?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_197_0</DOCNO>
+            	<TEXT>tfw one time i needed 180+ EB of memory to run a git diff</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_198_0</DOCNO>
+            	<TEXT>The dryad (npc in pic) tries to keep the world pure (away from the world evil, which is either Crimson or Corruption).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_198_1</DOCNO>
+            	<TEXT>The world is all consumed by crimson except where dryad is sitting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_199_0</DOCNO>
+            	<TEXT>Nano, can't be mined or be shut down with no warning.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_199_1</DOCNO>
+            	<TEXT>It is completely decentralized and it doesn't matter if Nano Foundation disappears.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_200_0</DOCNO>
+            	<TEXT>...in game, the dryad is an useless bitch that doesn't even help purify the world.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_200_1</DOCNO>
+            	<TEXT>the only use she had was to buy planter boxes to make boss arenas.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_200_2</DOCNO>
+            	<TEXT>That was in 1.3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_200_3</DOCNO>
+            	<TEXT>In 1.4, they lost their major upside and platforms got a buff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_200_4</DOCNO>
+            	<TEXT>So she only is server to take space in your housing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_201_0</DOCNO>
+            	<TEXT>Step one: 3 AM step two: sleep step three: you forgor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_202_0</DOCNO>
+            	<TEXT>I have seen hackers tho, they just kill people at military bases.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_202_1</DOCNO>
+            	<TEXT>Nothing else.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_202_2</DOCNO>
+            	<TEXT>You just get headshot by a machine that somehow hits every single bullet in 200m-20m perfectly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_203_0</DOCNO>
+            	<TEXT>Native resolution everything in graphics lowest/off water high because transparent</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_204_0</DOCNO>
+            	<TEXT>Most likely durability</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_205_0</DOCNO>
+            	<TEXT>that's the new default i miss 2017 kali</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_206_0</DOCNO>
+            	<TEXT>the shell is zsh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_207_0</DOCNO>
+            	<TEXT>Garuda ~~sucks lmao~~ is one of the heaviest distros out there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_207_1</DOCNO>
+            	<TEXT>Idk how they still keep marketing it as a gaming distro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_208_0</DOCNO>
+            	<TEXT>The song isn't I guess</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_209_0</DOCNO>
+            	<TEXT>holy shit gobling.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_209_1</DOCNO>
+            	<TEXT>grnrhrbdbbbxb</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_212_0</DOCNO>
+            	<TEXT>EndeavourOS is what manjaro tries to be but fails horribly</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_213_0</DOCNO>
+            	<TEXT>fun fact i wrote this at 3 am edit: then proceeded to sleep and forgor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_215_0</DOCNO>
+            	<TEXT>came to comment this</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_0</DOCNO>
+            	<TEXT>Some particular devs hate Linux Mint for no reason.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_1</DOCNO>
+            	<TEXT>It's like the Arch-Debian relationship.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_2</DOCNO>
+            	<TEXT>Arch users say: Arch is light (wrong), fast (wrong) and customizable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_3</DOCNO>
+            	<TEXT>Debian is old (depends on release) and slow (wrong).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_4</DOCNO>
+            	<TEXT>Can't keep up with modern hardware (sudo apt install linux-firmware).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_5</DOCNO>
+            	<TEXT>Debian users say: Debian is more compatible than Arch (wrong), works best with servers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_6</DOCNO>
+            	<TEXT>Arch is unstable (wrong), breaks itself frequently (No it doesn't, last time of catastrophic failure was at the linux-lts incident), too hard to set up (wrong) and takes too much effort.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_7</DOCNO>
+            	<TEXT>But... most of those are wrong.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_8</DOCNO>
+            	<TEXT>Arch isn't a light distro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_9</DOCNO>
+            	<TEXT>84 MB of RAM usage in tty **cold boot** is not ok.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_10</DOCNO>
+            	<TEXT>Debian has 26 MB of RAM usage in the same situation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_11</DOCNO>
+            	<TEXT>Arch doesn't break frequently, at least not if you go with the guide's instructions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_12</DOCNO>
+            	<TEXT>Not all Debian releases have old packages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_13</DOCNO>
+            	<TEXT>Debian stable (10, buster) is better for servers while Debian testing (testing, bullseye) is better for Desktop usage because it has newer packages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_14</DOCNO>
+            	<TEXT>Debian was actually faster than Arch on my machine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_217_15</DOCNO>
+            	<TEXT>Can change for you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_218_0</DOCNO>
+            	<TEXT>I want it all back.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_219_0</DOCNO>
+            	<TEXT>That's how it works</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_220_0</DOCNO>
+            	<TEXT>AmogOS Dev approves</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_222_0</DOCNO>
+            	<TEXT>Oh so that's why I though this guy was from TF2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_223_0</DOCNO>
+            	<TEXT>uamee - any song lmao</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_224_0</DOCNO>
+            	<TEXT>Fuck I know where this image was taken</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_225_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_227_0</DOCNO>
+            	<TEXT>"Supports all platforms" The official framework is Non-free and only available at a whopping 3 operating systems on 2 architectures.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_227_1</DOCNO>
+            	<TEXT>The unofficial but better implementation, Mono, extends it into actually all platforms.. because it can compile into framework-independent code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_227_2</DOCNO>
+            	<TEXT>C on the other hand, doesn't even need a kernel to run.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_227_3</DOCNO>
+            	<TEXT>Just compile it into EFI and you are set.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_228_0</DOCNO>
+            	<TEXT>I played it with 2 friends and it was a pretty boring game</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_229_0</DOCNO>
+            	<TEXT>Open Source !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_229_1</DOCNO>
+            	<TEXT>= Free OSI supports non-free open source software, and has a hate-hate relationship with the Free Software Foundation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_231_0</DOCNO>
+            	<TEXT>Based.cooking</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_232_0</DOCNO>
+            	<TEXT>You monster</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_234_0</DOCNO>
+            	<TEXT>They don't wanna pay for server side anticheats' major overhead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_234_1</DOCNO>
+            	<TEXT>Client side anticheats are fundamentally flawed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_235_0</DOCNO>
+            	<TEXT>Unity has good cross platform support but bad, *really* bad performance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_235_1</DOCNO>
+            	<TEXT>UE is the opposite.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_236_0</DOCNO>
+            	<TEXT>PulseAudio on Linux, just way easier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_236_1</DOCNO>
+            	<TEXT>I even made a script you can double click and it makes a new device for you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_236_2</DOCNO>
+            	<TEXT>No programs needed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_237_0</DOCNO>
+            	<TEXT>Gaming is even better on Linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_237_1</DOCNO>
+            	<TEXT>At least for low and mid end users.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_238_0</DOCNO>
+            	<TEXT>RDR2 is just heavy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_239_0</DOCNO>
+            	<TEXT>What kind of toasters do you have?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_240_0</DOCNO>
+            	<TEXT>That's manjaro for you!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_240_1</DOCNO>
+            	<TEXT>I suggest you use a different distro because manjaro will break a lot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_240_2</DOCNO>
+            	<TEXT>Try booting to an older kernel to fix it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_241_0</DOCNO>
+            	<TEXT>It's 150 keys and there are buyers for 100 keys rn</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_242_0</DOCNO>
+            	<TEXT>Windows is hard to use</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_243_0</DOCNO>
+            	<TEXT>DirectStorage will come to 10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_243_1</DOCNO>
+            	<TEXT>That's why I'm planning to dual boot Revi and Pop/Debian.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_243_2</DOCNO>
+            	<TEXT>But it's so stupid that it's completely obsolete if companies knew how to load resources.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_244_0</DOCNO>
+            	<TEXT>Games work on Linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_244_1</DOCNO>
+            	<TEXT>Popular apps work on Linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_244_2</DOCNO>
+            	<TEXT>For example: Steam, Discord, TeamViewer, Skype, GCFedit (Wine), AnyDesk, All mainstream browsers, CS6 versions of some Adobe products, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_245_0</DOCNO>
+            	<TEXT>Not natively, with some emulation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_245_1</DOCNO>
+            	<TEXT>Linux could run them in a container (natively, with hardware acceleration) for a long time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_246_0</DOCNO>
+            	<TEXT>Do you even know what apt and dpkg is?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_247_0</DOCNO>
+            	<TEXT>Debian 11 exists btw</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_248_0</DOCNO>
+            	<TEXT>Actually that's only the case because Linux users tend to have older cards, which have more catastrophic driver failures than newer cards.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_248_1</DOCNO>
+            	<TEXT>Trust me, if you use latest drivers with a 1060 or higher, you most likely won't have any issues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_249_0</DOCNO>
+            	<TEXT>My dream is knowing which kind of software these people use that isn't compatible?????</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_250_0</DOCNO>
+            	<TEXT>See: Growtopia, Roblox, TABG</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_252_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_254_0</DOCNO>
+            	<TEXT>i found you here</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_255_0</DOCNO>
+            	<TEXT>you go fast</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_256_0</DOCNO>
+            	<TEXT>I stopped feeling ages ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_256_1</DOCNO>
+            	<TEXT>I grinded and grinded that heist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_258_0</DOCNO>
+            	<TEXT>the image is trippy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_259_0</DOCNO>
+            	<TEXT>IS THAT THE POPULAR R/196 INFLUENCER u/Euphoric_Web</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_260_0</DOCNO>
+            	<TEXT>OVERPRICED you might wanna get a different gpu (maybe a 3060?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_260_1</DOCNO>
+            	<TEXT>for it to last longer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_261_0</DOCNO>
+            	<TEXT>Buller holes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_262_0</DOCNO>
+            	<TEXT>MAKE LIFE TAKE THE LEMONS BACK</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_263_0</DOCNO>
+            	<TEXT>I AM GONNA GET MY ENGINEERS TO INVENT A COMBUSTIBLE LEMON</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_264_0</DOCNO>
+            	<TEXT>there is an error in the regex.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_264_1</DOCNO>
+            	<TEXT>A dot isn't escaped so it might match shit like hello@ amp;.cock</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_265_0</DOCNO>
+            	<TEXT>It was made using B</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_266_0</DOCNO>
+            	<TEXT>Allah bless our holy leader in our religious country that has govt and religion TOTALLY SEPERATED AS ON ALL RECORDS Big terrorism problem Economy not found</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_269_0</DOCNO>
+            	<TEXT>Yes, the only correct way to match emails is `.+@.+`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_270_0</DOCNO>
+            	<TEXT>*unreadable, unmarketable`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_271_0</DOCNO>
+            	<TEXT>Linux host, Windows guest, can't leak.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_273_0</DOCNO>
+            	<TEXT>Dot means Any Character in regex</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_274_0</DOCNO>
+            	<TEXT>Localhost Edit: also this doesn't cover k12</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_275_0</DOCNO>
+            	<TEXT>\w is for letters, am I wrong?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_276_0</DOCNO>
+            	<TEXT>``` $ echo 'k12' | grep -P '\w+' k12 ``` You are right</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_277_0</DOCNO>
+            	<TEXT>I no longer have it :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_278_0</DOCNO>
+            	<TEXT>+/u/User_Simulator /u/subject8304</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_279_0</DOCNO>
+            	<TEXT>+u/User_Simulator subject8304</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_280_0</DOCNO>
+            	<TEXT>Java, your health and hunger are correctly aligned with the hotbar</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_281_0</DOCNO>
+            	<TEXT>Transport: Train Heist</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_282_0</DOCNO>
+            	<TEXT>+/u/User_Simulator u/Dio_Has_A_Gun</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_283_0</DOCNO>
+            	<TEXT>+/u/User_Simulator r/tf2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_284_0</DOCNO>
+            	<TEXT>You underestimate enderman farms.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_284_1</DOCNO>
+            	<TEXT>I used to have my semi-private one on a smp (no one used it except me lmao) and I made huge amounts of xp.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_284_2</DOCNO>
+            	<TEXT>Could get to level 60 in 10 minutes and because of the way levels work, that's about 40xLevel 30 enchantments</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_285_0</DOCNO>
+            	<TEXT>It's been 3 months please stop</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_286_0</DOCNO>
+            	<TEXT>How large/efficient are they</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_287_0</DOCNO>
+            	<TEXT>Oh god this is definitely not how you should do it Mine was at ~500 blocks away from all islands, had a big dropdown and a spawning platform</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_288_0</DOCNO>
+            	<TEXT> gt; 'm on bedrock btw That explains it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_289_0</DOCNO>
+            	<TEXT>Farms work differently in bedrock</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_290_0</DOCNO>
+            	<TEXT>+u/User_Simulator sandaguys</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_291_0</DOCNO>
+            	<TEXT>Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help Help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_292_0</DOCNO>
+            	<TEXT>average linux user</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_293_0</DOCNO>
+            	<TEXT>bash scripts, discord bot that queries server info from minecraft servers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_294_0</DOCNO>
+            	<TEXT>not enough floor (platforms dont count)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_295_0</DOCNO>
+            	<TEXT>WOLF IS DOWN DALLAS IS IN CUSTODY CHAINS IN A PICKLE the Payday 2 pun experience</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_296_0</DOCNO>
+            	<TEXT>Gentelmen, I have come with an announcement</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_297_0</DOCNO>
+            	<TEXT>That's not linux they're processing a video and installing chromium</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_298_0</DOCNO>
+            	<TEXT>Bluestacks emulates Android, so it's slow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_298_1</DOCNO>
+            	<TEXT>You can't run Android apps on Windows directly because of the kernel</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_299_0</DOCNO>
+            	<TEXT>Unix vs UNIX</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_300_0</DOCNO>
+            	<TEXT>French, Gay, Failure and The One We Don't Talk About</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_303_0</DOCNO>
+            	<TEXT>wrong Linux isn't UNIX based</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_304_0</DOCNO>
+            	<TEXT>[ 17 ] Like for ass stab?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_305_0</DOCNO>
+            	<TEXT>What's 50 feet in 8 billion people units?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_306_0</DOCNO>
+            	<TEXT>the video edit: it's 13</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_307_0</DOCNO>
+            	<TEXT>huh 50 feet to meters</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_308_0</DOCNO>
+            	<TEXT>It's the GIMP Toolkit</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_309_0</DOCNO>
+            	<TEXT>Timeshift It's the "Backup tool"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_310_0</DOCNO>
+            	<TEXT>probably just root and efi</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_311_0</DOCNO>
+            	<TEXT>First backup will be huge, rest will be small.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_312_0</DOCNO>
+            	<TEXT>I can not make this shit up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_313_0</DOCNO>
+            	<TEXT>MAKE LIFE TAKE THE EGGS BACK</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_315_0</DOCNO>
+            	<TEXT>Elementary OS</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_316_0</DOCNO>
+            	<TEXT>nah, there still are more UNIX servers than windows</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_317_0</DOCNO>
+            	<TEXT>It's usually either fake or has waste in it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_319_0</DOCNO>
+            	<TEXT>the game was free for weeks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_321_0</DOCNO>
+            	<TEXT>microsoft windows</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_322_0</DOCNO>
+            	<TEXT>It's literally blender on the screen</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_325_0</DOCNO>
+            	<TEXT>I know it's a.. bad distro compared to other alternatives or even derivatives but it's still better than Windows.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_326_0</DOCNO>
+            	<TEXT>Element, based</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_327_0</DOCNO>
+            	<TEXT>C++ is unnecessarily hard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_327_1</DOCNO>
+            	<TEXT>So I will replace it with C in my explanation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_327_2</DOCNO>
+            	<TEXT>Rust is memory-safe and has package (dependency) management.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_327_3</DOCNO>
+            	<TEXT>Has better multithreading support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_327_4</DOCNO>
+            	<TEXT>But is slow to compile and harder to learn.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_327_5</DOCNO>
+            	<TEXT>C is not memory safe, but kernels have improved so unless you are hosting an important public service on a 17 year old kernel, you don't have to worry about vulnerabilities.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_327_6</DOCNO>
+            	<TEXT>Is generally faster to compile and Do-It-Yourself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_328_0</DOCNO>
+            	<TEXT>First one would also wipe all mounted drives.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_328_1</DOCNO>
+            	<TEXT>Second one just overwrites the first SATA HDD/SSD connected.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_330_0</DOCNO>
+            	<TEXT>Well frst it has to be included in the icon pack.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_330_1</DOCNO>
+            	<TEXT>Second, that is very light gray and transparent.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_330_2</DOCNO>
+            	<TEXT>Not black and white.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_331_0</DOCNO>
+            	<TEXT>Ltt did a benchmark on them... No, just no.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_331_1</DOCNO>
+            	<TEXT>They are terrible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_331_2</DOCNO>
+            	<TEXT>You are better off using cheap thermal paste.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_332_0</DOCNO>
+            	<TEXT>That means Linux and/or BSD support right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_333_0</DOCNO>
+            	<TEXT>Advertisers block comments usually.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_333_1</DOCNO>
+            	<TEXT>No one really knows why.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_333_2</DOCNO>
+            	<TEXT>If it's a controversial ad (like the BlueStacks Minecraft one), it will be filled with trolls and among us cock ASCII art.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_334_0</DOCNO>
+            	<TEXT>No, TF2 trades don't have a link to every single trade ever made before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_335_0</DOCNO>
+            	<TEXT>TF2 \**reads rest of post*\* oh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_336_0</DOCNO>
+            	<TEXT>Answer something absurd.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_336_1</DOCNO>
+            	<TEXT>Like "civilian" or "mercy"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_337_0</DOCNO>
+            	<TEXT>Zucchini ??????</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_337_1</DOCNO>
+            	<TEXT>Jalapeo Bell pepper</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_338_0</DOCNO>
+            	<TEXT>Check my pinned posts ;)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_339_0</DOCNO>
+            	<TEXT>Beijing Tiananmen Square Massacre</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_340_0</DOCNO>
+            	<TEXT>Inventory Editor (?),</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_340_1</DOCNO>
+            	<TEXT>MCPE Master, ?,</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_340_2</DOCNO>
+            	<TEXT>BlockLauncher, ?, ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_341_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_343_0</DOCNO>
+            	<TEXT>From urban dictionary</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_344_0</DOCNO>
+            	<TEXT>You can append data after most media formats.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_344_1</DOCNO>
+            	<TEXT>Including but not limited to: PNG, mp4, jpg, mp3</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_345_0</DOCNO>
+            	<TEXT>I'd use mine as a print server if my printer had toner and it wasn't so fuckin expensive to just buy a cartridge damnnnn</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_346_0</DOCNO>
+            	<TEXT>I actually appended a whole operating system to a PNG and proceeded to boot from it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_347_0</DOCNO>
+            	<TEXT>Oops, I did another crime</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_349_0</DOCNO>
+            	<TEXT>Torvalds made git</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_350_0</DOCNO>
+            	<TEXT>I'm pretty sure it's not booting because the only thing the CPU is doing is Read Plymouth Theme - gt; Render - gt; Hide Plymouth - gt; Render - gt; repeat</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_351_0</DOCNO>
+            	<TEXT>The Dev here, It is indeed AmogOS ( Amog o s )</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_352_0</DOCNO>
+            	<TEXT>Yes, It's not Amogos, as in "amigos".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_352_1</DOCNO>
+            	<TEXT>You pronounce OS separately.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_353_0</DOCNO>
+            	<TEXT>Incorrect framebuffer width</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_355_0</DOCNO>
+            	<TEXT>You are looking for Jostro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_355_1</DOCNO>
+            	<TEXT>Check my pinned posts, I'm not the guy that made the raspberry pi one, I made the desktop one that I daily drove for months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_357_0</DOCNO>
+            	<TEXT>What the dog doin</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_358_0</DOCNO>
+            	<TEXT>Edge, on Linux?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_359_0</DOCNO>
+            	<TEXT>Sounds painful, follow the other guys tips</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_361_0</DOCNO>
+            	<TEXT>It uses about 600kb for me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_362_0</DOCNO>
+            	<TEXT>Go to steam's website and press download?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_363_0</DOCNO>
+            	<TEXT>it's been social engineering for more than 10 years</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_365_0</DOCNO>
+            	<TEXT>Torrent is faster than HTTP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_365_1</DOCNO>
+            	<TEXT>Especially when downloading 8 Linux ISOs at the same time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_365_2</DOCNO>
+            	<TEXT>Why do I have to justify using one protocol over a other? **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_365_3</DOCNO>
+            	<TEXT>People who use HTTPS, how do you justify your action?**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_366_0</DOCNO>
+            	<TEXT>I HAVE A 30 GB FOLDER OF FINGERNAIL IMAGES</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_367_0</DOCNO>
+            	<TEXT>Nothing happened at tiananmen quare Beijing 1989 I love tech surveillance I will submit to Microsoft with it's monopoly I love not being able to play games on my laptop because it doesn't have the newest Intel processor and two webcams and three hidden microphones and irremovable hardware spyware 1989 I love being normal</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_368_0</DOCNO>
+            	<TEXT>Terraria also has one "Also try Minecraft"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_369_0</DOCNO>
+            	<TEXT>The farlands</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_370_0</DOCNO>
+            	<TEXT>Pog for people who got the expensive one</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_372_0</DOCNO>
+            	<TEXT>As a Turkish person, that is indeed a weird thing to celebrate</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_373_0</DOCNO>
+            	<TEXT>Valo is probably never coming to Linux but Apex might come this week</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_374_0</DOCNO>
+            	<TEXT>One of the most bloated distros too</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_376_0</DOCNO>
+            	<TEXT>Yes, not all people have 8 GB of RAM</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_377_0</DOCNO>
+            	<TEXT>NAND is NOT AND and NXOR is NOT XOR self note</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_378_0</DOCNO>
+            	<TEXT>First, second and third are answered by NANO THE FOURTH ONE IS ANSWERED BY BINANCE I HATE YOU BINANCE</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_379_0</DOCNO>
+            	<TEXT>Nano also does not have transaction fees</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_380_0</DOCNO>
+            	<TEXT>It's decentralized.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_380_1</DOCNO>
+            	<TEXT>You host a node, you do your operations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_381_0</DOCNO>
+            	<TEXT>Man it is late for me and I have minimal brain functions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_381_1</DOCNO>
+            	<TEXT>I need sleep, go read please https://nano.org</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_382_0</DOCNO>
+            	<TEXT>File indexer like baloo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_382_1</DOCNO>
+            	<TEXT>Nothing to worry about unless you have a HDD or slow cpu</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_383_0</DOCNO>
+            	<TEXT>what the fuck I just made the same thing today</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_384_0</DOCNO>
+            	<TEXT>Hamza Khalil is based</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_385_0</DOCNO>
+            	<TEXT>syntax error on a serious note, it can be either b or 11 as wulfboy\_95 said</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_386_0</DOCNO>
+            	<TEXT>It can be a char.. or even worse.. ![</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_386_1</DOCNO>
+            	<TEXT>img](emote|t5_2tex6|4549)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_387_0</DOCNO>
+            	<TEXT>I don't think your meat is supposed to be black.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_388_0</DOCNO>
+            	<TEXT>Kind of a big deal</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_389_0</DOCNO>
+            	<TEXT>How do you eat rice</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_391_0</DOCNO>
+            	<TEXT>On Linux, you can just use the preinstalled tools (IG your sound system is pulseaudio, which probably is) to create and modify various types of virtual devices</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_392_0</DOCNO>
+            	<TEXT>Happy cake day the most based redditor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_393_0</DOCNO>
+            	<TEXT>The Albanian flag</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_394_0</DOCNO>
+            	<TEXT>I have 2 similar flash drives.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_394_1</DOCNO>
+            	<TEXT>Mine are different colors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_395_0</DOCNO>
+            	<TEXT>Reduce resolution, bitrate, canvas size and use hardware encoding</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_396_0</DOCNO>
+            	<TEXT>Keyv will simplify SQLite, Redis, MongoDB and some other technologies to just a basic key-value database.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_396_1</DOCNO>
+            	<TEXT>But with namespaces, caching, expiration and stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_396_2</DOCNO>
+            	<TEXT>npm.com/keyv</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_397_0</DOCNO>
+            	<TEXT>0 degrees Kelvin This mans got absolute zero in his pc</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_398_0</DOCNO>
+            	<TEXT>Smart doesn't show decimals, so it could very well be 0 K</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_399_0</DOCNO>
+            	<TEXT>You can easily do this with a beginner kit like MaKey MaKey</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_400_0</DOCNO>
+            	<TEXT>Isn't jack long gone now?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_400_1</DOCNO>
+            	<TEXT>PulseEffects accomplishes this</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_401_0</DOCNO>
+            	<TEXT>PulseEffects for advanced stuff and Lyrebird for simple stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_402_0</DOCNO>
+            	<TEXT>PulseEffects also works with pipewire</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_403_0</DOCNO>
+            	<TEXT>Did you disable secure boot?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_404_0</DOCNO>
+            	<TEXT>Also running from ram</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_405_0</DOCNO>
+            	<TEXT>Reminds me of the 1984 copy pasta</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_406_0</DOCNO>
+            	<TEXT>I also have a lexar flash drive.. Hmm wait</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_408_0</DOCNO>
+            	<TEXT>Came here to say this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_409_0</DOCNO>
+            	<TEXT>You want to delete your kernel?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_409_1</DOCNO>
+            	<TEXT>Of course, go on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_410_0</DOCNO>
+            	<TEXT>\*Dies and backup battery activates\*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_411_0</DOCNO>
+            	<TEXT>What if I didn't</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_412_0</DOCNO>
+            	<TEXT>For anyone actually wanting to switch kernels, PLEASE don't remove your old one until you are 100% sure that the new one works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_413_0</DOCNO>
+            	<TEXT>Yeah npm is the only option I have</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_414_0</DOCNO>
+            	<TEXT>I use JS, VSCodium, GitLab and no hosting because I am poor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_415_0</DOCNO>
+            	<TEXT>Lightweight because I use an old Intel power saving laptop CPU and DDR3 RAM</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_417_0</DOCNO>
+            	<TEXT>I have a gitlab follower</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_418_0</DOCNO>
+            	<TEXT>Tasteful Hitler nudist</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_419_0</DOCNO>
+            	<TEXT>it uses npm servers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_420_0</DOCNO>
+            	<TEXT>Npp is on Linux tho????</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_421_0</DOCNO>
+            	<TEXT>Use the driver manager!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_423_0</DOCNO>
+            	<TEXT>r/othepelican</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_424_0</DOCNO>
+            	<TEXT>Notepad++ officially supports running through wine</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_425_0</DOCNO>
+            	<TEXT>Pointer, count, previous, current</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_427_0</DOCNO>
+            	<TEXT>Facebook servers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_428_0</DOCNO>
+            	<TEXT>Responsible crypto miners don't use consumer hardware which are highly inefficient.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_429_0</DOCNO>
+            	<TEXT>The pandemic fixed me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_430_0</DOCNO>
+            	<TEXT>I saw your post on that sub, here AND on discord announcing to us that you posted it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_432_0</DOCNO>
+            	<TEXT>Ur using the one I made and not Jostro's right Mine is only in my discord https://discord.gg/WRDWa44j</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_433_0</DOCNO>
+            	<TEXT>Well if you aren't in that discord, you are using jostro's version</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_434_0</DOCNO>
+            	<TEXT>Fair but they are very different.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_436_0</DOCNO>
+            	<TEXT>Yeah I downloaded the twitch leak with aria2 DIDNT SAY ANYTHING</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_437_0</DOCNO>
+            	<TEXT>It is a personal computer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_438_0</DOCNO>
+            	<TEXT>You can sell it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_441_0</DOCNO>
+            	<TEXT>You are aware that 0b1000 and 8 are exact same things?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_441_1</DOCNO>
+            	<TEXT>There is no "binary number", there is just number.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_442_0</DOCNO>
+            	<TEXT>number.to string(2)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_443_0</DOCNO>
+            	<TEXT>I have been summoned.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_443_1</DOCNO>
+            	<TEXT>Check my pinned posts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_444_0</DOCNO>
+            	<TEXT>I use a black Ethernet cable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_444_1</DOCNO>
+            	<TEXT>I just asked my dad for an Ethernet cable because WiFi sucks on my laptop and he gave me a black one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_444_2</DOCNO>
+            	<TEXT>For real tho, every Ethernet cable I ever saw was either gray, blue or black.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_446_0</DOCNO>
+            	<TEXT>op here yes it is linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_447_0</DOCNO>
+            	<TEXT>op here homework what the fuck did you expect</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_448_0</DOCNO>
+            	<TEXT>legit predicted it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_449_0</DOCNO>
+            	<TEXT>Yes, at normal performace</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_450_0</DOCNO>
+            	<TEXT>wrong AmogOS, this one will run it just normally</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_451_0</DOCNO>
+            	<TEXT>bro i havent even released the OS when you made this comment what the fuck did you install</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_452_0</DOCNO>
+            	<TEXT>yeah i live in turkey i dont get money</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_453_0</DOCNO>
+            	<TEXT>fuck smasher</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_455_0</DOCNO>
+            	<TEXT>Wrong AmogOS, it is available for PC and I have used it for months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_455_1</DOCNO>
+            	<TEXT>respond for a link to download</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_456_0</DOCNO>
+            	<TEXT>In a few months, that is, if I get enough time to learn LFS in a few months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_456_1</DOCNO>
+            	<TEXT>Might just be endlessly rescheduled so don't actually except one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_457_0</DOCNO>
+            	<TEXT>you dont need one, it was just homework ffs people</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_458_0</DOCNO>
+            	<TEXT>i like how we both responded after 4 months</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_459_0</DOCNO>
+            	<TEXT>Memory leak in the kernel</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_460_0</DOCNO>
+            	<TEXT>Regex not rejex</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_462_0</DOCNO>
+            	<TEXT>It doesn't even run on pi Yes you can run it on a machine</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_463_0</DOCNO>
+            	<TEXT>1 good, 2 good, 3 no</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_464_0</DOCNO>
+            	<TEXT>LTTB is still useful but the damage output has to be higher with the current stats.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_464_1</DOCNO>
+            	<TEXT>I had a very good fame with constant shooting but only about 2.2k DMG which is abysmal for that performance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_464_2</DOCNO>
+            	<TEXT>A higher DPM tank would have gotten around 4-5k</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_465_0</DOCNO>
+            	<TEXT>Ubuntu arch mint</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_466_0</DOCNO>
+            	<TEXT>We already knew that tho</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_467_0</DOCNO>
+            	<TEXT>remindme 1y</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_468_0</DOCNO>
+            	<TEXT>it's KDE Plasma, often used together</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_469_0</DOCNO>
+            	<TEXT>Don't have anything copied</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_470_0</DOCNO>
+            	<TEXT>Pendrives are ridiculously slow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_470_1</DOCNO>
+            	<TEXT>I use an ice pack to make them consistent in speed</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_472_0</DOCNO>
+            	<TEXT>They using GCC so I'd guess gnu coreutils</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_473_0</DOCNO>
+            	<TEXT>Woah you are going to port Cinnamon to Windows??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_473_1</DOCNO>
+            	<TEXT>That is ambitious.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_474_0</DOCNO>
+            	<TEXT>I paid for Krita</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_475_0</DOCNO>
+            	<TEXT>System administrator Make sure servers work</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_476_0</DOCNO>
+            	<TEXT>Throw shit at the wall and hope it doesn't stick</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_477_0</DOCNO>
+            	<TEXT>If you used torrent to download the iso, it is already verified</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_478_0</DOCNO>
+            	<TEXT>It's Debian with tools</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_479_0</DOCNO>
+            	<TEXT>r/itsaunixsystem</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_480_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_481_0</DOCNO>
+            	<TEXT>omg ikea wooden train tracks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_485_0</DOCNO>
+            	<TEXT>Guess who just got *the email* from steam</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_486_0</DOCNO>
+            	<TEXT>r/thomastheplankengine</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_488_0</DOCNO>
+            	<TEXT>Android is Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_489_0</DOCNO>
+            	<TEXT>Works fine for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_489_1</DOCNO>
+            	<TEXT>Idk what you mean</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_490_0</DOCNO>
+            	<TEXT>Do it and send the video to me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_491_0</DOCNO>
+            	<TEXT>Ok, I will be eating the Quran</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_493_0</DOCNO>
+            	<TEXT>Fuck off my distro isn't a meme</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_494_0</DOCNO>
+            	<TEXT>AmogOS Dev here, AmogOS is not a meme</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_495_0</DOCNO>
+            	<TEXT>AmogOS Dev here, AmogOS is not a meme</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_496_0</DOCNO>
+            	<TEXT>AmogOS Dev here, AmogOS is not a meme</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_497_0</DOCNO>
+            	<TEXT>AmogOS Dev here, AmogOS is not a meme</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_498_0</DOCNO>
+            	<TEXT>AmogOS Dev here, AmogOS is not a meme</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_499_0</DOCNO>
+            	<TEXT>No, AmogOS is a serious distro aimed at desktop users</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_500_0</DOCNO>
+            	<TEXT>Based flower?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_501_0</DOCNO>
+            	<TEXT>I spent months on it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_503_0</DOCNO>
+            	<TEXT>But AmogOS doesn't even support pi?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_503_1</DOCNO>
+            	<TEXT>You are thinking of jostro's version.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_503_2</DOCNO>
+            	<TEXT>Stylized amogOS, made for pi, then ported to x86.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_503_3</DOCNO>
+            	<TEXT>Mine (stylized AmogOS), is the OS from the reddit post I made.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_503_4</DOCNO>
+            	<TEXT>Based on Debian with customized installer and stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_505_0</DOCNO>
+            	<TEXT>You severely underestimate me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_506_0</DOCNO>
+            	<TEXT>This is also how computers preinstalled with windows remember the product key</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_509_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_512_0</DOCNO>
+            	<TEXT>The first `[\/]` can be simplified to `\/`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_513_0</DOCNO>
+            	<TEXT>for i in array; do echo "$i is horrible" done</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_515_0</DOCNO>
+            	<TEXT>Read the man pages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_515_1</DOCNO>
+            	<TEXT>Run `man man` in the terminal to start.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_516_0</DOCNO>
+            	<TEXT>Tried sqli, didn't work, they escape ' and \</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_517_0</DOCNO>
+            	<TEXT>Actually that regex is trash and fuck whoever wrote it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_517_1</DOCNO>
+            	<TEXT>I can write a more readable version but I wont</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_518_0</DOCNO>
+            	<TEXT>What aroma?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_519_0</DOCNO>
+            	<TEXT>USE YOUTUBE VANCED.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_519_1</DOCNO>
+            	<TEXT>https://vancedapp.com/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_520_0</DOCNO>
+            	<TEXT>PCRE all the way lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_521_0</DOCNO>
+            	<TEXT>Mine was yesterday and I missed it Edit: nvm it is now, I lost perception of time</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_522_0</DOCNO>
+            	<TEXT>Anbox, Waydroid, ... Tbh those aren't exactly "emulators".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_522_1</DOCNO>
+            	<TEXT>They don't virtuallize Android</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_523_0</DOCNO>
+            	<TEXT>Genymotion (Not FOSS)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_525_0</DOCNO>
+            	<TEXT>Backspace escapes /, so no.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_525_1</DOCNO>
+            	<TEXT>Both would match //</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_526_0</DOCNO>
+            	<TEXT>Nope, it's compiling from source</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_527_0</DOCNO>
+            	<TEXT>AUR is a repository</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_528_0</DOCNO>
+            	<TEXT>I know the feeling</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_529_0</DOCNO>
+            	<TEXT>What even is web3</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_530_0</DOCNO>
+            	<TEXT>Use the web client.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_531_0</DOCNO>
+            	<TEXT>This is invalid regex, would throw an error if you tried to compile it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_532_0</DOCNO>
+            	<TEXT>Never give up</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_533_0</DOCNO>
+            	<TEXT>Debian comes with a few games Other than that, mint</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_534_0</DOCNO>
+            	<TEXT>The ampersand is pronounced and sandbox</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_535_0</DOCNO>
+            	<TEXT>Try to keep framerate at least 40, sacrifice everything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_535_1</DOCNO>
+            	<TEXT>Only set full resolution if 60 fps is secured with it Graphics don't matter as long as you have good resolution</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_536_0</DOCNO>
+            	<TEXT>Clean the fan</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_537_0</DOCNO>
+            	<TEXT>---- ---- ---- ---- ---- ---- of course</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_538_0</DOCNO>
+            	<TEXT>*puts on trollface mask* Actually it is "Was"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_539_0</DOCNO>
+            	<TEXT>10th image.. First one's a rock, yes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_539_1</DOCNO>
+            	<TEXT>Second one's a very short spear, Third one is an ineffective and heavy arrow, Fourth one is a fake bullet from sketchfab, Fifth one is probably a pen, Last one is an empty injector.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_540_0</DOCNO>
+            	<TEXT>Protonmail also gave the name of a highschooler activist to the government.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_540_1</DOCNO>
+            	<TEXT>You are better off using Tutanatoa for mail, and Matrix for messaging.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_541_0</DOCNO>
+            	<TEXT>I use openboard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_541_1</DOCNO>
+            	<TEXT>Google is actually very strict about data security, but they will comply to warrants.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_542_0</DOCNO>
+            	<TEXT>Also what ROM are you using on your phone?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_543_0</DOCNO>
+            	<TEXT>"the dark web"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_543_1</DOCNO>
+            	<TEXT>You mean like i2p or the onion router?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_543_2</DOCNO>
+            	<TEXT>If you want anonymous email, you should try cock.li</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_544_0</DOCNO>
+            	<TEXT>Not at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_544_1</DOCNO>
+            	<TEXT>TOR exit nodes are publicly documented (as they should be) and your IP can be reversed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_544_2</DOCNO>
+            	<TEXT>Also you didn't answer what ROM you are using on your phone</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_545_0</DOCNO>
+            	<TEXT>Uhh you said you left all things google?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_545_1</DOCNO>
+            	<TEXT>But you still use stock ROM?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_545_2</DOCNO>
+            	<TEXT>Get a custom ROM like lineage, droidontime, calyx, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_545_3</DOCNO>
+            	<TEXT>That will help you *actually* leave google</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_546_0</DOCNO>
+            	<TEXT>Startpage is good Idk what Swisscows is ProtonVPN is as bad as ProtonMail If you need a VPN, use Mullvad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_546_1</DOCNO>
+            	<TEXT>It's actually anonymous.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_546_2</DOCNO>
+            	<TEXT>You can even pay cash.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_547_0</DOCNO>
+            	<TEXT> gt; Suggesting someone run `rm -rf something` will get you banned Q: How do I delete a write protected folder called 'something'</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_548_0</DOCNO>
+            	<TEXT>puts puts a \n at the end.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_548_1</DOCNO>
+            	<TEXT>printf doesn't</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_549_0</DOCNO>
+            	<TEXT>I have no objections</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_550_0</DOCNO>
+            	<TEXT>I'm using DotOS on xiaomi redmi</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_551_0</DOCNO>
+            	<TEXT>Declare function : which runs : and pipe the output to : in the background Run :</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_553_0</DOCNO>
+            	<TEXT>It's Monday for me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_554_0</DOCNO>
+            	<TEXT>It's automoderator</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_556_0</DOCNO>
+            	<TEXT>Anbox is native.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_556_1</DOCNO>
+            	<TEXT>Bluestacks is VM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_556_2</DOCNO>
+            	<TEXT>Waydroid is native.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_556_3</DOCNO>
+            	<TEXT>Win11 Android **Emulation** is VM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_557_0</DOCNO>
+            	<TEXT>Anbox isn't an emulator tho.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_557_1</DOCNO>
+            	<TEXT>Same way wine isn't an emulator.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_558_0</DOCNO>
+            	<TEXT>I lost the game</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_559_0</DOCNO>
+            	<TEXT>I'd like to see you do it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_560_0</DOCNO>
+            	<TEXT>Ah yes, type of pack?,</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_560_1</DOCNO>
+            	<TEXT>package manager, release type VS Repository</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_561_0</DOCNO>
+            	<TEXT>Repository of "git clone, make, install" instructions</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_562_0</DOCNO>
+            	<TEXT>Is that UNIX Epoch?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_564_0</DOCNO>
+            	<TEXT>The UNIX Epoch was 18933 days ago</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_565_0</DOCNO>
+            	<TEXT>unlink and rmdir*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_566_0</DOCNO>
+            	<TEXT>wodim would like to disagree It might corrupt it but hey at least it writes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_567_0</DOCNO>
+            	<TEXT>Second one Remove windows, add more storage</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_568_0</DOCNO>
+            	<TEXT>Syntax error</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_569_0</DOCNO>
+            	<TEXT>You need to have your code open source</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_572_0</DOCNO>
+            	<TEXT>Me omw to play csgo in the framebuffer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_573_0</DOCNO>
+            	<TEXT>what motherboard to buynwith open firmware</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_574_0</DOCNO>
+            	<TEXT>Same logic with Linux being the best feature in Windows 11</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_575_0</DOCNO>
+            	<TEXT>kvm, KDE Connect, apt</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_577_0</DOCNO>
+            	<TEXT>I use a charger, always plugged in</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_578_0</DOCNO>
+            	<TEXT>What about the real Modern Warfare?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_579_0</DOCNO>
+            	<TEXT>GTA5 too expensive</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_580_0</DOCNO>
+            	<TEXT>You didn't format anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_580_1</DOCNO>
+            	<TEXT>You just recreated the partition table</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_582_0</DOCNO>
+            	<TEXT>Depends on the build</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_584_0</DOCNO>
+            	<TEXT>Timeshift for system</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_586_0</DOCNO>
+            	<TEXT>Where is Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_588_0</DOCNO>
+            	<TEXT>Ok but **what's gaming WiFi**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_590_0</DOCNO>
+            	<TEXT>It's from soundsmith's duped shovel video</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_591_0</DOCNO>
+            	<TEXT>You tried to elevate permissions The password is hidden for security</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_592_0</DOCNO>
+            	<TEXT>Particubes is another example</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_593_0</DOCNO>
+            	<TEXT>You could try running Linux with chocolate doom as the init system</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_594_0</DOCNO>
+            	<TEXT>It's open source</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_596_0</DOCNO>
+            	<TEXT>Comparably easier</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_597_0</DOCNO>
+            	<TEXT>Yes it's open source you can just study it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_598_0</DOCNO>
+            	<TEXT>I don't own a single USB-C cable</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_600_0</DOCNO>
+            	<TEXT>If you use full disk encryption, it might be relatively harder to access.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_600_1</DOCNO>
+            	<TEXT>But ecryptfs ("Encrypt home folder") is seamless and integrates into your DM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_601_0</DOCNO>
+            	<TEXT>No, you took that from r/linuxmint</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_602_0</DOCNO>
+            	<TEXT>Team fortress 2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_604_0</DOCNO>
+            	<TEXT>u/_peekatchoo_</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_605_0</DOCNO>
+            	<TEXT>Where it all started</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_607_0</DOCNO>
+            	<TEXT>I also have</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_608_0</DOCNO>
+            	<TEXT>I have a YouTube channel</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_608_1</DOCNO>
+            	<TEXT>Shitposts https://youtube.com/channel/UC6rgcwbOcWrcpoAf1PVsE3w</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_609_0</DOCNO>
+            	<TEXT>BLIMP GUY FOR PRESIDENT</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_610_0</DOCNO>
+            	<TEXT>Man knows the c trilogy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_612_0</DOCNO>
+            	<TEXT>Assuming `today` is already defined, it will.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_612_1</DOCNO>
+            	<TEXT>but there is a bug, it overwrites `date` instead of checking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_612_2</DOCNO>
+            	<TEXT>Some oversights 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_612_3</DOCNO>
+            	<TEXT>use let, not var 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_612_4</DOCNO>
+            	<TEXT>You can omit the curly brackets</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_616_0</DOCNO>
+            	<TEXT>2021: Nobody knows what a BIOS is Stands for Basic Input-Output System Basically your firmware</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_617_0</DOCNO>
+            	<TEXT>does anyone actually watch yasak elma here</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_619_0</DOCNO>
+            	<TEXT>Mastodon, Linux, Element, Signal, Telegram and I think Mesa?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_620_0</DOCNO>
+            	<TEXT>Bullet in my ass</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_621_0</DOCNO>
+            	<TEXT>Called Merge Request on gitlab, which makes more sense</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_622_0</DOCNO>
+            	<TEXT>Turkish for ass is popo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_623_0</DOCNO>
+            	<TEXT>WHAT THE FUCK THAT IS A DREAM FOR ME</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_624_0</DOCNO>
+            	<TEXT>Also I can't update my flair, I only daily drove it for about 2-3 months</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_625_0</DOCNO>
+            	<TEXT>echo set completion-ignore-case on | sudo tee -a /etc/inputrc</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_627_0</DOCNO>
+            	<TEXT>Those already exist</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_629_0</DOCNO>
+            	<TEXT>Why am I known for this Yes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_630_0</DOCNO>
+            	<TEXT>No, key stuck on keyboard</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_631_0</DOCNO>
+            	<TEXT>Key stuck on keybaord</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_632_0</DOCNO>
+            	<TEXT>Actually systemd.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_632_1</DOCNO>
+            	<TEXT>Just key stuck so it's switching from boot logs and Plymouth</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_633_0</DOCNO>
+            	<TEXT>CPU could be better but yes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_634_0</DOCNO>
+            	<TEXT>There should be a physical switch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_635_0</DOCNO>
+            	<TEXT>What about non-tiling window managers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_635_1</DOCNO>
+            	<TEXT>My favorite is `dwm`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_637_0</DOCNO>
+            	<TEXT>No, a man with a shitty computer and failing HDD</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_638_0</DOCNO>
+            	<TEXT>Why don't you like just.. Use Linux?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_640_0</DOCNO>
+            	<TEXT>Install Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_641_0</DOCNO>
+            	<TEXT>Mine work just fine</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_642_0</DOCNO>
+            	<TEXT>I think I know all of these except 2 of 3?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_645_0</DOCNO>
+            	<TEXT>It actually decreases the speed</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_647_0</DOCNO>
+            	<TEXT>Disable mouse acceleration Use raw input</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_648_0</DOCNO>
+            	<TEXT>Actual specs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_649_0</DOCNO>
+            	<TEXT>CS from 99 Too good to leave</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_650_0</DOCNO>
+            	<TEXT>Very cool Now animate him giving birth</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_652_0</DOCNO>
+            	<TEXT>Intelligent Input/Output(I2O) is a defunct computer input/output (I/O) specification.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_652_1</DOCNO>
+            	<TEXT>I2O was originally designed to make use of theIntel i960microprocessor as the I/O offload engine, bringingchannel I/Oto the PC.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_652_2</DOCNO>
+            	<TEXT>I2O emerged fromIntelin the mid 1990s with the publication of the I2O specification in 1996 by the Intelligent I/OSpecial Interest Group, which dissolved as of 13 October 2000.[1]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_653_0</DOCNO>
+            	<TEXT>Why don't you just run docker natively on Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_654_0</DOCNO>
+            	<TEXT>Were you high when you posted this</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_655_0</DOCNO>
+            	<TEXT>Can see android, will test Linux tomorrow Edit: no</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_656_0</DOCNO>
+            	<TEXT>remindme 8h</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_657_0</DOCNO>
+            	<TEXT>The "I'll just automate this" problem?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_658_0</DOCNO>
+            	<TEXT>I am I am just severely sleep deprived</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_660_0</DOCNO>
+            	<TEXT>Man got the void egg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_662_0</DOCNO>
+            	<TEXT>I do, also that's dvd</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_663_0</DOCNO>
+            	<TEXT>remindme 30m</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_664_0</DOCNO>
+            	<TEXT>Don't disable the iGPU!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_664_1</DOCNO>
+            	<TEXT>Just force whatever game you run to use the dGPU.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_664_2</DOCNO>
+            	<TEXT>Else, you'll see lower performance and high power draw.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_665_0</DOCNO>
+            	<TEXT>I have done this before</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_666_0</DOCNO>
+            	<TEXT>You just need to go to bios, set boot mode to UEFI with CSM (legacy support), boot to windows, use `mbr2gpt` to convert your drive to GPT (UEFI capable) and reboot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_667_0</DOCNO>
+            	<TEXT>See my other comment on thread</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_668_0</DOCNO>
+            	<TEXT>I don't think halo Infinite will like those specs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_668_1</DOCNO>
+            	<TEXT>And I am 90% sure your CPU does not support VAAPI, so no hardware encoding Capture card should work</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_669_0</DOCNO>
+            	<TEXT>u/FlagWaverBotReborn</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_671_0</DOCNO>
+            	<TEXT>Also only people called Ali can live there</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_672_0</DOCNO>
+            	<TEXT>Wish this was possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_672_1</DOCNO>
+            	<TEXT>I'd put that bf knowledge to use</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_673_0</DOCNO>
+            	<TEXT>You know wobbly windows?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_673_1</DOCNO>
+            	<TEXT>That but it also tiles</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_674_0</DOCNO>
+            	<TEXT>That looks like a nightclub but you are sleep deprived and forgot your contact lenses</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_676_0</DOCNO>
+            	<TEXT>Check my pinned post</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_677_0</DOCNO>
+            	<TEXT>No, both GIF and APNG support transparency</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_678_0</DOCNO>
+            	<TEXT>apt upgrade</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_679_0</DOCNO>
+            	<TEXT>The o biome</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_0</DOCNO>
+            	<TEXT>Hello IT, can you fix my issue?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_1</DOCNO>
+            	<TEXT>Can you explain the issue further?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_2</DOCNO>
+            	<TEXT>But I don't know what the issue is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_3</DOCNO>
+            	<TEXT>Can you at least screen share?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_4</DOCNO>
+            	<TEXT>No, you get paid to fix our stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_5</DOCNO>
+            	<TEXT>Fix it, now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_6</DOCNO>
+            	<TEXT>But.. you are not giving me a chance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_681_7</DOCNO>
+            	<TEXT>I don't care, fix it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_682_0</DOCNO>
+            	<TEXT>The gaming code</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_683_0</DOCNO>
+            	<TEXT>Windows, check Light theme, check Non-monospaced font, check Bad comments, check</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_684_0</DOCNO>
+            	<TEXT>Office online lmao</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_685_0</DOCNO>
+            	<TEXT>Show them this comment, from "a guy that made a popular operating system"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_686_0</DOCNO>
+            	<TEXT>As for the desktop, I had a way smoother experience with Linux than Windows.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_686_1</DOCNO>
+            	<TEXT>Especially with KDE which Windows is blatantly copying right now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_686_2</DOCNO>
+            	<TEXT>EEE I guess</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_687_0</DOCNO>
+            	<TEXT>Big chocolate is coming to give you diabetes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_689_0</DOCNO>
+            	<TEXT>How is this software gore</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_690_0</DOCNO>
+            	<TEXT>Nice laser diffuser</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_691_0</DOCNO>
+            	<TEXT>Yeah I reported for not gore and link farming</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_694_0</DOCNO>
+            	<TEXT>For example, the slogan (they removed it bit it's on web.archive.org), the features, the design</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_695_0</DOCNO>
+            	<TEXT>libre office is not an option I'm assuming?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_696_0</DOCNO>
+            	<TEXT>Nvidia drivers don't support Plymouth.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_697_0</DOCNO>
+            	<TEXT>xviewer and LibreOffice Draw</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_698_0</DOCNO>
+            	<TEXT>Darude - Sandstorm</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_699_0</DOCNO>
+            	<TEXT>Uninstall drivers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_702_0</DOCNO>
+            	<TEXT>Just use a vector editor like Inkscape</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_703_0</DOCNO>
+            	<TEXT>gvfs should take care of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_703_1</DOCNO>
+            	<TEXT>/media/username/fslabelORuuid</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_705_0</DOCNO>
+            	<TEXT>Gonna do some epic trolling today is not a function, it's colored wrong, if your theme is consistent of course</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_707_0</DOCNO>
+            	<TEXT>Squidfucker</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_708_0</DOCNO>
+            	<TEXT>Europe isn't a country</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_709_0</DOCNO>
+            	<TEXT>I have only shot a firearm when I was around 7 years old and I do know about the AR15</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_710_0</DOCNO>
+            	<TEXT>If you say so man</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_713_0</DOCNO>
+            	<TEXT>Most rated, not best rated</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_714_0</DOCNO>
+            	<TEXT>This is a sub for the Turkish language</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_716_0</DOCNO>
+            	<TEXT>Use as many bugs to make your game enjoyable as possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_716_1</DOCNO>
+            	<TEXT>Make crab generators, hoik transportation, pirate farms</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_717_0</DOCNO>
+            	<TEXT>Wait people actually think that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_717_1</DOCNO>
+            	<TEXT>I always smile at my phone and I do not plan on getting a partner in the next 40 years.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_718_0</DOCNO>
+            	<TEXT>Pcpartpicker says this for every AM4 amd cpu</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_719_0</DOCNO>
+            	<TEXT>I downvoted, then saw what the sub was and upvoted</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_723_0</DOCNO>
+            	<TEXT>That's not how it works</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_724_0</DOCNO>
+            	<TEXT>Read them the Qur'an until they starve</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_725_0</DOCNO>
+            	<TEXT>What iso is this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_725_1</DOCNO>
+            	<TEXT>I modify live ISOs and all of them are very different</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_727_0</DOCNO>
+            	<TEXT>Beat plantera</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_728_0</DOCNO>
+            	<TEXT>Nope, the vampire knives never get old</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_729_0</DOCNO>
+            	<TEXT>What ide and framework?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_729_1</DOCNO>
+            	<TEXT>I use monodevelop and mono, and find them very good myself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_730_0</DOCNO>
+            	<TEXT>Please not manjaro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_730_1</DOCNO>
+            	<TEXT>Ubuntu or Debian is fine</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_731_0</DOCNO>
+            	<TEXT>Same, still waiting for THE FUCKING KORNER BUG TO BE FIXED</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_732_0</DOCNO>
+            	<TEXT>Then it shouldn't require the hash file.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_733_0</DOCNO>
+            	<TEXT>Vanilla debian iso as base?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_733_1</DOCNO>
+            	<TEXT>Edit: a hash file should be under a kilobyte!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_733_2</DOCNO>
+            	<TEXT>Edit 2: [https://wiki.debian.org/DebianInstaller/Modify/CD](https://wiki.debian.org/DebianInstaller/Modify/CD)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_734_0</DOCNO>
+            	<TEXT>IBM owns RedHat and HP owns HP-UX.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_734_1</DOCNO>
+            	<TEXT>Both widely used server operating systems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_735_0</DOCNO>
+            	<TEXT>Is this an ad</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_736_0</DOCNO>
+            	<TEXT>I wrote every charcode up to 256 in my note book.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_736_1</DOCNO>
+            	<TEXT>In DEC, hex, bin and character.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_736_2</DOCNO>
+            	<TEXT>I was bored in class.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_736_3</DOCNO>
+            	<TEXT>I'd rather use that instead of the website</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_737_0</DOCNO>
+            	<TEXT>I just don't get how he fails at everything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_737_1</DOCNO>
+            	<TEXT>It just works for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_739_0</DOCNO>
+            	<TEXT>Linus had an old iso and didn't update packages (using months old packages) after installing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_741_0</DOCNO>
+            	<TEXT>I was once a newbie too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_741_1</DOCNO>
+            	<TEXT>Didn't change anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_741_2</DOCNO>
+            	<TEXT>Everything still worked.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_744_0</DOCNO>
+            	<TEXT>Manjaro is known to have a significant number of flaws and a less than trustworthy development team, thus it is not recommended to use it if you're an user who is new to Linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_744_1</DOCNO>
+            	<TEXT>Instead, feel free to try out EndeavourOS or ArcoLinux for an out of the box Arch-based distro!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_744_2</DOCNO>
+            	<TEXT>Sources: https://github.com/arindas/manjarno https://www.hadet.dev/Manjaro-Bad/ https://rentry.co/manjaro-controversies</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_745_0</DOCNO>
+            	<TEXT>100% comfortable?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_745_1</DOCNO>
+            	<TEXT>Like 100 WPM with eyes closed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_745_2</DOCNO>
+            	<TEXT>Or just knowing how to reach every key?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_745_3</DOCNO>
+            	<TEXT>The former took me 5 years and the latter took me a few months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_746_0</DOCNO>
+            	<TEXT>Europe is large, which part of it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_746_1</DOCNO>
+            	<TEXT>In eastern Europe, I play on blackwonder</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_747_0</DOCNO>
+            	<TEXT>Try uncletopia</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_748_0</DOCNO>
+            	<TEXT>u/profanitycounter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_749_0</DOCNO>
+            	<TEXT>Hello r/tf2, can you rate this guy's loadout</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_751_0</DOCNO>
+            	<TEXT>remindme 5d Let me know how it goes!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_752_0</DOCNO>
+            	<TEXT>you said don't need a pc</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_753_0</DOCNO>
+            	<TEXT>https://www.reddit.com/r/minecraftsuggestions/comments/r0pur5/totems_of_undying_balancing/?utm_medium=android_app amp;utm_source=share</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_754_0</DOCNO>
+            	<TEXT>The problem about steam was already fixed months before the video was uploaded</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_757_0</DOCNO>
+            	<TEXT>.maybe they use the USB for storage</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_758_0</DOCNO>
+            	<TEXT>I can't afford a n64.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_758_1</DOCNO>
+            	<TEXT>I've only seen them on YouTube.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_758_2</DOCNO>
+            	<TEXT>So, Mario 64 and melee</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_759_0</DOCNO>
+            	<TEXT>Epic and real</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_761_0</DOCNO>
+            	<TEXT>C:WindowsSystem32: file not found Backslash is for escaping.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_761_1</DOCNO>
+            	<TEXT>You have to use double backslashes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_761_2</DOCNO>
+            	<TEXT>Also, I use Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_762_0</DOCNO>
+            	<TEXT>C runs on everything</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_763_0</DOCNO>
+            	<TEXT>Yes Edit: for example, you can write a mass moving tool in 5 seconds, instead of using a GUI program</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_764_0</DOCNO>
+            	<TEXT>Start a terminal, type `man man`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_764_1</DOCNO>
+            	<TEXT>Read it, and type `man bash`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_764_2</DOCNO>
+            	<TEXT>The manual page is the best resource for bash.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_766_0</DOCNO>
+            	<TEXT>Woah circuit10, I know that guy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_767_0</DOCNO>
+            	<TEXT>I don't know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_767_1</DOCNO>
+            	<TEXT>I personally don't like zsh.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_767_2</DOCNO>
+            	<TEXT>Strong preference of bash over zsh.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_767_3</DOCNO>
+            	<TEXT>I hate fish even more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_768_0</DOCNO>
+            	<TEXT>But they are added by the compiler, so you don't need to add them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_769_0</DOCNO>
+            	<TEXT>Lmao (wrong entry in fstab)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_770_0</DOCNO>
+            	<TEXT>Fuck that shit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_770_1</DOCNO>
+            	<TEXT>ISO8601 for life</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_771_0</DOCNO>
+            	<TEXT>Only like one twentieth of the world says that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_772_0</DOCNO>
+            	<TEXT>I get 8000 with iGPU and 600 with r5 m330</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_773_0</DOCNO>
+            	<TEXT>The same way you install it on Ubuntu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_773_1</DOCNO>
+            	<TEXT>Make sure to have an up to date system.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_775_0</DOCNO>
+            	<TEXT>I had larger commits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_775_1</DOCNO>
+            	<TEXT>I was committing JSON files.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_775_2</DOCNO>
+            	<TEXT>One, two, four million line commits</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_776_0</DOCNO>
+            	<TEXT>Happy cake day</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_777_0</DOCNO>
+            	<TEXT>No to violence against women</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_778_0</DOCNO>
+            	<TEXT>Install Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_780_0</DOCNO>
+            	<TEXT>Aka your mom</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_781_0</DOCNO>
+            	<TEXT>I am INTP Just a very techy one</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_782_0</DOCNO>
+            	<TEXT>"The safeword is police brutality " - guess</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_783_0</DOCNO>
+            	<TEXT>This isn't a free game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_784_0</DOCNO>
+            	<TEXT>Not a stroke</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_785_0</DOCNO>
+            	<TEXT>Xubuntu Edit: use Ubisoft connect via Lutris and use Heroic Games Launcher instead of epic</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_786_0</DOCNO>
+            	<TEXT>Fuck globox</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_787_0</DOCNO>
+            	<TEXT>Welcome to r/fuckglobox</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_787_1</DOCNO>
+            	<TEXT>GLOBOX is a shitty company that makes cheap school/workplace stuff, including but not limited to, pens, erasers and even calculators.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_787_2</DOCNO>
+            	<TEXT>The problem is, the quality of these items are extremely low.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_787_3</DOCNO>
+            	<TEXT>I have disassembled around 30 unique globox pens multiple times to fix them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_788_0</DOCNO>
+            	<TEXT>Abbreviated</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_789_0</DOCNO>
+            	<TEXT>r/fuckglobox</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_790_0</DOCNO>
+            	<TEXT>I already threw most of my globox pens away.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_790_1</DOCNO>
+            	<TEXT>Or are these technically pencils?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_790_2</DOCNO>
+            	<TEXT>Anyways, fuck GLOBOX.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_791_0</DOCNO>
+            	<TEXT>Did you now that you can use the thinner, tube pens as a weapon?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_791_1</DOCNO>
+            	<TEXT>they can shoot the tip</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_792_0</DOCNO>
+            	<TEXT>Siktir amk Fuck off and fuck you</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_793_0</DOCNO>
+            	<TEXT>OpenRC has pretty colors</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_796_0</DOCNO>
+            	<TEXT>i dont like em</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_797_0</DOCNO>
+            	<TEXT>Mental outlaw, forgotten weapons, atomic shrimp, uamee...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_800_0</DOCNO>
+            	<TEXT>Most played game - Growtopia, 1734 hours Most played Steam game - TF2, 800-900 hours Second \^ - GMOD, ~500 hours</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_801_0</DOCNO>
+            	<TEXT>That's not what free software is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_802_0</DOCNO>
+            	<TEXT>Not necessarily.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_802_1</DOCNO>
+            	<TEXT>You can sell your own free software.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_802_2</DOCNO>
+            	<TEXT>You only need to provide source to those who paid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_803_0</DOCNO>
+            	<TEXT>You have a worse taste.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_807_0</DOCNO>
+            	<TEXT>I am still poor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_808_0</DOCNO>
+            	<TEXT>I can't tell if this is satire or not</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_809_0</DOCNO>
+            	<TEXT>Friendly reminder that Mint-X is still there</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_810_0</DOCNO>
+            	<TEXT>r/fuckwheatley</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_811_0</DOCNO>
+            	<TEXT>British and annoying</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_812_0</DOCNO>
+            	<TEXT>Skill issue</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_813_0</DOCNO>
+            	<TEXT>That is facts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_814_0</DOCNO>
+            	<TEXT>I am bad with jokes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_816_0</DOCNO>
+            	<TEXT>I use gitlab and was able to push the whole day</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_818_0</DOCNO>
+            	<TEXT>Unturned Who is the main character?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_818_1</DOCNO>
+            	<TEXT>If it's me from the last server I was in, I'm easily outta there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_819_0</DOCNO>
+            	<TEXT>Cuz they all have HD stuff now I think</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_820_0</DOCNO>
+            	<TEXT>Sven coop also has HD icon, but idk if you can count that, as it has it's own engine based on goldsrc now</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_821_0</DOCNO>
+            	<TEXT>Unturned, TF2, CS  amp; CS:S, krunker</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_823_0</DOCNO>
+            	<TEXT>Correct, but fuck MBR, UEFI ftw</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_824_0</DOCNO>
+            	<TEXT>It won't work</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_825_0</DOCNO>
+            	<TEXT>Write me a MBR hello world application and run it in a VM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_825_1</DOCNO>
+            	<TEXT>Record the process and send it to me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_827_0</DOCNO>
+            	<TEXT>Sorry, that fried the microcontroller</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_828_0</DOCNO>
+            	<TEXT>Still waiting</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_829_0</DOCNO>
+            	<TEXT>People who suggest removing Linux support to counter bots don't know how games or operating systems work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_829_1</DOCNO>
+            	<TEXT>That's the exact same as saying "Remove Windows support to counter cheaters".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_829_2</DOCNO>
+            	<TEXT>Not all cheaters use Windows, and that will hurt valve's reputation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_830_0</DOCNO>
+            	<TEXT>Unturned, how do I win?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_831_0</DOCNO>
+            	<TEXT>It's a fair comparison and I don't host bots.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_831_1</DOCNO>
+            	<TEXT>I play legitimately.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_832_0</DOCNO>
+            	<TEXT>remindme 10h</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_834_0</DOCNO>
+            	<TEXT>It's better than Windows</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_835_0</DOCNO>
+            	<TEXT>How dense are you I didn't state my opinion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_835_1</DOCNO>
+            	<TEXT>Playing TF2 on Linux is better than playing on Windows.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_836_0</DOCNO>
+            	<TEXT>Tons of other people I know also do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_836_1</DOCNO>
+            	<TEXT>The experience is straight up better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_836_2</DOCNO>
+            	<TEXT>I see around (average) 1.5 Linux users per game</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_837_0</DOCNO>
+            	<TEXT>remindme 8h</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_839_0</DOCNO>
+            	<TEXT>FUCKYEAFUCKYEAFUCKYEA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_840_0</DOCNO>
+            	<TEXT>I lag in Terraria</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_842_0</DOCNO>
+            	<TEXT>I have over 90 crab banners</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_843_0</DOCNO>
+            	<TEXT>Please fuck yourself</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_844_0</DOCNO>
+            	<TEXT>What am I supposed to see?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_845_0</DOCNO>
+            	<TEXT>Double tap to</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_847_0</DOCNO>
+            	<TEXT>I wish I had a real CPU.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_847_1</DOCNO>
+            	<TEXT>I'm stuck with an intel power saving CPU.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_847_2</DOCNO>
+            	<TEXT>My friend who owns a ryzen has recommended me to buy one for my next rig.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_847_3</DOCNO>
+            	<TEXT>He just gets so much more out of his computer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_847_4</DOCNO>
+            	<TEXT>We are bot h Linux nerds and he crushes my compile speed so much that I sometimes have to ask him to compile stuff for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_848_0</DOCNO>
+            	<TEXT>Please stop</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_849_0</DOCNO>
+            	<TEXT>AmogOS guy here, please don't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_849_1</DOCNO>
+            	<TEXT>But if you do, get them in touch with me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_850_0</DOCNO>
+            	<TEXT>"Wait, I'm an actor taking a lunch br-"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_851_0</DOCNO>
+            	<TEXT>u/circuit10 dude why are you everywhere, ur in so many great projects i swear ur all over github</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_852_0</DOCNO>
+            	<TEXT>Dev in prismarinejs and I forgor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_854_0</DOCNO>
+            	<TEXT>Actually just one word is missing, distro</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_856_0</DOCNO>
+            	<TEXT>I am a programmer and a gamer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_856_1</DOCNO>
+            	<TEXT>Pieces of my keyboard are broken off and half of the keycaps are blank now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_860_0</DOCNO>
+            	<TEXT>print(str(int(input() * .69)))</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_862_0</DOCNO>
+            	<TEXT>"That's not a full stack dev, that's the whole IT department"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_863_0</DOCNO>
+            	<TEXT>As the guy in the main thread said, C is closer to Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_864_0</DOCNO>
+            	<TEXT>Chinese people are weak to electricity</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_865_0</DOCNO>
+            	<TEXT>remindme 4 months</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_866_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_868_0</DOCNO>
+            	<TEXT>Looks like inconsolata</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_869_0</DOCNO>
+            	<TEXT>1 GB = 1000 MB 1023MB is 1.023 gigs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_870_0</DOCNO>
+            	<TEXT>Me working on an AI tech support bot, sign language translator and website at the same time:</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_871_0</DOCNO>
+            	<TEXT>Only 32 bit integers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_871_1</DOCNO>
+            	<TEXT>I can name 2 languages where that's the default and 3 where it's not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_872_0</DOCNO>
+            	<TEXT>K, M and G refer to KiBs, MiBs and GiBs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_872_1</DOCNO>
+            	<TEXT>You are correct.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_872_2</DOCNO>
+            	<TEXT>But not about the "only use is to scam you" part.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_872_3</DOCNO>
+            	<TEXT>They are just way more intuitive lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_872_4</DOCNO>
+            	<TEXT>You don't store bytes in chunks of 8 do you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_873_0</DOCNO>
+            	<TEXT>I don't mind wet sleeves or socks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_874_0</DOCNO>
+            	<TEXT>I laugh during serious shit</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_875_0</DOCNO>
+            	<TEXT>With my total of 10 days of constant learning about better energy sources, can confirm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_876_0</DOCNO>
+            	<TEXT>I'm defeated</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_877_0</DOCNO>
+            	<TEXT>Already does</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_880_0</DOCNO>
+            	<TEXT>No, just getting yelled at is funny to me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_881_0</DOCNO>
+            	<TEXT>Harry Potter  amp; the same thing I am a programmer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_882_0</DOCNO>
+            	<TEXT>mv $(which $OP) /dev/null</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_883_0</DOCNO>
+            	<TEXT>Eat a slice of cake and play games at home.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_883_1</DOCNO>
+            	<TEXT>I fucking hate parties</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_884_0</DOCNO>
+            	<TEXT>Yes but literally no one checks their mail on Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_885_0</DOCNO>
+            	<TEXT>Use heroic games launcher for epic</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_886_0</DOCNO>
+            	<TEXT>I don't think you understand that dd literally just copies bytes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_886_1</DOCNO>
+            	<TEXT>You can choose any output for it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_887_0</DOCNO>
+            	<TEXT>It works the same way</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_889_0</DOCNO>
+            	<TEXT>[Works on my machine](https://media.discordapp.net/attachments/913441142744436786/916791721692626985/Screenshot_20211204-234058.png)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_890_0</DOCNO>
+            	<TEXT>Well I only have reddit</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_892_0</DOCNO>
+            	<TEXT>autocpu-freq or something I forgor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_893_0</DOCNO>
+            	<TEXT>Then you move to PCRE and start over `you \K\w+ \w+ \w+`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_894_0</DOCNO>
+            	<TEXT>Wait till you hear about KDE</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_896_0</DOCNO>
+            	<TEXT>Bash users be like condition1  amp; amp; condition2  amp; amp; do_anything || do_anything_2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_899_0</DOCNO>
+            	<TEXT>For HTML its good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_899_1</DOCNO>
+            	<TEXT>For JS, it's heavily outdated</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_900_0</DOCNO>
+            	<TEXT>If you are "just browsing", you don't need a firewall</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_902_0</DOCNO>
+            	<TEXT>Sadece hafta sonlarnda</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_906_0</DOCNO>
+            	<TEXT>What to do while waiting for friends to get ready for WoF?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_906_1</DOCNO>
+            	<TEXT>I'm a ranger with the hellstone weapons and necro armor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_906_2</DOCNO>
+            	<TEXT>Also, look at this cool tree branch I found while walking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_907_0</DOCNO>
+            	<TEXT>Well we're gonna do that anyways, not my first WoF. I have warding and menacing basic stuff like duneriders, climbing claws, tsunami, rocket boots and I forgor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_908_0</DOCNO>
+            	<TEXT>Already have those potions</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_911_0</DOCNO>
+            	<TEXT>I can only build rectangles</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_912_0</DOCNO>
+            	<TEXT>Already did</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_913_0</DOCNO>
+            	<TEXT>Alright thanks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_913_1</DOCNO>
+            	<TEXT>I totally forgot about shroomite</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_914_0</DOCNO>
+            	<TEXT>Already have</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_915_0</DOCNO>
+            	<TEXT>I am not a cheeseburger, is that good or bad?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_915_1</DOCNO>
+            	<TEXT>That would be am amazing salary here in Turkey</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_916_0</DOCNO>
+            	<TEXT>Thanks uhh I got bored of farming BoC, EoC and King Slime, what else to do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_917_0</DOCNO>
+            	<TEXT>A guy still uses the silver armor I gave him, the owner uses wooden armor with hellstone gear, one played for 10 minutes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_917_1</DOCNO>
+            	<TEXT>Only 2 people are ready.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_918_0</DOCNO>
+            	<TEXT>Private server running 24/7</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_919_0</DOCNO>
+            	<TEXT>I just checked, it's gone</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_920_0</DOCNO>
+            	<TEXT>I want to be in Germany if that's the *bad* salary</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_921_0</DOCNO>
+            	<TEXT>I mean I know half</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_922_0</DOCNO>
+            	<TEXT>Ext4, also you shouldn't be using the advanced partitioner if you don't know what filesystem is what</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_923_0</DOCNO>
+            	<TEXT>MPV, celluloid for a more familiar gui</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_924_0</DOCNO>
+            	<TEXT>Cancer.. Does not work like that AIDS is the disease, not the virus COVID is the disease, not the virus We have a SARS-COV-2 vaccine</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_925_0</DOCNO>
+            	<TEXT>Take your age You can leave it now</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_926_0</DOCNO>
+            	<TEXT>All they have to do is change one variable in the code and it's impossible to detect</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_927_0</DOCNO>
+            	<TEXT>Go after the GPU and CPU miners Please leave FPGA and ASIC guys alone, they are just trying to make a living</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_929_0</DOCNO>
+            	<TEXT>Brave for local sync</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_930_0</DOCNO>
+            	<TEXT>40 W Main St, Weiser, ID 83672, United States</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_931_0</DOCNO>
+            	<TEXT>I feel you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_931_1</DOCNO>
+            	<TEXT>Our cat caught FIP (deadly) somehow and we didn't have the money or drugs to treat it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_931_2</DOCNO>
+            	<TEXT>We had to collect donations and buy the drugs from a shady importer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_931_3</DOCNO>
+            	<TEXT>He survived in the end with no permanent effects.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_932_0</DOCNO>
+            	<TEXT>WHY DID I NOT KNOW THIS</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_933_0</DOCNO>
+            	<TEXT>Thanks, it has been over a year since it happened.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_933_1</DOCNO>
+            	<TEXT>It was hell for the entire family for 4 months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_934_0</DOCNO>
+            	<TEXT>Ever heard of Linux?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_937_0</DOCNO>
+            	<TEXT>I remember last year's stream.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_938_0</DOCNO>
+            	<TEXT>Live in Istanbul Traffic 7 hours with public transport 4 hours to drive to work 1 hour biking 15 minutes metro</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_940_0</DOCNO>
+            	<TEXT>Kilometerstone is an actual term</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_942_0</DOCNO>
+            	<TEXT>I know you...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_943_0</DOCNO>
+            	<TEXT>Not mod but #2 most active</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_945_0</DOCNO>
+            	<TEXT>Yeah switch turkey and bulgaria</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_946_0</DOCNO>
+            	<TEXT>Are you using windows as a server?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_949_0</DOCNO>
+            	<TEXT>Same, but we also use it for the snow go downhill thing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_950_0</DOCNO>
+            	<TEXT>I stay away from drugs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_950_1</DOCNO>
+            	<TEXT>For that I get high by myself very day somehow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_950_2</DOCNO>
+            	<TEXT>I need to get that checked out but idk how to explain to a doctor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_952_0</DOCNO>
+            	<TEXT>If not properly cooled, running your drivers can kill your gpu</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_953_0</DOCNO>
+            	<TEXT>JS is hard, I only claim myself fluent after years of usage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_957_0</DOCNO>
+            	<TEXT>Feels unneeded</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_958_0</DOCNO>
+            	<TEXT>Use a good reddit client like infinity</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_959_0</DOCNO>
+            	<TEXT>Already did</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_960_0</DOCNO>
+            	<TEXT>AFAIK the portal gun needs an adequately reflective surface</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_962_0</DOCNO>
+            	<TEXT>Steam Locomotive</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_963_0</DOCNO>
+            	<TEXT>Bought the what</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_964_0</DOCNO>
+            	<TEXT>https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/37671820677580934710204041891024224444446674550980541402173156557336501813249</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_965_0</DOCNO>
+            	<TEXT>I'm the guy who made this one, had never been accepting donations or selling merch from this project.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_965_1</DOCNO>
+            	<TEXT>I published the iso on a private google drive, only people who ask me personally for the link OR in the discord get it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_965_2</DOCNO>
+            	<TEXT>edit if you want to support me you can do that by removing windows, or sending me money lmao</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_966_0</DOCNO>
+            	<TEXT>monero 49NvxcaBbvEQX3dKmJpvAmPech6UAdGx1YS6or6ekhyt77N7b3w7fYxTdBwLrXrMb1MXiStdQDegpVCjAFSiYF9TDodAJZc nano nano\_16zw673bzntrppkqsrptpyizk6ip1aomfcr39fqai7r4a1yy3cydgfor6mai ethereum 0x53497eB1A615a668524A2ca5d47EB73c8728FEE2 bitcoin bc1qrmd5e8cs4v2ghr9an53pascde32e04zu685mwq</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_967_0</DOCNO>
+            	<TEXT>Keyword: live</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_968_0</DOCNO>
+            	<TEXT>This guy golfs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_969_0</DOCNO>
+            	<TEXT>I have like double the control amount and still happens</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_971_0</DOCNO>
+            	<TEXT>It's been months and I'm still not</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_972_0</DOCNO>
+            	<TEXT>Eh I have 3 knees, I'll gladly give you one /srs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_973_0</DOCNO>
+            	<TEXT>Oh my fucking god mine actually did.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_973_1</DOCNO>
+            	<TEXT>Thanks for the reminder, I'll start opening the golden chest</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_974_0</DOCNO>
+            	<TEXT>Oh my fucking god mine actually did.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_974_1</DOCNO>
+            	<TEXT>Thanks for the reminder, I'll start opening the golden chest</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_975_0</DOCNO>
+            	<TEXT>I didn't expect to see you in r/all lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_976_0</DOCNO>
+            	<TEXT>Two kneecaps in right leg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_977_0</DOCNO>
+            	<TEXT>Can you guys help me identify this flag?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_978_0</DOCNO>
+            	<TEXT>This is exactly what I did.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_978_1</DOCNO>
+            	<TEXT>Small personal website running on a shared server.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_978_2</DOCNO>
+            	<TEXT>JS + Express + EJS</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_979_0</DOCNO>
+            	<TEXT>Fucking painful</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_980_0</DOCNO>
+            	<TEXT>TFW my pi with custom window manager uses 50 mb of ram</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_981_0</DOCNO>
+            	<TEXT>I corrected multiple typos in a small project I did also do bigger things</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_983_0</DOCNO>
+            	<TEXT>Assuming you are on Linux  amp; have FUSE, you can just open a file like `ftp://hostname/helloworld.c` or `sftp://hostname/helloworld.c`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_984_0</DOCNO>
+            	<TEXT>Eight keyboards</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_985_0</DOCNO>
+            	<TEXT>Where Linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_987_0</DOCNO>
+            	<TEXT>Mine has 0 buttons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_987_1</DOCNO>
+            	<TEXT>Just 2 dials for power and time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_987_2</DOCNO>
+            	<TEXT>It starts when you close the door</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_988_0</DOCNO>
+            	<TEXT>It's ETI not lker 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_988_1</DOCNO>
+            	<TEXT>It literally means "black"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_989_0</DOCNO>
+            	<TEXT>https://translate.google.com/?sl=es amp;tl=en amp;text=negro amp;op=translate</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_990_0</DOCNO>
+            	<TEXT>The biscuits are black...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_992_0</DOCNO>
+            	<TEXT>Windows... Pain</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_993_0</DOCNO>
+            	<TEXT>Fn key is not passed to the kernel Even if you rewrite HID, it'll work the same</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_995_0</DOCNO>
+            	<TEXT>I call my cloud vps admin, tell them to connect to my reverse ssh server and run one command</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_996_0</DOCNO>
+            	<TEXT>What are you supposed to download stuff into?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_997_0</DOCNO>
+            	<TEXT>remindme 26 dec</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_998_0</DOCNO>
+            	<TEXT>Cinnamon can use your GPU well</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_999_0</DOCNO>
+            	<TEXT>Squirrel stapler</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1002_0</DOCNO>
+            	<TEXT>408, but I read tons of documentation every day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1002_1</DOCNO>
+            	<TEXT>I also type 3x faster than the average person.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1003_0</DOCNO>
+            	<TEXT>Are you using an LCD monitor?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1003_1</DOCNO>
+            	<TEXT>It might be the LCD sub pixel option</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1004_0</DOCNO>
+            	<TEXT>Lebanon Georgia Belgium Turkey</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1006_0</DOCNO>
+            	<TEXT>Use the `init` boot-time kernel parameter Check out buildroot</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1007_0</DOCNO>
+            	<TEXT>are those the RSA guys</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1008_0</DOCNO>
+            	<TEXT>I did not know you were here as well</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1009_0</DOCNO>
+            	<TEXT>I just call it the super key, as it was intended</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1010_0</DOCNO>
+            	<TEXT>Outjerked yet again</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1012_0</DOCNO>
+            	<TEXT>My doctor told me to go to the psychiatrist</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1012_1</DOCNO>
+            	<TEXT>For my FUCKING STOMACHE Though, I do think that it will be useful</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1013_0</DOCNO>
+            	<TEXT>I don't have a crush I don't like women Edit: I do not like men either, I just don't like anyone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1015_0</DOCNO>
+            	<TEXT>Reddit microcelebrity</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1016_0</DOCNO>
+            	<TEXT>TFW when the handmedown of the handmedown of the handmedown is still better than me GPU</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1017_0</DOCNO>
+            	<TEXT>Gaming on ARM?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1019_0</DOCNO>
+            	<TEXT>You borked it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1021_0</DOCNO>
+            	<TEXT>I have discord, steam and Intel media drivers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1022_0</DOCNO>
+            	<TEXT>selfposting rule</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1023_0</DOCNO>
+            	<TEXT>Actually it's 8, just the default is 4 in soydev IDEs Source: I use vim and vscode</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1024_0</DOCNO>
+            	<TEXT>bitcoin isn't mined on the gpu tho</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1026_0</DOCNO>
+            	<TEXT>tf is a weighted blanket</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1027_0</DOCNO>
+            	<TEXT>spronkus is cum?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1028_0</DOCNO>
+            	<TEXT>I will resist</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1029_0</DOCNO>
+            	<TEXT>Why tf did people downvote this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1029_1</DOCNO>
+            	<TEXT>I'm right Bitcoin is mined on the CPU, but usually people buy power-efficient ASICs that do 1000000x what a CPU does.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1030_0</DOCNO>
+            	<TEXT>A blanket with dead weight?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1031_0</DOCNO>
+            	<TEXT>I'll do it I can do it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1032_0</DOCNO>
+            	<TEXT>I have to watch this @ home</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1037_0</DOCNO>
+            	<TEXT>Ice is good</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1038_0</DOCNO>
+            	<TEXT>Honestly heroku is good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1038_1</DOCNO>
+            	<TEXT>You can also consider getting a linode vps and setting up a few services to host it and ci to update it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1039_0</DOCNO>
+            	<TEXT>nano_16zw673bzntrppkqsrptpyizk6ip1aomfcr39fqai7r4a1yy3cydgfor6mai I used to use miner.host for mining ether with nano payouts but this is just far better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1041_0</DOCNO>
+            	<TEXT>Why do you exist</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1042_0</DOCNO>
+            	<TEXT>When needed</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1043_0</DOCNO>
+            	<TEXT>"Opposite sex" not required.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1043_1</DOCNO>
+            	<TEXT>I'd just want another version of myself to increase my programming throughput.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1044_0</DOCNO>
+            	<TEXT>This idea had a 1 in 1 chance of being recycled.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1045_0</DOCNO>
+            	<TEXT>I have an IHE near my house, I can make a spot if you want</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1048_0</DOCNO>
+            	<TEXT>i made this from scratch in 47 minutes lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1049_0</DOCNO>
+            	<TEXT>https://gitlab.com/alifurkany/evilai</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1050_0</DOCNO>
+            	<TEXT>Step 7: install linux</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1051_0</DOCNO>
+            	<TEXT>I FINALLY GOT THE WILDFIRE IN MY SOCK DRAWER UNDER CONTROL!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1052_0</DOCNO>
+            	<TEXT>There is always a relevant XKCD</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1053_0</DOCNO>
+            	<TEXT>yeah because it's a LASER</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1054_0</DOCNO>
+            	<TEXT>Need ID verification Source: had to put one up for my dying cat's medicine</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1055_0</DOCNO>
+            	<TEXT>Only 12 year olds do</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1057_0</DOCNO>
+            	<TEXT>Just use any VPS and set up VNC.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1057_1</DOCNO>
+            	<TEXT>My suggestion is linode</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1059_0</DOCNO>
+            	<TEXT>Around 8 GB</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1060_0</DOCNO>
+            	<TEXT>87% Vanilla 0% everything else</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1061_0</DOCNO>
+            	<TEXT>Read the readme</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1063_0</DOCNO>
+            	<TEXT>LMAOOOOO REPORT THIS TO MICROSOFT</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1065_0</DOCNO>
+            	<TEXT>Thatnksnlol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1066_0</DOCNO>
+            	<TEXT>Can you guys help me identify which flag this is?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_818_1067_0</DOCNO>
+            	<TEXT>KDE and dwm when im feeling down</TEXT>
+        </DOC>

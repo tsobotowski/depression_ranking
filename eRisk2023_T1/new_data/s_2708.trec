@@ -1,0 +1,1513 @@
+        <DOC>
+            	<DOCNO>s_2708_0_0</DOCNO>
+            	<TEXT>Thank you for your advice, and you are probably correct.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_0_1</DOCNO>
+            	<TEXT>However, I don't think any single one of my subclass ideas is worth sharing, but as a bundle they have some value through quantity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_1_0</DOCNO>
+            	<TEXT>Artificer: Planar Architect</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_1_1</DOCNO>
+            	<TEXT>Hello, I'm Somot and I like to make homebrew subclasses in my spare time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_1_2</DOCNO>
+            	<TEXT>I have a lot of these, and am going to post them as the cooldown allows.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_1_3</DOCNO>
+            	<TEXT>This one was one of the first I made a long time ago, and while it has some obviously broken mechanics, I still kind of like it for the interesting thematics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_1_4</DOCNO>
+            	<TEXT>I'm not familiar with this community or reddit at all, so if anyone can provide me guidance on how I should format my posts going forward I would appreciate it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_1_5</DOCNO>
+            	<TEXT> Here's a homebrew link if anyone wants a PDF: [https://homebrewery.naturalcrit.com/share/4kvusnOgMAMC](https://homebrewery.naturalcrit.com/share/4kvusnOgMAMC) https://preview.redd.it/z5c303mcrg271.png?width=918 amp;format=png amp;auto=webp amp;s=05734cce611fdf8f13076720db342b1757af802e</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_0</DOCNO>
+            	<TEXT>Hi there, I'm glad you like it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_1</DOCNO>
+            	<TEXT>I will take these questions in order: * *How easily can the frame be broken?*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_2</DOCNO>
+            	<TEXT>This is hard to quantify since "mundane construction materials" intentionally allows use of many different things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_3</DOCNO>
+            	<TEXT>Unfortunately this one has to be DM discretion, though I would use object HP as a reference: [https://roll20.net/compendium/dnd5e/Objects#content](https://roll20.net/compendium/dnd5e/Objects#content) * *If you have a spell that can now last indefinitely inside the portal, can you cause that spell effect to leave the portal?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_4</DOCNO>
+            	<TEXT>Using Create Bonfire, can you essentially have a mini fire bomb?* * *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_5</DOCNO>
+            	<TEXT>If you activate a spell with an instantaneous duration, how would that work with your plane?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_6</DOCNO>
+            	<TEXT>For example, could you have a wizard cast Fireball in the plane, and just carry it around until you need it?* * *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_7</DOCNO>
+            	<TEXT>Is there a limit on how many spell effects you can store in your plane?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_8</DOCNO>
+            	<TEXT>Could you, over the course of a week, have the wizard cast fireball at 9th level once per day, and when you fight the BBEG, unleash hell upon them?*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_9</DOCNO>
+            	<TEXT>These are explained in the same way, which is why I have grouped them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_10</DOCNO>
+            	<TEXT>While your portal frame can be moved, it becomes fixed in space similar to an immovable rod while a portal is in the frame.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_11</DOCNO>
+            	<TEXT>Due to this, it is near impossible to manipulate static effects into the outside world, as you would have to place the frame in a relevant location, and open a portal **on the spot** where a spell effect was taking place, thereby removing its duration-protection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_12</DOCNO>
+            	<TEXT>As for instantaneous spells, I think that is my mistake for not accounting for them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_13</DOCNO>
+            	<TEXT>Personally I would be fine with someone devising a way to "store" fireballs but how you could get them out without detonating them in is beyond me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_14</DOCNO>
+            	<TEXT>Due to their instant nature it seems what would happen is just an eternal fire in some corner of your plane (until you got tired of it and ended its effects).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_15</DOCNO>
+            	<TEXT>There's no numerical limit, but if the effects leave your plane in any way, they begin counting down duration and begin requiring your concentration to maintain. * *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_16</DOCNO>
+            	<TEXT>What happens to the portal when you summon your plane to the material plane?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_17</DOCNO>
+            	<TEXT>Does it simply become a portal to the location of the plane?*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_18</DOCNO>
+            	<TEXT>They would lead to the place that you banished to the ethereal plane.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_19</DOCNO>
+            	<TEXT>Or at least that was my original intention.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_20</DOCNO>
+            	<TEXT>I literally ran out of space on the page, and I'm okay with DMs coming up with their own consequences. * *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_21</DOCNO>
+            	<TEXT>What happens to the things or people inside the plane when the frame is destroyed or the portal is dispelled?*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_22</DOCNO>
+            	<TEXT>Oh they're just stuck until you open a new portal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_23</DOCNO>
+            	<TEXT>The plane itself, once established, exists forever.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_2_24</DOCNO>
+            	<TEXT>The frames are just doors to get there, and are not necessary to its existence.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_3_0</DOCNO>
+            	<TEXT>Barbarian: Path of Subjugation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_3_1</DOCNO>
+            	<TEXT>This one focuses on taking trophies from creatures and uses the CR of that creature for their features.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_3_2</DOCNO>
+            	<TEXT>The capstone is pretty exciting, unfortunate that most campaigns never make it to 14th level, haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_3_3</DOCNO>
+            	<TEXT>Edit: Hmm, seems I still don't know how this website works, the image didn't work the first time, I tried to add it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_3_4</DOCNO>
+            	<TEXT>https://preview.redd.it/e6ra7m6vf1471.png?width=918 amp;format=png amp;auto=webp amp;s=eb547afb89e4965f7e845deacfee237c508ec0f4</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_0</DOCNO>
+            	<TEXT>Very insightful!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_1</DOCNO>
+            	<TEXT>I suppose I just like to break tradition where I can with regards to the 3rd level ability not interacting with Rage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_2</DOCNO>
+            	<TEXT>I have never liked the idea of a Barbarian's Rage feature turning off so many of their features once you've run out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_3</DOCNO>
+            	<TEXT>Perhaps I consider it the "cantrip vs spell slot" balance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_4</DOCNO>
+            	<TEXT> Grim countenance used to be much more bombastic, but was toned back after I got feedback on it. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_5</DOCNO>
+            	<TEXT>the save DC used to scale with trophy CR, for example) I think most martials in general could use more ability uses, but I didn't want to make something blatantly stronger that what WotC puts out themselves.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_6</DOCNO>
+            	<TEXT> Savage Lore was the original capstone of the class until I came up with what's there now, I think you're right, I probably should have fit a Utility skill in there somehow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_7</DOCNO>
+            	<TEXT> I think the strength of Dread Knowledge lies in its possibilities, it's one of my favorite abilities that I've designed thus far, even if that seems a bit egotistical!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_4_8</DOCNO>
+            	<TEXT> Thank you for taking the time to review my homebrew, and for the feedback!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_5_0</DOCNO>
+            	<TEXT>Sylvari race from GW2 (Guild Wars 2)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_0</DOCNO>
+            	<TEXT>Really appreciate your feedback, especially given how well thought out your criticisms are. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_1</DOCNO>
+            	<TEXT>Edit:** And I agree, D amp;D needs plant people, perhaps they need specifically my favorite plant people!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_2</DOCNO>
+            	<TEXT>I arrived at 3 temp hp for the Take Root feature after a lot of feedback, and considering the strength of the other abilities I decided less power in that ability would let me do more in the abilities where more flavor could be derived.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_3</DOCNO>
+            	<TEXT>I had originally included the book and page numbers for the referenced creatures, but removed them since I thought they made the paragraph seem cluttered.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_4</DOCNO>
+            	<TEXT>I realize now I should have left them in for obvious reasons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_5</DOCNO>
+            	<TEXT>In my games summons have always been on the extreme end of usefulness due to the inherent utility of an extra actor, be it for puzzles, ambushes, or information gathering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_6</DOCNO>
+            	<TEXT>The slingers can be "indistinguishable" from nearby terrain which lends a lot of utility, and since medium creatures can often brute-force a lot of problems, I don't think the Thorny loses out either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_7</DOCNO>
+            	<TEXT>So while I agree they are weak in combat and scaling, I have hopes someone could find a creative use for them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_8</DOCNO>
+            	<TEXT>Also, they are non-concentration summons, which I don't think is super-precedented!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_6_9</DOCNO>
+            	<TEXT>You've given me a lot to think about, so thank you again for your response.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_7_0</DOCNO>
+            	<TEXT>Well at it's core I also think of 5e as a combat sim, since those are its roots.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_7_1</DOCNO>
+            	<TEXT>The lack of communication available to the summons is another mini-puzzle in my personal opinion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_7_2</DOCNO>
+            	<TEXT>As an Artificer for example, I embedded my homunculus servant with some pebbles imbued with Magical Tinkering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_7_3</DOCNO>
+            	<TEXT>My Homunculus was then capable of limited communication by activating the pebbles for recorded responses to simple yes or no questions, as well as able to vocally alert us to danger.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_7_4</DOCNO>
+            	<TEXT>While it would seem thematic to have something like an always-on ability to speak to plants for a plant person (which was one of my considered racial traits) I decided to keep more to what the Sylvari could do in the actual GW2 games, since I thought that would be more pleasing to any fans of the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_8_0</DOCNO>
+            	<TEXT>Bard subclass: College of Magicians (reupload)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_9_0</DOCNO>
+            	<TEXT>Apologies for the re-upload, I had a last second idea to make one of the abilities more flavorful, as well as noticed a spelling mistake.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_10_0</DOCNO>
+            	<TEXT>Alchemist Experimental Elixer replacement feature: Potions Master</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_11_0</DOCNO>
+            	<TEXT>Thank you, I'm glad you like it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_11_1</DOCNO>
+            	<TEXT>I really wanted to love the Alchemist subclass, but always felt the 3rd level feature left a lot to be desired.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_11_2</DOCNO>
+            	<TEXT>Clarifying their duration as lasting 24 hours would be a bit overboard in my opinion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_11_3</DOCNO>
+            	<TEXT>I think a DM could include appropriate consequences for an Alchemist that's grifting the local shops, and could be an interesting story beat.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_11_4</DOCNO>
+            	<TEXT>One might, for example, make a similar claim about the original Experimental Elixer feature, which could be used to cheat shops in a similar manner.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_12_0</DOCNO>
+            	<TEXT>I'm afraid they have to be Artificer spell slots.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_13_0</DOCNO>
+            	<TEXT>That is certainly true!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_13_1</DOCNO>
+            	<TEXT>I do think homebrew should be forgiven for taking advantage of mechanics that aren't yet introduced though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_13_2</DOCNO>
+            	<TEXT>There's some indirect precedents within the Warlock class for similar wording conventions, though as you pointed out these wording conventions aren't present in classes that have the Spellcasting feature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_13_3</DOCNO>
+            	<TEXT>I'll just have to beg indulgence on this one, since it was a much more elegant solution than my first attempt, which read something like "Creating a potion with this feature requires a minimum number of levels in the Artificer class" and then matching the level requirements to the artificer spell slot advancement levels.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_13_4</DOCNO>
+            	<TEXT>It was just too ugly on the page, I couldnt stand it, haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_14_0</DOCNO>
+            	<TEXT>Cleric Subclass: the Forgotten Domain</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_15_0</DOCNO>
+            	<TEXT>I actually got the opposite feedback while designing it, haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_15_1</DOCNO>
+            	<TEXT>Everyone said the 17th level feature was terrible, until I pointed out that all cleric 17th level features were equally underwhelming.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_16_0</DOCNO>
+            	<TEXT>That's a really good idea, and I wish I had thought of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_16_1</DOCNO>
+            	<TEXT>I think I went for a CON save as a method of balancing the ability, since all concentration checks are CON, maybe a DM wouldn't want the extra headache of giving their spellcasters a way to offset the presence of this ability? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_16_2</DOCNO>
+            	<TEXT>I made this a long time ago)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_0</DOCNO>
+            	<TEXT>Although it's my creation, I definitely agree with you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_1</DOCNO>
+            	<TEXT>Game Proficiency is a ribbon ability, so doesn't need to be strong, and now that you point it out, I completely agree that Just Like Magic should enhance Performance rather than Acrobatics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_2</DOCNO>
+            	<TEXT>I think I was in the mindset of considering an escape artist, sort of a Houdini vibe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_3</DOCNO>
+            	<TEXT>I disagree with reducing the options in Pick a Card, as randomness is one of the few restrictive factors in the ability.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_4</DOCNO>
+            	<TEXT>I do agree with nerfing it in general, but as I'm looking at it I think reducing its uses per day to something like Prof Bonus or even half Prof Bonus could bring it in line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_5</DOCNO>
+            	<TEXT>As for the selected spells, the beauty of the ability is, I think, in the control it gives the DM, not the player.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_6</DOCNO>
+            	<TEXT>Many of the more impressive options are DM discretion in terms of usefulness.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_17_7</DOCNO>
+            	<TEXT>I'm not saying the class is balanced yet, but I think a lot of DMs might be thrilled to have this at their table once it is, as the random elements can help them control certain encounters from a new angle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_18_0</DOCNO>
+            	<TEXT>It was worded that way to indicate when the reaction was to take place.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_18_1</DOCNO>
+            	<TEXT>Without specific wording an argument could be made that you have to make your reaction before the roll.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_18_2</DOCNO>
+            	<TEXT>There are conventions that append "You make this reaction when..." but I thought that seemed even more clunky.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_19_0</DOCNO>
+            	<TEXT>Druid Subclass: Circe of Ouroboros</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_20_0</DOCNO>
+            	<TEXT>Fighter Subclass: Purple Dragon Knight (re-imagined)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_21_0</DOCNO>
+            	<TEXT>Monk Subclass: Way of Study</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_22_0</DOCNO>
+            	<TEXT>It was intended, since spellcasting would normally remove a monk's anilitynto use their excellent bonus actions, and dumping all your ki isnt truly all that appealing, HOWEVER since tashas released monk has an option to bonus attack when expending ki, so I find it reasonable to dial back the power of the spellcasting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_22_1</DOCNO>
+            	<TEXT>Thank you for the excellent feedback.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_23_0</DOCNO>
+            	<TEXT>Reasonable, but I'd like to find a solution to allow them to cast at 9th level when casters might normally gain that ability at 17th level, just for the cool factor</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_24_0</DOCNO>
+            	<TEXT>Nice Avatar.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_24_1</DOCNO>
+            	<TEXT>That's reasonable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_24_2</DOCNO>
+            	<TEXT>With TCE's release, monk is now considered the weakest class without much debate to the contrary, but my vision for this particular class would be of someone who earned their mastery with hard-won effort, which couldn't really reflect an ease of swapping tool proficiencies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_24_3</DOCNO>
+            	<TEXT>That said, the beauty of homebrew is being more inherently malleable, and anyone who wanted that to be a feature in accordance with their own vision would have my blessing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_25_0</DOCNO>
+            	<TEXT>Ophylea's Curios, a shop of whacky homebrew items that never saw the light of day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_26_0</DOCNO>
+            	<TEXT>Paladin Subclass: Oath of Exploration</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_27_0</DOCNO>
+            	<TEXT>I agree wholeheartedly, but I chose to word it that way for a very important reason: it sounds rad!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_27_1</DOCNO>
+            	<TEXT>I don't recall which subclass it was, but I came across another feature that was worded in a similar way, and I couldn't help but want to imitate it for the impact of such succinct wording. :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_28_0</DOCNO>
+            	<TEXT>Ranger Subclass: Marine Outrider</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_29_0</DOCNO>
+            	<TEXT>Rogue Subclass: The Daredevil</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_0</DOCNO>
+            	<TEXT>Thank you very much for your response!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_1</DOCNO>
+            	<TEXT>I'll make that edit to the wording you've suggested, I felt it was a bit clunky myself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_2</DOCNO>
+            	<TEXT>I have some reservations as to whether Adrenaline Rush is overtuned, or whether Champion's Survivor is actually undertuned... That said, I do my best to try and support the source material, so I certainly don't mind scaling back Adrenaline Rush, but I do think there are some mitigating factors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_3</DOCNO>
+            	<TEXT>Fighters are more typically frontliners, with a higher hit die, as well as Heavy Armor proficiency.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_4</DOCNO>
+            	<TEXT>As someone with a bit of a hobby in numbers where they interact in tactics and wargames, I have found that sources of defense stack multiplicatively, rather than additively.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_5</DOCNO>
+            	<TEXT>So while the Champion may have the lower "healing factor", it is in fact, far more powerful on him than if an equivalent feature were to be given to a Rogue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_6</DOCNO>
+            	<TEXT>That said, out of resect for the WotC conventions, I don't mind reducing Adrenaline Rush, but I think reducing it to Champion numbers would be disingenuous on my part, and I will likely go for a safe compromise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_7</DOCNO>
+            	<TEXT>In any event, thank you again for your detailed and thoughtful response, I will seriously consider what you've said. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_30_8</DOCNO>
+            	<TEXT>Edit**: just a follow up, I've settled on... * Adrenaline Rush: \[Con mod + prof bonus\] * Double down: \[twice Con mod + prof bonus\]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_31_0</DOCNO>
+            	<TEXT>Sorcerer Subclass: Twin Soul Origin</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_32_0</DOCNO>
+            	<TEXT>That's a very interesting idea.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_32_1</DOCNO>
+            	<TEXT>Off the top of my head it could be attached to the Independence abilities in increments of 8 hours, achieving 24 hours at level 18.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_32_2</DOCNO>
+            	<TEXT>I'd have to think about it from a balance perspective, this subclass is already strong as heck with what is essentially a stealth mage-turret that uses your own resources.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_32_3</DOCNO>
+            	<TEXT>There's something to be said for becoming corporeal having the downside of making the spirit vulnerable to enemy detection, but that's heavily outweighed by the options presented by an easily "sacrificed", resummonable player-character.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_32_4</DOCNO>
+            	<TEXT>The original 18th level ability was of course built as a sort of story-beat, the fact that your bro which had been with you the whole time could maybe, finally, find it's own happiness.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_33_0</DOCNO>
+            	<TEXT>That could certainly be the reason for a character's sorcerous origin.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_33_1</DOCNO>
+            	<TEXT>I recall someone telling me a story of a character that was a warforged housing a mother and child's soul, after a one tried to resurrect the other, they were "punished" by having their soul forced into the construct body they had created to house the resurrected soul.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_33_2</DOCNO>
+            	<TEXT>I recall the character had a bittersweet ending with one of the souls voluntarily going to the afterlife to exchange themselves for another party member that had died in the campaign.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_35_0</DOCNO>
+            	<TEXT>You are not wrong, and I completely understand your trepidation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_35_1</DOCNO>
+            	<TEXT>I submit that homebrew should always be at DM discretion, and that any DM that gives a player such a powerful class should hope he can trust that player not to abuse it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_35_2</DOCNO>
+            	<TEXT>Also, all level 1 dipping is bad, I cannot be convinced otherwise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_36_0</DOCNO>
+            	<TEXT>Here's one with the background: [~~https://homebrewery.naturalcrit.com/share/1-6X4j3lUDuoFQnnmK5A3VG6aX3JGz7nZRfM4uOL2qHWU~~](https://homebrewery.naturalcrit.com/share/1-6X4j3lUDuoFQnnmK5A3VG6aX3JGz7nZRfM4uOL2qHWU) And without in case you're into printing: [~~https://homebrewery.naturalcrit.com/share/1ptpBcdcZj9Nk2TeWtb8rGzXC-adyhAfiNwx0kaqyh\_gf~~](https://homebrewery.naturalcrit.com/share/1ptpBcdcZj9Nk2TeWtb8rGzXC-adyhAfiNwx0kaqyh_gf)  **Edit**: Clearing clutter on my Homebrewery page, [here is a link](https://homebrewery.naturalcrit.com/share/7F9u9WCqIsEt) to the subclass series which this is a part of.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_37_0</DOCNO>
+            	<TEXT>17th-20th level is the place where the ridiculous happens, and it seemed an appropriately ridiculous ability.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_38_0</DOCNO>
+            	<TEXT> gt;I don't think it's possible not to abuse this, apart from just ignoring your abilities I believe that balancing is my job as the DM, and it is one I think we all take seriously and use different tools and methods to achieve.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_38_1</DOCNO>
+            	<TEXT>In my opinion, balancing encounters pales in difficulty relative to balancing players against each other, which I think is a general sentiment shared by the community.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_38_2</DOCNO>
+            	<TEXT>I hope that a DM who put this subclass into their game, should ideally do so without ignorance of that difficulty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_38_3</DOCNO>
+            	<TEXT>Luckily, there is nothing that precludes a DM from granting similar levels of balance to the rest of the players through similar or dissimilar means.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_38_4</DOCNO>
+            	<TEXT>One player might start with a legendary weapon, perhaps the item they must keep from the BBEG, another may be particularly religious and have story related benefits due to that, or they may simply all be homebrew subclasses.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_38_5</DOCNO>
+            	<TEXT> gt;I would argue that... I agree, it is demonstrably better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_38_6</DOCNO>
+            	<TEXT>I was stating that all single level dipping is bad in my opinion, not that the subclass I created is less bad for someone who wants to dip a single level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_39_0</DOCNO>
+            	<TEXT>I could move that to the ability "introduction" but to be honest I don't really want to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_39_1</DOCNO>
+            	<TEXT>WotC wording conventions more often than not have the ability restrictions as a sidenote at the end of the ability descriptions, and I didn't want to break tradition arbitrarily.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_40_0</DOCNO>
+            	<TEXT>[Here is a Homebrewery link if anyone wants a PDF.](https://homebrewery.naturalcrit.com/share/1DTUbYfLpv0LDC6RcpJcW4cChe-yfa8DqGn-wyrwr_uJB)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_41_0</DOCNO>
+            	<TEXT>Didn't even know this existed, haha</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_42_0</DOCNO>
+            	<TEXT>Warlock Subclass: Taoist Patron</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_43_0</DOCNO>
+            	<TEXT>Glad you like it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_43_1</DOCNO>
+            	<TEXT>The 6th and 10th level abilities are a bit strong, I'll see if anyone else feels similarly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_43_2</DOCNO>
+            	<TEXT>Due to the uh, wackiness, its a little hard to judge the strength of the class overall.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_44_0</DOCNO>
+            	<TEXT>Haha, well it was originally the "Zen" patron, but I had a bit harder time conceptualizing that as an anthropomorphic being for some reason, and I always loved Taoist quotes more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_44_1</DOCNO>
+            	<TEXT>Honestly it combines a lot of eastern philosophy themes, but in my personal opinion I think karma fits Taoism quite well, at least in the sense that I understand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_45_0</DOCNO>
+            	<TEXT>Well it's written that way a bit for the impact of the wording over understandability, hehehe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_45_1</DOCNO>
+            	<TEXT>As the natural language implies the target of that ability would suddenly find themselves afraid of literally everything, from their hands, to the insides of their own eyelids, and would be effectively debilitated, unable to move toward anything, for instance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_45_2</DOCNO>
+            	<TEXT>In the case of being charmed, the target would be unable to harm anything, from bugs, to blades of grass, to even the soles of their own feet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_45_3</DOCNO>
+            	<TEXT>In a sense, the target would be very nearly incapacitated in both cases, but not quite, and I hope hilarity would ensue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_46_0</DOCNO>
+            	<TEXT>Dullahan Race (VRGR ancestral-style)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_47_0</DOCNO>
+            	<TEXT>Appreciate your criticism.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_47_1</DOCNO>
+            	<TEXT>Would you say the following would bring it in line?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_47_2</DOCNO>
+            	<TEXT>-Remove armor proficiency and instead require proficiency to bind a suit of armor -Remove the skills granted by Ancestral Legacy -Reduce tremorsense to 10ft The tremorsense is unfortunately necessary to answer a lot of questions of how a separated body/head can act in independence.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_48_0</DOCNO>
+            	<TEXT>Wizard Subclass: School of Vocation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_49_0</DOCNO>
+            	<TEXT>Thank you very much!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_49_1</DOCNO>
+            	<TEXT>Everyone kept meming on me, telling me wizards were broken, so I may have toned it back as a result.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_49_2</DOCNO>
+            	<TEXT>I could simply increase the d4 to a higher die, I dont think a d6 or even a d8 would break anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_49_3</DOCNO>
+            	<TEXT>The chance for failure is there mostly to protect long-downtime economics shenanigans.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_50_0</DOCNO>
+            	<TEXT>I like that one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_51_0</DOCNO>
+            	<TEXT>Glad you like it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_51_1</DOCNO>
+            	<TEXT>The lack of material components thing covers about 4 times the spells that the school of magic versions do, though I didn't know that till I checked just now lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_51_2</DOCNO>
+            	<TEXT>Actually I'd be closer to wotc standards if I dropped the material component part entirely and went with your ritual spell cost reduction.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_52_0</DOCNO>
+            	<TEXT>Sharing is caring.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_53_0</DOCNO>
+            	<TEXT>Race: Pteropans (Bat Folk)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_54_0</DOCNO>
+            	<TEXT>Artificer Subclass: The Origamist</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_55_0</DOCNO>
+            	<TEXT>It's nice to hear someone likes it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_56_0</DOCNO>
+            	<TEXT>Fair point, I may have to fiddle with the wording to keep it fitting on the page, but that's a good shoutout!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_57_0</DOCNO>
+            	<TEXT>No, it's effectively the ability to create scrolls.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_57_1</DOCNO>
+            	<TEXT>Producing the scrolls effect requires the creature affecting that action to concentrate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_58_0</DOCNO>
+            	<TEXT>The mimics are creatures, which are capable of maintaining and losing concentration.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_58_1</DOCNO>
+            	<TEXT>So I guess you are correct, what it happening is you are giving your mimics scrolls, which they may then use to cast concentration spells, if that's your strategy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_58_2</DOCNO>
+            	<TEXT>They'd be a bit like Ioun Stones.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_58_3</DOCNO>
+            	<TEXT>Probably a better idea then what I was gonna do, which is have them carpet bomb with upcasted Tasha's Caustic Brew.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_59_0</DOCNO>
+            	<TEXT>[No peeking at the stuff I haven't finished getting feedback on though!](https://homebrewery.naturalcrit.com/share/3OaFGYFi4JgU)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_60_0</DOCNO>
+            	<TEXT>Barbarian Subclass: Path of the Ironspeaker</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_61_0</DOCNO>
+            	<TEXT>That's certainly the WotC convention, and I think I disagree with the way they've pigeon-holed them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_61_1</DOCNO>
+            	<TEXT>I wanted to try making a barb with utility.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_62_0</DOCNO>
+            	<TEXT>Hmm, you're probably right, and I might combine u/acetrainerjayce's idea with the original to reduce the spell list to 5th level spells but keep the upcasted slot?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_62_1</DOCNO>
+            	<TEXT>Something like: The object gains a 9th level spell slot and prepares one spell of 5th level or lower from the Warlock spell list each day at dawn, which it can cast as an action.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_62_2</DOCNO>
+            	<TEXT>When cast with this feature the spell requires no components and uses your Strength as its spellcasting ability.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_63_0</DOCNO>
+            	<TEXT>I have two problems with that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_63_1</DOCNO>
+            	<TEXT>Number one it won't fit on the page lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_63_2</DOCNO>
+            	<TEXT>And two I think it's nutty enough already to be one of the only people in a setting that can talk to swords.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_63_3</DOCNO>
+            	<TEXT>Gives some powerful advantages when trying to discover information.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_63_4</DOCNO>
+            	<TEXT>Not like people whisper around their weapons and armor to keep them from overhearing you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_64_0</DOCNO>
+            	<TEXT>Fair nuff, I have made it a 5th level spell slot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_65_0</DOCNO>
+            	<TEXT>Bard Subclass: College of Harlequins</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_66_0</DOCNO>
+            	<TEXT>Cleric Subclass: The Revelry Domain</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_67_0</DOCNO>
+            	<TEXT>Druid Subclass: Circle of Verdance</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_68_0</DOCNO>
+            	<TEXT>I felt I should put it on there as a fail-safe against anyone not noticing that swim and fly speeds were allowed on the plant-shaping.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_68_1</DOCNO>
+            	<TEXT>But tell me, was it as cool as I imagined it would be?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_68_2</DOCNO>
+            	<TEXT>Imagine scaring off some CR7 as a level 2 because they think you're a beholder and nope out of there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_69_0</DOCNO>
+            	<TEXT>I'm glad you like it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_69_1</DOCNO>
+            	<TEXT>I had originally intended Chorlotype to be a ribbon feature, but moved it into the "occasionally useful" power level afterwards.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_69_2</DOCNO>
+            	<TEXT>The star of the show here was intended to be Verdant Shape, which is dummy-strong in my opinion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_69_3</DOCNO>
+            	<TEXT>That said, if more people agree, I don't think it would be OP to buff Chorotype up a smidge, or redistribute the Innate Spellcasting spells.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_69_4</DOCNO>
+            	<TEXT>The 10th level feature is a little dry, but I like always-on features that are thematic, and with how hard Verdant Shape scales I thought it would be a decent feature alongside your slowly growing plant-form repertoire.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_69_5</DOCNO>
+            	<TEXT>And thank you for your awesome feedback, btw</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_70_0</DOCNO>
+            	<TEXT>I use the [homebrewery](https://homebrewery.naturalcrit.com/).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_70_1</DOCNO>
+            	<TEXT>I've found it pretty intuitive to start with, and there are plenty of hidden tricks available with markdown once you get experienced with it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_71_0</DOCNO>
+            	<TEXT>Race: Gargoyle</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_72_0</DOCNO>
+            	<TEXT>
+    img src='URL_OF_IMAGE_HERE.jpg' style='position:absolute; opacity: .25; top:0px; right:-00px; width:880px' /Adjust the opacity with a value between 0 and 1, adjust size and position of your image with the related values.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_72_1</DOCNO>
+            	<TEXT>It can take a bit of fiddling since some images with lots of lines will need to be more transparent to keep your page text legible, but usually some value around 0.2 opacity is where I land.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_0</DOCNO>
+            	<TEXT>The original (much stronger) version got shot down by my team balancing experts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_1</DOCNO>
+            	<TEXT>Heart of Stone was originally "Runic Hide: You have +2 AC against non-magical attacks."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_2</DOCNO>
+            	<TEXT>Which was determined to be bonkers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_3</DOCNO>
+            	<TEXT>Talons was originally 1d6, which I decided would be too much, though now I think about it, that was somewhat due to Runic Hide being strong.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_4</DOCNO>
+            	<TEXT>Basically everything had to be taken into context with the innate flight speed, which even at 20ft is amazing since it doesn't restrict against heavy armor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_5</DOCNO>
+            	<TEXT>Petrification is actually dummy strong, just needs a little creativity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_6</DOCNO>
+            	<TEXT>You essentially have the elven no-sleep trait, or you can go stone in combat to withstand some incoming damage since petrified grants resistance to all damage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_73_7</DOCNO>
+            	<TEXT>As you pointed out most will mistake you for a statue in stealth situations, or you could even play dead if an enemy doesn't know what you can do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_74_0</DOCNO>
+            	<TEXT>Fighter Subclass: Bridgeburner (Malazan inspired)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_75_0</DOCNO>
+            	<TEXT>Thank you for your response!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_75_1</DOCNO>
+            	<TEXT>I suppose your right on the sapper thing, I used the bridgeburner name as a starting point, only realizing while I was making it that sappers and their munitions would probably be the most interesting mechanically.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_75_2</DOCNO>
+            	<TEXT>What specifically do you think I should nerf?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_76_0</DOCNO>
+            	<TEXT>Monk Subclass: Way of Fang and Claw</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_77_0</DOCNO>
+            	<TEXT>Paladin Subclass: Oath of Chaos</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_78_0</DOCNO>
+            	<TEXT>Ranger Subclass: Conclave of Kinsects (inspired by Monster Hunter: World)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_79_0</DOCNO>
+            	<TEXT>Oops, my mistake it's meant to be a +5.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_79_1</DOCNO>
+            	<TEXT>Good catch, ty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_80_0</DOCNO>
+            	<TEXT>Well that certainly seems to be reflected in the votes its receiving, haha!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_80_1</DOCNO>
+            	<TEXT>I usually have a more positive score with these things, but I can't for the life of me see where I went wrong on this one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_80_2</DOCNO>
+            	<TEXT>If you don't mind, could you give me your take on what makes it unappealing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_0</DOCNO>
+            	<TEXT>Wow, thanks for this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_1</DOCNO>
+            	<TEXT>I'd trade a million upvotes for a comment like this any day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_2</DOCNO>
+            	<TEXT>Nothing could please me more than a single person who might actually have fun with something I've made.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_3</DOCNO>
+            	<TEXT>I've basically taken all your advice and implemented it in some form, which is why this response was long in coming, as I had to decide exactly how to reword everything so it still fit on the page, haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_4</DOCNO>
+            	<TEXT>Briefly: * The fall reduction check is now a passive, as you recommended. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_5</DOCNO>
+            	<TEXT>I added the finesse rider to Glaive Vault. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_6</DOCNO>
+            	<TEXT>I nerfed poison dust a bit on my own, as I decided it was a bit too strong. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_7</DOCNO>
+            	<TEXT>Dust is now 3x (no scaling) short rest recharge. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_8</DOCNO>
+            	<TEXT>While in physical contact the kinsect has three-quarters cover, as I think this is a flavorful way to give it pseudo evasion and higher AC on while on your person.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_9</DOCNO>
+            	<TEXT>I did however, lower its normal AC to compensate. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_10</DOCNO>
+            	<TEXT>Heal Extract is now temp hit points instead, since I realized it could easily be abused otherwise. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_81_11</DOCNO>
+            	<TEXT>I reworded Descending Star as best I could, though I'm a bit sleepy... [Here's a copy of the live document](https://homebrewery.naturalcrit.com/share/1djArNmIZqGTU0axpPU-f7W__DX2obYLtA7fVNAo-enyN), if you want to take a look.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_82_0</DOCNO>
+            	<TEXT>My intent was for people to use reach weapons, so they could strike enemies from outside opportunity attack range, as well as allow them to get up to 20ft easily, or with some fancy usage of the extracts, 30ft.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_82_1</DOCNO>
+            	<TEXT>Depending on the DM, I imagined the ability could also be used to rapidly ascend terrain. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_82_2</DOCNO>
+            	<TEXT>Hey DM, can I attack the wall to dash past the first guy and get to the elevated archer?"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_82_3</DOCNO>
+            	<TEXT>The DMs adjudication would have a serious effect on how cool this class could be.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_0</DOCNO>
+            	<TEXT>I think I've revised it now to the point where it's likely to stay.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_1</DOCNO>
+            	<TEXT>After consideration, I made the dust prof bonus usage, but kept the 10-minute ritual.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_2</DOCNO>
+            	<TEXT>The Kinsect falls somewhere between the usefulness of the Artificer's Homunculus and the Battlesmith's doggo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_3</DOCNO>
+            	<TEXT>With that in mind, I decided it needed to be a slightly greater burden to resummon, and force a party to concede any 10-minute spell effects to get their bug back.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_4</DOCNO>
+            	<TEXT>On a second pass though, I decided I wanted the kinsect to survive a single hit from most creatures, and so buffed its HP slightly to 2 + twice your ranger level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_5</DOCNO>
+            	<TEXT>That's 8hp at 3rd, 12hp at 5th, and 20hp at 9th.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_6</DOCNO>
+            	<TEXT>I think you're going to have a tough time deciding whether you want mobile so you can pass within 5ft of enemies, or polearm master so you can use your vault outside of your turn and hope you can keep them at 10ft by staying in the air. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_83_7</DOCNO>
+            	<TEXT>Edit:** Also bug does magical damage now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_0</DOCNO>
+            	<TEXT>Wow another great comment in the same homebrew, I must be doing something right!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_1</DOCNO>
+            	<TEXT>With your comment in mind, I buffed the HP, and I think it will survive a single hit or aoe now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_2</DOCNO>
+            	<TEXT>I also changed its damage to magical, since its small enough not to be OP, and it would just feel really sad to have your bug hit something at 9th level only to do 1 or 2 damage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_3</DOCNO>
+            	<TEXT>My intent with Glaive Vault was to encourage reach weapons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_4</DOCNO>
+            	<TEXT>With a 10ft range you can go airborne and prevent creatures from getting within 5ft of yourself, effectively never needing to disengage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_5</DOCNO>
+            	<TEXT>This would be the main incentive that I intended.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_6</DOCNO>
+            	<TEXT>I agree, his comment in passing that he would get annoyed performing the checks is what really convinced me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_7</DOCNO>
+            	<TEXT>I actually did not know that it provoked op attacks, I can't find the rule for it either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_8</DOCNO>
+            	<TEXT>Could this be a houserule?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_84_9</DOCNO>
+            	<TEXT>Thanks again for the well-thought-out comment, they mean a lot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_85_0</DOCNO>
+            	<TEXT>Player Race: Bound Soul (made to fulfill a request by a player to play as a sentient weapon)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_86_0</DOCNO>
+            	<TEXT>I was considering moving your "starter creature" to CR1/8, and reducing which creatures you can attempt to possess thereafter to one-third your level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_86_1</DOCNO>
+            	<TEXT>This after skimming the MM and finding CR1/2 creatures a bit more powerful than I recalled.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_86_2</DOCNO>
+            	<TEXT>Its a bit difficult to reduce the 'complexity' of the traits however, I'm not sure how I would do that...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_87_0</DOCNO>
+            	<TEXT>Added the 0 movespeed caveat.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_87_1</DOCNO>
+            	<TEXT>Thanks again for your help!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_88_0</DOCNO>
+            	<TEXT>Rogue Subclass: Gutter Rat</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_89_0</DOCNO>
+            	<TEXT>All according to keikaku...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_90_0</DOCNO>
+            	<TEXT>Sorcerer Subclass: Monstrous Origin</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_91_0</DOCNO>
+            	<TEXT>Regarding Monstrous tenacity, I did a lot of calculations to keep it in line since I realized how useful it would be.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_91_1</DOCNO>
+            	<TEXT>Its restrictions are purposefully written to force your Sorcerer into melee range, which is a massive risk for d6 hit die class.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_91_2</DOCNO>
+            	<TEXT>You are likely to get two instances of it off each round, with a chance for more with Caustic Brew or Shadow of Moil later.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_91_3</DOCNO>
+            	<TEXT>With that in mind, here are my estimations for your sorcerer's effective health at different levels in combat, assuming +2 CON, 2 MT procs per-round, and a 4-round combat: * 1st: 8hp, 8thp * 3rd: 20hp, 16thp * 5th: 32hp, 24thp * 9th: 56hp, 40thp * 17th: 104hp, 72thp These values seem high, until a sorcerer's pitiful AC is taken into account.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_91_4</DOCNO>
+            	<TEXT>In addition, these values have some in-game corollaries; namely False Life at 1st level, which can give up to 8thp, ~~and Armor of Agathys gives more thp than this feature at 3rd and 5th~~. (**EDIT:** Wait no it doesn't, I'm on crazy pills.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_91_5</DOCNO>
+            	<TEXT>It *does* compare well to Heavy Armor Master, which has a similar effect in combat by reducing damage in small, absolute amounts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_91_6</DOCNO>
+            	<TEXT>As for Baleful Consumption... you're right, I *should* explain it more thoroughly, but I would genuinely just be repeating the Wild Shape text block an it makes my page look ugly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_92_0</DOCNO>
+            	<TEXT>Warlock Subclass: Ancestral Patron</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_93_0</DOCNO>
+            	<TEXT>It means a lot to hear that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_93_1</DOCNO>
+            	<TEXT>I really wanted to lean into the inherent versatility of the Warlock class, as well as give them a Bladepact alternative to Hexblade, which everyone is mean to because they multiclass too well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_94_0</DOCNO>
+            	<TEXT>I agree, I tried to give Talisman and Tome a little extra love since they are comparatively less used than Blade or Chain.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_94_1</DOCNO>
+            	<TEXT>Again, leaning into the versatility of those pacts where I could.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_95_0</DOCNO>
+            	<TEXT>You're correct.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_95_1</DOCNO>
+            	<TEXT>If you have a familiar of those types, your familiar would be able to Polymorph into a CR4 Dragon, Fiend, Fey, or Celestial for the duration of that spell (assuming they maintain concentration).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_95_2</DOCNO>
+            	<TEXT>There are a few pretty strong ones (looking at you Dybbuk) which make the feature really powerful even at 14th level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_95_3</DOCNO>
+            	<TEXT>That said, your familiar's stat block is fully replaced, according to Polymorph's description, so it doesn't get the benefit of its normal traits like shapechange or invisibility; as examples.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_96_0</DOCNO>
+            	<TEXT>Have at it sir, and let me know if it goes well!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_97_0</DOCNO>
+            	<TEXT>Low key; I know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_97_1</DOCNO>
+            	<TEXT>Normally the background image is very suppressed, but I increase its opacity for image posts to this forum since I've consistently gotten more feedback on posts I've made with more visible background images.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_97_2</DOCNO>
+            	<TEXT>Basically, if I leave the background image as more subdued, less total people glance at the post or bother to read it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_98_0</DOCNO>
+            	<TEXT>I'm not aware of cool borders or the tutorials thereof.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_98_1</DOCNO>
+            	<TEXT>Got an example?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_98_2</DOCNO>
+            	<TEXT>I do the background thing mostly because it saves space on the page for more word vomit, as some of my homebrews take up the whole thing...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_99_0</DOCNO>
+            	<TEXT>There is now. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_99_1</DOCNO>
+            	<TEXT>Kerblam!](https://homebrewery.naturalcrit.com/share/WmIaLpHefdfi)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_100_0</DOCNO>
+            	<TEXT>Ah yes, I suppose I could have dropped the "maximum" bit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_100_1</DOCNO>
+            	<TEXT>I just yoinked the Armorer Artificer's 9th level feature, effectively.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_101_0</DOCNO>
+            	<TEXT>I have never heard this before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_101_1</DOCNO>
+            	<TEXT>All the language on them seems to refer to them as "Pact Magic spell slots" And thank you!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_102_0</DOCNO>
+            	<TEXT>*cough* Er yes, that was my amazing balancing skills, certainly not serendipitous happenstance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_103_0</DOCNO>
+            	<TEXT>Monk Subclass: Way of Four Elements (re-imagined)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_104_0</DOCNO>
+            	<TEXT>That's correct, you'll wind up with 8 rank increases at 17th, so you can fully master two disciplines by completely disregarding the other two.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_104_1</DOCNO>
+            	<TEXT>You could also be 'acolyte' level in all of them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_104_2</DOCNO>
+            	<TEXT>The abilities definitely stack.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_105_0</DOCNO>
+            	<TEXT>Initiate is the first rank you gain.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_105_1</DOCNO>
+            	<TEXT>I can see why that might seem unclear though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_0</DOCNO>
+            	<TEXT>Wow, awesome feedback.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_1</DOCNO>
+            	<TEXT>Thank you for taking the time to write this review, seriously.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_2</DOCNO>
+            	<TEXT>You made a lot of resonant points about the earth features and spells, and so I came up with the following: * Initiate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_3</DOCNO>
+            	<TEXT>You gain a +1 bonus to AC. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_4</DOCNO>
+            	<TEXT>You have advantage on Constitution saving throws. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_5</DOCNO>
+            	<TEXT>You gain tremorsense out to 30 feet, and bludgeoning, piercing, and slashing damage dealt to you is reduced by half your proficiency bonus. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_6</DOCNO>
+            	<TEXT>You gain a 10 foot burrow speed, and a +1 bonus to your Stunning Strike save DC.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_7</DOCNO>
+            	<TEXT>As for water I too have had the sense that the initiate features and spells were largely unattractive when compared to the other disciplines, and have swapped the features around a bit: * Initiate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_8</DOCNO>
+            	<TEXT>You gain a swim speed equal to your walk speed and your hit point maximum is increased by an amount equal to your monk level. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_9</DOCNO>
+            	<TEXT>You can breathe water, and gain a +2 bonus to Wisdom ability checks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_10</DOCNO>
+            	<TEXT>As for swapping Create or Destroy Water for Ice Knife (or something else), I actually wrestled with that all the way through creating the class, having the same concern for a lack of combat utility.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_11</DOCNO>
+            	<TEXT>I grudgingly settled on CoDW because I wanted two things; for Shape Water and Control Water to always have a place in your arsenal, and for the rule-of-cool usage of CoDW to be available to the player.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_12</DOCNO>
+            	<TEXT>Things like cutting a hole in your own Wall of Water, dousing flames, clearing fog, or even providing water for crops or thirsty travelers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_13</DOCNO>
+            	<TEXT>Maybe all that is extremely situational, but if such a situation comes about I want everyone to be able to turn to the water monk and them to be able to deliver. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_106_14</DOCNO>
+            	<TEXT>Edit:** [link to the live document](https://homebrewery.naturalcrit.com/share/6-5ilvrULdIZ) with above changes for anyone interested **Edit 2:** Whoops completely forgot about the earth burrow shenanigans, changed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_107_0</DOCNO>
+            	<TEXT>My only argument for allowing burrow (I just thinks its cool) is that Druids can turn into a Giant Badger to acquire a 10ft burrow speed at 2nd level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_108_0</DOCNO>
+            	<TEXT>I limit myself to a single page, really keeps the pressure on to create systems rather than walls of text.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_110_0</DOCNO>
+            	<TEXT>Oh boy, that elements monk really triggers my word-conservationist tendencies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_110_1</DOCNO>
+            	<TEXT>So many systems to analyze and synergize, so little time...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_111_0</DOCNO>
+            	<TEXT>[Link to updated document.](https://homebrewery.naturalcrit.com/share/6-5ilvrULdIZ)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_112_0</DOCNO>
+            	<TEXT>I chose proficiency bonus reduction for mechanical reasons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_112_1</DOCNO>
+            	<TEXT>Its incredibly rare and so a player who wants to lean into a certain element, say fire, but also wants to play a tiefling won't feel they're having to sacrifice a feature to fulfill their thematic vision.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_112_2</DOCNO>
+            	<TEXT>I uh, ran out of space on the page, or I certainly would have been a bit more descriptive in the first paragraph.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_112_3</DOCNO>
+            	<TEXT>But I agree with you and the lack of complete and thematic description of mastery ranks and elemental disciplines bothers me as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_113_0</DOCNO>
+            	<TEXT>Not a bad idea, they would top out at 5 rather than 6, but earth would max out at 2 unless it was round up of course.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_114_0</DOCNO>
+            	<TEXT>Wizard Subclass: School of Sacred Geometry</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_115_0</DOCNO>
+            	<TEXT>A chart wouldn't be too hard to add, I'll probably do just that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_115_1</DOCNO>
+            	<TEXT>Your interpretation is correct, at level 5 you get the d8, until then all you have to expend are the d4 and d6.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_115_2</DOCNO>
+            	<TEXT>I did have mixed feelings about the saving throw, my only solace was that it was a single usage pool for all your subclass features, so you may hesitate to burn your rather small pool of dice on any of these features.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_115_3</DOCNO>
+            	<TEXT>All that said, I still think the saving throw one is a bit strong, and perhaps nobody would balk if I reduced it somehow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_116_0</DOCNO>
+            	<TEXT>The die is definitely meant to be expended, that's a good call-out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_116_1</DOCNO>
+            	<TEXT>I never explicitly state that the die is expended, I'll add that in.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_116_2</DOCNO>
+            	<TEXT>That feature seems to be the main concern, I'll make it a reaction as you've recommended, perhaps even reduce it to long-rest usage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_117_0</DOCNO>
+            	<TEXT>That's a pretty good comparison.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_117_1</DOCNO>
+            	<TEXT>I suppose it has somewhat turned out as a jack-of-all-trades subclass, able to do many things well, but none of them for very long.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_117_2</DOCNO>
+            	<TEXT>I'm still satisfied with it, it's not as though the Wizard class needs any more power stuffed into their subclasses, haha</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_118_0</DOCNO>
+            	<TEXT>[Updated copy of the live document.](https://homebrewery.naturalcrit.com/edit/iyMskh07ejnu)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_119_0</DOCNO>
+            	<TEXT>That's obviously my bad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_119_1</DOCNO>
+            	<TEXT>gt; All features that make use of the SG dice expend them, I actually made this whole subclass this morning in a fit of creativity, usually I do a better job of QA.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_119_2</DOCNO>
+            	<TEXT>I posted a link to the updated document, a thousand apologies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_120_0</DOCNO>
+            	<TEXT>Monk Subclass: Way of the Sun Soul (re-imagined)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_0</DOCNO>
+            	<TEXT>Well it depends on the monk's commitment I suppose.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_1</DOCNO>
+            	<TEXT>Compared to WotOH which has a save or die ability, this one competes by being area of effect.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_2</DOCNO>
+            	<TEXT>Average damage with all 17 Ki is 280 on a failed save, or 140 on a success. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_3</DOCNO>
+            	<TEXT>and half of this to yourself).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_4</DOCNO>
+            	<TEXT>This leaves you completely tapped until you get a short rest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_5</DOCNO>
+            	<TEXT>More likely though, you'll want to hedge your bets by expending about 11 Ki, using your first turn in combat to burn down as many Legendary Resistance uses as you can, and activating your Step of Light since it's a great effect and why not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_6</DOCNO>
+            	<TEXT>At 11 Ki your average becomes 181 on a failure, 90 on a success.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_121_7</DOCNO>
+            	<TEXT>Again you're completely tapped, but a little healthier, and you probably cleared most of the minions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_122_0</DOCNO>
+            	<TEXT>I think there's been a misunderstanding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_122_1</DOCNO>
+            	<TEXT>The ability doesn't require you to stand still.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_122_2</DOCNO>
+            	<TEXT>It goes like this; 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_122_3</DOCNO>
+            	<TEXT>Use your action to gather a charge, you are now concentrating to maintain the charge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_122_4</DOCNO>
+            	<TEXT>End your concentration (a free action), or hold the charge for up to 1 minute when it detonates automatically (more likely an enemy causes you to lose your concentration though, immediately causing an explosion).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_122_5</DOCNO>
+            	<TEXT>Enjoy your new crater.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_123_0</DOCNO>
+            	<TEXT>Correct on all accounts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_124_0</DOCNO>
+            	<TEXT>Thank you for your feedback, but I disagree with nearly all your points.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_125_0</DOCNO>
+            	<TEXT>The ability to cast sunbeam twice per short rest, does not a full-caster make.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_126_0</DOCNO>
+            	<TEXT>Fair, I included that risk so that I could raise its damage output.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_126_1</DOCNO>
+            	<TEXT>Without some sort of trade-off, I'd have to significantly lower its damage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_126_2</DOCNO>
+            	<TEXT>The Super Nova feature, at its core premise, condenses and frontloads your turns.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_126_3</DOCNO>
+            	<TEXT>3d10 damage wasn't an arbitrary choice, your martial arts die at 17th is 1d10, and a monk can make 3 attacks without expending ki each turn.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_126_4</DOCNO>
+            	<TEXT>So Super Nova is designed to frontload all that damage into a single turn, at the cost of 1 ki per expedited turn.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_127_0</DOCNO>
+            	<TEXT>Being able to cast Sunburst does not constitute a full caster.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_127_1</DOCNO>
+            	<TEXT>Also, Sunburst cannot be upcasted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_128_0</DOCNO>
+            	<TEXT>Yeah I know, sorry.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_128_1</DOCNO>
+            	<TEXT>I get more responses on these when I increase the opacity of the background image.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_128_2</DOCNO>
+            	<TEXT>My original documents always have a much lower opacity. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_128_3</DOCNO>
+            	<TEXT>Link to original](https://homebrewery.naturalcrit.com/share/H4mE0VU_KsmK)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_129_0</DOCNO>
+            	<TEXT>Player Race: Selkie (were seals, seal-folk)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2708_130_0</DOCNO>
+            	<TEXT>Wild Shape is pretty involved, and repeating its rule set would probably fill the second half of the page... Other than the health, the rest of the seal description is really just meant to stat it out, allowing for a little bit a scaling.</TEXT>
+        </DOC>

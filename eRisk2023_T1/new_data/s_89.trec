@@ -1,0 +1,1034 @@
+        <DOC>
+            	<DOCNO>s_89_0_0</DOCNO>
+            	<TEXT>Standalone couch to 5k app</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_0_1</DOCNO>
+            	<TEXT>Hi all, Does anyone know of a couch to 5k (c25k) app that works on Apple Watch without needing to be paired to iPhone?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_0_2</DOCNO>
+            	<TEXT>I've done a google search, but can't seem to find one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_0_3</DOCNO>
+            	<TEXT>Any thoughts appreciated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_1_0</DOCNO>
+            	<TEXT>So I tried two of the free ones and they don't work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_1_1</DOCNO>
+            	<TEXT>One says you need to start activity on iPhone and the other didn't even appear as available to install on apple watch even though it says it was watch compatible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_1_2</DOCNO>
+            	<TEXT>I have a feeling there isn't a standalone app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_2_0</DOCNO>
+            	<TEXT>Ecobee4 supporting intercom?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_2_1</DOCNO>
+            	<TEXT>Does anyone know if third party Echo devices like Ecobee4 support drop in and intercom?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_2_2</DOCNO>
+            	<TEXT>I Twitter DM'd Ecobee support and they said third party echo devices didn't support that feature yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_2_3</DOCNO>
+            	<TEXT>But I don't see anything that confirms that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_2_4</DOCNO>
+            	<TEXT>Anyone know?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_2_5</DOCNO>
+            	<TEXT>Be great to get intercom working between my Ecobee and Echo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_3_0</DOCNO>
+            	<TEXT>Got it, thanks for clarifying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_0</DOCNO>
+            	<TEXT>Google Home Hub thoughts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_1</DOCNO>
+            	<TEXT>I just received my Google Home Hub today.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_2</DOCNO>
+            	<TEXT>Thought I'd share some issues I have with my particular setup for home automation, if anyone knows a solution to any of them, please let me know!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_3</DOCNO>
+            	<TEXT>All lights assigned to a room are grouped and you can't ungroup them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_4</DOCNO>
+            	<TEXT>So by default, if you turn on the "kitchen" lights for example, it will turn on all lights in the kitchen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_5</DOCNO>
+            	<TEXT>If you want to control individual lights, you need to drill down into that room's light "submenu" and the click on the number of lights text box, then select the light you want to control.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_6</DOCNO>
+            	<TEXT>No easy way to control individual lights. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_7</DOCNO>
+            	<TEXT>Note Smartthings, Amazon Echo and Apple Home have no problem controlling individual room lights without having to drill down).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_8</DOCNO>
+            	<TEXT>The icon for the lights don't show if light is on or off (unless you drill down into the individual light).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_9</DOCNO>
+            	<TEXT>Likewise the thermostats dont show current temperatures.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_10</DOCNO>
+            	<TEXT>Garage door opener and front door don't appear (again, no problem in Apple Home) 4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_11</DOCNO>
+            	<TEXT>I cant remove devices that are associated with other devices and dont do anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_12</DOCNO>
+            	<TEXT>For example, I have Ecobee thermostats which come with remote temperature sensors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_13</DOCNO>
+            	<TEXT>While the sensors show up, they dont report temperature in Google home so theyre useless.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_14</DOCNO>
+            	<TEXT>But I cant remove them from showing up either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_15</DOCNO>
+            	<TEXT>Again Apple home and SmartThings have no issue here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_16</DOCNO>
+            	<TEXT>When I select play music in the Home app, it defaults to my Nvidia Shield and I can't seem to get it to default to Home Hub.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_17</DOCNO>
+            	<TEXT>Surprisingly, I'm finding the accuracy to my voice not as good as the Echo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_18</DOCNO>
+            	<TEXT>Maybe it will get better over time, but it's misunderstood me a couple of times already.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_19</DOCNO>
+            	<TEXT>Any thoughts?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_4_20</DOCNO>
+            	<TEXT>This would be a perfect home automation controller if they made the control and display of info better...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_5_0</DOCNO>
+            	<TEXT>I dont see a way to ungroup lights when theyre assigned to a room from the Home app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_5_1</DOCNO>
+            	<TEXT>The app automatically groups them too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_5_2</DOCNO>
+            	<TEXT>When I hit the play button in the app, it doesnt ask which player to play to, it just starts playing on the Shield (which I dont want).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_5_3</DOCNO>
+            	<TEXT>I dont see a way to get it to default to Hub, or even choose it as an option.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_6_0</DOCNO>
+            	<TEXT>The auto grouping of lights, and not being able to see the on/off status of lights is a deal breaker, was really hoping to use this for HA.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_6_1</DOCNO>
+            	<TEXT>Note the hub does show up in the list of devices in the app, but just doesnt play music from the play button.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_6_2</DOCNO>
+            	<TEXT>Thanks for your help anyway.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_7_0</DOCNO>
+            	<TEXT>I have switches (with exception of a few hue lights for color).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_7_1</DOCNO>
+            	<TEXT>Cheaper replacing one switch than many bulbs and you can always ensure the correct on/off state from the switch (except in google home!).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_7_2</DOCNO>
+            	<TEXT>The hub could have been an amazing HA device, but it its very poorly implemented from a touchscreen point of view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_8_0</DOCNO>
+            	<TEXT>How do you run both?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_8_1</DOCNO>
+            	<TEXT>When I try to setup my existing v2 hub, it says its already setup (or something like that).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_9_0</DOCNO>
+            	<TEXT>Ah, so Id have to start from scratch and setup the new app first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_9_1</DOCNO>
+            	<TEXT>I have classic setup already.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_0</DOCNO>
+            	<TEXT>Apple Watch on T-Mobile installment plan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_1</DOCNO>
+            	<TEXT>Can it be used outside of T Mobile?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_2</DOCNO>
+            	<TEXT>Hi, I received a free Apple Watch as part of T-Mobile's Cyber Monday sale.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_3</DOCNO>
+            	<TEXT>The watch is "billed" in 24 installments, but a credit is applied for the same amount (e.g. the bill shows $24 charge, but a $24 credit is then applied).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_4</DOCNO>
+            	<TEXT>You need to have a line active to keep the credits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_5</DOCNO>
+            	<TEXT>The watch I received was a color I didn't want, so I sold it .</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_6</DOCNO>
+            	<TEXT>It was never opened nor activated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_7</DOCNO>
+            	<TEXT>I then purchased the color I wanted (from BB) and activated that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_8</DOCNO>
+            	<TEXT>I was looking at my TMo account and the Watch was listed under the equipment installment plan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_9</DOCNO>
+            	<TEXT>The IMEI was the original Apple Watch that I sold.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_10_10</DOCNO>
+            	<TEXT>So my question is, will that watch still be able to be activated on any carrier or will TMobile be able to stop activation?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_11_0</DOCNO>
+            	<TEXT>I called Tmobile and the CSR said it wasn't carrier locked.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_11_1</DOCNO>
+            	<TEXT>But I forgot to confirm if it also applied to devices under payment plan...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_12_0</DOCNO>
+            	<TEXT>Can't buy out the contract because it requires it to be on a payment plan to get it for free :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_13_0</DOCNO>
+            	<TEXT>I had a friend who went to the bathroom in that one scene in The Crying Game and didnt understand the rest of the movie.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_14_0</DOCNO>
+            	<TEXT>Devices disappear then lose room assignments after reboot/loss of power</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_14_1</DOCNO>
+            	<TEXT>I'm running Homebridge- gt;SmarThings on a Raspberry Pi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_14_2</DOCNO>
+            	<TEXT>Every time I lose power or reboot the RPi, the SmarThings devices disappear from the iOS Home app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_14_3</DOCNO>
+            	<TEXT>I have to reboot HomeBridge server (again), they re-appear, but have lost all their room assignments and icons I set.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_14_4</DOCNO>
+            	<TEXT>Given the frequency of power outages I have, it gets annoying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_14_5</DOCNO>
+            	<TEXT>Is there any way I can stop this from happening?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_14_6</DOCNO>
+            	<TEXT>Is this a known issue or just me?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_15_0</DOCNO>
+            	<TEXT>I do, it comes back up (after I manually recycle the server - I don't manually start Homebridge), but the devices don't remember the rooms their supposed to be in afterwards</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_16_0</DOCNO>
+            	<TEXT>Yah, that was my next step :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_17_0</DOCNO>
+            	<TEXT>That's interesting, I will try adding a delay too</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_18_0</DOCNO>
+            	<TEXT>I'm using PM2, was easy to set a delay too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_19_0</DOCNO>
+            	<TEXT>I have three Wealthfront accounts with different risk profiles.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_19_1</DOCNO>
+            	<TEXT>I put a large amount into them to start and transfer small amounts every month.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_19_2</DOCNO>
+            	<TEXT>But would now be a good time to buy (transfer from cash) more Wealthfront funds?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_19_3</DOCNO>
+            	<TEXT>Given the decline in their value, I'm thinking I should buy more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_19_4</DOCNO>
+            	<TEXT>What about versus just buying S amp;P500 tracker or even individual stocks?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_19_5</DOCNO>
+            	<TEXT>These are long(er) term, after tax investments, so the dip isn't a concern.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_19_6</DOCNO>
+            	<TEXT>What are your thoughts?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_20_0</DOCNO>
+            	<TEXT>How sharp is it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_21_0</DOCNO>
+            	<TEXT>So basically dont time the market? :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_22_0</DOCNO>
+            	<TEXT>I see why Wealthfront say not to time the market with their product.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_22_1</DOCNO>
+            	<TEXT>I bought more on Friday morning anyway, but it takes so long to execute, it hasnt transferred yet...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_23_0</DOCNO>
+            	<TEXT>You guys probably dont split tens in blackjack either. :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_24_0</DOCNO>
+            	<TEXT>(I was trying to make a joke about following the rules).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_24_1</DOCNO>
+            	<TEXT>But I agree with you, thats why I wanted to invest more now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_25_0</DOCNO>
+            	<TEXT>The decline in the value of your portfolio represents the decline of that funds stocks prices.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_25_1</DOCNO>
+            	<TEXT>Tax loss harvesting relates to sales of stocks at a loss.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_25_2</DOCNO>
+            	<TEXT>To get $30k in tax losses, Wealthfront would have had to sell stocks to get to a cumulative $30k in losses, the stocks have to actually be sold to get the benefit, vs the stocks/etfs that are in your account have declined by $30k in value but have not been sold.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_25_3</DOCNO>
+            	<TEXT>Make sense?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_26_0</DOCNO>
+            	<TEXT>Plus if the market is down across the board, that could mean selling everything!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_26_1</DOCNO>
+            	<TEXT>Which isnt a great investment strategy (buy high, sell low?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_27_0</DOCNO>
+            	<TEXT>Who would you consider to be the most fun/silly instructor on the biking roster?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_27_1</DOCNO>
+            	<TEXT>I find the instructors to generally be similar, all saying exactly the same inspiration and motivational "You can do this!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_27_2</DOCNO>
+            	<TEXT>type statements, which I actually find quite boring.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_27_3</DOCNO>
+            	<TEXT>Is there anyone that doesn't stick to the script and has more fun with their rides?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_27_4</DOCNO>
+            	<TEXT>Jess King was really funny earlier on, but I think she's toned it down a bit in the last year (although I think she's still the funniest, although I haven't ridden with most instructors).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_27_5</DOCNO>
+            	<TEXT>Any suggestions?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_28_0</DOCNO>
+            	<TEXT>Sounds like I should do a Cody and Denis a shot!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_28_1</DOCNO>
+            	<TEXT>Thanks guys</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_29_0</DOCNO>
+            	<TEXT>Doesnt look like this fixes the custom DNS and HomeKit issue?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_30_0</DOCNO>
+            	<TEXT>Ah, just saw your change log above.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_30_1</DOCNO>
+            	<TEXT>Looking forward to it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_31_0</DOCNO>
+            	<TEXT>Seems that if you set a custom DNS in Eero, and also have Eero added to Apple Home, it seems to revert to using your ISPs DNS servers , as evidenced by running a dns leak test.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_31_1</DOCNO>
+            	<TEXT>If you remove Eero from HomeKit (and reboot Eero) it seems to go back to using custom DNS servers again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_31_2</DOCNO>
+            	<TEXT>Thats what I found anyway.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_32_0</DOCNO>
+            	<TEXT>Im on east coast and I still dont have it and checking says Im on latest version 3.18.1</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_33_0</DOCNO>
+            	<TEXT>Increase risk score in down market</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_33_1</DOCNO>
+            	<TEXT>Hi all, I have a risk profile 3 account and I'm thinking about now increasing the risk score to 6 or 7 (which should decrease bonds and increase equities).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_33_2</DOCNO>
+            	<TEXT>I know Wealthfront blog posts say "stay the course" but their examples are more about lowering your risk profile in a down market, not increasing it... Any thoughts on changing risk profile higher now?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_34_0</DOCNO>
+            	<TEXT>I'd only be timing the market roughly - all equities are down, so given this is a long term investment, would changing the risk score now (assuming the market will go up in the future) be better in the long run vs keeping risk score 3 (i.e. heavily muni bond weighted).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_35_0</DOCNO>
+            	<TEXT>Has anyone received their NJ EV rebate yet?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_35_1</DOCNO>
+            	<TEXT>As title asks, has anyone received their NJ EV rebate yet?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_35_2</DOCNO>
+            	<TEXT>I'm also wondering, given the state's finances, if they might not continue the rebate and no tax incentives in the near future.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_36_0</DOCNO>
+            	<TEXT>My Home app (HomeBridge) seems to have stopped working - devices show updating, then times out to no response, or turning things on just doesn't work - since updating to 3.20.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_36_1</DOCNO>
+            	<TEXT>Is this the issue you're talking about?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_37_0</DOCNO>
+            	<TEXT>Ok thanks, will look into other causes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_38_0</DOCNO>
+            	<TEXT>Rep is telling me I have to have a device to activate on the new line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_38_1</DOCNO>
+            	<TEXT>She insisted that I give her an imei number before being able to add the line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_38_2</DOCNO>
+            	<TEXT>Is that correct?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_39_0</DOCNO>
+            	<TEXT>Their Philippine call center folks are clueless.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_39_1</DOCNO>
+            	<TEXT>I called back and they said the offer was only for new customers lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_39_2</DOCNO>
+            	<TEXT>Will call back when US call center opens.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_40_0</DOCNO>
+            	<TEXT>As an Australian living in New York City...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_41_0</DOCNO>
+            	<TEXT>Its so fat it looks like bun bread (here that would be a roll)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_42_0</DOCNO>
+            	<TEXT>Theres a layer of butter underneath.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_42_1</DOCNO>
+            	<TEXT>The bagels are so big and doughy that you need a good smear to make a dent in the tastebuds</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_43_0</DOCNO>
+            	<TEXT>You cant see the butter, but its there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_43_1</DOCNO>
+            	<TEXT>For this bagel, the amount of Vegemite and ratio to butter was just right, trust me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_43_2</DOCNO>
+            	<TEXT>Its lightly toasted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_43_3</DOCNO>
+            	<TEXT>I know how to wield vegemite correctly!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_44_0</DOCNO>
+            	<TEXT>LOL... I have nothing to hide!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_44_1</DOCNO>
+            	<TEXT>I turned other side over so you could see it was a bagel (it was hard to tell the other way).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_44_2</DOCNO>
+            	<TEXT>No hidden hundreds and thousands (here: sprinkles) agenda going on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_45_0</DOCNO>
+            	<TEXT>The bagels that dont have holes are usually actually better because theyre so doughy and fluffy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_45_1</DOCNO>
+            	<TEXT>The bigger the hole the worse they are Ive found.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_45_2</DOCNO>
+            	<TEXT>The thing about the bagels is how theyre cooked, it tastes nothing like a roll.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_45_3</DOCNO>
+            	<TEXT>We have crumpets here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_45_4</DOCNO>
+            	<TEXT>Lol nascar...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_46_0</DOCNO>
+            	<TEXT>I saw Angel Heart as a kid and I still think about it to this day....</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_47_0</DOCNO>
+            	<TEXT>I have a six figure IRA that I rolled over from my old 401ks and six figure taxable account.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_47_1</DOCNO>
+            	<TEXT>Was always able to get someone on the phone who could help me get the funds allocated on the rollovers without any issues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_47_2</DOCNO>
+            	<TEXT>But thats just me I guess :).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_47_3</DOCNO>
+            	<TEXT>I also keep my spare cash with them as its highest available interest rate (1%}.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_47_4</DOCNO>
+            	<TEXT>But Ill only invest up to their spic guarantee limit</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_48_0</DOCNO>
+            	<TEXT>I use Wealthfront and Robinhood too</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_49_0</DOCNO>
+            	<TEXT>Thats where I started long term, after tax investing but then moved some of it to M1 to give me more control (you cant decide allocations with Wealthfront).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_49_1</DOCNO>
+            	<TEXT>Returns are ok but havent been in it long enough to see long term results.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_50_0</DOCNO>
+            	<TEXT>Has anyone been able to install Netflix lately?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_50_1</DOCNO>
+            	<TEXT>I'm keep getting install "failed to install Netflix.apk" after it starts the streamed install.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_50_2</DOCNO>
+            	<TEXT>I have USB debugging and allow install from unknown sources enabled.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_50_3</DOCNO>
+            	<TEXT>I can see the bike when running the devices command.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_50_4</DOCNO>
+            	<TEXT>But every time I try to install it fails.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_50_5</DOCNO>
+            	<TEXT>Using a Mac.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_0</DOCNO>
+            	<TEXT>Shipping large products to east cost USA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_1</DOCNO>
+            	<TEXT>Hoping I could get some advice here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_2</DOCNO>
+            	<TEXT>I'm looking to ship from China to NY area, one initial sample and then five to ten times per year.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_3</DOCNO>
+            	<TEXT>Unfortunately I'm a newbie when it comes to shipping and importing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_4</DOCNO>
+            	<TEXT>Two questions: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_5</DOCNO>
+            	<TEXT>I'm having a sample shipped (which will be one large crate) CIF to NY.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_6</DOCNO>
+            	<TEXT>What do I need to do/who do I need to work with to get customs cleared and forwarded to my destination?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_7</DOCNO>
+            	<TEXT>I assume I just need a customs broker and freight forwarder?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_8</DOCNO>
+            	<TEXT>Once I start regular deliveries they will be FCL.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_9</DOCNO>
+            	<TEXT>They will be FOB China port.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_10</DOCNO>
+            	<TEXT>Any suggestions for freight and forwarding companies?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_51_11</DOCNO>
+            	<TEXT>Would it be cheaper to have container offload on West coast and then trucked to east cost or have it delivered to east cost (NY) port?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_0</DOCNO>
+            	<TEXT>Shipping FCL from China to East coast USA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_1</DOCNO>
+            	<TEXT>Hoping I could get some advice here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_2</DOCNO>
+            	<TEXT>I'm looking to ship from China to NY area, one initial sample and then five to ten times per year.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_3</DOCNO>
+            	<TEXT>Unfortunately I'm a newbie when it comes to shipping and importing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_4</DOCNO>
+            	<TEXT>Two questions: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_5</DOCNO>
+            	<TEXT>I'm having a sample shipped (which will be one large crate) CIF to NY.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_6</DOCNO>
+            	<TEXT>What do I need to do/who do I need to work with to get customs cleared and forwarded to my destination?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_7</DOCNO>
+            	<TEXT>I assume I just need a customs broker and freight forwarder?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_8</DOCNO>
+            	<TEXT>Once I start regular deliveries they will be FCL.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_9</DOCNO>
+            	<TEXT>They will be FOB China port.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_10</DOCNO>
+            	<TEXT>Any suggestions for freight and forwarding companies?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_11</DOCNO>
+            	<TEXT>Would it be cheaper to have container offload on West coast and then trucked to east cost or have it delivered to east cost (NY) port?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_52_12</DOCNO>
+            	<TEXT> (Cross posted to r/shipping)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_53_0</DOCNO>
+            	<TEXT>Got it, thanks!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_53_1</DOCNO>
+            	<TEXT>Will contact the companies mentioned above.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_54_0</DOCNO>
+            	<TEXT>I chose CIF to make it simple for the first (sample) order.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_54_1</DOCNO>
+            	<TEXT>The vendor quoted what seemed like a decent price, but always open to lower costs if someone can provide that Shipment will be in two peices \~1040kg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_55_0</DOCNO>
+            	<TEXT>I assume outlay fee means a deposit?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_56_0</DOCNO>
+            	<TEXT>Oh so it could just be their fee for services.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_57_0</DOCNO>
+            	<TEXT>Im using it with SmartThings and Alexa for a fireplace.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_57_1</DOCNO>
+            	<TEXT>Alexa turn on fireplace is awesome (and I use SmartThings to auto turn it off in case its accidentally left on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_58_0</DOCNO>
+            	<TEXT>You could always add a remote control (zwave) switch...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_59_0</DOCNO>
+            	<TEXT>I could never find a battery operated zwave switch (hence me using Bond).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_59_1</DOCNO>
+            	<TEXT>But the RF receiver in the fireplace is battery operated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_59_2</DOCNO>
+            	<TEXT>It came with the fireplace/house, but Im sure you could probably diy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_59_3</DOCNO>
+            	<TEXT>I think Ive changed the batteries one in six years.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_60_0</DOCNO>
+            	<TEXT>M1finance is 1% if you pay for upgraded account (I think $75).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_60_1</DOCNO>
+            	<TEXT>Depending on how much saving you have it may cover it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_62_0</DOCNO>
+            	<TEXT>My eero 6 pros have gone to sub 1mb/s speeds today, even right next to the eero router, but Speedtest on the router is consistently showing 306mb/s, as is wired computer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_62_1</DOCNO>
+            	<TEXT>Videos and apps just hang.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_62_2</DOCNO>
+            	<TEXT>Rebooting eeros doesnt help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_62_3</DOCNO>
+            	<TEXT>The 6 pros have always been flakey with speeds since I got them at launch, but today I cant do anything!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_62_4</DOCNO>
+            	<TEXT>So frustrating and getting fed up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_62_5</DOCNO>
+            	<TEXT>Might go back to my Orbis which I still have...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_63_0</DOCNO>
+            	<TEXT>Im using MB Air with Dell 34 120hz no problems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_63_1</DOCNO>
+            	<TEXT>Even works with lid closed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_63_2</DOCNO>
+            	<TEXT>USB-c to DisplayPort cable direct.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_64_0</DOCNO>
+            	<TEXT>https://www.amazon.com/gp/aw/d/B075V27G2R</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_65_0</DOCNO>
+            	<TEXT>It runs at 120hz (you have to manually set it in display settings).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_65_1</DOCNO>
+            	<TEXT>But only with DisplayPort, not hdmi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_66_0</DOCNO>
+            	<TEXT>I also have (had?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_66_1</DOCNO>
+            	<TEXT>an Azlo account, but also use Brex.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_66_2</DOCNO>
+            	<TEXT>In fact I prefer Brex.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_66_3</DOCNO>
+            	<TEXT>Supports free domestic and international wires and has loads of discounts and specials for customers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_66_4</DOCNO>
+            	<TEXT>Real credit card with points too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_67_0</DOCNO>
+            	<TEXT>I haven't used it, but looks like it: [https://support.brex.com/how-do-i-deposit-checks-in-my-brex-cash-account/](https://support.brex.com/how-do-i-deposit-checks-in-my-brex-cash-account/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_68_0</DOCNO>
+            	<TEXT>I have a startup with no revenue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_68_1</DOCNO>
+            	<TEXT>I think they rejected me initially, then asked for more info and when I said dont worry about it I would go elsewhere they accepted me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_68_2</DOCNO>
+            	<TEXT>I have a chase account for personal banking, but the traditional banks fees on things like wires are high.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_68_3</DOCNO>
+            	<TEXT>Brex also has cool discounts with loads of vendors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_68_4</DOCNO>
+            	<TEXT>Plus I like supporting tech companies that try to disrupt traditional industries.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_0</DOCNO>
+            	<TEXT>My network is the worst its been.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_1</DOCNO>
+            	<TEXT>Sometimes it works but mostly it doesnt.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_2</DOCNO>
+            	<TEXT>Two levels.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_3</DOCNO>
+            	<TEXT>Videos cut out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_4</DOCNO>
+            	<TEXT>Devices cant access network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_5</DOCNO>
+            	<TEXT>IOT devices dont respond.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_6</DOCNO>
+            	<TEXT>So sick of this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_69_7</DOCNO>
+            	<TEXT>Used to work really well but not anymore.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_70_0</DOCNO>
+            	<TEXT>Both units are eero 6 pro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_70_1</DOCNO>
+            	<TEXT>Today it seems to be working fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_70_2</DOCNO>
+            	<TEXT>Tomorrow who knows</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_0</DOCNO>
+            	<TEXT>All wired devices lose network connection on Eero 6 pro</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_1</DOCNO>
+            	<TEXT>I have an Eero 6 Pro as a router connected to one Netgear 8 port switch (GS208).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_2</DOCNO>
+            	<TEXT>Currently no ethernet connected devices can access the network and I don't believe they even get an IP address.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_3</DOCNO>
+            	<TEXT>All WiFi devices work fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_4</DOCNO>
+            	<TEXT>Since installing my 6 Pros (one router, one wifi only), the network mostly runs ok.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_5</DOCNO>
+            	<TEXT>But every now and again, like now, the wired devices will all disconnect and nothing I do can reconnect them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_6</DOCNO>
+            	<TEXT>Previously, the issue has resolved itself after some time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_7</DOCNO>
+            	<TEXT>But currently I'm on 24 hours with no wired connections.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_8</DOCNO>
+            	<TEXT>Things I've tried: Switching the router Eero with another Eero 6 pro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_9</DOCNO>
+            	<TEXT>Replacing the switch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_10</DOCNO>
+            	<TEXT>Changing the ethernet cable between Eero and switch (multiple times).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_11</DOCNO>
+            	<TEXT>Removing all wired devices and adding them back one at a time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_12</DOCNO>
+            	<TEXT>Eero support don't seem to know what the issue is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_13</DOCNO>
+            	<TEXT>Anyone here have any thoughts or suggestions?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_71_14</DOCNO>
+            	<TEXT>It's driving me nuts (I have my desktop PC (no wifi), home automation and NAS on the switch so can't use any of them).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_72_0</DOCNO>
+            	<TEXT>Yes, it did, but if I left it for a month who knows.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_72_1</DOCNO>
+            	<TEXT>I would say it was the switch but Ive replaced it with a different one and same thing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_73_0</DOCNO>
+            	<TEXT>No, I dont think so, only on the router/eero.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_73_1</DOCNO>
+            	<TEXT>But Ill double check</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_74_0</DOCNO>
+            	<TEXT>Im using Fios direct Ethernet ONT to eero.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_74_1</DOCNO>
+            	<TEXT>Switch is not managed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_74_2</DOCNO>
+            	<TEXT>Placement of second eero shouldnt affect wired devices off first eero I would think</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_75_0</DOCNO>
+            	<TEXT>there is no ISP router, its plugged directly into ONT.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_76_0</DOCNO>
+            	<TEXT>Different switch entirely</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_77_0</DOCNO>
+            	<TEXT>So the wired devices came back online by themselves early this morning.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_77_1</DOCNO>
+            	<TEXT>Then I did the latest Eero update and now they're all back offline again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_89_77_2</DOCNO>
+            	<TEXT>
+    sigh
+      </TEXT>
+        </DOC>

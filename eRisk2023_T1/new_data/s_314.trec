@@ -1,0 +1,1136 @@
+        <DOC>
+            	<DOCNO>s_314_0_0</DOCNO>
+            	<TEXT>Yeah they are such a good thing because now you can keep stuff from spoiling.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_1_0</DOCNO>
+            	<TEXT>Yeah, I like the original more, but it is still good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_2_0</DOCNO>
+            	<TEXT>My battery dies too fast, can someone help?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_2_1</DOCNO>
+            	<TEXT>My boat has a short-range because of the battery.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_2_2</DOCNO>
+            	<TEXT>I think this is mostly because I use gearboxes so that my boat goes faster because it moves very slowly when it doesn't which I would just go slowly until I get more money and research points so that I can get stuff to make it so I can go farther but I tried to get it to work in the custom mode thing (so I have any part I want and all the money I want) and still couldn't get it to slow the battery usage a lot and I have tried generators in every way I can think of but after testing the generators in a certain way, I found out that I don't think I am using them right (I downloaded a microcontroller that lets you see how much battery you are losing or gaining and I tried to see if the way I was using it was doing anything so I deleting the generator and it didn't change and my speed didn't change.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_2_3</DOCNO>
+            	<TEXT>and I did connect it to the power.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_2_4</DOCNO>
+            	<TEXT>So, my point is can somebody help me use generators right or find out how to use less power on gearboxes (I have 2 on 1:2 for both) (I also have 69 small batteries because I don't have the bigger batteries unlocked yet.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_3_0</DOCNO>
+            	<TEXT>Thanks, I noticed earlier that the engine start was always on and so that would take power so I put a push-button which would just turn off the engine when it wasn't pushed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_3_1</DOCNO>
+            	<TEXT>I didn't think it would take that much power anyway so I just stayed with the toggle button.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_3_2</DOCNO>
+            	<TEXT>Since you said this I thought about the engine throttle because I didn't use it because I just had the power go to a clutch then gearboxes and the clutch controls the throttle that goes to the propeller so I thought that there was no point in doing anything with the engine throttle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_3_3</DOCNO>
+            	<TEXT>Doing this fixed the battery problem so, Thanks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_4_0</DOCNO>
+            	<TEXT>2 our of 3 motors working</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_4_1</DOCNO>
+            	<TEXT>I am trying to have three motors connected to three propellers connected to three motors but then when I tried to use them, only one would work (The other two would spin but I think that was because they were being dragged in the water).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_4_2</DOCNO>
+            	<TEXT>So then I just connected the pipes to each other and it does make all three spin, but it still goes the speed of one spinning (and all of the motors throttles are up) the motors on) so I also tried using gearboxes but they still went the same speed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_4_3</DOCNO>
+            	<TEXT>Can someone help me know either why only one of the three propellers are working or why it is not going faster with the two other motors when they are all connected? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_4_4</DOCNO>
+            	<TEXT>Also I checked that the throttle and the electricity is connected multiple times.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_0</DOCNO>
+            	<TEXT>I originally was going to use a lot of large engines and it was a large boat so I wanted to see how many engines it would take.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_1</DOCNO>
+            	<TEXT>So, I turned on infinite fuel and turned off engine overheating and then put like 20 or 30 something engines.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_2</DOCNO>
+            	<TEXT>Out of water with them using a gear box it was able to get a giant propeller to go 300 rps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_3</DOCNO>
+            	<TEXT>Then I copied and paste them lower so that the propeller is under water and the I think the propeller wasn't working very well (and I made sure everything was connected).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_4</DOCNO>
+            	<TEXT>So, I lowered the gear box ratio and when that didn't work, I made it so that the gearbox gave more torque than rps and it still wasn't working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_5</DOCNO>
+            	<TEXT>Then, I decided to use motors and I wanted to see how much power they took so I put a bunch of large motors above water and only a few worked (I had like 10 to 15 and like 4 worked) and I made sure they all had the throttle thing and that they had electricity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_6</DOCNO>
+            	<TEXT>Then I tried putting them in water and at first I had the motors going straight into the propellers and when that didn't work, I had the motors go straight into gear boxes and then the propellers and I tried with more rps and with more torque for the gearboxes and it still didn't work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_5_7</DOCNO>
+            	<TEXT>So, I tried connecting all of them with and without the gear boxes and it only had the speed of one motor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_6_0</DOCNO>
+            	<TEXT>Will this fly?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_6_1</DOCNO>
+            	<TEXT>I wanted to make a plane and I had to make it taller to fit some stuff inside of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_6_2</DOCNO>
+            	<TEXT>Then I just just randomly making the outside and I came out with this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_6_3</DOCNO>
+            	<TEXT>I don't want to rebuild it because that will take a long time and it still would probably not end up that great either so I would just have to rebuild it again anyways, but do you thing this would be able to fly even though it kind of doesn't have wings/the wings suck? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_6_4</DOCNO>
+            	<TEXT>I want to know because like I said, I don't want to rebuild it, but I will if I have to) [Top](https://preview.redd.it/pqdn5kdgypb71.jpg?width=1921 amp;format=pjpg amp;auto=webp amp;s=a4d5c18b4a27ed80a06e8ba6b2b8e626bcf82b90) [Front](https://preview.redd.it/68d2vugdypb71.jpg?width=1921 amp;format=pjpg amp;auto=webp amp;s=6a04ec3ee449acaa5ca2e3cb3daaf37a6abb7aab)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_7_0</DOCNO>
+            	<TEXT>Yeah, I was planning on also making it a vtol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_7_1</DOCNO>
+            	<TEXT>Although, I didn't think about it landing on water and now that you gave me the idea I will probably make sure that it can land it water.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_8_0</DOCNO>
+            	<TEXT>To me, lead is harder to find and squid sharks are not the scariest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_9_0</DOCNO>
+            	<TEXT>That's a good idea</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_10_0</DOCNO>
+            	<TEXT>Is this too many connectors</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_10_1</DOCNO>
+            	<TEXT>Should I remove some?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_10_2</DOCNO>
+            	<TEXT>https://preview.redd.it/ntbx7lizand71.png?width=1743 amp;format=png amp;auto=webp amp;s=fb2cb17729103209051f5673b3e77f7a4a568fa2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_11_0</DOCNO>
+            	<TEXT>Idk why but I was expecting a rickroll</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_12_0</DOCNO>
+            	<TEXT>People are saying that you can make this, which you can, but I still want this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_13_0</DOCNO>
+            	<TEXT>How good is newegg at protecting customers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_13_1</DOCNO>
+            	<TEXT>I bought a 3d printer (ender 3) on Amazon and I got it yesterday but it is for sale by a 3d party seller for 140 which is 50 dollars cheaper.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_13_2</DOCNO>
+            	<TEXT>So , I haven't opened it yet and I want to return it and buy it off of newegg but I want to know how good newegg is at protecting customers first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_13_3</DOCNO>
+            	<TEXT>By this I mean if the product does not get delivered, how good are they about refunding, or if the seller sends the wrong thing or rocks or something, how good would they be at returning/refunding it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_14_0</DOCNO>
+            	<TEXT>I mean like, I doubt the seller is a scam, I am asking just in case they are a scam.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_14_1</DOCNO>
+            	<TEXT>So, I still should still stay with it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_15_0</DOCNO>
+            	<TEXT>I ended up doing it and luckily everything went fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_16_0</DOCNO>
+            	<TEXT>[No Spoilers] How did I not know this</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_17_0</DOCNO>
+            	<TEXT>The description was basically that I have had Subnautica for a long time but I somehow didn't know it takes 20 arm fragments to get the prawn suit, like I know that I didn't know it because I always scan the big fragments but I must have scanned the arm fragments before the big fragments before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_17_1</DOCNO>
+            	<TEXT>I cant edit it and so at the time when I couldn't edit it for some reason I just decided to not do anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_17_2</DOCNO>
+            	<TEXT>I have no idea why I decided to not write it in the comments.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_18_0</DOCNO>
+            	<TEXT>Is it going to be free, is it going to cost money to get the more parts and planets and stuff, will the game itself cost money?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_18_1</DOCNO>
+            	<TEXT>If so, if we bought those stuff on mobile do we get it free on pc?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_19_0</DOCNO>
+            	<TEXT>But this is made for computer as so has better controls and is optimized for computer better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_20_0</DOCNO>
+            	<TEXT>One port is not aligned.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_21_0</DOCNO>
+            	<TEXT>Stuck on loading screen</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_21_1</DOCNO>
+            	<TEXT>Just sits on this screen forever.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_21_2</DOCNO>
+            	<TEXT>https://preview.redd.it/7kk6qzwk2jw71.jpg?width=1920 amp;format=pjpg amp;auto=webp amp;s=0a1376c500bd082f855bd1f3b444c8654f7f827c</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_22_0</DOCNO>
+            	<TEXT>yeah but then it destroys everything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_23_0</DOCNO>
+            	<TEXT>This has happened so many times to me (Also I'm not sure regrow blocker works for the plane)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_24_0</DOCNO>
+            	<TEXT>What would (4m\^-1n\^2)\^3 be?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_25_0</DOCNO>
+            	<TEXT>Yeah, I'm LDS and (we believe) Joseph Smith went into the forest to pray about which church is the true church and then Jesus and god came and told him that the true church isn't on the earth yet (which he made).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_26_0</DOCNO>
+            	<TEXT>This is just wrong, angels aren't something you could just find, goblins and werewolves are.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_27_0</DOCNO>
+            	<TEXT>Yeah, I am LDS and before I would say I don't believe in ghost but that was because I didn't know the definition which is "an apparition of a dead person which is believed to appear or become manifest to the living" which going with the LDS belief means that ghost are real.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_27_1</DOCNO>
+            	<TEXT> So I do technically believe in ghost but I thought I didn't and would have said I don't because when I hear ghost I think of the kind of ghost that haunts people.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_0</DOCNO>
+            	<TEXT>So, I saw the bl touch a while ago and then a while later, like a week or two ago, I saw the cr touch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_1</DOCNO>
+            	<TEXT>From Amazon reviews it looked like the cr touch was better but then on reddit, people seemed to think the bl touch is better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_2</DOCNO>
+            	<TEXT>Also, someone I know said it is not worth it because it is too much effort to install.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_3</DOCNO>
+            	<TEXT>So, is it worth it and worth the installation and/or easy to install?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_4</DOCNO>
+            	<TEXT>Is it actually worth it general?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_5</DOCNO>
+            	<TEXT>Is it better than the bl touch or worse (and why is it better or worse)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_6</DOCNO>
+            	<TEXT>Does it make it so that I don't need to level (adjusts how high the nozzle is) or does it just help level (tells you when it is the right hight)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_7</DOCNO>
+            	<TEXT>Lastly, would I need to buy a new motherboard? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_28_8</DOCNO>
+            	<TEXT>Got my printer in August or September)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_29_0</DOCNO>
+            	<TEXT>Well I'm more confused with 4m because people people are saying that you have 4 to the power of 3 but wouldn't you just multiply -1 and 3 and not touch the four (because the 4 is part of m saying that once you know m, to multiply it by four) Here is what I mean (just doing the power of 3 part) What I think it would be 4m^-3n^6 What people are saying it would be: 64m^-3n^6</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_30_0</DOCNO>
+            	<TEXT>Yeah, I thought you were talking about the helicopter keeping up with the plane.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_31_0</DOCNO>
+            	<TEXT>Best wireless headphones under 100</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_31_1</DOCNO>
+            	<TEXT>I know I am asking a lot and I don't expect that there is a headset with everything I want but I thought it was worth a try.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_31_2</DOCNO>
+            	<TEXT>Again, under 100 or maybe just slightly over 100.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_31_3</DOCNO>
+            	<TEXT>The things I would especially want to have is Bluetooth (whenever I break headphones, its most of the time the cable that is ruined plus it makes it so I don't have to take them off to leave) and comfortability.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_31_4</DOCNO>
+            	<TEXT>Other things I want (not as much but still want) is a microphone and a usb dongle (my pc doesn't have Bluetooth and if it has a usb dongle I wouldn't need to get a Bluetooth adapter).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_31_5</DOCNO>
+            	<TEXT>Again, that's: I especially want: Under 100 dollars, Bluetooth/wireless, and comfortability Would be nice if it has: a microphone and usb dongle Also again, I don't expect a headset with all of this but it is worth a try (also so that I could also see if there are ones close to this)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_32_0</DOCNO>
+            	<TEXT>Wow, what I'd say normal looking benchy if not better looking benchy (I'm not a expert) in only 40 minutes (less than half the time cura says which is 1 hour 55 minutes)...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_33_0</DOCNO>
+            	<TEXT>Any Good wireless headphones with usb and bluetooth?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_33_1</DOCNO>
+            	<TEXT>Are there any good headphones with usb (for my computer which does not have bluetooth) and bluetooth (for my phone)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_33_2</DOCNO>
+            	<TEXT>Edit: I forgot to add this but under 100 dollars</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_34_0</DOCNO>
+            	<TEXT>Razer Barracuda X vs. Turtle Beach recon 200 vs. Turtle Beach Stealth 700</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_34_1</DOCNO>
+            	<TEXT>How do the Razer Barracuda X, Turtle Beach recon 200, and Turtle Beach Stealth 700 compare? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_34_2</DOCNO>
+            	<TEXT>Especially the comfort, sound, and strength) Are there headsets for the same price that you would recommend more? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_34_3</DOCNO>
+            	<TEXT>if wireless would need usb and Bluetooth and preferably wireless but if not, then ok)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_35_0</DOCNO>
+            	<TEXT>It would be cool if there was mountains and water</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_36_0</DOCNO>
+            	<TEXT>It is a title for the rocket.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_36_1</DOCNO>
+            	<TEXT>Titles have all words capitalized (except words like of)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_37_0</DOCNO>
+            	<TEXT>Are the Razer Barracuda X good?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_37_1</DOCNO>
+            	<TEXT>What the title says, is Razer Barracuda X good?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_38_0</DOCNO>
+            	<TEXT>Go in one direction and don't stop</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_40_0</DOCNO>
+            	<TEXT>"that thing"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_41_0</DOCNO>
+            	<TEXT>No, you just need to cut it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_42_0</DOCNO>
+            	<TEXT>The same thing happened to me, cutting it off worked fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_43_0</DOCNO>
+            	<TEXT>I think the one on the right is a newer one that they replaced the other with, I got mine about 2-3 month ago and it is the same.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_44_0</DOCNO>
+            	<TEXT>He just wants friends...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_45_0</DOCNO>
+            	<TEXT>Isn't this what the Ender 3 was made for?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_46_0</DOCNO>
+            	<TEXT>When he was saying that waste from the water and food would be a problem, the food doesn't have a container and I think the water container is biodegradable because it can be made out of a fish.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_47_0</DOCNO>
+            	<TEXT>Maybe he became extremely rich after discovering other intelligent life.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_48_0</DOCNO>
+            	<TEXT>Yeah, I think most if not all ender-3s do it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_49_0</DOCNO>
+            	<TEXT>Mine did the same thing and kind of seemed chewed up at the end that goes in the hot end.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_49_1</DOCNO>
+            	<TEXT>I just cut off that end and it worked fine but like other people are saying, you could (and is probably a better idea to) replace the tube but you could also do what I did which is probably a more temporary solution.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_50_0</DOCNO>
+            	<TEXT>The ion cubes stuff weren't established blueprints, it took this new material and made it work with a existing blueprint.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_51_0</DOCNO>
+            	<TEXT>Just imagine you go in someone's yard and they come out with a shotgun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_52_0</DOCNO>
+            	<TEXT>"What's in that closet?" "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_52_1</DOCNO>
+            	<TEXT>Oh, just a 67 year old fetus."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_53_0</DOCNO>
+            	<TEXT>This is what I usually do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_54_0</DOCNO>
+            	<TEXT>Do you need to dedicate the laptop, desktop, or raspberry pi to the printer or do you just need it to change the firmware?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_0</DOCNO>
+            	<TEXT>Bl/Cr Touch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_1</DOCNO>
+            	<TEXT>I hate bed level and am really bad at it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_2</DOCNO>
+            	<TEXT>I can't get it right with the paper and so I print a thing that takes a few minutes to print to level it and then I still can't get it that great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_3</DOCNO>
+            	<TEXT>From what I know, the bl and cr touch make it so that you still have to level but you don't have to make it as perfect.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_4</DOCNO>
+            	<TEXT>I also heard that you can use it to level the bed by going to each screw and telling you the offset so that you can match each corners offset.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_5</DOCNO>
+            	<TEXT>Am I right in what they can do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_6</DOCNO>
+            	<TEXT>Do you recommend it/think its worth it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_55_7</DOCNO>
+            	<TEXT>Also, is the Cr touch or BL touch better (from what I know, Cr touch is stronger and BL touch is more accurate which kind of makes me lean towards the Cr touch because I am rough on things)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_56_0</DOCNO>
+            	<TEXT>From I see, if your board is 32 bit, it will work which you can tell if it has either micro (32 bit) or mini (8 bit) usb.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_56_1</DOCNO>
+            	<TEXT>Which mine has micro (I think they changed the board from before.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_56_2</DOCNO>
+            	<TEXT>Is this true?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_57_0</DOCNO>
+            	<TEXT>How did I not know this...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_58_0</DOCNO>
+            	<TEXT>That poor cuddlefish...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_59_0</DOCNO>
+            	<TEXT>Razer Barracuda X</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_59_1</DOCNO>
+            	<TEXT>Are the Razer Barracuda X good?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_0</DOCNO>
+            	<TEXT>Well I guess under 100 and wireless because the wire is always the place where I break headphones.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_1</DOCNO>
+            	<TEXT>Needs a way to connect to my computer and phone (preferably Bluetooth and USB (because my computer doesn't have Bluetooth) but things like Barracuda X would work because it's type c (so would work for my phone) and has a type C to type A thing (so it would would with my computer).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_2</DOCNO>
+            	<TEXT>I would some times talk to friends so preferably a mic, I would sometime use it for games but mostly for YouTube.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_3</DOCNO>
+            	<TEXT>I would like strength (I am rough on headphones) and comfort (I wear headphones for hours everyday).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_4</DOCNO>
+            	<TEXT>I realize that is a lot for headphones for 100 dollars but it's nice to know what is the closest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_5</DOCNO>
+            	<TEXT>So that's that it is preferably- Under 100 dollars Wireless (and has a way to to connect to my.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_6</DOCNO>
+            	<TEXT>computer which doesn't have type C or Bluetooth and my phone which does have type c and Bluetooth.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_60_7</DOCNO>
+            	<TEXT>A mic Something that would mostly be good for YouTube Strength Comfort Again, I know that's a lot for headphones under 100 dollars but just checking whats closest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_61_0</DOCNO>
+            	<TEXT>Yeah, the ice worm I think is a leviathan and it lives on land/underground instead of the water.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_62_0</DOCNO>
+            	<TEXT>I'm pretty sure this filament is so expensive on amazon because the seller made it more expensive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_63_0</DOCNO>
+            	<TEXT>I know but the seller was charging over double when you can usually find the original price of things on Amazon. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_63_1</DOCNO>
+            	<TEXT>Also Amazon doesn't charge 50%)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_64_0</DOCNO>
+            	<TEXT>Why won't you do a magnetic plate?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_66_0</DOCNO>
+            	<TEXT>I know this is a a while after but have you tried the tubes?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_66_1</DOCNO>
+            	<TEXT>If so, how often do you need to fix it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_67_0</DOCNO>
+            	<TEXT>It's a bit far from the bed</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_68_0</DOCNO>
+            	<TEXT>infinity cube just casually sitting in corner</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_69_0</DOCNO>
+            	<TEXT>They were asking a question.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_69_1</DOCNO>
+            	<TEXT>Also, you did word this badly, how you said it, it sounds like you are trying to sneak a calculator in that looks like a phone but I know you mean sneak a phone in by making it look like a calculator.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_70_0</DOCNO>
+            	<TEXT>Update marlin?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_70_1</DOCNO>
+            	<TEXT>I got my printer a few months ago and it says that marlin is version 1.0.1, so should I update it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_70_2</DOCNO>
+            	<TEXT>If so, how?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_71_0</DOCNO>
+            	<TEXT>From what I know, no.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_72_0</DOCNO>
+            	<TEXT>How to set z offset?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_72_1</DOCNO>
+            	<TEXT>I want to try to level using a feeler gauge and so I think I need to change the z offset but I looked through everything and can't find how to change it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_73_0</DOCNO>
+            	<TEXT>I printed this too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_73_1</DOCNO>
+            	<TEXT>A normal sized one and a remix that scaled it up to 150% (I think they made the remix because I think they changed the sized of some stuff slightly differently so that stuff fits together better)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_74_0</DOCNO>
+            	<TEXT>I want to try to use a feeler gauge instead of printing a bed level test and adjust it and/or paper but in a tutorial I saw, it said you need to set the z offset.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_74_1</DOCNO>
+            	<TEXT>So is this right that you need to set the offset?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_75_0</DOCNO>
+            	<TEXT>I'm the tutorial they went in the menu on the printer and changed the z offset to the thickness of their feeler gauge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_76_0</DOCNO>
+            	<TEXT>"Hey yeah you know that food you paid for?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_76_1</DOCNO>
+            	<TEXT>Yeah well you can't take that home."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_77_0</DOCNO>
+            	<TEXT>Klipper vs Marlin</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_77_1</DOCNO>
+            	<TEXT>What are the differences?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_77_2</DOCNO>
+            	<TEXT>Do you recommend changing to klipper or staying with marlin?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_78_0</DOCNO>
+            	<TEXT>Oh, I just checked the comments and they said that they forgot to mention to set it back to 0.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_78_1</DOCNO>
+            	<TEXT>They must have done that so that when leveled with a 0.2mm level gauge (which is what they used),the bed would be at 0 instead of 0.2 mm below.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_79_0</DOCNO>
+            	<TEXT>Growing pretty quickly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_80_0</DOCNO>
+            	<TEXT>I think there are other ways in</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_81_0</DOCNO>
+            	<TEXT>I am playing on computer and not ps4, but it is a bug.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_81_1</DOCNO>
+            	<TEXT>It works on computer and they would have no reason to change it on ps4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_81_2</DOCNO>
+            	<TEXT>It must just be a common bug on ps4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_82_0</DOCNO>
+            	<TEXT>You can repair it on the other side (not sure if it would be glitched if it is glitched on the other side) but you are supposed to be able to repair it on the outside too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_83_0</DOCNO>
+            	<TEXT>Is Overture pla filament good (especially white)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_83_1</DOCNO>
+            	<TEXT>Is Overture pla good? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_83_2</DOCNO>
+            	<TEXT>I especially want to know about white, but knowing about other colors would be nice).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_84_0</DOCNO>
+            	<TEXT>Thanks, the white was on sale for about 15$ earlier today but the deal sold out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_85_0</DOCNO>
+            	<TEXT>Looks like it could wiggle, can it wiggle?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_86_0</DOCNO>
+            	<TEXT>This would be terrifying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_87_0</DOCNO>
+            	<TEXT>What is this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_88_0</DOCNO>
+            	<TEXT>Oh I was so confused what this had to do with Subnautica Below Zero</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_89_0</DOCNO>
+            	<TEXT>Amazing deal</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_90_0</DOCNO>
+            	<TEXT>couldn't you just pause it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_92_0</DOCNO>
+            	<TEXT>Can Raspberry Pi Zero 2 W run Klipper and Octoprint?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_92_1</DOCNO>
+            	<TEXT>What the title says, can Raspbery Pi Zero 2 W run Klipper and Octoprint (at the same time)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_92_2</DOCNO>
+            	<TEXT>Are there any features it wouldn't be able to run?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_93_0</DOCNO>
+            	<TEXT>Nope, still doesn't work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_94_0</DOCNO>
+            	<TEXT>I can't find that on my phone, it sounds like your supposed to go to android and then data but when I do that, its empty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_95_0</DOCNO>
+            	<TEXT>It did the same thing for me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_96_0</DOCNO>
+            	<TEXT>I got mine for 145 (normal, not v2)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_97_0</DOCNO>
+            	<TEXT>Yeah, sound like a few mods...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_98_0</DOCNO>
+            	<TEXT>Acid mushrooms and copper</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_99_0</DOCNO>
+            	<TEXT>It's broken ):</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_100_0</DOCNO>
+            	<TEXT>It wiggled too early. ):</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_101_0</DOCNO>
+            	<TEXT>I was talking about in the picture on one of the tenticals, there isn't a end piece so (unless for some reason the rock version of it got rid of the end of that), it's broken.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_103_0</DOCNO>
+            	<TEXT>Broken Belt</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_103_1</DOCNO>
+            	<TEXT>The x belt on my ender 3 just broke.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_103_2</DOCNO>
+            	<TEXT>I have 3d printed a x belt tensioner thing and so would it be I tightened it too much or another reason (I got it in September I think so I don't think it got worn down too much but I could be wrong)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_103_3</DOCNO>
+            	<TEXT>Also do you recommend any belts?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_104_0</DOCNO>
+            	<TEXT>Hopefully. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_104_1</DOCNO>
+            	<TEXT>Also hopefully they give the option to disable it bauce it is cool and a good thing to have but, sometimes I just want to mess around and not have it burn up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_104_2</DOCNO>
+            	<TEXT>Also, this would probably be part of the sandbox thing so you would have to have the expansion)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_105_0</DOCNO>
+            	<TEXT>Yeah that's a problem I noticed, their adding heat shields (I think) but it would be hard to make it look nice with how the heat shields look like.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_106_0</DOCNO>
+            	<TEXT>Is it fully 3d printed or does it need other parts?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_108_0</DOCNO>
+            	<TEXT>But sometimes it's nice to just mess around and not worry about that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_109_0</DOCNO>
+            	<TEXT>It would probably be part of the sandbox thing which costs money.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_110_0</DOCNO>
+            	<TEXT>Still a bit of a over reaction by them though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_112_0</DOCNO>
+            	<TEXT>I'm pretty sure if you just quit and break the contract, I think other companies will be able to see that which might make it harder to get hired because a company doesn't want you to randomly quit without them being able to look for a replacement.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_112_1</DOCNO>
+            	<TEXT>Well, I'm pretty sure that what it is meant to be, I don't know how much harder it makes it, plus you might be able to explain why you did it to the next place you work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_113_0</DOCNO>
+            	<TEXT>To me it depends, but yeah, I somewhat agree.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_113_1</DOCNO>
+            	<TEXT>There one website (I don't know what the name is) but it said something (in a ad) like Guy's life changed after finding something with metal detector or something like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_113_2</DOCNO>
+            	<TEXT>I don't know why I clicked on it but I decided to read it (even though like everything says someone's life is changed forever) and I read a bit, then it said something like next so I clicked next, then I read a bit more, it said next again, then it kept doing that a long time for what should have been a short article or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_113_3</DOCNO>
+            	<TEXT>It literally had like 10 pages of just saying something over and over like one example is then what happened next changed his life, then little did he know that what he found would be his biggest find, then little did he know what happened next would change his life forever,</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_114_0</DOCNO>
+            	<TEXT>Not sure if this is a pet peeve but when people insult a religion or it's beliefs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_114_1</DOCNO>
+            	<TEXT>Like I said in the title, I don't know if this is a pet peeve (I also don't know if most people agree or not) but I hate it when ever people insult a religion or it's beliefs (unless it's something super bad like killing people).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_114_2</DOCNO>
+            	<TEXT>Like I'm ok with jokes about them but if they insult it or anything then it kind of annoys me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_114_3</DOCNO>
+            	<TEXT>Like for example, once in a video, someone said that most churches have "the outdated" belief that you are "destined" for a bad place if you like the same gender.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_114_4</DOCNO>
+            	<TEXT>Is god just supposed to be like oh looks like that's the cool thing now, might as well make it not a sin anymore? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_114_5</DOCNO>
+            	<TEXT>also, I could be wrong but I'm pretty sure like in my religion, which is LDS also known as Mormon, most religions believe that its not being attracted to the same gender, but acting on it so you are not "destined" for like the same gender).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_114_6</DOCNO>
+            	<TEXT>I'm also not just saying this because I believe in a religion which can be insulted, because it also annoys me when people insult what another religion believes even if I don't believe in that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_115_0</DOCNO>
+            	<TEXT>I don't trust that plastic key.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_116_0</DOCNO>
+            	<TEXT>The same thing happend to me when I had played for like 10 hours+ without saving.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_116_1</DOCNO>
+            	<TEXT>Except it didn't randomly crash, I went into my cyclops while in my prawn suit and it glitched and I couldn't move.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_118_0</DOCNO>
+            	<TEXT>You realize every time you comment, you have another comment right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_120_0</DOCNO>
+            	<TEXT>Replies might not count but your still doomed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_121_0</DOCNO>
+            	<TEXT>Almost 5k push-ups. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_128_0</DOCNO>
+            	<TEXT>Lol, hope you like doing push-ups for the next 10 years.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_129_0</DOCNO>
+            	<TEXT>I'm confused... I get it's bad they were fired but was about before?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_129_1</DOCNO>
+            	<TEXT>Yeah the coworkers shouldn't have been pressuring you to come earlier but they are choosing to come early?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_130_0</DOCNO>
+            	<TEXT>You're not awesome</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_131_0</DOCNO>
+            	<TEXT>When mine broke on my ender 3 I just searched ender x belt (the x belt broke on mine but the y belt broke on yours).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_131_1</DOCNO>
+            	<TEXT>So I think you just need to search ender 3 v2 y belt</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_132_0</DOCNO>
+            	<TEXT>You gave a 1 year old a screwdriver set?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_133_0</DOCNO>
+            	<TEXT>Not a solution but don't let your dad know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_134_0</DOCNO>
+            	<TEXT>Add another tier (S+) and just move the reaper and peeper to S and cuddlefish to S+.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_135_0</DOCNO>
+            	<TEXT>Try hair spray or glue sticks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_136_0</DOCNO>
+            	<TEXT>Wait... that's a good idea.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_138_0</DOCNO>
+            	<TEXT>348 people's opinions are invalid</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_139_0</DOCNO>
+            	<TEXT>But they're so tasty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_141_0</DOCNO>
+            	<TEXT>But you gotta hate their explosive temper.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_142_0</DOCNO>
+            	<TEXT>But you have to clean off the glue stick residue after every print.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_143_0</DOCNO>
+            	<TEXT>I know you are just saying that dust filters are great but how it is worded it just seems like you were paid to advertise it...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_144_0</DOCNO>
+            	<TEXT>Not all, (I don't think this are very big brands but) Tinmorry comes with a re-sealable bag in the box and the bag the filament comes in is re-sealable for Duramic and TTYT3D.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_145_0</DOCNO>
+            	<TEXT>I'm guessing because it is much easier to tangle that way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_146_0</DOCNO>
+            	<TEXT>Yeah more companies are, a company called DURAMIC is (or they say they are, when I got mine it was still plastic but they might just be saying they are in the future or something).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_146_1</DOCNO>
+            	<TEXT>I also saw a few other ones.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_148_0</DOCNO>
+            	<TEXT>That's not fuel, that is thrust.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_149_0</DOCNO>
+            	<TEXT>If you look, it says that it was posted on the 10th right above it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_150_0</DOCNO>
+            	<TEXT>No, he edited it to say by the end of the day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_151_0</DOCNO>
+            	<TEXT>It was edited to say by the end of the day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_152_0</DOCNO>
+            	<TEXT>That's sweet sweet revenge</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_153_0</DOCNO>
+            	<TEXT>Its out Android?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_154_0</DOCNO>
+            	<TEXT>A abortions isn't always the best option</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_155_0</DOCNO>
+            	<TEXT>I'd say its better for a kid to be given up for adoption than never existing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_155_1</DOCNO>
+            	<TEXT> Also, the girl would have to agree.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_155_2</DOCNO>
+            	<TEXT>I don't think he can force her to get an abortion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_156_0</DOCNO>
+            	<TEXT>Wait... If its too top heavy, why move the weight lower when you can (unless you cant for some reason), either flip the payload, or move the heat shield to the top?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_157_0</DOCNO>
+            	<TEXT>One of two things (both of which have been said multiple times), RCS or move the weight lower.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_158_0</DOCNO>
+            	<TEXT>This is so easy, its a peeper!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_159_0</DOCNO>
+            	<TEXT>Yeah, I decided to click on it even though I knew it was a rickroll.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_159_1</DOCNO>
+            	<TEXT>Luckily, I was saved by a ad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_160_0</DOCNO>
+            	<TEXT>There's a remix of all the parts separated. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_160_1</DOCNO>
+            	<TEXT>just go to the remixes).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_161_0</DOCNO>
+            	<TEXT>It annoys me that you said 3 or 2 instead of 2 or 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_162_0</DOCNO>
+            	<TEXT>Yes, everyone should have it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_163_0</DOCNO>
+            	<TEXT>They guessed it so fast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_164_0</DOCNO>
+            	<TEXT>I don't see them mentioning it being the the companies fault anywhere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_165_0</DOCNO>
+            	<TEXT>There not as bad as people say.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_165_1</DOCNO>
+            	<TEXT>Yes, it's a fairly common problem but I you look, there are a ton of people who go a long time without theirs breaking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_166_0</DOCNO>
+            	<TEXT>How is thingiverse so bad?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_167_0</DOCNO>
+            	<TEXT>I haven't had any problems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_167_1</DOCNO>
+            	<TEXT>The only problem I have is that sometimes it doesn't remember to log you back in.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_168_0</DOCNO>
+            	<TEXT>Yeah, I recognized almost everything in there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_169_0</DOCNO>
+            	<TEXT>Not exactly the same thing but very very similar (and on the other side).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_169_1</DOCNO>
+            	<TEXT>I (14) bought a ender 3 on sale for 145$. Then my dad wanted to buy one so he bought one (also on sale for 145$) but was messed up and so its print were really messed up so he bought a ender 5 for 350$</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_170_0</DOCNO>
+            	<TEXT>Oh no, I never thought about how the burn marks from reentry would mess up the look of the rover.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_171_0</DOCNO>
+            	<TEXT>My name is Cedar.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_171_1</DOCNO>
+            	<TEXT>I am fine with it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_172_0</DOCNO>
+            	<TEXT>I guessing there going to do astronauts and solid rocket boosters next with some visual effects and sound mixed in because they already added some in the reentry update.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_173_0</DOCNO>
+            	<TEXT>Abcdefghijklmnopqrstuvwxyz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_174_0</DOCNO>
+            	<TEXT>How.... just.... how....</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_175_0</DOCNO>
+            	<TEXT>I think it is over extruding and the bottom is like that because it is too far from the bed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_176_0</DOCNO>
+            	<TEXT>I can't blame him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_176_1</DOCNO>
+            	<TEXT>Stuff has changes a lot in his lifetime.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_176_2</DOCNO>
+            	<TEXT>Also, take a 3d printer back 500 years, people will worship you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_177_0</DOCNO>
+            	<TEXT>Sometimes it takes me a while to find enough fragments to make one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_179_0</DOCNO>
+            	<TEXT>Would wood glue work well on wood pla?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_314_179_1</DOCNO>
+            	<TEXT>Since wood pla has saw dust in it, I was wondering if wood glue would work very well with it?</TEXT>
+        </DOC>

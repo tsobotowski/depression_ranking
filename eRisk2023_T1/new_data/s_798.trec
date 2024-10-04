@@ -1,0 +1,678 @@
+        <DOC>
+            	<DOCNO>s_798_0_0</DOCNO>
+            	<TEXT>1.5 years out of college, second job, 65k.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_0_1</DOCNO>
+            	<TEXT>Started my first job out of college at 50k.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_1_0</DOCNO>
+            	<TEXT>My take on python/ruby: Ruby is a better language, better structure, designed mostly correctly from the ground up, good syntax.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_1_1</DOCNO>
+            	<TEXT>Python is a better development tool because there's lots and lots of useful code out there for it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_1_2</DOCNO>
+            	<TEXT>This might change as ruby uses it's recent popularity to "catch up".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_1_3</DOCNO>
+            	<TEXT>If I need to write an application using one of these 2 languages, chances of finding good resources to work from are much more likely in python than in ruby.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_1_4</DOCNO>
+            	<TEXT>Ruby (currently) is good and useful for rails, and that's it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_1_5</DOCNO>
+            	<TEXT>And python frameworks aren't really far behind, and as wsgi catches up, it negates some of the rails effect.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_1_6</DOCNO>
+            	<TEXT>And google uses python, so I do too, since google owns the world.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_2_0</DOCNO>
+            	<TEXT>There's programs that are "allowed" to be large (office suits, web browsers, etc).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_2_1</DOCNO>
+            	<TEXT>A program that sends messages back and forth using various protocols should not qualify as one of these programs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_2_2</DOCNO>
+            	<TEXT>What would possibly make me want to use this over pidgin, which is IMO one of the best multi-protocol instant messagers available now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_3_0</DOCNO>
+            	<TEXT>This seems overly simple to me: If you don't like the direction your company is going, and you can't convince them otherwise, then leave.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_4_0</DOCNO>
+            	<TEXT>"Advanced web development" implies the use of interactive pages, which implies the use of Javascript.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_4_1</DOCNO>
+            	<TEXT>If you want to learn ONE language to do web development, that language needs to be Javascript.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_4_2</DOCNO>
+            	<TEXT>If you mean 1 serverside language, then go python or php.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_4_3</DOCNO>
+            	<TEXT>Python is probably better, but php is more ubiquitous.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_5_0</DOCNO>
+            	<TEXT>Both editors are featurefilled to the point that it's hard to find something that they both can't do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_5_1</DOCNO>
+            	<TEXT>Sometimes it's varying degrees of difficulty when one is compared to another.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_5_2</DOCNO>
+            	<TEXT>I use vim, and prefer vim.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_5_3</DOCNO>
+            	<TEXT>I have few to none of the issues the author of this article had, and much prefer the vast array of single or two-finger commands to get stuff done.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_6_0</DOCNO>
+            	<TEXT>Until things like web.py get usable hello world pages with 0 effort to install/setup, php will still be around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_6_1</DOCNO>
+            	<TEXT>To install php on debian-based systems, it's like 2 apt-gets, create an index.php, and I'm done.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_6_2</DOCNO>
+            	<TEXT>To get things like web.py working is substantially more work (relatively speaking), and this higher barrier to entry is going to inhibit it for some time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_6_3</DOCNO>
+            	<TEXT>Not to mention that python/ruby frameworks are pretty mature/mainstream at this point, yet the big internet sites aren't really flocking to it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_6_4</DOCNO>
+            	<TEXT>The world is predominantly php, and I anticipate that it will stay that way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_6_5</DOCNO>
+            	<TEXT>Hopefully wsgi fixes this (I think it's probably the closest to what will take over for php)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_7_0</DOCNO>
+            	<TEXT>48 here, and I write lots of html :( of the 43 I missed, there's 1-2 that I use (label being a notable one) I'd imagine 40-55 is gonna be average (yes I'm biasing this somewhat by putting me in the middle of that range)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_8_0</DOCNO>
+            	<TEXT>In HTML it is hard/impossible to do page breaks and/or different sized pages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_8_1</DOCNO>
+            	<TEXT>Page breaks are pretty important in a lot of things...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_9_0</DOCNO>
+            	<TEXT>I think this is potentially very good news.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_9_1</DOCNO>
+            	<TEXT>The only reason I use aim and deal with it's proprietary protocol is because everyone else does too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_9_2</DOCNO>
+            	<TEXT>We've recently started doing some stuff with jabber/xmpp at work, and it's certainly a very promising spec.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_9_3</DOCNO>
+            	<TEXT>I look forward to see how this develops, and if yahoo/msn will follow suit and possibly create a unified IM structure (although pidgin largely offsets some of that).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_10_0</DOCNO>
+            	<TEXT>Hands free emacs is an oxymoron if I've ever heard one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_11_0</DOCNO>
+            	<TEXT>I wish all of the people working on these distros would instead work on one of the mainstream distros, and have 4-5 really good distros (linux only here, I'm not talking about the BSDs), with dozens to hundreds of developers rather than a bunch of relatively crappy distros.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_12_0</DOCNO>
+            	<TEXT>visualbell is an amazing invention</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_13_0</DOCNO>
+            	<TEXT>I use whatever screenspace is given to me, and then some.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_13_1</DOCNO>
+            	<TEXT>I use a single 30" at home, and dual 20" widescreens at work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_13_2</DOCNO>
+            	<TEXT>The 30" is better because it has more pixels, and there's no weird deadzones for fitting things because you don't have to worry about a monitor spanning 2 windows (which is tough for readability and usability, even when the monitors are perfectly aligned).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_13_3</DOCNO>
+            	<TEXT>It is probably more important to web developers than other types of developers as you have the browser open to see changes in real time, but I think it's important for everyone (browsers are a source of documentation as well).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_14_0</DOCNO>
+            	<TEXT>Hasn't this been a solved problem for a while?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_14_1</DOCNO>
+            	<TEXT>IPTables rules to bypass sandvine have been floating around the internet since about 1 week after sandvine started to be used by comcast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_14_2</DOCNO>
+            	<TEXT>Why is this news?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_14_3</DOCNO>
+            	<TEXT>http://redhatcat.blogspot.com/2007/09/beating-sandvine-with-linux-iptables.html</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_15_0</DOCNO>
+            	<TEXT>I was pretty surprised to see that much of an improvement over bzip2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_16_0</DOCNO>
+            	<TEXT>This project seems interesting enough that I may actually take some time to look at it, use it as a jumping point for learning X, and maybe contribute some code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_16_1</DOCNO>
+            	<TEXT>Thank you for a wonderful contribution to opensource.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_17_0</DOCNO>
+            	<TEXT>It technically doesn't even support Java natively. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_17_1</DOCNO>
+            	<TEXT>yes, it's possible to build an eclipse IDE that doesn't have any of the java stuff enabled)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_18_0</DOCNO>
+            	<TEXT>eclim or viemu might be worthwhile.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_18_1</DOCNO>
+            	<TEXT>I just use vim with a customized set of scripts to get done that I need to get done.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_19_0</DOCNO>
+            	<TEXT>I will probably make this work for perforce tomorrow at work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_19_1</DOCNO>
+            	<TEXT>Vimdiff is OK, but inline diffs that effectively use colors is a huge plus.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_19_2</DOCNO>
+            	<TEXT>I just glanced at the code; hopefully it isn't hard to port to other systems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_20_0</DOCNO>
+            	<TEXT>Regarding the memoization example, what is the scope of the cache?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_20_1</DOCNO>
+            	<TEXT>Is it local only to that function?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_20_2</DOCNO>
+            	<TEXT>Or is it available to any function that gets decorated with that class?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_20_3</DOCNO>
+            	<TEXT>More clearly: Could I use that same memoization class to cache the results of 2 separate functions in the same application, or will the values of the 2 functions overlap?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_21_0</DOCNO>
+            	<TEXT>is there any way to have this type of decorator functionality in php?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_22_0</DOCNO>
+            	<TEXT>I'm not sure if everyone here is just being sarcastic or what, but as an excercise/testing tool, I think this can be great to flex out our programming muscle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_22_1</DOCNO>
+            	<TEXT>Somewhat poor analogy that I hope gets the point across: Lifting weights isn't something you do while playing basketball, yet working out and lifting weights will make you a better basketball player.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_22_2</DOCNO>
+            	<TEXT>Writing functions that can only be nested 1 level deep isn't something you do on a daily programming basis, but it will make you a better programmer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_22_3</DOCNO>
+            	<TEXT>Should these techniques be used on production code?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_22_4</DOCNO>
+            	<TEXT>Probably not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_22_5</DOCNO>
+            	<TEXT>Can they be used to make you a smarter, better programmer who thinks more about the code that they write?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_22_6</DOCNO>
+            	<TEXT>Absolutely.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_23_0</DOCNO>
+            	<TEXT>So, what do you think of tiling window mahagers? :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_24_0</DOCNO>
+            	<TEXT>Article title.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_25_0</DOCNO>
+            	<TEXT>Your case works fine with tab/space mix here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_25_1</DOCNO>
+            	<TEXT>The second line is logically at the same indentation level as the first (it's part of the same piece of code), so there is no tab.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_25_2</DOCNO>
+            	<TEXT>It's all spaces from the beginning of the indent (here, the beginning of the line).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_25_3</DOCNO>
+            	<TEXT>This will make your parameters line up no matter what reasonable tab width you use.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_26_0</DOCNO>
+            	<TEXT>ERN blog did some regression analysis matching SWR to CAPE.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_26_1</DOCNO>
+            	<TEXT>If you believe cape is a reasonable indicator of cycles (the higher it goes the chance a correction is coming), the models suggest getting to 3.25% swr instead of the usual 4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_26_2</DOCNO>
+            	<TEXT>If you are at our below 3.25, go for it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_26_3</DOCNO>
+            	<TEXT>If your original wr was higher than that, then maybe consider holding off for a while longer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_27_0</DOCNO>
+            	<TEXT>This is not at all how email works</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_28_0</DOCNO>
+            	<TEXT>It's a retirement account, not a housebuying account.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_28_1</DOCNO>
+            	<TEXT>You can do this, but you shouldn't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_0</DOCNO>
+            	<TEXT>Some off the cuff thoughts: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_1</DOCNO>
+            	<TEXT>Using a 3rd party email program, either via gmail directly or it's POP3 or IMAP interfaces.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_2</DOCNO>
+            	<TEXT>This means you are at the mercy of whatever email program is being used.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_3</DOCNO>
+            	<TEXT>Is it stored cached on disk, or in memory, for something else to read?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_4</DOCNO>
+            	<TEXT>GMail uses, but does not require, TLS for MTA transport.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_5</DOCNO>
+            	<TEXT>Meaning the data is potentially visible on every switch, router, and firewall device, potentially logged.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_6</DOCNO>
+            	<TEXT>This includes pineapple devices.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_7</DOCNO>
+            	<TEXT>Source: i did a security audit at a company using Gmail and was pretty trivially capable of reading every email sent and received while i was monitoring.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_29_8</DOCNO>
+            	<TEXT>The specific technique i used was fixed (implementation of HSTS), but that doesn't mean you can't still do this via other methods.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_30_0</DOCNO>
+            	<TEXT>If you want to lower the payment (ignoring all if the "you probably can't afford this stuff), just pretend like you have them the down payment, but keep it in your in savings account and fund the difference from there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_30_1</DOCNO>
+            	<TEXT>The difference in finance charge via money factor etc will be nearly a wash after taking into account interest gained from the savings account.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_31_0</DOCNO>
+            	<TEXT>You can retroactively buy cobra if needed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_31_1</DOCNO>
+            	<TEXT>There is no need to pay for cobra for the 48 hour period unless something happens.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_32_0</DOCNO>
+            	<TEXT>Don't tell them about the CarMax offer until AFTER they give you a value.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_32_1</DOCNO>
+            	<TEXT>For all you know they might value it higher for some reason.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_33_0</DOCNO>
+            	<TEXT>I have central ac and window units and I've found for my house running window units for most of the day and the central air in late evening was way more cost effective than running central ac primarily.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_34_0</DOCNO>
+            	<TEXT>Doing this makes back door roth significantly more complicated in the future.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_34_1</DOCNO>
+            	<TEXT>If you want to roll out to something, took it to new 401k, not a traditional ira See the prorata rule.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_35_0</DOCNO>
+            	<TEXT>You absolutely should not be driving around with the title of the car.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_35_1</DOCNO>
+            	<TEXT>Store it some place safe!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_36_0</DOCNO>
+            	<TEXT>It's uncommon for an ic, but not unheard of.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_36_1</DOCNO>
+            	<TEXT>Especially if you bring other skills to the table.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_36_2</DOCNO>
+            	<TEXT>A colleague and I are both well north of this number.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_37_0</DOCNO>
+            	<TEXT>This assumes tax brackets stay the same for the next 30+ years until you retire.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_37_1</DOCNO>
+            	<TEXT>Tax brackets were quite a bit different 30-40 years ago; it's reasonable they'll change over the next 30 years in ways you won't predict.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_38_0</DOCNO>
+            	<TEXT>Salaried individual contributor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_39_0</DOCNO>
+            	<TEXT>Experience, breadth of knowledge, negotiating skills, and knowing your worth.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_39_1</DOCNO>
+            	<TEXT>A bit of luck also helps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_40_0</DOCNO>
+            	<TEXT>About 50 currently.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_41_0</DOCNO>
+            	<TEXT>Bankruptcy and serious reality check time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_41_1</DOCNO>
+            	<TEXT>Even making 3x what you do now your expenses don't even come close to making sense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_41_2</DOCNO>
+            	<TEXT>You are very very far off from reality, and need to get that in check before starting bankruptcy, because you'll be right back here in a year otherwise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_41_3</DOCNO>
+            	<TEXT>Your situation is ludicrous.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_42_0</DOCNO>
+            	<TEXT>It's worth noting that not all accounts will go up and down evenly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_42_1</DOCNO>
+            	<TEXT>Some banks are notorious for not increasing rates, but instead making new account types that you need to be aware of and switch over to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_42_2</DOCNO>
+            	<TEXT>CIT bank and capital one are 2 examples where I've seen this happen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_42_3</DOCNO>
+            	<TEXT>You shouldn't go chasing rates all of the time, but periodically check something like bankrate.com to see how much you are missing out on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_42_4</DOCNO>
+            	<TEXT>Don't just assume the bank will give you the best rate because it did previously.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_43_0</DOCNO>
+            	<TEXT>You might be overpaying Verizon for internet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_43_1</DOCNO>
+            	<TEXT>My last Verizon bill was 31.99 after fees.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_44_0</DOCNO>
+            	<TEXT>I'm in the Boston area.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_44_1</DOCNO>
+            	<TEXT>Paying for 200 and receiving 300.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_45_0</DOCNO>
+            	<TEXT>No, I've had Verizon for 10+ years, the price is available to everybody, no contract or anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_46_0</DOCNO>
+            	<TEXT>39.99 minus 10 dollar autopay is what my bill is</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_47_0</DOCNO>
+            	<TEXT>There are several trading limitations that prevent some of this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_47_1</DOCNO>
+            	<TEXT>Many vanguard funds have a 30 day period, for example.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_48_0</DOCNO>
+            	<TEXT>And depending on your other income, you might not want to assume you can wait until next year and might need to pay quarterly now instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_0</DOCNO>
+            	<TEXT>What actually happens with higher btus?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_1</DOCNO>
+            	<TEXT>I've been on a way too long crusade to get ac working well, and have been sounding a lot of time learning how things work physically and scientifically.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_2</DOCNO>
+            	<TEXT>Let's say i replace a 5000 btu window unit with a 10000 btu unit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_3</DOCNO>
+            	<TEXT>What actually happens to cause it to remove more heat?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_4</DOCNO>
+            	<TEXT>Does it have a larger fan?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_5</DOCNO>
+            	<TEXT>Is the temp split higher?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_6</DOCNO>
+            	<TEXT>What actually causes the higher btu unit to remove more heat?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_49_7</DOCNO>
+            	<TEXT>I suspect my central ac unit (3 ton) isn't running anywhere near 36000 btus, but it blows cold air out of vents, and multiple techs have looked at it and said it's fine, despite house typically not reaching target temps during the day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_50_0</DOCNO>
+            	<TEXT>You can't open a roth 401k under normal circumstances.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_50_1</DOCNO>
+            	<TEXT>They are employer sponsored plans.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_50_2</DOCNO>
+            	<TEXT>You'd consider getting a roth ira after the 401k depending on income phaseouts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_51_0</DOCNO>
+            	<TEXT>I have service via att towers for 35 a month.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_51_1</DOCNO>
+            	<TEXT>She is overpaying not only for that, but for everything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_52_0</DOCNO>
+            	<TEXT>84 months lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_52_1</DOCNO>
+            	<TEXT>You can't afford the car you bought.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_53_0</DOCNO>
+            	<TEXT>Do you think people should jump straight to corne, or do you think most people are more successful slowly downsizing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_54_0</DOCNO>
+            	<TEXT>Most early retirees either have enough on taxable investments to cover earlier years, or they build a 5 year roth conversion ladder, or both.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_54_1</DOCNO>
+            	<TEXT>The FIRE community greatly favors roth ladders to 72t because of the flexibility.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_55_0</DOCNO>
+            	<TEXT>Vanguard funds similar to FGCKX?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_55_1</DOCNO>
+            	<TEXT>One of my old 401Ks that I'm rolling over has access to the Fidelity fund FGCKX, and I like using it as part of my asset allocation as an alternative to VTSAX.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_55_2</DOCNO>
+            	<TEXT>What are some Vanguard funds with similar properties to FGCKX?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_56_0</DOCNO>
+            	<TEXT>Did you suplex it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_57_0</DOCNO>
+            	<TEXT>Unfortunately that fund is closed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_58_0</DOCNO>
+            	<TEXT>Changes to strategy as WR gets lower?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_58_1</DOCNO>
+            	<TEXT>As one saves further and further beyond the 4% safe withdrawal rate, are there things about asset allocation or overall strategy that should change?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_58_2</DOCNO>
+            	<TEXT>My personal WR is quickly approaching 2.5% and I'm wondering if starting to research things like how endowments work is worth my time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_58_3</DOCNO>
+            	<TEXT>Perhaps counter-intuitively, having such a low WR means I should have MORE bonds?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_58_4</DOCNO>
+            	<TEXT>I'm not sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_59_0</DOCNO>
+            	<TEXT>The latter, projected spending has been relatively constant for the previous couple of years, and asset growth has just far outpaced spending.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_60_0</DOCNO>
+            	<TEXT>Withdrawal rate would be 2.61% right now, including an estimate for projected health insurance costs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_60_1</DOCNO>
+            	<TEXT>Still working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_60_2</DOCNO>
+            	<TEXT>Not taking into account health insurance estimate, withdrawal rate is 2.09%</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_61_0</DOCNO>
+            	<TEXT>Sorry you feel that way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_61_1</DOCNO>
+            	<TEXT>It's not the case though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_0</DOCNO>
+            	<TEXT>Mostly just looking to understand what other research is out there other than the 4% rule, and to better understand what considerations and options are.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_1</DOCNO>
+            	<TEXT>To maybe more directly answer the question, I don't have anybody to leave the money to, and am looking to just generally understand what options I have.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_2</DOCNO>
+            	<TEXT>I'm currently bond-tented up to 31%, and the maybe-general sense in here is that at such low WR bond allocation kind of doesn't matter, so I'm trying to get a sense about whether I should "deflate the tent" back down to 5-10% or do something else.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_3</DOCNO>
+            	<TEXT>My horizon is fairly long, hopefully 50-60 years.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_4</DOCNO>
+            	<TEXT>Family medical history suggests it'll be way less than that, but I'd rather not outlive my money so I'm going to assume I stay healthy longer than I should.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_5</DOCNO>
+            	<TEXT>Because of research around the 4% rule, we have quite a bit of knowledge about what things like 100% stocks and 100% bonds do to portfolio survivals.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_6</DOCNO>
+            	<TEXT>And because of some research showing that 4% is often too aggressive for longer-than-30-year horizons, we have some more information about what things look like in the 3.25-3.75% range.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_798_62_7</DOCNO>
+            	<TEXT>What I haven't found much of is what things look like once you get 
+    3 pretty="" large="" difference="" survivability="" and="" flexibility="" of="" a="" portfolio="" when="" moving="" I="" want="" understand="" what="" going="" from="" to="" over="" even="" lower="" does="" in="" relation.=""
+      </TEXT>
+        </DOC>

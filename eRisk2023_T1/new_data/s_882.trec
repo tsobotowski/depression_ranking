@@ -1,0 +1,62 @@
+        <DOC>
+            	<DOCNO>s_882_0_0</DOCNO>
+            	<TEXT>That isnt eren its ereh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_882_1_0</DOCNO>
+            	<TEXT>Add eren crying in the corner</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_882_2_0</DOCNO>
+            	<TEXT>I need help with my c++ assignment please</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_882_2_1</DOCNO>
+            	<TEXT>I have to write a code that requests the user to enter 3 integer coefficients a,b,c and an equation degree: 1 for linear and 2 for quadratic I wrote the code it supposed to only solve an equation based on the degree but my code keeps solving both and I dont know whats wrong please help</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_882_3_0</DOCNO>
+            	<TEXT>can i email you the code and the assignment if you want to check it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_882_4_0</DOCNO>
+            	<TEXT>this is the code: \#include 
+    iostream\#include 
+    cmathusing namespace std;  int main() { double a, b, c, degree; double x\_intercept; //Use this variable for the x\_intercept of Linear Equations double root1, root2;//Use these variables for the real roots of Quadratic Equations   cin gt; gt;a; cin gt; gt;b; cin gt; gt;c; cin gt; gt;degree;  if (degree=1  amp; amp; b gt;0) x\_intercept=-c/b; cout  lt;
+    x _intercept="" lt;
+    endl cout="" lt;
+    c lt; endl; cout  lt; lt;"Upward" lt;
+    endl if="" b=""
+      0 cout="" lt;
+      x _intercept="" lt;
+      endl cout="" lt;
+      c
+        endl cout="" lt; lt;"Downward" lt;
+        endl if="" cout="" lt; lt;"all" lt;
+        endl cout="" lt;
+        0
+          endl cout="" lt; lt;"Parallel" lt;
+          endl if="" cout="" lt; lt;"None" lt;
+          endl cout="" lt;
+          c
+            endl cout="" lt; lt;"Parallel" lt;
+            endl if=""=(4\*a\*c)) amp; amp; a gt;0) root1=(-b + sqrt((b\*b)- 4\*a\*c))/(2\*a); root2=(-b - sqrt((b\*b)- 4\*a\*c))/(2\*a); cout lt;
+            root1
+              endl cout="" lt;
+              root2
+                endl cout="" lt; lt;"Top" lt;
+                endl if="" lt;(4\*a\*c))  amp; amp; a gt;0) cout lt; lt;"None" lt;
+                endl cout="" lt; lt;"Top" lt;
+                endl if=""=(4\*a\*c)) amp; amp; a
+                0 root1="(-b" root2="(-b" cout="" lt;
+                root1
+                  endl cout="" lt;
+                  root2
+                    endl cout="" lt; lt;"Bottom" lt;
+                    endl if="" lt;(4\*a\*c))  amp; amp; a
+                    0 cout="" lt; lt;"None" lt;
+                    endl cout="" lt; lt;"Bottom" lt;
+                    endl2) cout lt; lt;"invalid"; if (degree
+                    1 cout="" lt; lt;"invalid";  return 0; }
+                    </TEXT>
+        </DOC>

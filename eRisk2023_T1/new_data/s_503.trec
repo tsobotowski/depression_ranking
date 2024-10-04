@@ -1,0 +1,78 @@
+        <DOC>
+            	<DOCNO>s_503_0_0</DOCNO>
+            	<TEXT>The video finished, but the timer is still counting up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_1_0</DOCNO>
+            	<TEXT>So... he didnt even know for sure that it was possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_2_0</DOCNO>
+            	<TEXT>Manga, anime, Netflix adaptation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_3_0</DOCNO>
+            	<TEXT>Saw this in the trailer for UNDERTALE for switch... I have so many questions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_4_0</DOCNO>
+            	<TEXT>Cute bunny.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_5_0</DOCNO>
+            	<TEXT>Saw this in the trailer for UNDERTALE for switch... I have so many questions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_6_0</DOCNO>
+            	<TEXT>I just thought I'd post this here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_7_0</DOCNO>
+            	<TEXT>Cute confusion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_8_0</DOCNO>
+            	<TEXT>I can't remember where I found this, but what even is the point of this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_9_0</DOCNO>
+            	<TEXT>Just had to crosspost here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_10_0</DOCNO>
+            	<TEXT>That was great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_10_1</DOCNO>
+            	<TEXT>Thank you Reddit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_11_0</DOCNO>
+            	<TEXT>Somebody had to say it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_12_0</DOCNO>
+            	<TEXT>Syntax error.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_12_1</DOCNO>
+            	<TEXT>I had a go at writing an auto-mod rule to test how the auto mod works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_12_2</DOCNO>
+            	<TEXT>This rule should filter any post with the word "qwert": # Automod Test.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_12_3</DOCNO>
+            	<TEXT>moderators_exempt: false body+title (includes-word):"qwert" action: filter action_reason: "Prohibited word used."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_12_4</DOCNO>
+            	<TEXT>comment: "Unfortunately, this is a prohibited word." ---</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_503_12_5</DOCNO>
+            	<TEXT>When I clicked save page, the following error appeared: YAML parsing error in section 3: while scanning a simple key in "
+    unicode string=""", line 3, column 5: body+title (includes-word):"color" ^ could not found expected ':' in "
+    unicode string=""", line 4, column 5: action: filter ^ Why am I getting this error, and how do I fix it?</TEXT>
+        </DOC>

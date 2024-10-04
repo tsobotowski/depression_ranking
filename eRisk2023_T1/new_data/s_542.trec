@@ -1,0 +1,2012 @@
+        <DOC>
+            	<DOCNO>s_542_0_0</DOCNO>
+            	<TEXT>Bitfinex Margin Trading, COVID-19 Country Data, Cancel all Alerts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Cryptowatch has introduced margin trading for all Bitfinex pairs that support leverage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_2</DOCNO>
+            	<TEXT>We've updated our alerts service, adding a `Cancel all` feature that lets you clear alerts across all markets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_3</DOCNO>
+            	<TEXT>On our COVID-19 tracker, you can now sort all data by country, view the chart with either a linear or logarithmic axis, and switch between daily and total data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_4</DOCNO>
+            	<TEXT>The Cryptowatch Marketing team also recently posted a comprehensive [reading list](https://blog.cryptowat.ch/best-trading-books-stories/) from our very own The Dude, who spent over a decade yelling and screaming in the NYMEX and COMEX trading pits, as well as [an interview](https://blog.cryptowat.ch/an-exercise-in-triage-lowstrife-trade-config/) with [@lowstrife](https://twitter.com/lowstrife) and a [report on Bitcoin spot market growth](https://blog.cryptowat.ch/bitcoin-spot-market-50-times-bigger-2016-halving/). #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_5</DOCNO>
+            	<TEXT>Bitfinex Margin Trading Enabled Bitfinex margin pairs now have their available leverage options in the trading form: https://preview.redd.it/d16o64etprz41.png?width=359 amp;format=png amp;auto=webp amp;s=938126c61c1ba01acf61bd4bde76d4c4269e0e64 Weve also added a refresh button in the top-right of the trading form that will re-synchronize Cryptowatch to the markets exchange.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_6</DOCNO>
+            	<TEXT>The trade settings menu is also conveniently relocated to the top-right corner of the trading form as well: https://preview.redd.it/yddyz2vxprz41.png?width=359 amp;format=png amp;auto=webp amp;s=e645d3c7ecb5a8c6054c58a211a032870907c747 # COVID-19 You can now view more detailed data on the COVID-19 page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_7</DOCNO>
+            	<TEXT>The changes weve implemented are as follows: * Added log scale to the COVID-19 chart * Tracker can now be sorted by country, or as aggregated values (all COVID-19 data) * Refreshing the page defaults to the daily view * Now you can change the compared asset from BTC to: * ETH * USDT * XTZ * XRP * BCH https://preview.redd.it/r2481qg2qrz41.png?width=1172 amp;format=png amp;auto=webp amp;s=b7aafae5c1eee22aa98f502de68d517f89bb59a4 # Cancel all alerts Weve added a `Cancel all` button to the alerts menu and the trade-settings menu so you can clean your slate quickly and easily: https://preview.redd.it/5355j7f6qrz41.png?width=538 amp;format=png amp;auto=webp amp;s=1b758165e8f3cdc070254e6beb5a9eee77c90f7b # Markets Navigator In the markets navigator, you can now sort markets by: * Performance * Number of Pairs * Alphabetical order * Volume Each of these sorting parameters can be listed in ascending or descending value using the button left of the drop-down menu: https://preview.redd.it/skk59qd9qrz41.png?width=853 amp;format=png amp;auto=webp amp;s=a3ebf6d6444caa08b3b3cbfb7320806c0bad0dee # Portfolio positions You can now track your open positions across all exchanges from the Portfolio tab.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_8</DOCNO>
+            	<TEXT>Navigate to the `Positions` tab for an at-at-glance view of your open trades.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_9</DOCNO>
+            	<TEXT>Clicking on a position in the list will open its summary.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_10</DOCNO>
+            	<TEXT>From there you can use the `View chart` button to go directly to that market's chart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_0_11</DOCNO>
+            	<TEXT>https://preview.redd.it/ighohibjqrz41.png?width=777 amp;format=png amp;auto=webp amp;s=650d83c8a83a34c4b125d60c4735321f1abc9f96</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_1_0</DOCNO>
+            	<TEXT>Advanced Order Types for Kraken and Bitfinex, Market Navigator Sorting</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_1_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Cryptowatch has introduced advanced order types to Kraken and Bitfinex markets including: Stop Loss Limit  amp; Take Profit Limit (Kraken) and Stop Loss, Stop Loss Limit, and Trailing Stop Loss (Bitfinex).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_1_2</DOCNO>
+            	<TEXT>We also updated sorting in the market navigator. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_1_3</DOCNO>
+            	<TEXT>Advanced Order Types for Kraken and Bitfinex Cryptowatch now supports advanced order types available on Kraken and Bitfinex.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_1_4</DOCNO>
+            	<TEXT>Kraken markets now have **Stop Loss Limit** and **Take Profit Limit** orders available: [Left to right - Stop Loss Limit, Take Profit Limit order forms \(Kraken\)](https://preview.redd.it/aotd837ijj251.png?width=800 amp;format=png amp;auto=webp amp;s=242a03fe247c2828d8d62155d8d19755f88cce21) Bitfinex traders can now submit **Stop Loss, Stop Loss Limit,** and **Trailing Stop** orders: [Left to right - Stop Loss, Stop Loss Limit, Trailing Stop order forms \(Bitfinex\)](https://preview.redd.it/bjhkidusjj251.png?width=1030 amp;format=png amp;auto=webp amp;s=e1bc5aaf5f8e23acf2da5123d67157d99f9074dc) # Market Navigator Sorting The Market Navigator (on the Charts page, top-left of the price chart) now extends whichever sorting style youve picked to the markets within each of the asset groups: https://i.redd.it/uz6tt3rwjj251.gif</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_0</DOCNO>
+            	<TEXT>New Order Visualization, Portfolio Fee Information, Chat on Mobile</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Cryptowatch has added the option to see a dotted line originating from your new orders (indicated by a dot on the charts y-axis) extending into the price chart itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_2</DOCNO>
+            	<TEXT>This option can be enabled in the settings menu, under My Activity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_3</DOCNO>
+            	<TEXT>In the Portfolio tab, under Trade History, new orders will now contain fee information in the trade summary.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_4</DOCNO>
+            	<TEXT>The chat box is now available to users on mobile devices. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_5</DOCNO>
+            	<TEXT>New Order Visualization To see a dotted line extending from your pending orders into the price chart: open the settings menu, scroll to *My Activity*, and select the option *Show Order Line While Placing New Order*: https://preview.redd.it/tqxzzx35bb551.png?width=1648 amp;format=png amp;auto=webp amp;s=9e9b431c492a597b6bbba65485af5f4e4b19b3ef Selecting this option enables a dotted line extending from your new orders icon on the y-axis of the price chart into the price chart itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_6</DOCNO>
+            	<TEXT>In the image below, you can see a red dotted line extending left from a new sell orders icon on the right: https://preview.redd.it/04o1mh78bb551.png?width=1320 amp;format=png amp;auto=webp amp;s=ca91909f0199cef230b37cc73fdeee3d32e16a70 Additionally, you can now click the price chart to select a price for new orders.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_7</DOCNO>
+            	<TEXT>Use the crosshair tool and click anywhere on the price chart: https://i.redd.it/h7izdjry1c551.gif ## Portfolio Fee Information Weve added fee information to the Portfolio trades summaries.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_8</DOCNO>
+            	<TEXT>To view a trade summary, navigate to *Trades History* on the Portfolio tab.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_2_9</DOCNO>
+            	<TEXT>Only new trades (trades taking place after this update) will have fee information available: https://preview.redd.it/p81lg9hcbb551.png?width=1680 amp;format=png amp;auto=webp amp;s=9ee3dbc59dec6bab521b4470727cd8f589229fc2 ## Chat on Mobile Cryptowatch users can now access the chat box from their mobile devices.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_3_0</DOCNO>
+            	<TEXT>Free Trading, Bug fixes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_3_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) [**Check out our Free Trading tweet here.**](https://twitter.com/cryptowat_ch/status/1278060836150562816?s=20) Cryptowatch has made trading available for free to all users, including users who make a free account as of this release.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_3_2</DOCNO>
+            	<TEXT>You can now trade for free on 6 supported exchanges (with more to come) and monitor your trading portfolio including open orders and positions across each exchange all from a single terminal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_3_3</DOCNO>
+            	<TEXT>Cryptowatch has also repaired bugs concerning staking balances in Portfolio, the trading form incorrectly showing a zero (0) balance, and the order marker for trailing stops. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_3_4</DOCNO>
+            	<TEXT>Free Trading Trading is now free to all new and existing Cryptowatch accounts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_3_5</DOCNO>
+            	<TEXT>This was previously $15 per month as part of our Basic plan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_3_6</DOCNO>
+            	<TEXT>Free trading is now supported on the following exchanges:  * Kraken * Binance * Bitfinex * Coinbase Pro * Bitstamp * Poloniex https://i.redd.it/0t8jbvhf23851.gif In addition to trading for free, users can visualize their open orders and past trades directly on the charts: https://preview.redd.it/lbzg2je223851.png?width=2614 amp;format=png amp;auto=webp amp;s=4d5f130a02bed2383e3b61e542e3ff23a4f4649e Portfolio tools such as Trades, Orders, Positions, and History Export are available for free as well for each trading-supported exchange:  https://preview.redd.it/2q6u03hi23851.png?width=2096 amp;format=png amp;auto=webp amp;s=f61757fd10f67fff32f6ac88debc56e220e48673 Users can also enjoy free, in-browser alerting for price, volume, and order fills:  https://preview.redd.it/k62mlw4p23851.png?width=917 amp;format=png amp;auto=webp amp;s=bda9cae7485a6ffdf758b0f28ec0aafe989f07f3 ## Bug Fixes * Staking balances are now viewable in Portfolio * Trading form will no longer show a zero (0) balance before receiving a balances update from the exchanges API * Trailing Stop order markers now viewable on the y-axis of applicable charts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_0</DOCNO>
+            	<TEXT>Deribit markets added, Z-score, Share themes in chat</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Deribit perpetual futures and expiring futures (quarterly) for Bitcoin and Ethereum can now be watched on Cryptowatch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_2</DOCNO>
+            	<TEXT>Weve added the Z-score analysis tool, available in the Analysis menu on the Charts page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_3</DOCNO>
+            	<TEXT>This tool measures the distance in price from a mean value, stated in terms of standard deviations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_4</DOCNO>
+            	<TEXT>Lastly, you can now share themes in chat.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_5</DOCNO>
+            	<TEXT>Sending a theme in chat lets other traders copy or instantly apply the theme. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_6</DOCNO>
+            	<TEXT>Deribit markets added Cryptowatch charts of Deribit perpetual futures and expiring futures (quarterly) for Bitcoin and Ethereum are now available to view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_7</DOCNO>
+            	<TEXT>Check out Deribit's [BTC/USD Perpetual Futures](https://cryptowat.ch/charts/DERIBIT:BTC-USD-FUTURE-INVERSE-PERPETUAL) market.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_8</DOCNO>
+            	<TEXT>https://preview.redd.it/6v55a4qppva51.png?width=3328 amp;format=png amp;auto=webp amp;s=76379f7400e6a3005d82382a92dc79ff7b9eee55 # Z-Score Indicator The Z-Score indicator measures the distance in price from a mean value, stated in terms of standard deviations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_9</DOCNO>
+            	<TEXT>Select it from the Analysis menu, and use the More info button there to learn more about how to use Z-score.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_10</DOCNO>
+            	<TEXT>https://preview.redd.it/ifibxnospva51.png?width=2478 amp;format=png amp;auto=webp amp;s=3cea54ce839858fa284e5fb299ef787575f90684 # Share themes in chat Traders can now send their color themes to each other in the trollbox.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_11</DOCNO>
+            	<TEXT>To send a theme, open the settings menu (cogwheel, top-right of the page), select the theme to share, click Copy, then paste it in the chat box.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_12</DOCNO>
+            	<TEXT>Hit send, and everyone in the chat can choose to copy your theme or apply it to their terminal immediately.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_4_13</DOCNO>
+            	<TEXT>https://preview.redd.it/7vrgdagwpva51.png?width=675 amp;format=png amp;auto=webp amp;s=b3ab4c324fa6cdd18156e767024590d391b9b9a7</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_0</DOCNO>
+            	<TEXT>TA alerts, Trading panel, WMA, Correlations</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Cryptowatch has launched its first TA (Technical Analysis) alert type SMA price crosses.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_2</DOCNO>
+            	<TEXT>You can now have an alert trigger when an SMA line crosses above or below the current price.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_3</DOCNO>
+            	<TEXT>Weve also updated the trading panel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_4</DOCNO>
+            	<TEXT>Now you can collapse (and expand) the conditional close section of the trading form.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_5</DOCNO>
+            	<TEXT>The Total field of the conditional close section is now directly editable, too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_6</DOCNO>
+            	<TEXT>In the Analysis menu, weve added the new Weighted Moving Average indicator (WMA).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_7</DOCNO>
+            	<TEXT>The WMA reacts faster to recent price changes than an Exponential or Simple moving average (EMA, SMA).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_8</DOCNO>
+            	<TEXT>On the Correlations page, a graph of historical correlation changes is now in the background of each cell. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_9</DOCNO>
+            	<TEXT>TA alerts SMA price crosses The alert triggers when the SMA line (programmed using the alert options) crosses above or below the current price.. To learn more, check out our Guide: [How to set TA alerts](https://guides.cryptowat.ch/alerts/how-to-set-ta-alerts). [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_10</DOCNO>
+            	<TEXT>New Alert type - Technical Analysis \(TA\) alerts](https://preview.redd.it/p2tw8136f0e51.png?width=3680 amp;format=png amp;auto=webp amp;s=aafb74b07dd1f16e59ae09675a7cd769a8451eec) # Trading panel You can now fill out a conditional close (in markets where the option is available) and collapse that section of the form, tidying up the view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_11</DOCNO>
+            	<TEXT>A summary of the conditional close order is still visible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_12</DOCNO>
+            	<TEXT>Click Conditional Close again to expand the section. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_13</DOCNO>
+            	<TEXT>A collapsed conditional close.](https://preview.redd.it/znvyisqbf0e51.png?width=1459 amp;format=png amp;auto=webp amp;s=c8dd7ed1083d4029c730901abdeb6ef1470da14a) Weve also made the Total field editable in the Conditional close section of the trade panel. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_14</DOCNO>
+            	<TEXT>Edit the Total field and collapse the Conditional Close section.](https://i.redd.it/2ygtndydf0e51.gif) # Weighted Moving Average (WMA) Weve added the Weighted Moving Average (WMA) overlay to the Analysis menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_15</DOCNO>
+            	<TEXT>The WMA line adds weight to each data point based on its relation to the current price.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_16</DOCNO>
+            	<TEXT>This makes it more reactive to recent price changes than other moving average lines, like the SMA and EMA.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_17</DOCNO>
+            	<TEXT>The results are sharper peaks and troughs and, potentially, earlier trend signals. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_18</DOCNO>
+            	<TEXT>The new Weighted Moving Average overlay is in the Analysis menu.](https://preview.redd.it/2ptfdcghf0e51.png?width=5084 amp;format=png amp;auto=webp amp;s=ed84b9c469172cfadd12390e3267d1d1c655f29d) # Correlations history The background of each cell in the [Correlations page](https://cryptowat.ch/correlations) now displays the rolling correlation over time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_19</DOCNO>
+            	<TEXT>The correlations page tracks how closely assets match each other in price action (eg.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_20</DOCNO>
+            	<TEXT>Asset 1 goes up, so does Asset 2). [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_5_21</DOCNO>
+            	<TEXT>The Correlations page update shows a historical graph in the background of each cell.](https://preview.redd.it/92bo84clf0e51.png?width=4079 amp;format=png amp;auto=webp amp;s=8eab89b9b691cd0f86df5a73b780edf86a852cbb)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_0</DOCNO>
+            	<TEXT>Branding, Cryptowatch Desktop, Linear Regression  amp; RSI inputs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Cryptowatch has updated its branding, including a new logo (inspired by our classic C) and two new fonts, giving the site a fresh new look.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_2</DOCNO>
+            	<TEXT>Included in this release is an announcement and early registration for Cryptowatch Desktop, the native Cryptowatch app that lets you customize a multi-chart layout (and more).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_3</DOCNO>
+            	<TEXT>Registered users can submit their email to be notified for the release of Cryptowatch Desktop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_4</DOCNO>
+            	<TEXT>Weve also included a new tool in the analysis menu, the Linear Regression overlay.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_5</DOCNO>
+            	<TEXT>Linear Regression can help pinpoint entry and exit points, including stop loss levels.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_6</DOCNO>
+            	<TEXT>In another update to our analysis toolset, you can now adjust the Overbought and Oversold levels for the RSI (Relative Strength Index). #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_7</DOCNO>
+            	<TEXT>Branding Cryptowatch has updated its logo, reminiscent of our classic C, now composed of up  amp; down bars that will match any theme applied from the Themes menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_8</DOCNO>
+            	<TEXT>Weve also updated our themes menu with new light and dark modes and updated our standard theme.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_9</DOCNO>
+            	<TEXT>Additionally, Cryptowatch is sporting new font sets: DM Sans and Iosevka Custom.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_10</DOCNO>
+            	<TEXT>https://preview.redd.it/31hhd6vqxrg51.jpg?width=2278 amp;format=pjpg amp;auto=webp amp;s=c488921a5a6e54386646bed7082618ddca728091 Components of the trading panel (and more) have been updated as well with a fresh new look, as well as the menus for drawing tools.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_11</DOCNO>
+            	<TEXT>For a run-down of our branding changes see our [twitter thread](https://twitter.com/cryptowat_ch/status/1293555490669158400).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_12</DOCNO>
+            	<TEXT>https://preview.redd.it/asqs4u1uxrg51.png?width=3360 amp;format=png amp;auto=webp amp;s=a8c3b58966d5f01b3a0fa50ecf3b5a52cd818648 ### Cryptowatch Desktop Go to the Desktop tab on [Cryptowatch](https://cryptowat.ch/) and enter your email to join our mailing list for the release of Cryptowatch Desktop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_13</DOCNO>
+            	<TEXT>The new native app from Cryptowatch includes multi-chart capability and customizable layouts that you can build from scratch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_14</DOCNO>
+            	<TEXT>https://preview.redd.it/wohqiiewxrg51.png?width=3330 amp;format=png amp;auto=webp amp;s=855af46fddc1408e25747a58727c509765ae42c0 ### Linear Regression The Linear Regression overlay helps with channel-trading techniques.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_15</DOCNO>
+            	<TEXT>This overlay plots a High, Low, and Median line for a trend that can help you to determine entry and exit points, including where to place your stop loss.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_16</DOCNO>
+            	<TEXT>You can find the Linear Regression overlay in the Analysis menu on the [Charts](https://cryptowat.ch/charts/KRAKEN:BTC-USD) page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_17</DOCNO>
+            	<TEXT>https://preview.redd.it/v00wcthyxrg51.png?width=3360 amp;format=png amp;auto=webp amp;s=7aaa06eceb3ef21b076c295d26d01f69378376a2 ### RSI Inputs The RSI (Relative Strength Index) indicator now has further customization options, allowing you to adjust the levels it recognizes as overbought and oversold.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_6_18</DOCNO>
+            	<TEXT>https://preview.redd.it/27thpwp0yrg51.png?width=1532 amp;format=png amp;auto=webp amp;s=54c07450f28866c450e9cbf46cb63fd69c5fae94</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_0</DOCNO>
+            	<TEXT>Utility Belt, Light/Dark mode, LSMA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Following Cryptowatchs brand updates is a redesign of the interface itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_2</DOCNO>
+            	<TEXT>This week we released the Utility Belt a persistent side bar that expands into popular tools like the Chat, Watchlist and Alerts systems (among others).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_3</DOCNO>
+            	<TEXT>This redesign also includes an update to the top bar, including a new outboard Themes panel that, when set to the Standard theme, enables easy light/dark mode toggling.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_4</DOCNO>
+            	<TEXT>The analysis menu has a new addition in the Least Squares Moving Average overlay.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_5</DOCNO>
+            	<TEXT>This moving average line projects forward, anticipating a future value, and generates trend signals at crossover points.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_6</DOCNO>
+            	<TEXT>On top of all that, weve made some performance improvements to the Charts and Portfolio pages. ###</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_7</DOCNO>
+            	<TEXT>Utility Belt The Utility Belt lets you see the tools you want when you want to, without cluttering the rest of the interface.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_8</DOCNO>
+            	<TEXT>The Utility Belt currently contains redesigned Watchlist, Alerts, Trollbox, CLI, Onboarding and Changelog panels, as well as a button to expand the Trading panel when on the Charts page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_9</DOCNO>
+            	<TEXT>https://i.redd.it/301nd1ffikj51.gif In addition to the Utility, the redesign includes the following changes: a new My Account icon, Portfolio button location and icon, API Access moved to Account menu. ###</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_10</DOCNO>
+            	<TEXT>Light/Dark Mode Part of Cryptowatchs redesign includes an updated top bar, with new locations for the Portfolio and Theme buttons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_11</DOCNO>
+            	<TEXT>When Cryptowatch is set to the Standard theme, the Theme button converts to a Light/Dark mode toggle switch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_12</DOCNO>
+            	<TEXT>https://preview.redd.it/uu2jql0jikj51.png?width=3360 amp;format=png amp;auto=webp amp;s=5a6f3c774a5a135a8c8a02040787dfb69858679b ### Least Squares Moving Average The Least Squares Moving Average line calculates a least squares regression over n bars and projects forward an anticipated current value.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_13</DOCNO>
+            	<TEXT>This tool generates signals for bullish and bearish trends when the price deviates from the line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_14</DOCNO>
+            	<TEXT>https://preview.redd.it/41su1v1likj51.png?width=2154 amp;format=png amp;auto=webp amp;s=28b11ce3036f441d36dc24d2542b852cf5fe2c69 ### Performance Improvements * Orders to market bar on the Portfolio page: all orders on multiple pages are included in the bar * Logarithmic y-axis scale improved for precise, small value markets (eg.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_7_15</DOCNO>
+            	<TEXT>/BTC and /ETH markets)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_0</DOCNO>
+            	<TEXT>Cryptowatch Credits, Donchian Channels</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week Cryptowatch launched its new pricing structure Cryptowatch Credits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_2</DOCNO>
+            	<TEXT>Instead of upgrading your subscription to unlock features, you can now pay for the features you want, on-demand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_3</DOCNO>
+            	<TEXT>Credits can be earned by completing the Onboarding list, or bought with bitcoin or a credit card.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_4</DOCNO>
+            	<TEXT>All of the core functions of Cryptowatch trading, portfolio, charts and chat remain completely free.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_5</DOCNO>
+            	<TEXT>A new overlay has also been added to the Analysis menu Donchian channels.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_6</DOCNO>
+            	<TEXT>This overlay plots the high and low prices for an asset over a given period, and is useful for signalling trends and ranges for day traders. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_7</DOCNO>
+            	<TEXT>Credits Cryptowatch has moved away from subscriptions to a more flexible pricing model Cryptowatch Credits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_8</DOCNO>
+            	<TEXT>In this system, you keep a balance of Credits in your account and pay for features only as you require them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_9</DOCNO>
+            	<TEXT>All of the core functions of Cryptowatch trading, portfolio, charts and chat remain completely free. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_10</DOCNO>
+            	<TEXT>The pricing page is now Credits and Billing, with pricing information and renewal options.](https://preview.redd.it/o2eyrr7wlcm51.png?width=3354 amp;format=png amp;auto=webp amp;s=d6cd885b0c66f3d1615a0c3a93ee3740dec66b7e) Accounts with open subscriptions had the cost of those subscriptions converted into a Credits balance upon release.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_11</DOCNO>
+            	<TEXT>You can pay for more Credits with bitcoin or by credit card.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_12</DOCNO>
+            	<TEXT>Clients with a credit card attached to their account can opt into automatic refills when their Credits balance is low.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_13</DOCNO>
+            	<TEXT>Credits are currently used to pay for SMS alerts, REST and WebSocket API connectivity, and extensibility features like Zapier triggers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_14</DOCNO>
+            	<TEXT>Your Credits balance is always visible in the top-right of the screen, next to your account icon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_15</DOCNO>
+            	<TEXT>Check out the [Credits and Billing](https://cryptowat.ch/account/credits-billing) page to learn more. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_16</DOCNO>
+            	<TEXT>Your Credits balance is always available in the top-bar of any page on Cryptowatch.](https://preview.redd.it/hy18zda1mcm51.png?width=1034 amp;format=png amp;auto=webp amp;s=676948e6856a0a3233330988ebb136ca1533f50c) The[ Market Data REST API](https://docs.cryptowat.ch/rest-api/) page has been updated with new pricing information.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_17</DOCNO>
+            	<TEXT>Anonymous users are now allotted up to 10 credits worth of API requests via the REST API.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_18</DOCNO>
+            	<TEXT>Clients with billing information in their account can purchase credits to increase their limits. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_19</DOCNO>
+            	<TEXT>Pricing details for REST API requests.](https://preview.redd.it/tavajc79mcm51.png?width=1520 amp;format=png amp;auto=webp amp;s=bf23b663eaef90d5eca383de37d2c15627ffbd9b) ## Donchian Channels Donchian Channels (a.k.a.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_20</DOCNO>
+            	<TEXT>Price Channels) is a new overlay in the Analysis menu that plots high and low prices over a determined period of time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_21</DOCNO>
+            	<TEXT>The default period is 20 bars, which can be edited in the Inputs tab when Donchian Channels is selected.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_22</DOCNO>
+            	<TEXT>This overlay works well on all time periods (from 1 minute (1M) to 1 Week (1W).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_23</DOCNO>
+            	<TEXT>It does not factor the current bar into its calculation. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_8_24</DOCNO>
+            	<TEXT>Donchian Channels overlaid on Kraken Futures: BTC\/USD Perpetual.](https://preview.redd.it/bt5no7hdmcm51.png?width=3360 amp;format=png amp;auto=webp amp;s=c85122f74baa330013bb566aaae616f0c4656b12)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_9_0</DOCNO>
+            	<TEXT>We've recently updated the hotkey for the click-to-set-price behavior it's now `shift`\+`click`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_9_1</DOCNO>
+            	<TEXT>You can see the update in our Changelog [here](https://docs.cryptowat.ch/home/updates/changelog#click-to-set-price-behavior-change).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_9_2</DOCNO>
+            	<TEXT>Hope that helps!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_0</DOCNO>
+            	<TEXT>Volume Profile, Williams %R, EMA Alerts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Cryptowatch released a pair of new analysis tools this week: Volume Profile overlay and Williams %R indicator.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_2</DOCNO>
+            	<TEXT>Weve also included a new type of TA alert EMA alerts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_3</DOCNO>
+            	<TEXT>Kraken Pro users will also notice a lean version of the Utility Belt is featured on the platform, which includes your watchlist and the new alerts tool. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_4</DOCNO>
+            	<TEXT>Volume Profile The volume profile overlay was released for all signed-in Cryptowatch accounts this week.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_5</DOCNO>
+            	<TEXT>The volume profile overlay shows trading activity over the visible chart span, showing significant price levels directly on the chart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_6</DOCNO>
+            	<TEXT>Volume levels are separated by buy and sell levels, indicated by the up  amp; down colors of your selected theme. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_7</DOCNO>
+            	<TEXT>Volume Profile overlay on Kraken: BTC\/EUR](https://preview.redd.it/tg9t81pvk4p51.png?width=1912 amp;format=png amp;auto=webp amp;s=b7fe6cc56c87712ea162081dbe861bea28d85aac) With the crosshair tool selected (default tool), hover over any bar in the volume profile for a detailed readout in the top-left area of the price chart. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_8</DOCNO>
+            	<TEXT>Hover over volume profile bars for detailed readouts in the top-left area of the chart.](https://preview.redd.it/hmbbxsyzk4p51.png?width=1912 amp;format=png amp;auto=webp amp;s=bf1b03b62bfca78696b2ac48f753f55b870ed685) # Williams %R Also known as the Williams Percent Range, this momentum indicator shows overbought and oversold levels based on an assets price versus the high-low range over a given period.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_9</DOCNO>
+            	<TEXT>The default range for this indicator is 14 periods. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_10</DOCNO>
+            	<TEXT>Williams %R indicator below the Kraken:BTCEUR candlestick chart.](https://preview.redd.it/f13y09v3l4p51.png?width=1918 amp;format=png amp;auto=webp amp;s=5b89d70a46acfeebb1fbbdf7e12ad314668a5d10) # EMA Alerts A new addition to the TA alerts type is our EMA (Exponential Moving Average) cross alert, accessed via the Alerts panel in the Utility Belt.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_11</DOCNO>
+            	<TEXT>This alert type behaves similarly to the SMA alert: input the chart interval, the number or look-back periods, and the OHLC data point of the EMA.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_12</DOCNO>
+            	<TEXT>Then set the alert to be notified when the price crosses above or below the EMA line determined by those inputs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_13</DOCNO>
+            	<TEXT>If youre viewing a chart with the EMA overlay, reference the chart interval and the look-back periods of the particular EMA line you want to be notified of to get the input information (found in the analysis menu). [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_10_14</DOCNO>
+            	<TEXT>EMA alert input panel.](https://preview.redd.it/vx0c2xh9l4p51.png?width=910 amp;format=png amp;auto=webp amp;s=3882c13a967b8df4c41cb190c8db7fcbfa648ca0)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_11_0</DOCNO>
+            	<TEXT>Trade panel, TA alerts improvements</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_11_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week Cryptowatch released performance improvements to the trade panel, Technical Analysis (TA) alerts panel, and the Asset Card view of the Markets page. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_11_2</DOCNO>
+            	<TEXT>Trade Panel Improvements * Updating Poloniex orders to include post-only status is fixed * Advanced options are always applied when using the Replace Order function * Fixed error preventing order placement on Coinbase Pro markets  https://preview.redd.it/v2m1138ckwr51.png?width=796 amp;format=png amp;auto=webp amp;s=086270d25a02f6436177e87dc3a4f38d1c4f4d53 # TA Alerts Improvements * Fixed instance where selecting EMA alerts caused interval to change * Fixed TA alerts issue preventing alerts when selecting 1 week (1W) periods with week start on Monday  https://preview.redd.it/9y8vpk6hkwr51.png?width=794 amp;format=png amp;auto=webp amp;s=faf119e1986840335eb0502a1096bfabf51a3880 # Asset Card View * Fixed real-time updates of market data on Asset Card view of the Markets page  https://preview.redd.it/i32awfgjkwr51.png?width=3360 amp;format=png amp;auto=webp amp;s=cfac0d8657a9523a076b62f5b3ab8a1405eeb082</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_0</DOCNO>
+            	<TEXT>Performance, Desktop, Vol Profile TAP, ADXR</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week Cryptowatch released a massive performance improvement, the Cryptowatch Desktop release, and two new indicators: Volume Profile Time at Price and Average Directional Movement Index Rating (ADXR). ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_2</DOCNO>
+            	<TEXT>Improved Performance Changes the Cryptowatch team made this week resulted in a massive improvement of the Charts pages performance, reducing CPU use by 50%.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_3</DOCNO>
+            	<TEXT>https://preview.redd.it/8e0p1828hou51.jpg?width=1000 amp;format=pjpg amp;auto=webp amp;s=98ebb3b1eb9fa3c1aa511e88c3e5f7719411e0bd The Performance Throttle found in the Charts page settings menu now adjusts rendering and stream updates for the order book, live trades feed, and price chart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_4</DOCNO>
+            	<TEXT>https://preview.redd.it/o7h5jnmahou51.png?width=1048 amp;format=png amp;auto=webp amp;s=97abc30010a682a498f59e46adf4eedf8542c886 ## Cryptowatch Desktop This week saw the release of Cryptowatch Desktop, now available for all signed-in Cryptowatch users.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_5</DOCNO>
+            	<TEXT>The new native app is leaner on CPU resources and features new and time-tested market data tools. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_6</DOCNO>
+            	<TEXT>Download Desktop now](https://cryptowat.ch/apps/desktop) to start making your own fully-customizable data dashboards.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_7</DOCNO>
+            	<TEXT>You can read the [Cryptowatch Desktop Guide here](https://guides.cryptowat.ch/cryptowatch-desktop/how-to-use-cryptowatch-desktop).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_8</DOCNO>
+            	<TEXT>You can read testimonials about Cryptowatch Desktop and more [on our blog](https://blog.cryptowat.ch/cryptowatch-desktop-app-is-here/).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_9</DOCNO>
+            	<TEXT>https://preview.redd.it/5iq3rzadhou51.png?width=1682 amp;format=png amp;auto=webp amp;s=37557d3eced8b478d29b7bb410f6fad946d1aa6c ## Volume Profile - Time at Price A new, more efficient version of Cryptowatchs Volume Profile Indicator was released this week.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_10</DOCNO>
+            	<TEXT>The Volume Profile - Time at Price indicator differs from the Volume at Price indicator by measuring the length of time an assets value spends at observable price levels based on weighted averaging across each candles range.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_11</DOCNO>
+            	<TEXT>The Volume at Price indicator shows the traded volume broken up by actual buy vs. sell trade volume, at unique price levels.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_12</DOCNO>
+            	<TEXT>The Time at Price calculation requires less computational power, making the Time at Price indicator a faster performer than Volume at Price, though TAP may not be deemed to be as accurate a representation of real market action.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_13</DOCNO>
+            	<TEXT>https://preview.redd.it/z45wva7phou51.png?width=2162 amp;format=png amp;auto=webp amp;s=7b4187e66c24d086b9eba8bd3784d1d9466dde54 ## Average Directional Movement Index Rating Cryptowatch added another new indicator to the Analysis menu - the Average Directional Movement Index Rating (ADXR).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_14</DOCNO>
+            	<TEXT>The ADXR measures trend strength larger values indicate greater strength in the current trend direction and whether that trend is gaining or declining.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_12_15</DOCNO>
+            	<TEXT>https://preview.redd.it/fhjweuw4iou51.png?width=2158 amp;format=png amp;auto=webp amp;s=8337f8f230d61b9689badf512d607b63a76bfab3</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_0</DOCNO>
+            	<TEXT>VWMA, Leverage Slider, Chart Move, T amp;C</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week the Cryptowatch team released a new chart overlay (VWMA), updated the trading form with a new leverage slider, improved the movement performance on the Charts page and updated our Terms  amp; Conditions. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_2</DOCNO>
+            	<TEXT>Volume Weighted Moving Average (VWMA) The Volume Weighted Moving Average (VWMA) overlay is a moving average line with more significance afforded to periods of higher trading volume.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_3</DOCNO>
+            	<TEXT>When trading volume increases, the VWMA approaches the price level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_4</DOCNO>
+            	<TEXT>As trading volume decreases, the VWMA moves less radically. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_5</DOCNO>
+            	<TEXT>As volume increases, the VWMA approaches the price level](https://preview.redd.it/btuqrybgygx51.png?width=1712 amp;format=png amp;auto=webp amp;s=1755e0a28c564f96c1ed988f632665296bb9b749) # Leverage Slider The leverage selector in the trading form has been replaced with a new leverage slider.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_6</DOCNO>
+            	<TEXT>You can now click and drag the slider to select your preferred leverage amount when opening new positions. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_7</DOCNO>
+            	<TEXT>The leverage slider in Kraken: BTC\/USD selects options from None to 5x](https://preview.redd.it/rhysco8sygx51.png?width=716 amp;format=png amp;auto=webp amp;s=3cc9ae093373125890df8c2b447a1ce51b34c449) # Chart Move Moving price charts by clicking and dragging has been changed to by-pixel, rather than by-candle, improving the feel and general performance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_8</DOCNO>
+            	<TEXT>This is most noticeable when zoomed-in to only a few candles, but affects all zoom levels of the Charts view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_9</DOCNO>
+            	<TEXT>The gif below showcases the new by-pixel movement, but make sure to see for yourself on the [Charts page](https://cryptowat.ch/Charts). [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_10</DOCNO>
+            	<TEXT>Candles entering the chart view appear on a by-pixel basis, improving the overall look and feel.](https://i.redd.it/s7m8lwzuygx51.gif) # Terms  amp; Conditions Cryptowatch has updated its Terms  amp; Conditions to reflect our new payment model and other recent changes to the platform.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_11</DOCNO>
+            	<TEXT>See the updated version [here](https://cryptowat.ch/about/terms).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_13_12</DOCNO>
+            	<TEXT>https://preview.redd.it/f2zuq3u2zgx51.png?width=1596 amp;format=png amp;auto=webp amp;s=497a9bab7a966586735c0da43a357b748fc30e3d</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_0</DOCNO>
+            	<TEXT>Homepage, FTX Trading, Uniswap Charts, TRIX</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_1</DOCNO>
+            	<TEXT>Read this on the [Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week saw a very big release from the Cryptowatch team.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_2</DOCNO>
+            	<TEXT>This week the Cryptowatch team revamped our homepage design, enabled trading on FTX markets, added Uniswap V2 charts, added the new TRIX indicator, and made a series of improvements to the Portfolio, Trollbox, Alerts and Watchlist. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_3</DOCNO>
+            	<TEXT>New Homepage Design Our redesigned homepage features a new asset-tile view made up of the top 12 crypto assets by volume.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_4</DOCNO>
+            	<TEXT>Each asset tile contains the current price, 24 hour percent change in price, 24 hour volume and a right-to-left price sparkline.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_5</DOCNO>
+            	<TEXT>The tiles background and sparkline are green (or your themes up-color) when the asset price is higher than it was 24 hours ago and red (or your down-color) when the price is lower. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_6</DOCNO>
+            	<TEXT>Cryptowatchs new, tiled homepage design.](https://preview.redd.it/tkodyd13d8061.png?width=3358 amp;format=png amp;auto=webp amp;s=535497e5df0c981c4d1f2045cebaad9d9b8b9d46) ## FTX Trading  amp; Portfolio integration Cryptowatch now features trading on FTX markets and FTX Portfolio integration.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_7</DOCNO>
+            	<TEXT>Traders can use Cryptowatch to submit trades to over 400 FTX markets and track their accounts alongside other major exchanges. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_8</DOCNO>
+            	<TEXT>FTX tokenized stock markets visualized on Cryptowatch Desktop.](https://preview.redd.it/v2oo1sn7d8061.png?width=3360 amp;format=png amp;auto=webp amp;s=c8f221cf323c7b42db1a3caa8c9ab837bdb0b60f) ## Uniswap V2 Charts Traders can now watch and analyze real-time Uniswap V2 markets on both cryptowat.ch and Cryptowatch Desktop. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_9</DOCNO>
+            	<TEXT>Uniswap V2 markets stream to Cryptowatch in real time. ](</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_10</DOCNO>
+            	<TEXT>https://preview.redd.it/28h4cdybd8061.png?width=2312 amp;format=png amp;auto=webp amp;s=3549725e02160b203d168b8147420a08eefe8e08) ## TRIX Indicator Weve added the TRIX (Triple Exponential Average) indicator to the Analysis menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_11</DOCNO>
+            	<TEXT>This indicator is similar to a MACD, but with a smoother line less affected by varying price action.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_12</DOCNO>
+            	<TEXT>TRIX filters out market noise and tends to lead the trend rather than lag behind it. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_13</DOCNO>
+            	<TEXT>The TRIX indicator smooths price action, signalling trend strength and direction.](https://preview.redd.it/pi5ia2qhd8061.png?width=2634 amp;format=png amp;auto=webp amp;s=8c41afb2b45a5b1c5720a01654aaa81a065540f9) ## More Updates Portfolio, Trollbox, Alerts and Watchlist **Portfolio:** * Can now sort trade history by side (buy or sell) **Trollbox: ** * New activity monitor bars in the trollbox * New infobot type !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_14</DOCNO>
+            	<TEXT>price then the asset pair to pull price data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_15</DOCNO>
+            	<TEXT>price BTCUSD **Alerts:** * New Bollinger Bands [TA Alerts](https://guides.cryptowat.ch/alerts/how-to-set-ta-alerts). **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_14_16</DOCNO>
+            	<TEXT>Watchlist:** * Can now reorder your utility belt watchlist by: exchange, asset, or a completely custom order.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_0</DOCNO>
+            	<TEXT>Performance, Chat upgrades, Persistent charts, CMF</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week Cryptowatch made improvements further boosting its performance and frame rate, made Charts page settings persistent across devices, added multiple upgrades to Chat, and added the Chaikin Money Flow indicator to the analysis menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_2</DOCNO>
+            	<TEXT>Weve also added Vietnamese to our supported languages see[Switching languages](https://guides.cryptowat.ch/settings-and-troubleshooting/switching-languages) in Guides. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_3</DOCNO>
+            	<TEXT>Performance Update #2 Another big performance upgrade has improved Cryptowatchs Charts page frame rate, particularly for 4K resolution monitors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_4</DOCNO>
+            	<TEXT>The chart below shows the amount of users getting less than 30 fps on the Charts page, and visualizes the effect of our recent performance updates: https://preview.redd.it/kz7ckylwa0361.jpg?width=1075 amp;format=pjpg amp;auto=webp amp;s=459f64b0cc234911276390e2594a8ac43b721377 # Chat Updates Now you can change your font size, enable sound notifications and include message timestamps in any room in the Trollbox.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_5</DOCNO>
+            	<TEXT>The Trollboxs main room has been renamed to *General*, with an extra special *Brainlet* room added to the Chat as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_6</DOCNO>
+            	<TEXT>Room activity monitors are a little more helpful now as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_7</DOCNO>
+            	<TEXT>https://preview.redd.it/v7582su1b0361.png?width=1518 amp;format=png amp;auto=webp amp;s=3fcff0e4863941e803dad682f2739e6e6bc7c442 # Persistent Charts Chart settings and Technical Analysis indicators now persist across devices.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_8</DOCNO>
+            	<TEXT>When you open Cryptowatch on another device, your TA indicators, overlays, chart settings, and some trading settings will remain intact.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_9</DOCNO>
+            	<TEXT>Chart settings include all settings in the Analysis, Chart Style and Drawing menus. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_10</DOCNO>
+            	<TEXT>Full list of persistent settings:**  * **alerts:** snap to round numbers * **chart:** candle scale, spacing between candles, candle width * **drawing:** current tool * **drawing:** extrapolate * **drawing** snap * **drawing:** snap threshold * **grid:** show * **grid:** style * **input:** scroll wheel sensitivity * **input:** scroll x (true/false) * **input:** scroll y (true/false) * **price chart:** padding (top and bottom) * **price chart:** plot style (candlestick, mountain, etc.) * **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_11</DOCNO>
+            	<TEXT>display:** show events ticker * **display:** show history scroller * **trading:** show order line * **trading:** show positions * **trading:** show orders * **trading:** show trades * **y-axis:** show depth chart * **y-axis:** type (percentage, logarithmic, etc.) #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_12</DOCNO>
+            	<TEXT>Chaikin Money Flow Indicator Weve added a new indicator to the Analysis menu Chaikin Money Flow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_13</DOCNO>
+            	<TEXT>This indicator measures accumulation vs distribution (buying vs selling pressure, respectively).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_14</DOCNO>
+            	<TEXT>It looks at price relative to highs and lows over a lookback period, with volume varying the influence of each price point in the calculation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_15_15</DOCNO>
+            	<TEXT>https://preview.redd.it/t6r3v7yfb0361.png?width=2216 amp;format=png amp;auto=webp amp;s=8ecb78e06e071eb4be5e50c3c9c6d9737b71ebb6</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_0</DOCNO>
+            	<TEXT>Portfolio Heatmap, Chat update, Mobile Search Bar</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week weve released major updates to the Portfolio page, including a new holdings heat map and donut chart to help you better visualize your held assets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_2</DOCNO>
+            	<TEXT>Weve also updated the chat pop-out to allow room switching.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_3</DOCNO>
+            	<TEXT>Mobile users can now use a search bar at the top of any Cryptowatch page to quickly find assets and markets. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_4</DOCNO>
+            	<TEXT>Portfolio Heatmap The Portfolio pages pie chart has been replaced with an interactive heatmap and donut chart that display your multi-exchange holdings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_5</DOCNO>
+            	<TEXT>https://preview.redd.it/33bx9bgxks561.png?width=2130 amp;format=png amp;auto=webp amp;s=1ef183171fd255661060f5c78b9fa2f7d698a337 The donut chart (left) shows the total number of assets in your portfolio (across all connected exchanges), the total value denominated by your Portfolio currency, as well as the 24-hour percent change of your Portfolio as a whole.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_6</DOCNO>
+            	<TEXT>Hovering your mouse over an asset block highlights its fractional portion of the donut chart on the left.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_7</DOCNO>
+            	<TEXT>https://i.redd.it/28v6giv4ls561.gif Asset blocks in the heatmap are sized according to the amount you hold, update to the current price of the asset, and show the 24-hour percent change.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_8</DOCNO>
+            	<TEXT>The 24-hour percent change also informs the color of the asset block shades of green denote gains, greys show no change, and shades of red show losses over the past 24 hours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_9</DOCNO>
+            	<TEXT>Clicking an asset block opens a market for the asset on the exchange the funds are held on. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_10</DOCNO>
+            	<TEXT>Chatroom Switcher Weve added a room switcher to the popout chat box, allowing you to change rooms from within the popout.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_11</DOCNO>
+            	<TEXT>You can find the room switcher at the top of the popup, top-left corner.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_12</DOCNO>
+            	<TEXT>https://preview.redd.it/zc3kdrcdls561.png?width=1279 amp;format=png amp;auto=webp amp;s=d045d42808ab9175a7a1c2c4d23bddfffb49f5ce # Mobile Search Bar The mobile version of Cryptowat.ch has been updated to include a search bar to the top panel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_13</DOCNO>
+            	<TEXT>This search bar functions just like the search bar on the web app mobile users can now find assets, markets and exchanges from any page on Cryptowatch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_16_14</DOCNO>
+            	<TEXT>https://preview.redd.it/rxo68jigls561.png?width=308 amp;format=png amp;auto=webp amp;s=ffa2ba1361132abd495eb2f49230ada2051654d4</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_0</DOCNO>
+            	<TEXT>FTX.US, Context Menus, Vol Profile Range, Psych Line</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week Cryptowatch added FTX.US markets for charting and analysis, a new right-click context menu to the charting interface and a custom range selector for the Volume Profile indicator.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_2</DOCNO>
+            	<TEXT>The new right-click menu on the Charts page is where youll find the *Remove Last Drawing* function, as well as new *Show/Hide Drawings* and *Remove Analysis* functions. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_3</DOCNO>
+            	<TEXT>FTX.US Markets FTX.US is a US-regulated version of the exchange, featuring USD spot markets for many high-volume cryptocurrencies (including BTC).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_4</DOCNO>
+            	<TEXT>Traders can now use Cryptowatchs advanced charting interface to analyze and speculate on FTX.US markets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_5</DOCNO>
+            	<TEXT>https://preview.redd.it/ficf67iaubb61.png?width=2632 amp;format=png amp;auto=webp amp;s=ee40743ccdbefc2ce478857593afd403ac465b08 # Context Menus Weve added new functionality to the charting interface and moved pre-existing actions into new right-click context menus.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_6</DOCNO>
+            	<TEXT>Right clicking on a price chart now opens options to *Remove Last Drawing* function, as well as the new *Show/Hide Drawings* and *Remove Analysis* actions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_7</DOCNO>
+            	<TEXT>Right-clicking on the y-axis opens the option to remove nearby alerts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_8</DOCNO>
+            	<TEXT>https://preview.redd.it/oq3cmksgubb61.png?width=2630 amp;format=png amp;auto=webp amp;s=236da8d5a4a973f51ac8a989f121d50e3f17bd28 # Volume Profile Range Selector Traders can now specify an exact time-range to feed into both the Volume at Price (VAP) and Time at Price (TAP) Volume Profile Indicators (options for indicators are found in the Analysis menu).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_9</DOCNO>
+            	<TEXT>The *Visible* option is the default, automatic range that calculates based on visible candles.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_10</DOCNO>
+            	<TEXT>Choosing *Display* locks the volume profile at its current range, allowing you to move the chart without recalculating.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_11</DOCNO>
+            	<TEXT>Finally, custom ranges can be selected by either using the *Set on Chart* drawing tool or by inputting the start and end date  amp; time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_12</DOCNO>
+            	<TEXT>https://preview.redd.it/g0xj0b2kubb61.png?width=2634 amp;format=png amp;auto=webp amp;s=512656886fca4e1ecc6a8bdd4bbbefc729005091 # Psychological Line Indicator This week weve added a new indicator to the Analysis menu Psychological Line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_13</DOCNO>
+            	<TEXT>This tool measures the amount of time that a market was up over an adjustable number of periods.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_14</DOCNO>
+            	<TEXT>In the image below, the Psychological Line indicator is displayed alongside the BTC bull run beginning in November 2020.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_17_15</DOCNO>
+            	<TEXT>https://preview.redd.it/uo5fnjrqubb61.png?width=2630 amp;format=png amp;auto=webp amp;s=3b96cb180f66ba28b8aa3a82a170023b53097cfb ## More Updates * Optimized traffic for background chats * Filled option for analysis tools moved to style tab</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_0</DOCNO>
+            	<TEXT>FTX.US Trading, Mute Users, Bug Fixes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Last release Cryptowatch added FTX.US markets for charting and analysis, and this week FTX.US markets are fully integrated for trading.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_2</DOCNO>
+            	<TEXT>Traders chatting in the trollbox now have the ability to mute individual users, just in case it comes to that. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_3</DOCNO>
+            	<TEXT>FTX.US Trading Traders can now connect their FTX.US accounts to Cryptowatch via the exchange keys page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_4</DOCNO>
+            	<TEXT>Doing so enables trading and portfolio tracking for over 30 FTX.US markets. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_5</DOCNO>
+            	<TEXT>FTX.US markets are enabled for trading and portfolio.](https://preview.redd.it/986dlpuv24e61.png?width=2792 amp;format=png amp;auto=webp amp;s=dfa894c3ef383a80fba678239896084aee3b1517) ## Mute Users in Chat Why argue when you can just mute?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_6</DOCNO>
+            	<TEXT>Traders can now take the high road in style by opting to mute users theyre tired of hearing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_7</DOCNO>
+            	<TEXT>Hovering your cursor over a message in chat reveals an in-line menu icon on the right-hand side.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_8</DOCNO>
+            	<TEXT>Clicking the icon reveals the option to mute.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_9</DOCNO>
+            	<TEXT>Muting a user only hides their messages from you other traders using chat can still see their messages. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_18_10</DOCNO>
+            	<TEXT>Hover over a message to reveal the options menu on the right-hand side.](https://preview.redd.it/gsjoj1fx24e61.png?width=1327 amp;format=png amp;auto=webp amp;s=73a0f51d9854815d28dc6fb9f5c32c4e1d5f858a) ## Bug fixes Bugs that affected some users have been squashed: * Bollinger Band cross above upper band alert triggers prematurely * Slow Chart when using Stock to Flow overlay * Unable to create a new account with desktop * Alert settings now displays exchange name alongside exchange icon and market</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_0</DOCNO>
+            	<TEXT>NVTS, Tweet Pasting, Line Styles, PPO Indicator  amp; More</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week the Cryptowatch team issued a large update, including the new Net Value Time Series (NVTS) Portfolio visualization, pasting tweets to charts, customizable line styles (for analysis tools), and much more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_2</DOCNO>
+            	<TEXT>Information in the accounts page has been reordered and given improved functionality, the Volume Profile indicator now displays its loading status, traders entering the Chat can check nickname availability, and, finally, the Alerts panel has an improved UI as well as market links. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_3</DOCNO>
+            	<TEXT>Net Value Time Series (NVTS) The Net Value Time Series (NVTS) Alpha version has been released this new tool visualizes your Portfolio value over time, signals your best  amp; worst performing assets, *and* displays your portfolio value as an OHLC bar. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_4</DOCNO>
+            	<TEXT>At this time the NVTS is only compatible with your Kraken portfolio/holdings.** [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_5</DOCNO>
+            	<TEXT>Read the new Guide to learn more about the My Portfolio NVTS.](https://guides.cryptowat.ch/portfolio/my-portfolio-net-value-time-series) https://preview.redd.it/2zhd7tturnj61.png?width=1996 amp;format=png amp;auto=webp amp;s=f4fea931078d01e22cab84d30f9f899d3945545a ## Tweet Pasting Cryptowatch traders can now paste tweets to the Charts page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_6</DOCNO>
+            	<TEXT>To paste a tweet: * Copy the URL of the individual tweet you want to paste * Flip to your Cryptowatch Charts page * Use your paste hotkeys (CTRL + V on Windows, Command + V on Mac) to paste the tweet The tweet will automatically paste to the correct time on the Charts x-axis, and can be repositioned by clicking the top of the tweet bubble and dragging. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_7</DOCNO>
+            	<TEXT>Tweets with images/video will omit the media and use the text only.** **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_8</DOCNO>
+            	<TEXT>To remove a tweet, right-click it and select Remove this drawing (tweet).**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_9</DOCNO>
+            	<TEXT>https://preview.redd.it/t7sfjcgxrnj61.png?width=3360 amp;format=png amp;auto=webp amp;s=1b3e75be75c814a33d2c6db61f173ae48c2df1c2 ## Line Styles Traders can now customize the line styles of analysis tools and indicators on the Charts page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_10</DOCNO>
+            	<TEXT>To adjust line styles: * Open the Analysis menu * Select an analysis tool to customize * Flip to the Style tab * Click the line box next to the color options There are 25 options for line styles: 5 graphic styles (eg.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_11</DOCNO>
+            	<TEXT>dotted lines) and 5 line thickness options for each.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_12</DOCNO>
+            	<TEXT>https://preview.redd.it/3s79dck3snj61.png?width=2634 amp;format=png amp;auto=webp amp;s=96b73c2f7f059171b722dd5169d83cbedb594907 ## Price Percentage Oscillator (PPO) Traders can use the new Price Percentage Oscillator (PPO) by accessing it in the Analysis menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_13</DOCNO>
+            	<TEXT>The Price Percentage Oscillator is similar to the MACD indicator, but draws on percentage data rather than raw price information.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_14</DOCNO>
+            	<TEXT>This results in a smoother, more normalized momentum indicator.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_15</DOCNO>
+            	<TEXT>https://preview.redd.it/wf64sj96snj61.png?width=2634 amp;format=png amp;auto=webp amp;s=59201f2bc5f82bd58f8fe094df321acf3daa4e3d ## Even More Updates [**Accounts Page**](https://cryptowat.ch/account)**:** * Re-ordered Password Change, Email Change and Username Change fields * Added a Password Confirmation field * Unverified users can change their email without contacting support **Volume Profile Indicators (Time at Price  amp; Volume at Price):** * Added a load status indication the volume profile bars are now overlaid with load status, which fills the bars right-to-left as the process completes **Chat:** * Traders entering the chat can now check nickname availability **Alerts Panel:** * The options to Save / Cancel / Delete an alert are stickied to the bottom of the alert panel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_16</DOCNO>
+            	<TEXT>Clicking on an individual alert reveals these options. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_19_17</DOCNO>
+            	<TEXT>Alerts listed in the panel now have direct links to their respective markets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_20_0</DOCNO>
+            	<TEXT>I've got some good news for you!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_20_1</DOCNO>
+            	<TEXT>We've just released the alpha version of our Net Value Time Series (NVTS).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_20_2</DOCNO>
+            	<TEXT>This version is only compatible with a Kraken account at this time, but it graphs your Portfolio's value on either 24h, 7D, 1 Month, 3 Months or 1 Year. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_20_3</DOCNO>
+            	<TEXT>Link to the Changelog](https://docs.cryptowat.ch/home/updates/changelog#net-value-time-series-nvts) [Link to the NVTS Guide](https://guides.cryptowat.ch/portfolio/my-portfolio-net-value-time-series)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_21_0</DOCNO>
+            	<TEXT>We recently made it possible to paste tweets on your charts! [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_21_1</DOCNO>
+            	<TEXT>Link to the Twitter Card changelog entry](https://docs.cryptowat.ch/home/updates/changelog#tweet-pasting)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_0</DOCNO>
+            	<TEXT>Coinbase Pro NVTS, History Export, Right-click Alerts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Updates to the Portfolio page include Coinbase Pro support for the new Net Value Time Series (NVTS) tool and the re-introduction of the History Export features on Portfolio (Kraken and Coinbase trade history supported at this time).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_2</DOCNO>
+            	<TEXT>On the Charts page, the Cryptowatch team added the ability to add alerts via the right-click context menus.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_3</DOCNO>
+            	<TEXT>Posting a link in the Chat now unfurls a preview of the URL. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_4</DOCNO>
+            	<TEXT>Coinbase Pro NVTS Our last release saw the launch of the Net Value Time Series tool on the Portfolio page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_5</DOCNO>
+            	<TEXT>This release includes added support for traders who have connected their Coinbase Pro accounts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_6</DOCNO>
+            	<TEXT>Traders with Coinbase Pro and/or Kraken accounts connected to Cryptowatch can now see their Portfolio values on both exchanges plotted in the NVTS tool. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_7</DOCNO>
+            	<TEXT>Read our new Guide to learn more about the new My Portfolio NVTS.](https://guides.cryptowat.ch/portfolio/my-portfolio-net-value-time-series) https://preview.redd.it/xezjtnfersn61.png?width=2501 amp;format=png amp;auto=webp amp;s=7af509a065d676760c3c7d6a527de1607694c15f ## History Export Traders can once again use the History Export feature to export trade history and ledger entries for the 2020 calendar year (Kraken and Coinbase history is supported).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_8</DOCNO>
+            	<TEXT>Keep in mind that a report does not indicate tax liability, and that consulting with an accountant is recommended whenever filing taxes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_9</DOCNO>
+            	<TEXT>https://preview.redd.it/jvi47uigrsn61.png?width=2220 amp;format=png amp;auto=webp amp;s=bde09d05af2d1d9ed7e7a3fa77f4633c74cdfc6f ## Right-Click Alerts Traders can now quickly add alerts by right-clicking at any level of the price chart or volume indicator.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_10</DOCNO>
+            	<TEXT>Right-clicking an existing alert to remove it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_22_11</DOCNO>
+            	<TEXT>https://preview.redd.it/mtge5heirsn61.png?width=2158 amp;format=png amp;auto=webp amp;s=4687d65ffc8e10f01199bf0374a3e85e13fb3e2f ## Other Updates: * Login with email now supported (web only) * Descriptive error message when creating an account with an already-registered email address * Removed some trade feed trade filtering for parity with Desktop * Creating alerts disabled when out of Credits</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_0</DOCNO>
+            	<TEXT>Multiple Indicators, Global Currency Switcher, Chat Updates</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Released features this week: Traders can now add multiple versions of the same indicators to their charts, allowing a deeper analysis experience.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_2</DOCNO>
+            	<TEXT>Weve also tidied up currency selection (such as your Portfolio currency) and implemented a new Global Currency Switcher.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_3</DOCNO>
+            	<TEXT>In the Chat, weve added a new option in the settings menu for URL unfurling and a *User is typing* notice in the Chat box.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_4</DOCNO>
+            	<TEXT>Other updates include changes to some pages locations, such as removal and relocation (see Other Updates at the bottom). ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_5</DOCNO>
+            	<TEXT>Multiple Indicator Instances Traders can now add multiple versions of the same indicators to their Charts for example, you can add one RSI indicator set to 14 periods and one set to 9 periods.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_6</DOCNO>
+            	<TEXT>Each indicator can be individually styled for more visual separation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_7</DOCNO>
+            	<TEXT>To add a new indicator of the same type, click the + button next to its name in the Analysis menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_8</DOCNO>
+            	<TEXT>https://preview.redd.it/pkm0pqt8zyr61.png?width=2702 amp;format=png amp;auto=webp amp;s=cf4bb8a1019bac634a20dc47dbbcec64046e56be ## Global Currency Switcher The Global Currency Switcher can be found by clicking the gear icon in the top right of all pages *except* the Charts page, where the fiat currency option in Chart Settings lives.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_9</DOCNO>
+            	<TEXT>This option replaces the currency selectors on Home, Assets, Exchanges and Portfolio.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_10</DOCNO>
+            	<TEXT>The currency you choose persists across these tools.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_11</DOCNO>
+            	<TEXT>https://preview.redd.it/efgei20bzyr61.png?width=2036 amp;format=png amp;auto=webp amp;s=36f1a26590e2825d6af0129324e5e1e660c95da2 ## Chat Updates Changes to the Chat tool include: * New User is typing to the text box area in Chat. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_12</DOCNO>
+            	<TEXT>New Chat setting to show/hide URL previews by default https://preview.redd.it/9ul8i0ndzyr61.png?width=2130 amp;format=png amp;auto=webp amp;s=fbfbdfde5f69f8833b9805c9a43829f5f6e7067b ## Other Updates: * The Asset Cards page has been removed but you can always build a faster one with [Cryptowatch Desktop](https://cryptowat.ch/apps/desktop). *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_13</DOCNO>
+            	<TEXT>Cryptowatch logo in the top-left of the Charts page redirects to the homepage. * [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_14</DOCNO>
+            	<TEXT>Converter](https://cryptowat.ch/converter/btc/usd/1) and [COVID-19](https://cryptowat.ch/covid19) tools are moved to the footer, under Products. * [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_23_15</DOCNO>
+            	<TEXT>Portfolio](https://cryptowat.ch/portfolio/holdings): Figures in the Quote column link to the Markets page if no direct market.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_0</DOCNO>
+            	<TEXT>Signed-in Homepage, Portfolio Customization, Cryptofinance, Alert Notes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) **Signed-in Homepage:** Signing in to Cryptowatch reveals a personalized homepage, summarizing your Portfolio and assets, recently-viewed markets, plus a restyled blog and news feed. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_2</DOCNO>
+            	<TEXT>Portfolio Customization:** Traders can now hide, show, and re-order the tools on the Portfolio page. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_3</DOCNO>
+            	<TEXT>Cryptofinance:** Cryptofinance subscriptions are now live swap Credits for a monthly subscription to this powerful Google sheets add-on and build your own crypto tools. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_4</DOCNO>
+            	<TEXT>Alert Notes:** Add notes to your alerts reminders, actions to take, wagers won or lost against other traders in the Chat room there are endless possibilities for this new feature. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_5</DOCNO>
+            	<TEXT>More updates: * Homepage cards moved to [assets page](https://cryptowat.ch/assets) * [Exchange keys page](https://cryptowat.ch/account/exchange-keys) exchanges contain links to connection walkthroughs in [Cryptowatch Guides](https://guides.cryptowat.ch) **New Overlay: Hull Moving Average** Developed by Alan Hull, the Hull Moving Average aims to provide a nearly lag-free moving average while maintaining a smooth curve. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_6</DOCNO>
+            	<TEXT>Smarter X-axis Labelling** * First hour of the day labeled with day number * First day of the month labeled with month name * First day of the year labeled with year number **Read on for more information and images of new releases.** #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_7</DOCNO>
+            	<TEXT>Signed-in Homepage [Recently viewed markets and Portfolio summaries.](https://preview.redd.it/xy1l87q1mcw61.png?width=2620 amp;format=png amp;auto=webp amp;s=485131a00ff1a0ef3da46735821829a893d0c821) [Cryptowatchs homepage](https://cryptowat.ch/) now converts into an at-a-glance crypto dashboard for signed-in traders.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_8</DOCNO>
+            	<TEXT>Included in the signed-in homepage are: * Portfolio overview: value-over-time chart (with selectable time ranges up to 1 year) * Unrealized profit/loss * Asset allocation heatmap * Product updates feed * Restyled news and blog feeds * Top assets list by: Top volume, Top market cap, 24h Best  amp; 24h Worst performers [Top assets sorted by Top Volume.](https://preview.redd.it/21fzfzm5mcw61.png?width=2614 amp;format=png amp;auto=webp amp;s=e6d15174f313eb134cabd57e92b9b79311fe17e2) [Product updates feed from our blog and Cryptowatch Guides.](https://preview.redd.it/0ehi3p77mcw61.png?width=2644 amp;format=png amp;auto=webp amp;s=debbed8103381e0efb47a8092f3c49755aaec8bd) [Restyled news and Blog feeds.](https://preview.redd.it/ntjendz8mcw61.png?width=2458 amp;format=png amp;auto=webp amp;s=cadf2062eaef261bb1d9779ef52cae3c5296f055) ## Portfolio Customization Traders can now reorganize their Cryptowatch Portfolio tools super handy as we continue to add  amp; improve new portfolio visuals and charts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_9</DOCNO>
+            	<TEXT>Click the hamburger icon to the top-right of your portfolio tools to hide, show and reorder tools on the page. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_10</DOCNO>
+            	<TEXT>How to show, hide and organize portfolio tools.](https://i.redd.it/nlx1q1abmcw61.gif) **More Portfolio updates:** * New colors/style Portfolio Composition  amp; Performance heatmap. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_11</DOCNO>
+            	<TEXT>NVTS and home dashboard change chart default to 7 day. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_12</DOCNO>
+            	<TEXT>NVTS saves your last time-period selection, will display that time series on reload. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_13</DOCNO>
+            	<TEXT>USDT added to [Global Currency Switcher](https://docs.cryptowat.ch/home/updates/changelog#global-currency-switcher). ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_14</DOCNO>
+            	<TEXT>Cryptofinance Subscriptions [An example of what you can build with Cryptofinance a trade log with ticker bar and P\/L tracking.](https://preview.redd.it/2p0t3g3gmcw61.png?width=3064 amp;format=png amp;auto=webp amp;s=f9087539e437b340187f5c5e9eb1215139bb89b5) Our team has added Cryptofinance subscriptions to our growing list of services.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_15</DOCNO>
+            	<TEXT>Subscribing to Cryptofinance grants access to the best features of this powerful Google Sheets add-on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_16</DOCNO>
+            	<TEXT>You will now find price and data information on the [Credits  amp; Billing](https://cryptowat.ch/account/credits-billing) page. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_17</DOCNO>
+            	<TEXT>Cryptofinance info on the Credits  amp; Billing page.](https://preview.redd.it/rg59tcjimcw61.png?width=3134 amp;format=png amp;auto=webp amp;s=aaf4f89e44cebed35f56044b5a956cb5377969ab) Cryptofinance combines with Google Sheets powerful formulae to let you build your own crypto tools whether tracking your balances, visualizing complex data, or more. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_18</DOCNO>
+            	<TEXT>Cryptofinance: Pricing and Installation](https://docs.cryptowat.ch/home/services/cryptofinance) [What are Credits?](https://docs.cryptowat.ch/home/services/credits-and-subscriptions) ## Alert Notes https://preview.redd.it/lstm57osmcw61.png?width=2902 amp;format=png amp;auto=webp amp;s=5e4dbefd79b461071de3eecf5b2635ef4ea30593 Add notes to any alert in the Alerts panel, found in the Utility Belt on the right side of the screen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_19</DOCNO>
+            	<TEXT>Alert notes show within the alert display, in SMS and email alerts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_24_20</DOCNO>
+            	<TEXT>Leave practical reminders, all-time-high notifications, analysis notes or total gibberish whatever improves your quality of life.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_0</DOCNO>
+            	<TEXT>New Header, Undo/Redo, P/L Histogram, Chat Badges, Wilders Volatility</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week our team released a newly designed header bar to Cryptowatch web, a Profit  amp; Loss histogram to the Portfolio page, updates to our Chat and the Analysis tools library, and a massive quality-of-life update to Charts undo/redo. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_2</DOCNO>
+            	<TEXT>New Header Navigation https://preview.redd.it/p8hgdgbwd2171.png?width=1714 amp;format=png amp;auto=webp amp;s=d046954db7864c48a0d9d347132654fbc599a66b Weve updated Cryptowatchs look with a new header and utility bar, scrapping the lines between elements for a more modern look.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_3</DOCNO>
+            	<TEXT>Scrolling and adding markets to your watchlist in the header is simpler (click the + icon in the right corner), and the Cryptowatch logo and search bar are condensed to make room for your watched markets on the Charts page. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_4</DOCNO>
+            	<TEXT>Undo/Redo Charting Shortcuts https://preview.redd.it/b0uhf3l63b071.png?width=2344 amp;format=png amp;auto=webp amp;s=6c1baee0914d1116114218dfd539f73cb6716c6a This feature lets traders undo their last charting action or redo the last action theyve undone, streamlining your analysis process.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_5</DOCNO>
+            	<TEXT>Right click the chart area to open the context menu, then select undo/redo from the bottom of the menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_6</DOCNO>
+            	<TEXT>Alternatively, use the hotkeys: **Undo:** Ctrl (Cmd) + Z **Redo:** Shift + Ctrl (Cmd) + Z ## P/L Histogram https://preview.redd.it/l1vbd5s93b071.png?width=1600 amp;format=png amp;auto=webp amp;s=660efc6142b281c57f70f7e405ff45d4151666a5 A new portfolio tool measuring your relative returns across the selected period in the Net Value Time Series graph.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_7</DOCNO>
+            	<TEXT>The P/L histogram visualizes fluctuations in your combined Portfolio value across all of your funded  amp; connected exchanges. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_8</DOCNO>
+            	<TEXT>Chat Badges https://preview.redd.it/slwv6fac3b071.png?width=1662 amp;format=png amp;auto=webp amp;s=b9ced9c5bc7946b8ef4ca0b525c0d9958b534331 Weve added badges next to usernames in the Chat to denote new users, moderators, and other special-someones.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_9</DOCNO>
+            	<TEXT>Clicking on a username opens their profile overview, displaying any badges they have, as well as the age of their profile. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_10</DOCNO>
+            	<TEXT>New Indicator: Wilders Volatility https://preview.redd.it/hi1vcode3b071.png?width=3090 amp;format=png amp;auto=webp amp;s=1b524e835a069b9e5d49e19f326e9e19a12de2d5 The Wilders Volatility Indicator (found in the Analysis menu) uses an Average True Range indicator to measure market volatility, attempting to generate well-timed buy and sell signals. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_11</DOCNO>
+            	<TEXT>Accounts Updates: * Added ability to remove saved credit cards. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_25_12</DOCNO>
+            	<TEXT>Added Transaction History filter can filter by transaction types  amp; time period (since/before).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_0</DOCNO>
+            	<TEXT>Subscriptions Info, Update credit card, TA and DeFi Chat, ALMA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week Cryptowatch released tier information and the ability to upgrade  amp; downgrade subscription tiers (for example, upgrading free access to Cryptofinance to a Standard plan).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_2</DOCNO>
+            	<TEXT>Included is the ability to update or remove your credit card information, plus an info blurb for available subscriptions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_3</DOCNO>
+            	<TEXT>Two new chat rooms have been added Technical Analysis and DeFi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_4</DOCNO>
+            	<TEXT>Finally, this release also added a new overlay to the Analysis menu, the Arnaud Legoux Moving Average. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_5</DOCNO>
+            	<TEXT>Subscriptions Info and Tiers Adding subscription services to your crypto-toolbox is now a simpler task our [Subscriptions page](https://cryptowat.ch/account/credits-billing#subscriptions-services) now includes a description of the service, whats included in each tier, as well as handy upgrade/downgrade buttons alongside each subscription tier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_6</DOCNO>
+            	<TEXT>If a free trial is available, thats automatically labeled as Active on the subscriptions page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_7</DOCNO>
+            	<TEXT>https://preview.redd.it/lfokdu6bgg471.png?width=2434 amp;format=png amp;auto=webp amp;s=766577a04a25483f6bf22b66395e8c73d98d930a ## Update or Remove Credit Card Info Traders can now update their payment information directly from the [Credits  amp; Billing page](https://cryptowat.ch/account/credits-billing#creditshttps://cryptowat.ch/account/credits-billing#credits).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_8</DOCNO>
+            	<TEXT>Clicking the pencil icon next to your payment info lets you edit your payment method, and clicking the `X` icon next to it will remove the payment method entirely.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_9</DOCNO>
+            	<TEXT>https://preview.redd.it/igvo2wmegg471.png?width=2042 amp;format=png amp;auto=webp amp;s=ef9db0c656727af4bf5f818a9eab9458ac7f8c77 Weve also added a short message informing you whether entering your payment method was successful or not: https://preview.redd.it/aquppikggg471.png?width=1704 amp;format=png amp;auto=webp amp;s=6a55d7907c595ed28b84bf24f7a8a03537bfaa9e ## New Chat Rooms: Technical Analysis and DeFi These new chat rooms are for traders eager to share their market outlooks and talk about the DeFi (Decentralized Finance) space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_10</DOCNO>
+            	<TEXT>In the Technical Analysis room, share your chart snapshots and talk trading with the rest of the CW bunch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_11</DOCNO>
+            	<TEXT>As Cryptowatch trader Cryplyfe puts it: *Whats this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_12</DOCNO>
+            	<TEXT>A trading forum on a trading app?!*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_13</DOCNO>
+            	<TEXT>https://preview.redd.it/k4teyuqlgg471.png?width=2144 amp;format=png amp;auto=webp amp;s=a0101cccef37c02c8f0a7f0364f30574ac87b37e # Arnaud Legoux Moving Average (ALMA) The ALMA overlay performs a moving average calculation twice once from left to right, and once from right to left.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_14</DOCNO>
+            	<TEXT>This, plus normalized distribution within the calculation whittles down noise and improves the trendline.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_15</DOCNO>
+            	<TEXT>ALMA trendlines experience less lag than a simple moving average, revealing more timely signals. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_16</DOCNO>
+            	<TEXT>Check it out on the Charts page](https://cryptowat.ch/charts/KRAKEN:BTC-USD).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_26_17</DOCNO>
+            	<TEXT>https://preview.redd.it/xnt8snqsgg471.png?width=2162 amp;format=png amp;auto=webp amp;s=8265119138cfd4df2a8d65743b16953b6d05acfe</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_27_0</DOCNO>
+            	<TEXT>MP4 Videos in Chat</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_27_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) Cryptowatch Chat now renders MP4 videos drop a video URL in the Chat to try it out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_27_2</DOCNO>
+            	<TEXT>https://preview.redd.it/tn25nt4vdm871.png?width=1544 amp;format=png amp;auto=webp amp;s=b11ff3aa38c3de45f5ac0509fce121c156e8fdaf</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_0</DOCNO>
+            	<TEXT>Blockchain Metrics, Portfolio Updates, Page Redesigns</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week the Cryptowatch team released new charts for blockchain data, updated page designs for the Markets and Exchanges pages, and added multiple updates to your Portfolio tools.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_2</DOCNO>
+            	<TEXT>On the Portfolio page, weve improved the design of the Value-over-time series and Profit/Loss histogram and added fees data to the Trade History tab. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_3</DOCNO>
+            	<TEXT>Blockchain Metrics [Above: Bitcoin blockchain active addresses](https://preview.redd.it/ldcm2lbm7sc71.png?width=3276 amp;format=png amp;auto=webp amp;s=ab88d70115d5ec5155f3cf1e82d2b1eebe5cbfa1) Now Cryptowatch traders can supplement their analysis with blockchain fundamental data charts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_4</DOCNO>
+            	<TEXT>You can find these charts by typing either Bitcoin blockchain or Ethereum blockchain into the search bar on any page, then selecting a fundamental metric from the list.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_5</DOCNO>
+            	<TEXT>Fundamental data charts are labeled with Fundamentals.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_6</DOCNO>
+            	<TEXT>Currently we support charts for the following metrics: **Bitcoin blockchain:** * Block count * Block size * Block size mean * Active addresses count * Difficulty * Hashrate * Market Cap Real USD * Market Cap USD * Total Fees * Market value by Realized Value (Mvrv) **Ethereum Blockchain:** * Active addresses count * Block count * Block size * Difficulty * Hashrate * Market cap USD * Total fees # Portfolio Updates: Rate-of-return and tool redesigns [Above: the Value-over-time graph](https://preview.redd.it/p3oz21zn7sc71.png?width=2050 amp;format=png amp;auto=webp amp;s=e4ff603870778bf897978fe1bafda67d2f568658) **Value-over-time** Weve updated the look of the Value-over-time and Profit/Loss Histogram tools, moving the period buttons to the top right, the OHLC bar and best/worst performers to below the Value-over-time graph, and separating the P/L Histogram into its own space below. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_7</DOCNO>
+            	<TEXT>P/L Histogram** Cryptowatch traders will also notice the Cumulative Rate of Return (RoR) metric on the P/L Histogram.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_8</DOCNO>
+            	<TEXT>Hovering your cursor over any period in the P/L Histogram reveals the Periodic Return data for that period. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_9</DOCNO>
+            	<TEXT>Trading Fees** Trading fees are now listed in the rightmost column of the Trades History tab. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_10</DOCNO>
+            	<TEXT>Markets and Exchanges page redesigns [Above: cryptowat.ch\/markets](https://preview.redd.it/s1xeahqp7sc71.png?width=3354 amp;format=png amp;auto=webp amp;s=4bf0e0ce586412ba1a1e50229f2c70111356380f) This week we released new looks for the Markets and Exchanges pages, keeping with the overall design refresh of Cryptowatch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_28_11</DOCNO>
+            	<TEXT>Rows on these pages are now separated by alternating colors, and the filters buttons are reduced in size and less intrusive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_29_0</DOCNO>
+            	<TEXT>Hey, u/Nowheredotcom, we *just* ended access to Cryptofinance via [cryptofinance.ai](https://cryptofinance.ai) this week CF is now available solely on Cryptowatch's [Subscriptions  amp; Services](https://cryptowat.ch/account/credits-billing#subscriptions-services) page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_29_1</DOCNO>
+            	<TEXT>If you want to continue learning how to use the add-on for free, connecting your API through Cryptowatch comes with the ability to start a 14 day free trial of the full service.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_29_2</DOCNO>
+            	<TEXT>You can check out how to do it [here](https://docs.cryptowat.ch/home/services/cryptofinance#enabling-your-free-trial).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_29_3</DOCNO>
+            	<TEXT>Hope this helps!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_0</DOCNO>
+            	<TEXT>P/L Histogram Benchmarks, Blockchain Alerts, DeFi Assets Filter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week the Cryptowatch team released an addition to the Portfolio page's P/L Histogram, allowing traders to visualize their Portfolio against BTC and ETH.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_2</DOCNO>
+            	<TEXT>This release also includes alerts for blockchain fundamental data and a new Asset page filter to show DeFi assets only. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_3</DOCNO>
+            	<TEXT>P/L Histogram Historical Benchmarks [A 7-day period of Portfolio Rate-of-Return compared to Ethereum.](https://preview.redd.it/79tphn5a4yg71.png?width=2048 amp;format=png amp;auto=webp amp;s=d7e177cdab60f5755ba3aacc852af40030d0be59) Traders can now use the P/L Histograms ROR (Rate-of-Return) graph to compare their [Portfolio](https://cryptowat.ch/portfolio/holdings) to the historical data of either BTC or ETH.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_4</DOCNO>
+            	<TEXT>To select a comparison asset, use the drop-down Comparison menu immediately below the Profit/Loss title.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_5</DOCNO>
+            	<TEXT>The Value over time section of the Portfolio page must be enabled to view this feature. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_6</DOCNO>
+            	<TEXT>Blockchain Fundamentals Alerts [Alerts set for an increase or decrease in Bitcoin active addresses.](https://preview.redd.it/fifz703d4yg71.png?width=2522 amp;format=png amp;auto=webp amp;s=9bdd23c4dad0462d93439f0ebbc3a0ea49c450b5) If you missed our last release, our team added a new category of charts to Cryptowatch blockchain fundamentals data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_7</DOCNO>
+            	<TEXT>This week we've improved the feature by adding alerts functionality as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_8</DOCNO>
+            	<TEXT>Blockchain alerts can be set either from the Alerts menu, or by clicking the y-axis of a blockchain fundamentals chart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_9</DOCNO>
+            	<TEXT>More documentation on blockchain fundamentals, including the full list of supported metrics, can be found [here](https://docs.cryptowat.ch/home/products-and-settings/blockchain-metrics). #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_10</DOCNO>
+            	<TEXT>DeFi Assets Filter [Traders can now filter the Assets page by DeFi or All.](https://preview.redd.it/31cdejmg4yg71.png?width=2628 amp;format=png amp;auto=webp amp;s=396fefc6b8fd61615d7203d52b3af17581586399) DeFi traders can streamline their market check-ups from the [Assets page](https://cryptowat.ch/assets) with a brand new filter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_30_11</DOCNO>
+            	<TEXT>If youre focusing on DeFi assets, you can use this filter to quickly monitor token prices, trading volume, asset liquidity and more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_31_0</DOCNO>
+            	<TEXT>You can check the [Credits  amp; Billing](https://cryptowat.ch/account/credits-billing) page on Cryptowatch to see your current Cryptofinance subscription tier to end your subscription, just click the "Downgrade" button next to the free tier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_31_1</DOCNO>
+            	<TEXT>If you mean closing your Cryptowatch account, see the instructions here: [How to close your Cryptowatch account](https://guides.cryptowat.ch/settings-and-troubleshooting/how-to-close-your-cryptowatch-account)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_0</DOCNO>
+            	<TEXT>CME Globex Futures markets (beta), DeFi Assets view</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_1</DOCNO>
+            	<TEXT> https://preview.redd.it/t9um041sb3l71.png?width=3360 amp;format=png amp;auto=webp amp;s=3b1c47546c9303fc633f017370d1006e801b5d08 Cryptowatch traders can now monitor  amp; analyze global market-moving events from Chicago Mercantile Exchange (CME) alongside their favourite cryptocurrency markets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_2</DOCNO>
+            	<TEXT>Traders can set alerts, track and monitor trading metrics (such as price, daily summary, OHLC candles, etc.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_3</DOCNO>
+            	<TEXT>and apply any of Cryptowatchs technical indicators and drawing tools for in-depth market analysis. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_4</DOCNO>
+            	<TEXT>Accessing CME Globex Futures markets Currently, Cryptowatch supports the following CME Globex Futures symbols: * [Bitcoin](https://cryptowat.ch/markets?exchanges=cme amp;types=spot%2Bfutures amp;assets=btc) * [Ether](https://cryptowat.ch/markets?exchanges=cme amp;types=spot%2Bfutures amp;assets=eth) * [Eurodollar](https://cryptowat.ch/markets?exchanges=cme amp;types=spot%2Bfutures amp;assets=ge) There are 3 ways to access CME Globex Futures markets on Cryptowatch: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_5</DOCNO>
+            	<TEXT>Go to the [Exchanges](https://cryptowat.ch/exchanges) page  gt; select the CME exchange 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_6</DOCNO>
+            	<TEXT>Go to the [Markets](https://cryptowat.ch/markets) page  gt; filter markets by exchange or select a CME market 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_7</DOCNO>
+            	<TEXT>Search for CME using the search bar ## CME Globex Futures markets: Important Info **Delayed Market Data** Market data in all CME markets will be delayed by 10 minutes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_8</DOCNO>
+            	<TEXT>This delay allows us to offer this data for free to all Cryptowatch visitors. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_9</DOCNO>
+            	<TEXT>API Support** Due to the redistribution limitations of our agreement with the CME, Cryptowatch will not emit CME market data to customers via our public APIs. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_10</DOCNO>
+            	<TEXT>Market History** All CME active contracts will be fully backfilled by using all the available historical data of the CME.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_11</DOCNO>
+            	<TEXT>However, in some cases we have identified that full history is not available.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_12</DOCNO>
+            	<TEXT>This means that the historical data for some Continuous charts will start later than expected. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_13</DOCNO>
+            	<TEXT>Read more about CME Globex Futures See the [full CME Globex Futures documentation](https://docs.cryptowat.ch/home/products-and-settings/cme-globex-futures-markets) and [blog post](https://blog.cryptowat.ch/cme-bitcoin-ether-eurodollar-futures/) for more information about CME GLobex Futures markets on Cryptowatch. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_14</DOCNO>
+            	<TEXT>DeFi Assets view [https:\/\/cryptowat.ch\/cards\/assets?type=defi](https://preview.redd.it/ebct91drc3l71.png?width=3348 amp;format=png amp;auto=webp amp;s=c82c7e18f76d7a136efad9b76e488adcd6d2fd43) Traders can now quickly sort and navigate DeFi assets across every exchange on Cryptowatch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_15</DOCNO>
+            	<TEXT>Our new card view ranks the top DeFi assets by 24H spot trading volume.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_16</DOCNO>
+            	<TEXT>Find our new pages by selecting the DeFi filter on the Assets page to view decentralized token listings in both the [list](https://cryptowat.ch/assets?type=defi) and [card](https://cryptowat.ch/cards/assets?type=defi) views. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_32_17</DOCNO>
+            	<TEXT>https:\/\/cryptowat.ch\/assets?type=defi](https://preview.redd.it/uzsq99vuc3l71.png?width=2628 amp;format=png amp;auto=webp amp;s=ba1f09456b7da4a734426d3b366ee09980324c4f)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_0</DOCNO>
+            	<TEXT>CME Chart options, Transaction History, Chat security</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog) This week the Cryptowatch team released new chart options highlighting non-trading sessions for CME Globex Futures markets, a transaction history to track your Credits spending, and a new security feature for the Chat. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_2</DOCNO>
+            	<TEXT>CME Chart Options: Trading sessions CME Globex Futures markets are *traditional* trading venues, and that comes with market opens  amp; closes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_3</DOCNO>
+            	<TEXT>Weve included two new options in the Chart Style menu (right next to the analysis menu) to better visualize the times between close and open.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_4</DOCNO>
+            	<TEXT>https://preview.redd.it/aguhtai189p71.png?width=2262 amp;format=png amp;auto=webp amp;s=34f92b49eb5f85ed4cf9b16185be6f275e0e8f0d The options Show non-trading and Session breaks can be found under the Trading Session header in the Chart style dropdown menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_5</DOCNO>
+            	<TEXT>See the gif below to see it in action: https://i.redd.it/0r96aqo389p71.gif ## Credits Transaction History Traders can now track, filter and export their Cryptowatch transaction history via the [Credits  amp; Billing page](https://cryptowat.ch/account/credits-billing).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_6</DOCNO>
+            	<TEXT>You can filter the list by type of transaction, set before/after dates and export a .csv file for your personal records.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_7</DOCNO>
+            	<TEXT>https://preview.redd.it/faersrc689p71.png?width=3358 amp;format=png amp;auto=webp amp;s=749d1383211dc1add06ca2e0d49c99e113df6647 ## Chat Security Weve added a new Chat feature to help the accident prone from oversharing sensitive information if you send an API key (or anything resembling one) to the Chat, Cryptowatch will ask you to make sure that wasnt an accident first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_8</DOCNO>
+            	<TEXT>Keep those keys safe!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_33_9</DOCNO>
+            	<TEXT>https://preview.redd.it/vtbqz6p889p71.png?width=2278 amp;format=png amp;auto=webp amp;s=38cec085a5bd9865198fe0f8e9c384932272b56b</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_34_0</DOCNO>
+            	<TEXT>The control point mentioned is the small circle on the drawing you want to remove - it looks like you are right-clicking another point of the line in that image. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_34_1</DOCNO>
+            	<TEXT>https://imgur.com/a/nHaq8Ha](https://imgur.com/a/nHaq8Ha)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_0</DOCNO>
+            	<TEXT>Custom Dashboard, Tipping in Chat, Hide/reveal Chart Analysis</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog#custom-dashboard-tipping-in-chat-hide-reveal-chart-analysis) This week Cryptowatch released new tools for personalizing your [signed-in dashboard](https://cryptowat.ch/home), added features to the Chat and included new quality-of-life functionality to the Charts page. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_2</DOCNO>
+            	<TEXT>Custom Signed-in Dashboard Signed-in Traders can now adjust their view when opening up their personalized homepage trading [dashboard](https://cryptowat.ch/home).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_3</DOCNO>
+            	<TEXT>Dashboard sections can be re-ordered or toggled on  amp; off using the menu at the top-right of the page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_4</DOCNO>
+            	<TEXT>https://i.redd.it/yq948jzz7ft71.gif # Tipping in Chat  amp; More Traders can now tip each other with Credits in the chat.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_5</DOCNO>
+            	<TEXT>If you really like what that last person had to say, or just want to help out a new trader, toss them a few Credits with an optional message attached.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_6</DOCNO>
+            	<TEXT>You can tip mods, too, if you appreciate the justice they dole out (we trade too).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_7</DOCNO>
+            	<TEXT>https://preview.redd.it/vrx2i0e28ft71.png?width=1182 amp;format=png amp;auto=webp amp;s=86e0c920b9ddba7b9196decd9c875fc2fe52c513 ## More Chat updates: **New URL previews option: Only chart previews**.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_8</DOCNO>
+            	<TEXT>Hides all URL previews except Cryptowatch chart URLs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_9</DOCNO>
+            	<TEXT>Accessed via the Chat options menu. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_10</DOCNO>
+            	<TEXT>User profile-popovers from mentions.**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_11</DOCNO>
+            	<TEXT>Clicking a user profile another trader mentioned lets you access their profile for tipping or muting. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_12</DOCNO>
+            	<TEXT>Hide  amp; Reveal Chart Analysis Traders can now toggle both their chart drawings and analysis tools on or off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_13</DOCNO>
+            	<TEXT>Drawings can be hidden/revealed via the new eye icon at the bottom of the drawing tools menu, or by right-clicking the chart and selecting Hide Drawings from the menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_14</DOCNO>
+            	<TEXT>https://i.redd.it/ljjl7l059gt71.gif Analysis tools (both overlays and indicators) can be hidden/revealed by clicking the eye icon on the Analysis menu, above the price chart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_15</DOCNO>
+            	<TEXT>Doing so removes all overlays and indicators, leaving only the candlestick chart in view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_16</DOCNO>
+            	<TEXT>Individual analysis tools can still be toggled on or off manually via the Analysis menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_35_17</DOCNO>
+            	<TEXT>https://i.redd.it/tnlesu1a8ft71.gif</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_0</DOCNO>
+            	<TEXT>Expanded CME markets, Signed-in modules and Portfolio redesign</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog#custom-dashboard-tipping-in-chat-hide-reveal-chart-analysis) This week the Cryptowatch team released some quality-of-life improvements to the signed-in homepage and portfolio page as well as a continued drip of new traditional markets from the CME and COMEX exchanges. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_2</DOCNO>
+            	<TEXT>Signed-in homepage updates https://preview.redd.it/gri05kynrlx71.png?width=2978 amp;format=png amp;auto=webp amp;s=17a094425b3da8ddf85f0b5e5092b96b359f8d8b The Cryptowatch team has added a new Watchlist module to the [signed-in homepage](https://cryptowat.ch/home).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_3</DOCNO>
+            	<TEXT>Click the **Expand** button to view your entire Watchlist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_4</DOCNO>
+            	<TEXT>The module is also integrated with your Watchlist as a whole try clicking the button, then using the utility belt to add or remove markets from your Watchlist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_5</DOCNO>
+            	<TEXT>Any changes will be reflected in your signed-in homepage and the Watchlists visible on the Charts page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_6</DOCNO>
+            	<TEXT>You can also choose where the Watchlist appears on the page using the recently-added [customization tool](https://docs.cryptowat.ch/home/updates/changelog#custom-signed-in-dashboard).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_7</DOCNO>
+            	<TEXT>We went ahead and freshened up the other modules, too, so go ahead and put your favorites up top. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_8</DOCNO>
+            	<TEXT>New CME futures markets https://preview.redd.it/1ewvqrqsrlx71.png?width=3360 amp;format=png amp;auto=webp amp;s=309bfbc403e86a8ef920d0e90c2a1c85cce83dce Cryptowatch has added more traditional finance markets since our [initial integration with CME Globex Futures](https://blog.cryptowat.ch/cme-bitcoin-ether-eurodollar-futures/).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_9</DOCNO>
+            	<TEXT>In addition to [Bitcoin](https://cryptowat.ch/charts/CME:BTC1!-DELAYED), [Ether](https://cryptowat.ch/charts/CME:ETH1!-DELAYED)  amp; [Eurodollar](https://cryptowat.ch/charts/CME:GE1!-DELAYED), we have now expanded our futures offering to include continuous charts for[ S amp;P 500](https://cryptowat.ch/charts/CME:ES1!-DELAYED), [NASDAQ-100](https://cryptowat.ch/charts/CME:NQ1!-DELAYED), [Gold](https://cryptowat.ch/charts/COMEX:GCZ21-DELAYED), [Silver](https://cryptowat.ch/charts/COMEX:SIZ21-DELAYED), [Copper](https://cryptowat.ch/charts/COMEX:HGZ21-DELAYED) and a multitude of FX markets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_10</DOCNO>
+            	<TEXT>Find a full list of all available CME Globex markets [here](https://cryptowat.ch/exchanges/cme). *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_11</DOCNO>
+            	<TEXT>All COMEX and CME market feeds are delayed 10 minutes and are not trading-enabled.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_12</DOCNO>
+            	<TEXT>To learn more, please see our* [*documentation*](https://docs.cryptowat.ch/home/products-and-settings/cme-globex-futures-markets)*.* #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_13</DOCNO>
+            	<TEXT>Portfolio page redesign https://i.redd.it/99ofd53yrlx71.gif Weve redesigned a portion of the [Portfolio](https://cryptowat.ch/portfolio/holdings) page, moving the **Performance**, **Orders**, **Positions**, **History** and **Export** tools to a collapsible menu on the left-hand side.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_36_14</DOCNO>
+            	<TEXT>Expanding the menu reveals your number of open orders and positions, then you can tuck it away again for an unobscured Portfolio checkup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_0</DOCNO>
+            	<TEXT>Fast Orders, Alerts Module, Futures Open Interest</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog#custom-dashboard-tipping-in-chat-hide-reveal-chart-analysis) # Fast Orders, Alerts Module, Futures Open Interest In this weeks release, traders can now right click the charts to create new orders, check past and active alerts on the homepage dashboard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_2</DOCNO>
+            	<TEXT>Additionally, CME futures markets now include open interest data when viewed on the [Markets](https://cryptowat.ch/markets?types=futures%2Bspot amp;exchanges=cme) page. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_3</DOCNO>
+            	<TEXT>Fast orders on charts [Right-click the charts at your desired price for limit orders, anywhere for market orders.](https://preview.redd.it/c400qsrgdr181.png?width=2162 amp;format=png amp;auto=webp amp;s=6e6f98afa6547775a0ebea0e6a32d3fe2cd79de3) Traders can use the right-click context menu to program new orders directly from the [charts](https://cryptowat.ch/charts/), making price selection for limit orders a quick and visual process.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_4</DOCNO>
+            	<TEXT>Both market and limit orders can currently be selected this way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_5</DOCNO>
+            	<TEXT>Using the context menu auto-fills both the order type and price (for limit orders) in the trading form.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_6</DOCNO>
+            	<TEXT>Traders can then fill in their desired quantity, leverage, and other order options before submitting to the market. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_7</DOCNO>
+            	<TEXT>Dashboard alerts module [Use dashboard customization to put active and past alerts at the top of your dashboard.](https://preview.redd.it/2djobzvkdr181.png?width=3358 amp;format=png amp;auto=webp amp;s=0160bf19731040b91bd5c2f59f50d016f97fd539) Traders can now view their past and active alerts immediately when visiting [Cryptowatch](https://cryptowat.ch/).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_8</DOCNO>
+            	<TEXT>The alerts module includes the market, exchange and alert conditions and trigger types (eg.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_9</DOCNO>
+            	<TEXT>SMS, browser, email) for all active alerts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_10</DOCNO>
+            	<TEXT>Clicking the *Expand* button in the top-right makes all active alerts viewable in the module.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_11</DOCNO>
+            	<TEXT>The *Alerts Log* section includes the same information as active alerts, plus the date  amp; time each alert was triggered. #</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_12</DOCNO>
+            	<TEXT>CME Futures Open Interest [Find open interest for CME Futures markets on the Markets page.](https://preview.redd.it/ik4yevmodr181.png?width=3360 amp;format=png amp;auto=webp amp;s=fb46f537263e9bacbd089e5aefd378b433088a5f) Cryptowatch now includes open interest data when viewing CME Futures markets on the [Markets](https://cryptowat.ch/markets?types=futures%2Bspot amp;exchanges=cme) page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_37_13</DOCNO>
+            	<TEXT>Open interest refers to the number of yet-unsettled contracts in a derivatives market and is a common indication of overall market activity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_38_0</DOCNO>
+            	<TEXT>This post comes off as promotional.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_38_1</DOCNO>
+            	<TEXT>If you were to explain your price analysis of archangeltoken, for example, that would be an acceptable post.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_39_0</DOCNO>
+            	<TEXT>No promoting tokens, coins, or projects.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_40_0</DOCNO>
+            	<TEXT>This post comes off as promotional.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_40_1</DOCNO>
+            	<TEXT>If you were to explain your price analysis of archangeltoken, for example, that would be an acceptable post.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_41_0</DOCNO>
+            	<TEXT>For the most part, do not promote trading courses, groups, etc here, especially if they are paid-only.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_41_1</DOCNO>
+            	<TEXT>Depending on the day and your post, you may be banned without warning.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_41_2</DOCNO>
+            	<TEXT>Ask the mods if you're unsure about posting something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_0</DOCNO>
+            	<TEXT>Blockchain Fundamentals Screener, NYMEX Markets, Social Sentiment Module, Chart Upgrades  amp; More</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_1</DOCNO>
+            	<TEXT>[Read this on the Cryptowatch Changelog.](https://docs.cryptowat.ch/home/updates/changelog#custom-dashboard-tipping-in-chat-hide-reveal-chart-analysis) In this weeks release, the Cryptowatch team added a new Blockchain Fundamentals tab to the Assets page, a Social Sentiment module to the Signed-in Dashboard, more paginated API endpoints, NYMEX markets, and a couple more quality improvements to the charts. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_2</DOCNO>
+            	<TEXT>Blockchain Fundamentals Screener https://preview.redd.it/f8j0a8o8fp681.png?width=2690 amp;format=png amp;auto=webp amp;s=58ccd1a26fb8dc89e3ba1b0c6db9a5e3c7f823ac Weve made it simpler for Cryptowatch traders to supplement their TA with Blockchain Fundamentals data all available metrics are now collected under the Fundamentals tab of the [Assets page](https://cryptowat.ch/assets?type=fundamentals).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_3</DOCNO>
+            	<TEXT>Traders can explore metrics like transactions, exchange deposits  amp; withdrawals, block difficulty, and loads more for a deeper look at many major cryptocurrencies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_4</DOCNO>
+            	<TEXT>Clicking the "**i**" icon next to each data type in the Name category reveals more information about the metric.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_5</DOCNO>
+            	<TEXT>Traders can also quickly return to their favorite fundamentals charts by adding them to their Watchlist, or via the Search bar. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_6</DOCNO>
+            	<TEXT>NYMEX markets https://preview.redd.it/ugaf89odfp681.png?width=2802 amp;format=png amp;auto=webp amp;s=b9a0d270a5d7942b7a25353f6fd757effa05a21c [New York Mercantile Exchange](https://www.cmegroup.com/company/nymex.html) (NYMEX) markets are now available for tracking and analysis on Cryptowatch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_7</DOCNO>
+            	<TEXT>NYMEX oversees billions in futures and options contracts for energy commodities, like crude oil and natural gas.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_8</DOCNO>
+            	<TEXT>Cryptowatch traders can keep tabs on their energy investments, or build [Cryptowatch Desktop](https://cryptowat.ch/apps/desktop) boards comparing NYMEX and crypto markets side by side.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_9</DOCNO>
+            	<TEXT>Please note: all [NYMEX markets](https://cryptowat.ch/markets?exchanges=nymex) on Cryptowatch are delayed 10 minutes. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_10</DOCNO>
+            	<TEXT>Click here](https://docs.cryptowat.ch/home/products-and-settings/cme-globex-futures-markets) to learn more about CME/Cryptowatch integrations. ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_11</DOCNO>
+            	<TEXT>Social Sentiment Module https://preview.redd.it/4paxzc8hfp681.png?width=3360 amp;format=png amp;auto=webp amp;s=010331c727e4c542a2e85b8beef0811a23887b36 Traders logging into Cryptowatch can now get a rundown of the most talked about tokens on social platforms like Reddit and Twitter, right from their Signed-in Dashboard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_12</DOCNO>
+            	<TEXT>This new module measures the number of social posts  amp; tags, the sum of social data like followers  amp; retweets, and the tokens Alt Rank a measurement combing altcoin price performance relative to Bitcoin and social indicators.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_13</DOCNO>
+            	<TEXT>Hovering your cursor over the i icons in the column headers reveals more information about each metric.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_14</DOCNO>
+            	<TEXT>Traders can choose to display 10, 50, or 100 rows in the Social Sentiment module using the Show dropdown at the bottom of the module.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_15</DOCNO>
+            	<TEXT>Data for the Social Sentiment module is piped in from [lunarcrush.com](https://lunarcrush.com/). ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_16</DOCNO>
+            	<TEXT>API Pagination https://preview.redd.it/hsqx0cxmfp681.png?width=3360 amp;format=png amp;auto=webp amp;s=45a91f755a0952888e3b1aecdad2d9509077f457 Cryptowatchs catalog of markets, assets and pairs continues to grow, so we've added pagination to these resources in order to keep the response sizes manageable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_17</DOCNO>
+            	<TEXT>The paginated endpoints will now accept two new parameters: cursor and limit Cursor will help you navigate through pages, while limit will allow you to determine the number of results per request.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_18</DOCNO>
+            	<TEXT>More Pagination details can be found in our [Market Data REST API documentation](https://docs.cryptowat.ch/rest-api/pagination). ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_19</DOCNO>
+            	<TEXT>Technical Analysis Tags https://preview.redd.it/9kckzi1tfp681.png?width=2211 amp;format=png amp;auto=webp amp;s=5dbc2f7e0b5159095ac9a593e31f0f2dbba03ef1 Our new Technical Analysis Tags label the charts price axis (y-axis) with the price levels indicated by your TA overlays, simplifying [TA alert](https://guides.cryptowat.ch/alerts/how-to-set-ta-alerts) creation and visualizing key prices on the chart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_20</DOCNO>
+            	<TEXT>Technical Analysis Tags can be toggled on  amp; off from the [Chart Style menu](https://guides.cryptowat.ch/real-time-charting-interface/adjusting-the-chart-style). ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_21</DOCNO>
+            	<TEXT>Order Book Depth Overlay https://preview.redd.it/5yz6zsfwfp681.png?width=1264 amp;format=png amp;auto=webp amp;s=fdc751e07989cf1cefc4da96ad8085943552ceb9 Weve added a depth overlay to the order book, making it easier to spot key support and resistance levels on the fly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_22</DOCNO>
+            	<TEXT>The new Depth overlay measures the cumulative order book depth from the top of the order book.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_23</DOCNO>
+            	<TEXT>Check it out on the [Charts page](https://cryptowat.ch/charts/). ##</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_24</DOCNO>
+            	<TEXT>Derivatives Exchange Screener https://preview.redd.it/588qk9wzfp681.png?width=3347 amp;format=png amp;auto=webp amp;s=b58f2b5e8cfa88fd116b2cafe94055d365ac7afa Cryptowatch traders can now filter spot and derivative markets on the [Exchanges](https://cryptowat.ch/exchanges) page with the addition of our new screener.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_542_42_25</DOCNO>
+            	<TEXT>The new derivatives screener breaks down both 24H volume and live order book liquidity metrics for both futures and perpetual swap markets listed at the trading venue.</TEXT>
+        </DOC>

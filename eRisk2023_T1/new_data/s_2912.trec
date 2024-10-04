@@ -1,0 +1,204 @@
+        <DOC>
+            	<DOCNO>s_2912_0_0</DOCNO>
+            	<TEXT>A little PSA about HDMI adapters and SNES mini</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_1</DOCNO>
+            	<TEXT>I'm new in reddit and this community, just giving a PSA about a troubleshooting I had with my mini SNES changing from Hakchi 2.3 to Hakchi 2CE, and the stupid thing that was causing the problem (sorry in advance for any mistake in this text, english is not my first language): In short, after a couple of syncs my SNES "bricked" (or so I thought).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_2</DOCNO>
+            	<TEXT>Typical failure: it just shuts down right away after I turned On, the SNES wasn't booting after an installation, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_3</DOCNO>
+            	<TEXT>I panicked a little, and tried uninstalling, factory reset, flashing original kernel and stock kernel; but nothing was changing, it was keeping shutting down.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_4</DOCNO>
+            	<TEXT>After a night of sleep, it occurred to me that the problem may be caused by a HDMI switcher that I recently purchase (3 to 1 adapter, automatic, use energy in devices to operate).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_5</DOCNO>
+            	<TEXT>In previous instances, I tried to use my SNES mini with an adapter to make it work on a old monitor, but never worked; so I think the SNES mini have problems with HDMI adapters that need additional energy to operate (I'm no expert about it, you can tell).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_6</DOCNO>
+            	<TEXT>So I test that, unplugged the SNES from the switcher and it worked!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_7</DOCNO>
+            	<TEXT>Installed my original kernel, mods, games, etc; everything working as usual.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_8</DOCNO>
+            	<TEXT>In the name of science I tried out again with the HDMI switcher (SNES plugged to PC, and HDMI to the switcher) and yes, SNES shut down after a little.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_9</DOCNO>
+            	<TEXT>Then I changed from the PC's USB to a the USB charger adapter (keeping the connection throught the HDMI switcher) and it worked!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_10</DOCNO>
+            	<TEXT>so it is a problem with energy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_11</DOCNO>
+            	<TEXT>I hope this help someone with similar problems!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_0_12</DOCNO>
+            	<TEXT>Also tested this with a SEGA mini, but I haven't encountered problems yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_1_0</DOCNO>
+            	<TEXT>Have the same problem yesterday with SNES classic.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_1_1</DOCNO>
+            	<TEXT>I used the "unfuck" mod to reset my SNES to factory settings, and even installed a stock "clean" kernel (in one forum I read that sometimes kernel goes corrupt).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_1_2</DOCNO>
+            	<TEXT>On top of that, I discovered that the HDMI connection was at fault also (SNES was connected to a recently purchased HDMI switcher 3 to 1 adapter), so when I was installing and uninstalling things I did it only with the SNES connected to the PC in a 2.0 USB port.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_2_0</DOCNO>
+            	<TEXT>It appears that the SNES it's very finicky about HDMI splitters and adapters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_2_1</DOCNO>
+            	<TEXT>In my case connected to a USB charger does the trick; but yes, better directly HDMI to HDMI</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_4_0</DOCNO>
+            	<TEXT>Check this things that can make the NES not booting: \-Faulty HDMI / HDMI adapters (unplug HDMI for safe connection) \-USB ports (3.0 have problems, use a 2.0 port) \-Faulty USB cable (the safest way to enter FEL mode is connect usb with NES mini, power on, hold reset, connect USB to PC) Other than that it should be working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_4_1</DOCNO>
+            	<TEXT>Try to re-install drivers, uninstalling the custom kernel and make a clean installation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_4_2</DOCNO>
+            	<TEXT>You can safely check that your NES mini is properly working using an USB AC adapter (after uninstalling the custom kernel, and flashing the original; and vice-versa).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_6_0</DOCNO>
+            	<TEXT>Is it still open?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_7_0</DOCNO>
+            	<TEXT>Dude, way too low entry fee.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_7_1</DOCNO>
+            	<TEXT>Expecting 120 NMT and 100k Star fragments</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_11_0</DOCNO>
+            	<TEXT>Nook Miles Ticket</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_12_0</DOCNO>
+            	<TEXT>Had the same problem last week.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_12_1</DOCNO>
+            	<TEXT>I discovered that the HDMI connection was at fault (SNES was connected to a recently purchased HDMI switcher 3 to 1 adapter), so when I was installing and uninstalling things I did it only with the SNES connected to the PC in a 2.0 USB port.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_12_2</DOCNO>
+            	<TEXT>Try it with only de SNES connected to the PC, make sure is a 2.0 USB port and you have the latest drivers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_12_3</DOCNO>
+            	<TEXT>In case you are wondering, it's very hard to brick the SNES.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_12_4</DOCNO>
+            	<TEXT>I've been there, panicking, but there are various solutions to it (like the unfuck mod).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_13_0</DOCNO>
+            	<TEXT>I always read this things in Wally Wingert's The Riddler voice</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_14_0</DOCNO>
+            	<TEXT>The good ol' "everybody clapped" to gain credibility</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_15_0</DOCNO>
+            	<TEXT>I don't know, math?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_15_1</DOCNO>
+            	<TEXT>Wait, there supposed to be math tests in relationships?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_15_2</DOCNO>
+            	<TEXT>Is that what school math was all about?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_17_0</DOCNO>
+            	<TEXT>Being from a 3 world country, I can't understand this type of things; like looking for new artificial ways of being opress</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_17_1</DOCNO>
+            	<TEXT> https://preview.redd.it/j3iwc6mwo4f61.png?width=1086 amp;format=png amp;auto=webp amp;s=a7e65f2043378b1462ee65da07331f297ebd03d3</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_18_0</DOCNO>
+            	<TEXT>miss an "ed" in the title</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_19_0</DOCNO>
+            	<TEXT>It's a pretty acute country</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_20_0</DOCNO>
+            	<TEXT>Can you belive that in the Facebook page of PCM, they actually try to have serious debates?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_20_1</DOCNO>
+            	<TEXT> https://preview.redd.it/82kcurjxr2l61.png?width=1080 amp;format=png amp;auto=webp amp;s=815766dfae7db15adebc5b08989d5dcca439a8b1</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_21_0</DOCNO>
+            	<TEXT>Based and stupid-pilled</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_22_0</DOCNO>
+            	<TEXT>I don't know if any mods from here is there, but they get their posts from this reddit FOR FREE! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_22_1</DOCNO>
+            	<TEXT>libright gasp)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_23_0</DOCNO>
+            	<TEXT>Shut the fuck up TERF, I'll beat you up for a hat! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_23_1</DOCNO>
+            	<TEXT>am I doing this wrong?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_24_0</DOCNO>
+            	<TEXT>Off with their heads!!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_25_0</DOCNO>
+            	<TEXT>That's a ridiculous question</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_26_0</DOCNO>
+            	<TEXT>Nah mate, professional have standards</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_27_0</DOCNO>
+            	<TEXT>Autobello piccolina, it's my go to car everytime I play haha</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2912_28_0</DOCNO>
+            	<TEXT>Camioneros vs Trenes, ao 2022, Chile</TEXT>
+        </DOC>

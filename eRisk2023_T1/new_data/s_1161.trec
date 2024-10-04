@@ -1,0 +1,479 @@
+        <DOC>
+            	<DOCNO>s_1161_0_0</DOCNO>
+            	<TEXT> Filet-Minion</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_1_0</DOCNO>
+            	<TEXT> What teens seem to not understand</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_2_0</DOCNO>
+            	<TEXT> Easy speaker replacement</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_3_0</DOCNO>
+            	<TEXT> Okay, I was wondering what was going on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_4_0</DOCNO>
+            	<TEXT> Are you able to install Avira to just do scans with no real-time?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_5_0</DOCNO>
+            	<TEXT> No, actually mostly adware.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_5_1</DOCNO>
+            	<TEXT>It has found some trojans as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_6_0</DOCNO>
+            	<TEXT> I run AdAware in it's second line of defense mode so it just scans, no real-time protection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_6_1</DOCNO>
+            	<TEXT>I've found that it finds more than the paid version of BitDefender.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_6_2</DOCNO>
+            	<TEXT>The downside is that the scans can take longer than other AVs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_7_0</DOCNO>
+            	<TEXT> *Humans kill more humans than any other animal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_8_0</DOCNO>
+            	<TEXT> The free version of Ad-Aware has found way more viruses than my paid version of Bit-Defender.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_8_1</DOCNO>
+            	<TEXT>You can install Ad-Aware as a 2nd line of defense by having Real-Time Protection off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_9_0</DOCNO>
+            	<TEXT> Don't forget to go through msconfig and take off unwanted start up programs and services.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_10_0</DOCNO>
+            	<TEXT> You will probably need something like [this.](http://forums.lenovo.com/t5/image/serverpage/image-id/169i7439D0FCBFE8A695/image-size/medium?v=mpbl-1 px=-1) If you have funds for the more expensive one, I would go with that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_10_1</DOCNO>
+            	<TEXT>The cheaper one looks like your ears would hurt a bit after a while.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_11_0</DOCNO>
+            	<TEXT> The easiest way for me to do it would be to make everything a picture, even the dotted lines for people to write on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_11_1</DOCNO>
+            	<TEXT>That way you can copy and paste, and if you make the text wrapping "In front of text" then you can place them where ever you want and not have to worry about formatting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_12_0</DOCNO>
+            	<TEXT> It should be under the repair tools.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_13_0</DOCNO>
+            	<TEXT> Ok, what I did was just adjusted the latitude of the lines using tab, then right clicked the picturetext wrappingin front of text.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_13_1</DOCNO>
+            	<TEXT>This allows you to place the picture where ever.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_13_2</DOCNO>
+            	<TEXT>Just format your paper how it would look without pictures, then add pictures using the above instructions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_13_3</DOCNO>
+            	<TEXT>Hope this helps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_14_0</DOCNO>
+            	<TEXT> Somthing like [this?] (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_14_1</DOCNO>
+            	<TEXT>http://i.imgur.com/Ic1eMGD.png)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_15_0</DOCNO>
+            	<TEXT> What exactly are you trying to do with the pictures?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_15_1</DOCNO>
+            	<TEXT>Screenshot would help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_16_0</DOCNO>
+            	<TEXT> Have you reset your networking services?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_16_1</DOCNO>
+            	<TEXT>In command prompt type in the following, and then restart your computer; 1)netsh int ip reset c:\netsh.log.txt 2)netsh winsock reset 3)net stop netman 4)net start netman</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_17_0</DOCNO>
+            	<TEXT> Which browser are you using?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_18_0</DOCNO>
+            	<TEXT> Try 10.0.0.1</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_19_0</DOCNO>
+            	<TEXT> I'm positive that XSplit does, I would try [Open Broadcaster Software](http://obsproject.com/download) because it uses less CPU and can stream higher quality without the need to pay.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_19_1</DOCNO>
+            	<TEXT>Take the time to look up some tutorials on it, it will get you better off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_20_0</DOCNO>
+            	<TEXT> Try putting in your Win7 flash drive and get command prompt open.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_20_1</DOCNO>
+            	<TEXT>Run a simple "chkdsk c:" command, or whatever drive letter you are using.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_20_2</DOCNO>
+            	<TEXT>This will scan your hard drive for errors and if they are simple to fix, windows will fix them automatically.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_20_3</DOCNO>
+            	<TEXT>Let me know if the problem persists.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_21_0</DOCNO>
+            	<TEXT> Good, glad to hear things are running better now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_22_0</DOCNO>
+            	<TEXT> Because imagine the letters as water and the picture as an object.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_22_1</DOCNO>
+            	<TEXT>The water (text) just gets displaced.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_22_2</DOCNO>
+            	<TEXT>Also, "through" should make the text go through the image, mine must be messed up, sorry.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_23_0</DOCNO>
+            	<TEXT> Have you tried running an anti-virus/anti-malware program to try and deal with it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_23_1</DOCNO>
+            	<TEXT>Adblock is a good addon to have with Google Chrome also.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_24_0</DOCNO>
+            	<TEXT> Run the following commands in cmd, after completion restart your computer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_24_1</DOCNO>
+            	<TEXT>Let me know how it goes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_24_2</DOCNO>
+            	<TEXT>1)netsh int ip reset C:\netsh.log.txt 2)netsh winsock reset 3)net stop netman 4)net start netman</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_25_0</DOCNO>
+            	<TEXT> Try changing your boot options in the BIOS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_25_1</DOCNO>
+            	<TEXT>A PXE boot means that it is trying to boot over a network connection, which would be using a server or something like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_25_2</DOCNO>
+            	<TEXT>My computer decided to default to this one day after installing some program and wouldn't boot either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_25_3</DOCNO>
+            	<TEXT>Try boot overriding by selecting your hard drive in your BIOS boot settings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_25_4</DOCNO>
+            	<TEXT>Let me know what happens.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_25_5</DOCNO>
+            	<TEXT>
+// On my computer F10 at startup is boot override</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_26_0</DOCNO>
+            	<TEXT> Try using the text wrapping "in front of text" that will allow you to place a picture anywhere without having everything moving around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_26_1</DOCNO>
+            	<TEXT>Also, using "through" will allow you to move the picture anywhere without snapping and the text will move accordingly, if you are inserting a picture into a paper.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_27_0</DOCNO>
+            	<TEXT> Another thing that could be wrong is that you need to update your graphics driver or install windows updates.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_27_1</DOCNO>
+            	<TEXT>Sometimes it's just an easy fix.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_27_2</DOCNO>
+            	<TEXT>Keep us updated please.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_28_0</DOCNO>
+            	<TEXT> You sir, are one lucky person.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_29_0</DOCNO>
+            	<TEXT> Opens a different url every time it is clicked.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_29_1</DOCNO>
+            	<TEXT>Redditor for 1 hour... seems a little phishy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_30_0</DOCNO>
+            	<TEXT> Someone could be pulled over for another reason like a taillight out or license plate light out, like a lot of people are pulled over for, here in Washington.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_31_0</DOCNO>
+            	<TEXT> I've done a game vs AI on the slowest time to make the timings perfect and 9 Overlord is the best.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_32_0</DOCNO>
+            	<TEXT> If it's in the early game, make some extra queens.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_32_1</DOCNO>
+            	<TEXT>They have a good anti-air attack and can transfuse.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_32_2</DOCNO>
+            	<TEXT>This can also be used against ZvZ if they go mutas.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_32_3</DOCNO>
+            	<TEXT>Just make a couple spores around the mineral lines and spread creep between your bases.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_32_4</DOCNO>
+            	<TEXT>2-3 queens per base should do it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_32_5</DOCNO>
+            	<TEXT>If they are massing them, they should have very low defenses through the mid game, so a nice roach hydra infestor (with neural parasite) should work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_32_6</DOCNO>
+            	<TEXT>Don't forget range and carapace upgrades!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_33_0</DOCNO>
+            	<TEXT> [You got me.](http://weknowmemes.com/wp-content/uploads/2012/05/oh-you-show.jpg)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_0</DOCNO>
+            	<TEXT>I hotkey; 1-All Hatches,, 2,3,4-Queens respectively,, Mouse 1-Units,, Mouse 2-Special units (Broodlords, infestors, ect...)
+2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_1</DOCNO>
+            	<TEXT>Initial scout I use drone, otherwise just run a couple lings in.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_2</DOCNO>
+            	<TEXT>With ZvP watch out for dark shrine, stargate, or mass zealots.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_3</DOCNO>
+            	<TEXT>Zerg only has an overseer and spores, I prefer overseer, so don't wait too long for lair upgrade.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_4</DOCNO>
+            	<TEXT>Also, if the Toss goes Vrays just make 2 extra queens and don't forget to connect bases with creep.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_5</DOCNO>
+            	<TEXT>With ZvZ scout early for an early pool.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_6</DOCNO>
+            	<TEXT>Other than that, ZvZ consists of making good engagements and mirroring what your opponent is doing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_7</DOCNO>
+            	<TEXT>Creep spread isn't too important, but if you want to add queens or hydras into your army, creep helps those units get into batter easier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_8</DOCNO>
+            	<TEXT>If you are going against a Toss that is FFE, then take your 3rd around 5-6 minutes if you see no aggression while scouting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_9</DOCNO>
+            	<TEXT>Otherwise, I just take my third when I see that my 2nd is almost saturated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_10</DOCNO>
+            	<TEXT>Hydras are good units if they are used correctly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_11</DOCNO>
+            	<TEXT>Common unit compositions are roach/hydra, and infestors can be added.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_12</DOCNO>
+            	<TEXT>A very strong mid-game if engagements are used correctly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_13</DOCNO>
+            	<TEXT>They are DPS units so make sure they are behind your roaches, and don't forget the grooved spines upgrade which adds +1 range.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_14</DOCNO>
+            	<TEXT>2 fungals kill workers, but fungals do not do overlapping damage so make sure that the fungal is almost complete before a second is casted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_15</DOCNO>
+            	<TEXT>I believe marines are 3 fungals, I would test it but I'm in class right now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_34_16</DOCNO>
+            	<TEXT>
+I realize that this response is kind of late, but I figured it might help out someone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_35_0</DOCNO>
+            	<TEXT> Get the surround.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_35_1</DOCNO>
+            	<TEXT>Have units on all sides of engagement.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_35_2</DOCNO>
+            	<TEXT>Quickly run lings to the outsides for a flank while the meat of your army (roach, infestor, etc..) attack from the front.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_35_3</DOCNO>
+            	<TEXT>The Protoss will have fun with those forcefields.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_35_4</DOCNO>
+            	<TEXT>Also a good strategy against colossus if you don't have corruptors yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_37_0</DOCNO>
+            	<TEXT> Yes, this is true.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_37_1</DOCNO>
+            	<TEXT>Although the US Constitution does supersede this and the Supreme Court would rule against it (most likely) as you pointed out, the states do have their rights too, just like how states can have legal medical marijuana although it is still illegal on a federal level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_37_2</DOCNO>
+            	<TEXT>
+
+Why shouldn't I believe that these states have these articles?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_37_3</DOCNO>
+            	<TEXT>They are written in text by the governments of the states and that is sufficient evidence for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_38_0</DOCNO>
+            	<TEXT> Someone already posted a fixed version?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_39_0</DOCNO>
+            	<TEXT> When the UPS guy asked if he could try out my package</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_40_0</DOCNO>
+            	<TEXT> We're out here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_41_0</DOCNO>
+            	<TEXT> Popeska - Sparks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_42_0</DOCNO>
+            	<TEXT> Well played</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_43_0</DOCNO>
+            	<TEXT> Datsik   Infected Mushroom - Evilution</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_44_0</DOCNO>
+            	<TEXT> First World Problem</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_45_0</DOCNO>
+            	<TEXT> Eliminate - Chasing Fire Drumstep VIP</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_46_0</DOCNO>
+            	<TEXT> FL Studio with NI Massive, Nexus, and Drum Machine VST plugins.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_47_0</DOCNO>
+            	<TEXT> Eliminate - Everything You Need Ft.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_47_1</DOCNO>
+            	<TEXT>Kristin Accorsi</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_48_0</DOCNO>
+            	<TEXT> Ellie Goulding // Lights (Dub Scout Remix)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_49_0</DOCNO>
+            	<TEXT> There were banelings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_49_1</DOCNO>
+            	<TEXT>4th picture bottom left.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_50_0</DOCNO>
+            	<TEXT> Definitely let me know when and where I can buy this shirt at.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_51_0</DOCNO>
+            	<TEXT> Allbroke // The Device</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_52_0</DOCNO>
+            	<TEXT> Mmmmm, that's fresh.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_53_0</DOCNO>
+            	<TEXT> "and I proudly considered myself a redditor!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_53_1</DOCNO>
+            	<TEXT>
+...Considered...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_54_0</DOCNO>
+            	<TEXT> Sweetish // The End (LBM)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_55_0</DOCNO>
+            	<TEXT> Who you gonna call?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1161_55_1</DOCNO>
+            	<TEXT>
+He took it down.</TEXT>
+        </DOC>

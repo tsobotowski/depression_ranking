@@ -1,0 +1,1202 @@
+        <DOC>
+            	<DOCNO>s_2730_0_0</DOCNO>
+            	<TEXT>Ran into this while tshooting an issue, thought i'd share (not associated with website)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_1_0</DOCNO>
+            	<TEXT>Why these jawnn cruising together?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_2_0</DOCNO>
+            	<TEXT>DNS security in version 8.1 vs 9.0</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_2_1</DOCNO>
+            	<TEXT>Palo advertises DNS enhancements in version 9.0.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_2_2</DOCNO>
+            	<TEXT>What specifically has changed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_2_3</DOCNO>
+            	<TEXT>I noticed an additional external dynamic list in version 9, in additional to no a "no valid DNS Security license" error on commit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_2_4</DOCNO>
+            	<TEXT>Version 8.1 has: "Palo Alto Networks DNS Signatures" Version 9.0 has "Palo Alto Networks \*content\* DNS Signatures" AND "Palo Alto Networks DNS Security" - I'm guessing the former is carried over for v8.1 and the latter is new in 9.0?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_2_5</DOCNO>
+            	<TEXT>Whats the difference between them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_3_0</DOCNO>
+            	<TEXT>Who's on 8.4</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_3_1</DOCNO>
+            	<TEXT>For those running 8.4 on campus based AP's / controllers; How goes it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_3_2</DOCNO>
+            	<TEXT>Hit any bugs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_3_3</DOCNO>
+            	<TEXT>What AP models?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_0</DOCNO>
+            	<TEXT>Global Protect split tunnel based off process name</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_1</DOCNO>
+            	<TEXT>Back story: I have been testing split tunneling via process name.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_2</DOCNO>
+            	<TEXT>We have requirement to split tunnel video conferencing traffic wile tunneling everything else and denying any access to the local network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_3</DOCNO>
+            	<TEXT>My initial config had a long list of public IP addresses to split, tunnel [0.0.0.0/0](https://0.0.0.0/0) and check the "no direct access to local network", but this configuration was inconsistently letting me out to the local subnet or not splitting the traffic.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_4</DOCNO>
+            	<TEXT>TAC informed me that you cannot check the no local access box and split traffic (I find it stupid that the GUI doesnt make this more apparent).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_5</DOCNO>
+            	<TEXT>I now tried removing the destination IP addresses and just splitting by the process name.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_6</DOCNO>
+            	<TEXT>Works like a charm (GP version 5.0.4).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_7</DOCNO>
+            	<TEXT>I just read this morning that its apparently a licensable feature?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_8</DOCNO>
+            	<TEXT>Anyone else able to run this config without a license?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_9</DOCNO>
+            	<TEXT>We had triel licenses for both gatewya and portal but they are way expired.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_10</DOCNO>
+            	<TEXT>PanOS 8.1.9-h4 On a side note, I just got fucking burned by some bug where the GP portal agent geo-restriction was not enforced on version 4.x but as soon as going to 5.x most of my international users lost access.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_11</DOCNO>
+            	<TEXT>Better yet the were no logs under the global protect filter indicating this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_12</DOCNO>
+            	<TEXT>Took a bit to figure out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_13</DOCNO>
+            	<TEXT>Apparently we restricted it to US and SG.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_4_14</DOCNO>
+            	<TEXT>Pending TAC response....</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_0</DOCNO>
+            	<TEXT>Facebook - reactivating to get your memories before you delete</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_1</DOCNO>
+            	<TEXT>So I took the dive and deactivated my FB for a few months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_2</DOCNO>
+            	<TEXT>I didnt think I would be able to do it, so I only deactivated, but now I never want to look back.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_3</DOCNO>
+            	<TEXT>But I DO want most of my pictures, both uploaded and tagged.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_4</DOCNO>
+            	<TEXT>I also don't want to further expose myself while reactivating to do this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_5</DOCNO>
+            	<TEXT>Has anyone done this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_6</DOCNO>
+            	<TEXT>Is there a easy and private approach?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_7</DOCNO>
+            	<TEXT>Also, has anyone ever made a fake facebook to follow events?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_5_8</DOCNO>
+            	<TEXT>Any thing I should look out for besides IP association and cookies when accessing it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_0</DOCNO>
+            	<TEXT>Limiting access in Panorama</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_1</DOCNO>
+            	<TEXT>I have a intern building a lab environment, the goal is to have them add a firewall to panorama and give the intern read/write access only to the Lab device group and templates in Panorama, and nothing else.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_2</DOCNO>
+            	<TEXT>I was messing with admin profiles and access domain but couldn't get it working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_3</DOCNO>
+            	<TEXT>I created the user and made them a DG and Template admin type, added them to a access domain with access only to the lab DG and Template, and added them to a DG and Template role (panorama role option was grayed out).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_4</DOCNO>
+            	<TEXT>There doesn't seem to be a way to link a access domain with a panorama role profile.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_5</DOCNO>
+            	<TEXT>The user gets a "not authorized" error when logging into panorama.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_6</DOCNO>
+            	<TEXT>Any good resources with examples on how to set up users with different access?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_7</DOCNO>
+            	<TEXT>Google didn't put out much.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_6_8</DOCNO>
+            	<TEXT>Or any ideas on what I may be doing wrong?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_0</DOCNO>
+            	<TEXT>Creating Transit Gateway VPC attachment</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_1</DOCNO>
+            	<TEXT>When you go to create a TGW VPC attachment it asks you at the bottom for subnet ID's.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_2</DOCNO>
+            	<TEXT>AWS gives the below description for this, but I'm having trouble understanding the significance of this option.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_3</DOCNO>
+            	<TEXT>Does this mean I would have to create multiple TGW attachments per subnet per AZ for a single UPC with multiple AZ-A subnets?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_4</DOCNO>
+            	<TEXT>Or as long as the subnets I chose share a routing table with other subnets in the same AZ I am good?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_5</DOCNO>
+            	<TEXT> For example I have a VPC with: MGMT Subnet AZ-A using MGMT route table MGMT Subnet AZ-B using MGMT route table Data Subnet in AZ-A using DATA route table Data Subnet in AZ-B using DATA route table Would I need two TGW attachments, one for data subnets and one for MGMT subnets?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_6</DOCNO>
+            	<TEXT> " For **Subnet IDs**, select one subnet for each Availability Zone to be used by the transit gateway to route traffic.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_7</DOCNO>
+            	<TEXT>You must select at least one subnet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_7_8</DOCNO>
+            	<TEXT>You can select only one subnet per Availability Zone. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_8_0</DOCNO>
+            	<TEXT>Do they make/sell replacement mask Velcro cut to size?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_8_1</DOCNO>
+            	<TEXT>This happened https://imgur.com/a/XA6eH8v</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_9_0</DOCNO>
+            	<TEXT>Ingress Routing - What am I missing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_9_1</DOCNO>
+            	<TEXT>Can't we already basically do this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_9_2</DOCNO>
+            	<TEXT>As per my comment in the other thread: "Couldn't I currently just default route traffic from my inside subnet to my VM, have my VM default route to the outside subnet, and my outside subnet default route to the IGW using two ENI's and a EIP on one of them?"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_9_3</DOCNO>
+            	<TEXT>Like in [this diagram.](https://imgur.com/a/uTPMfAV)  Edit: More specifically, as per my comment below: The only difference I see in the diagrams they presented in the blog post is that you are routing to the ENI, as an object, to pass traffic through the virtual firewall.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_9_4</DOCNO>
+            	<TEXT>My method uses the ENI IP address.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_9_5</DOCNO>
+            	<TEXT>So i think the question is what is using the ENI as route destination as opposed to the ENI IP address adding here?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_9_6</DOCNO>
+            	<TEXT>I'm guessing there's some limitation im not seeing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_10_0</DOCNO>
+            	<TEXT>What to know for the new DE version?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_10_1</DOCNO>
+            	<TEXT>Just purchased DE yesterday, have been a player for over a decade on and off, but not really much recently nor any online multi player experience.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_10_2</DOCNO>
+            	<TEXT>I'm starting with some of the new campaigns to get back of the swing of things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_10_3</DOCNO>
+            	<TEXT>Are there nay must-do's or have's for the new DE version like: mods, common settings tweaks, strats, new features, etc?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_11_0</DOCNO>
+            	<TEXT>Clearpass posture enforcement reference architecture?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_11_1</DOCNO>
+            	<TEXT>We originally had our dot1x / NAC configuration set up by a VAR and we left the posture enforcement configuration un integrated in the beginning for the most part.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_11_2</DOCNO>
+            	<TEXT>I am trying to enable it bit by bit but having trouble understanding the logic the VAR initially setup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_11_3</DOCNO>
+            	<TEXT>Between auth, initial posture and vlan, onguard check, when to CoA, posture and role timers and when they are reset; its a lot of moving parts to line up / wrap my head around and the CoA's arent always very graceful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_11_4</DOCNO>
+            	<TEXT>Is there a standard reference architecture or "order of operations" for how to setup a dot1x auth with on guard posture enforcement and quarantining?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_11_5</DOCNO>
+            	<TEXT>I know there isnt a one-size-fits-all for this but I am just trying to get a baseline logic I can tweak to make work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_12_0</DOCNO>
+            	<TEXT>Request: comparison of image quality between G3 vs G4 bullet camera (non pro versions)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_12_1</DOCNO>
+            	<TEXT>I know the non-pro is still in early access but someone must have one?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_12_2</DOCNO>
+            	<TEXT>Couldn't find anything via the google.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_13_0</DOCNO>
+            	<TEXT>What puncture resistant bike tires are youse all using?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_13_1</DOCNO>
+            	<TEXT>Don't care about ride quality or ease of installation, just flats.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_13_2</DOCNO>
+            	<TEXT>Continental must have Evey dam website on the internet in their pockets cause most say gatorskins are the best hands down where as my experience and most other people I've talked to mention they aren't that good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_14_0</DOCNO>
+            	<TEXT>UDM SSH access</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_14_1</DOCNO>
+            	<TEXT>I cannot authenticate to my UDM (non pro) via SSH.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_14_2</DOCNO>
+            	<TEXT>I tried to set the user and password manually in "site", I tried my Ubiquiti cloud credentials, tried root + any of the prior passwords, and tried to set a custom admin and that failed too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_14_3</DOCNO>
+            	<TEXT>Someone please prove me an idiot....</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_15_0</DOCNO>
+            	<TEXT>UDM Pro hard drive choices</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_15_1</DOCNO>
+            	<TEXT>What are you all running in them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_15_2</DOCNO>
+            	<TEXT>I'm between a WD purple or black.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_15_3</DOCNO>
+            	<TEXT>I've seen quite a few bad reviews on the purples but not sure what to make of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_15_4</DOCNO>
+            	<TEXT>Looking for a 2-8TB range but been focusing on 4TB models mainly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_15_5</DOCNO>
+            	<TEXT>Starting out with 10 cameras, may go up to 15.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_16_0</DOCNO>
+            	<TEXT>UDM / UnifiOS CLI - where to learn common commands?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_16_1</DOCNO>
+            	<TEXT>First off: Is the CLI different between the a normal unifi device and a UDM running Unifi OS?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_16_2</DOCNO>
+            	<TEXT>Second: any resources to get some good show commands and common change commands?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_17_0</DOCNO>
+            	<TEXT>Some G3 Micro's that have seen a thing or two at a coffee shop at Philadelphia's 30th Street station</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_18_0</DOCNO>
+            	<TEXT>UDM Pro showing clients from same SSID sourcing from different "connections" in client list.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_18_1</DOCNO>
+            	<TEXT>https://imgur.com/a/XoV6R8n Sorry for the pic of a screen, at work with no app access or upload access.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_18_2</DOCNO>
+            	<TEXT>Topology: AP Mesh  gt; Unifi Switch  gt; UDM port 7 All the clients are on the same SSID except for the cameras.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_18_3</DOCNO>
+            	<TEXT>I cannot for the life of me figure out why some are sourcing from the "BP" SSID and some from the network "BP Network" that the "BP" SSID belongs to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_18_4</DOCNO>
+            	<TEXT>Has anyone seen this before?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_0</DOCNO>
+            	<TEXT>Bikers: It's that's time a year again</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_1</DOCNO>
+            	<TEXT>Now that the weather is getting warmer.... **Edit: I think.im being taken out of context here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_2</DOCNO>
+            	<TEXT>This is a message as a biker to other bikers.**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_3</DOCNO>
+            	<TEXT>If you pass someone at a redlight just to get the jump on them multiple times just for them to pass you every time because you have a slower pace then them, please don't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_4</DOCNO>
+            	<TEXT>If you have to block cross walks, cut off pedestrians who have the right of way, wait for green in an opposing travel lane, or cut off traffic just to pass them; again, please don't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_5</DOCNO>
+            	<TEXT>I'm not saying you can't pass people, even people stopped at an intersection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_6</DOCNO>
+            	<TEXT>But please don't be an asshat and do it unsafely or repeatedly after they pass you again and again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_7</DOCNO>
+            	<TEXT>And if someone else is stopped, maybe there's a good reason why and you should consider that and slow down to assess the situation before blasting through the intersection like an asshat.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_8</DOCNO>
+            	<TEXT>What did you save?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_9</DOCNO>
+            	<TEXT>Three seconds and your power trip?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_10</DOCNO>
+            	<TEXT>Edit: all of the above is in reference to bikers on biker While we're at it, in my opinion: I'm not saying you can't go through a red AS LONG AS YOU LOOK AND YEILD to both pedestrians and cars.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_11</DOCNO>
+            	<TEXT>I'm not saying you can't perform a rolling stop at a stop sigh AS LONG AS YOU LOOK AND YEILD to both pedestrians and cars.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_12</DOCNO>
+            	<TEXT>Some may disagree with this, but it's better than the alternative of not slowing down and stopping at all which I see on a daily basis and it gets worse with all the warm weather bikers that start coming out this time of year.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_13</DOCNO>
+            	<TEXT>Please be safe and courteous.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_19_14</DOCNO>
+            	<TEXT>Don't make the rest of us look like asshats.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_20_0</DOCNO>
+            	<TEXT>Please stay off public transit, or better yet home, if you have a persistent cough</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_20_1</DOCNO>
+            	<TEXT>I know taking public transit is a risk right now but for fucks sake people, stay off or home if you are coughing every fucking minute.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_20_2</DOCNO>
+            	<TEXT>Lady in her 50's?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_20_3</DOCNO>
+            	<TEXT>sits down next to me on the BSL.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_20_4</DOCNO>
+            	<TEXT>Starts coughing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_20_5</DOCNO>
+            	<TEXT>Half ass covers her cough with her hand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_20_6</DOCNO>
+            	<TEXT>Great now it's in the air and on everything you touch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_0</DOCNO>
+            	<TEXT>Streatched chain maintenance</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_1</DOCNO>
+            	<TEXT>So I typically go through a chain a year or two on my single speed (older retrospect mantra) and move the rear wheel backwards every few months when it sags too low and starts to come off when I hit bumps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_2</DOCNO>
+            	<TEXT>1) is this a what you are supposed to do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_3</DOCNO>
+            	<TEXT>I always wondered how the teeth realigned - or am I just further stretching the chain till they do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_4</DOCNO>
+            	<TEXT>I finally moved the real wheel back close to as far as I can; 2) can I just take a link out of the chain?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_5</DOCNO>
+            	<TEXT>Or is it not a good idea since it's already very stretched?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_6</DOCNO>
+            	<TEXT>I also have gone through multiple rear rims (therefore multiple new rear "gears" but my front "crank / gear?"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_7</DOCNO>
+            	<TEXT>is original from over 6-7 years ago, over half of that being daily commuting and looks pretty worn down/dull but hasn't cause me and direct issues that I've noticed; 3) good idea to replace?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_8</DOCNO>
+            	<TEXT>4) New chain recommendations?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_21_9</DOCNO>
+            	<TEXT>Thanks ya'll</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_0</DOCNO>
+            	<TEXT>Tried replacing crankset and chain for the first time, getting a grinding noise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_1</DOCNO>
+            	<TEXT>Video inside.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_2</DOCNO>
+            	<TEXT>EDIT: solved, was my flywheel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_3</DOCNO>
+            	<TEXT>Likely de-greasing it dislodged some shit and messed everything up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_4</DOCNO>
+            	<TEXT> Video: [https://gofile.io/?c=MxikT0](https://gofile.io/?c=MxikT0)  I had to replace my chain again, it was too stretched, and I figured it was a good time to replace my original crankset off my 5 year old Retrospec Mantra (single speed).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_5</DOCNO>
+            	<TEXT>The teeth looked a bit rounded.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_6</DOCNO>
+            	<TEXT>Never did a crankset before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_7</DOCNO>
+            	<TEXT>I also bought a heavier duty chain.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_8</DOCNO>
+            	<TEXT>The install seemed to go smoothly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_9</DOCNO>
+            	<TEXT>Using the original BB still.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_10</DOCNO>
+            	<TEXT>I now have a grinding sound only when pedaling forward, but especially when putting pressure on it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_11</DOCNO>
+            	<TEXT>Chain isnt too loose or tight based off my limited experience.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_12</DOCNO>
+            	<TEXT>Parts I used below.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_13</DOCNO>
+            	<TEXT>Back wheel is newer but still Retrospec brand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_14</DOCNO>
+            	<TEXT>I wiped off some of the grease that came on the chain and added some "tri-flow"lube.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_15</DOCNO>
+            	<TEXT> Any ideas?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_22_16</DOCNO>
+            	<TEXT> Crankset: [https://www.amazon.com/gp/product/B002I7REEI](https://www.amazon.com/gp/product/B002I7REEI) Chain: [https://www.amazon.com/gp/product/B012KO1VF6/](https://www.amazon.com/gp/product/B012KO1VF6/)  Thanks!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_23_0</DOCNO>
+            	<TEXT>Panorama as log collector question - "Forward to all collectors in the preference list"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_23_1</DOCNO>
+            	<TEXT>We have two panorama servers in HA and two pairs of 5200 firewalls.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_23_2</DOCNO>
+            	<TEXT>If you enable the " Forward to all collectors in the preference list" under Panorama gt;Collector Groups gt;\[collector group\] gt;General, should you disable " Enable log redundancy across collectors"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_23_3</DOCNO>
+            	<TEXT>I'm not sure if keeping it on may create redundant copies of the same log on single collector -or- that turning it off would stop the HA servers from replicating missing logs from events like reboots.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_23_4</DOCNO>
+            	<TEXT> Version 9.0.7 Panorama mode</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_24_0</DOCNO>
+            	<TEXT>How to disable ICMP replies on UDM uplink interface?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_24_1</DOCNO>
+            	<TEXT>I tried pinging my ddns FQDN to get my current external address and to my surprise it replied.... Is there a way to disable this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_24_2</DOCNO>
+            	<TEXT>I looked under the interface settings in the UDM device and under the WAN network and no dice...  I don't want to make a WAN in firewall rule because I still want to be bale to ping to the internet from my internal network and get replies and don't want to specify my current external address in that rule cause it is subject to change since its DHCP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_25_0</DOCNO>
+            	<TEXT>Possibly a B52 for the east coast flyovers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_26_0</DOCNO>
+            	<TEXT>Zone Protection - Flood detection in packet-flow sequence</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_26_1</DOCNO>
+            	<TEXT>As per the [packet flow sequence](https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClVHCA0), zone protection profiles are applied before policy lookup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_26_2</DOCNO>
+            	<TEXT>I just wanted to be sure that , whether getting internet noise SYN's or a full DOS attack on my publicly facing interface, zone protection will take affect whether I have a security policy allowing the traffic or not, correct?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_26_3</DOCNO>
+            	<TEXT>Trying to tune my ingress zone protection profile and keep bumping up the alert threshold and its still getting hit, though less the higher I put it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_26_4</DOCNO>
+            	<TEXT>I assume I want to make it relatively high, since dont want to start dropping traffic I actually allow inbound via policy and use DOS policies with lower thresholds for the specific resources.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_26_5</DOCNO>
+            	<TEXT>Two other dumb questions, but; The connections per second reported from in CLI/GUI are of connections made, not attempted pre policy lookup, correct?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_26_6</DOCNO>
+            	<TEXT>Does UDP traffic count towards these numbers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_27_0</DOCNO>
+            	<TEXT>WHY TRASHBAG???</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_28_0</DOCNO>
+            	<TEXT>Are any ranges in the area open to the public?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_28_1</DOCNO>
+            	<TEXT>I've haven't really been going anywhere or doing much of anything during COVID so not keeping track of what's open.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_28_2</DOCNO>
+            	<TEXT>Are there any ranges near by open?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_28_3</DOCNO>
+            	<TEXT>Got a new toy I want to test..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_0</DOCNO>
+            	<TEXT>User-ID group filtering and referencing usernames in rules</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_1</DOCNO>
+            	<TEXT>I am testing different User-ID deployment options.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_2</DOCNO>
+            	<TEXT>Currently torn between using group-mapping filtering or the manual group-include-list, since we are past the max 10000 AD groups.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_3</DOCNO>
+            	<TEXT>When testing the group include list I found something interesting - before using it and just pulling everything in the domain for group mapping; I was able to start typing "reddit\\gnart..." in the user field for a security policy rule, and it would give me a drop down of the full path and username, sort of auto filling it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_4</DOCNO>
+            	<TEXT>After implementing the group-include list, it does not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_5</DOCNO>
+            	<TEXT>I have to manually type the username with no indication it is valid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_6</DOCNO>
+            	<TEXT>I am not in a position to test this yet with real traffic, so the question is: would implement the group-include-list under group mapping prevent me from manually referencing the username in a security policy rule (that isn't included in the group-include-list)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_7</DOCNO>
+            	<TEXT>Could I still just manually type in reddit\\subject9742 and have the rule be hit if my user was associated with the source address?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_29_8</DOCNO>
+            	<TEXT>Makes sense it wouldn't cache a list of all users with the group mapping not seeing them, and would be silly for the user to IP mapping to do so since it only looks at users for as long as the cache value after a DC log is seen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_30_0</DOCNO>
+            	<TEXT>Your South Philly sanitation worker appreciation trash of the day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_31_0</DOCNO>
+            	<TEXT>Halal carts that wear masks?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_31_1</DOCNO>
+            	<TEXT>Looking for a halal cart where the workers actually wear their masks, correctly over the nose, and don't take them off?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_31_2</DOCNO>
+            	<TEXT>I really want halal but miss me with eating food cooked on a grill those dudes stand in front of and breathe over all day during a pandemic while interacting with customers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_31_3</DOCNO>
+            	<TEXT>So far every one I have found either doesn't wear them at all, only wear them around their necks, wears them incorrectly with their nose out , or only puts them up after you walk up to the cart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_31_4</DOCNO>
+            	<TEXT> Edit: ITT - people who don't understand that protecting everyone else is also protecting yourself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_0</DOCNO>
+            	<TEXT>Website pulled Facebook name and profile picture that was deleted a year ago from BaconReader app</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_1</DOCNO>
+            	<TEXT>I deleted my Facebook profile almost a year ago now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_2</DOCNO>
+            	<TEXT>I replaced my phone (pixel 3) in November ish?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_3</DOCNO>
+            	<TEXT>so I am assuming most lingering data from baconreader or having FB is gone (and I only used the mobile site, not app).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_4</DOCNO>
+            	<TEXT>I am signed into reddit on bacon reader.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_5</DOCNO>
+            	<TEXT>I clicked a change dot org link from there to read the description.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_6</DOCNO>
+            	<TEXT>In the bacon reader browser, whatever that uses as a web browser, it autofilled my name and last used Facebook profile picture to sign the petition.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_7</DOCNO>
+            	<TEXT>I was shocked.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_8</DOCNO>
+            	<TEXT>If I copied and pasted the exact same change dot org link in firefox or chrome the FB info doesn't come up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_32_9</DOCNO>
+            	<TEXT>How did this happen?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_33_0</DOCNO>
+            	<TEXT>[For Sale] Thrustmaster T16000M Joystick</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_33_1</DOCNO>
+            	<TEXT>Needed one for Microsoft Flight Simulator 2020 and micro center only had the dual kit in stock.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_33_2</DOCNO>
+            	<TEXT>Paid $146 for the pair, selling this one for half of that, $70.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_33_3</DOCNO>
+            	<TEXT>Ambidextrous attachments included.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_34_0</DOCNO>
+            	<TEXT>[UDMP / UDMB] Where are the threat management signatures identified?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_34_1</DOCNO>
+            	<TEXT>Specifically the DNS signatures but I'd like to know the flow sequence of all of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_34_2</DOCNO>
+            	<TEXT>For example, I run a pi-hole on the same layer 2 network as my clients.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_34_3</DOCNO>
+            	<TEXT>The Pi hole does DNS over TLS out to the internet from there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_34_4</DOCNO>
+            	<TEXT>I am also blocking port 53 inbound on the LAN interfaces except to Pi-Hole).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_34_5</DOCNO>
+            	<TEXT>I am still getting DNS signature hits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_34_6</DOCNO>
+            	<TEXT>Are they being applied on the LAN ingress?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_35_0</DOCNO>
+            	<TEXT>Anyone recognize this truck?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_35_1</DOCNO>
+            	<TEXT>Hit and run on my parked car in south point breeze.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_36_0</DOCNO>
+            	<TEXT>G4 Doorbell power supply alternative?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_36_1</DOCNO>
+            	<TEXT>I have a standalone doorbell system with a camera and audio that came with my house that has wires going to the outside to the doorbell directly behind the wall on the outside.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_36_2</DOCNO>
+            	<TEXT>It's plugged in to a wall outlet right next to it and next to my front door.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_36_3</DOCNO>
+            	<TEXT>I wanted to get the G4 doorbell and power it with the outlet that's right there being used for the same purpose on the current standalone doorbell screen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_36_4</DOCNO>
+            	<TEXT>Is there a small form factor alternate power supply I can use that meets the electrical requirements?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_0</DOCNO>
+            	<TEXT>Verizon November OTA update to enable 5G on Pixel 5?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_1</DOCNO>
+            	<TEXT>Ive seen multiple people on here and other places on the internet saying there is a update being released on November 9th or 10th (depending on the source) to enable 5G for the Pixel 5 on Verizon networks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_2</DOCNO>
+            	<TEXT>I haven't gotten the November OTA update yet so I assume it will be rolled into it and not separate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_3</DOCNO>
+            	<TEXT>Does anyone know if this true, when specifically it is to be released, or have gotten the update yet?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_4</DOCNO>
+            	<TEXT> Also Pixel 5 not listed here: [https://www.verizon.com/support/software-updates/](https://www.verizon.com/support/software-updates/) -------UPDATE-------- Called VZW support today and they said my issue was not having a 5G SIM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_5</DOCNO>
+            	<TEXT>They said all 5G SIMs will have a visible "5G" on them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_6</DOCNO>
+            	<TEXT>It was second level support and they said this has been a pattern for the Pixel 5.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_7</DOCNO>
+            	<TEXT>They shipped me a new one, so we'll see... --------UPDATE 2--------- As per VZW: https://www.verizon.com/support/google-pixel-5-update/ "The details: Release date: 11/16/2020 Android Security Patch Level: November 2020 Software Version: RD1B.201105.010 What's changing: The current software update brings 5G Nationwide access to your device!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_8</DOCNO>
+            	<TEXT>5G Nationwide is available in 1,800+ cities.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_9</DOCNO>
+            	<TEXT>You'll see a 5G icon when you're in a 5G Nationwide coverage area.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_10</DOCNO>
+            	<TEXT>For more information about 5G Nationwide, see our 5G Mobile FAQs."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_11</DOCNO>
+            	<TEXT>I got my 5G SIM yesterday and I got 5G UW (ultrawide band aka mmWave) for a bit yesterday.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_12</DOCNO>
+            	<TEXT>But no 5G NSA (non stand alone 5G using 4G LTE and DSS) so that makes sense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_13</DOCNO>
+            	<TEXT>Pixel 5's always had ultra wide band, just not the non-stand alone 5G. No OTA yet on the east coast 12pm EST.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_37_14</DOCNO>
+            	<TEXT>---UPDATE 3------ OTA update is live as of 2pm EST on east coast!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_38_0</DOCNO>
+            	<TEXT>Will this topology work with multi vsys on a 5260? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_38_1</DOCNO>
+            	<TEXT>specifically two vsys sharing transit vlan.100 tagged L3 sub-interface)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_39_0</DOCNO>
+            	<TEXT>I count my overdue projects by the box</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_0</DOCNO>
+            	<TEXT>No 5g on Verizon Pixel 5 - update</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_1</DOCNO>
+            	<TEXT>--SEE ~~EDIT~~ UPDATE--- Called support last week and they stayed that it was because I didn't have a 5g SIM after being escalated to level 2 support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_2</DOCNO>
+            	<TEXT>Put it in today and couldn't activate so I called in.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_3</DOCNO>
+            	<TEXT>After a few reboots and some work on the back end it activated but no 5g. They troubleshooted more in the background and I was on hold while the rep was talking to a higher level of support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_4</DOCNO>
+            	<TEXT>They confirmed I should have 5g on the tower I'm on and the 5g simbol should be displayed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_5</DOCNO>
+            	<TEXT>They said I have a 5g plan which is also a requirement.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_6</DOCNO>
+            	<TEXT>They said that I might need to wait a "few hours" for "network propagation".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_7</DOCNO>
+            	<TEXT>I asked for a definition of that and they basically didn't answer that question and just said oh just wait a couple hours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_8</DOCNO>
+            	<TEXT>~~So at this point, I personally think I need the November OTA update to get 5g~~ as some users have been saying after (I think?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_9</DOCNO>
+            	<TEXT>talking to google support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_10</DOCNO>
+            	<TEXT>The November OTA update still hasn't been released and another user replied to a comment somewhere saying (I think google?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_11</DOCNO>
+            	<TEXT>support said it delayed another week Edit: got 5g (ultrawide) after a couple of hours like they said https://imgur.com/jV5lQEC.jpg --------UPDATE--------- As per VZW: https://www.verizon.com/support/google-pixel-5-update/ "The details: Release date: 11/16/2020 Android Security Patch Level: November 2020 Software Version: RD1B.201105.010 What's changing: The current software update brings 5G Nationwide access to your device!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_12</DOCNO>
+            	<TEXT>5G Nationwide is available in 1,800+ cities.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_13</DOCNO>
+            	<TEXT>You'll see a 5G icon when you're in a 5G Nationwide coverage area.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_14</DOCNO>
+            	<TEXT>For more information about 5G Nationwide, see our 5G Mobile FAQs."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_15</DOCNO>
+            	<TEXT>I got my 5G SIM yesterday and I got 5G UW (ultrawide) for a bit yesterday.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_16</DOCNO>
+            	<TEXT>But no 5G NSA (non stand alone using 4G and DSS) so that makes sense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_17</DOCNO>
+            	<TEXT>Pixel 5's always had ultra wide band, just not the non-stand alone 5G. Still no OTA update on my phone on east coast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_40_18</DOCNO>
+            	<TEXT>Also image is still not available for download via google: https://developers.google.com/android/ota</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_41_0</DOCNO>
+            	<TEXT>Take apart UDM Base?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_41_1</DOCNO>
+            	<TEXT>My cats like warm things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_41_2</DOCNO>
+            	<TEXT>UMD + my PoE switch is warm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_41_3</DOCNO>
+            	<TEXT>I am sure this thing is full of cat hair, especially if my raspberry pi actively cooled cases are any indication.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_41_4</DOCNO>
+            	<TEXT>Is there anyway to open it up without damaging it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_41_5</DOCNO>
+            	<TEXT>I understand it may "void" the warranty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_42_0</DOCNO>
+            	<TEXT>Verizon Pixel 5 November OTA update released for me today at 2pm (east coast) to enable non-standalone 5G among other bug updates!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_43_0</DOCNO>
+            	<TEXT>Can we get a "traffic category" signature for Protect traffic?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_43_1</DOCNO>
+            	<TEXT>[See here.](https://imgur.com/a/cXxauRZ) Protect traffic shows up as "unknown".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_43_2</DOCNO>
+            	<TEXT>All traffic categories have been added.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_43_3</DOCNO>
+            	<TEXT>Also, it looks like it's applied on the LAN inbound interface, which is misleading.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_43_4</DOCNO>
+            	<TEXT>It would be nice to sort by interface or at least between Internet bound and internal traffic (you could probably just use a RFC 1918 filter for 99% of cases on the 'LAN IN' interface...).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_44_0</DOCNO>
+            	<TEXT>Why is the G4 Doorbell only "recommended with UDMP or NVR"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_44_1</DOCNO>
+            	<TEXT>It specifically said on the G4 store product page: "Note: UniFI Protect is required to run this product with full functionality, we recommend using it with [UniFi Dream Machine PRO ](https://store.ui.com/collections/unifi-network-routing-switching/products/udm-pro)or[UniFi Protect Network Video Recorder](https://store.ui.com/collections/unifi-protect/products/unifi-protect-nvr) " I am running one with a CK+.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_44_2</DOCNO>
+            	<TEXT>I plan on putting one at my dads house and getting him a Ck+ too (I don't anticipate on adding more than a couple cameras later on).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_44_3</DOCNO>
+            	<TEXT>Is there some performance bottleneck, future functionality, or other reason they do not list the CK+ as recommended?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_45_0</DOCNO>
+            	<TEXT>How do you deal with parking spot savers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_45_1</DOCNO>
+            	<TEXT>I've tried all of the above and nothing works except risking confrontation and moving them myself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_45_2</DOCNO>
+            	<TEXT>At this point there's 3-10 spots saved at any given time on my single point breeze block.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_45_3</DOCNO>
+            	<TEXT>311 never responds, 911 never shows. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_45_4</DOCNO>
+            	<TEXT>View Poll](https://www.reddit.com/poll/kfokoc)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_0</DOCNO>
+            	<TEXT>Looking for a specific style Buffalo Chicken Cheesesteak</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_1</DOCNO>
+            	<TEXT>Looking for a good buffalo chicken cheesesteak from a place open now (during covid) I'm very picky and have a couple requirements to scratch my ich; * Must use buffalo sauce; "hot sauce" (aka vinegar and pepper sauce) is not the same.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_2</DOCNO>
+            	<TEXT>Butter (or oil) + hot sauce = buffalo sauce.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_3</DOCNO>
+            	<TEXT>Most places advertise "hot sauce".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_4</DOCNO>
+            	<TEXT>This is not the way. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_5</DOCNO>
+            	<TEXT>Uses "chicken steak" as the food distributors usually call it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_6</DOCNO>
+            	<TEXT>Not chicken breast chunks (I realize this would be higher quality).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_7</DOCNO>
+            	<TEXT>It comes in frozen pucks just like most cheesesteak steak.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_8</DOCNO>
+            	<TEXT>Chops up nice and fine, no big chunks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_9</DOCNO>
+            	<TEXT>It alone almost absorbs more of the buffalo sauce than the roll ideally.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_10</DOCNO>
+            	<TEXT>Past posts and recommendations haven't worked out so far.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_11</DOCNO>
+            	<TEXT>Had half a dozen over the past few months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_12</DOCNO>
+            	<TEXT>Oogies was the closest I got but their rolls suck and they use either hot sauce or shitty buffalo sauce.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_46_13</DOCNO>
+            	<TEXT>Make my day yo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_47_0</DOCNO>
+            	<TEXT>Finally got a second radio, getting an error while serializing them</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_47_1</DOCNO>
+            	<TEXT>**\*\*edit got it working (was able to serialize the dong) using the below commands\*\*** rmmod rtl2832 dvb_usb_rtl28xxu rmmod dvb_usb_v2 rmmod dvb_core \------------------------------------------------------------------- Getting the below error, and ideas?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_47_2</DOCNO>
+            	<TEXT>Some quick googling makes me thing I need to stop the adsbx services or driver but no success winging it so far.... raspberry pi 4 adsb-x image pi@raspberrypi:~ $ sudo rtl_eeprom -d 0 -s 1090 Found 1 device(s): 0: Generic RTL2832U Using device 0: Generic RTL2832U usb_claim_interface error -6 Failed to open rtlsdr device #0.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_47_3</DOCNO>
+            	<TEXT>Confirmed the S/N didn't change I think: pi@raspberrypi:~ $ rtl_test Found 1 device(s): 0: Realtek, RTL2832U, SN: 00001000 Using device 0: Generic RTL2832U usb_claim_interface error -6 Failed to open rtlsdr device #0.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_47_4</DOCNO>
+            	<TEXT>Edit: Also tried remove and reinserting the stick after booting as I saw mentioned also.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_47_5</DOCNO>
+            	<TEXT>Apparently this only happens with my FA orange stick.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_47_6</DOCNO>
+            	<TEXT>I am able to change the SN on my [RTL-SRD.com](https://RTL-SRD.com) stick.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_48_0</DOCNO>
+            	<TEXT>Finally got a second radio, getting an error while serializing them</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_0</DOCNO>
+            	<TEXT>Follow-up on new UAT radio - doesn't appear to be working</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_1</DOCNO>
+            	<TEXT>I tracked a UAT flight of a C172 nearly directly over my house today.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_2</DOCNO>
+            	<TEXT>I didn't expect to see too far away on UAT but I expected to see this one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_3</DOCNO>
+            	<TEXT>I had the ADSBx map and 
+    ip/tar1090 and 
+    ip/978 up at the same time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_4</DOCNO>
+            	<TEXT>ADSBX showd the plane UAT, tar1090 showed it via MLAT, 978 showed nothing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_5</DOCNO>
+            	<TEXT>Are there any troubleshooting steps I can perform to determine if/where an issue is?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_6</DOCNO>
+            	<TEXT>My setup is: FA orange for 1070 RTL-SDS.com v3 for 978 Raspberry Pi v4 ADSBx Custom image Y splitter between radios  gt; FA filter  gt; to FA 24" antenna I read the antenna isn't the best for 978.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_7</DOCNO>
+            	<TEXT>Also that I may need to adjust the gain.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2730_49_8</DOCNO>
+            	<TEXT>Thanks again!</TEXT>
+        </DOC>

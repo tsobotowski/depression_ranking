@@ -1,0 +1,539 @@
+        <DOC>
+            	<DOCNO>s_2755_0_0</DOCNO>
+            	<TEXT> This is definitely the approach you should take.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_1_0</DOCNO>
+            	<TEXT> So you haven't really given a language you want to do this in but here we go!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_1_1</DOCNO>
+            	<TEXT> 
+  
+Java: Things like buttons can be assigned callbacks pretty easily by adding an ActionListener.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_1_2</DOCNO>
+            	<TEXT>It's basically what you have described so I think that would work nicely.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_1_3</DOCNO>
+            	<TEXT> 
+  
+Python: I'm going to assume you have some sort of GUI (I suppose) that for the sake of the answer - is made with the wonderful and ever glamorous TK.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_1_4</DOCNO>
+            	<TEXT>Assuming you create a button on your screen through drawing on the canvas - you can use something like this:  
+
+    root.bind('Key',lambda event: keyPressed(canvas,event))  
+This will make your clicks register to a function keyPressed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_1_5</DOCNO>
+            	<TEXT>It might look like this:
+
+    def keyPressed(canvas,event):  
+        if event.keysym == "Left":  
+            if canvas.data.level  0:  
+                canvas.data.level -= 1  
+                canvas.delete(ALL)  
+                canvas.create_rectangle(-5,-5,canvas.data.row+5,canvas.data.col+5, fill='dark green')  
+                fractalMickeyMouse(canvas,canvas.data.xc,canvas.data.yc,canvas.data.r,canvas.data.level)  
+
+Alternatively you can use a TK Widget Button and just define callback.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_1_6</DOCNO>
+            	<TEXT> 
+
+Hope this helped.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_2_0</DOCNO>
+            	<TEXT> You should look at using Java with Hibernate - sounds like it might be exactly what you are looking for!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_2_1</DOCNO>
+            	<TEXT> 
+Edit: Hibernate is an API that allows you to pull from the persistence layer mapping an Object in Java to a row in your DB.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_2_2</DOCNO>
+            	<TEXT> 
+http://hibernate.org/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_3_0</DOCNO>
+            	<TEXT> Kimchi Fries I picked up after work today</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_4_0</DOCNO>
+            	<TEXT> Think its since it kind of just sits in it's own juices really.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_4_1</DOCNO>
+            	<TEXT>I am definitely with you on grill over pan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_5_0</DOCNO>
+            	<TEXT> Looks fantastic, I'm sad you didn't grill them though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_6_0</DOCNO>
+            	<TEXT> I actually was impatient and didn't want to leave it out for a long time so I put it in the oven like 15 minutes after i finished coating them with all the pepperoni etc</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_7_0</DOCNO>
+            	<TEXT> i baked them at 425, but i did notice that they started browning really quickly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_7_1</DOCNO>
+            	<TEXT>i took them out after about 10-15 minutes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_7_2</DOCNO>
+            	<TEXT> 
+edit: i actually did bake at 400 - oven was convection and wouldnt let me put 425</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_8_0</DOCNO>
+            	<TEXT>i was worried after seeing the guy who burnt his :P</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_9_0</DOCNO>
+            	<TEXT> obligatory recipe: http://imgur.com/a/J5Wsl</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_10_0</DOCNO>
+            	<TEXT> Tried my hand at those garlic knots</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_11_0</DOCNO>
+            	<TEXT> Soartex Fanver</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_12_0</DOCNO>
+            	<TEXT> Editing Villager AI</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_12_1</DOCNO>
+            	<TEXT> I am very interested in seeing if this is possible anymore or at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_12_2</DOCNO>
+            	<TEXT>I have stumbled across a few posts from years ago where people have done this and seem to have the links removed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_12_3</DOCNO>
+            	<TEXT>If anyone has any information about how to do something like this thanks in advance!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_13_0</DOCNO>
+            	<TEXT> Brother said toking brings out his creative side [8]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_14_0</DOCNO>
+            	<TEXT> probably a picture of myself</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_15_0</DOCNO>
+            	<TEXT> Walter Shoback's classic the 'Chinamen'</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_16_0</DOCNO>
+            	<TEXT> Marijuana would be legalized globally.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_17_0</DOCNO>
+            	<TEXT> Lucy, the movie had so much potential but they pretty much completely squandered the entire thing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_17_1</DOCNO>
+            	<TEXT>It was such a cool idea :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_18_0</DOCNO>
+            	<TEXT> Sarah Kerrigan</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_19_0</DOCNO>
+            	<TEXT> is this a joke</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_20_0</DOCNO>
+            	<TEXT> It would just smudge the nail piece instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_21_0</DOCNO>
+            	<TEXT> Using the thing to scroll on the computer while cooking is kind of useless since she stops fixing the salad to do it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_21_1</DOCNO>
+            	<TEXT>Might as well just use the trackpad on the computer at that point...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_22_0</DOCNO>
+            	<TEXT> I only brush my teeth once a day :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_23_0</DOCNO>
+            	<TEXT> There seems to be a lot of Hispanic people saying it isn't part of the culture to think someone dying is funny, and it isn't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_23_1</DOCNO>
+            	<TEXT>It also isn't sad though, at least not in Mexican culture.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_23_2</DOCNO>
+            	<TEXT>Death is a happy thing, and celebrated on holidays like `Day of the Dead` so maybe it isn't taken to hard in their family.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_23_3</DOCNO>
+            	<TEXT>People saying they are assholes seem to be pretty quick to judge, and are telling you what you want to hear.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_0</DOCNO>
+            	<TEXT> Trigger IFTTT Recipes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_1</DOCNO>
+            	<TEXT> It currently is very difficult to make a recipe that is complex and robust.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_2</DOCNO>
+            	<TEXT>Sometimes, it is even harder to link recipes with events that you want to happen because it is a three step process where the middle step is disjoint from the final step.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_3</DOCNO>
+            	<TEXT>
+
+I wanted to have a recipe that every day at 12:30 PM grabbed the top post from a subreddit and posted it to the GroupMe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_4</DOCNO>
+            	<TEXT>Now, I may be wrong - but I did look around and can't really think of a way to do this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_5</DOCNO>
+            	<TEXT>However, if there was a way to make IFTTT recipes a trigger, it would really open up the possibilities for this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_6</DOCNO>
+            	<TEXT>It would allow for hugely extensible recipes that could do huge amounts of work for you or even just provide some really cool functionality.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_7</DOCNO>
+            	<TEXT>Just a thought.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_24_8</DOCNO>
+            	<TEXT>
+
+If someone knows how to do what I'm asking I would love to know since right now I'm pretty lost.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_25_0</DOCNO>
+            	<TEXT> yeah, i send emails to an address like that all the time but when i try to send it form IFTTT it seems to just chop off the beginning.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_26_0</DOCNO>
+            	<TEXT> E-mail address issues w/ email sent on trigger</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_26_1</DOCNO>
+            	<TEXT> The email I am trying to send is to a dlist and the format of the email is something like +dlist+~orgname/dlist/group@school.edu however, when ifttt sends it to gmail it gets sent as group@school instead of the entire dlist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_27_0</DOCNO>
+            	<TEXT> Perhaps you could do a cascading sort of notification system where if it is raining in a certain area it triggers an event, and that event will always trigger an iOS notification that has the zip code it will be raining in.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_27_1</DOCNO>
+            	<TEXT>Not sure if it will work but just a thought.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_28_0</DOCNO>
+            	<TEXT> Google Calendar - GroupMe not working</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_28_1</DOCNO>
+            	<TEXT> As title says, the trigger is the start of a calendar event but the recipe has never been run and many events should have triggered it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_28_2</DOCNO>
+            	<TEXT>It is on a shared calendar could this be the reason it is not working?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_29_0</DOCNO>
+            	<TEXT> Could you perhaps try
+
+     String.format("%02d:%02d:%02d", hour, minutes, seconds);</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_30_0</DOCNO>
+            	<TEXT> I would consider using python!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_30_1</DOCNO>
+            	<TEXT>Python is a scripting language and is pretty easy to pick up and learn and you can do a lot with it - that's why it is used as an intro language for lots of CS courses.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_30_2</DOCNO>
+            	<TEXT>
+
+There are also a lot of modules you can use to help you create nice things such as PyGame etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_30_3</DOCNO>
+            	<TEXT>I would definitely consider giving it a look.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_31_0</DOCNO>
+            	<TEXT> http://i.groupme.com/400x300.jpeg.d8af482b085f4adfa98a846fa1d0e385</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_32_0</DOCNO>
+            	<TEXT> my first thought  
+http://img3.wikia.nocookie.net/__cb20130331234508/aladdin/images/e/e1/Genie.jpg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_33_0</DOCNO>
+            	<TEXT> You should look into Systems Level programming.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_33_1</DOCNO>
+            	<TEXT>Personally I find it incredibly interesting and fun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_33_2</DOCNO>
+            	<TEXT>
+
+http://csapp.cs.cmu.edu/
+
+This is a pretty legit textbook to get you started, it also has like 7 labs in it to help you learn assembly, things like buffer overflow attacks, how to write your own malloc implementation and more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_33_3</DOCNO>
+            	<TEXT>It is in C, not java - but still a great fucking book.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_34_0</DOCNO>
+            	<TEXT> As I was going to St. Ives,  
+I met a man with seven wives,  
+Each wife had seven sacks,  
+Each sack had seven cats,  
+Each cat had seven kits:  
+Kits, cats, sacks, and wives,  
+How many were there going to St. Ives?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_35_0</DOCNO>
+            	<TEXT> The proxy forwards all the headers shown above to the client.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_36_0</DOCNO>
+            	<TEXT> I don't think that is actually true... If he just works with them all on the stack.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_36_1</DOCNO>
+            	<TEXT>Isn't that true?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_36_2</DOCNO>
+            	<TEXT>Then he can just access them all as element.value rather than element-value</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_37_0</DOCNO>
+            	<TEXT> The content is gzipped but I have no idea how to take this into account - 
+
+    HTTP/1.1 200 OK
+    Date: Thu, 27 Nov 2014 19:28:48 GMT
+    Server: Server
+    Set-Cookie: skin=noskin; path=/; domain=.amazon.com
+    pragma: no-cache
+    x-amz-id-1: 0S2HDHT0TMQDGEBVGKRG
+    p3p: policyref="http://www.amazon.com/w3c/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR     DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC " 
+    cache-control: no-cache
+    x-frame-options: SAMEORIGIN
+    expires: -1
+    x-amz-id-2: KpHu9PwKipnS/K0+EpWrGmUnz0QUTo93VLVtTBdqhidh99vboouWHDB0EJMUAbYe
+    Vary: Accept-Encoding,User-Agent
+    Content-Encoding: gzip
+    Content-Type: text/html; charset=UTF-8
+    Set-cookie: x-wl
+    uid=19Av/nk2LAh+FAIVuUFTXvzn9LY8foEsI5aeIB2XC9fdU+037CfOTPpK6GhppgneqrjEV8rJ7sIM=; path=/;     domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01 GMT
+    Set-cookie: session-id-time=2082787201l; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01 GMT
+    Set-cookie: session-id=186-2888736-1072859; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01 GMT
+    Connection: close</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_38_0</DOCNO>
+            	<TEXT> The cost of removing an element in a linked list is definitely less than rewriting an entire array.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_38_1</DOCNO>
+            	<TEXT>Worst case linked list search is O(n) time, but uses no resources, and fixing pointers is O(1) time with what, 2 writes?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_38_2</DOCNO>
+            	<TEXT>
+
+Meanwhile, copying and writing to a new array is what, 2n - 1 read/write operations?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_38_3</DOCNO>
+            	<TEXT>This is way more expensive in terms of resources.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_0</DOCNO>
+            	<TEXT> So, I'm not sure what is going on here but consider this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_1</DOCNO>
+            	<TEXT>
+
+    output_greaterequal-first-next = pointer;
+    temp =output_greaterequal-first-next;
+    temp-next=NULL;
+
+So imagine this is not the first element being put in your list.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_2</DOCNO>
+            	<TEXT>It is over the threshold, and there is already something in the list.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_3</DOCNO>
+            	<TEXT>You set the next element of the list to be the pointer so you could have had this to begin with:
+
+First-A-B-C-NULL 
+
+or something like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_4</DOCNO>
+            	<TEXT>
+This means first-next is A. But now, you set first-next to pointer (P).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_5</DOCNO>
+            	<TEXT>So, now your list looks like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_6</DOCNO>
+            	<TEXT>
+
+First-P
+
+and then temp is also set to P, and then it looks like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_39_7</DOCNO>
+            	<TEXT>
+
+Temp = P-NULL
+
+and now the value is NULL so we break out but your list was messed up in the process it seems?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_40_0</DOCNO>
+            	<TEXT> I'm not totally sure what you are trying to do but if you are trying to compare digits of numbers you can use % to get specific digits right, since modular arithmetic would get rid of the rest of the number?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_40_1</DOCNO>
+            	<TEXT>13 % 10 = 3
+
+To get the 10's digit would be a bit different,
+
+134 for example would be (134 % 100) / 10
+134 % 100 is 34, and 34 / 10 is 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_41_0</DOCNO>
+            	<TEXT> [C] Proxy Server Sending Replacement Characters</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_41_1</DOCNO>
+            	<TEXT> So basically, I'm writing a proxy server in C. It only needs to handle GET requests atm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_41_2</DOCNO>
+            	<TEXT>I can take a GET request like very simple
+
+GET www.amazon.com HTTP/1.0 
+
+and then generate a request header like follows: 
+
+    GET / HTTP/1.0
+    Host: www.amazon.com
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    Accept-Encoding: gzip, deflate
+    Connection: close
+    Proxy-Connection: close
+
+The proxy then forwards the request to the server in that form and reads the response.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_41_3</DOCNO>
+            	<TEXT>I get all the response headers back just fine, but when it comes to reading actual content and forwarding it to the client from the proxy I just get a bunch of replacement characters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_41_4</DOCNO>
+            	<TEXT>
+
+    ^3h)UKfD*yh2' Rb8"u                         =qggEyYj1'sp[MI
+
+I don't really know why this is happening or how to fix it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_41_5</DOCNO>
+            	<TEXT>
+
+If you need to see how I read from the response file (forward to client) I can post, but I don't think the way it is done has anything to do with why these characters are coming up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_42_0</DOCNO>
+            	<TEXT> The solution was actually really stupid actually.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_42_1</DOCNO>
+            	<TEXT>I was thinking along the same thing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_42_2</DOCNO>
+            	<TEXT>I figured maybe the charging port had shifted or loosened and couldn't get enough current to charge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_42_3</DOCNO>
+            	<TEXT>Turns out when it fell the charger was actually destroyed like at the end and my spare wasn't working either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_42_4</DOCNO>
+            	<TEXT>Just needed a new charger.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_42_5</DOCNO>
+            	<TEXT>Damn I felt stupid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_43_0</DOCNO>
+            	<TEXT> Dropped phone - No longer charges</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_43_1</DOCNO>
+            	<TEXT> As said in title - I just dropped my phone and it was almost dead so I tried to charge it and it no longer charges.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_43_2</DOCNO>
+            	<TEXT>Turned off/on, reset etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_43_3</DOCNO>
+            	<TEXT>I have no idea what to do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2755_44_0</DOCNO>
+            	<TEXT> I just searched around for them and only found one that looked like it - sadly without color :( If anyone knows I would love the one like the one on the car</TEXT>
+        </DOC>

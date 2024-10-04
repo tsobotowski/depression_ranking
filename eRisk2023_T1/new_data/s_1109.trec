@@ -1,0 +1,47 @@
+        <DOC>
+            	<DOCNO>s_1109_0_0</DOCNO>
+            	<TEXT>We would have gone much far, if steve jobs was alive and managing his company.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_1_0</DOCNO>
+            	<TEXT>noice clickbait</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_2_0</DOCNO>
+            	<TEXT>Maybe if u upload a pic of your wife, then we can understand your situation better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_3_0</DOCNO>
+            	<TEXT>44 downvotes for a joke... people are too sensitive</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_4_0</DOCNO>
+            	<TEXT>sending a file to Flask results in BAD REQUEST 400</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_4_1</DOCNO>
+            	<TEXT>Here is my Server code `def post(self):` `"""Foruploadingfile."""</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_4_2</DOCNO>
+            	<TEXT>` `parser=reqparse.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_4_3</DOCNO>
+            	<TEXT>RequestParser()` `parser.add_argument("file",type=werkzeug.datastructures.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_4_4</DOCNO>
+            	<TEXT>FileStorage,location="files", help="Attachanfile",required=True)` `parser.add_argument("format",help="Specifyfileformatforfile",required=True)` `parser.add_argument("filename",help="Specifythenameyouwanttoputonfile",default=None)` `args=parser.parse_args()` ==================================================================================== Here is my JavaScript code: `
+    form id="upload-file" method="post" enctype="multipart/form-data"` `
+    fieldset` `
+    input type="file" id="fileUpload" /` `/fieldset` `
+    fieldset` `
+    button id="upload-file-btn" type="button" onclick="send_Image()"` `Upload` `/button` `/fieldset` `/form` `
+    script` `let link="http://192.168.0.102:5000/file";` `document.getElementById("upload-file-btn").onclick=function(){sendImage();};` `function sendImage(){` `let form=document.getElementById('upload-file');` `let formData=new FormData(form);` `formData.append('format',"jpg");` `let xhr=new XMLHttpRequest();` `xhr.open("POST",link,true);` `xhr.setRequestHeader("Content-Type","multipart/form-data");` `xhr.onreadystatechange=function(){` `let server_response=this.responseText;` `console.log(server_response);` `}` `xhr.send(formData);` `}` I have tried many approaches, it always give me the same 400 bad request and the help message that no file attached in response.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1109_4_5</DOCNO>
+            	<TEXT>This is how I used to send the request using Python and I it uploaded successfully `url = "http://192.168.0.102:5000/file"` `with open("image.jpg", "rb") as f:` `img =` [`f.read`](https://f.read)`()` `r =` [`requests.post`](https://requests.post)`(url, files={"file":img}, data={"format":"jpg"})`
+    </TEXT>
+        </DOC>

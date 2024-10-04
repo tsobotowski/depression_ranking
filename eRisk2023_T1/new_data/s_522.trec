@@ -1,0 +1,86 @@
+        <DOC>
+            	<DOCNO>s_522_0_0</DOCNO>
+            	<TEXT>Hi, As the chance is weird, I just made this, this weekend for fun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_0_1</DOCNO>
+            	<TEXT>front Svelte, backend Django REST framework https://techprez.tk/ The code is on my Github: https://github.com/korohub/my-skill It's my first time with Django, so please be indulgent.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_1_0</DOCNO>
+            	<TEXT>Simple argparse example wanted: 1 argument, 3 results</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_1_1</DOCNO>
+            	<TEXT>Python The [documentation](http://docs.python.org/library/argparse.html) for the [argparse python module](http://www.doughellmann.com/PyMOTW/argparse/), while excellent I'm sure, is too much for my tiny beginner brain to grasp right now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_1_2</DOCNO>
+            	<TEXT>I don't need to do math on the command line or meddle with formatting lines on the screen or change option characters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_1_3</DOCNO>
+            	<TEXT>All I want to do is *"If arg is A, do this, if B do that, if none of the above show help and quit"*.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_1_4</DOCNO>
+            	<TEXT>Answer link : https://codehunter.cc/a/python/simple-argparse-example-wanted-1-argument-3-results</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_0</DOCNO>
+            	<TEXT>Use Jinja2 template engine in external javascript file</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_1</DOCNO>
+            	<TEXT>Flask I working on a web project using Python and Flask.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_2</DOCNO>
+            	<TEXT>I was just wondering if I can access parameters sent by python in my external javascript files?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_3</DOCNO>
+            	<TEXT>It's working well with html files or with js embedded in html files but not when javascript is extern.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_4</DOCNO>
+            	<TEXT>The python code ``` @app.route('/index')def index(): return render_template('index.html', firstArg = 2, secondArg = 3) ``` The index.html code ``` ...
+    body
+      pThe first arg is {{firstArg}}./p
+      script src="index.js"/script
+    /body... ``` And the index.js file ``` window.onload=function(){ console.log('{{secondArg}}');}; ``` So the first arg is correct within the html file but the second doesn't work in the js file.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_5</DOCNO>
+            	<TEXT>The browser is showing `Unexpected token {`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_6</DOCNO>
+            	<TEXT>Maybe it's not possible to use it in external js?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_7</DOCNO>
+            	<TEXT>Otherwise I would need to insert the secondArg as an input data in html and get it within the js file but it's not very clean.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_8</DOCNO>
+            	<TEXT>If someone can help, thanks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_2_9</DOCNO>
+            	<TEXT>Answer link : https://codehunter.cc/a/flask/use-jinja2-template-engine-in-external-javascript-file</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_3_0</DOCNO>
+            	<TEXT>Reactjs: Unexpected token ' lt;' Error</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_3_1</DOCNO>
+            	<TEXT>Reactjs i am just starting with Reactjs and was writing a simple component to display `li` tag and came across this error:  gt; Unexpected token ' lt;'  gt;  gt; I have put the example at jsbin below
+    http:Please let me know what i am doing wrong.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_522_3_2</DOCNO>
+            	<TEXT>Answer link : https://codehunter.cc/a/reactjs/reactjs-unexpected-token-error
+    </TEXT>
+        </DOC>

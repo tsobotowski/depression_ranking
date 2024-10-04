@@ -1,0 +1,952 @@
+        <DOC>
+            	<DOCNO>s_2837_0_0</DOCNO>
+            	<TEXT>Looking for help and advice with LED Project</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_1</DOCNO>
+            	<TEXT>Hello All I am trying to put together a new light project, i am very curious about electricity and enjoy these things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_2</DOCNO>
+            	<TEXT>So bought about 7 (20 led string light) fixtures from dollarama, originally they are powered by 2 AA batteries connected in series, and also I noticed that the LED bulbs are connected are in a parallel circuit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_3</DOCNO>
+            	<TEXT>I decided for this project i don't want to use batteries and rerouted them to a USB wire that i cut from a micro usb, plugged it into a USB wall charger (5v 1 a) and successfully lit the string of lights, and even much brighter than original 2 AA battery method and was very happy with this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_4</DOCNO>
+            	<TEXT>So i decided to keep adding to the string of lights from the one connection from the USB wall.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_5</DOCNO>
+            	<TEXT>I attached the strings back to back, i've successfully connected about 4 strings worth (80 lights) and wanted to continue this project safely.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_6</DOCNO>
+            	<TEXT>SO i am here to ask for advice, ive been trying to learn about parallel circuits and series to make this as safe as possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_7</DOCNO>
+            	<TEXT>I dont know much about resistance and current.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_8</DOCNO>
+            	<TEXT>I do understand that all bulbs are withdrawing the original voltage of 5v.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_9</DOCNO>
+            	<TEXT>But as i add more lights because they are in parallel i dont understand how this will effect the current/resistance and if it could possibly surge the USB charger ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_10</DOCNO>
+            	<TEXT>This is where i am asking for help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_11</DOCNO>
+            	<TEXT>My MAIN question is may i connect all 7 strings (140 led lights) in a row (parallel circuit) safely ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_12</DOCNO>
+            	<TEXT>All connected to the 5v 1a usb wall charger ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_13</DOCNO>
+            	<TEXT>right now i have 4 connected without any issues (heat/burnt bulbs etc.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_14</DOCNO>
+            	<TEXT>I have other wall chargers as well for different power supply if required 5v 2a or 10v 1.7 a etc. ....</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_15</DOCNO>
+            	<TEXT>In addition, I want to add 4 led "light bulbs" that are powered by 2 3v lithium diodes in series, along with this 7 line string led i was thinking to attached them directly at the resistor endpoint location in the photo attached in a series circuit somewhere along the line of the string of lights.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_16</DOCNO>
+            	<TEXT>I will attach the USB wall charger to a power bar that has a surge protector/fuse as well for more protection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_17</DOCNO>
+            	<TEXT>I have attached photos to help you understand the equipment as well as my project idea.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_18</DOCNO>
+            	<TEXT>May someone please help me commit to this project in a safe manner. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_19</DOCNO>
+            	<TEXT>1 of the packs from dollarma](https://preview.redd.it/l5zfg0fqfwn41.jpg?width=3024 amp;format=pjpg amp;auto=webp amp;s=2b9ca9264e5225177bb037970b1b78bdc9287585) [2 of the \\"String\\" led bulbs that originally use 2 AA batteries](https://preview.redd.it/1e5kj6dqfwn41.jpg?width=3024 amp;format=pjpg amp;auto=webp amp;s=979320c650e27b631c23db39671bd37158ebcd90) [white\/yellow STRING led set in parallel](https://preview.redd.it/m4g0weaqfwn41.jpg?width=3024 amp;format=pjpg amp;auto=webp amp;s=4c4689b9759dde4bd9ae02c19ae3a9eaf79220b4) [white led string set in parallel](https://preview.redd.it/u15t4kaqfwn41.jpg?width=3024 amp;format=pjpg amp;auto=webp amp;s=75415ccb5083b50b1443cc816d071bcb3b51752a) [USB 5V 1 A WALL CHARGER USB CONNECTION + CUT MICRO USB TO ATTACH TO STRING ](https://preview.redd.it/f06aldeqfwn41.jpg?width=4032 amp;format=pjpg amp;auto=webp amp;s=0294a137290d086ad4dfa4e16c3d298bfb960ad3) [CONNECTING THE STRING OF LEDS BACK TO BACK ](https://preview.redd.it/l9nf75dqfwn41.jpg?width=4032 amp;format=pjpg amp;auto=webp amp;s=504c238daab534e72fd91afa34c0cfa9004a3a1d) [LIGHT !](</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_0_20</DOCNO>
+            	<TEXT>https://preview.redd.it/lvb1pbfqfwn41.jpg?width=4032 amp;format=pjpg amp;auto=webp amp;s=a17f54d6c26ab0486738d0632bac88704d0c037a) [one of the \\"LED BULBS\\" that i want to connect somewhere to the string of lights](https://preview.redd.it/plgod4dqfwn41.jpg?width=3024 amp;format=pjpg amp;auto=webp amp;s=9ef1ab5df89c39f6eb33e2c084e446f45b5d8143) [THE \\"LED LIGHT BULB\\" USING 2 3v LITHIUM BATTERIES in series](https://preview.redd.it/irolmkaqfwn41.jpg?width=3024 amp;format=pjpg amp;auto=webp amp;s=cb3defdd6a438f38dea3d5724f6e0d44cd6a06b6)  [Can I connect a wire from the \\"string\\" of led wires to the end of \(left after\) the resistor?](https://preview.redd.it/o00jweaqfwn41.jpg?width=3024 amp;format=pjpg amp;auto=webp amp;s=c6a0152fbc5513f0e1d8a7a9abde03369007ef28) I apologize for lengthy post / poor english Any questions i can try to answer to my best if you need more info.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_1_0</DOCNO>
+            	<TEXT>Thanks for the reply,  No there isnt info about the current all it asked was for 2 AA batteries.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_1_1</DOCNO>
+            	<TEXT> So what happens if i add more strings, if i add too many would it PULL more current that the USB charger provides ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_1_2</DOCNO>
+            	<TEXT> Or would it keep pulling 1a, until they wont light up because 1a is distributed amongst all the bulbs ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_2_0</DOCNO>
+            	<TEXT>tHANK YOU,  so if i add too many strings it will pull more current than is provided by the usb charger ??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_3_0</DOCNO>
+            	<TEXT>Thank you !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_4_0</DOCNO>
+            	<TEXT>I will only attach 1 string of lights to the usb, attach the multimeter at the FINAL light where i will connect to other strings to measure the current  if its lets say 100 ma for all 20 leds then this is safe correct ??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_5_0</DOCNO>
+            	<TEXT>Or as you asid from the + of the USB to the + of the light is how i measure current for one string ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_6_0</DOCNO>
+            	<TEXT>LAST QUESTION if i provide MORE current from the USB charger it is safe it will only pull the current it requires</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_7_0</DOCNO>
+            	<TEXT>thank youuuuuu you are the best man  thanks a mil honestly straight forward answers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_7_1</DOCNO>
+            	<TEXT>  I read online you can have theoretically unlimited amps in the charger, it will only draw what it needs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_7_2</DOCNO>
+            	<TEXT>now i understand i will then use the 5v 2 a :) ii</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_8_0</DOCNO>
+            	<TEXT>How do i read current on this multimeter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_8_1</DOCNO>
+            	<TEXT>I dont understand the multimeter reading i set it it 20m and 200m in the DCA  when at 20m it says 0.88 when at 200m it says 8.8  https://preview.redd.it/c5mazbsckyn41.jpg?width=632 amp;format=pjpg amp;auto=webp amp;s=d4d2290c1356df7f3a1db3ff7b6669c0a82b6b23 https://preview.redd.it/kup63csckyn41.jpg?width=677 amp;format=pjpg amp;auto=webp amp;s=d04a868fab2c9c8b36499bce1cb48d2c0e3e22f0 what is the actual current in amps ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_8_2</DOCNO>
+            	<TEXT>please help</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_9_0</DOCNO>
+            	<TEXT>I dont know how lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_10_0</DOCNO>
+            	<TEXT>I honestly just wanted to read the comments if reddit would raid on torturrised .... then it was the top comment ... there it is .... this was the best laugh i had today .... thank you</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_11_0</DOCNO>
+            	<TEXT>Where's teen titans joker :D</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_12_0</DOCNO>
+            	<TEXT>I have the same exact issue i've tried everything from Bios updates all driver updates formating windows putting warzone on a ssd increase disk paging to 15000 set videorenderscale to .55 in config  i've done everything and it stutters every 4-5 seconds it's ridiculous</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_13_0</DOCNO>
+            	<TEXT>Idk i find portoss overpowered honestly nothing can beat carrier mass.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_14_0</DOCNO>
+            	<TEXT>I lol'd a lot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_15_0</DOCNO>
+            	<TEXT>Here's a downvote you toxic shit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_16_0</DOCNO>
+            	<TEXT>Can't tell if this is a quesiton or you bragging about your tvz lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_17_0</DOCNO>
+            	<TEXT> gt;y around 7 minutes and building a third and my opponent literally only makes tanks and vikings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_17_1</DOCNO>
+            	<TEXT>I've been told that liberator Viking would do the trick but it is extremely gas heavy to reach that and I don't think 2 base, and if I can get my third reply is what i'm doing right now replay is a repeat video :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_18_0</DOCNO>
+            	<TEXT>I dont see the aimbot .... but pre aim maybe .... Also how does OP know about aimbot settings hmmmm ???</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_20_0</DOCNO>
+            	<TEXT>I've played for over 20 years thank you, and reached the top 1% and played competitively in CSGO.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_20_1</DOCNO>
+            	<TEXT>I know what to look for, ive been called a hacker many times by actual pros too when I'm just that good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_20_2</DOCNO>
+            	<TEXT>Yes he looks snappy but a really good player can have such aim, look at shroud how he snaps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_20_3</DOCNO>
+            	<TEXT>It didn't look aimbotty, there was lots of time in between as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_20_4</DOCNO>
+            	<TEXT>His aim was shit on the second target also.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_21_0</DOCNO>
+            	<TEXT> gt; tions from today, the closer to the last zone, the less mindful he becomes and you can clearly see aimlock with the naked eye.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_21_1</DOCNO>
+            	<TEXT>Sometimes it grabs enem cool</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_22_0</DOCNO>
+            	<TEXT>Tanks with bunkers infront of them filled with marines, OR also rush a stargate for liberators there isn't much anti air from 3 gate robo EDIT: JUST go BANSHEE LOL</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_24_0</DOCNO>
+            	<TEXT>Best thing i've ever seen</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_25_0</DOCNO>
+            	<TEXT>Wow he's gained weight :( Cmon buddy you can do it !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_26_0</DOCNO>
+            	<TEXT>The solution is if you have a teammate, or someone throws a car at you for you to get in, then out and you'll be unstuck :).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_27_0</DOCNO>
+            	<TEXT>I actually lol'd at the squish sound</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_28_0</DOCNO>
+            	<TEXT>why is video this significant?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_29_0</DOCNO>
+            	<TEXT>that aim lock at 0:19 lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_30_0</DOCNO>
+            	<TEXT>that sc2 music though :D</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_31_0</DOCNO>
+            	<TEXT>I bet you couldn't code the login.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_31_1</DOCNO>
+            	<TEXT>This game is hella impressive, glitches happen be patient they will work on it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_31_2</DOCNO>
+            	<TEXT>Coding is very very very hard and complex especially games.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_32_0</DOCNO>
+            	<TEXT>Yes delete the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_33_0</DOCNO>
+            	<TEXT>scout a lot</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_34_0</DOCNO>
+            	<TEXT> gt;onger you stream and play at the same time you get better at it TBH looks like there's 3 screens, one for chat on the very very left and a second screen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_34_1</DOCNO>
+            	<TEXT>Sorry dude nobody looks at chat when clutching i think you're cheating lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_35_0</DOCNO>
+            	<TEXT>2 kills ... much wow</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_36_0</DOCNO>
+            	<TEXT>Quiet the opposite i'm just not that impressed</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_37_0</DOCNO>
+            	<TEXT>i actually lmao'd thank you</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_38_0</DOCNO>
+            	<TEXT>he was soo toxic never liked him</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_39_0</DOCNO>
+            	<TEXT>Take this down now !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_41_0</DOCNO>
+            	<TEXT>You know he's just trolling you right ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_42_0</DOCNO>
+            	<TEXT>This guy cheats He has minimap hack 3 monitors i've seen it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_43_0</DOCNO>
+            	<TEXT>what movie was this ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_44_0</DOCNO>
+            	<TEXT>The begging ... FAM YOU NEVER START CC FIRST !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_44_1</DOCNO>
+            	<TEXT>Jokes nice vid</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_45_0</DOCNO>
+            	<TEXT>That protoss comp is unbeatable</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_46_0</DOCNO>
+            	<TEXT>whats with all the twisted tea memes ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_47_0</DOCNO>
+            	<TEXT>if you can do hello world i'd be impressed</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_48_0</DOCNO>
+            	<TEXT>I DONT GET THIS</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_49_0</DOCNO>
+            	<TEXT>i'm glad i'm not the only one, i was about to quit as well, all they do is either void ray shield battery proxy which is impossible to stop literaly cannot scout hte whole map every game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_49_1</DOCNO>
+            	<TEXT>Or expand and shield battery every base and win its unbalanced 100% against tvp</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_51_0</DOCNO>
+            	<TEXT>arena pummel macro</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_51_1</DOCNO>
+            	<TEXT>i remeber a macro i used to have was something given by swift along the lines of  /cast \\@arena1 pummel /cast \\@arena2 pummel /cast \\@arena3 pummel  it would pummel the closest target or something along the lines anyone remember what im talking about or can help would appreciate  i do have a focus pummel macro already</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_52_0</DOCNO>
+            	<TEXT>found it [https://www.mmo-champion.com/threads/946968-An-actually-useful-macro-from-Swifty](https://www.mmo-champion.com/threads/946968-An-actually-useful-macro-from-Swifty)  idk if still works or not</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_53_0</DOCNO>
+            	<TEXT>My uni experience in one slide.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_53_1</DOCNO>
+            	<TEXT>Ngl after i have my degree i still know nothing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_54_0</DOCNO>
+            	<TEXT>Why protoss is insanly op</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_54_1</DOCNO>
+            	<TEXT>You cannot attack due to shield being op one unit kills 5 of mine i cant win late game just a click fuck this game</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_55_0</DOCNO>
+            	<TEXT>I find him so obnoxious and annoying and a hiding toxic closet nerd in him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_56_0</DOCNO>
+            	<TEXT>I'm saying hes toxic and holds back a lot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_57_0</DOCNO>
+            	<TEXT>What a gent.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_58_0</DOCNO>
+            	<TEXT>Double rack maruarder, into seige viking is very easy and safe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_58_1</DOCNO>
+            	<TEXT>It counters all these terrans oppening reaper hellion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_59_0</DOCNO>
+            	<TEXT>How is the job prospects after graduating in areas around Windsor and Ontario?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_59_1</DOCNO>
+            	<TEXT>Theres PLENTY of opportunity in this industry you wont have an issue, especially in windsor there's a lot of logistics company since we are a port city (border city) plenty of trucks pass through Huron Church everyday, the most in north america to be honest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_59_2</DOCNO>
+            	<TEXT>I am currently a CS student working in Supply Chain as part time and have been for many years in the industry, its fun and enjoyable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_59_3</DOCNO>
+            	<TEXT>Student life -- cannot answer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_60_0</DOCNO>
+            	<TEXT>The guy was one of the nicest and hardest working students i've ever met.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_60_1</DOCNO>
+            	<TEXT>Honestly, there was no ounce of aggression or violence in him the man was very respectful everywhere he went.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_61_0</DOCNO>
+            	<TEXT>Splunk is good too</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_62_0</DOCNO>
+            	<TEXT>Need addon to tell me when target cast completion is 95%</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_62_1</DOCNO>
+            	<TEXT>For example cast is 2 seconds long  Need the addon to alert me when it reaches 1.8 seconds</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_63_0</DOCNO>
+            	<TEXT> gt;it Thank you wish this to show an icon will play around with it but thanks for the base template</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_64_0</DOCNO>
+            	<TEXT>You can you PM me direct on reddit i'd like to add your btag i got some questions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_64_1</DOCNO>
+            	<TEXT>this is good</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_66_0</DOCNO>
+            	<TEXT>this guy is so cringe</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_67_0</DOCNO>
+            	<TEXT>[PC] warzone looking for try hard duo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_67_1</DOCNO>
+            	<TEXT>want 10 kills to 20 kills each 20-40 as a squad  prefer discord  guesswho#1982</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_0</DOCNO>
+            	<TEXT>Toss is so broken its not even funny</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_1</DOCNO>
+            	<TEXT>I got cheesed by cannon rush, i lived that wasn't the issue, i took over the WHOLE MAP i had 14 bases he had only 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_2</DOCNO>
+            	<TEXT>I built turrets EVERYWHERE I mean legit there wasn't one pixel of the map that didn't have a turret, and THORS for days.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_3</DOCNO>
+            	<TEXT>Sky toss on 3 bases manages to still win ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_4</DOCNO>
+            	<TEXT>Please explain to me why is this allowed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_5</DOCNO>
+            	<TEXT>I had 3/3 upgrades turret upgrades every single thing possible i even tried nuking his army and it ate it Like why is this allowed This game needs to be balanced HEAVILY every game i have to try my ass off against toss  They are very forgiving where it isn't for me as terran.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_6</DOCNO>
+            	<TEXT>1 unit of their can solo 4 of mine easily with 0 micro  I'm not writing a shit post i legit hear the same thing from every other player how easy it is to play toss.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_7</DOCNO>
+            	<TEXT>This is NOT balanced right now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_8</DOCNO>
+            	<TEXT>You CANNNOT stop a void ray proxy shield battery UNLESS you scout and SEND ALL YOUR SCVS where they have the choice to cancel and you lose all the mine time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_9</DOCNO>
+            	<TEXT>  Toss is unforgiving you CANNOT afford to make a single mistake against them while they can be afk and win.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_68_10</DOCNO>
+            	<TEXT>This game needs our devs to look at this game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_69_0</DOCNO>
+            	<TEXT>There can't be a state of game of "dont let them get full army" thats just not strategy .... every race should have equal power at full army hence the term BALANCED.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_70_0</DOCNO>
+            	<TEXT>How can i provide replay ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_71_0</DOCNO>
+            	<TEXT>I went mass marine, mass thor mass everything dude.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_71_1</DOCNO>
+            	<TEXT>It just ate my army.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_72_0</DOCNO>
+            	<TEXT>[https://drop.sc/replay/18482462](https://drop.sc/replay/18482462) Please take a look</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_74_0</DOCNO>
+            	<TEXT>Please don't downvote me this is not a shitpost i was experimenting how if i take the whole map and build a turret EVERYWHERE and mass up on thors there's no way he can beat me yet my experiment failed hence toss is unbalanced</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_75_0</DOCNO>
+            	<TEXT>Hmm ok ill try next time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_76_0</DOCNO>
+            	<TEXT> gt;level 4subject7906Original Poster47 minutes agohttps://drop.sc/replay/18482462 Pleas level 4[**subject7906**](https://www.reddit.com/user/subject7906/)[47 minutes ago](https://www.reddit.com/r/starcraft/comments/m7w2fq/toss_is_so_broken_its_not_even_funny/grdy582/?utm_source=reddit amp;utm_medium=web2x amp;context=3) [https://drop.sc/replay/18482462](https://drop.sc/replay/18482462) Pleas</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_77_0</DOCNO>
+            	<TEXT>My moms slipper</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_78_0</DOCNO>
+            	<TEXT>bloody beat roots ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_79_0</DOCNO>
+            	<TEXT>Can't wait to see his ass get beat legally this time lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_80_0</DOCNO>
+            	<TEXT> gt;alance from time to time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_80_1</DOCNO>
+            	<TEXT>It's only natural.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_80_2</DOCNO>
+            	<TEXT>Take some time off sc2 for a while and when you come back reflect on how your state of mind and emotions resulted in you blaming balance and writing this post.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_80_3</DOCNO>
+            	<TEXT>Watch the replay and read the feedback people gave you on the replay to see how you can improve.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_80_4</DOCNO>
+            	<TEXT>And if you want to vent go post at allthingsterran.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_80_5</DOCNO>
+            	<TEXT>I never made up my mind, but whatever you're the type of neckbeard that makes me cringe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_80_6</DOCNO>
+            	<TEXT>Sure buddy you're right :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_81_0</DOCNO>
+            	<TEXT>Ok thanks ill try next time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_82_0</DOCNO>
+            	<TEXT> gt; protoss can remax with a ton of gates and high dia low masters</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_83_0</DOCNO>
+            	<TEXT>Oooh this got me maddddddddddd</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_84_0</DOCNO>
+            	<TEXT>Oh thank god this blew up, this prof is def going to hear about it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_84_1</DOCNO>
+            	<TEXT>I hope he never has to experience what that country is going through, he's def out of touch of reality.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_85_0</DOCNO>
+            	<TEXT> gt;re clunky units because they're so s Agreed thors are actually so shit lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_86_0</DOCNO>
+            	<TEXT>I like the dictionary method the most to be honest case statements are too boilerplate imo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_87_0</DOCNO>
+            	<TEXT>The gpa from st.clair wont be included for you Uwindsor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_87_1</DOCNO>
+            	<TEXT>I transfered from Chemistry Stclair to CompSci Uwindsor, and just got T's on all my credits indicating transfers, the grades were excluded.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_88_0</DOCNO>
+            	<TEXT>don't come back its painful</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_89_0</DOCNO>
+            	<TEXT>He doesn't want the beatdown he got.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_91_0</DOCNO>
+            	<TEXT>So what if he did, its still an impressive project non the less</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_92_0</DOCNO>
+            	<TEXT>Where can i go to learn this, is it too late ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_93_0</DOCNO>
+            	<TEXT> gt;ds and 1 tree, why not family?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_93_1</DOCNO>
+            	<TEXT>Same goes for the He beat the fuck out of everyone dude even when you rooted against him .... TF you talking bout</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_94_0</DOCNO>
+            	<TEXT>MY fav duo fuck imma miss them</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_96_0</DOCNO>
+            	<TEXT>Meowling Upgrades available: Talons (+2 damage to light units) Hiss (Enemy units run in terror)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_98_0</DOCNO>
+            	<TEXT>Damn that's a lot of dps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_99_0</DOCNO>
+            	<TEXT>to be fair its impossible to beat mass carrier once their made.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_100_0</DOCNO>
+            	<TEXT>I had one that did both and he still won even when i had 8 vs 4 base and mass every single possible unit while having a turret everywher on the map ... i STILL lost</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_101_0</DOCNO>
+            	<TEXT>im in masters sadly lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_102_0</DOCNO>
+            	<TEXT>damn this host is so aggressive lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_103_0</DOCNO>
+            	<TEXT>I was having issues too i find building liberators and tanks helped me a lot along with EMP's</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_104_0</DOCNO>
+            	<TEXT>Cyclone reminded me of a particular Red Alert 3 Allied Unit mechanic</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_105_0</DOCNO>
+            	<TEXT>If i scout double gas no factory i know somethings up</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_106_0</DOCNO>
+            	<TEXT> gt;lem is with that build done properly, you place the factory back enough behind your depot rax depot wall that they cant see wheth Correct but that would be inificient to not use an addon created by the barracks, and if you 2nd supply wall'd i know ok you haven't expanded so it's an easy expac + bunker for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_107_0</DOCNO>
+            	<TEXT>what movie is this from ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_108_0</DOCNO>
+            	<TEXT>Bunker marine widow mine spam and proxy reaper to his main.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_108_1</DOCNO>
+            	<TEXT>Masters haven't lost doing it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_109_0</DOCNO>
+            	<TEXT> gt;oss main, 1 reaper is hard countered.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_109_1</DOCNO>
+            	<TEXT>Unless you mean more reapers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_109_2</DOCNO>
+            	<TEXT>I feel like recall on 1 void ray would shut it down har You want the recall, it's when you pull the boys and kill the pylons</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_111_0</DOCNO>
+            	<TEXT>Same i'm actually intrested</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_112_0</DOCNO>
+            	<TEXT>Sorry you cant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_112_1</DOCNO>
+            	<TEXT>if you played toss for 20 years you've developed horrible habits because the race is just too fucking easy to play.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_112_2</DOCNO>
+            	<TEXT>Terran will NOT treat you friendly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_113_0</DOCNO>
+            	<TEXT>Man ppl need to learn sarcasm</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_114_0</DOCNO>
+            	<TEXT>Never new about that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_115_0</DOCNO>
+            	<TEXT>Same i have killer internet and its just pure dog shit on reddit super slow idk they dont seem very optmized compared to other sites.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_115_1</DOCNO>
+            	<TEXT>It takes a good lag to load anything ... even comments :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_117_0</DOCNO>
+            	<TEXT>Damn ... thats real nostalgia!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_118_0</DOCNO>
+            	<TEXT>[PC] NA - DUO - HIGH KD</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_118_1</DOCNO>
+            	<TEXT>i got a kd of 2 and want to land like 10 kills each bounty only fast pace no rage</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_119_0</DOCNO>
+            	<TEXT>[PC][NA][DUO] SWEATY TRY HARD</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_119_1</DOCNO>
+            	<TEXT>WANT TO GET AT LEAST 10-15 KILLS EACH.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_120_0</DOCNO>
+            	<TEXT>what movie ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_123_0</DOCNO>
+            	<TEXT>I love Mines + Hellions lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_125_0</DOCNO>
+            	<TEXT>I wonder what the outcome is, does the last infestor own all the units nuerald ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_126_0</DOCNO>
+            	<TEXT>essentially if that's true, it just costs one more infestor to "un" nureral ur unit I guess lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_127_0</DOCNO>
+            	<TEXT>This needs all the upvotes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_129_0</DOCNO>
+            	<TEXT>CLEARLY a joke guys chill</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_130_0</DOCNO>
+            	<TEXT>Can you please dm mee to i'd liek a copy ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_0</DOCNO>
+            	<TEXT>Masters here What do I work on to get better at just "doing it all" and managing an attack while also putting down more production, expanding, etc?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_1</DOCNO>
+            	<TEXT>When you attack you want to setup yourself up that the attack can last 4-5 seconds so you know you can A click and not micro, and then jump to base and produce factory, rax, starport, engi, armory supply depot etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_2</DOCNO>
+            	<TEXT>How do you attack in such scenarios?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_3</DOCNO>
+            	<TEXT>Do a drop where the enemy isnt.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_4</DOCNO>
+            	<TEXT>they are required to travel to where the attack is buying yhou some time, to quickly jump to base macro, and jump back to pick them up and save them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_5</DOCNO>
+            	<TEXT>Also you should try abusing terran's queue ability, queing 5 scvs and 5 marines and 3 tanks etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_6</DOCNO>
+            	<TEXT>if you know you're about to be in a battle that's very micro intesive and requires full attention, just slap your keyboard on production it takes 1-2 seconds, then engage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_131_7</DOCNO>
+            	<TEXT>Rule of thumb, put production down and instantly attack, you can make a reaper, and expand thats a very safe build, just make sure you have your Orbitals/CC's on a VERY VERY easy hotkey, mine is on my mouse, i can access it anytime instantly and produce scvs, make sure you double queue everything until you reach top dia, I am in masters now and JUST started double queueing EVERYTHING and have found this to increased my win rates a lot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_132_0</DOCNO>
+            	<TEXT>New thought - Usign AI to Balance</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_132_1</DOCNO>
+            	<TEXT>Why not use Deepmind to play it self a million times over with each race to optimize for balance between the races.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_132_2</DOCNO>
+            	<TEXT>In theory since its a AI that can play "perfectly" it will really outline units that outperform in the world of "perfection" anyways i know blizz is disbanded sc2 and the dev team is dead, but just a fun discussion post.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_132_3</DOCNO>
+            	<TEXT>Would be cool to leverage AI to optimize for game balance as the AI plays unbiasedly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_133_0</DOCNO>
+            	<TEXT>Imma be downvoted fuck it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_133_1</DOCNO>
+            	<TEXT>Man as a Syrian this game makes me sad, all ya'll think videos like this are funny but forget the humanity that innocent people were forced into wars :( I live in Canada and love it here but i miss my family i can't see them anymore, it just hurts me because the videos you see of Syria are just used for entertainment for yourself, but this reminds me of the worry i had every day for my family.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_133_2</DOCNO>
+            	<TEXT>Anyways God bless you all have a wonder ful day, I just had to get this off my chest been bugging me for a bit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_134_0</DOCNO>
+            	<TEXT>Damn this makes me sad, hope my family's safe :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_135_0</DOCNO>
+            	<TEXT>Ironforge King</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_137_0</DOCNO>
+            	<TEXT>fedor is putins gangster older brother</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_139_0</DOCNO>
+            	<TEXT>Ok to be honest ill make this short, Just seige + turret + bunker (4 marine) each base, and then trade, always have passive defense, defense that you dont need to engage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_139_1</DOCNO>
+            	<TEXT>And use the rest to keep him engaged.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_139_2</DOCNO>
+            	<TEXT>Split your forces to force more apm on your oponent for example, dont drop 2 vikings in 1 spot, split them up, forcing him to also split etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_140_0</DOCNO>
+            	<TEXT>Is that Herb ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_141_0</DOCNO>
+            	<TEXT>Regular computer sci is more broad and doesnt dig you in a special niche unless you want that niche</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_142_0</DOCNO>
+            	<TEXT>Don't you EVER kill my scv again !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_142_1</DOCNO>
+            	<TEXT>You hear me !?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_143_0</DOCNO>
+            	<TEXT>That 1 scv meant the world to me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_144_0</DOCNO>
+            	<TEXT>TIL clicking those critters makes em go away who woulda knew</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_145_0</DOCNO>
+            	<TEXT>Whats the chances that i just started watching this show then this meme Netflix i guess</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_146_0</DOCNO>
+            	<TEXT>whats going on ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_147_0</DOCNO>
+            	<TEXT>Try to stay away from wyandotte and the west end</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_148_0</DOCNO>
+            	<TEXT>HOly fucky moly</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_149_0</DOCNO>
+            	<TEXT>What a good interview, enjoyed this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_150_0</DOCNO>
+            	<TEXT>[PC] DUO TRIALS LF SWEATY 2KDR+</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_150_1</DOCNO>
+            	<TEXT>EZ dm ur tag</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_151_0</DOCNO>
+            	<TEXT>Bans don't work like that, you used them lel</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_152_0</DOCNO>
+            	<TEXT>MINE LIBERATOR</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_154_0</DOCNO>
+            	<TEXT>Can't watch this :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_155_0</DOCNO>
+            	<TEXT>we care so much</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_157_0</DOCNO>
+            	<TEXT> gt;ake step back from that plans when you still ca I agree its a frustrating game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_158_0</DOCNO>
+            	<TEXT>im not a pro, im master i cant micro the battle at all i lose</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_159_0</DOCNO>
+            	<TEXT>all toss do is a click disruptor/storm win</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_160_0</DOCNO>
+            	<TEXT>no im done standing watching my army get 1 shot with 2 abilities, lol even mines + tanks have NO WHERE near the 1 shotting bull shitt ive seen</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_161_0</DOCNO>
+            	<TEXT>Can someone explain what "happened" the scandal?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_162_0</DOCNO>
+            	<TEXT>PC REQUEST - Let us use #'s on they keyboard as an additional option at the buy station</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_162_1</DOCNO>
+            	<TEXT>Would be awesome to also include the ability to use # keys 1-9 at the buy station as well with how we can buy now right now For example: Armor Plate 1 UAV 6 etc.... This way we can buy what we need faster, and with less micro / hassle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2837_163_0</DOCNO>
+            	<TEXT>slap your keyboard and overque before a fight</TEXT>
+        </DOC>

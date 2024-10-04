@@ -1,0 +1,467 @@
+        <DOC>
+            	<DOCNO>s_379_0_0</DOCNO>
+            	<TEXT>Yeah, admittedly the title is super link-baity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_0_1</DOCNO>
+            	<TEXT>It was originally titled "The iOS Developer's Toolbelt", but a friend suggested to change it to see how it affected traffic.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_0_2</DOCNO>
+            	<TEXT>As for the woodworker analogy... having a few woodworkers in the family, I think I just might hear that :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_1_0</DOCNO>
+            	<TEXT>NSUserDefaults should not be cleared at all in this scenario.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_1_1</DOCNO>
+            	<TEXT>AFAIK you are correct.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_1_2</DOCNO>
+            	<TEXT>Keychain behaves differently in that (IIRC) it can persist across app delete, does not get restored via iCloud Restores, *does* get restored with iTunes backups.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_1_3</DOCNO>
+            	<TEXT>I do think storing this in Documents might be better so you can have more control (i.e. included in backups by default) and you're not dependent on current NSUserDefaults behavior.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_1_4</DOCNO>
+            	<TEXT>Hope this helps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_2_0</DOCNO>
+            	<TEXT>The SSD will give you more bang-for-the-buck.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_2_1</DOCNO>
+            	<TEXT>Here's a 512GB Samsung 850 EVO for $157 https://www.amazon.com/Samsung-850-EVO-2-5-Inch-MZ-75E500B/dp/B00OBRE5UE You can get them under $100 if you go for smaller, but then you might be space-constrained.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_2_2</DOCNO>
+            	<TEXT>This will absolutely breathe new life into the machine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_2_3</DOCNO>
+            	<TEXT>I would also advice to upgrade to 8GB when you can afford it, but SSD would be my first upgrade.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_3_0</DOCNO>
+            	<TEXT>It will work, however Xcode will likely be incredibly slow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_4_0</DOCNO>
+            	<TEXT>Take a look at thumbRect(forBounds:trackRect:value:).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_4_1</DOCNO>
+            	<TEXT>This will give you the exact rect that UIKit will use to draw the thumb image.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_4_2</DOCNO>
+            	<TEXT>Using this, you can compute the center point and use drawRect in your custom view to draw the line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_4_3</DOCNO>
+            	<TEXT>One option would be to have your controller listen for the valueChanged on each slider and call `customView.setNeedsDisplay()` or have your custom view encompass the sliders.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_0</DOCNO>
+            	<TEXT>First thing I noticed was the .DS_Store files in the repo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_1</DOCNO>
+            	<TEXT>These should ideally be ignored at the system level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_2</DOCNO>
+            	<TEXT>Open up ~/.gitignore_global and make sure that file listed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_3</DOCNO>
+            	<TEXT>Then you should remove them from the repo: find .</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_4</DOCNO>
+            	<TEXT>-name .DS_Store | xargs git rm --cached This will remove them from git but leave them on your local disk.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_5</DOCNO>
+            	<TEXT>Then make a commit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_6</DOCNO>
+            	<TEXT>From this point on they should be ignored and git won't add them as you add new folders  amp; files and make new commits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_7</DOCNO>
+            	<TEXT>I would also move each delegate protocol into its own file, so they are easy to locate. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_8</DOCNO>
+            	<TEXT>i.e. I know I'm looking for a WeatherDataDelegate, but where is it?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_9</DOCNO>
+            	<TEXT>I typically call my delegate methods on the main queue to avoid my controller being responsible for that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_10</DOCNO>
+            	<TEXT>Certainly this is not a universal rule, but if you can make the case for it, I think it makes for slimmer controllers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_11</DOCNO>
+            	<TEXT>Lastly, it's not a great idea to embed your apiKey in an open source project like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_12</DOCNO>
+            	<TEXT>Chances are near 100% someone will search for this and find your key, which opens up their API to abuse.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_13</DOCNO>
+            	<TEXT>An approach I really like is using Cocoapods-keys (but I wouldn't recommend this unless you're already using Cocoapods).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_14</DOCNO>
+            	<TEXT>Another approach is to keep this file out of source control using the method above.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_15</DOCNO>
+            	<TEXT>The project won't compile for others that clone it, but with a note in the README it might not be a big deal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_5_16</DOCNO>
+            	<TEXT>All of this feedback isn't to say that the example is bad (in fact the code is quite clean), but you asked for feedback and so there's my nitpicks :) Cheers to you for opening your project up for criticism from the internet!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_6_0</DOCNO>
+            	<TEXT>AppleScript for adding Checklist items?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_6_1</DOCNO>
+            	<TEXT>I'm trying to create an Alfred task that creates a template Todo with a checklist of items underneath.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_6_2</DOCNO>
+            	<TEXT>So far I'm able to create the todo in the project I want it in, but I don't see any documentation on creating checklists.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_6_3</DOCNO>
+            	<TEXT> Here's what I have so far:  on alfred_script(q) tell application "Things3" activate set episode to q set newTodo to make new to do with properties {name:episode, notes:"This template was generated by Alfred and AppleScript"} at end of project "Episodes" show project "Episodes" end tell end alfred_script This works, however I want my task to look like this: https://preview.redd.it/vsie31rwk3121.png?width=1430 amp;format=png amp;auto=webp amp;s=7b11fd8b255e2ab79d250d64f09f24197554fda5 I suppose I could change my process up to turn this into a new \_Project\_ with these as tasks, but this is a process I repeat every week.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_6_4</DOCNO>
+            	<TEXT>So I have 2 questions I guess: 1) Can you add checklists with AppleScript?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_6_5</DOCNO>
+            	<TEXT>2) Should this really be a Project with tasks?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_0</DOCNO>
+            	<TEXT>This is one of those questions that never has a solid answer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_1</DOCNO>
+            	<TEXT>And the reason there is not one good answer to this is that inherently there is not one great way to make an iOS app.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_2</DOCNO>
+            	<TEXT>Even within Apple's realm of tools (Xcode, Storyboards) and frameworks (Core Data, etc) you won't find much consensus on there being "one right way to do it" Every approach has downsides (sometimes fairly egregious ones), but it all comes down to your needs, what you're comfortable with, and what your style is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_3</DOCNO>
+            	<TEXT>For beginners, it can be extremely helpful to see things laid out on screen, especially when dealing with autolayout constraints.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_4</DOCNO>
+            	<TEXT>However, for complex nesting of component views, custom fonts, themes, custom drawing, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_5</DOCNO>
+            	<TEXT>Sometimes your storyboards end up looking like half a mess of blue rectangles and you don't get much by having it there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_6</DOCNO>
+            	<TEXT>When working on a team, it is often difficult to manage multiple people touching storyboard files, as merging these files is not fun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_7</DOCNO>
+            	<TEXT>For me I try to strike a good balance: Use storyboards most of the time, as soon as something is painful or I feel like I'm fighting the tool, I start doing things in code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_8</DOCNO>
+            	<TEXT>But that's just me and you could make a solid argument for doing everything in code and I'd probably nod along with you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_9</DOCNO>
+            	<TEXT>I also try to isolate view controllers into their own storyboards (sometimes have multiple, if I'm using child view controllers).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_7_10</DOCNO>
+            	<TEXT>I tend to not use segues for larger apps, and prefer using something like the coordinator pattern to connect my view controllers together.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_8_0</DOCNO>
+            	<TEXT>2 common ways to solve this: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_8_1</DOCNO>
+            	<TEXT>a 1pt tall view (or `1/UIScreen.main.scale` if you want it to be a crisp 1px on retina screens).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_8_2</DOCNO>
+            	<TEXT>Position with constraints at the bottom of the header view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_8_3</DOCNO>
+            	<TEXT>Set the class of the custom cell to a custom subclass and override `drawRect` to draw it:  // not compiled, may contain typos class CustomTableViewHeaderCell : UITableViewCell { override void drawRect(_ rect: CGRect) { guard let context = UIGraphicsGetCurrentContext() else { return } UIColor.lightGray.setStroke() context.setLineWidth(1) // or the same trick as above context.move(to: CGPoint(x: rect.minX, y: rect.maxY - 1)) context.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY - 1)) context.strokePath() } } You may need to adjust the y value according to your line width to ensure you align on a pixel boundary for a sharp line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_9_0</DOCNO>
+            	<TEXT>Combine for Mere Mortals</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_9_1</DOCNO>
+            	<TEXT>Just saw this subreddit and it was empty, so I thought I'd (shamelessly) plug my new course here. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_9_2</DOCNO>
+            	<TEXT>Combineswift.com](https://Combineswift.com) I found learning Combine to be somewhat difficult, so I made the course I wish I had when I was starting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_9_3</DOCNO>
+            	<TEXT>I hope you find it useful!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_10_0</DOCNO>
+            	<TEXT>I don't think you'll find consensus on a "proper" way to do it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_10_1</DOCNO>
+            	<TEXT>I think this approach is perfectly fine if it works for you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_10_2</DOCNO>
+            	<TEXT>There are times when you want to isolate your UI from CoreData entities, and in a larger app I'd advise to do this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_10_3</DOCNO>
+            	<TEXT>Core Data is a big dependency and has influence over the types of your properties, whether or not they are nil, and can have threading concerns that you have to be aware of when using them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_10_4</DOCNO>
+            	<TEXT>So in my apps I'll often treat Core Data as a persistence layer only, and instead convert them to my own model objects (that are plain structs or classes) that I can shape however I need.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_11_0</DOCNO>
+            	<TEXT>You have to do this manually, but in broad strokes I usually do something like this: `ImportOperation` downloads and saves Core Data entities to the store `LoadOperation` fetches records from CoreData and converts to my own model objects for use in my UI like this: `class EpisodeEntity: NSManagedObject { .... }` `struct Episode { ... }` Then when I'm loading the data for the app, I map the entities to my model objects `let entities = loadEpisodesFromCoreData()` `let episodes = entities.map { e in` `Episode(id: e.serverId, name:` [`e.name`](https://e.name)`, videoURL: URL(string: e.urlString))` `}` This works well in a read-only setup like I have, if you have to mutate these it gets more complicated, but the same idea holds.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_11_1</DOCNO>
+            	<TEXT>Keep your app talking to your model objects, and marshal those objects to/from CoreData as needed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_11_2</DOCNO>
+            	<TEXT>I find that this approach gives me more flexibility in my model, where to put error handling logic and validations, etc, and leave CoreData just for persistence.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_11_3</DOCNO>
+            	<TEXT>One area this can be useful is to provide default values, to convert data (like in this case from a string to a URL) or to ignore records that are malformed and can't be fully represented.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_11_4</DOCNO>
+            	<TEXT>Having a layer in between gives you this flexibility.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_11_5</DOCNO>
+            	<TEXT>In simpler apps where I just use CoreData entities *as* my model, the CoreData specific restrictions and implications end up leaking all over the place.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_11_6</DOCNO>
+            	<TEXT>I don't really care for it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_12_0</DOCNO>
+            	<TEXT>Are you open to only updating the collection view when the user releases their touch on the slider?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_12_1</DOCNO>
+            	<TEXT>If so you can set `isContinuous` to false on your slider and you'll only get the `valueChanged` event when they release: [https://developer.apple.com/documentation/uikit/uislider/1621340-iscontinuous](https://developer.apple.com/documentation/uikit/uislider/1621340-iscontinuous) Also, are you doing any extra work on the main queue during cell reload?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_12_2</DOCNO>
+            	<TEXT>This would cause the app to feel really clunky during updates.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_13_0</DOCNO>
+            	<TEXT>There are push notification services that can do this for you, for instance [OneSignal](https://onesignal.com).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_13_1</DOCNO>
+            	<TEXT>Your backend needs to keep track of the data and device tokens, and then you can make an API call to OneSignal to send a push notification only to specific users.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_13_2</DOCNO>
+            	<TEXT>Another option (though I haven't used it) is [Firebase](https://firebase.google.com/docs/cloud-messaging/).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_14_0</DOCNO>
+            	<TEXT>Do you have a Launch Storyboard?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_14_1</DOCNO>
+            	<TEXT>One sort of "hidden" feature of iOS is that it reverts to a much older layout if you don't have one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_14_2</DOCNO>
+            	<TEXT>If you don't, create one and make sure it is referenced in your project settings: [https://cln.sh/gKI4YV](https://cln.sh/gKI4YV)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_15_0</DOCNO>
+            	<TEXT>I'd do this as a JSON file and use `JSONDecoder` along with some Codable models to decode the data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_15_1</DOCNO>
+            	<TEXT>You could also do the same thing with a plist file (using `PropertyListDecoder`) if you want to be able to edit them using Xcode's plist editor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_16_0</DOCNO>
+            	<TEXT>I think writing command line apps is a good way to use Swift in a new way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_16_1</DOCNO>
+            	<TEXT>Lots of things are just different on the command line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_16_2</DOCNO>
+            	<TEXT>Swift Argument Parser is amazing, as is the Files package by John Sundell for working with files and folders a bit easier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_16_3</DOCNO>
+            	<TEXT>I recently converted some of my ruby scripts I use to encode NSScreencast videos over to Swift to get a real world idea of what the experience is like.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_16_4</DOCNO>
+            	<TEXT>It was a worthwhile exercise. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_16_5</DOCNO>
+            	<TEXT>also recorded a series on it)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_17_0</DOCNO>
+            	<TEXT>What you're looking for is `AVSpeechSynthesizer` [https://developer.apple.com/documentation/avfoundation/avspeechsynthesizer](https://developer.apple.com/documentation/avfoundation/avspeechsynthesizer)  The basic steps: * Create an `AVSpeechUtterance` with the word you want to speak * Pass it to the `speak()` method of the synthesizer * There are delegate methods provided that tell you when speech starts, stops, etc</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_18_0</DOCNO>
+            	<TEXT>Yay for internet points!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_18_1</DOCNO>
+            	<TEXT>Glad I could be of some help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_19_0</DOCNO>
+            	<TEXT>Great post!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_19_1</DOCNO>
+            	<TEXT>Though I think SnapKit is pretty great, you make a good point that it's not rocket science and pretty easy to build the 80% case yourself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_20_0</DOCNO>
+            	<TEXT>Combine for Mere Mortals</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_21_0</DOCNO>
+            	<TEXT>Manually entering in this data sounds like an enormous headache, especially considering menus change, opening hours change (seasonally for instance).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_21_1</DOCNO>
+            	<TEXT>The ongoing maintenance of this data would be arduous.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_21_2</DOCNO>
+            	<TEXT>The caveat to this statement is that if you can't manage to get the data you need via an API, then building and owning the data yourself is a competitive advantage and a deterrent for competitors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_21_3</DOCNO>
+            	<TEXT>A while back I was involved in a large project where we needed to get accurate information about venues and touring musicians, and we were always at the whim of our data provider APIs, which all had drawbacks (API quality, data completeness, performance/availability, etc).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_21_4</DOCNO>
+            	<TEXT>Despite all these issues we still avoided trying to be our own source of data and try to manage it all ourselves.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_21_5</DOCNO>
+            	<TEXT>Hope this helps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_22_0</DOCNO>
+            	<TEXT>Is this really an error? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_22_1</DOCNO>
+            	<TEXT>is something crashing?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_22_2</DOCNO>
+            	<TEXT>Where are you calling that line of code?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_22_3</DOCNO>
+            	<TEXT>I wouldn't be surprised if there's a bug in that framework and it just hasn't been fixed yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_23_0</DOCNO>
+            	<TEXT>Another way is `String(someInt)`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_0</DOCNO>
+            	<TEXT>Open URLs with colon characters in nvim</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_1</DOCNO>
+            	<TEXT>I'm working on a command to open Dash (documentation viewer) with the word under the cursor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_2</DOCNO>
+            	<TEXT>Dash supports urls like this: `dash://rails:validates_presence_of` and will search the language/docset with the query after the colon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_3</DOCNO>
+            	<TEXT>The above URL works fine if I open it outside of nvim.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_4</DOCNO>
+            	<TEXT>In my `init.vim` I have this: " Dash integration for documentation searches command!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_5</DOCNO>
+            	<TEXT>DashSwift !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_6</DOCNO>
+            	<TEXT>open dash://apple:"
+    cword" nmap K :DashSwift
+    cr\|:redraw!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_7</DOCNO>
+            	<TEXT>
+    crThe idea is that in \*.swift files I can have K open up the apple docs for the word under the cursor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_8</DOCNO>
+            	<TEXT>open dash://apple` works, but `dash://apple:"flatmap"` does not, it gives the following error:  gt;No application knows how to open URL dash://apple:flatmap The issue appears to be the 2nd colon in the url.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_9</DOCNO>
+            	<TEXT>I have tried escaping it with \\, but that doesn't seem to work either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_379_24_10</DOCNO>
+            	<TEXT>Also tried replacing with `\%5c` and also did not work.</TEXT>
+        </DOC>

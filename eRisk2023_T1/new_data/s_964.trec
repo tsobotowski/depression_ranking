@@ -1,0 +1,1265 @@
+        <DOC>
+            	<DOCNO>s_964_0_0</DOCNO>
+            	<TEXT>Look what I've always had! [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_1_0</DOCNO>
+            	<TEXT>PIUS cannot sign a UID</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_1_1</DOCNO>
+            	<TEXT>I have 4 UIDs attached to my key 0x22EEE0488086060F. It seems that the XMission UID trips up PIUS when signing keys, complaining that the secret key is not available.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_1_2</DOCNO>
+            	<TEXT>Signing normally, or when using caff(1) behaves normally.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_1_3</DOCNO>
+            	<TEXT>I've tried digging into this, but no luck.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_1_4</DOCNO>
+            	<TEXT>Any help would be appreciated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_2_0</DOCNO>
+            	<TEXT>My Keybase proof [reddit:subject6030 = keybase:subject6030] (y-nT3t4jlTvV4ov9tjcBqxzQOJAU-REfeVczkx1Epcw)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_2_1</DOCNO>
+            	<TEXT>### Keybase proof I hereby claim: * I am [subject6030](https://www.reddit.com/user/subject6030) on reddit. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_2_2</DOCNO>
+            	<TEXT>I am [subject6030](https://keybase.io/subject6030) on keybase. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_2_3</DOCNO>
+            	<TEXT>I have a public key whose fingerprint is E041 3539 273A 6534 A3E1 9259 22EE E048 8086 060F To claim this, I am signing this object: { "body": { "key": { "fingerprint": "e0413539273a6534a3e1925922eee0488086060f", "host": "keybase.io", "key_id": "22eee0488086060f", "kid": "01118a7abb7cf3430231eee0b55e9efb2e1e36b7b167d39ee6b6343cc98f2ab6d6250a", "uid": "87eccccb54b10b58c94642a807336600", "username": "subject6030" }, "service": { "name": "reddit", "username": "subject6030" }, "type": "web_service_binding", "version": 1 }, "ctime": 1419893056, "expire_in": 157680000, "prev": "38d401523c9897de962db891af6ce1a617f006751ec103a267e1636a1f3b950d", "seqno": 7, "tag": "signature" } with the PGP key referenced above, yielding the PGP signature: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp owNCWmg2MUFZJlNZgYRHMQABU////3v/Bn7d///ftKd2v+///6y62y7r/Gf/7+/q r3/d9h/AAhc47u6cCpBqNMjQaAADQaaDQDQAAAAAA00BpoAaAADQ0DRoaBppkGmT Q0yNGTTTTahVTIyNNqGgaMgDQAaBpk2o00AHpAaAAZAYnqAZNBpoDRoAAA0AGgAy aA0aAihphqNGqGpp6jExAYTQDTBDJkaNPUwmmENBoANMCDCDIMTTTRo0DTBGmQyG QyaNGJoYRNIQ01T2min6mgTT1GT00AEMENDQyYAADQjR6CYEYTTQZDJtTTZT1GT0 AAAgxGRiMjQxoIDjb+IeCfFLWLckW69cnlkApMEywSZNvuoG0oPAKsT2J4RO+igW 7XadhtTMXfJtzrhNrYC1aw/frJsAOC0GtA4BOELIFbwBioPDKlEoiJRKJRARAgmE +aLqzk6rL/7RhRzBIQTKQSgF9vpIN+QRWNOvPZ0zRWQqoEIW/HGMdgwbx8grUGRd BTmIZejXFOqErrZmmTLiplNGFeUxHpzip0inSxChFpKs5jcoQ646FU/FAjtA4VQi d4AssHEDPQMD842gVFbOy2ll4vADAoO6pswEcXU4wUgIDQKBCAQLhKoRoYYx0aW4 YGNAGNHhBBSAoLWru4nLYVbWIk+PlEmRMqaVHBXNdYmYbJ9HodQHEmsftTl+t55q tZV4hnxWbMUQGFh4cYGZGmo+XGHRx+hZiIYBqmTCapR3JAJP4oddf+U3ZT613WOd 1RgCJnsTBYVcqbJGkNVqHg809KhbkcCjWCDlJpZp/KnSFS+K14zCQ600IFYStxOK wB3eGs9DDS9UmDUPt0TK8EzgJAi+Rq9mY+vXMYNlLE7n5S0AcftMnHghZLAUsTAN I6HMzivSZVwMA82HC4vGBFaXlQEHyVilYCgCXzA1QAsRQQPXvhzI8hd4UxC6RKgA uTPYAp/YiwDmPE+G3OSClGxQWFgKokKb95/OIju0ixPDrSaSDjQF/jIrPIwld3n7 Umyx9JAAIb6RceRuMIoELlzNkrcLQudFr9N5U6i71TgKDxyr5GsV6BQ3G2xUpRoM bZIE1rC9W8JhL7uQvnLT9xSMGWgfZLwU2d8QuAuMq4kRl+LH3DZifi3F/jlRd6pE omjBP4kKe6lmAic7LJmhqzwn+LuSKcKEhAwiOYg= =KZEH -----END PGP MESSAGE----- Finally, I am proving my reddit account by posting it in [KeybaseProofs](https://www.reddit.com/r/KeybaseProofs).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_3_0</DOCNO>
+            	<TEXT>Turn Temporarily Pauses Their Use Of Verizon's Sneaky 'Zombie' Cookie</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_4_0</DOCNO>
+            	<TEXT>SWATd is a daemon for running scripts when your house gets raided by the police (or broken into by criminals).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_5_0</DOCNO>
+            	<TEXT>My Conversation with Edward Snowden</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_6_0</DOCNO>
+            	<TEXT>My repository of known playing card ciphers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_7_0</DOCNO>
+            	<TEXT>Cut off from Wi-Fi, Cuban youngsters build secret computer network</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_8_0</DOCNO>
+            	<TEXT>Total US Ham Licenses from July 1, 1997.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_9_0</DOCNO>
+            	<TEXT>My FrontRunner Christmas village train is ready</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_10_0</DOCNO>
+            	<TEXT>The practical result of OpenBSD's support policy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_11_0</DOCNO>
+            	<TEXT>KD0TLS ham radio experience: Epic Rant</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_12_0</DOCNO>
+            	<TEXT>Does your filesystem murder your wife?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_13_0</DOCNO>
+            	<TEXT>Only on Groundhog's day, can I post text upside down.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_14_0</DOCNO>
+            	<TEXT>Salt Lake City has reached 66 degrees, breaking the old record of 63 set in 1934.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_15_0</DOCNO>
+            	<TEXT>Standing desk workstation and disk shredder</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_0</DOCNO>
+            	<TEXT>Private "everything Inbox" RSS feed inconsistent</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_1</DOCNO>
+            	<TEXT>First, I have a Python script I wrote to send me an SMS alert for any messages sent to my Inbox.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_2</DOCNO>
+            	<TEXT>The script is here (completely sanitized): http://ae7.st/p/8kb.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_3</DOCNO>
+            	<TEXT>This Python script is in cron that is executed every 15 minutes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_4</DOCNO>
+            	<TEXT>The algorithm is as follows: * Retrieve the private RSS feed and parse it for the "GUID" (URL to the notice/message/reply) and the "date".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_5</DOCNO>
+            	<TEXT>There are a total of 100 items in the feed. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_6</DOCNO>
+            	<TEXT>Open an SQLite database, and for each GUID in the RSS feed, check if that GUID exists in the database. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_7</DOCNO>
+            	<TEXT>If the GUID does not exist, then INSERT it, send an SMS alert, and rotate the database table, so the most recent 100 items exist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_8</DOCNO>
+            	<TEXT>The SQLite database only has two columns- "guid" and "date", where the "guid" is the primary key.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_9</DOCNO>
+            	<TEXT>What has been observed, is two things: * it seems there are different servers in different timezones generating the RSS feed, as the datetime will change on some entries and not others.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_10</DOCNO>
+            	<TEXT>This isn't a problem with my script, ~~as I am not relying on date, except when troubleshotting issues like what I'm seeing currently~~. Actually, I sort the entries in the table by the date in descending order.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_11</DOCNO>
+            	<TEXT>I haven't seen this create an issue yet though, although I haven't looked deeply. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_12</DOCNO>
+            	<TEXT>If someone posts a reply to a comment, then later decides to remove the comment, the entry in the RSS feed will disappear, rather than just return a 404 when trying to visit the URL.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_13</DOCNO>
+            	<TEXT>This creates an inconsistency with the database.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_14</DOCNO>
+            	<TEXT>As such, an old item that has moved out of the 100-item sliding window returns, and appears as a new item to the database, thus creating a new SMS alert.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_15</DOCNO>
+            	<TEXT>Of course, for item #2, I could just not worry about rotating the database with the latest 100 items, and let it grow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_16</DOCNO>
+            	<TEXT>But, that seems an inefficient use of disk space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_17</DOCNO>
+            	<TEXT>So, before rotating the database, I must check if there are any entries in the database to remove, then add any old items from the RSS feed to the table, without sending the SMS alert.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_18</DOCNO>
+            	<TEXT>Thus, complicating the script.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_16_19</DOCNO>
+            	<TEXT>IMO, the RSS feed should leave removed items in the feed, while an attempt to visit it, returns a 404 HTTP error.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_17_0</DOCNO>
+            	<TEXT>Together, fellow miniature creature, we will grow big and strong to rule the world</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_18_0</DOCNO>
+            	<TEXT>It's alive!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_18_1</DOCNO>
+            	<TEXT>SCO's decade-old suit against IBM revived in Federal court.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_19_0</DOCNO>
+            	<TEXT>It'ss alive!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_19_1</DOCNO>
+            	<TEXT>SCO's decade-old suit against IBM revived in Federal court.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_20_0</DOCNO>
+            	<TEXT>Otter Pup See, Otter Pup Do</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_21_0</DOCNO>
+            	<TEXT>Protect your Google Account with Password Alert</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_22_0</DOCNO>
+            	<TEXT>Virgin Media stores user passwords on disk in plaintext.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_23_0</DOCNO>
+            	<TEXT>Virgin Media stores user passwords on disk in plaintext.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_24_0</DOCNO>
+            	<TEXT>TLS_ECDHE(Curve25519)_EDDSA_WITH_CHACHA20_POLY1305</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_25_0</DOCNO>
+            	<TEXT>Let's Encrypt Root and Intermediate Certificates created</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_0</DOCNO>
+            	<TEXT>What decision to make given my dilemma?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_1</DOCNO>
+            	<TEXT>I am an active "card-carrying" LDS member who has recently entered a very serious crisis of faith.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_2</DOCNO>
+            	<TEXT>First, some back story.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_3</DOCNO>
+            	<TEXT>I attended a full 2-year mission for the Church.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_4</DOCNO>
+            	<TEXT>I married in the Temple, and have been an active member of the Church, accepting every calling, volunteering at activities, events, blood drives, you name it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_5</DOCNO>
+            	<TEXT>I have also faced stiff criticism from extended family members who are either exmormons, or non-members.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_6</DOCNO>
+            	<TEXT>I have always been good at rebutting their criticisms and analyses.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_7</DOCNO>
+            	<TEXT>I am deeply familiar with Jerald and Sandra Tanner, John Dehlin, and recently, Jeremy Runnells "CES Letter".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_8</DOCNO>
+            	<TEXT>I am even familiar with many of the essays that the Church has been putting out recently addressing concerns in its history.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_9</DOCNO>
+            	<TEXT>To put it short, I'm not ignorant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_10</DOCNO>
+            	<TEXT>Then an exmormon friend of mine linked me to the CES Letter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_11</DOCNO>
+            	<TEXT>I had told him that while I have only skimmed it, I know what it contains.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_12</DOCNO>
+            	<TEXT>He then wanted to discuss Joseph Smith's polygamy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_13</DOCNO>
+            	<TEXT>Up until that point, I had considered Smith's polygamy a falsehood.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_14</DOCNO>
+            	<TEXT>I have reviewed the evidence, of which I considered fractionary and coincidental.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_15</DOCNO>
+            	<TEXT>I even was familiar with the LDS essay, confirming that Smith was a polygamist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_16</DOCNO>
+            	<TEXT>I wasn't convinced.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_17</DOCNO>
+            	<TEXT>The "evidence" they presented was the same evidence that I had already reviewed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_18</DOCNO>
+            	<TEXT>However, curiosity got the best of me, so I decided to see if the CES Letter had any new evidence to bring forth.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_19</DOCNO>
+            	<TEXT>It was at this point, that the "evidence" I had reviewed, was the evidence that the LDS Church would want me reviewing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_20</DOCNO>
+            	<TEXT>I honestly had not looked for evidence outside of the LDS faith.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_21</DOCNO>
+            	<TEXT>So, needless to say, what I was reading was shocking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_22</DOCNO>
+            	<TEXT>I wasn't sure how to respond, but it was enough to make me want to read the rest of the letter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_23</DOCNO>
+            	<TEXT>As I continued to read Runnells' letter in depth, I realized one thing: my "testimony" was never actually based on any solid reasoning.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_24</DOCNO>
+            	<TEXT>Only "spiritual" feelings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_25</DOCNO>
+            	<TEXT>This is contradictory to what I understand a "testimony" to be.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_26</DOCNO>
+            	<TEXT>I have always assumed that a testimony was a solid, proof-bearing proclamation to a matter (which is why when I bore my "testimony", I never said "I *know* X  amp; Y is true", but instead said "I *believe* X  amp; Y is true").</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_27</DOCNO>
+            	<TEXT>This meant that I needed to test the claims made my Joseph Smith, Jr. and the founders of the LDS Church, as well as current leaders.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_28</DOCNO>
+            	<TEXT>Since investigating and legitimately and sincerely searching for the truth, my faith has been severely wavering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_29</DOCNO>
+            	<TEXT>Pro-LDS apologists approach my concerns with straw-man arguments, without addressing the core issue, or spinning the analysis to something favorable to LDS views.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_30</DOCNO>
+            	<TEXT>When I bring this up, it turns into an argument, which ends up getting emotional, which further complicates the problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_31</DOCNO>
+            	<TEXT>Regardless, my daughter is getting baptized on October 31 (yes, Halloween- how cool is that?).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_32</DOCNO>
+            	<TEXT>I have been looking forward to this my *entire* adult life.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_33</DOCNO>
+            	<TEXT>However, I cannot in good integrity baptize her, knowing that I would very likely no longer believe in the faith, and find the entire Church a fraud.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_34</DOCNO>
+            	<TEXT>This scares me, because I don't want to be the one who is not baptizing her, due to my unbelief.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_35</DOCNO>
+            	<TEXT>So, I had to approach my wife about it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_36</DOCNO>
+            	<TEXT>I debated keeping it a secret well past my daughter's baptism, but that wouldn't be honest to my wife, nor to my daughter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_37</DOCNO>
+            	<TEXT>So, I approached her about my lack of faith.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_38</DOCNO>
+            	<TEXT>She took it much better than I had anticipated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_39</DOCNO>
+            	<TEXT>However, she thinks that this may take a few years to come to a conclusion about my faith crisis.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_40</DOCNO>
+            	<TEXT>So, until I actually make a decision, I might as well continue as a regular lay member, and baptize my daughter when the time comes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_41</DOCNO>
+            	<TEXT>After all, I haven't done anything to jeopardize my ability to baptize her, aside from my faith crisis.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_42</DOCNO>
+            	<TEXT>Full disclosure, my wife, daughter, and I, attend other churches with our daughter, and celebrate different world cultures as a theme for our wedding anniversaries.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_43</DOCNO>
+            	<TEXT>We don't do this as an excuse to find other religions (we're not searching), but we do this to develop a deeper understanding for different faiths and cultures, as a way to encourage religious and cultural tolerance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_44</DOCNO>
+            	<TEXT>We also do not want our daughter to be raised in religious and cultural ignorance, so she can make an informed decision when she gets older.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_45</DOCNO>
+            	<TEXT>But, back to topic, what should I do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_46</DOCNO>
+            	<TEXT>I don't expect my research into the claims of Smith, the founders, and the Church to take longer than 4 months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_47</DOCNO>
+            	<TEXT>Maybe it will, but maybe not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_48</DOCNO>
+            	<TEXT>And if it doesn't, should I still baptize my daughter anyway?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_49</DOCNO>
+            	<TEXT>Even though I would likely think that the whole thing is just one big joke?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_50</DOCNO>
+            	<TEXT>Should my daughter (and wife) be a member of a religion that I don't believe in?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_26_51</DOCNO>
+            	<TEXT>What should I do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_27_0</DOCNO>
+            	<TEXT>Love the Banker, but Hate the Bank: A Plea for Tolerance and Understanding for Our Brothers and Sisters Involved in Usury</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_0</DOCNO>
+            	<TEXT>Card-chameleon challenge #1 - find the key</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_1</DOCNO>
+            	<TEXT>The card-chameleon algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/card-chameleon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_2</DOCNO>
+            	<TEXT>The goal of this challenge is to find the key (unprepared deck order) that produced the ciphertexts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_3</DOCNO>
+            	<TEXT>The following plaintext was encrypted ten times with the same key: I LEARN IN THIS LETTER THAT DON PETER OF ARRAGON COMES THIS NIGHT TO MESSINA The first 26 characters of each ciphertext are the initialization vector.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_4</DOCNO>
+            	<TEXT>The rest is the encrypted plaintext and padding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_5</DOCNO>
+            	<TEXT>Ten ciphertexts were generated, and are as follows: 01.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_6</DOCNO>
+            	<TEXT>RUIEL GJMBA OSCHZ TKWFD NPXQV YLMJU ORYXR ZAMJU RIKWN ZJGQG JLLVE QSNMT XDTKP IYLIH TPGWU FVASC INNAQ FSDHB 02.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_7</DOCNO>
+            	<TEXT>DWFKS XHJGI ULOBM RQZTV EACPN YJYBQ CIULT DGGJK BZWJT AFERA GTFUS ZNEGQ LYEFA LXMHF XHIJO SDWVB VMDCP VDHBN 03.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_8</DOCNO>
+            	<TEXT>NTUBW QLCZS MJVXF HRDAO PIYKG EFECI RRENA FIHDC FPSTB LRTDH BHWMO DQXRZ NEKVP JSEHA SPSIE UALKW SYLXX EMKLN 04.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_9</DOCNO>
+            	<TEXT>WBHLF UKEQO DVAYJ CMTPI NRZGX SOVSH PZLXV QEANY JGSMK EVIHS AZWFO EBBRD XXNPH AKMQL TSQSU VEEOW TLCIB EEIAN 05.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_10</DOCNO>
+            	<TEXT>VQTSK XUMZL CGIFD EHJNW YPRBA OSNWV PMURA KQAQR GJIPH LXTHT AYBMY PRFAV SUBOA CCHUZ YBQDU ERLXN GXTDF GJHLW 06.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_11</DOCNO>
+            	<TEXT>GENFO SYHKX LBUPR MQAVJ WTIZC DOIFZ CNENL HQLUU QDTHX QTJOH QEPSD VWBMW NKOON PZEZH SENCB TUAXQ CPSTI JTSHL 07.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_12</DOCNO>
+            	<TEXT>OZGCY UFJSH QXPBE VIARD TKNML WBSUU NYLFK YTCVY TZDFK QLEST JREIB GCHDF UXVNJ XNFWN RBDPM LWQQE JZOLH PQHWI 08.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_13</DOCNO>
+            	<TEXT>NSAUB FJZCV TIHMO ELDWQ GRPKX YTXJL RVSIA GMKJE NZSQZ HDODE WWBUT RCBJC IYITF HKSYU ZBIQI CKZLV OOAVN ENGYX 09.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_14</DOCNO>
+            	<TEXT>GSVQJ PCKXO LEUNB HTMAI YDRFZ WCWQD LHEZG VZSMH VRUZJ DENJN LZWYY PILNA FTNDA RSJQK QLIOW QGVBH TWLGZ MVAIN 10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_15</DOCNO>
+            	<TEXT>GTPSN JELAC DHRKU IQXOV YWZMB FULRS RJDYP HEZVS TEFZW HTOHQ HLTMU HUGUR ZDQUW BJVTZ DBLRL IHKQF SDFRG KTZSM The deck starts as an [unkeyed deck](http://aarontoponce.org/wiki/card-ciphers/card-chameleon/keying) in "bridge order"- that is, Clubs, followed by Diamonds, followed by Hearts, then followed by Spades.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_16</DOCNO>
+            	<TEXT>Each deck is in numerical order, with Ace low and King high.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_28_17</DOCNO>
+            	<TEXT>I have encrypted the key here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAcAhq2bYJHDFcxyo/IMe9pqbHl1jDS8TQdgeb68Id2mTMtT dEYxfdyCpc7h2gj/zrAeuVcdnxdyeTq6gQuHmkyPpv1dMp55hKRnIT6zPxQb6DKJ HLDPkvOUtvVP/Jxk6pOT0OcWwmIN9cdbj4ysF4eD5C8kZdwT1JtIN7Eh+n5ZMWDN FLWvFDo7/G/nix8AaeVFvofIfuyBMeQrGQRO3XFTtcGDqPfF2Xi9CZ2THDigsdTX 71/hrpE/FbdlpBb57qny9e5x/iozYyqzaFvdVbcaajUqRcS3rpqCoHry8K/qTRoG /RG50dog6dTCohUQbmisvFNm7XR5g2JwQkMVlm2D24IDpsNL/pvlNlts4NYILAF4 phjf8q08MfwMBeocCz+a2FqVu9YD/yXSAs6y1xvWF27C4sz0kdRhUg6Lx2fckoWm 5ea0rvbrOPwxn70xWMiSeYoOkwpCArwmnbmy1SIV+oYX/3AvBGisNuhKDTwr8VRW wRaNph6mdo65cBJRGhKn2j16Es2KF0QpPo/GR+33USK1q7OuBlc/mC6Jh3nYhvBS ilBXIYT7MooSNniXPQYdGiXx02+BzOVF38L/afZVqgff0ukBLnkVNeMmDy9snJEk JajGTtlEUtq9e3snx9JkWDUvbI5/x8Eb4nC4LMFCHbJHktZOsJa6ViFmWl6W2LHk kRTvhXUTbhNB56CNamtbxNDK5IFMEGCmeRK9+PF7Ket3rl104qzJ+0bnyR5xhQ6H LFpssRRpoHe2bBFKiFN0zYT1vnHvPl6H3oBYKLJgJjYVfET1bY3fSjQC0oBBHbqe cZDWnnpzzI4PvQbik2mhmfY4p9vw3SKtpyUASPTUdiUK+F/Mo6uJkWZB3JR9KUXX VNAEgBeLlEJy9fCc1jOsJK5rcN5tPmL45UH9ITXp+0QyFsjeEeJbsGFIK81Iyb4S 2D8SPEessDQ3fEVh6OrjxPowqoA81X1GtMFhzUFvsRzJMu/TdbwlTN1adZNTPzZe 6fXkr3CY93SmPb2dkLMN0Dz++KiG77Wo0kbq7/VD3/T/W0U4mctyl/kLkSRwIALg ige5gvOhPMObqD5NzONaTNWiV2SNnySgLBayNgH1Cy/WYNftz1dVdERvo7DqwGvl YzbHmggv/P3LO1n2tLSLpOlFMOeF1X2M2opIbmOkIIHfzAxumNyC7ETRJawkw0Al No/Z+5PAwrxB5keAqgoZrU4PTYoxX3lSsKkPMxcpWrJ32Of4r9u3VZMiUY7EIEfa G7p3vzU6BvyzUGSq6w56j+MrA0HPHIPuXRj3Uf9WTViSj1mpqKTMRkDKAI3DBChp R1Dq4P0SSnbxwF1JBdxX05RVk2OF4bxrUK28UQ93O3KUbQtEFA== =VKmc -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_0</DOCNO>
+            	<TEXT>Chaocipher challenge #1 - find the key</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_1</DOCNO>
+            	<TEXT>The Chaocipher algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/chaocipher.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_2</DOCNO>
+            	<TEXT>The goal of this challenge is to find the key (unprepared deck order) that produced the ciphertexts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_3</DOCNO>
+            	<TEXT>The following plaintext was encrypted ten times with the same key: I LEARN IN THIS LETTER THAT DON PETER OF ARRAGON COMES THIS NIGHT TO MESSINA The first 5 characters of each ciphertext are the initialization vector.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_4</DOCNO>
+            	<TEXT>The rest is the encrypted plaintext and padding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_5</DOCNO>
+            	<TEXT>Ten ciphertexts were generated, and are as follows: 01.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_6</DOCNO>
+            	<TEXT>YBJEJ MMZBF ADFDR YDGEB CQBYS LNMVU WNBWD DDMXK LGFPD VNFRU GHQJI SXNTH YBERC FWWCV 02.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_7</DOCNO>
+            	<TEXT>IYGKC QVZAS NBRIB ZPEDE MKVJT WQEBT CFMAF YTWWX OMVNI JFARC WPXIE SJBOU MVAWK UIPHN 03.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_8</DOCNO>
+            	<TEXT>FYHBO RRZTV CXADJ YWLPC AIHMT RGRQK EJVUF PVMNR UAYKV HGPCK GFXBI MQRMT FFHAE ZPKJF 04.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_9</DOCNO>
+            	<TEXT>BWOSD MJBGP VUPDO BDYCR AEPHE HSRPX IGERD KRFVR YYXLK OSVCO OMMLB KSPBE MEWRG SDSLB 05.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_10</DOCNO>
+            	<TEXT>ZJETT MMBPE PABWE JMHSN FCIMZ GDQGC EUQBN HZYKE JSGZP NFGOD NTIXM BEQKK JXSAZ VIVTU 06.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_11</DOCNO>
+            	<TEXT>IUKBQ AAZGY NJEIT EOGRN SJEAR OIUPP GVHIC NKEZD AZTTG UWTAH MAJBY EPNDS BDKAP HFAGY 07.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_12</DOCNO>
+            	<TEXT>KNGXI PYJPL SNFKK SJUTL MBLPP IOPAT PJGRY UGBZF GTNIM SRSRU EJAZQ FIZWW WLYSP OGATX 08.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_13</DOCNO>
+            	<TEXT>HZNXC BPJGA SCPIO GQVOA EBGME MZAIW ZWGRW ESRSB BYVFY DQWYQ MSIMM DCABS KXMZA YZFBZ 09.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_14</DOCNO>
+            	<TEXT>FPUHT RRBYR SKYBD LMQGL VOMRM WWMMD VTNDF ULWGI UCEEW WAGKO WGALX CXYCX TTNKW FGWQZ 10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_15</DOCNO>
+            	<TEXT>GNSEO RRBPG SUFVT YBFEW QMAKA UYTOG AAQES IEDVG NAAFN PMOLK KMPFE URNMG EOVGY ECUVL The deck starts as an [unkeyed deck](http://aarontoponce.org/wiki/card-ciphers/chaocipher/keying) in "bridge order"- that is, Clubs, followed by Diamonds, followed by Hearts, then followed by Spades.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_16</DOCNO>
+            	<TEXT>Each deck is in numerical order, with Ace low and King high.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_29_17</DOCNO>
+            	<TEXT>I have encrypted the key here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAcAhq2bYJHDFcxyo/IMe9pqbHl1jDS8TQdgeb68Id2mTMtT dEYxfdyCpc7h2gj/zrAeuVcdnxdyeTq6gQuHmkyPpv1dMp55hKRnIT6zPxQb6DKJ HLDPkvOUtvVP/Jxk6pOT0OcWwmIN9cdbj4ysF4eD5C8kZdwT1JtIN7Eh+n5ZMWDN FLWvFDo7/G/nix8AaeVFvofIfuyBMeQrGQRO3XFTtcGDqPfF2Xi9CZ2THDigsdTX 71/hrpE/FbdlpBb57qny9e5x/iozYyqzaFvdVbcaajUqRcS3rpqCoHry8K/qTRoG /RG50dog6dTCohUQbmisvFNm7XR5g2JwQkMVlm2D24IDpsNL/pvlNlts4NYILAF4 phjf8q08MfwMBeocCz+a2FqVu9YD/yXSAs6y1xvWF27C4sz0kdRhUg6Lx2fckoWm 5ea0rvbrOPwxn70xWMiSeYoOkwpCArwmnbmy1SIV+oYX/3AvBGisNuhKDTwr8VRW wRaNph6mdo65cBJRGhKn2j16Es2KF0QpPo/GR+33USK1q7OuBlc/mC6Jh3nYhvBS ilBXIYT7MooSNniXPQYdGiXx02+BzOVF38L/afZVqgff0ukBLnkVNeMmDy9snJEk JajGTtlEUtq9e3snx9JkWDUvbI5/x8Eb4nC4LMFCHbJHktZOsJa6ViFmWl6W2LHk kRTvhXUTbhNB56CNamtbxNDK5IFMEGCmeRK9+PF7Ket3rl104qzJ+0bnyR5xhQ6H LFpssRRpoHe2bBFKiFN0zYT1vnHvPl6H3oBYKLJgJjYVfET1bY3fSjQC0oBBHbqe cZDWnnpzzI4PvQbik2mhmfY4p9vw3SKtpyUASPTUdiUK+F/Mo6uJkWZB3JR9KUXX VNAEgBeLlEJy9fCc1jOsJK5rcN5tPmL45UH9ITXp+0QyFsjeEeJbsGFIK81Iyb4S 2D8SPEessDQ3fEVh6OrjxPowqoA81X1GtMFhzUFvsRzJMu/TdbwlTN1adZNTPzZe 6fXkr3CY93SmPb2dkLMN0Dz++KiG77Wo0kbq7/VD3/T/W0U4mctyl/kLkSRwIALg ige5gvOhPMObqD5NzONaTNWiV2SNnySgLBayNgH1Cy/WYNftz1dVdERvo7DqwGvl YzbHmggv/P3LO1n2tLSLpOlFMOeF1X2M2opIbmOkIIHfzAxumNyC7ETRJawkw0Al No/Z+5PAwrxB5keAqgoZrU4PTYoxX3lSsKkPMxcpWrJ32Of4r9u3VZMiUY7EIEfa G7p3vzU6BvyzUGSq6w56j+MrA0HPHIPuXRj3Uf9WTViSj1mpqKTMRkDKAI3DBChp R1Dq4P0SSnbxwF1JBdxX05RVk2OF4bxrUK28UQ93O3KUbQtEFA== =VKmc -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_0</DOCNO>
+            	<TEXT>Pocket-RC4 challenge #1 - find the key</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_1</DOCNO>
+            	<TEXT>The Pocket-RC4 algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/pocket-rc4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_2</DOCNO>
+            	<TEXT>The goal of this challenge is to find the key (unprepared deck order) that produced the ciphertexts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_3</DOCNO>
+            	<TEXT>The following plaintext was encrypted ten times with the same key: I LEARN IN THIS LETTER THAT DON PETER OF ARRAGON COMES THIS NIGHT TO MESSINA The first 26 characters of each ciphertext are the initialization vector.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_4</DOCNO>
+            	<TEXT>The rest is the encrypted plaintext and padding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_5</DOCNO>
+            	<TEXT>Ten ciphertexts were generated, and are as follows: 01.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_6</DOCNO>
+            	<TEXT>ETHRC AGOPV KLBMD SXJWI QNZYF URTWE YOIFF YQLES OVSTW QBECE OJLBD HNQGR UTSQM QVHSW XALWW DEESR CIIPM XVPZK 02.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_7</DOCNO>
+            	<TEXT>PMBXH UDRWO INJEQ YTKSV CFZGL AYNGY JDHWB FLWJW CQETJ HJVBT LZFVS WWKDJ GFFFD DMZWX FIBHD EVNMH VYPUD FYVCV 03.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_8</DOCNO>
+            	<TEXT>YILQD PJNZE GMFSV UROCB AHKWX TVSPL PNOQA IPQQY BUQZZ UYGFF TECKF WKVXY IGCZG IGFCJ OCYVJ WPRDZ YJUFU RROYL 04.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_9</DOCNO>
+            	<TEXT>RHGJX SLFOV PMAZQ KETYW NBDUI CHLHF NOFJM FUPDP NGIZN YFWZC QEJLF JULIV PIOSL VQLFX OWPJS BGZTQ EDODD HUIBJ 05.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_10</DOCNO>
+            	<TEXT>SFCWD PLXYO NQMUE VKGHA BIJTR ZLHXA JHVFQ ALXHO ZUNYR IIRUY LAEWO JGJQL EPSJM BWFXJ BEHPY PCJGU WHDJG HJDSW 06.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_11</DOCNO>
+            	<TEXT>IQXLH TFBUK CPGYV ORDES WAMJN ZSHOI LILPY RGMZF XYGDV KLQMO LLDCC DIEYX XPUGX TJPQJ GVLDF MDVQC TVBNS NHOCE 07.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_12</DOCNO>
+            	<TEXT>RMGFN TPCBX DQKSV HAELU JOYWZ IYSFR CKNQV DRELP EZSCX AOTIU OBGUK FGWVO OZQSB BRFGO NVKLP XOCBI DFBNS HRAZO 08.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_13</DOCNO>
+            	<TEXT>DZBXL QCVJM EHFPI OAYSR WGTKN UJMRV UFDHW BMXFQ XRFFT LPKJN VNMLO ZOFNR SWLVN SMBBJ ZCLIU SBVCN FTDVQ BQEBM 09.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_14</DOCNO>
+            	<TEXT>IGYBW PDEVZ SCOLR HKQXM AFUTJ NSPGO GUQML MVWAY ULUPX DIUQJ FPXOV BWFKG ICAOE PLIRC QYHRR YZDHJ NNZGR QAEUI 10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_15</DOCNO>
+            	<TEXT>MJPBN XQKDC FLUAY WVEHS IGROZ TIWIR YFTTW QGISP UFGUD ESYBS IQYFO CTYTE ILYPW QLWDH KCSHC TIGBQ QFTJE OLSVS The deck starts as an [unkeyed deck](http://aarontoponce.org/wiki/card-ciphers/pocket-rc4/keying) in the following order: Hearts, followed by Diamonds, followed by Spades, then followed by Clubs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_16</DOCNO>
+            	<TEXT>Each deck is in numerical order, with Ace low and King high.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_30_17</DOCNO>
+            	<TEXT>I have encrypted the key here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAcAhq2bYJHDFcxyo/IMe9pqbHl1jDS8TQdgeb68Id2mTMtT dEYxfdyCpc7h2gj/zrAeuVcdnxdyeTq6gQuHmkyPpv1dMp55hKRnIT6zPxQb6DKJ HLDPkvOUtvVP/Jxk6pOT0OcWwmIN9cdbj4ysF4eD5C8kZdwT1JtIN7Eh+n5ZMWDN FLWvFDo7/G/nix8AaeVFvofIfuyBMeQrGQRO3XFTtcGDqPfF2Xi9CZ2THDigsdTX 71/hrpE/FbdlpBb57qny9e5x/iozYyqzaFvdVbcaajUqRcS3rpqCoHry8K/qTRoG /RG50dog6dTCohUQbmisvFNm7XR5g2JwQkMVlm2D24IDpsNL/pvlNlts4NYILAF4 phjf8q08MfwMBeocCz+a2FqVu9YD/yXSAs6y1xvWF27C4sz0kdRhUg6Lx2fckoWm 5ea0rvbrOPwxn70xWMiSeYoOkwpCArwmnbmy1SIV+oYX/3AvBGisNuhKDTwr8VRW wRaNph6mdo65cBJRGhKn2j16Es2KF0QpPo/GR+33USK1q7OuBlc/mC6Jh3nYhvBS ilBXIYT7MooSNniXPQYdGiXx02+BzOVF38L/afZVqgff0ukBLnkVNeMmDy9snJEk JajGTtlEUtq9e3snx9JkWDUvbI5/x8Eb4nC4LMFCHbJHktZOsJa6ViFmWl6W2LHk kRTvhXUTbhNB56CNamtbxNDK5IFMEGCmeRK9+PF7Ket3rl104qzJ+0bnyR5xhQ6H LFpssRRpoHe2bBFKiFN0zYT1vnHvPl6H3oBYKLJgJjYVfET1bY3fSjQC0oBBHbqe cZDWnnpzzI4PvQbik2mhmfY4p9vw3SKtpyUASPTUdiUK+F/Mo6uJkWZB3JR9KUXX VNAEgBeLlEJy9fCc1jOsJK5rcN5tPmL45UH9ITXp+0QyFsjeEeJbsGFIK81Iyb4S 2D8SPEessDQ3fEVh6OrjxPowqoA81X1GtMFhzUFvsRzJMu/TdbwlTN1adZNTPzZe 6fXkr3CY93SmPb2dkLMN0Dz++KiG77Wo0kbq7/VD3/T/W0U4mctyl/kLkSRwIALg ige5gvOhPMObqD5NzONaTNWiV2SNnySgLBayNgH1Cy/WYNftz1dVdERvo7DqwGvl YzbHmggv/P3LO1n2tLSLpOlFMOeF1X2M2opIbmOkIIHfzAxumNyC7ETRJawkw0Al No/Z+5PAwrxB5keAqgoZrU4PTYoxX3lSsKkPMxcpWrJ32Of4r9u3VZMiUY7EIEfa G7p3vzU6BvyzUGSq6w56j+MrA0HPHIPuXRj3Uf9WTViSj1mpqKTMRkDKAI3DBChp R1Dq4P0SSnbxwF1JBdxX05RVk2OF4bxrUK28UQ93O3KUbQtEFA== =VKmc -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_0</DOCNO>
+            	<TEXT>Solitaire challenge #1 - find the key</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_1</DOCNO>
+            	<TEXT>The Solitaire algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/solitaire.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_2</DOCNO>
+            	<TEXT>The goal of this challenge is to find the key (unprepared deck order) that produced the ciphertexts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_3</DOCNO>
+            	<TEXT>The following plaintext was encrypted ten times with the same key: I LEARN IN THIS LETTER THAT DON PETER OF ARRAGON COMES THIS NIGHT TO MESSINA The first 5 characters of each ciphertext are the initialization vector.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_4</DOCNO>
+            	<TEXT>The rest is the encrypted plaintext and padding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_5</DOCNO>
+            	<TEXT>Ten ciphertexts were generated, and are as follows: 01.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_6</DOCNO>
+            	<TEXT>ZWYTO FLELU IDYIY USUUE MUEFI EIDZE FFRZB AQFUE PHKCD HEGPM UQGCK XLCPU SBIZV BBRYS 02.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_7</DOCNO>
+            	<TEXT>XFSJU ONADA UDKIO UTSCX LOBJO MTQKB UOEFC KSZEM NJPVI GPCCT FTIHH GQASR CGCZA LPFKD 03.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_8</DOCNO>
+            	<TEXT>YGYHM MZYAT PZJYR VYNGQ IIRXE SRMEY AYOTB OQKYI IGGWY VDZBC XKNKP LDPFY WPCFC HXZOS 04.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_9</DOCNO>
+            	<TEXT>NLBIN GZNQZ HBMAA TONNG JGRQD EQRGJ SBKKH DGGTO PHPSA FXSVH CVFMW EEOGI ISTQE VTYJC 05.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_10</DOCNO>
+            	<TEXT>FKNTZ FJURJ LTUKD GJRAJ ALXDI YCDZN VDQFM FJKRR PFDWS WQSBA IUJAA PRLXB ABLRZ KLXZJ 06.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_11</DOCNO>
+            	<TEXT>IGLJN JPMKU JLIIJ PJASF PCUIW JDEVR EVSPO KLILI OPYEC DVBNH GKHWM YLXOC XDIBU FKISY 07.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_12</DOCNO>
+            	<TEXT>BECXL OSAXO NQMNZ RKWNY SHKRI SGRLY QMVJB DLJLG RABQB XHXLW MYJVA SQODX ENTLJ TJPXV 08.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_13</DOCNO>
+            	<TEXT>IDNNR BQTFO DOCMI WGDFC DJKNA GDPXU XECPX WVOOT EHGHB BSTUV IDPEQ YLBDN VAREE DYNUU 09.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_14</DOCNO>
+            	<TEXT>CMLEA WMZWC MSJJU AJAPO TRAPX QHCTF PAFDN NBUWX OZNIL RZQBH MCJBW MKYML RDWTD BMCIN 10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_15</DOCNO>
+            	<TEXT>RCWWK RYFEQ NPCNZ JZOJC LDZXR MPHZN VJMGN WFXUP QORND RUIDL IBUDC ODCXO DROIP QSEQB The deck starts as an [unkeyed deck](http://aarontoponce.org/wiki/card-ciphers/solitaire/keying) in in "bridge order"- that is, Clubs, followed by Diamonds, followed by Hearts, then followed by Spades.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_31_16</DOCNO>
+            	<TEXT>Joker A follows the King of Spades, and Joker B follows Joker A. I have encrypted the key here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAb/fBUWBi0Use3MF0HT9X9Kx/vXRyMW3Q/81WfL2L89qc5H 0tQ2OXEi5Kd3X2tsRzZGJGFkl/8O7SQC+d5aMNYkmFMwYJtsDI8Hj6RCoFhPC5+O Fq25lrrps+mdZ1+wk/VS/RtEZveCXOUqXkHC5ydxZFr9ISkxrDCJdrCzAzPBVKlo ogk7Zb2jn0pKn1mkjpicDREM79cmNBnRXi3eM+869JP8XiJDZmu8DgeM5j/+1V2c xO5X4n8m+KYpq6X0Ufkmr14NIsVWgj2a/w0WXc/epm70j3E4mGTjG/duprsOOBYG /0xu5MijyytCU4dos2samfbX0yMRCY9MY46ynZV6JKXSEr3vtO4druLFBopawcr/ XLUwah9L3ZmBs2us71EmM1jSU1k1UvY8FV2TSmAXknXOYr3dplCB6076VZCqcDnU RptH6BiLuikPka1SmSzifmkMQa5UqIX9VjV3ZwvJH37za8LQmZNpK4Dr+yfouTVk pGSdtfPkz7haXkwkG60HduJluaWJATAZzPRvXyCB36pmWmPErCfT1Ee7DOYycS6M jZNLNYYMjiZG1LQnSraUN36+V99MJpdtnuGgNHQasy5g0ukB8LJnrU7PVZZiaiGM OlgEGVxqB9NQOd3okB4015OFkScust/krv/JV8G84vOlh9QqvAFUwWntyPrP4vak Vut0AJvKOgntplHCkYHlZkYyDcL9gDJ5ixEmisevZVsI1kULWVLRPv+T6fyicM6r V1YQ9iAkSHtmtkOJvh/aMpde4UiIAXzo4PFS1qMACVcljT+GEC1963gIetwUKaia amHlDqEytBPKqzNWloYFae25vvnUrgRPquCCNQrh2YNZ6zP2Ur/2p2BHqXX0a3MW ddvkz48EP/3kQprR2qQNqDuF9EiraMC2iocrRFPQEMJVpR2HZzKE5KHBzGgburpt 5uu+9TY2f7/QmVwMkxsEJxsXimbV9EKLJ85RfH6KKgu1eCwIJSE3Pu2Xo6eB0qQL yy8BIzOlttKWWPS5MhRmXb8CKEAlDPif0589fJDz5EeNCqfwr8UiebYHtQ0ImF1y Am8l+UC9EqXiJix3zYQFZL+uK4HZitJ1RNisPuLJIp3kxcf62xAPSjTaAmzIzSXf Pt/GpuHu8yOZskJPgK136acsJFIg5XL3XoDxBbLfyKRg4a56CK8tBn6Ob9vefnEI eWwgfZSAAo8RiobJLWWlOzU/JDDYkpIkXkZ++ixqACXo4UDkjqYvW89kVY6JF6XP JudbiCu7r/QZrBg87vJYmPUd00bNmpCGIPiIeZHAntcAPzrSYTatrBCN10nPDsoA 38cKekKeU4vCgIVlNMNl5DS9DzShXtaiD8ocb18XE921/4hLKws1fofN =zVAF</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_0</DOCNO>
+            	<TEXT>Talon challenge #1 - find the key</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_1</DOCNO>
+            	<TEXT>The Talon algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/talon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_2</DOCNO>
+            	<TEXT>The goal of this challenge is to find the key (unprepared deck order) that produced the ciphertexts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_3</DOCNO>
+            	<TEXT>The following plaintext was encrypted ten times with the same key: I learn in this letter that Don Peter of Arragon comes this night to Messina.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_4</DOCNO>
+            	<TEXT>The first 5 characters of each ciphertext are the initialization vector.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_5</DOCNO>
+            	<TEXT>The rest is the encrypted plaintext and padding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_6</DOCNO>
+            	<TEXT>Ten ciphertexts were generated, and are as follows: 01.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_7</DOCNO>
+            	<TEXT>UMafk UNlzf fpNHi XTaOc LWwHa ogRqB TAIKn fFBAW YUwmB NNroT xLIOp szByY YHonf nKWzn nJqPJ LUPqN ntpBE 02.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_8</DOCNO>
+            	<TEXT>yNHBH ClWuN cVtuZ zKdGR EnAFr WSVoX aTJEG oNqts ILqAf hYvXw haDxt UhuAY EZmdl SrWSc TgflL KBAYS LNAEw 03.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_9</DOCNO>
+            	<TEXT>IguQn pBGLl DrvqR FDXgs dIAbB LoPae VdTMs ZdiYq ZuuOl KVpGF FdwCf NtcYX YjSol lNILH pKiMW GiIVo YvDpK 04.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_10</DOCNO>
+            	<TEXT>bYSfW gnGtD Otlql jRyaS rBsRo KPMUG FzyxE hCiAo ryvgb dQBeJ fkztD otPqN IKKaD Uteec usYyi fxvAn OXXrx 05.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_11</DOCNO>
+            	<TEXT>ueMhU JyFIb aoqBM OPiUq fpHDX emMoB QLJyw eddLD GUMWk nPwtu HEoNM HnUzv dPhOE qRVKv VxTda iyZJt rUClx 06.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_12</DOCNO>
+            	<TEXT>kAUDl OJNmr UoTjE Dcbia uxTHT QfTXJ fhuJn emlDp FPdQB CbMGD UAuZJ Sgstz gWIIW nhNAL imPzU lczVh jINAa 07.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_13</DOCNO>
+            	<TEXT>ZyVJl jlYla iOaFJ LWmIT dOkLQ lGJQB jgzlP JnIAd vETDN kDCzk FXoVv IdMgD xkocq uotkN eKyvy yjsAy HCFYC 08.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_14</DOCNO>
+            	<TEXT>hSmgX LeaGk zgfgB bJTJD YqQYK eVAdQ WawOt fUpYA yGOjD DMxso dgkhz UACrz YjULL YOoAm gMbjy zcUgJ ulMXM 09.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_15</DOCNO>
+            	<TEXT>HZsvg qnlCi Muvhb sKbar gafbN hEDGA fULWv RzpBp XIpnC uzmAg rgVzM NDgKw tXzVH WdoKd lsaEF aAoyo dXYoa 10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_16</DOCNO>
+            	<TEXT>GLeje acrov eCDQf JrTNq EINnp dNHfB xHwRu QzpJO WVxRt XbYyG Phmnc wepsW QKekk STHny gBtkI pbPVS GIiBz The deck starts as an [unkeyed deck](http://aarontoponce.org/wiki/card-ciphers/talon/keying) in in "bridge order"- that is, Clubs, followed by Diamonds, followed by Hearts, then followed by Spades.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_32_17</DOCNO>
+            	<TEXT>I have encrypted the key here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAb/WYXz4c2HYKZx163uQ7IOvY6KDVbxro1ZjUhdlNZpPoJN nEhSNFtzInnu0N2m5w7B7Nh9za5V8kRMoXGzJn5LyPyuEzy1FDaIrbs9KSK1F11X +DZtEkC2yOce3diTkWZttGB2L9c5RINLykixA6Sufb5IocHmGX84A1e91cCJfcB8 7+0ezk2vKOH52iFN/Se6Qt4Ei7L/KQT3/5xsEA2eNyXzCI6BGWYv69P2N89cqQMY sOVQV62di4pzrBE6jA3NA+hT5yrSRw0NUv2W0wsfVI9t15BFZ9UPy/bDVUAJTxEH AJapyM+HSulLFgfoVHkvzQlt4xNa7Y4cJjdkFlUcca841pnCIuvh6kBDCKHKLKXp +oZF8IpbBJpo/I6ULB1Ivagh4gwCAK2Y3MtOpW4Okeze7u/qOQ1BO764f1aRNnju HS9YvSCAwjjrtfxw5/HQI8MERWhSqGnRQ1M8o6hQvb9QwLCKsKlK+uQ+I6FzPLQr mfBh0nuvPdvNlFUCbyFsfm6hioNuXRVttnTvDTb9B23zwm0+2qASgOxcfRY5SkJn wJ2rSqPYLmvTKYTH/3mFyylKFIjwMJVm9OevCIyecrD+0ukBAkpt6PJCM49FOTCA U+izA+996IG+mkttN8MxOd0O/qGurDpIaED6Gpa1bOEmnfm/VsqNOxz/XhvK5Dtb 591O5t374LdIZ2yNy+cdyTjJ9yX3KRMkyvTvhcANyS12qOnxit4JVYSEevhlVfGh YaYXU9V6PryCtFSEcGKGHOpCh4RDT0VSofpSFVPeibe6FafRpMg7kXkxyDlPbfHK 7PQou7Z+lVDQU3LsR6RCOsBVG1JlF1i6BLMeUrxgECPVfBSyC/vQRa5KWS8y2Iq7 HsXIzSrrQJxXFdoJoWbQNmLHcX0a682reSaXNsLswXwvl+PBqAUk+0SmLslAME6P BGbevo915woxk1DW1AEWHgguTp5mizIMtA6zVNLwIK9eD+b9wXXHJLyWdMxh/9h2 mb5QDgPLr8Oo0bDJ0qEh8O7QXnlM24zOFDuoEfGDD4XRMOB6rq8NfdcElyOUBcGj FPify+XgoqBtKNnuKrOUbMiYl7jYSeLIqAK9zv71WiZSn9fUdYAphPO/TjQY4t36 S1vnYBXIs5EwyEA13yEa9ZGbQFaS014OVwk8S45h6aId3Jy+7RWH1KRgB+CMa1qQ 9M6yVsKSf/aSR/9aPw6zAEKTy7HwkM8YiD0aWvJlMnj314ylV3c0bX2M/bvfffFH Y3Kqea8PM2+AnuYBQbDtky7RUUh89mtt93ACdfB5CKMUyZM7VeMoRDHEo/q8lC25 y6OYff6vDtpaaDCwSB4Vp+Vopubkux7j8TrcuJlEPqa24SRheM86eXN21YU= =mDI5 -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_33_0</DOCNO>
+            	<TEXT>Chaocipher challenge #2 - Decrypt the ciphertext</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_33_1</DOCNO>
+            	<TEXT>The Chaocipher algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/chaocipher.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_33_2</DOCNO>
+            	<TEXT>The goal of this challenge is to decrypt the following ciphertext: IRERR PDTRV ULSOX WHGIM RFALE EQTDN EWBGT YMCTQ HAOVA AIHQH JXEJE QECGI TLYDP KVBZG IHTQG NCUZQ KXCNI NZRDV KRPZR PWVSX NHTOB GUDEH The plaintext and key have been encrypted here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAb/QplLX8pe3UIRbz4B+/GnGluH94EG1GmXi2lkfXSttf8q 2qZDxzdHFmt2jCP9evR8ccpUNKuei5eseNAv5o/H7XfL/kQJGVG7jv1H4cDvtzuN m/6hnXw8fWLTI21ms6/lB+mM3RX+epu7XwdF3X2N7hRGjHkHmWlGuORgCHIHGvFd nW1qzZ7QT0dz3LFs2E0O2GiJhC6pKk8tpHFjIEZBLlSK6rW4MfjYzOsgC5yjEvvn cB/88hInGOZW9tbrSDLXBuZyyJNYfMXAOYNgRyVEuykAI8KcQtE+Op2s34gN1A0H AJTTYmK7g/zNVhGVe/ttj+U8O5DTORwERX0PcJnM1mHVmR7qDWI/Q+jKDbf+2qEK RT/5gFA1883EGTabqwBWApzLL1xfUMyCUI2PVfwBE6LiiWO3aj9rgB0vKrH369+j Dkzap92l4ewYh8Os7egmyvZv6oQcMEJEaAiY3I+HKqPhewVWEj/I8Yp1nfFOOKJK Hau127Y0kRznYibpYnoldf0lYtrJUFggVmBSgidb0AFusIIbeW8xbOoPj+lWF+m2 YGPuW2atPk4Z6czYyxvDi2QpExPFv0zuS928W5YWltWu0ukBA6hzK8lg8CZbC13k R5Wv/WMEFYmkF6ayfrIyTq5vSjpu1mk1qX20qvhTs69zD/hRQ83YUQCCtfani6Lw H7LjSPWlsjjiBN1fNs7tKczG0XD/mlm0Jzqw2y8LvPAL4r1v9ZqSga05pb8wW/Jc +iEDU6yioriH/Mle8q6nPMmLzVwsnRXBBcRFV+6McpTA1dEeBfDvUpuuAutwdCNS GhGr6692Fvu9TMq8K3R966jyTt8W1fxy2SQFnzGcuX/vgN9zZt6FuG03zW2Bt8oY QMCLJ1XPUEpp48ZQatAb4QlEbujjR93d1J08eLu1lcIOIXQ03jIwVSqD7pVtNuW1 dua6OssiiEQKS3EdyQM2I87yt7RevVTJkwUatydk+FohJgAq0gFsXOC4M9EDbPTc jrGSSaJPfNTWSWmnA+dXe/VOfoFNus6pMF04T6+rI8KespFR/cchWYAc5tYAtmsX hYqkeJQR2ctKsJDfnSMclYAAk3k+dL6nz6G0E7lKoABpBMGj4bp3ed7kLiLZHh1m EcUAV8ii6GjRY/Z1y+hwM8HejefGV02nlSmu1EeIRKKBxLLQiBMPWj2NPkqcm67W gPSQYztZdGAD5sXEHRiC8NCoe56eloG+9d1U2ozn7pZdoehGuzVjPFG4k1ilK1OL lzeAgDUFaMFtFfz1arNCF1RDBL41YzvZBBzIANHcdjqeKyFoM3FCSeiJ5O1jZzck 6X6cQxnsZjIR5MBrxI28XmOcQ9BKoR0AyAhgsWnO6pMbdDg6msJqCj6NPmtbhx6u 7Ji/ptv95w/A1TwH2fedMXNdV3piv7tgoRN3aaMYfZ21TwGTIHf0CXQJBWvtAUh9 1egw7AHNZuQVOJ+C53K0zqp7nCKM1gpn88/fHDI3xy8m/ZL+79Qn833q1ogAYlSI kKVJBmLOevikiWnBw38U3trE =YA6N -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_34_0</DOCNO>
+            	<TEXT>Card-chameleon challenge #2 - Decrypt the ciphertext</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_34_1</DOCNO>
+            	<TEXT>The card-chameleon algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/card-chameleon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_34_2</DOCNO>
+            	<TEXT>The goal of this challenge is to decrypt the following ciphertext: OQEVP URBFN HKYSL XIWAC MGTZJ DGAQD PSQKB EXZMF ESFBL RNRHO GRIIF JIOHP QEVJW QAZZK DVNSY XSYUL KGATJ OSEYR JFKSU DEMYE CKBIV CCXTB MJFOS BJZWX WJKPQ ZMWQL TGCGE EWTWC BYWCF DINSW SHBRC AXEEA YRZRW MTTIA OJZKF OPAAX XOIHD XHVUA RQVHM SICGN JVLXQ TVAYE ZGKEO PXYYP UFOIC The plaintext and key have been encrypted here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAb9HzPb6pAZC8u1A7ijR6uEDbKJUU1a62YvmvtnQ4ZwTGkf K9b2ncnRYp5PLM/2/zlbV5JABAln3qqSiVOwtisQssaJ4uTbjtDZSh/VDw8f3GVp BHX6bxcjCIasU7HxYQfe+/mTMSN1n3VXN594NxoKcrzmeT8VKGzrna6hQyXPHDxh KMsQt2OHhPWSm9TDXp3Zb50zyNw7GDW59x39elUzQ4ns+cGNxaZDIdt21YezAICZ qu1GhinsGYPqsR3rbZtC1Uz0/vHTW8xAfIriH3pQ6AfI608cSVD5GqvOtlKGx+gG /Rz9bC8vQ7MUNcCV6GsASqsjHhFGilqc/8LBa6U/Xi81rib+ntWm3XZLQXtP7RTT gxE6Egor136sfeqXfmNxMe0n9xs/vpHxVJ+fo5LUaHe2HTM/Vv3cGAl14oZxeGB8 fo0ALPRiBbPeYP/RlkpLFveXspRxu7yGVzCKCyYxjNOfCnEXOlYJ0ur1JaKxollk mYLhD5MSR5Gf0SPzWK3Xg4zGnpYbV9ueQ5hJBugkcHezFp+wMwBMmPkuQDaorhHV H97p20kYkos1XW4dvGUUcvzweO+jo1KK/cZcHIwEiSD80ukBfCt3SwEazCE2Koa/ /iZh9jlTTZT6yDojP7Hn6A+rAJvl8o/xcRqMJqTujgO0cLJE15L5PRXo1jPEU0U7 QhQphU/PfoHSYdoPmzWLFBPvPVvTUtuy7dOu+0KL8wXtr0af9/oN4z8ObdIr9Oo4 chUIF4FQ/p2mlXAjV4GA3KMKi3CAu2j3K9PcJ1bg35cO6T7m/1/Bj3QSazLXmklu n0JAnLmr1p98/EhFMl+HsGXa0Z3gXExv7s1siVbqTXQdoXoBSJSeiZjV+GIFfYvE AHSGZL0fuORTmj3fgpMWF8T28W4s2pjyBh7xZQPT1u887lKXiT79AhiGlOIJFO0b hPaszBErQzi/Z+Z+GNOGMErtocrC+b7SI14ZAR7mU1uA6hj7MniphSAQm762WZiR iDTtZ/wP2a8VBQQuD5LkBB1F6bqua+SevxDyIEjeKatXshiSe+7IsrsVjKvaLyiu U2iqZS/SSAwe11CK4kN/J7cCT+hDAGWGIQeedkqw3qRZtew6oDHGdCRJ8fWPfsUR YCelunNKKAdYWy+XbiMaBviVT4SFztD0fL3vWFiZut5qugRdGQLdV6A/zi46bDze WhkKQ3r2oCSHpYa3RduZQ65QvfVALk9coHJS39SBoUofv1n9fSE3F6pPlOtwuOWk l1z/Go/XTvv4elPEpQ2zlH/fEcCFusCI5/cI79dnn3jJhra1Iunk2SlC5X0C3vON aB68l/VXX4ZagcYKOJSU+N9g+3k4LYRhm6iKb6hu4IhWjDVp2xn4Vk7lKht8aSKF E0VPRnxobH8q09Yn/yV6BbnMImcsp5nYvAc5DYQqHi0FqQagX+6+31EGoyTszya3 mWXzhgrVWG8sKml/6z/wt1tidTfwIT54ZDQhWKreW5p9CyfvvZawQOV+hPH2DzJP 6+W7W0sjohhGqvcsRmBNlxAVo2bQmZS/GC6CFZDvESSOxSRiR7AwhyUBjOZs1SNB i6D42JIJNlAutPhrNgHHvqYhBknwEXf5CQ0UKq5efxY3/LMmUYpWIXuVMrrysnHG 9FiEqe46Og/W+lI/r3oY+YrwDgtAP8ml5uJDNHfcFNyBBo8P+VSSb19PC/X3Wk9d RCZnQ/7iFie2mA== =8xc9 -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_35_0</DOCNO>
+            	<TEXT>Pocket-RC4 challenge #2 - Decrypt the ciphertext</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_35_1</DOCNO>
+            	<TEXT>The Pocket-RC4 algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/pocket-rc4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_35_2</DOCNO>
+            	<TEXT>The goal of this challenge is to decrypt the following ciphertext: ZOEBX TQCWN UKIJD FMYPS GLVHA RQIOQ UWEDR PZJHH USPBF KGDGZ BSCVU BWJXR PCJUW NDSHQ NRNTQ KBMTN JAEWN ATCTV RQIPE NKSUJ GMKSG QHLYS KPMXS The plaintext and key have been encrypted here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAb+I5H0ypA7fbpeJlLG0euBI1xq7TtqPrreNBY9cVNiXfBa Eltw7BjrC7jvMrMAd9CfBItdm1oB8CM8uO5EnUqfrlI/AbsGtfpUadPo8k2ZQEkA FPYqFJiSuXjPkEX6AY5fynqDB/Fdenk8JDqLERkbrEuyxPO1sbokBeR3vu72PMjp Yb4q+Wr4MYDi7lVBtxNQk0COmjBDFk2DjdmxAGm1TlZ1ZjhFrpAkxDt269evXUMh 2sugzFAcSJJ13YkFHB+FOm54KU8FLV2v6C8mdd9Bs+9WglwCntO49z1ggcHZbWcH AJWC+py8WM0jbzE9iDbZClWZ0A4t+Fn4VZCLcImme/agJaKRy/PeS6DnQJWM+en1 uSmWvAC8AbCUMhplbJ7aE7ZbdzwgjtXkAS3JBEZkxfzIECXhi/RQYFIp2hePOFzI hSAVJfmpFcgr3sQIRw78J9BT4LhmsPSUwVfbU1CPHtmQ7UF+E8YhgeK+Yu1fuLgJ NtBhdPNJZhOXHOR0pLsYOXNH2uLBixlcml0E2S0k1b8dzVI7JwhwIe/xI5HIjRFc 4zQNsnHb3jtb+7TKqn19cFYort8FI2sUNsgADBvgNWrB0ukBu1mZH3eVupo3oQ1U JcU6FEy7Qq8+WfYqMoYxkDC/Cc95+IRJfZp7lIuy84L7lSxhV2jj7KrJrkH1sbT6 aGglWCvmPjj4io/RMU8XmkIcvnj1yehAxkDQBc+ClyX/OY3M9OlVRchHz8n9OthE SMWVU31zPk3RHi3zJ5jgu2FzZvDfuHZvG5pa/3PvCSV0emudfxyyjPzfJPjzsFVf 78O4n50nEUSXB+o1do7LhZib1/SRgVp3VDwdz6HOlXtl4sxa2NTg2sbIitLHO53l BhCUAXNg37ToZS8eWaa/ch409Bupv5/8KXv3utf77L5EtDtaXBQPPAxbFajijoS7 z1sM1EGzKKxvR7cN3UGxTJWAcQHmQosYHYfmrirqvH1NJ4PiR/xFWp/gBGL7gQAe 3DkgpgDZJFZX9xnod5k72RLzBlb/Uj9D6XhWsMpe1ENC6Ep8FogLV1PX8w8jyyrk E9ORnRF7WjzVzds2g7j1Q6HJe8XlUeFUK5Bbp6kPURuMAjIi9u9Srn7oDveYZYTk +e26nXZ4M1Ua/yQvvoseha+BNGkNNMh768LuRM8aAtCRIkFkVSBfB/h63XYSpUvZ 81+4fe7s2B7uYgxgcL4HS0ljWDWy/7G16vV4C8KawfS5oIGr/IWRWM40UPMKMdhc c5ZhB9w3vNPpXl+5GZTvmbvWELmVqflv5mnuLMZxYHk6qLlXB5DHDbF/4BfGZjmp MFN6gnnioMg1tuTKE0zt4XhEGpiR0aUeabm0ayVvXPFnhdJtu43PMr+oyxqGq7GR zvnCzVcxnFs8+nrU+88UXKm8rqc01tilZC2FoRzkOiiHOO5/hsJFXtm/OV1WEaI4 dU/5h3OJEj3b9gzn6QdfdZ9lASZmO+la1EVeMOwCDDLo7zZTL3tKjlazlr0e4dvP /jeYFo7I12VUGrGGEg== =lkPr -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_36_0</DOCNO>
+            	<TEXT>Solitaire challenge #2 - Decrypt the ciphertext</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_36_1</DOCNO>
+            	<TEXT>The Solitaire algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/solitaire.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_36_2</DOCNO>
+            	<TEXT>The goal of this challenge is to decrypt the following ciphertext: CFCKI ELWHC SCKJH CGPFA EQRVS DHPBI YGIVS OOQCN AJDDU BPGMP BZKQL MKOZA CMVKA DWZTV QUEJK RCXGF QMWBP FRCZQ IALIE USTFV OMPZN SQZEV POXHH KBWOV VMSVU YVVCW TPHAF XVYHU KPIGP The plaintext and key have been encrypted here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHNA3NFkX7n1B5LEAcAiShvOrqFUYDjEdL2XLv+gHquBzdft/rSJuwGphCMjWkO 8dH86TdnK9WCv7bzaY6nezvse97ESKvY1DPbQemk31rBF5K2/ngiwYcz/zSRcSwU W5WNbaGraSnIiWKyFkDkTWdy7bEZrvzvqzx1hLhrq3fj2YsuMjUApBjvIqtpMKn0 glvJLsw0NXzSq/QEVUmR/ZqQHGbFJEWjtJrsr03Cdl4FfAx9Y49fHXf4m70FTbRY RlpaT0tABDrEtCYNs4D9yF6Eaq4dXTS3PU1x0HenVXANuoc8VR53zBg617XJGEsG 9RHI9u6+byTSCdi2G4fgAg3iaLOLhe17r9WrS2DcZzXJ5SoDXotpOuVAMsTKF+w6 qppYP5rkQioJh43DD8CW9nxRaKiteL2aXWS5prIvG6sH6Cz67ixblT1PP8D/6gPE Q+KaKLdnKIu5HmhGXqFBUpaLNe0Nchz5o6Ln8PQIblXVWFbkP2S8uAI7sd305/cz LbpvUAOrPmJVH7HWmER/UHw5sog9ffxJpKU3byF41y+qXCimh8NVGdxgIiNUVTrZ JcYkvzkoMVwReEAp7aMC80Q6BaLzRKfPEy08U8fIXODS6QEjiuXPokirS+S0zr5/ 7T1jBcThiR9TqKG96HR522AR5RXhmFAF45WQAERx/OxrNYXQV3iTL2rHA6Hbz7J7 x8I1vBdjnSe0NyBunMZIC7RRjkwNw9kgPTCKK1mouirfdKm/h0DVu+O+bEq655hX farvPoSAfky2ZxOaG+NhbHuHaHR18AOjLTJGCyPDUODKFpjMaBWoUFPhA174a10m UmcQouTD02DcLoQTR2xk3x2KsnTRpiTCpzHi0J7UiuCNrZGhQsmS+5C2FLmeCHvG eVpGn2wglZ6QxPID3yg6KU+t9bKSA8VmldYj0dr85wz1WMCVpQCbQq1jXUN4VYXp PaiLEfmt8srUD+1TVk6gQLdCCKBBUrzypRI8X4y4OF9fNGaS1h2ZIDSLfHGkR6Pz L2/sPDaUKZd9FEAI6ilc6qJzRSlhgs7H1LuyJVNP5rN/Zo3Vme6N/r2aKd85DXPs PNU56mfWu2FT+qihXJsK+jjQLmPys0lW1gkLaVfKGuKD+WiF5mA81KD1ahr6Vhtk /F4zWYbhqXGzS4/o9bWC13MnzCk5SZNgLTylVi89xXO251TqJOTCZ1qWpLu4Pvam FRnvSA2eBTQmwoaVftj+D+3V+nT/xoxJdDI+IFLBdBvfyhq464/JpXm7MNpRP5tM ZWifF6Q185ygZWYmWmoMYli1wEzWAMmmcVu8Nm1o10mN7CnlYSe974UZYu3mTAxI //sCfgWxKVOkczEKoeR2KkeDIpnuHfy9MFEITZhya8ps3fkeDaEgXgnh8hW8MnLg 9e3wQTvnzalSqYTQ3F924DNRClNpfQqHnarUmkiuHlA4EJDVSKa4uMju6/khJ586 oo7L8tv/YzCVeSutTMH4ZKKRdEwFB/zVsBJ2m02C2SmGFtKWuH4urZCDtrQIJYu7 c3QmjnSB40cx4Udmk+WZF/tTkNlZ4gorLCzGYZduJG4keekWWlUlim4iZS+cuHB9 T7VU390UHdQgRC00HpF8iCzYZMjM4LhW9AFXe0y+EQQZSM3GHsW0BoxSOGYyYdHA =E+qz -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_37_0</DOCNO>
+            	<TEXT>Talon challenge #2 - Decrypt the ciphertext</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_37_1</DOCNO>
+            	<TEXT>The Talon algorithm used in this post is described here: http://aarontoponce.org/wiki/card-ciphers/talon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_37_2</DOCNO>
+            	<TEXT>The goal of this challenge is to decrypt the following ciphertext: mqeJN cIPze tQYRr biIsX gfqzj lbfIC AUyLT JowgW VebVL IbHPO LZLzN zhUUO lMilC IVBmW kusXu WIxKS YWAFU qfJmY eWDVO The plaintext and key have been encrypted here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAb+Mm2Z2KzBTuF7yBvV206TrGfTLIYaRC8ioRfQ7CpXYcsv 5D2BeDDcB6b6XBufTgguiAVgqJ9b+OfHUnHiH+QFVuKzUMmjOBXuUKrg6st0OmJN sZQqHK82KWjxCliyf7OoACYYb9uMitAYbfWwcmNAWyBKvfcDZJxp/KZFlTWeczyP AYRioBC5AvWwB9KhhfCW+o9kuKsr8kKex1l5qztFm1jOKPh9tzGcdv1XfL5zjCzd 2scaeReQq4Wct916vtKrl+4o2aE0ltz/JF1Wv0kNAOtDHtis514KzZa54/ib5h0G /RozbT+jSLaZCWWD1zgvjq4JVeSkuhODXoNi1lO8RrjrIhykF+X+Yp0rQMDyWu9+ fu7aT6kPXOrLJ8i/cw/5K7tox3mRBRlUa9J1UYSn1Eal6DeqAiBn0NWiCVa4WVFW uhe7YBK/empD99irQMZeer/qrKZtBLXujptrYKU80vJvVwkbXGZztDJMTVzd0EKh v6/Voy3SW+eK5JuOpeOQHvQ3mLeP/UP69gVn0/BvJv4jCzrc9RaBftmD6be76ElE F4FsLzTuMyKJ1nlzcFAgfaBxmeUCxDdfaKcNswL4CsQU0ukBBX2bvVCOpGO8HqZT 90AItNqeYwfZbbCoAnf6OVhHu9eV3UPjDjdxqxt7FyKvI8Gimicgsa/Lq5e+jl5k cbVGmxlevpzndJWPLRsAgBt4xVdfQANv2PMJIG6624vlSFsMXDpJhOHD8G91r2/R ZIjmCSjF/+7QrCT0cdGOViTF0zx1uY+9wuQ0wuI6n2O3DKCskSaO8Yv5p3VDMFuX uNonthd7VVaH3DtNuzXA81wgXg9H/nKUZbzIhaRsSDNJh25ErrX6fYr+quoLhtrn J0zGIziOggccA7RFYn75eFw3zSwO3C0xVBjdb/VB85EYRH1Qtt3Bni+Se79a3H92 Ur7V0dsoYIUun8E5Ms7v2wXSkr8j7FlOclWelJ+qYS9JLSJDMh54wEI/98iq54Mp 4FpLUbGxdEIrviCV3VSvcAvcZUxS3Gwx/uPsnIvDLKA0N4PRnEHECDfmuQ9SvyhX DQm5IsqFXO3wA12o8aN68xSFJsEJqno35IzTI0jZxQ5BL6E11V+c7cVoYdwgPFh8 rskUM915w1lniMSTP91P/z8IWvegiaZ+LFgg1gcmXO88ZVwYAIOhgeGnehZDjLGl b2W8YGkHmcFdaiOqARQ8bX40Xlzw84iY/ndcFcZGJX1FQzCB6DkjsZeOVKVinqqt FIjdgvfL2aKGms946YkpzWP0/Z80iSpFbjB+CWJiIeyujvgqG7E3TjyRiq5f6Od/ EGYxSYpER0cp3eyk8ubAQ73fzlqrDP4PeSfIwWueenijRWBWW+K0WdU1NV01phaQ LJpLivYHdjn4R8ULbu328kZKv5Plnx3coRPQgt9Lua/Du0Dpd3C8KtrxUr68imKr wfOCVo8Dq9RysV9UAjMwXW+KJJLx4GloDxAOr3e0Yhz5Itg= =mUQA -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_38_0</DOCNO>
+            	<TEXT>Discover the algorithm challenge #1 - ciphertext only</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_38_1</DOCNO>
+            	<TEXT>Each of the 5 card ciphers listed below is represented exactly once in the following ciphertexts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_38_2</DOCNO>
+            	<TEXT>The goal of this challenge is to find which ciphertext belongs to which card cipher.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_38_3</DOCNO>
+            	<TEXT>The card ciphers are listed below: * Card-Chameleon * Chaocipher * Pocket-RC4 * Solitaire * Talon (base-26) The ciphertexts are as follows: a. DOZSG JROAA SHYZO FTTYL GSVPG GHCTY STQZP XBRRT EXFNU PZIMG ORTPQ HCRPY EEWCN WWOON IMQDE EVTCK GOIPU TWRPY HBDWU ZOAFO YDRAJ RKVJF RHLMI IMJTI PQDUR TEHZG WGROJ LKXKX WBIDG QGJMS BWOKB YQNML CDSLE RTIGQ OFJNP RQVBT b. PORMS EDFMT RIAKT JVUYC JCALE ZMVNA XDTGE IIRFP NVMAJ TWYVY IVRHK ZPJDC WOQWO XJBJB IOOUI PEJZV LKDPG ZEJYQ GAWRJ KYGWZ LZPPR NDKJM TYLDJ CHFOF KBCUA KQMSS BIAAE JBEFF XUOWH NXTXE JKMPR MCXLU EBZZM FAPCA OMEAK YLFHX c. PJODM XKPYM UPUFU XQLTS RQCNR CNZYH XPOGQ UGSPV SFZTI TRRLM DGNYJ DYYWW KUZDF NTHFK RMNCT KXMEK ORYFV LHJHE AEMZF QTHTN AHPGX CYXAC NWEYQ AQYOS UEVWV KCLLR YKNUW MJTEP AVBYQ EWTBO WKEEO JHAZH WNZGX MPCPA KXEBQ ROMMF d. NDQUL PRECX RDDRN XECTH XICIA FSZDT TZZCT OCPEA EBHCD WZNDA PQHCN QDXKH JAPOI FENAY MFTBE ZUZGY GGSVC QSRUI XMPNH LHGMA AZIBR VHNBL ZYIBL CVDQS UANPO JBIZP AXABC TJHPY ITOZB NMCGK FQRTQ ACEBN ENXXB DNARR IUBKB KVVDE e. GUMNJ YWGWY QGPRS MBGER XJVUG GPJPS CBNDK ZKUNR TSQAW NUMCF XDRFY OTTLA BYVZW VPEGE RRLKT IIGMN QHRUI NIJTG NMRTM AJICU NWYJZ AFSID SEKLQ PXABE XAKPS MSNYR IANWA JVDNB GDOFY OFHXL JOJFK WZWMI YPNHA WQUST ODDDS TKGMJ As a hint, each cipher starts with a 5-character initialization vector.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_38_4</DOCNO>
+            	<TEXT>Although each cipher uses a separate key (deck order), the plaintext is the same for all ciphertexts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_38_5</DOCNO>
+            	<TEXT>The plaintext and keys for each ciphertext have been encrypted here, should it need to be recalled later: -----BEGIN PGP MESSAGE----- Version: GnuPG v1 Comment: http://ae7.st/s/pgp hQHOA3NFkX7n1B5LEAb/ZOzRqbnP+QkVk6xGta0hj15/kmHIh6XijAh/eE8Bt1DR aKq86xaAWBED3Mczc8hqYR4quQLIF06bJvNibd75O6wtRoXL2D9q0s+W9FvXcwZu bKnrFxXXQo5v/vQ8jRGYCjx34p/HQJeCxWw5p/Cwq/paw2xnMtNa6vJr8KFsB7I7 1FBXYAXLKmr0p4CCP/t7gxkfukQd27Wpi9X2Lfwo872sqZm7YDKeLiaS9dMXA3sH YUq4v2+Fu/GhX6tDFu2OPVw1knrw2eB+F23UJY34NxZGIFPoLctw3Rntw6PdaFMG /jgyKDqYMntB+09Go6BZJ1sJxyte25JdjV7pLWeebpB5XInCvmLO/G8Q/9ad9mUj psuuNFZnui+3JMUjOrjWEOGOF5Hrcg6ncOusXzPS2cZHqKXJwtDyqWJhlI/E4gZH tlqVE1JghDXmwtMTevHMjoQRAYWBfubYHR5y22x92MOg4SpRYOanQfq3H+xqQfx5 1gvPh93HcuIe8nZRGfpRLiEZdvfN103Ga8FVg5/7qd/SZTHRH+wDfUc9SJfw4lj0 dF+SDNZxb9xlIFexpYyxIqazV9DOYQvD55uk3ArJf0rM0uoBUrI76m7bvDXneu1p dowiifom6xz6hITCE+UXk6pM9afFRFNeQCTEh9uKG5LYJSrkCtJeViuB0X+J8cHp xoRLgBj/Z+ep05NzvmhhFWCQ8cqvq0rFFHgMX/EXnKRHifrXiv/mcf9y6oPtL6Ym ux658YgGGsyzE8W/jKHfUT5zv/5KBHzbkx11U8prFx3H8d/rYG4UUutP5v0W356L 6QZRltsO+O62EhHBDWqxI9uAtE6v3Maadvcr2FLhcZA9E3+s7rLsRmLDgaynJOXI t0xXHPfDNNlT3vsotG+yLGEawbkEoV/ZoZ7yeepDdKRDemoabzgmrOOvKv1B590R SDi0pGhxAPSJm7K0Mf7nE4HsQLd8y4OXM6LG/YmZUsllm+ZFe3op7zsmYrjD9BFP IYpo7ySqSMsqQPppGV4MuCPBBk4lqv9t90vKxFgQTaU5LLVtd4cg0epJz2mFEsin du4lgHHsCdDaHW8uIqvyINbJ1Dlf0WagNGefAahkWw0PbXtWH1w806tfBSL/FBNe MGL2aPgQAZ1FVA8AMwsxiBO3w5SzrsC5JBz/zkpVJvAkvcETSrFJb5YcWKWbw66B VtGG6Rnt7UKjFMS2TMmKs6aLJJDrAO8AjFwg59QjZFBBFCRtUpU2ONaBFIYt44Dt mBs8U/9kpkg4BCRttZefRvS4z/frku0ksHvVtfFJ8VijD1sW98WJ4aht2h0wfFW8 GueuI5NJ4CANHu5IG8+BkOTQ2sAql0QEKxl9JLZAw1nRESKayqlbV7lVvpjsWoaR eMAVwNVPO3ojbi/6DRO9jF+ey31NUl1fyvAbKr02KED3ONhGj22MBgb6+2fWXFn2 zT294BwupieuwObsPIAikq/JykWEAnYIxmmyi6Wo2/WRdLkvGN7lcmtTrmOW53f/ O75w1Cj8eecPlHvqoNboCcd08yHM2f2nGxUv2zUPkZofT19JHMeaPMhgiuE+uQKg em0WSvSvDKlxEg8ipcaLYp/nsNNvpmej5Zhop01yX5TwTfKwD+lZAPCZ6bEuy4U7 SuUsq/hXYRFuRrd2CjUisuihl1gKVA77DXGZuDxfaUaqGgwXN80bm0WDrlXBmYz+ uYw6pnzvprwz2A6JYNxEKxNZBXGXJAgyC+Jmmq0QUZpbcLPiV+hVVLjuh1JTTAvO 56uUSdZG2IwdRDEgSFZx3WLzA86s8Kk2Y0PY32Tw08+2dObSgeEmzeFqiIicGpxA qpn7ggFUF02hELj10xjiDT8f8BuAfoPGcZS0HF5AFykVfTVaD6Ioc5CEsHGTKb47 kPkbmI616haImq0CCTWz7Xh7aVLo5h1mEJoMMjTMMdBYgxntAJUEaMBpar25UISW S0q/spVwfGbXpL8q46G5WMJzBlm1UA08lMOz2h0BMxf8zN4lEtS5KaTt6o9XxoiD XfCyQMifNlhVFxt12lEhcGNIgDyed1HgET8MxFg8s22WdIZRClpqgnXypKT1C24/ 61/o3k8s5eqFy2fMsAuzDrUpyODLrwANYl+PgN+8siBPGsinXayTx4fQDgkybknF c5/cAVD6G5OkUUoofX/VMpWgYL/sW7XyJX9WM/837ALLJGGzV+g= =gzN/ -----END PGP MESSAGE-----</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_39_0</DOCNO>
+            	<TEXT>Terminal Color Scheme Designer</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_40_0</DOCNO>
+            	<TEXT>User-submitted .Xresources themes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_41_0</DOCNO>
+            	<TEXT>More of Utah's finest</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_42_0</DOCNO>
+            	<TEXT>Frontier Communications stores their passwords in plaintext</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_43_0</DOCNO>
+            	<TEXT>Password RBL - Real-Time Blacklist for Bad Passwords</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_44_0</DOCNO>
+            	<TEXT>What They Get When They Let Their Puppy Pick Out a Kitten... - Love Meow</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_45_0</DOCNO>
+            	<TEXT>Password Generation in the Shell</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_46_0</DOCNO>
+            	<TEXT>Can't verify device</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_46_1</DOCNO>
+            	<TEXT>"OPS  gt; DEVICE  gt; Verification" does not exist on my phone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_46_2</DOCNO>
+            	<TEXT>Has anyone else experienced this, and if so, how did you solve it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_46_3</DOCNO>
+            	<TEXT>Screenshot: https://twitter.com/AaronToponce/status/642905126756184064</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_47_0</DOCNO>
+            	<TEXT>Sites that place unrealistic limits on passwords is ridiculous.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_47_1</DOCNO>
+            	<TEXT>Unfortunately, it's all too common.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_48_0</DOCNO>
+            	<TEXT>AgileBits Blog | When a Leak Isnt a Leak</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_0</DOCNO>
+            	<TEXT>Comparing password entropy estimation libraries</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_1</DOCNO>
+            	<TEXT>I wanted to see how Perl's "Data::Password::Entropy" module compared to Dropbox's "zxcvbn" library.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_2</DOCNO>
+            	<TEXT>So, I created 50 passwords from the set "[a-hjkmnp-z2-9-]" using /dev/urandom.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_3</DOCNO>
+            	<TEXT>The set size is 32-characters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_4</DOCNO>
+            	<TEXT>Thus, each character has exactly 5-bits of theoretic entropy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_5</DOCNO>
+            	<TEXT>At 16-characters in length, each password has exactly 80-bits of entropy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_6</DOCNO>
+            	<TEXT>How well do the libraries compare?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_7</DOCNO>
+            	<TEXT>Here's my pastebin comparing the two: http://ae7.st/p/4xf.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_8</DOCNO>
+            	<TEXT>Here are additional stats on what's returned: http://ae7.st/p/9q8.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_9</DOCNO>
+            	<TEXT>Interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_49_10</DOCNO>
+            	<TEXT>Edited to add: Here are the top-100 passwords from the Adobe leak: http://ae7.st/p/64m and their corresponding stats: http://ae7.st/p/2ro</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_0</DOCNO>
+            	<TEXT>Comparing password entropy estimation libraries</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_1</DOCNO>
+            	<TEXT>I wanted to see how Perl's "Data::Password::Entropy" module compared to Dropbox's "zxcvbn" library.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_2</DOCNO>
+            	<TEXT>So, I created 50 passwords from the set "[a-hjkmnp-z2-9-]" using /dev/urandom.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_3</DOCNO>
+            	<TEXT>The set size is 32-characters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_4</DOCNO>
+            	<TEXT>Thus, each character has exactly 5-bits of theoretic entropy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_5</DOCNO>
+            	<TEXT>At 16-characters in length, each password has exactly 80-bits of entropy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_6</DOCNO>
+            	<TEXT>How well do the libraries compare?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_7</DOCNO>
+            	<TEXT>Here's my pastebin comparing the two: http://ae7.st/p/4xf.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_8</DOCNO>
+            	<TEXT>Here are additional stats on what's returned: http://ae7.st/p/9q8.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_9</DOCNO>
+            	<TEXT>Interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_50_10</DOCNO>
+            	<TEXT>Edited to add: Here are the top-100 passwords from the Adobe leak: http://ae7.st/p/64m and their corresponding stats: http://ae7.st/p/2ro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_51_0</DOCNO>
+            	<TEXT>Colorful block shapes make great Tak stones.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_52_0</DOCNO>
+            	<TEXT>Multiplayer variations</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_52_1</DOCNO>
+            	<TEXT>I taught 3 coworkers the game today, and we played for a while.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_52_2</DOCNO>
+            	<TEXT>After a couple games, we started thinking about variations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_52_3</DOCNO>
+            	<TEXT>Such as a 3 or 4 player simultaneous, but independent game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_52_4</DOCNO>
+            	<TEXT>Or 2 teams of two, each player with their own color, but they can use their teammate color as well as their own to help build a road.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_52_5</DOCNO>
+            	<TEXT>Of course, this would require a larger board, but fewer pieces per player.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_53_0</DOCNO>
+            	<TEXT>Use #TakGame on Twitter instead #Tak</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_53_1</DOCNO>
+            	<TEXT>Unfortunately, #tak is a mess on Twitter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_53_2</DOCNO>
+            	<TEXT>Everything between "tak"ing nudes to the ISIS conflict.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_53_3</DOCNO>
+            	<TEXT>Instead, I recommend #TakGame.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_53_4</DOCNO>
+            	<TEXT>It's more specific, so less noise means more signal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_54_0</DOCNO>
+            	<TEXT>Laser burned boards, two different sizes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_55_0</DOCNO>
+            	<TEXT>Love Attack of the Mini Floofs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_56_0</DOCNO>
+            	<TEXT>L12 to L15 today</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_57_0</DOCNO>
+            	<TEXT>I created a password and passphrase generator that explores various styles, maintaining at least 76-bits entropy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_58_0</DOCNO>
+            	<TEXT>Nine ways to generate a password- a passphrase and password generator</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_59_0</DOCNO>
+            	<TEXT>Diceware Secure Passphrase Generator</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_60_0</DOCNO>
+            	<TEXT>You can't make this up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_60_1</DOCNO>
+            	<TEXT>Try creating a password during Virgin Media account creation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_60_2</DOCNO>
+            	<TEXT>UX and security fail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_61_0</DOCNO>
+            	<TEXT>You can't make this up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_61_1</DOCNO>
+            	<TEXT>Try creating a password during Virgin Media account creation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_61_2</DOCNO>
+            	<TEXT>UX and security fail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_62_0</DOCNO>
+            	<TEXT>LastPass with the Apple Touchbar and password corrections</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_63_0</DOCNO>
+            	<TEXT>Weekly Vigenre puzzles on Twitter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_64_0</DOCNO>
+            	<TEXT>Picking a practice dimple lock.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_64_1</DOCNO>
+            	<TEXT>Good enough for a white belt?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_65_0</DOCNO>
+            	<TEXT>Book Of Mormon Paradox- Nephi teaches from scripture that doesn't yet exist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_66_0</DOCNO>
+            	<TEXT>Jesus gives Peter's sermon at Pentecost, before Peter could.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_67_0</DOCNO>
+            	<TEXT>Nephi writes the writings of Malachi, some 150 years in advance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_68_0</DOCNO>
+            	<TEXT>Helam sets the perfect example of baptism 150 years before jesus</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_69_0</DOCNO>
+            	<TEXT>"Reformed Egyptian" compared to the other known writing scripts at that time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_70_0</DOCNO>
+            	<TEXT>Anyone else notice that the creation story in the temple differs from the books of Genesis, Abraham, and Moses?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_71_0</DOCNO>
+            	<TEXT>When you're writing a story, and you forget the plot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_72_0</DOCNO>
+            	<TEXT>My army is ready.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_72_1</DOCNO>
+            	<TEXT>We attack at nightfall.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_73_0</DOCNO>
+            	<TEXT>The United States Declaration of Independence signatures versus the Book of Mormon testimony of three and eight witnesses signatures.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_0</DOCNO>
+            	<TEXT>My grandma got an "inspired" calling Sunday</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_1</DOCNO>
+            	<TEXT>I shared this in the Mormon Stories Podcast Community Facebook group, so apologies if there is some overlap there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_2</DOCNO>
+            	<TEXT>My grandmother got called in to see the bishop about a calling.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_3</DOCNO>
+            	<TEXT>According to her, the conversation Sunday went like this: * Bishop: We feel inspired to call you to be the ward organist. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_4</DOCNO>
+            	<TEXT>Grandma: Bishop, I don't know how to play. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_5</DOCNO>
+            	<TEXT>Bishop: But you have an organ in your living room. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_6</DOCNO>
+            	<TEXT>Grandma: It was for my kids and grandkids when they were young, it's old, and it hardly works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_7</DOCNO>
+            	<TEXT>It's mostly just a decoration now. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_74_8</DOCNO>
+            	<TEXT>Bishop: ...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_75_0</DOCNO>
+            	<TEXT>Could it be that "The Family: A Proclamation to the World" wasn't revelation, but a legal draft?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_76_0</DOCNO>
+            	<TEXT>ChaCha20 CSPRNG in Linux 4.8+ performs ~20x better than 4.7 (based on SHA-1).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_77_0</DOCNO>
+            	<TEXT>In Ether 2:23, Jesus tells the brother of Jared he can't have windows in the barges.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_78_0</DOCNO>
+            	<TEXT>Proposal for the actual location of Book of Mormon events, cities, and landmarks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_79_0</DOCNO>
+            	<TEXT>Lamoni and Lachoneus use then remove all traces of chariots</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_80_0</DOCNO>
+            	<TEXT>Turtle Power</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_81_0</DOCNO>
+            	<TEXT>I guess horses can be translated too!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_82_0</DOCNO>
+            	<TEXT>Ether 9:19 says the elephants were very useful to the Jaredites.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_83_0</DOCNO>
+            	<TEXT>Word of Wisdom "hot drinks" matrix</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_84_0</DOCNO>
+            	<TEXT>How the Prohibition Era shaped the Word of Wisdom in Mormonism</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_85_0</DOCNO>
+            	<TEXT>The FreeBSD CSPRNG switched to ChaCha20</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_86_0</DOCNO>
+            	<TEXT>Benchmarking various primitives</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_86_1</DOCNO>
+            	<TEXT>When benchmarking cryptographic hashing functions, such as SHA-3 or BLAKE2, in addition to symmetric ciphers such as AES or ChaCha20, it's common to measure the performance across various CPU architectures and message sizes using "cycles per byte" or "cpb".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_86_2</DOCNO>
+            	<TEXT>However, when measuring asymmetric operations (generating a key pair, encryption/decryption, signing/verifying), it seems that only "cycles" are measured, such as "cycles to generate a key pair", rather than "cycles per byte".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_86_3</DOCNO>
+            	<TEXT>Why is this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_964_86_4</DOCNO>
+            	<TEXT>As a point of reference, I'm reading both https://bench.cr.yp.to/ as well as https://ed25519.cr.yp.to/, which both come from 
+    djb, so maybe that's just the way he measures his benchmarks?</TEXT>
+        </DOC>

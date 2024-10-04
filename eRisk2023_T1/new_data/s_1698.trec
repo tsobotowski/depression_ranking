@@ -1,0 +1,224 @@
+        <DOC>
+            	<DOCNO>s_1698_0_0</DOCNO>
+            	<TEXT>Need help with my trainers detecting a player!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_0_1</DOCNO>
+            	<TEXT>I am currently making my own Pokemon game via RPG XP like everyone here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_0_2</DOCNO>
+            	<TEXT>For some reason my trainers dont detect players if I change the way they are facing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_0_3</DOCNO>
+            	<TEXT>I can copy a trainer that looks to the right, and if you walk through his sight he will notice the player.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_0_4</DOCNO>
+            	<TEXT>I can copy a trainer that looks to the right, change him looking to the left and he wont detect you anymore.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_0_5</DOCNO>
+            	<TEXT>Fairly annoying, since there are 0 trainers that are facing left in the pre-saved game in Essentials.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_0_6</DOCNO>
+            	<TEXT>Anyone who knows how I can fix this? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_0_7</DOCNO>
+            	<TEXT>PS: I have set my Trainer(x) correctly!)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_1_0</DOCNO>
+            	<TEXT>Yes, I have! (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_1_1</DOCNO>
+            	<TEXT>It was already there after copying the trainer.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_1_2</DOCNO>
+            	<TEXT>I have also found that the trainer in the pre-saved gym is the only working trainer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_1_3</DOCNO>
+            	<TEXT>So I removed his gym codelines, but he is facing to the right and switching it makes it not detect the player again..... The trainers on the pre-saved Route 3 dont detect anything at all, also after straight up copying them... I have been trying to find a solution for an hour this afternoon, no success yet...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_2_0</DOCNO>
+            	<TEXT>I am using the same!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_3_0</DOCNO>
+            	<TEXT>Trainer(5) It needs 5 vision, so that should be correct</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_4_0</DOCNO>
+            	<TEXT>I am kinda new to Reddit and cant find the option to add a photo to my reply, or do I have to post it as a post to this subreddit?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_5_0</DOCNO>
+            	<TEXT>Its connected with the selfswitch in the trainer branch, I copied the trainers from Route 3 in the pre-save so yeah</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_6_0</DOCNO>
+            	<TEXT>Correct, weird isnt it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_7_0</DOCNO>
+            	<TEXT>Only just had the time to test this: YOU ARE MY HERO!!!!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_7_1</DOCNO>
+            	<TEXT>Thank you so much, it all works now!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_8_0</DOCNO>
+            	<TEXT>Discord Server</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_8_1</DOCNO>
+            	<TEXT>Hey everyone, seen a few people talk about a discord server.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_8_2</DOCNO>
+            	<TEXT>Can anyone share the link so I can join too? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_8_3</DOCNO>
+            	<TEXT>Only if you are allowed to posts links ofc!)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_9_0</DOCNO>
+            	<TEXT>Hey, can you show the text file?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_9_1</DOCNO>
+            	<TEXT>And the event screen?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_10_0</DOCNO>
+            	<TEXT>And what does the event look like?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_11_0</DOCNO>
+            	<TEXT>I do not have too much experience yet, but this looks okay in my eyes tbh Maybe someone else who can help?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_13_0</DOCNO>
+            	<TEXT>James Sprite</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_13_1</DOCNO>
+            	<TEXT>Hey everyone!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_13_2</DOCNO>
+            	<TEXT>Since I'm not too good (yet) at spriting, I would love to get some tips on my first ever sprite.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_13_3</DOCNO>
+            	<TEXT>Of course, this is only a James standing sprite, I want to get some tips or feedback first, before I continue with the rest of the sprites.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_13_4</DOCNO>
+            	<TEXT>NOTE: This is a FR/LG style, so please give tips and feedback around that style!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_13_5</DOCNO>
+            	<TEXT>https://preview.redd.it/87026v4bea171.png?width=28 amp;format=png amp;auto=webp amp;s=940bc093b652170f1752a94a77d348091a7f9daa</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_14_0</DOCNO>
+            	<TEXT>Thank you, will take a look!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_14_1</DOCNO>
+            	<TEXT>Appreciate the kind words too, I just took a picture and tried to pixelart-copy it as best as I could.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_14_2</DOCNO>
+            	<TEXT>The shading was the hardest part, since you have so limited pixels.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_14_3</DOCNO>
+            	<TEXT>Glad to hear you like it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_15_0</DOCNO>
+            	<TEXT>Jessie and James Sprites</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_15_1</DOCNO>
+            	<TEXT>Hey, back again!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_15_2</DOCNO>
+            	<TEXT>These are the final frontview sprites of my selfmade Jessie and James, FR/LG style!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_15_3</DOCNO>
+            	<TEXT>These are my first ever sprites so feedback, tips and tricks are always welcome!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_15_4</DOCNO>
+            	<TEXT>Thanks in advance!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_15_5</DOCNO>
+            	<TEXT>https://preview.redd.it/qmgkhrdjin171.png?width=873 amp;format=png amp;auto=webp amp;s=4a6347ca0ded027620354fbc85fed4c0e16d1dc2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_17_0</DOCNO>
+            	<TEXT>My god this dude got TALENT.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_19_0</DOCNO>
+            	<TEXT>Insane work that is!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_19_1</DOCNO>
+            	<TEXT>How did you make the background?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_19_2</DOCNO>
+            	<TEXT>Is that custom or is there like some sort of format for it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_20_0</DOCNO>
+            	<TEXT>Damn GG, it looks so good!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_21_0</DOCNO>
+            	<TEXT>Man said now chop chop</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_22_0</DOCNO>
+            	<TEXT>Skin database for NPCs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_22_1</DOCNO>
+            	<TEXT>Hey everyone, quick question!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_22_2</DOCNO>
+            	<TEXT>Is there by any chance some sort of site with a database of skins to use on PRMXP?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_22_3</DOCNO>
+            	<TEXT>For example, Minecraft has sites where you can download skins to use, I wonder if sites like that exist for PRMXP too?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_22_4</DOCNO>
+            	<TEXT>Anyone who knows?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_23_0</DOCNO>
+            	<TEXT>Yes, sprites like these is exactly what I mean!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1698_23_1</DOCNO>
+            	<TEXT>Is Relic Castle they only site that has uploads like these?</TEXT>
+        </DOC>

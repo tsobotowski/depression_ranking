@@ -1,0 +1,2771 @@
+        <DOC>
+            	<DOCNO>s_2473_0_0</DOCNO>
+            	<TEXT>That makes sense thanks but does it have practical benefits in your application?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_0_1</DOCNO>
+            	<TEXT>In your example to get the timestamp of the last update in the db for the user you would still need to access the db, so youre not decreasing the load on your db just sending back a little less data over the network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_0_2</DOCNO>
+            	<TEXT>Can you use cache headers to instruct the browser to not even need to go to the server if the last response is less than a certain age?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_0_3</DOCNO>
+            	<TEXT>About weak and strong etags, the API calls arent going through a CDN anyway so does it matter which one is used?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_1_0</DOCNO>
+            	<TEXT>That is very interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_1_1</DOCNO>
+            	<TEXT>So the cache key you use in redis is the etag itself? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_1_2</DOCNO>
+            	<TEXT>And the value is the cached content?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_1_3</DOCNO>
+            	<TEXT>How do you generate the etag on the server for the api response data?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_1_4</DOCNO>
+            	<TEXT>Is it as simple as an md5sum of a JSON string of the response object?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_1_5</DOCNO>
+            	<TEXT>Something like etag = md5(json(apiResponse))?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_2_0</DOCNO>
+            	<TEXT>How did you setup file icons in ranger?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_3_0</DOCNO>
+            	<TEXT>So if I do archive_command on the standby then the standby becomes capable of PITR?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_3_1</DOCNO>
+            	<TEXT>I can recover the standby to absolutely any point in time since I added archive_command to my config?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_3_2</DOCNO>
+            	<TEXT>In that case it seems like a good backup solution (if its in a different data center).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_3_3</DOCNO>
+            	<TEXT>Is it common or recommended to use a standby like this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_4_0</DOCNO>
+            	<TEXT>So if the standby is using streaming replication to keep ingesting the wal files, then it cant go back in time even though the wal files also exist due to archive_command?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_4_1</DOCNO>
+            	<TEXT>So for this to work I would need to enable archive_command first then take a base backup?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_4_2</DOCNO>
+            	<TEXT>And this cant happen on a standby its all offline?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_5_0</DOCNO>
+            	<TEXT>This clears things up thanks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_5_1</DOCNO>
+            	<TEXT>So lets say I want to do backups on another machine not the standby.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_5_2</DOCNO>
+            	<TEXT>Does that machine need to have a running postgres (to use archive_command)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_5_3</DOCNO>
+            	<TEXT>I would want to continuously gather wal and also take a base backup maybe only once a week.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_5_4</DOCNO>
+            	<TEXT>One more thing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_5_5</DOCNO>
+            	<TEXT>If I take a base backup each week does each base backup need its own separate set of archived wal files or can they all share one gigantic collection of continuously archived wal files from the primary?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_6_0</DOCNO>
+            	<TEXT>Thanks it is very helpful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_6_1</DOCNO>
+            	<TEXT>In what case would you want to set archive_mode to always?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_6_2</DOCNO>
+            	<TEXT>How do you go about cleaning up the wal archive pool?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_6_3</DOCNO>
+            	<TEXT>You would be able to delete any wal files older than the earliest basebackup, but how do you determine which those are?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_6_4</DOCNO>
+            	<TEXT>At what size of database would you say it becomes less practical to do full backups?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_6_5</DOCNO>
+            	<TEXT>My database is small but Im curious do people with multi terabyte databases ever take full backups or is it one basebackup and an ever increasing number of wal files after that (so they never need to do that overwhelming basebackup again especially if its to a remote server).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_7_0</DOCNO>
+            	<TEXT>This is great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_7_1</DOCNO>
+            	<TEXT>I hope you are able to really grow this subreddit and get lots of people posting good tinder conversations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_7_2</DOCNO>
+            	<TEXT>I hope text conversations are allowed too since conversations will move there from tinder.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_8_0</DOCNO>
+            	<TEXT>So you definitely need something to hold the petri dish together?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_8_1</DOCNO>
+            	<TEXT>Or do petri dishes click or lock into place?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_9_0</DOCNO>
+            	<TEXT>You can just copy the file to another partition like the /boot partition?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_9_1</DOCNO>
+            	<TEXT>And then set the systemd-boot settings to use that to eliminate need for an ISO?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_10_0</DOCNO>
+            	<TEXT>So you would create a partition then use dd command to copy the iso to that partition, or you used a different command?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_10_1</DOCNO>
+            	<TEXT>If you used dd does the partition need to be the exact same size as the iso or anything larger will work?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_11_0</DOCNO>
+            	<TEXT>Could you give some tips on technique?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_12_0</DOCNO>
+            	<TEXT>What does titrate mean?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_12_1</DOCNO>
+            	<TEXT>The definitions online are pretty technical.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_13_0</DOCNO>
+            	<TEXT>To clear the bowl in one hit does it mean that if you fill the bong with 10mg you want to smoke all of it in one hit?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_13_1</DOCNO>
+            	<TEXT>How do you know its done.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_13_2</DOCNO>
+            	<TEXT>Does it look totally burned after?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_14_0</DOCNO>
+            	<TEXT>What ratios of everything did you use?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_15_0</DOCNO>
+            	<TEXT>Several GB of iphone storage being used by iCloud Drive even though I disabled it a long time ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_15_1</DOCNO>
+            	<TEXT>Theres no option to delete it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_15_2</DOCNO>
+            	<TEXT>How do I reclaim that space?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_16_0</DOCNO>
+            	<TEXT>Everything in that menu was already toggled off under apps using icloud.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_16_1</DOCNO>
+            	<TEXT>At the top of that screen it says its using about 100mb, but under iphone storage it says its using several gigabytes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_16_2</DOCNO>
+            	<TEXT>I cant understand where this difference is coming from or how to get back all that space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_17_0</DOCNO>
+            	<TEXT>Is that per flush or total?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_17_1</DOCNO>
+            	<TEXT>How many quarts of spawn do you usually use in 30 quart tub?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_18_0</DOCNO>
+            	<TEXT>Is it necessary to set up an apple id when using an iphone that you have factory reset?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_18_1</DOCNO>
+            	<TEXT>I dont use any of the backup or icloud features so would like to avoid this if possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_19_0</DOCNO>
+            	<TEXT>Do you know if its necessary to have one?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_19_1</DOCNO>
+            	<TEXT>Can I still download free apps without it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_19_2</DOCNO>
+            	<TEXT>I remember a friend seemed to use it without an apple id and everything worked fine but that was a few years ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_20_0</DOCNO>
+            	<TEXT>Ok but is it necessary to even create an apple id to use my iphone?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_21_0</DOCNO>
+            	<TEXT>Add anything meaning apps?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_21_1</DOCNO>
+            	<TEXT>So even downloading free apps from app store requires apple id?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_22_0</DOCNO>
+            	<TEXT>Based on the other comments I wont be able to download apps from the app store.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_22_1</DOCNO>
+            	<TEXT>Is that the case?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_23_0</DOCNO>
+            	<TEXT>Do you have a link for the specific model you mean?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_24_0</DOCNO>
+            	<TEXT>How can I export my saved Shazam songs to a text file?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_24_1</DOCNO>
+            	<TEXT>If I create a Shazam account and log in from the website is there a way to do it, or from the iphone app itself?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_24_2</DOCNO>
+            	<TEXT>Or any way to get it from itunes, or since Shazam is owned by Apple maybe there's some other way to get this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_25_0</DOCNO>
+            	<TEXT>Can you recommend any iphone screen protectors (for 6s Plus) that take up the entire screen to the very edge?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_25_1</DOCNO>
+            	<TEXT>And a phone cover that overlaps with it a bit?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_25_2</DOCNO>
+            	<TEXT>I find the screen protector lasts a lot longer that way otherwise the edges start to chip.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_26_0</DOCNO>
+            	<TEXT>If I put in a different sim card for a few days when I take a vacation, will my whatsapp still work with the phone number from the previous sim card or will it complain that I need to update it to the new sim card number?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_27_0</DOCNO>
+            	<TEXT>Why even positive comparisons indicate she wasnt really into you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_28_0</DOCNO>
+            	<TEXT>Where can you buy samples?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_29_0</DOCNO>
+            	<TEXT>Could you talk a bit more about the personal journal?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_29_1</DOCNO>
+            	<TEXT>Or an example of an entry?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_29_2</DOCNO>
+            	<TEXT>Sounds interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_30_0</DOCNO>
+            	<TEXT>Most men in their 30s are unable to get a girl a decade youger than them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_32_0</DOCNO>
+            	<TEXT>Good point about it not mattering when you have lots of women that one doesnt fuck you right away.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_32_1</DOCNO>
+            	<TEXT>My biggest sticking point is getting butthurt when a girl doesnt give me her best like making me wait even until the second meeting when shes had one night stands before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_32_2</DOCNO>
+            	<TEXT>Or taking too long to text back when she texts other guys immediately and with more enthusiasm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_32_3</DOCNO>
+            	<TEXT>Its a major ego thing on my end and its made me lose countless lays and plates as I block and delete them in frustration.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_32_4</DOCNO>
+            	<TEXT>Funny thing is whenever I see a comment here that gives me some insight about how not to be a little bitch about this particular weakness of mine, its more often than not your username attached to it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_32_5</DOCNO>
+            	<TEXT>Not sure if you dealt with this and got over it or what but I feel like you really get the shit Im going through.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_33_0</DOCNO>
+            	<TEXT>Could you share some text conversations where you get them to come straight to your place?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_33_1</DOCNO>
+            	<TEXT>Working on this myself with some successes but could improve.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_34_0</DOCNO>
+            	<TEXT>Can you link the reading materials he sent you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_35_0</DOCNO>
+            	<TEXT>Arent both strengthening exercises for the shins rather than the calves?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_36_0</DOCNO>
+            	<TEXT>Mods can we add these to the subreddit wiki?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_37_0</DOCNO>
+            	<TEXT>So youve been a sexual object (your words) to men and are now looking for a guy whos okay with being your hug buddy while you search for another guy to date?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_37_1</DOCNO>
+            	<TEXT>Good luck with that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_37_2</DOCNO>
+            	<TEXT>Most guys even on this sub have more self-respect than that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_38_0</DOCNO>
+            	<TEXT>What kind of powder?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_38_1</DOCNO>
+            	<TEXT>What does the powder do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_39_0</DOCNO>
+            	<TEXT>I can see why she cheated on you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_40_0</DOCNO>
+            	<TEXT>How did slow cooking make it not dull?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_40_1</DOCNO>
+            	<TEXT>If you use the same flavors etc as before?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_42_0</DOCNO>
+            	<TEXT>That makes it like - first line - second line which is longer and wraps around Definitely a solution.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_42_1</DOCNO>
+            	<TEXT>But if you know how to configure it so that the wrapped part starts after the dash (like how it looks in the OP), that would be even better!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_43_0</DOCNO>
+            	<TEXT>Mods ban this guy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_43_1</DOCNO>
+            	<TEXT>There is nothing in this post that has to do with TRP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_43_2</DOCNO>
+            	<TEXT>He should be posting this garbage in a relationships sub.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_44_0</DOCNO>
+            	<TEXT>Different how?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_45_0</DOCNO>
+            	<TEXT>Got any sample conversations you wouldnt mind sharing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_45_1</DOCNO>
+            	<TEXT>How you go from pings to the date.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_46_0</DOCNO>
+            	<TEXT>Great point but what do you do if she turns down the spontaneous invite a couple times in a row?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_46_1</DOCNO>
+            	<TEXT>How do you do it without appearing needy or losing your value?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_46_2</DOCNO>
+            	<TEXT>If the girl expects you to always initiate but has a busy schedule how do you handle not making plans in advance?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_47_0</DOCNO>
+            	<TEXT>How did you disable it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_48_0</DOCNO>
+            	<TEXT>Never seen that automatic login before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_48_1</DOCNO>
+            	<TEXT>How did you set that up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_49_0</DOCNO>
+            	<TEXT>This looks amazing!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_49_1</DOCNO>
+            	<TEXT>Im totally new here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_49_2</DOCNO>
+            	<TEXT>Do people build these themselves or buy them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_49_3</DOCNO>
+            	<TEXT>I looked at the github but cant tell what its for exactly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_50_0</DOCNO>
+            	<TEXT>Can you recommend any videos to see this handwiring process in action for a beginner?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_50_1</DOCNO>
+            	<TEXT>Doing it all from scratch seems way over my head but I could see myself buying a pre made case and learning the simple option.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_50_2</DOCNO>
+            	<TEXT>Whats the rough price range for these cases on the entry level side?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_50_3</DOCNO>
+            	<TEXT>I just received a kinesis advantage and love it so a portable version that feels somewhat similar in my hands would be perfect.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_51_0</DOCNO>
+            	<TEXT>Mods please ban idiots like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_51_1</DOCNO>
+            	<TEXT>Theres plenty of other subreddits they can ask these relationship questions that have nothing to do with the red pill.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_0</DOCNO>
+            	<TEXT>What solutions would you suggest in my case where the neighbors sound is coming from the adjacent and below tenants in the apartment building?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_1</DOCNO>
+            	<TEXT>The The ones above us dont seem to be a problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_2</DOCNO>
+            	<TEXT>The noises are them speaking and the television and music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_3</DOCNO>
+            	<TEXT>Even ear plugs and white noise dont help. :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_4</DOCNO>
+            	<TEXT>I dont own the apartment so I cant really remove anything from the wall but the owner has give me permission to add to it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_5</DOCNO>
+            	<TEXT>Space is not an issue so I can lose as many inches as necessary to get to a point where I dont hear them at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_6</DOCNO>
+            	<TEXT>Im not loud so the soundproofing doesnt need to block the noises from my side, just theirs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_7</DOCNO>
+            	<TEXT>Im just worried that after doing all this I discover the noises from the adjacent and below tenants are somehow sneaking in through the floor or ceiling, and all the effort and money I spent in soundproofing the wall didnt solve it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_52_8</DOCNO>
+            	<TEXT>Is there any way to know in advance whether soundproofing the wall would be enough?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_53_0</DOCNO>
+            	<TEXT>I thought ISIN uniquely identified an etf.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_53_1</DOCNO>
+            	<TEXT>How can many etf share same ISIN?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_53_2</DOCNO>
+            	<TEXT>What uniquely identifies an etf then?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_53_3</DOCNO>
+            	<TEXT>Can you recommend some resources to learn more about etf from a european perspective?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_53_4</DOCNO>
+            	<TEXT>I read a lot of indexfundinvestor.eu but still missing a lot of knowledge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_54_0</DOCNO>
+            	<TEXT>Im in that phase where I dont even know what I dont know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_54_1</DOCNO>
+            	<TEXT>So any resources you can recommend Ill read through them all then post a lot of follow up questions in this sub. :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_55_0</DOCNO>
+            	<TEXT>What does turnover mean in this context?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_55_1</DOCNO>
+            	<TEXT>On that link it says 31 for jets and over 3000 for category average.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_55_2</DOCNO>
+            	<TEXT>So its much less than the average but still bad?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_56_0</DOCNO>
+            	<TEXT>Do you mean the wiki?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_56_1</DOCNO>
+            	<TEXT>Apart from that linked pdf i dont really see much else there about etfs in general?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_57_0</DOCNO>
+            	<TEXT>I dont see any sources section in the right sidebar. :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_57_1</DOCNO>
+            	<TEXT>Looking at it on desktop not mobile.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_57_2</DOCNO>
+            	<TEXT>The pdf is under the wiki link which is found near the top of the page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_58_0</DOCNO>
+            	<TEXT>Any additional beginner friendly resources?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_58_1</DOCNO>
+            	<TEXT>Most of the recommended books got real advanced real quick.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_59_0</DOCNO>
+            	<TEXT>Which simulators do you recommend?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_60_0</DOCNO>
+            	<TEXT>What is TOS?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_61_0</DOCNO>
+            	<TEXT>How come mutual funds are unaffected?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_62_0</DOCNO>
+            	<TEXT>Which broker are you using?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_63_0</DOCNO>
+            	<TEXT>What do you mean the market is still trading above its gdp equivalent?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_63_1</DOCNO>
+            	<TEXT>And at what level will the market be trading at its correct amount based on current numbers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_64_0</DOCNO>
+            	<TEXT>Why systemd updates in particular?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_65_0</DOCNO>
+            	<TEXT>What do you think about index funds compared to RE?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_66_0</DOCNO>
+            	<TEXT>Why do you separate data by size?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_66_1</DOCNO>
+            	<TEXT>And does this mean the size of an individual set/hash/list?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_66_2</DOCNO>
+            	<TEXT>Is this also what you mean by large keys vs small keys?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_67_0</DOCNO>
+            	<TEXT>So you would separate into different redis instances?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_67_1</DOCNO>
+            	<TEXT>One instance on one port for small keys and another instance on another port for large keys?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_67_2</DOCNO>
+            	<TEXT>If its the size of whatever youre sending across the network, would that include many values that are small individually, but when sent together in one pipeline request are large?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_68_0</DOCNO>
+            	<TEXT>Any way to follow what changes are coming in Node 14?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_69_0</DOCNO>
+            	<TEXT>Any more videos like this anyone can recommend?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_70_0</DOCNO>
+            	<TEXT>How is IB more powerful than Degiro?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_71_0</DOCNO>
+            	<TEXT>Any comedians you recommend who are still actively writing or up and coming?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_72_0</DOCNO>
+            	<TEXT>How do you do this lookup on the ip address?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_72_1</DOCNO>
+            	<TEXT>I would like to try but thought whois is for domain names only.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_73_0</DOCNO>
+            	<TEXT>Wouldnt all the limitations you listed apply regardless of over 100k or not?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_74_0</DOCNO>
+            	<TEXT>Any examples of such situations?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_75_0</DOCNO>
+            	<TEXT>What are the advantages of air popper over microwave?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_76_0</DOCNO>
+            	<TEXT>Whats the attachment at the top for?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_76_1</DOCNO>
+            	<TEXT>Is that water in it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_77_0</DOCNO>
+            	<TEXT>Unless you use a payment method for the vpn thats connected to your real identity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_77_1</DOCNO>
+            	<TEXT>Then they have some of the same info as isp.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_78_0</DOCNO>
+            	<TEXT>If .local names arent available on android what kind of url do we use?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_78_1</DOCNO>
+            	<TEXT>Is it possible to send from android and ios to other system?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_79_0</DOCNO>
+            	<TEXT>To upload from ios or android I would first start the upload server on the computer I want to transfer files to, then go to the url it shows in the console output in the mobile browser, then I can select the file from my phone in the upload dialog in the browser?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_80_0</DOCNO>
+            	<TEXT>That is great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_80_1</DOCNO>
+            	<TEXT>Any way to copy text from android or ios?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_80_2</DOCNO>
+            	<TEXT>Unfortunately ios doesnt let you access things like memos or emails as files so I cant upload them I would have to copy the text manually.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_80_3</DOCNO>
+            	<TEXT>Is there some kind of textarea on the webpage in the mobile browser we could use to copy text from mobile into it instead of selecting a file, and it would create file with that text on the server?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_80_4</DOCNO>
+            	<TEXT>Or would you consider including such feature?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_81_0</DOCNO>
+            	<TEXT>That is great it would completely solve any problems with transferring data around!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_82_0</DOCNO>
+            	<TEXT>What would cause packets to be sent out with private destinations?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_82_1</DOCNO>
+            	<TEXT>If its private wouldnt it not even be sent out?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_83_0</DOCNO>
+            	<TEXT>How do you know if upgraded package requires restart?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_84_0</DOCNO>
+            	<TEXT>Why specifically firefox 76?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_85_0</DOCNO>
+            	<TEXT>How does a -git package know it needs to get updated?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_85_1</DOCNO>
+            	<TEXT>Does it check for updates and update if needed whenever I run the yay update command?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_86_0</DOCNO>
+            	<TEXT>Is this the same as doing ctrl + alt + number?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_87_0</DOCNO>
+            	<TEXT>You notice actual difference from 1p and ald52?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_88_0</DOCNO>
+            	<TEXT>Why do you think you are being targeted?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_89_0</DOCNO>
+            	<TEXT>Wow and what are your goals?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_90_0</DOCNO>
+            	<TEXT>Would regular soya sauce as a marinade be good enough for salt and acids?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_91_0</DOCNO>
+            	<TEXT>What do you mean invaded?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_92_0</DOCNO>
+            	<TEXT>Never heard it has to be taken with food.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_92_1</DOCNO>
+            	<TEXT>Why is this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_93_0</DOCNO>
+            	<TEXT>How did they find the fluid in your ears?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_93_1</DOCNO>
+            	<TEXT>If it was just by looking then wouldnt the ENT have seen this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_93_2</DOCNO>
+            	<TEXT>How did they test for pneumococcal antibodies?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_94_0</DOCNO>
+            	<TEXT>Doesnt show in search on that channel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_94_1</DOCNO>
+            	<TEXT>Got a link?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_95_0</DOCNO>
+            	<TEXT>What kind of dancing btw?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_96_0</DOCNO>
+            	<TEXT>Whats the difference between direct and secondary users?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_97_0</DOCNO>
+            	<TEXT>How did you even request it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_97_1</DOCNO>
+            	<TEXT>When I log in I cant see anything except an option to pay.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_98_0</DOCNO>
+            	<TEXT>Which tool?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_99_0</DOCNO>
+            	<TEXT>Where is that image from?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_100_0</DOCNO>
+            	<TEXT>How did they diagnose SI joint dysfunction?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_101_0</DOCNO>
+            	<TEXT>Interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_101_1</DOCNO>
+            	<TEXT>Got the source?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_102_0</DOCNO>
+            	<TEXT>Any examples of these ones?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_103_0</DOCNO>
+            	<TEXT>Not to take away from the message but wow 454 unread messages!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_103_1</DOCNO>
+            	<TEXT>I wonder if celebrities really get such a barrage of messages or if it is like email where some people just mark everything unread.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_104_0</DOCNO>
+            	<TEXT>Whats the definition of when someone is actually a CEO?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_105_0</DOCNO>
+            	<TEXT>So if 1 group chat has 100 new messages it shows up as 100 and not 1?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_105_1</DOCNO>
+            	<TEXT>Then it makes a lot more sense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_105_2</DOCNO>
+            	<TEXT>My busier group chats are all muted so I dont think I see its numbers get added to the total but Im not sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_106_0</DOCNO>
+            	<TEXT>This is great!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_106_1</DOCNO>
+            	<TEXT>Looking for suggestions on this level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_107_0</DOCNO>
+            	<TEXT>What are those multitude of ways in your case?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_108_0</DOCNO>
+            	<TEXT>Interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_108_1</DOCNO>
+            	<TEXT>Have you made any posts that go into depth on how you created and maintain such a relationship?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_0</DOCNO>
+            	<TEXT>When I try to pitch drinks in my second message on the app I sometimes get them saying they want to message more before meeting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_1</DOCNO>
+            	<TEXT>How often do you get these obstacles?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_2</DOCNO>
+            	<TEXT>For me its about half the time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_3</DOCNO>
+            	<TEXT>And how do you handle them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_4</DOCNO>
+            	<TEXT>Do you actually engage them in pointless banter and waste time before trying again?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_5</DOCNO>
+            	<TEXT>For me they never offer up a day theyre free (like in your messages) without me specifically asking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_6</DOCNO>
+            	<TEXT>So once you have their number youre pitching a random day and time hoping theyre free.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_109_7</DOCNO>
+            	<TEXT>If they say it doesnt work for them and dont offer an alternative, do you just move on or you have a go to way to handle that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_110_0</DOCNO>
+            	<TEXT>For your second phone message, since in most cases they didnt offer up a day on the app, do you put the day, time and place all in the same message?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_110_1</DOCNO>
+            	<TEXT>How about X bar tomorrow at 8 Or do you first get her to commit to a day then pitch the time and place?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_110_2</DOCNO>
+            	<TEXT>Im asking because my problem isnt their interest but genuine plans that night.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_110_3</DOCNO>
+            	<TEXT>Attractive women usually have plans most nights so the odds of her being free are low on a specific night I offer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_110_4</DOCNO>
+            	<TEXT>Thats why I feel its leaving behind a lot of pussy by not having a contingency for this case.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_110_5</DOCNO>
+            	<TEXT>One thing I thought would be to ask them which night works but everyone in the redpill and pickup communities says thats a bad idea.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_110_6</DOCNO>
+            	<TEXT>So whats the optimal way to do this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_111_0</DOCNO>
+            	<TEXT>For the difference between the old `pacstrap /mnt base base-devel` and the new `pacstrap /mnt base linux linux-firmware`, what was installing `linux` and `linux-firmware` under the old method?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_111_1</DOCNO>
+            	<TEXT>They don't appear under both links you provided so just curious what was adding it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_112_0</DOCNO>
+            	<TEXT>pactree is useful!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_112_1</DOCNO>
+            	<TEXT>So am I correct in saying that if since `base` depends on `systemd` (https://github.com/archlinux/svntogit-packages/blob/master/base/trunk/PKGBUILD), then I don't need to explicitly install `device-mapper` and `cryptsetup` because those will be installed anyway as dependencies of `systemd`?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_112_2</DOCNO>
+            	<TEXT>And I don't need to install `less` because `gzip` (which is in `base`) depends on it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_0</DOCNO>
+            	<TEXT>The testosterone enanthate raws I ordered was a white powder when I got it, as you'd expect.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_1</DOCNO>
+            	<TEXT>I ordered from this vendor a few times before and it was always fine in the past.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_2</DOCNO>
+            	<TEXT>But 6 months after I got this order, the white powder turned into a light brown colored blob of gel in the little plastic pouch (seemingly airtight but not vacuum-sealed) it came in and the pouch had filled with air somehow and looked like it was about to burst.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_3</DOCNO>
+            	<TEXT>With the second little pouch of testosterone enanthate powder that was part of that same order, I used most of it in a homebrew and the rest I stored in a closed glass jar.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_4</DOCNO>
+            	<TEXT>The contents of that jar eventually started to clump and stick together, like it might have absorbed some ambient moisture in the air.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_5</DOCNO>
+            	<TEXT>All the other raws of different substances I'd moved to jars remained as powder and didn't stick together at all, like a powder would usually behave.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_6</DOCNO>
+            	<TEXT>So something seemed weird about both pouches of testosterone enanthate raws I'd received as part of that order.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_7</DOCNO>
+            	<TEXT>Another 6 months later and the contents of that pouch have now turned into a really dark brown (almost black) gel in the same pouch, and the pouch no longer feels like it's about to burst so maybe that excess air somehow escaped.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_8</DOCNO>
+            	<TEXT>I weighed the bag and it's pretty much the expected weight of what the powder should have been, plus perhaps 2% extra (not sure actually because I didn't get an exact weight with the bag before it turned liquid).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_9</DOCNO>
+            	<TEXT>What is going on here?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_10</DOCNO>
+            	<TEXT>What could have caused this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_11</DOCNO>
+            	<TEXT>I'm guessing it's not safe to use in homebrewing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_12</DOCNO>
+            	<TEXT>I asked the vendor who said that it must have reached the melting point, which isn't possible because it was always stored at room temperature away from direct light.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_13</DOCNO>
+            	<TEXT>He kept assuring me that it's completely safe and if anybody says otherwise they are inexperienced.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_14</DOCNO>
+            	<TEXT>He seemed quite defensive, although his english was quite broken so maybe something was getting lost in translation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_15</DOCNO>
+            	<TEXT>Has this happened to any of you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_16</DOCNO>
+            	<TEXT>What could have possibly gone wrong with that powder and how do I prevent this from happening again?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_17</DOCNO>
+            	<TEXT>This vendor in the past was quite good, so I'm surprised that this happened.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_113_18</DOCNO>
+            	<TEXT>I tried googling for this issue but I couldn't find any reports of this happening to others or being normal, so I'm quite curious to know what's happening here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_114_0</DOCNO>
+            	<TEXT>Storing at room temperature in the sealed pouch away from light is improper how?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_115_0</DOCNO>
+            	<TEXT>How did yours melt?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_115_1</DOCNO>
+            	<TEXT>What temperature did you store them at?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_116_0</DOCNO>
+            	<TEXT>Actually had no idea that was the proper way. :/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_116_1</DOCNO>
+            	<TEXT>How long would you say raws can last in the freezer for if vac sealed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_117_0</DOCNO>
+            	<TEXT>For vacuum sealing, do you have any recommendation of what type of sealer to use?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_117_1</DOCNO>
+            	<TEXT>Or even a specific brand or model you know works well?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_118_0</DOCNO>
+            	<TEXT>It melted at only 72 degrees?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_118_1</DOCNO>
+            	<TEXT>That's far less than the melting point.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_119_0</DOCNO>
+            	<TEXT> gt; No need to use a sealed vial for this anyway, get a glass dropper bottle or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_119_1</DOCNO>
+            	<TEXT>Personal recommendation is find one of those miniature 25/50ml spirits bottles from the supermarket.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_119_2</DOCNO>
+            	<TEXT>Cheap and perfect size.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_119_3</DOCNO>
+            	<TEXT>Glass dropper bottle is an interesting idea.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_119_4</DOCNO>
+            	<TEXT>Can't seem to find any with units on the pipette that comes with it though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_119_5</DOCNO>
+            	<TEXT>With 1mg/ml concentration I'll be taking only 0.25ml per dose, which is quite a small amount so I think using use a 0.5ml or 1ml insulin syringe would be the best way to accurately measure it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_120_0</DOCNO>
+            	<TEXT>So if I find that the powder isn't dissolving in just ethanol (like the above poster said), then should I add even a bit of food grade distilled water to it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_120_1</DOCNO>
+            	<TEXT>Or even a small amount (say 10-20%) would cause the problems you mentioned?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_120_2</DOCNO>
+            	<TEXT>In that case maybe adding heat would help it dissolve.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_121_0</DOCNO>
+            	<TEXT>How do you accurately measure from the dropper bottle?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_121_1</DOCNO>
+            	<TEXT>Since pipettes don't come with units.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_121_2</DOCNO>
+            	<TEXT>So that 0.10 ml that you take equals 0.20 mg of arimidex, based on your concentration?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_122_0</DOCNO>
+            	<TEXT>Why do you go with a mixture of the 3 instead of just going with one of them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_123_0</DOCNO>
+            	<TEXT>What do you prefer about using DMSO over ethanol?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_124_0</DOCNO>
+            	<TEXT>I looked up oral syringes and it just looks like a regular syringe with no needle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_124_1</DOCNO>
+            	<TEXT>Can I just use a regular syringe or do oral syringes have some other differences?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_125_0</DOCNO>
+            	<TEXT>Do you recommend Mig or MCT as a carrier oil if the goal is to have lower PIP, all else being equal?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_125_1</DOCNO>
+            	<TEXT>I've heard Mig acts a light solvent.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_125_2</DOCNO>
+            	<TEXT>Does that mean you can use a lower percentage of BB if using Mig?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_126_0</DOCNO>
+            	<TEXT>I'm trying to determine the cause of much higher PIP in my last couple of cycles than I used to have.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_126_1</DOCNO>
+            	<TEXT>What's interesting is the pain isn't bad in the first 1-2 days, but gets really strong on days 2-3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_126_2</DOCNO>
+            	<TEXT>Does this narrow down possible causes?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_126_3</DOCNO>
+            	<TEXT>Any idea what the causes could be for such "late acting" PIP?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_126_4</DOCNO>
+            	<TEXT>For people I know the PIP usually comes on very quickly and does away by day 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_127_0</DOCNO>
+            	<TEXT>According to wikipedia the Elimination Half Life of arimidex is 40-50 hours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_127_1</DOCNO>
+            	<TEXT>Does that mean it wouldn't be wise to take it less frequently than every 2 days?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_127_2</DOCNO>
+            	<TEXT>If you hypothetically needed 0.25 mg every 2 days, is it better to take 0.125 mg every day, or would it be totally fine to go less frequent (and take 1.25 mg every 5 days or 1.75 mg once per week for example)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_127_3</DOCNO>
+            	<TEXT>Since arimidex isn't a suicidal AI, I assume more frequently is better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_127_4</DOCNO>
+            	<TEXT>How long of not taking arimidex until its "bounceback" effect occurs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_128_0</DOCNO>
+            	<TEXT>I've heard opposing things about BB and PIP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_128_1</DOCNO>
+            	<TEXT>What's your opinion?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_128_2</DOCNO>
+            	<TEXT>On one hand people say the BB contributes to PIP, so you want to keep it to just the minimum where you gear doesn't crash in the vial.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_128_3</DOCNO>
+            	<TEXT>On the other hand I heard that more BB is better because then it doesn't crash inside you, which can cause severe PIP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_128_4</DOCNO>
+            	<TEXT>What do you think?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_128_5</DOCNO>
+            	<TEXT>Been struggling with really bad PIP (peak pain 2-3 days after injection) in last couple of homebrews, even though concentration isn't that high.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_129_0</DOCNO>
+            	<TEXT>I've had it with Test E and Test U, both from the same supplier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_129_1</DOCNO>
+            	<TEXT>Never heard of acidic raws, what exactly causes that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_129_2</DOCNO>
+            	<TEXT>Is it just poor quality or expired material from the supplier?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_130_0</DOCNO>
+            	<TEXT>A drop is a standard measure?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_130_1</DOCNO>
+            	<TEXT>Wouldn't the size of the drop depend on the size of the pipette opening?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_131_0</DOCNO>
+            	<TEXT>Would 96% ethanol degrade the rubber stopper in a vial?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_131_1</DOCNO>
+            	<TEXT>I've made a dilution of ancillaries using 96% ethanol and want to keep it in a vial for safely moving it without a lid coming off or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_131_2</DOCNO>
+            	<TEXT>I thought a vial would be a good option but not sure if it would degrade or dissolve the rubber from the stopper into the liquid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_132_0</DOCNO>
+            	<TEXT>How to see list of package warnings in yarn without running "yarn upgrade"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_132_1</DOCNO>
+            	<TEXT>"yarn upgrade" shows a detailed list of package warnings like deprecations, unsupported packages, missing peer dependencies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_132_2</DOCNO>
+            	<TEXT>This is very useful output, how can I see this output without running actually having to run an upgrade?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_133_0</DOCNO>
+            	<TEXT>That only says "0 vulnerabilities found" and shows no warnings. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_133_1</DOCNO>
+            	<TEXT>yarn upgrade" shows about 20 warnings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_134_0</DOCNO>
+            	<TEXT>What fees have you been able to do the transfers at using interactive brokers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_135_0</DOCNO>
+            	<TEXT>Using norberts gambit or do they have a regular currency conversion feature thats cheaper?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_136_0</DOCNO>
+            	<TEXT>How long does the transfer take?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_137_0</DOCNO>
+            	<TEXT>How much fee did you pay for currency conversion in interactive brokers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_138_0</DOCNO>
+            	<TEXT>How is it better than IB for EU users?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_139_0</DOCNO>
+            	<TEXT>Why do you try to avoid cfd?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_140_0</DOCNO>
+            	<TEXT>Read the article about it but didnt fully understand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_140_1</DOCNO>
+            	<TEXT>Could you explain what situations this might be useful in?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_140_2</DOCNO>
+            	<TEXT>It doesnt work for self hosted version I assume?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_141_0</DOCNO>
+            	<TEXT>In what ways is it better?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_142_0</DOCNO>
+            	<TEXT>Any functions in particular you recommend setting up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_143_0</DOCNO>
+            	<TEXT>For more privacy would you use multiple wallets or are the various addresses generated by the same wallet not associated with each other?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_144_0</DOCNO>
+            	<TEXT>I thought tls meant that nobody else on the network can see whats being sent and received.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_144_1</DOCNO>
+            	<TEXT>How do they do that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_145_0</DOCNO>
+            	<TEXT>Whats the technical term for this id file, its a certificate?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_145_1</DOCNO>
+            	<TEXT>If I am using a not compromised browser and see no additional certificates added in its settings then its likely Im safe from this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_146_0</DOCNO>
+            	<TEXT>Why do you want to see the referer to let us register?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_146_1</DOCNO>
+            	<TEXT>It offers no security to you whatsoever.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_147_0</DOCNO>
+            	<TEXT>What kinds of things will we be able to do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_147_1</DOCNO>
+            	<TEXT>Like swiping to go forward and back?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_148_0</DOCNO>
+            	<TEXT>Is it possible to remove these applications at all?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_149_0</DOCNO>
+            	<TEXT>Is it pretty much impossible for daytraders to use cash accounts for this reason?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_150_0</DOCNO>
+            	<TEXT>How do you know this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_151_0</DOCNO>
+            	<TEXT>Where can you see short percent and number?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_152_0</DOCNO>
+            	<TEXT>The slots are disk partitions?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_152_1</DOCNO>
+            	<TEXT>Did you want to have 2 different custom roms or you needed to install it twice because of these slots just to get it to work?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_153_0</DOCNO>
+            	<TEXT>Never used custom roms.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_153_1</DOCNO>
+            	<TEXT>How does it fuck it up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_154_0</DOCNO>
+            	<TEXT>What does sim-only mean?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_155_0</DOCNO>
+            	<TEXT>How do you shift the keyboard up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_156_0</DOCNO>
+            	<TEXT>How can we see which countries good lock is available in?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_157_0</DOCNO>
+            	<TEXT>Does this process also work for apps in google play store that are region locked?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_158_0</DOCNO>
+            	<TEXT>Its possible to get that space on the bottom of the keyboard?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_158_1</DOCNO>
+            	<TEXT>If you disable the bottom navigation bar the keyboard is at the very bottom and hard to reach.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_158_2</DOCNO>
+            	<TEXT>Wish there were a way to disable navigation bar but also keep the space it occupied below the keyboard but looks like you have it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_159_0</DOCNO>
+            	<TEXT>Any references about this workaround?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_159_1</DOCNO>
+            	<TEXT>Its not legal for the broker to let us buy but its legal for us to end up holding/selling them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_160_0</DOCNO>
+            	<TEXT>Any references about this workaround?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_160_1</DOCNO>
+            	<TEXT>Its not legal for the broker to let us buy but its legal for us to end up holding/selling them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_161_0</DOCNO>
+            	<TEXT>How did you set automatic backups when doing updates?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_162_0</DOCNO>
+            	<TEXT>Which websites is that ssl certificate history available from?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_163_0</DOCNO>
+            	<TEXT>That is great!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_163_1</DOCNO>
+            	<TEXT>Do you have any source for this legal aspect of it you could point me to?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_164_0</DOCNO>
+            	<TEXT>What are the downsides of synthetic?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_165_0</DOCNO>
+            	<TEXT>What does basket returns mean?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_165_1</DOCNO>
+            	<TEXT>Worst case if the swap counterparty did some fraud or goes out of business could you lose your whole investment?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_166_0</DOCNO>
+            	<TEXT>Webull is not allowing trades.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_167_0</DOCNO>
+            	<TEXT>What is IG?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_168_0</DOCNO>
+            	<TEXT>Where did you hear this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_168_1</DOCNO>
+            	<TEXT>Is there a link?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_169_0</DOCNO>
+            	<TEXT>Which IB subsidiary are you under?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_170_0</DOCNO>
+            	<TEXT>Is api for posts and comments also limited to 2019 or does it go back to the beginning of a subreddit or user creation?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_171_0</DOCNO>
+            	<TEXT>Mods please pin this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_172_0</DOCNO>
+            	<TEXT>Is there an api so there could be a way to integrate into webpack transform workflow for svg?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_173_0</DOCNO>
+            	<TEXT>Can also post on /r/interactivebrokers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_174_0</DOCNO>
+            	<TEXT>What about for brand new accounts that are supposed to go IBCE, can you set them up in IBIE instead?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_175_0</DOCNO>
+            	<TEXT>Its on the back of the phone itself?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_175_1</DOCNO>
+            	<TEXT>I thought its just on the box.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_176_0</DOCNO>
+            	<TEXT>So you can have 3 numbers total?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_177_0</DOCNO>
+            	<TEXT>How will new costs be funded?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_177_1</DOCNO>
+            	<TEXT>Will there be paid plans?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_178_0</DOCNO>
+            	<TEXT>Vanced stops sponsored content within the video?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_179_0</DOCNO>
+            	<TEXT>Which countries in eastern europe are your favorites for long term?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_180_0</DOCNO>
+            	<TEXT>What is your level in the local language?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_180_1</DOCNO>
+            	<TEXT>How important is it to have?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_181_0</DOCNO>
+            	<TEXT>This should show the same as whats in prefs.js?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_182_0</DOCNO>
+            	<TEXT>What happens when you try logging into mobile when youre already logged into TWS?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_182_1</DOCNO>
+            	<TEXT>I thought you could be logged into both at same time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_183_0</DOCNO>
+            	<TEXT>It doesnt allow it ever or its a new bug?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_184_0</DOCNO>
+            	<TEXT>Arent they the same videos on their youtube?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_185_0</DOCNO>
+            	<TEXT>What are some strategies used to stay neutral or not get crushed by a market correction when doing credit spreads?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_185_1</DOCNO>
+            	<TEXT>If the market tanks overnight and stays down for a while isnt it unavoidable to get crushed on your positions?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_186_0</DOCNO>
+            	<TEXT>Do you have a link to these classes?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_186_1</DOCNO>
+            	<TEXT>I found their knowledge base and articles but not a course with quizzes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_187_0</DOCNO>
+            	<TEXT>I have the same question.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_187_1</DOCNO>
+            	<TEXT>Did you get an answer?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_188_0</DOCNO>
+            	<TEXT>How can you tell that gains came from volatility not time?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_189_0</DOCNO>
+            	<TEXT>Do you do put spreads?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_189_1</DOCNO>
+            	<TEXT>What do you look for when setting your put spreads?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_190_0</DOCNO>
+            	<TEXT>How does it work with credit spreads?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_190_1</DOCNO>
+            	<TEXT>Or its not used that way?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_191_0</DOCNO>
+            	<TEXT>Could you give an example?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_191_1</DOCNO>
+            	<TEXT>Im not sure how to go through this exercise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_192_0</DOCNO>
+            	<TEXT>Could you eli5 how this helps?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_193_0</DOCNO>
+            	<TEXT>That was great!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_193_1</DOCNO>
+            	<TEXT>In that picture is there a reason why do the probabilities on the put and call sides not equal 100%?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_193_2</DOCNO>
+            	<TEXT>What do those letters next to the bid and ask prices mean?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_194_0</DOCNO>
+            	<TEXT>How does that work?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_195_0</DOCNO>
+            	<TEXT>Why did your insta and twitter get removed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_196_0</DOCNO>
+            	<TEXT>Was that announced?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_197_0</DOCNO>
+            	<TEXT>This is for an android keyboard or on a computer?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_197_1</DOCNO>
+            	<TEXT>Not sure what this is or why you'd need it on Linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_198_0</DOCNO>
+            	<TEXT>Which adblock do you use?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_199_0</DOCNO>
+            	<TEXT>If I have made modifications to that file and a pacnew file is generated but I don't merge or make any changes to my mkinitcpio file then will it still be fine or will something break?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_200_0</DOCNO>
+            	<TEXT>What's the difference between wallet address and physical?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_201_0</DOCNO>
+            	<TEXT>How can you verify if a drive is air or helium filled?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_202_0</DOCNO>
+            	<TEXT>Does it record calls through apps like whatsapp and signal too or just phone calls?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_203_0</DOCNO>
+            	<TEXT>Does it record calls through apps like whatsapp and signal too or just phone calls?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_204_0</DOCNO>
+            	<TEXT>When would someone use systemd-resolved?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_204_1</DOCNO>
+            	<TEXT>I just put an external nameserver and an internal 127.0.0.1 (internal dnsmasq server for resolving internal domains) nameserver in /etc/resolv.conf and dns works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_204_2</DOCNO>
+            	<TEXT>If I then try to start systemd-resolved it conflicts with dnsmasq running locally on port 53.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_204_3</DOCNO>
+            	<TEXT>In what cases do you need systemd-resolved?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_205_0</DOCNO>
+            	<TEXT>At a bare minimum if you just put an external dns server in your resolv.conf then both dnsmasq and systemd-resolved are unnecessary for names to resolve?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_205_1</DOCNO>
+            	<TEXT>Names seem to resolve on a fresh install even when no changes have been made to resolv.conf and neither have been set up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_205_2</DOCNO>
+            	<TEXT>What makes name resolution work by default?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_206_0</DOCNO>
+            	<TEXT>Does this mean dns over https?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_207_0</DOCNO>
+            	<TEXT>Is there webpack integration?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_207_1</DOCNO>
+            	<TEXT>So for the custom icons we could specify a path to a file and have that file pass through svgo and others in our webpack config.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_208_0</DOCNO>
+            	<TEXT>Does samsung switch restore app data too?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_208_1</DOCNO>
+            	<TEXT>What doesn't get included in the backup?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_209_0</DOCNO>
+            	<TEXT>Can you make any distro a live iso?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_209_1</DOCNO>
+            	<TEXT>What does the general process involve?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_210_0</DOCNO>
+            	<TEXT>How does USB tethering fit into your process?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_210_1</DOCNO>
+            	<TEXT>Aren't you transferring files from phone to computer with both devices on same wifi network?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_211_0</DOCNO>
+            	<TEXT>Isn't this same as requesting data export from couchsurfing directly?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_212_0</DOCNO>
+            	<TEXT>Will we be able to watch replay?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_213_0</DOCNO>
+            	<TEXT>Where does this init= go?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_213_1</DOCNO>
+            	<TEXT>Is this a kernel parameter I can pass to systemd-boot?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_213_2</DOCNO>
+            	<TEXT>Does this mean to do some recovery tasks I can actually do this and don't need to boot from the arch iso?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_214_0</DOCNO>
+            	<TEXT>Does systemd-boot have something similar?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_215_0</DOCNO>
+            	<TEXT>Do you need to restart the computer to see changes?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_216_0</DOCNO>
+            	<TEXT>By complete security system do you mean the security page on arch wiki or some things in particular?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_217_0</DOCNO>
+            	<TEXT>When coming off gear, is it really possible to eventually go back to normal production of testosterone when you don't do PCT?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_217_1</DOCNO>
+            	<TEXT>I visited an endocrinologist who said he will not prescribe anything but just wait until it resets on its own.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_217_2</DOCNO>
+            	<TEXT>Is that even possible?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_217_3</DOCNO>
+            	<TEXT>I thought taking the PCT drugs was necessary so was surprised by what the endocrinologist told me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_217_4</DOCNO>
+            	<TEXT>Hope I just don't have a lazy endo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_217_5</DOCNO>
+            	<TEXT>How long could it take for normal testosterone production to happen on its own without PCT?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_217_6</DOCNO>
+            	<TEXT>Was cruising on Test U for a long time but coming off now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_218_0</DOCNO>
+            	<TEXT>What kind of guarantees?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_218_1</DOCNO>
+            	<TEXT>What practical differences would there be between using v16 now vs in October?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_219_0</DOCNO>
+            	<TEXT>With such large amounts of storage how do people even do offsite backups?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_220_0</DOCNO>
+            	<TEXT>What is your option trading strategy?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_221_0</DOCNO>
+            	<TEXT>Making up to 3% a month from cc and csp sounds quite difficult.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_221_1</DOCNO>
+            	<TEXT>What percentage of the income you generate comes from the strangles?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_222_0</DOCNO>
+            	<TEXT>You have to request the ability to buy more services from hetzner?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_222_1</DOCNO>
+            	<TEXT>Is this a new thing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_223_0</DOCNO>
+            	<TEXT>Are the cloud server limits somewhere on their website?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_223_1</DOCNO>
+            	<TEXT>I can't find such thing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_223_2</DOCNO>
+            	<TEXT>For dedicated servers there are no limits?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_223_3</DOCNO>
+            	<TEXT>Wouldn't crypto miners just use those then?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_224_0</DOCNO>
+            	<TEXT>Why was this downvoted?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_224_1</DOCNO>
+            	<TEXT>Is it not true?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_225_0</DOCNO>
+            	<TEXT>Just from dividends?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_225_1</DOCNO>
+            	<TEXT>That seems quite high.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_225_2</DOCNO>
+            	<TEXT>It's just from the 3 tickers you mentioned?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_226_0</DOCNO>
+            	<TEXT>In what ways it's better?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_227_0</DOCNO>
+            	<TEXT>Vite and nuxt can't be used together?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_227_1</DOCNO>
+            	<TEXT>Vite is an alternative for server side rendering?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_228_0</DOCNO>
+            	<TEXT>Technically how are you populating the live stats?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_229_0</DOCNO>
+            	<TEXT>Where do we leave questions for future AMA? :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_230_0</DOCNO>
+            	<TEXT>What are the highlights of this release?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_231_0</DOCNO>
+            	<TEXT>What happened with youtube-dl?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_232_0</DOCNO>
+            	<TEXT>Exclude files from search but not from Go To File</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_232_1</DOCNO>
+            	<TEXT>If I add something to `search.exclude` I'd expect it to not appear in the search results, but to still appear in the Go To File menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_232_2</DOCNO>
+            	<TEXT>Unfortunately it doesn't appear there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_232_3</DOCNO>
+            	<TEXT>Is there a way around this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_232_4</DOCNO>
+            	<TEXT>Just because I don't want to search within a file it doesn't mean I don't want to see that file.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_232_5</DOCNO>
+            	<TEXT>I thought that's what the `files.exclude` option is for.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_232_6</DOCNO>
+            	<TEXT>If something is in `search.exclude` but not in `files.exclude` then it should appear in Go To File menu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_233_0</DOCNO>
+            	<TEXT>Can it be used for bundling nodejs code on the server?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_233_1</DOCNO>
+            	<TEXT>What options are there for that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_234_0</DOCNO>
+            	<TEXT>What's the verified feature?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_235_0</DOCNO>
+            	<TEXT>What bundlers do you use?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_236_0</DOCNO>
+            	<TEXT>Do stack traces show the original lines and files or the bundled one if you have source maps?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_236_1</DOCNO>
+            	<TEXT>Do you need to do something to get the bundled code to integrate with the generated source maps so that you see the original stack traces on errors?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_237_0</DOCNO>
+            	<TEXT>Source maps is the deal breaker for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_237_1</DOCNO>
+            	<TEXT>Are you using it in production without it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_237_2</DOCNO>
+            	<TEXT>Would make reproducing errors very difficult.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_237_3</DOCNO>
+            	<TEXT>What have you tried so far to get it working?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_238_0</DOCNO>
+            	<TEXT>How do you back up the configuration in grafana?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_238_1</DOCNO>
+            	<TEXT>Is it some form of text configuration that you can easily back up and restore or is it like kibana which stores it in elasticsearch or some database and is difficult to provision?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_0</DOCNO>
+            	<TEXT>What do you do in Vue.config.errorHandler?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_1</DOCNO>
+            	<TEXT>Best practice for error handling?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_2</DOCNO>
+            	<TEXT>If you want to log it to an external service, what information do you send along with the request?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_3</DOCNO>
+            	<TEXT>I notice the arguments to the callback function of `Vue.config.errorHandler` really don't provide a lot of information.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_4</DOCNO>
+            	<TEXT>I've noticed something weird which is that if I make the callback to `errorHandler` an async function and rethrow the error from within it, then I can catch the error in `unhandledrejection` and it includes a lot more information like the original location of the error.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_5</DOCNO>
+            	<TEXT>Is this the right way of doing it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_6</DOCNO>
+            	<TEXT>Otherwise I wouldn't need to make the callback `async` or rethrow it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_7</DOCNO>
+            	<TEXT>It seems a bit hacky.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_8</DOCNO>
+            	<TEXT>Do I need to have all 3: `error` event handler, `unhandledrejection` event handler and `Vue.config.errorHandler`?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_9</DOCNO>
+            	<TEXT>What needs to go in each of them to send the maximum amount of useful information to the external service to track down what went wrong?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_10</DOCNO>
+            	<TEXT>Can you point me to any repositories that show it being done well?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_239_11</DOCNO>
+            	<TEXT>Or do you have any code samples you could share?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_240_0</DOCNO>
+            	<TEXT>How do you implementing the blocking?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_240_1</DOCNO>
+            	<TEXT>Do you have a script that runs once in a while and updates your firewall?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_240_2</DOCNO>
+            	<TEXT>How often do you need to update it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_240_3</DOCNO>
+            	<TEXT>Which js fingerprint libraries do you recommend?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_241_0</DOCNO>
+            	<TEXT>What does this mean?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_242_0</DOCNO>
+            	<TEXT>Limiting in what ways?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_243_0</DOCNO>
+            	<TEXT>What's the not for dummies alternative to unraid?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_244_0</DOCNO>
+            	<TEXT>What are the commands to do it manually?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_244_1</DOCNO>
+            	<TEXT>I will check if I have it anywhere in our scripts and can replace it with your module.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_0</DOCNO>
+            	<TEXT>Saw your app it looks great!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_1</DOCNO>
+            	<TEXT>Just a couple of questions about the api for you if you dont mind.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_2</DOCNO>
+            	<TEXT>I see you can detect if the accounts have been unlinked.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_3</DOCNO>
+            	<TEXT>Is there a specific api for this or are you just running an api request in the background to see if its successful?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_4</DOCNO>
+            	<TEXT>You also have a button to unlink an account.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_5</DOCNO>
+            	<TEXT>I looked through the api docs and can't see any api for revoking access.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_6</DOCNO>
+            	<TEXT>How are you unlinking the account then?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_245_7</DOCNO>
+            	<TEXT>Just removing the access token from your own db?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_246_0</DOCNO>
+            	<TEXT>I didn't explicitly do anything to start pipewire but my sound still works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_246_1</DOCNO>
+            	<TEXT>Is it started by default?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_247_0</DOCNO>
+            	<TEXT>Doesn't yarn do this out of the box?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_247_1</DOCNO>
+            	<TEXT>I use yarn workspaces but haven't installed any such plugin.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_248_0</DOCNO>
+            	<TEXT>Did this only start happening for you recently like in the last few weeks?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_248_1</DOCNO>
+            	<TEXT>I thought it was working fine for me until then.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_248_2</DOCNO>
+            	<TEXT>Did you solve the problem?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_249_0</DOCNO>
+            	<TEXT>Which services you recommend for bad ip list?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_249_1</DOCNO>
+            	<TEXT>How often they are updated?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_249_2</DOCNO>
+            	<TEXT>Anyone know how to do silent fail at iptables level?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_250_0</DOCNO>
+            	<TEXT>Never knew about workspace protocol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_250_1</DOCNO>
+            	<TEXT>So you put that in your package.json dependencies and not in require calls?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_250_2</DOCNO>
+            	<TEXT>I actually didn't define my dependencies on other workspaces in package.json and require still works.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_250_3</DOCNO>
+            	<TEXT>Shouldn't require calls fail if I don't have the dependency explicitly defined?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_250_4</DOCNO>
+            	<TEXT>Seems like a strange quirk of yarn workspaces.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_251_0</DOCNO>
+            	<TEXT>Any tips for someone starting out with them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_252_0</DOCNO>
+            	<TEXT>What's the benefit of installing the launcher?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_252_1</DOCNO>
+            	<TEXT>You still need to install tor browser itself from aur?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_253_0</DOCNO>
+            	<TEXT>What happens if they delete account?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_254_0</DOCNO>
+            	<TEXT>Where is the added search shortcut stored?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_254_1</DOCNO>
+            	<TEXT>Can you add that to prefs.js or somewhere in config?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_254_2</DOCNO>
+            	<TEXT>How did you discover this setting?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_254_3</DOCNO>
+            	<TEXT>Was it said somewhere it's in development?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_254_4</DOCNO>
+            	<TEXT>Otherwise it could be removed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_255_0</DOCNO>
+            	<TEXT>To provision a firefox instance could you tell me how this file can be decompressed (and recompressed after editing) from the command line?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_255_1</DOCNO>
+            	<TEXT>Such as on linux command line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_256_0</DOCNO>
+            	<TEXT>Would this eventually become the default "linux" package on archlinux or would it be under a different package to install?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_257_0</DOCNO>
+            	<TEXT>How are some of the characters showing in italic?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_257_1</DOCNO>
+            	<TEXT>Is it a setting?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_258_0</DOCNO>
+            	<TEXT>This would make a great command line app too if it's available as a script.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_258_1</DOCNO>
+            	<TEXT>Not familiar with how these password managers work, do they make you choose a password from one of a specified lists of words?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_259_0</DOCNO>
+            	<TEXT>How to see output of RAISE NOTICE messages in datagrip console (postgres)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_259_1</DOCNO>
+            	<TEXT>If you do a `RAISE NOTICE` in datagrip console within a `DO` block for postgres, I can't actually see the output of the message in the console output.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_259_2</DOCNO>
+            	<TEXT>Is there something I have to do to enable that, or somewhere else I have to look to see it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_260_0</DOCNO>
+            	<TEXT>Post to postgresql subreddit. :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_0</DOCNO>
+            	<TEXT>Running query in datagrip isn't the same as running in psql</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_1</DOCNO>
+            	<TEXT>I have a simple `func` function that does something like `insert into tbl1 (col) values (arg)`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_2</DOCNO>
+            	<TEXT>Running `select func(col) from tbl2 where condition` should insert a million rows into tbl1 if tbl2 query returns a million rows.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_3</DOCNO>
+            	<TEXT>But since datagrip has a default of showing 500 rows in the UI, only 500 rows get inserted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_4</DOCNO>
+            	<TEXT>If I run the same query in `psql` then all million rows get inserted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_5</DOCNO>
+            	<TEXT>I have to run the query as `insert into tbl1(col) select * from tbl2 where condition` for datagrip to run it correctly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_6</DOCNO>
+            	<TEXT>But I'd like to run the query by calling `func` since it does some other stuff too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_261_7</DOCNO>
+            	<TEXT>Is there a way to get datagrip to behave correctly or force it to run the query for all million rows, not just the 500 that get displayed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_262_0</DOCNO>
+            	<TEXT>Why do other promises continue when one promise fails in Promise.all?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_262_1</DOCNO>
+            	<TEXT>If you run this code you'll see that even though the 3rd Promise rejects, the 4th one still completes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_262_2</DOCNO>
+            	<TEXT>How can I stop that all promises that haven't resolved or rejected as soon as one of them rejects? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_262_3</DOCNO>
+            	<TEXT>async function() { try { await Promise.all([ wait("first", 2000), wait("second", 3000), wait("error", 4000), wait("third", 5000), ]) } catch (e) { console.log("error", e) } })() function wait(text, time) { return new Promise((resolve, reject) = gt; { setTimeout(() = gt; { if (text === "error") { reject("promise was rejected") } else { console.log("done", text) resolve(text) } }, time) }) }</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_263_0</DOCNO>
+            	<TEXT>Which laptops are you looking at that support such high memory?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_264_0</DOCNO>
+            	<TEXT>How would vpn get around their restriction?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_264_1</DOCNO>
+            	<TEXT>Don't they restrict by only allowing you to visit their own domains?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_264_2</DOCNO>
+            	<TEXT>Vpn ip would be blocked I'd assume.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_265_0</DOCNO>
+            	<TEXT>How does the payment work do you provide an ETH address on a config file or something?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_265_1</DOCNO>
+            	<TEXT>What parts of the code deal with that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_265_2</DOCNO>
+            	<TEXT>Looked through api section but couldn't really find.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_266_0</DOCNO>
+            	<TEXT>How to resolve value of line-height "normal"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_266_1</DOCNO>
+            	<TEXT>`getComputedStyle(element).lineHeight` returns `normal` on some element.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_266_2</DOCNO>
+            	<TEXT>How can I resolve the value of what `normal` actually is?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_266_3</DOCNO>
+            	<TEXT>Whether it's the browser default of 1.2 or has been set to a different number for that element.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_266_4</DOCNO>
+            	<TEXT>I need it so that I can set the min-height of some text to exactly a certain number of lines even if it has fewer lines.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_0</DOCNO>
+            	<TEXT>How to align text to the bottom of a div when using -webkit-line-clamp?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_1</DOCNO>
+            	<TEXT>Here's a simple demo https://jsfiddle.net/g7xywnjq/ that shows what I'm trying to do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_2</DOCNO>
+            	<TEXT>The yellow and green boxes both have `-webkit-line-clamp: 3` to limit the text to show no more than 3 lines.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_3</DOCNO>
+            	<TEXT>The `min-height` makes sure it's no less than the height of 3 lines.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_4</DOCNO>
+            	<TEXT>So the boxes should always be 3 lines high and the text should get cut off if it's more than that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_5</DOCNO>
+            	<TEXT>The text in the green box is aligned to the top.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_6</DOCNO>
+            	<TEXT>How can I align it to the bottom?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_267_7</DOCNO>
+            	<TEXT>The various tips I've found to do this don't work for this example because of the clamping.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_268_0</DOCNO>
+            	<TEXT>Still can't tell difference between $* and $@ after reading that as a newbie.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_268_1</DOCNO>
+            	<TEXT>Can you describe it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_269_0</DOCNO>
+            	<TEXT>Why remove J what does it look like?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_270_0</DOCNO>
+            	<TEXT>What does SOA need to have?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_271_0</DOCNO>
+            	<TEXT>So the link in the other comment isn't correct https://www.dmarcanalyzer.com/setup-parked-or-inactive-domains/ when it says to set up all 3 records not just DMARC?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_272_0</DOCNO>
+            	<TEXT>Cors can be used for whitelisting domains to allow to hotlink images, but can it be used for blacklisting?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_272_1</DOCNO>
+            	<TEXT>Allow all domains except a few specific ones to hotlink?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_273_0</DOCNO>
+            	<TEXT>So the vue 3 release of vuex is only for people who are still using old api?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_273_1</DOCNO>
+            	<TEXT>How does the new api make vuex unnecessary?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_274_0</DOCNO>
+            	<TEXT>Do you need to set something up on your phone to work with gotify server?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_275_0</DOCNO>
+            	<TEXT>How did you learn copywriting?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_275_1</DOCNO>
+            	<TEXT>The copy on the site is great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_275_2</DOCNO>
+            	<TEXT>Can you point me to some resources?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_275_3</DOCNO>
+            	<TEXT>Got any tips for how you write copy?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_276_0</DOCNO>
+            	<TEXT>Do you use zfs on root?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_277_0</DOCNO>
+            	<TEXT>Do you use zfs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_278_0</DOCNO>
+            	<TEXT>It was slow enough that you could notice just by using or did you measure something?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_278_1</DOCNO>
+            	<TEXT>How would you even measure something like this to see whether zfs is a problem?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_279_0</DOCNO>
+            	<TEXT>How is it a headache?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_279_1</DOCNO>
+            	<TEXT>What will you use next time for your remote servers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_280_0</DOCNO>
+            	<TEXT>Prevent function from being run in parallel</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_280_1</DOCNO>
+            	<TEXT>Here's a function that checks if a cache object is filled and if not it makes a request to fetch the data then fills the cache.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_280_2</DOCNO>
+            	<TEXT>async getData() { if (this.cache) { return this.cache } let data = await this.fetchData() this.cache = data return data } `fetchData` could be run more than once simultaneously.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_280_3</DOCNO>
+            	<TEXT>How can I prevent that without using any external dependencies?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_280_4</DOCNO>
+            	<TEXT>There are various npm packages that do this but I'd like to learn the idea behind it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_280_5</DOCNO>
+            	<TEXT>What's the simplest possible implementation of it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_281_0</DOCNO>
+            	<TEXT>Save timeout id with Promise version of setTimeout</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_281_1</DOCNO>
+            	<TEXT>Here's a function that turns `setTimeout` into a Promise version so you can use it in an `async` function as `await promiseTimeout(500)`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_281_2</DOCNO>
+            	<TEXT>async function promiseTimeout(time) { await new Promise(res = gt; { let timeoutId = setTimeout(res, time) }) } How can I get the timeout id returned by `setTimeout` so that I can later run `clearTimeout` on it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_281_3</DOCNO>
+            	<TEXT>The `promiseTimeout` function returns a `Promise` but how can I return `timeoutId` but still be able to use `await` on the function to wait for the timeout to complete.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_282_0</DOCNO>
+            	<TEXT>In the first example is there any way to still get access to the timeoutId but have the main returned object be the Promise so that I can still do `await promiseTimeout(1000)` rather than `await (promiseTimeout(1000).promise)`?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_282_1</DOCNO>
+            	<TEXT>Something like this function promiseTimeout(time) { let timeoutId const promise = new Promise(res = gt; { timeoutId = setTimeout(res, time) }) promise.timeoutId = timeoutId return promise } Is it fine to add random objects to a Promise like that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_283_0</DOCNO>
+            	<TEXT>This sounds interesting but I'm not sure what you mean.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_283_1</DOCNO>
+            	<TEXT>Can you please show an example how it could look with my example code?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_283_2</DOCNO>
+            	<TEXT> gt; Then it will exist as soon as the first request is made preventing any other requests from being made simultaneously Promises don't allow simultaneous access to them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_283_3</DOCNO>
+            	<TEXT>Even if it could take a few seconds to resolve?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_284_0</DOCNO>
+            	<TEXT>That is good!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_284_1</DOCNO>
+            	<TEXT>If I add await in front of this.fetchData() and async in front of getData() function definition I have a feeling it wouldn't work the same.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_284_2</DOCNO>
+            	<TEXT>Can you explain why not?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_284_3</DOCNO>
+            	<TEXT>Because it looks equivalent.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_285_0</DOCNO>
+            	<TEXT>If I add async and await to your code isn't that the same as my original code?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_285_1</DOCNO>
+            	<TEXT>Slightly different way of writing it but same result?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_285_2</DOCNO>
+            	<TEXT>So the fetchData in my original code already would never be run more than once?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_285_3</DOCNO>
+            	<TEXT>Then surprisingly it actually works the way I wanted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_286_0</DOCNO>
+            	<TEXT>If I add async and await to your code isn't that the same as my original code?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_286_1</DOCNO>
+            	<TEXT>Slightly different way of writing it but same result?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_286_2</DOCNO>
+            	<TEXT>So the fetchData in my original code already would never be run more than once?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_286_3</DOCNO>
+            	<TEXT>Then surprisingly it actually works the way I wanted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_287_0</DOCNO>
+            	<TEXT>Do you use zfs on root?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_287_1</DOCNO>
+            	<TEXT>I would like to but it seems so much more complicated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_288_0</DOCNO>
+            	<TEXT>Can you explain this stripe width thing?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_289_0</DOCNO>
+            	<TEXT>Does ECC memory require any other configuration or setup or its just a different stick of RAM you put in the computer?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_290_0</DOCNO>
+            	<TEXT>How does Linux get around licensing issues?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_290_1</DOCNO>
+            	<TEXT>It's why its not as simple to set up as other filesystems on archlinux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_291_0</DOCNO>
+            	<TEXT>Is it easy to set up with secure boot with systemd-boot instead of grub?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_291_1</DOCNO>
+            	<TEXT>Is there a reason it's an easier process on Ubuntu than archlinux?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_292_0</DOCNO>
+            	<TEXT>You can't install arch on zfs using the regular arch iso you have to create this special one?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_292_1</DOCNO>
+            	<TEXT> gt; This situation sometimes locks down the normal rolling update process by unsatisfied dependencies because the new kernel version, proposed by update, is unsupported by ZFSonLinux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_292_2</DOCNO>
+            	<TEXT>What does this mean in documentation?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_292_3</DOCNO>
+            	<TEXT>Updates could break?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_293_0</DOCNO>
+            	<TEXT>Is zfs array the same as zfs pool?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_294_0</DOCNO>
+            	<TEXT>If it's not configured right does the server not start or the memory acts like normal memory not ECC?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_294_1</DOCNO>
+            	<TEXT>Is there a way to check whether it was set up properly?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_295_0</DOCNO>
+            	<TEXT>RDIMM and UDIMM are both always ECC?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_295_1</DOCNO>
+            	<TEXT>Which is recommended for home database server?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_296_0</DOCNO>
+            	<TEXT>How does zfs choose the size of each chunk?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_296_1</DOCNO>
+            	<TEXT>What is the default size?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_296_2</DOCNO>
+            	<TEXT>Or is that one of the settings we can set?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_297_0</DOCNO>
+            	<TEXT>If you use ECC RAM but it isn't supposed by CPU or motherboard the total width will show 64?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_297_1</DOCNO>
+            	<TEXT>For non ECC the corrected count will always be 0?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_297_2</DOCNO>
+            	<TEXT>And for ECC the uncorrected count will always be 0?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_297_3</DOCNO>
+            	<TEXT>Generally how often would you see the error count go up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_297_4</DOCNO>
+            	<TEXT>Is it on the order of minutes or years?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_298_0</DOCNO>
+            	<TEXT>Signal doesn't have an api though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_299_0</DOCNO>
+            	<TEXT>What all can Lua still not do that vimscript can.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_300_0</DOCNO>
+            	<TEXT>Is it a huge cost difference to get ECC?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_300_1</DOCNO>
+            	<TEXT>What RAM capacities in GB are usually possible for ECC vs regular?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_301_0</DOCNO>
+            	<TEXT>If you are using zfs-dkms then you don't have to wait?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_301_1</DOCNO>
+            	<TEXT>What's the alternative to zfs-dkms and why would anyone use that if you have to wait for upgrades?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_302_0</DOCNO>
+            	<TEXT>Is there something specific to do this logging or its just checking the contents of those files?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_303_0</DOCNO>
+            	<TEXT>Can you recommend any tools?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_304_0</DOCNO>
+            	<TEXT>Every upgrade is slower then when using zfs-dkms because of recompilation?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_304_1</DOCNO>
+            	<TEXT>Is there a way to see how many will be recompiled so I can get an idea of how much slower the upgrades will be?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_305_0</DOCNO>
+            	<TEXT>For older systems where you'd rather wait for upgrades and not do recompilation what can you use instead of zfs-dkms?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_306_0</DOCNO>
+            	<TEXT>Are these issues in the mobile app and TWS or just the web app?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_307_0</DOCNO>
+            	<TEXT>Any other archive sites out there?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_307_1</DOCNO>
+            	<TEXT>Apart from web.archive.org and archive.is are there any others to archive some pages?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_307_2</DOCNO>
+            	<TEXT>Do you know of any or use any?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_307_3</DOCNO>
+            	<TEXT>For when you want to save something not just on your own servers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_308_0</DOCNO>
+            	<TEXT>What can they be used for?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_309_0</DOCNO>
+            	<TEXT>They can support it natively because they have installers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_309_1</DOCNO>
+            	<TEXT>So arch will never be able to do it because it's installed manually?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_310_0</DOCNO>
+            	<TEXT>So it is recoverable?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_310_1</DOCNO>
+            	<TEXT>Doesnt brick the device like other people are saying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_311_0</DOCNO>
+            	<TEXT>Do you have any ideas for how to expand this idea to multiple processes?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_311_1</DOCNO>
+            	<TEXT>If you have a central cache on a database or redis, and multiple javascript processes need to check that cache (and populate it if empty), how could that be done?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_311_2</DOCNO>
+            	<TEXT>Each Promise in the code above would be run once per process at the same time, but if there are many processes accessing a central cache they could still be accessing it at the same time causing a cache stampede.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_312_0</DOCNO>
+            	<TEXT>Convert jpeg to pdf?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_312_1</DOCNO>
+            	<TEXT>How can I do it using command line tools in Linux?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_313_0</DOCNO>
+            	<TEXT>Whats the model of the grey tower on the bottom shelf and the black tower next to it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_314_0</DOCNO>
+            	<TEXT>How to only set mappings if file is not modifiable?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_314_1</DOCNO>
+            	<TEXT>If a file isn't `modifiable` I want `j` and `k` to move the whole page up and down rather than the cursor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_314_2</DOCNO>
+            	<TEXT>I thought putting this in my vimrc would work but still only the cursor is moving.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_314_3</DOCNO>
+            	<TEXT>How can I fix this command?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2473_314_4</DOCNO>
+            	<TEXT>amp;modifiable) nnoremap j 
+    c-ennoremap k 
+    c-yendif
+    </TEXT>
+        </DOC>

@@ -1,0 +1,1947 @@
+        <DOC>
+            	<DOCNO>s_2353_0_0</DOCNO>
+            	<TEXT>RDP over NetExtender = Adobe Issues</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_1</DOCNO>
+            	<TEXT>As described.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_2</DOCNO>
+            	<TEXT>Have a client with a TZ500, between 15 and 25 WFH employees are using RDP over NetExtender to control their workstations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_3</DOCNO>
+            	<TEXT>Server 2012R2 domain with around 50 workstations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_4</DOCNO>
+            	<TEXT>Multiple people are reporting that scrolling through large PDFs w/Adobe Reader is extremely slow, locking up connection on occasion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_5</DOCNO>
+            	<TEXT>While on a phone call with one of the affected employees, I used my RMM to remote into their workstation, and I could scroll the open PDF without problems or slowness.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_6</DOCNO>
+            	<TEXT>I also tried RDPing into their workstation from another workstation on the network (when they weren't using it, obviously), I was able to open and scroll that same PDF without issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_7</DOCNO>
+            	<TEXT>Finally, I was able to reproduce the symptom by using NetExtender to connect with my own ID and RDPing into a workstation, and opening a 200pg PDF.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_8</DOCNO>
+            	<TEXT>Scrolling was indeed very slow -like hit pgdn once and wait 15 seconds for the screen to update - slow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_9</DOCNO>
+            	<TEXT>This is such an oddball symptom, but multiple employees are reporting it, so I can't ignore the NetExtender commonality.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_0_10</DOCNO>
+            	<TEXT>What would cause this and how would I troubleshoot to address it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_1_0</DOCNO>
+            	<TEXT>MTU is at 1472 on the main WAN connection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_1_1</DOCNO>
+            	<TEXT>+ 28 = 1500 = correct for Cable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_1_2</DOCNO>
+            	<TEXT>Outbound pings at 1472 show no fragmentation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_1_3</DOCNO>
+            	<TEXT>I've read the SW technote on reducing the MTU for site-to-site VPNs because of the extra IPSEC header space needed, but I don't see evidence of this necessity for SSLVPNs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_1_4</DOCNO>
+            	<TEXT>Also pinging one of their servers over NetExtender also shows no fragmentation at 1472.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_1_5</DOCNO>
+            	<TEXT>The client does have a couple of site-to-site VPNs though, there is an offsite backup server and a small satellite office, maybe those tunnels are affecting throughput for the WFH users?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_1_6</DOCNO>
+            	<TEXT>I will try reducing the MTU per that technote to see if it has an impact on the problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_2_0</DOCNO>
+            	<TEXT>Not sure on the others.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_2_1</DOCNO>
+            	<TEXT>They don't do much powerpoint or massive spreadsheets, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_2_2</DOCNO>
+            	<TEXT>Lots of big PDFs, though - so that's where they noticed the problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_2_3</DOCNO>
+            	<TEXT>I don't think the SW is overloaded, but will check the live monitor tomorrow during heavy use.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_0</DOCNO>
+            	<TEXT>This has sent me down a tangential rabbit hole, I'm afraid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_1</DOCNO>
+            	<TEXT>When testing for highest non-fragmented MTU on a pair of Sonicwalls holding up a VPN tunnel, I think I've been doing it wrong.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_2</DOCNO>
+            	<TEXT>I was testing web addresses with 'ping -f -l xxxx [www.google.com](https://www.google.com)', for example - but at the same time I was configuring my VPN to be split tunnel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_3</DOCNO>
+            	<TEXT>So, I'm an idiot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_4</DOCNO>
+            	<TEXT>Testing machines on the other end of the tunnel gives (of course!)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_5</DOCNO>
+            	<TEXT>different results.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_6</DOCNO>
+            	<TEXT>In fact, it seems to me that since there is no "VPN-specific" MTU setting on the Sonicwalls I'm familiar with (all of my SMB clients use TZs of various sizes), the correct thing to do is to set the MTU of BOTH Sonicwalls to the to the result received when pinging equipment on the other end of the tunnel (if you are setting up a split tunnel, anyway).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_7</DOCNO>
+            	<TEXT>Do I have that right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_8</DOCNO>
+            	<TEXT>So in my case, the highest non-fragmented MTU when pinging equipment on the opposite end of the tunnel is 1378, but I had my MTUs set at 1472. :</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_9</DOCNO>
+            	<TEXT>facepalm: So, this probably isn't related to the problem of this post, but now I've got about 50 MTUs to check.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_3_10</DOCNO>
+            	<TEXT>Gotta love those "learning opportunities."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_4_0</DOCNO>
+            	<TEXT>I will look into this - thanks!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_5_0</DOCNO>
+            	<TEXT>With 15 active SSL connections, I get the following utilization numbers on the Multi-core monitor just now: Core 1 - 10% Core 2 - 28% Core 3 - 20% Core 4 - 10%</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_6_0</DOCNO>
+            	<TEXT>Well, it looks like I win the trifecta.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_6_1</DOCNO>
+            	<TEXT>I'm on 6.5.4.7-79n.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_6_2</DOCNO>
+            	<TEXT>The only newer one is -83n, and reading the release notes, it says something about fixing a "SSLVPN Performance" issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_6_3</DOCNO>
+            	<TEXT>I'll be loading -83 after working hours today.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_7_0</DOCNO>
+            	<TEXT>To calculate exact savings, we would need the original balance and term of the loans.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_7_1</DOCNO>
+            	<TEXT>All loans have 4 values; Initial Principal, interest rate, term and payment.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_7_2</DOCNO>
+            	<TEXT>Given any 3, you can calculate the remaining value (given an assumption about beginning-of-period or end-of-period payments, but that's another discussion).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_7_3</DOCNO>
+            	<TEXT>Otherwise the others are spot on with their analysis.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_8_0</DOCNO>
+            	<TEXT>Sure sounds like a battery issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_8_1</DOCNO>
+            	<TEXT>As a test, plug a PC  amp; monitor into the unit and see how long it will run that on battery.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_8_2</DOCNO>
+            	<TEXT>I just replaced a battery in an APC 1000 I have for my desktop because although the battery reported fine and the UPS's display showed 15 minutes of runtime, I got 0 minutes runtime when I simulated a power failure by pulling the plug.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_0</DOCNO>
+            	<TEXT>I was referring to the ORIGINAL term of the loans.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_1</DOCNO>
+            	<TEXT>You have only given the remaining period. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_2</DOCNO>
+            	<TEXT>First one is personal loan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_3</DOCNO>
+            	<TEXT>$12,500 loan; 5.99%; 2 years, 8 months left (\~$380/month)" So, was the original principal amount $12,500 or is that the remaining balance?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_4</DOCNO>
+            	<TEXT>The remaining period is 32 months, but what was the original period of the loan? "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_5</DOCNO>
+            	<TEXT>Second is new student loans.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_6</DOCNO>
+            	<TEXT>$20,250; 3.20%; 9 years, 11 months left (\~$200/month)" Same questions as the first one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_7</DOCNO>
+            	<TEXT>Was the original principal $20,250 or is that the remaining balance?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_8</DOCNO>
+            	<TEXT>The remaining period is 119 months, but what was the original period of the loan?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_9</DOCNO>
+            	<TEXT>Instead of just guessing, here is some math homework - ha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_10</DOCNO>
+            	<TEXT>So assuming monthly payments, the basic formula goes like this: n = original period of loan in months i = monthly interest rate PV = (Present Value), or original amount borrowed pmt = monthly payment v = 1/(1+i) where i = the periodic interest rate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_11</DOCNO>
+            	<TEXT>If you payment is monthly and the annual interest rate is 6%, then i= 6/12 = 0.5% The payment formula works like this: \[(1 - v\^n) / i \] \* (1+i) = Temporary Annuity Factor The amount originally borrowed divided by the Temporary Annuity Factor = the payment.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_12</DOCNO>
+            	<TEXT>Simple, you see?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_13</DOCNO>
+            	<TEXT>If your payment is due at the beginning of the period instead of the end, then you divide your answer by 1+i, but that's a detail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_14</DOCNO>
+            	<TEXT>You can solve that basic formula for any of the terms, so if you have the payment, the interest rate  amp; original amount borrowed, you can solve for the period.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_15</DOCNO>
+            	<TEXT>If you have the payment, period and interest rate, you can solve for the original amount borrowed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_16</DOCNO>
+            	<TEXT>You can use Excel's PMT function to do the same thing, but what's the fun in that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_17</DOCNO>
+            	<TEXT>Now you know how Excel does it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_18</DOCNO>
+            	<TEXT>To do any what-if analysis, I would put both loans into a spreadsheet so you can see the "normal" progression of them being paid off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_9_19</DOCNO>
+            	<TEXT>That way, you can then adjust the payments and see how that changes the answer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_10_0</DOCNO>
+            	<TEXT>I would call the agencies and freeze your credit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_10_1</DOCNO>
+            	<TEXT>Better safe than sorry.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_10_2</DOCNO>
+            	<TEXT>Then get a new email address(es).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_10_3</DOCNO>
+            	<TEXT>Obviously don't give the new ones out indiscriminately.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_11_0</DOCNO>
+            	<TEXT>ABB Retention Policies</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_11_1</DOCNO>
+            	<TEXT>Does ABB override the chosen retention policy if the NAS runs low/out of space, or must you guess at the space needed and pare down the retention policy to manage the space yourself?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_11_2</DOCNO>
+            	<TEXT>If so, then why would anyone ever choose the first option given when setting a retention policy: "Keep all versions"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_11_3</DOCNO>
+            	<TEXT>Also if space management must be done manually, this gets much more complicated if you are backing up more than one machine, of course - am I missing anything obvious?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_12_0</DOCNO>
+            	<TEXT>Ok, that sucks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_12_1</DOCNO>
+            	<TEXT>It's not like there are any adjustments you can make, the UPS support is just 'on' or 'off'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_12_2</DOCNO>
+            	<TEXT>So it seems like it a problem with Synology's implementation of that feature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_12_3</DOCNO>
+            	<TEXT>Maybe it will get better with DSM7...or not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_12_4</DOCNO>
+            	<TEXT>Edit: I suppose you *could* try a different brand UPS to see if the switch to battery power is more 'gentle' from the NAS's perspective.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_12_5</DOCNO>
+            	<TEXT>Kind of an expensive what-if test, though - unless you just happen to have a different UPS laying around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_13_0</DOCNO>
+            	<TEXT>" Our client has a 4-bay DS416j with 4 x 4TB WD RED PRO drives in SHR array, 4 years of up time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_13_1</DOCNO>
+            	<TEXT>3 are now failing. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_13_2</DOCNO>
+            	<TEXT>Jeezus, next time setup notifications - 3 drives failing on a 4 drive NAS....and it's for a client?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_13_3</DOCNO>
+            	<TEXT>Also, I would never do the 'shucked drive' thing for a client - use Red Pros or Ironwolf Pros that are on the compatibility list, set 'em in a RAID10 and restore your backup - assuming you can even get one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_0</DOCNO>
+            	<TEXT>Thanks - burned a ticket with support to get the answer - hope this helps the next guy wondering: ABB does not have any space management features.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_1</DOCNO>
+            	<TEXT>You cannot set a FIFO policy to delete old backups when it runs out of space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_2</DOCNO>
+            	<TEXT>Obviously, you will get notified if space is low provided you have notifications configured correctly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_3</DOCNO>
+            	<TEXT>So...when you run low on space you have two options: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_4</DOCNO>
+            	<TEXT>Delete old backups manually - doesn't make sense usually because it will just fill up again 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_5</DOCNO>
+            	<TEXT>Change the retention policy to keep fewer backups.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_6</DOCNO>
+            	<TEXT>This is the better answer, of course.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_7</DOCNO>
+            	<TEXT>So that brings up the question of "If you modify the retention policy, WHEN are the existing backups that don't adhere to the new policy actually deleted?"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_8</DOCNO>
+            	<TEXT>Answer: The next time a backup is run.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_9</DOCNO>
+            	<TEXT>There is no "Apply" choice to clear up space immediately.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_10</DOCNO>
+            	<TEXT>This is a bit more cumbersome than I would have preferred, but workable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_11</DOCNO>
+            	<TEXT>Helpful support dude promised to submit a request to have this information added to the Administrator's Guide for ABB.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_12</DOCNO>
+            	<TEXT>Final comment, I'm not in love with Synology's "forever incremental" system, never rolling everything up into a new base image.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_14_13</DOCNO>
+            	<TEXT>So restoring from yesterday's backup if you've been doing dailies for 3 years means the software has to stitch together the 3 year old base image and 1,095 potential incrementals - unless I'm missing something, this seems anxiety-producing at best.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_15_0</DOCNO>
+            	<TEXT>Yes - the proof of the pudding is in the eating, I guess.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_15_1</DOCNO>
+            	<TEXT>I'm using it for a couple of clients, but haven't had the acid test of needing to do a full restore yet (thank goodness - the fewer of those in my life the happier I am).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_0</DOCNO>
+            	<TEXT>You can't use the formula mid-stream because the payment is set at the beginning of the loan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_1</DOCNO>
+            	<TEXT>You can use a spreadsheet, though and just add to the scheduled payment to reflect the impact of paying extra.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_2</DOCNO>
+            	<TEXT>Note that different loans can do different things with extra payments - it's not guaranteed that it will reduce the principal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_3</DOCNO>
+            	<TEXT>You have to read the documentation or call and ask.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_4</DOCNO>
+            	<TEXT>You may have to individually specify that you want extra $ to reduce the principal, otherwise they might must apply it to pre-pay future payments.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_5</DOCNO>
+            	<TEXT>So you didn't save any money, but because you paid extra your next payment isn't due until September of 2022.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_6</DOCNO>
+            	<TEXT>Something like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_7</DOCNO>
+            	<TEXT>There is more than one story in this group about that happening.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_8</DOCNO>
+            	<TEXT>Sneaky Lender Trick #47.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_9</DOCNO>
+            	<TEXT>Once you figure out how to specify to the lender that extra payments made will in fact reduce the principal, you can write your spreadsheet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_10</DOCNO>
+            	<TEXT>Set it up like this  |Date|Balance|Interest|Payment| |:-|:-|:-|:-| |1/1/21|20300.00|54.13|300.00| |2/1/21|20054.13|53.48|300.00| |3/1/21|19807.61|52.82|300.00| |4/1/21|19560.43|52.16|300.00| |5/1/21|19312.59|51.50|300.00| ||||| You enter the actual outstanding balance in the first row, then make the formula for the interest in that cell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_11</DOCNO>
+            	<TEXT>Interest would be your interest rate divided by 12 times the balance cell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_12</DOCNO>
+            	<TEXT>Then enter your prescribed payment in that cell on the first row.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_13</DOCNO>
+            	<TEXT>Make the Balance in the second row a formula equal to the balance from the first row plus the calculated interest from the first row, minus the payment from the first row.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_14</DOCNO>
+            	<TEXT>Above, I've used 3.2% for the interest and $300 for the payment.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_15</DOCNO>
+            	<TEXT>20,300 \* (.032 / 12) = $54.13.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_16</DOCNO>
+            	<TEXT>In the spreadsheet, substitute the cell reference for 20,300.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_17</DOCNO>
+            	<TEXT>It will look something like C2\*(.032/12).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_18</DOCNO>
+            	<TEXT>You can do this all in Google sheets (free), Excel, or LibreOffice Calc (also free).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_19</DOCNO>
+            	<TEXT>The *actual* interest on the loan might be different depending on how the lender calculates it, but the above simple-interest formula is close enough for our purposes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_20</DOCNO>
+            	<TEXT>Next, copy the interest formula from the first row down to the second row and copy the payment amount from the first row down to the second row.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_21</DOCNO>
+            	<TEXT>Finally, copy the entire row for the 2nd row down to the 3rd row, 4th row, 5th row, as far as you need until the balance goes to zero.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_22</DOCNO>
+            	<TEXT>If you have 5 years remaining, it will be 60 rows in all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_23</DOCNO>
+            	<TEXT>If you have 15 years remaining, it will be 180 rows in all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_24</DOCNO>
+            	<TEXT>Once you are done, this represents the payoff of your loan assuming you do nothing different.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_25</DOCNO>
+            	<TEXT>Just make the regular payments until it's paid off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_26</DOCNO>
+            	<TEXT>Once you have that, you can make "what if" scenarios by adding to the payment cells.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_27</DOCNO>
+            	<TEXT>Instead of $300 in the payment cells, make it $450 and see how that affects the date the loan balance will be zero.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_28</DOCNO>
+            	<TEXT>In the above example, the loan will be paid off in January of 2027.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_29</DOCNO>
+            	<TEXT>If I make the payments $450 instead of $350, though, the loan is paid off in November of 2024.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_16_30</DOCNO>
+            	<TEXT>2 years and 1 month earlier than if you had stuck with the $300 payment (also saving $759.04 in interest).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_0</DOCNO>
+            	<TEXT>We've been a SW shop for 10 years and I will do almost anything to avoid calling them anymore.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_1</DOCNO>
+            	<TEXT>When I do call, I want to understand what went wrong, why their changes are the preferred fix, and how to prevent it from happening again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_2</DOCNO>
+            	<TEXT>They, on the other hand, want to fix  amp; run, or give you busy work to do to get you off the phone and convert the ticket to email.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_3</DOCNO>
+            	<TEXT>Every time I ask them to repeat themselves because I can't understand half of what they are saying, they play dumb.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_4</DOCNO>
+            	<TEXT>It's maddening.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_5</DOCNO>
+            	<TEXT>I use AppRiver for all my O365 precisely because they provide onshore, English-speaking support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_6</DOCNO>
+            	<TEXT>If an issue does escalate to Microsoft, they are the go-between.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_7</DOCNO>
+            	<TEXT>That is worth every.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_8</DOCNO>
+            	<TEXT>of money they get.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_17_9</DOCNO>
+            	<TEXT>I'm sure that I've now jinxed this arrangement = haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_18_0</DOCNO>
+            	<TEXT>I loved that track, but I was sure that Edie Brickell had a slight lisp because of this!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_19_0</DOCNO>
+            	<TEXT>We use D amp;H for Sonicwall.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_19_1</DOCNO>
+            	<TEXT>Decent margins, fast email delivery, and great to have a vendor behind you when you accidentally buy the wrong thing, or otherwise need to unmake a mistake.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_20_0</DOCNO>
+            	<TEXT>Sounds like a bug in that firmware - from a practical standpoint, you are going to have to roll them back.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_20_1</DOCNO>
+            	<TEXT>We recently completed rollout of the 83n on our clients' units (\~80 give or take) and haven't had problems, thank goodness.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_20_2</DOCNO>
+            	<TEXT>We don't have anything high-latency, though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_20_3</DOCNO>
+            	<TEXT>Once the next firmware is released, you can test it on one or two before rolling it out to your entire estate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_20_4</DOCNO>
+            	<TEXT>Unfortunately, SWs support is at a low-point in our 10-yr history with them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_20_5</DOCNO>
+            	<TEXT>I'm hoping they address that, but I'll believe it when I see it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_21_0</DOCNO>
+            	<TEXT>It looks like D amp;H doesn't carry Watchguard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_21_1</DOCNO>
+            	<TEXT>Frustrating - They don't have Synology either, so we end up going to Provantage for them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_21_2</DOCNO>
+            	<TEXT>Speaking of which, it looks like [Provantage](https://www.provantage.com/service/searchsvcs?QUERY=Watchguard amp;SUBMIT.x=0 amp;SUBMIT.y=0) *does* have Watchguard, so check them out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_22_0</DOCNO>
+            	<TEXT>Synology Active Backup for Business</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_23_0</DOCNO>
+            	<TEXT>And god forbid you have to uninstall the managed version after some previous vendor abandoned the client. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_23_1</DOCNO>
+            	<TEXT>That* was not a fun afternoon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_24_0</DOCNO>
+            	<TEXT>I see what you did there...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_25_0</DOCNO>
+            	<TEXT>This - although in a recent scrooge-change, NFR units are no longer free.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_25_1</DOCNO>
+            	<TEXT>Gotta milk every possible dime out of customers, yeah?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_0</DOCNO>
+            	<TEXT>How safe are SW site-to-site VPNs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_1</DOCNO>
+            	<TEXT>I received a rather excited opinion from another tech recently when discussing some VPN tunnel issues I've been having with site-to-site VPNs between two SonicWALLs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_2</DOCNO>
+            	<TEXT>This person has forgotten more than I'll ever know about networking, so they have successfully sewed the seeds of doubt.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_3</DOCNO>
+            	<TEXT>The response went something like this: "Any tech who is still using IPSec tunnels in today's environment should be looking for another profession."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_4</DOCNO>
+            	<TEXT>I'm paraphrasing and removing the profanity. :-)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_5</DOCNO>
+            	<TEXT>How risky is it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_6</DOCNO>
+            	<TEXT>Should I be learning to love wireguard or similar?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_26_7</DOCNO>
+            	<TEXT>I'm definitely a "If it ain't broke, don't fix it" kinda guy, but on the other hand I don't want to short change my clients just to stay in the SonicWALL universe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_27_0</DOCNO>
+            	<TEXT>Appreciate the reality check.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_27_1</DOCNO>
+            	<TEXT>I was surprised at the vitriol as well - it looks like there's no reason for me to change our processes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_27_2</DOCNO>
+            	<TEXT>I'm guessing there might have been some unspoken resentment against anything Sonicwall, but that's just a guess.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_0</DOCNO>
+            	<TEXT>This is well-timed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_1</DOCNO>
+            	<TEXT>We are having a demo next week of what the current options are.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_2</DOCNO>
+            	<TEXT>We used on-premise GMS for years in the past and switched last year to CSC, and now we're going to be switching to NSM, I guess.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_3</DOCNO>
+            	<TEXT>The reports are such a CF of badly-formatted graphs and read like they don't really know who their audience is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_4</DOCNO>
+            	<TEXT>It seems they are handing clients a reason to fire us.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_5</DOCNO>
+            	<TEXT>Here's a graph of all of your "Intrusions" - really?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_6</DOCNO>
+            	<TEXT>And don't get me started about them using UTC for the reports.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_28_7</DOCNO>
+            	<TEXT>Didn't *anyone* review this stuff before it was released?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_29_0</DOCNO>
+            	<TEXT>or configure Google Drive to sync to a local folder, then back *that folder* up with the NAS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_30_0</DOCNO>
+            	<TEXT>Once you change the data retention policy in ABB, you have to run another backup for the new policy to take effect and remove backups that no longer fit the policy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_30_1</DOCNO>
+            	<TEXT>Kinda wish there was an "Apply Now" button on the retention policy page...no such luck, though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_0</DOCNO>
+            	<TEXT>We also ran an Analyzer server very happily for years.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_1</DOCNO>
+            	<TEXT>Last year we switched to CSC.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_2</DOCNO>
+            	<TEXT>The licensing is very expensive (especially when you compare it to "free" for the Analyzer solution), and the reports are....embarrassingly bad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_3</DOCNO>
+            	<TEXT>I burned two multi-week long support tickets reporting all of the issues with the reports last summer and fall, but when their new version was finally released in November, almost none of those changes were addressed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_4</DOCNO>
+            	<TEXT>I had a web session with someone higher up the food chain at SW last week where I reviewed the reports in excruciating detail and basically said "fix it or I'm not buying it any more".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_5</DOCNO>
+            	<TEXT>I only have a dozen clients on the system and a bit less than 100 Sonicwalls out in the field, so I'm sure they don't care what I think, but I'm not kidding about moving.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_6</DOCNO>
+            	<TEXT>They should be ashamed of themselves presenting those reports to anyone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_31_7</DOCNO>
+            	<TEXT>We're now looking at both FastVue and Wavecrest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_0</DOCNO>
+            	<TEXT>The reports still look like they were designed by someone that never looked at a graph before. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_1</DOCNO>
+            	<TEXT>All times are in UTC - which makes every graph that shows activity useless as it isn't in local time (unless you live in London).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_2</DOCNO>
+            	<TEXT>When did that spike in activity happen?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_3</DOCNO>
+            	<TEXT>Hmm, let's see, noon on the graph, but I'm in Central Time and it isn't Daylight Savings yet - Who thought this was a good idea? *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_4</DOCNO>
+            	<TEXT>No unit labeling on the Y-axis of the graphs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_5</DOCNO>
+            	<TEXT>Traffic looks to be shown in BYTES (but who knows because there is no legend or label) - so the numbers take 2-inches of page space to display, while the table right below the graph showing the source data is in KB, MB and GB in the same table.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_6</DOCNO>
+            	<TEXT>Hint: Showing "Transferred = 15,000,000,000" isn't a move in the direction of "easily understandable". *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_7</DOCNO>
+            	<TEXT>The Data Usage table has a "Cost" column as if everyone's ISP charges by the byte.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_8</DOCNO>
+            	<TEXT>This isn't 1985, just sayin'. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_9</DOCNO>
+            	<TEXT>For the "Top X by Y" bar graphs, they will have 20 items on the list, show 7 items in a bar graph, with a single bar titled "Other" at the far right which is the TOTAL of the remaining 13 items.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_10</DOCNO>
+            	<TEXT>Completely useless for analysis plus causes the scaling of the graph to be overstated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_11</DOCNO>
+            	<TEXT>Did no one ever look at these things before this product was released? *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_12</DOCNO>
+            	<TEXT>In some of the graphs, the bars DON'T MATCH the table data shown below. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_13</DOCNO>
+            	<TEXT>The "Intrusions Blocked" graph is titled "INTRUSIONS".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_14</DOCNO>
+            	<TEXT>Like "These are the bad guys we let into your network this week".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_15</DOCNO>
+            	<TEXT>Are you trying to hand my clients a reason to fire me?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_16</DOCNO>
+            	<TEXT>Because that's what it looks like. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_17</DOCNO>
+            	<TEXT>The tables where they show Total intrusions columns and Intrusions Blocked columns show things like "0 total, 24 blocked" or "8 total, 103 blocked".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_18</DOCNO>
+            	<TEXT>That doesn't make any sense!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_19</DOCNO>
+            	<TEXT>Elsewhere in that same table, it's reversed - "24 total, 0 blocked".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_20</DOCNO>
+            	<TEXT>THAT looks like we failed to stop something bad from getting into your network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_21</DOCNO>
+            	<TEXT>Again, it looks like we're highlighting how we're not doing our jobs. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_22</DOCNO>
+            	<TEXT>Everywhere "Encrypted Key Exchange" is listed in the report and graphs, they label it "Severe Risk" and color it bright red; when in fact, the traffic they show in those graphs and tables for this category is Sonicwall's own Site-to-Site VPN traffic.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_23</DOCNO>
+            	<TEXT>I want to scream at someone for this. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_24</DOCNO>
+            	<TEXT>One table showing "Initiator IP", had the same IP listed twice with different values for each listing. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_25</DOCNO>
+            	<TEXT>In the "Top Users" graphs, unless you are synced with Active Directory, you get a full page bar graph with a single bar taking up the entire graph, labeled "Unknown".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_26</DOCNO>
+            	<TEXT>If I'm a client looking at this, it looks like they are saying "We have no idea who did this", so it looks like a problem that we're not addressing. *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_27</DOCNO>
+            	<TEXT>In the Top Initiator graphs, they are showing both private and public IPs in the same graph, so it's not clear what that graph is even saying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_28</DOCNO>
+            	<TEXT>Are they mixing inbound and outbound traffic?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_29</DOCNO>
+            	<TEXT>The text says "devices behind your firewall", but how can a public IP be behind the firewall? *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_30</DOCNO>
+            	<TEXT>The up/down status timeline graph has a Y-axis divided into in 2.5hr increments, so the top of the graphs is 25 hours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_31</DOCNO>
+            	<TEXT>This is minor, but still indicative that nobody with any design expertise reviewed anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_32</DOCNO>
+            	<TEXT>And these are comments on the NEW graphs - very slightly better than the CSC reports, but clearly based on the same coding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_33</DOCNO>
+            	<TEXT>I don't think they know who their audience is for these reports, and I think they need to hire a few  amp;\^##$!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_32_34</DOCNO>
+            	<TEXT>So yeah, I may have some strong feelings about this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_33_0</DOCNO>
+            	<TEXT>Manifest - interesting premise, destroyed by writers and bad acting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_33_1</DOCNO>
+            	<TEXT>Plus they can never solve the "mystery" since that means ending the series.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_33_2</DOCNO>
+            	<TEXT>I hate shows like this that have a central mystery around which the entire show is built, and they never resolve the question.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_34_0</DOCNO>
+            	<TEXT>These days, "What are you watching on Amazon/Netflix/etc?"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_34_1</DOCNO>
+            	<TEXT>You can tell a lot about someone by what they watch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_35_0</DOCNO>
+            	<TEXT>Any big company's user-facing tech support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_35_1</DOCNO>
+            	<TEXT>Email/chat/phone, doesn't seem to matter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_0</DOCNO>
+            	<TEXT>Browser compatibility rant</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_1</DOCNO>
+            	<TEXT>You know, for a device whose access and configuration is primarily browser-based, SW sure doesn't do a very good job of keeping their web interface working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_2</DOCNO>
+            	<TEXT>I've lost count of the wasted time spent going back and forth between Chrome, Firefox, Edge and Internet-F amp;#$ing-Explorer trying to do firmware upgrades over the past few months on my estate of several dozen TZ units.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_3</DOCNO>
+            	<TEXT>Sometimes, Chrome doesn't work but Firefox will.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_4</DOCNO>
+            	<TEXT>Next, Firefox doesn't work but Chrome will.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_5</DOCNO>
+            	<TEXT>Sometimes neither of them work and I end up using IE.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_6</DOCNO>
+            	<TEXT>Yes, I've disabled all extensions, Yes, I've checked I'm on the latest update, Yes, I've rebooted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_7</DOCNO>
+            	<TEXT>It's maddening.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_8</DOCNO>
+            	<TEXT>I used to feel sorry for companies having to try and keep their stuff compatible with never-ending browser updates, but I think I'm past that - Now I'd like them to just make it work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_36_9</DOCNO>
+            	<TEXT>Ok, rant over - I feel better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_0</DOCNO>
+            	<TEXT>These are all Gen6 models, ranging from SOHOs to TZ500s.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_1</DOCNO>
+            	<TEXT>Some going from 6.2.x to 6.5.x, but most going from the penultimate release to the most-current.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_2</DOCNO>
+            	<TEXT>I have a TZ500 at the edge in my shop, just for completeness.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_3</DOCNO>
+            	<TEXT>The problem usually presents itself (like it did last evening with the TZ300 I was working on) after uploading the new firmware and selecting "Boot with current settings".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_4</DOCNO>
+            	<TEXT>I get the red "Please Wait" message, but it never starts the countdown.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_5</DOCNO>
+            	<TEXT>Started in Chrome for that (my main browser), tried in Firefox, same result.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_6</DOCNO>
+            	<TEXT>Ended up remoting into a server there, transferring the firmware file to the server, then accessing the SW with IE on that server to do the upgrade.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_7</DOCNO>
+            	<TEXT>10-minute job took 45 minutes or so after all of the faffing around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_8</DOCNO>
+            	<TEXT>BTW, I usually start this whole process by rebooting the units.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_9</DOCNO>
+            	<TEXT>I had one yesterday afternoon that wouldn't upload the updated firmware - I would select the file from our network drive like always, click on Open/Upload, and it just wouldn't happen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_37_10</DOCNO>
+            	<TEXT>Switching from Firefox back to Chrome made that one work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_38_0</DOCNO>
+            	<TEXT>It sounds like you need to find a different (and more ethical) installer that supports this equipment and hire them to just reset and reconfigure everything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_38_1</DOCNO>
+            	<TEXT>Otherwise, rip it out or disconnect everything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_38_2</DOCNO>
+            	<TEXT>Behavior of the existing installer shouldn't be rewarded in any way - cut contact and get on with your life.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_39_0</DOCNO>
+            	<TEXT>I am still getting Gen6 units for new installs - I don't need the headache that is Gen7 until they get a few more firmware updates out and the problems die down (here's hoping anyway).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_40_0</DOCNO>
+            	<TEXT>I'm in the SMB market and they are clearly not interested in that target anymore.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_40_1</DOCNO>
+            	<TEXT>The buy-in cost at the bottom of their product line is too much and getting higher.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_40_2</DOCNO>
+            	<TEXT>It used to be easy to sell a unit to even 2-3 employee businesses.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_40_3</DOCNO>
+            	<TEXT>Then, if the business grew, we'd move up the product line at hardware refresh time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_40_4</DOCNO>
+            	<TEXT>It was a nice system.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_40_5</DOCNO>
+            	<TEXT>These days, I get more and more pushback on the price...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_0</DOCNO>
+            	<TEXT>We use SOS for one-off remotes or when SW Take Control lets us down.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_1</DOCNO>
+            	<TEXT>Like others, we moved from LMIR a few years ago when they started raising their prices.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_2</DOCNO>
+            	<TEXT>Works mostly ok, no complaints considering the cost.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_3</DOCNO>
+            	<TEXT>One thing we miss from LMIR is the popup at the beginning of a session where you could record notes like the ticket number, client name or quick description of the problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_4</DOCNO>
+            	<TEXT>We used the month end report to make sure we weren't missing any billing opportunities.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_5</DOCNO>
+            	<TEXT>SOS has no feature like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_6</DOCNO>
+            	<TEXT>If you want anything other than "remote IP" in the report at month-end, you need to log into the web site when you start a session and manually type it there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_41_7</DOCNO>
+            	<TEXT>Much more cumbersome, but it does work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_42_0</DOCNO>
+            	<TEXT>As others have said, replace them when they fail - AS LONG AS:  * You have a backup - no reason not to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_42_1</DOCNO>
+            	<TEXT>Hyperbackup is built in and external USB drives are very inexpensive * You have notifications setup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_42_2</DOCNO>
+            	<TEXT>Again, no reason not to do this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_42_3</DOCNO>
+            	<TEXT>The push-service option works will and eliminates having to use a gmail or other free email server nonsense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_42_4</DOCNO>
+            	<TEXT>Tick all the boxes possible and your NAS will tell YOU when something is wrong.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_43_0</DOCNO>
+            	<TEXT>Use the Windows 10 Media Creation Tool to make an installation flash drive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_43_1</DOCNO>
+            	<TEXT>Boot to that and do the install.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_44_0</DOCNO>
+            	<TEXT>According to [this](https://www.sonicwall.com/support/knowledge-base/how-to-configure-high-availability-ha/170503978252820/), you need a WAN switch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_0</DOCNO>
+            	<TEXT> gt;I actually got a RJ45 Y-splitter just because I thought that the WAN switch wasn't working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_1</DOCNO>
+            	<TEXT>Maybe all I needed to do was enabling virtual MAC beforehand.. No.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_2</DOCNO>
+            	<TEXT>Splitters are bad, mkay? :-)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_3</DOCNO>
+            	<TEXT>Splitters allow two to one connections, AS LONG AS ONLY ONE IS ACTIVE AT ANY ONE TIME.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_4</DOCNO>
+            	<TEXT>I had a client take down their small network by using one of these for two active computers to utilize a single wall jack.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_5</DOCNO>
+            	<TEXT>When I asked where they got this spawn of the devil thing, they said "Oh, the comcast guy gave it to us - he had an extra on his truck when he was here to troubleshoot our internet!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_6</DOCNO>
+            	<TEXT>Of course everything worked when he was there because one of those computers was off!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_45_7</DOCNO>
+            	<TEXT>If you find any more of them, throw them away - the fewer of those things on the planet, the better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_46_0</DOCNO>
+            	<TEXT>I just wanted to thank you for knowing the difference between "losing" and "loosing".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_46_1</DOCNO>
+            	<TEXT>That is all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_47_0</DOCNO>
+            	<TEXT>And light grey type on a dark grey background, or grey type on a white background - has no one there ever heard of contrast?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_47_1</DOCNO>
+            	<TEXT>I swear they do it on purpose.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_47_2</DOCNO>
+            	<TEXT>Remember when the license code for Corel Draw came on a strip of TISSUE PAPER in the CD envelope?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_47_3</DOCNO>
+            	<TEXT>Those are the people who gave birth to the folks currently designing serial number/product key/service tag design and placement.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_0</DOCNO>
+            	<TEXT>N-Able RMM Antivirus Policies</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_1</DOCNO>
+            	<TEXT>Is it just me, or is there a problem with creating new AV protection policies?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_2</DOCNO>
+            	<TEXT>It spends about 30 seconds on the "Loading" animation, then when saving the new policy, it hangs on the "Saving Policy" animation for a similar time before throwing up an "Operation failed with unexpected error.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_3</DOCNO>
+            	<TEXT>Raw Error: 0" message.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_4</DOCNO>
+            	<TEXT>Once I click "OK" on that error message, it goes back to the "Saving Policy" animation, but never completes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_5</DOCNO>
+            	<TEXT>I gave up waiting after 5 minutes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_6</DOCNO>
+            	<TEXT>If I close the browser tab and with reopen it, then bring up the list - the new policy is not on the list.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_48_7</DOCNO>
+            	<TEXT>This behavior is the same in both Chrome and Firefox.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_49_0</DOCNO>
+            	<TEXT>Support says it wasn't just my dashboard, and that "this looks like an issue".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_49_1</DOCNO>
+            	<TEXT>So reported to dev.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_50_0</DOCNO>
+            	<TEXT>Yes - agree.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_50_1</DOCNO>
+            	<TEXT>I got an email in the last 30 minutes - "It's all fixed now, can you check and report back?" -</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_50_2</DOCNO>
+            	<TEXT>not fixed at all, I get the same behavior now as this morning when I reported the issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_50_3</DOCNO>
+            	<TEXT>Here's hoping they fix it tomorrow - I've got a new customer I'm setting up and having to do things to get it working that I know I'll have to undo/redo once they fix it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_51_0</DOCNO>
+            	<TEXT>Just read the forum notes - and I see this forum is intended for the Orion platform - sorry everyone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_52_0</DOCNO>
+            	<TEXT>Our boy Dewey does this all the time - Never seen it before, we've 6 previous hounds and dozens of fosters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_52_1</DOCNO>
+            	<TEXT>I thought it was unique - ha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_53_0</DOCNO>
+            	<TEXT>Command | Update is the way to go.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_54_0</DOCNO>
+            	<TEXT>We love our 2 prints!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_54_1</DOCNO>
+            	<TEXT>Unique and very well done.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_0</DOCNO>
+            	<TEXT>Make sure your data is backed up 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_1</DOCNO>
+            	<TEXT>A drive going bad can cause this... even a backup drive connected by usb.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_2</DOCNO>
+            	<TEXT>Test your drives.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_3</DOCNO>
+            	<TEXT>Networking problems can cause huge delays logging in.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_4</DOCNO>
+            	<TEXT>If you have any mapped drives, try deleting them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_5</DOCNO>
+            	<TEXT>If that solves the login delay, just recreate them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_6</DOCNO>
+            	<TEXT>Otherwise I would create a test user profile.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_7</DOCNO>
+            	<TEXT>If that profile logs in without delay, then just move your stuff to the new profile.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_55_8</DOCNO>
+            	<TEXT>If none of this makes any difference, you are probably looking at a nuke  amp; pave.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_56_0</DOCNO>
+            	<TEXT>There you go, then.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_56_1</DOCNO>
+            	<TEXT>You have a corruption in your user profile somewhere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_56_2</DOCNO>
+            	<TEXT>Just create a new user profile and move your stuff from the old to the new.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_56_3</DOCNO>
+            	<TEXT>Don't move the appdata folder, though, just the normal user folders: Desktop, Documents, Downloads, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_57_0</DOCNO>
+            	<TEXT>They are not without their problems, but firmware updates have been amazingly painless.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_57_1</DOCNO>
+            	<TEXT>Always read the release notes of the new firmware before loading - especially the known issues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_57_2</DOCNO>
+            	<TEXT>Keep backup copies of your client's configuration files just in case something goes south.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_57_3</DOCNO>
+            	<TEXT>This process has saved our bacon more than once when units get fried with a power surge or if someone adventurous tries to change something and screws things up instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_57_4</DOCNO>
+            	<TEXT>You can restore known-working settings very quickly (and remotely if you're lucky).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_0</DOCNO>
+            	<TEXT>"At some point I want to get some 16 inch (or maybe 15?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_1</DOCNO>
+            	<TEXT>apparently those fit?)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_2</DOCNO>
+            	<TEXT>wheels to use for road trips."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_3</DOCNO>
+            	<TEXT>I don't understand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_4</DOCNO>
+            	<TEXT>Why would different wheels help the road trip experience?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_5</DOCNO>
+            	<TEXT>Are you trying to increase the range by getting larger diameter wheels/tires?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_6</DOCNO>
+            	<TEXT>Are you hoping to change the ride comfort?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_58_7</DOCNO>
+            	<TEXT>Could you elaborate?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_0</DOCNO>
+            	<TEXT>My 2018 Premier has extension visors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_1</DOCNO>
+            	<TEXT>These things should be standard in all cars.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_2</DOCNO>
+            	<TEXT>I'm thinking about ordering a set and Macgyvering them into my Prius!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_3</DOCNO>
+            	<TEXT>I had a Pontiac Bonneville back in the mid-90s that had TWO visors each for both the driver  amp; passenger.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_4</DOCNO>
+            	<TEXT>One that could be swung over to cover the side window and a thinner one that stayed behind.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_5</DOCNO>
+            	<TEXT>If you were unlucky enough to be on a winding road where the sun came alternately through the front and side window - you just flipped them both down at once.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_6</DOCNO>
+            	<TEXT>It was great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_59_7</DOCNO>
+            	<TEXT>A low-incidence problem, but it must have pissed off an engineer somewhere at GM and they got their way!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_60_0</DOCNO>
+            	<TEXT>Turn the monitor on without it being connected, get into it's menu and select HDMI as the input source instead of "Auto".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_60_1</DOCNO>
+            	<TEXT>Then try connecting it to the laptop and then the desktop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_60_2</DOCNO>
+            	<TEXT>The monitor might be failing/failed but it doesn't sound like you tried that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_61_0</DOCNO>
+            	<TEXT>Yes - this is correct.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_61_1</DOCNO>
+            	<TEXT>The next backup run (even one you do immediately) will get rid of the backups that don't match the retention policy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_62_0</DOCNO>
+            	<TEXT>Why buy a NAS and then defeat one of its main advantages by configuring it to NOT have any fault tolerance?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_62_1</DOCNO>
+            	<TEXT>You say "you just lose the data on the one disk that fails" like that is an advantage!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_62_2</DOCNO>
+            	<TEXT>For Pete's sake, use RAID 1 or 5 or 10 so you don't lose ANY data if a drive fails (i.e. you have "resilience" as you call it)!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_62_3</DOCNO>
+            	<TEXT>If you don't care about your data, then use an external usb drive for a fraction of the cost of a NAS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_0</DOCNO>
+            	<TEXT>Fair enough.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_1</DOCNO>
+            	<TEXT>Here are some tips: If you need speed, get 4 disks of the same time and setup a RAID10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_2</DOCNO>
+            	<TEXT>This is basically doing a RAID0 made up of 2 RAID1 arrays.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_3</DOCNO>
+            	<TEXT>This will give you a capacity of 2X the size of one of the disks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_4</DOCNO>
+            	<TEXT>This will be up to 4 X faster when reading data and up to 2 X faster \[than a single disk or a RAID1\] when writing data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_5</DOCNO>
+            	<TEXT>This will guarantee a 1-disk failure tolerance, and if the right 2 disks fail, a 2-disk failure tolerance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_6</DOCNO>
+            	<TEXT>I'm old school, so I always use "regular" RAID and not the Synology SHR RAID.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_7</DOCNO>
+            	<TEXT>I'm sure it works fine, but I sleep better at night knowing exactly how things are working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_8</DOCNO>
+            	<TEXT>If you don't need extra speed, get 2 disks of the same size and setup a RAID1 (Mirror).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_9</DOCNO>
+            	<TEXT>This will give you a 1-disk failure tolerance and usable capacity of 1X the size of one of the disks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_10</DOCNO>
+            	<TEXT>JBOD is a thing, but save yourself trouble and just get all disks of the same size.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_11</DOCNO>
+            	<TEXT>Use NAS-specific disks (WD Red, Seagate Ironwolf, etc.).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_12</DOCNO>
+            	<TEXT>Bonus tip: Stay away from SMR disks (the regular WD Reds) - use Red Pluses or Red Pros, or Seagate Ironwolfs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_13</DOCNO>
+            	<TEXT>If you have the luxury of time and choice, don't order all of the disks from the same vendor at the same time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_14</DOCNO>
+            	<TEXT>The goal is to get disks from different production runs, so you don't get unlucky and end up with multiple disks produced on a day they were having trouble with the line.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_15</DOCNO>
+            	<TEXT>If you are going to have multiple computers accessing the NAS simultaneously, get a unit with dual NICs and team them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_16</DOCNO>
+            	<TEXT>Twice the throughput to the network when multiple users are in play.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_17</DOCNO>
+            	<TEXT>Setup email notifications for every possible problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_18</DOCNO>
+            	<TEXT>No longer need to bring your own email server for this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_19</DOCNO>
+            	<TEXT>If something is going wrong, you want to know as soon as you can so you can deal with it while things are still working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_20</DOCNO>
+            	<TEXT>Pickup an external USB drive at least big enough to hold the most data you expect to have and setup HyperBackup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_21</DOCNO>
+            	<TEXT>It's pretty bullet-proof.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_22</DOCNO>
+            	<TEXT>Bonus tip: ALSO setup a backup to an online B2 bucket.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_23</DOCNO>
+            	<TEXT>Statistically, you'll never lose any data if you do this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_24</DOCNO>
+            	<TEXT>B2 is surprisingly cheap.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_25</DOCNO>
+            	<TEXT>Not sure how it compares with Synology's online storage, I've been using Backblaze for a long time and they have never given me a reason to look elsewhere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_26</DOCNO>
+            	<TEXT>Got capacity to spare?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_27</DOCNO>
+            	<TEXT>Use Active Backup for Business to backup your computer(s) to the NAS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_28</DOCNO>
+            	<TEXT>No extra cost, completely automated and it works very well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_29</DOCNO>
+            	<TEXT>Buy a UPS and put your Synology on it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_30</DOCNO>
+            	<TEXT>Poorly timed power outages are NOT good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_63_31</DOCNO>
+            	<TEXT>In the words of Forrest Gump: "And that's all I have to say about that."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_64_0</DOCNO>
+            	<TEXT>That spot between his ears - I know that spot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_64_1</DOCNO>
+            	<TEXT>It's the "GO" button!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_64_2</DOCNO>
+            	<TEXT>\+1 for Badger!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_65_0</DOCNO>
+            	<TEXT>Thanks for the award.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_65_1</DOCNO>
+            	<TEXT>One additional point - Synology has a disk-compatibility list [here](https://www.synology.com/en-us/compatibility).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_65_2</DOCNO>
+            	<TEXT>Use it and only buy disks that are listed as compatible with your unit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_65_3</DOCNO>
+            	<TEXT>Reduces problems and there is guaranteed support if you do have a problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_65_4</DOCNO>
+            	<TEXT>This is tricky depending on your drive vendors - you have to look for the precise model number, some places make this easy, some not so much (looking at you, Amazon).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_66_0</DOCNO>
+            	<TEXT>Samesies - RAID10 all the way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_67_0</DOCNO>
+            	<TEXT>Can you steer around this problem by setting up a ddns address to point to the router where the NAS lives and manually forwarding that port to the NAS's IP in that router?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_68_0</DOCNO>
+            	<TEXT>We use firewalls on both ends so we can have a full-time VPN tunnel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_68_1</DOCNO>
+            	<TEXT>I wouldn't risk it without the VPN.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_69_0</DOCNO>
+            	<TEXT>Jeebus, what is the speed limit on those highways you "mostly" drive 80/85 on?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_69_1</DOCNO>
+            	<TEXT>Asking for a friend...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_70_0</DOCNO>
+            	<TEXT>Common  lt; gt; legal, just sayin' Queue the responses how it's dangerous to go slower than traffic flow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_70_1</DOCNO>
+            	<TEXT>The speed limit is always interpreted as "as fast as I can get away with"...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_71_0</DOCNO>
+            	<TEXT> gt; POE POWERED POE SWITCHES!!!!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_71_1</DOCNO>
+            	<TEXT>I smell a free-energy project - just connect a wire from POE-Out to POE-in!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_71_2</DOCNO>
+            	<TEXT>You'll be rich, I tells ya - rich!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_72_0</DOCNO>
+            	<TEXT>We have noticed that the longer a client machine's uptime, the less chance of a successful Take Control connection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_72_1</DOCNO>
+            	<TEXT>This is anecdotal, of course, I haven't opened a ticket.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_72_2</DOCNO>
+            	<TEXT>Try rebooting the client machine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_72_3</DOCNO>
+            	<TEXT>I can neither confirm nor deny that there may have been a few unscheduled overnight reboots for troublesome machines in my estate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_72_4</DOCNO>
+            	<TEXT>Those darned Windows updates - yeah, they'll do that....</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_73_0</DOCNO>
+            	<TEXT>I have a buddy with a woodworking company and he has a couple of C amp;C routers with 5 x 10 beds that take 440 triple-phase.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_73_1</DOCNO>
+            	<TEXT>He doesn't need them often, and plans carefully when to run them because it puts him into a higher billing tier for electricity for the entire month.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_74_0</DOCNO>
+            	<TEXT>They're old, he picked both of them up a equipment auctions, the second one as a parts source for the first -- then ended up repairing both of them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_74_1</DOCNO>
+            	<TEXT>He's got a thing for old tools, for sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_75_0</DOCNO>
+            	<TEXT>Unless it's changed since the acquisition, you can backup up to 2 VMs for free.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_75_1</DOCNO>
+            	<TEXT>Since we do primarily small clients, this is definitely an advantage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_75_2</DOCNO>
+            	<TEXT>Full functionality, full support - $0 dollars.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_76_0</DOCNO>
+            	<TEXT>You're aware they have support, right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_76_1</DOCNO>
+            	<TEXT>888-793-2830</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_77_0</DOCNO>
+            	<TEXT>We typically backup to a NAS onsite, then the NAS backs up to B2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_77_1</DOCNO>
+            	<TEXT>We haven't done anything with direct cloud access from Altaro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_77_2</DOCNO>
+            	<TEXT>This system works well for our size of client.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_0</DOCNO>
+            	<TEXT>Normally, you are forwarding ports to the phone controller's IP on your network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_1</DOCNO>
+            	<TEXT>You don't mention that so I'm guessing there's no controller?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_2</DOCNO>
+            	<TEXT>For education purposes, do a simple port forward to a single machine on the LAN using the wizard (Choose "Quick Configuration" link on the newer firmwares, then choose "Public Server Guide").</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_3</DOCNO>
+            	<TEXT>At the end of the wizard process, there is a screen that shows you what the wizard did.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_4</DOCNO>
+            	<TEXT>Screenshot that and you'll see the required items.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_5</DOCNO>
+            	<TEXT>When I was first learning Sonicwalls, I made documented SOPs for each task like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_6</DOCNO>
+            	<TEXT>This fosters standardization and after a while working like this, things will start to make more sense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_7</DOCNO>
+            	<TEXT>At least that's the way it's supposed to work!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_8</DOCNO>
+            	<TEXT>Last thought - I did this recently to demo for one of my techs and found that the wizard didn't use my pre-configured service group correctly, for some reason.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_9</DOCNO>
+            	<TEXT>It created its own service group with my group as a member.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_10</DOCNO>
+            	<TEXT>I had to start over and only input one of the service objects to the wizard - it created it's own service group that I edited to add the remaining objects once the wizard was done.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_78_11</DOCNO>
+            	<TEXT>I don't know if this was a recent change or a bug.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_79_0</DOCNO>
+            	<TEXT>Obligatory XKCD[File transfer](https://xkcd.com/949/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_80_0</DOCNO>
+            	<TEXT>Obligatory [XKCD #2](https://www.google.com/amp/s/blog.xkcd.com/2019/08/26/how-to-send-a-file/amp/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_81_0</DOCNO>
+            	<TEXT>The scanner you use needs to be fast and easy or you'll hate the process.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_81_1</DOCNO>
+            	<TEXT>I love my Fujitsu Scansnap - every piece of paper that comes through the door goes through the scanner.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_81_2</DOCNO>
+            	<TEXT>The 100% paperless office is a myth, but you can get pretty far along the curve if you build a good system and stick with it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_82_0</DOCNO>
+            	<TEXT>I worked on a full 42U version of this rack recently at a customer's home.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_82_1</DOCNO>
+            	<TEXT>It's *very* close between the closed door and the front of the rack, like others have said.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_82_2</DOCNO>
+            	<TEXT>Once you get a switch in there, there is no room for patch cables, even the thin ones.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_82_3</DOCNO>
+            	<TEXT>I ended up taking the door completely off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_82_4</DOCNO>
+            	<TEXT>You could put the switch in backwards, but that's a kludge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_83_0</DOCNO>
+            	<TEXT> gt;For the OP, make sure you enable Consistent NAT in the VoIP section.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_83_1</DOCNO>
+            	<TEXT>I've never had a VoIP deployment that didn't require that (there's always rare corner cases of course.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_83_2</DOCNO>
+            	<TEXT>We also typically check the "Enable SIP Transformations - for all SIP sessions" and "Enable transformations on TCP connections" in that section as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_83_3</DOCNO>
+            	<TEXT>Not sure if it's always required, but it solved problems on some of the early installs when we were first starting with Sonicwalls, so it's been SOP since then.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_84_0</DOCNO>
+            	<TEXT> gt;I don't use the wizards as often as I used to as they tend to create rule sets that need to be fixed anyway, and nearly the same effort to just create the rules correctly manually.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_84_1</DOCNO>
+            	<TEXT>They are helpful certainly when you are learning - but be careful to document what they did since the only "undo" is to restore the backup you made immediately before making any changes - another good SOP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_84_2</DOCNO>
+            	<TEXT>ALWAYS MAKE A BACKUP BEFORE CHANGING ANYTHING.....especially if you are in a hurry.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_84_3</DOCNO>
+            	<TEXT>Murphy's law is a cruel mistress!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_85_0</DOCNO>
+            	<TEXT>Shipping costs are too variable to waste time trying to itemize them in a quote.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_85_1</DOCNO>
+            	<TEXT>If you are in the states, a fun fact is that many states (but not all!)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_85_2</DOCNO>
+            	<TEXT>tax shipping charges, so if you're going to pass them on directly, they create additional sales tax.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_86_0</DOCNO>
+            	<TEXT>You may also be able to setup the other bank account as an online bill payment recipient in your main account.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_87_0</DOCNO>
+            	<TEXT>The folders already have different colors - took me a minute to realize u/ImplicitEmpiricism was referring to the circles you drew - haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_87_1</DOCNO>
+            	<TEXT>I'm like: What blue folder?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_88_0</DOCNO>
+            	<TEXT>No reason to use the old version of NE.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_88_1</DOCNO>
+            	<TEXT>Upgrade to v10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_89_0</DOCNO>
+            	<TEXT> gt;RAID 6 is still better for redundancy, even with only 4 drives, just slower on the performance side, but it can be expanded on the fly in a way RAID 10 cannot without a rebuild Did not know this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_89_1</DOCNO>
+            	<TEXT>Is this a feature of RAID 6 in general, or RAID 6 as implemented on a Synology?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_89_2</DOCNO>
+            	<TEXT>What is the procedure?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_89_3</DOCNO>
+            	<TEXT>This would be an important factor, especially when there is a eye towards future expansion...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_90_0</DOCNO>
+            	<TEXT>That thing has got to be ancient, doesn't it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_90_1</DOCNO>
+            	<TEXT>Any chance that the problem is related to an old out-of-support firmware?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_90_2</DOCNO>
+            	<TEXT>It's time for a new one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_91_0</DOCNO>
+            	<TEXT> gt;Shit was $300 to replace.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_91_1</DOCNO>
+            	<TEXT>And that was just a thin, painted piece of plastic.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_91_2</DOCNO>
+            	<TEXT>Sadly, that's probably why it was stolen in the first place.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_91_3</DOCNO>
+            	<TEXT>Guarantee your thief had an identical car the same color as yours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_92_0</DOCNO>
+            	<TEXT>We lost our only Ameriprise client last year to similar nonsense targeting Solarwinds RMM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_93_0</DOCNO>
+            	<TEXT> gt;In the UniFi software, there are Networks and Wireless Networks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_93_1</DOCNO>
+            	<TEXT>In Networks, you'll create the network that mimics the VLANs on the SonicWall.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_93_2</DOCNO>
+            	<TEXT>In Wireless Networks, you'll assign it to the corresponding Network you created which in turn corresponds to the SonicWall VLAN.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_93_3</DOCNO>
+            	<TEXT>This is one of the places that can trip you up - and it is not obvious (of course) that you need those settings in the Unifi Controller under Networks if you are trying to handle the VLANs on the Sonicwall.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_93_4</DOCNO>
+            	<TEXT>Also, don't define the DHCP in the controller in this situation - it's confusing that you need the VLAN info in both places, but only want the DHCP in one, but there you are.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_94_0</DOCNO>
+            	<TEXT>I have a very specific note about this, it must have been the fix that make a setup work - maybe they changed something along the way to make it not matter?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_94_1</DOCNO>
+            	<TEXT>In any case, glad it's possible now - I like your idea of putting it in there for reference...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_95_0</DOCNO>
+            	<TEXT>It's just a step I added to our SOP when setting up Ubiquiti APs with a Sonicwall. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_95_1</DOCNO>
+            	<TEXT>Do NOT define the DHCP zone here".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_95_2</DOCNO>
+            	<TEXT>No additional notes, and it was from 2016, I think - :-)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_96_0</DOCNO>
+            	<TEXT>We did a lot of "upward adjusting" on these settings last year because using too low of a setting screws with Zoom session performance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_96_1</DOCNO>
+            	<TEXT>I think we're at 5000 as a standard now because of that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2353_96_2</DOCNO>
+            	<TEXT>Our clients are all small (all 
+    50 many=""
+      20 so="" we="" only="" have="" TZ="" units="" deployed.="" I="" always="" dislike="" lowering="" security="" gain="" but="" the="" experience="" has="" to="" be="" usable="" or="" hate="" you.=""
+        </TEXT>
+        </DOC>

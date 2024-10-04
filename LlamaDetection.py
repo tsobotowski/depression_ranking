@@ -5,7 +5,6 @@ import bdi
 import transformers
 import torch
 import pandas as pd
-import re 
 
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
@@ -38,7 +37,6 @@ def predict(statement):
             'Rating': []}
     #Initialize output data frame
     eval = pd.DataFrame(output)
-    print('Evaluating statement..')
     #Evaluate each catagory
     for i in range(1, 22):
         messages = [
@@ -59,12 +57,29 @@ def predict(statement):
         new_row = {'Catagory': [str(bdi.getCategory(i))], 'Rating': [str(result)]}
         new_row = pd.DataFrame(new_row)
         eval = eval._append(new_row, ignore_index = False)
+        print(statement)
         print(new_row)
     return eval
 
-result = predict("I'm doing well, Im a little busy and a little stressed out. I'm approaching the end of a long term goal.")
-result.to_csv('BDI_single_eval5.csv', index=False) 
-print(result.head())
+#Remove any text from output and convert strings to ints
+def scrubText(value):
+    try:
+        # Attempt to convert the value to an integer
+        return int(value)
+    except ValueError:
+        # If it's not an integer, return 0
+        return 0
+
+#Gets rankings based on text and converts into rating of 0(no depression) or 1(depression)
+def rate(text):
+    raw = predict(text)
+    clean = raw['Rating'].apply(scrubText)
+    score = sum(clean)
+    if score <= 18:
+        return 0
+    elif score > 18:
+        return 1
+
 
 
 

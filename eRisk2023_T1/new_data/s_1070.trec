@@ -1,0 +1,1463 @@
+        <DOC>
+            	<DOCNO>s_1070_0_0</DOCNO>
+            	<TEXT>Alt+Tab Functionality</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_0_1</DOCNO>
+            	<TEXT>So there are a number of extensions out there to make Alt+Tab cycle between windows rather than applications (https://extensions.gnome.org/ for AlternateTab or Windows Alt Tab), but I have one problem: How can I get it so that Alt+Tab cycles through my windows from left to right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_0_2</DOCNO>
+            	<TEXT>Alt+Tab is meaningless to me if I have no idea which terminal hitting it once or twice is going to take me to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_0_3</DOCNO>
+            	<TEXT>Also, it would be nice (though not a necessity) if Alt+Shift+Tab went from right to left.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_0_4</DOCNO>
+            	<TEXT>Anyone agree or know how to fix this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_0</DOCNO>
+            	<TEXT>Python: Logging module for print statements: Duplicate log entries</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_1</DOCNO>
+            	<TEXT>This has been driving me nuts for days now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_2</DOCNO>
+            	<TEXT>Can anyone help?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_3</DOCNO>
+            	<TEXT>Here is the link to stackoverflow for the code: http://stackoverflow.com/questions/18214902/python-logging-module-for-print-statements-duplicate-log-entries Below is an excerpt from my post on stackoverflow: Long time searcher here, but first time asking a question.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_4</DOCNO>
+            	<TEXT>EXPLANATION: I need to have prints redirect to the log because I am incorporating C code through system calls that uses print statements for logged messages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_5</DOCNO>
+            	<TEXT>There is also piles of old Python code written by my coworkers that gets called upon, which also uses print statements for debugging.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_6</DOCNO>
+            	<TEXT>Ultimately, I want this to be able to handle logging.info('message') for my updated code, but also be able to redirect print statements through the logging module for code I either can't change or simply haven't gotten around to updating yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_7</DOCNO>
+            	<TEXT>Below is some example code I came up with to concisely demonstrate my problems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_8</DOCNO>
+            	<TEXT>QUESTIONS: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_9</DOCNO>
+            	<TEXT>I use the setup below for my logs, but every time I make a print, I get duplicate entries in my log (and a blank line).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_10</DOCNO>
+            	<TEXT>Can anyone explain why this happens?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_11</DOCNO>
+            	<TEXT>It would be nice to figure out a better setup for the logging, so that the format statement includes the proper module name when I redirect a print command through logging.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_12</DOCNO>
+            	<TEXT>My use of this Tee(object) class seems to break things occasionally.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_13</DOCNO>
+            	<TEXT>See supporting information section below.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_14</DOCNO>
+            	<TEXT>Edit (08-13-13 5:13 PM EST): BONUS QUESTION: 4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_15</DOCNO>
+            	<TEXT>When I call the class Tee, either by doing `whatever_variable = Tee()` or just `Tee()` without setting it equal to a name, it changes the behavior of print outside the class.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_16</DOCNO>
+            	<TEXT>Can anyone explain how this works?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_1_17</DOCNO>
+            	<TEXT>Permalink to my comment where I originally posed the question: http://www.reddit.com/r/learnpython/comments/1kaduo/python_logging_module_for_print_statements/cbn3ctt</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_2_0</DOCNO>
+            	<TEXT>[Meta] Question on breeding Fletchinder for Flame Body</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_2_1</DOCNO>
+            	<TEXT>So it may be excessive, but I want my Fletchinder (for Flame Body and Fly) to have perfect IVs and nature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_2_2</DOCNO>
+            	<TEXT>Goal: Fletchinder with perfect IVs, Adamant, Flame Body I have an Adamant Fletchling with Gale Wing I could breed with my 6 perfect IV ditto.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_2_3</DOCNO>
+            	<TEXT>Will he learn Flame Body when I level him up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_2_4</DOCNO>
+            	<TEXT>Looks like I will be hanging out in Lumiose for awhile... http://i.imgur.com/RDA72VQ.jpg</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_0</DOCNO>
+            	<TEXT>[Meta] Question on statistics when passing down abilities</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_1</DOCNO>
+            	<TEXT>I numbered my questions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_2</DOCNO>
+            	<TEXT>Thank you in advance for your answers!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_3</DOCNO>
+            	<TEXT>Bulbapedia says, "In Generation V, female Pokmon with Hidden Abilities have a 60% chance of passing on the Hidden Ability to their offspring when bred with a male Pokmon from the same Egg Group."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_4</DOCNO>
+            	<TEXT>Also from Bulbapedia, for generation V, when the female breeds with a Ditto "there is an 80% chance that the Ability slot of the female will be passed to the baby."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_5</DOCNO>
+            	<TEXT>Is this 60% chance for the same egg group the same in Gen VI?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_6</DOCNO>
+            	<TEXT>What percent does a female have to pass down a regular ability (not a hidden ability) in Gen V for same egg group breeding?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_7</DOCNO>
+            	<TEXT>Is this percent the same in Gen VI?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_8</DOCNO>
+            	<TEXT>What percent does a male have to pass down his hidden ability in Gen V for same egg group breeding?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_9</DOCNO>
+            	<TEXT>What if it's a regular ability?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_10</DOCNO>
+            	<TEXT>Is this the same in Gen VI? **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_11</DOCNO>
+            	<TEXT>EDIT:** This question seems to be confusing people.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_12</DOCNO>
+            	<TEXT>Someone breeds a male Abra with Synchronize and a female Abra with Inner Focus.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_13</DOCNO>
+            	<TEXT>What are the probabilities that the child will have Synchronize?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_14</DOCNO>
+            	<TEXT>Inner Focus?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_15</DOCNO>
+            	<TEXT>What if the male Abra has Magic Guard?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_16</DOCNO>
+            	<TEXT>What if the female has Magic Guard?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_17</DOCNO>
+            	<TEXT>Do females still have an 80% chance to pass down abilities with Ditto breeding in Gen VI?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_18</DOCNO>
+            	<TEXT>What percent does a male pass on his ability when breeding with a Ditto in Gen V?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_19</DOCNO>
+            	<TEXT>Is this the same in Gen VI?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_20</DOCNO>
+            	<TEXT>Here are the answers I have compiled so far (01/31/14 6:45 PM EST).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_21</DOCNO>
+            	<TEXT>These answers should now all apply to both Gen V and VI.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_22</DOCNO>
+            	<TEXT>Females have a 60% chance to pass down a HA with same egg group breeding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_23</DOCNO>
+            	<TEXT>Females have an 80% chance to pass down a regular ability with same egg group breeding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_24</DOCNO>
+            	<TEXT>Males never influence the abilities of the child through same egg group breeding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_25</DOCNO>
+            	<TEXT>Females still have the same statistics as in answer 1) and 2) (same egg group breeding) when they breed with Dittos.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_26</DOCNO>
+            	<TEXT>Males can only pass down HA if they breed with Ditto.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_27</DOCNO>
+            	<TEXT>This is presumably a 60% chance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_3_28</DOCNO>
+            	<TEXT>It is unconfirmed whether males pass down regular abilities with an 80% chance when breeding with Ditto.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_0</DOCNO>
+            	<TEXT>subject1040's reference</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_1</DOCNO>
+            	<TEXT>* IGN: Eric * FC: 4055-4626-0656 * Timezone: EST (UTC-5) Trades completed: 3 normal trades Normal trades: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_2</DOCNO>
+            	<TEXT>Traded a 6 IV Timid Froakie for a 6 IV 31/31/31/31/31/0 Honedge. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_3</DOCNO>
+            	<TEXT>Proof.](http://www.reddit.com/r/pokemontrades/comments/1xp3lj/daily_standard_trade_thread_for_12_february_2014/cfdpd2v) 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_4</DOCNO>
+            	<TEXT>Traded a Calm, Naive, and Hasty Synchronize Pokemon for a 5 IV Perfect Snorlax. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_5</DOCNO>
+            	<TEXT>Proof.](http://www.reddit.com/r/pokemontrades/comments/1zc6w7/daily_standard_trade_thread_for_02_march_2014/cfsp8ys) 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_6</DOCNO>
+            	<TEXT>Traded a 2 Quiet Honedge with 31/x/31/31/31/0 and 31/x/31/31/31/31 for a Bold 31/x/31/31/31/31 Rotom. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_4_7</DOCNO>
+            	<TEXT>Proof.](http://www.reddit.com/r/pokemontrades/comments/1zilbn/daily_standard_trade_thread_for_04_march_2014/cfu6q26) Shiny trades: None Event trades: None [Here](https://docs.google.com/spreadsheet/ccc?key=0AmwPZEoce2B3dHpHQWtuMUh0bUtPQnh5SmgxUE5SV1E amp;usp=sharing) is my Google Doc where I keep track of what I have and what I am looking for (make sure to check the various sheets).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_5_0</DOCNO>
+            	<TEXT>[Here's](https://docs.google.com/spreadsheet/ccc?key=0AmwPZEoce2B3dGNXRDlVVVgzNjhWYnNYWHpOQzg2UWc amp;usp=sharing) what I have.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_5_1</DOCNO>
+            	<TEXT>I am interested in: * Relaxed Iron Barbs Ferroseed 31/31/31/x/31/0 with Spikes, Leech Seed, Stealth Rock * Jolly Marvel Scale Dratini 31/31/31/x/31/31 with Iron Tail, Dragon Dance, Extreme Speed, Aqua Jet</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_6_0</DOCNO>
+            	<TEXT>No worries, thanks anyway.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_7_0</DOCNO>
+            	<TEXT>[Here](https://docs.google.com/spreadsheet/ccc?key=0AmwPZEoce2B3dGNXRDlVVVgzNjhWYnNYWHpOQzg2UWc amp;usp=sharing) is a link to my spread sheet containing all I have and am looking for.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_7_1</DOCNO>
+            	<TEXT>Highlights: FT: * 6 IV Froakie * 6 IV Smeargle * 5 IV Perfect Bold Bulbasaur LF: * Dusclops Bold Pressure 31/x/31/31/31/31 * Ferrothorn Relaxed Iron Barbs 31/31/31/31/31/0 with Spikes * Landorous Sheer Force with varying Natures and IVs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_8_0</DOCNO>
+            	<TEXT>Looks like it was fun to make!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_9_0</DOCNO>
+            	<TEXT>[Here](https://docs.google.com/spreadsheet/ccc?key=0AmwPZEoce2B3dHpHQWtuMUh0bUtPQnh5SmgxUE5SV1E amp;usp=sharing) is a Google spread sheet with details on what I have and what I'm looking for.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_9_1</DOCNO>
+            	<TEXT>Highlights: FT: * 6 IV Protean Timid Froakie * 6 IV No Guard Quiet Honedge (31 Spe) * 6 IV Technician Adamant Smeargle * 5 IV Perfect Overgrow Bold Venusaur (EVs 252 HP / 252 Def / 4 SpD) * 5 IV Perfect Overgrow Bold Bulbasaur (with Giga Drain) * 5 IV Perfect Blaze Modest Charizard (with Bite, Dragon Dance, Flare Blitz, Outrage) * 5 IV Perfect Marvel Scale Adamant Dratini * 5 IV Perfect Levitate Timid Ghastly LF: * 5 IV Perfect Landorous (Adamant / Jolly / Modest / Timid) * 5 IV Perfect Bold Rotom * 5 IV Perfect Staryu / Starmie * 5 IV Perfect Yamask / Cofagrigus (Bold or Quiet) * Any competitive legendary</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_10_0</DOCNO>
+            	<TEXT>It does not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_10_1</DOCNO>
+            	<TEXT>I have a 6 IV Ditto and a 6 IV Perfect Honedge with 0 Speed (that I am not willing to trade), but breeding more of the 6 IV Honedge (0 Spe) is soooo hard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_10_2</DOCNO>
+            	<TEXT>Or I am very unlucky.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_11_0</DOCNO>
+            	<TEXT>I will trade 'em all if the Snorlax is Careful or Adamant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_11_1</DOCNO>
+            	<TEXT>It only takes me a bit to churn out more Synchronizers of the same nature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_11_2</DOCNO>
+            	<TEXT>If the Snorlax isn't Careful or Adamant, I'll still l do it for ya later this week if you want.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_11_3</DOCNO>
+            	<TEXT>I am just getting slammed with work right now, and I don't want to spend time breeding if I can help it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_12_0</DOCNO>
+            	<TEXT>I'm adding your FC now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_12_1</DOCNO>
+            	<TEXT>Give me an hour or so.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_12_2</DOCNO>
+            	<TEXT>I'll breed em up as I'm coding, and I'll reply in this thread once I got 'em.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_12_3</DOCNO>
+            	<TEXT>Just to confirm: That's 2 Hasty Synchronizers, 2 Naive Synchronizers, and 1 Calm Synchronizer for a 5 IV Adamant Snorlax?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_13_0</DOCNO>
+            	<TEXT>My FC is at the the top of my spread sheet on all sheets except for Synchronizers (which I never expected to trade).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_13_1</DOCNO>
+            	<TEXT>But here it is: FC: 4055-4626-0656 IGN: Eric I ended up with 1 Naive, 2 Hasty, and 2 Calm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_14_0</DOCNO>
+            	<TEXT>Okay I got them ready.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_14_1</DOCNO>
+            	<TEXT>Going online as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_15_0</DOCNO>
+            	<TEXT>Thank you as well!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_15_1</DOCNO>
+            	<TEXT>Could you please post on my [reference page](http://www.reddit.com/r/poketradereferences/comments/1xrfr6/subject1040s_reference/)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_15_2</DOCNO>
+            	<TEXT>I would gladly give you a reference on your page too if you'd like.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_15_3</DOCNO>
+            	<TEXT>Thanks again!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_16_0</DOCNO>
+            	<TEXT>[Here](https://docs.google.com/spreadsheet/ccc?key=0AmwPZEoce2B3dHpHQWtuMUh0bUtPQnh5SmgxUE5SV1E amp;usp=sharing) is a Google spread sheet with details on what I have and what I'm looking for.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_16_1</DOCNO>
+            	<TEXT>Highlights: FT: * 6 IV Protean Timid Froakie * 6 IV No Guard Quiet Honedge (31 Spe) * 6 IV Technician Adamant Smeargle * 5 IV Perfect Overgrow Bold Venusaur (EVs 252 HP / 252 Def / 4 SpD) * 5 IV Perfect Overgrow Bold Bulbasaur (with Giga Drain) * 5 IV Perfect Blaze Modest Charizard (with Bite, Dragon Dance, Flare Blitz, Outrage) * 5 IV Perfect Marvel Scale Adamant Dratini * 5 IV Perfect Levitate Timid Ghastly LF: * 5 IV Perfect Bold Rotom * 5 IV Perfect Staryu / Starmie * 5 IV Perfect Yamask / Cofagrigus (Bold or Quiet) * Any competitive legendary</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_17_0</DOCNO>
+            	<TEXT>I am indeed interested.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_17_1</DOCNO>
+            	<TEXT>Perhaps you could use one of my 5 IVs in exchange?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_17_2</DOCNO>
+            	<TEXT>I also could breed you a Modest 5 IV Perfect Rotom fairly easily.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_18_0</DOCNO>
+            	<TEXT>The 5 IV Honedge's that I have are Quiet 31/x/31/31/31/31 or Quiet 31/x/31/31/31/31/0.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_18_1</DOCNO>
+            	<TEXT>I can give you both actually if you want.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_18_2</DOCNO>
+            	<TEXT>Here's my FC: 4055-4626-0656.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_19_0</DOCNO>
+            	<TEXT>I am volunteering sometime in the next couple of hours, but if I will for sure be one this evening.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_21_0</DOCNO>
+            	<TEXT>If you have it, I'm ready, but otherwise tomorrow is fine as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_22_0</DOCNO>
+            	<TEXT>[Here](https://docs.google.com/spreadsheet/ccc?key=0AmwPZEoce2B3dHpHQWtuMUh0bUtPQnh5SmgxUE5SV1E amp;usp=sharing) is a Google spread sheet with details on what I have and what I'm looking for.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_22_1</DOCNO>
+            	<TEXT>Highlights: FT: * 6 IV Protean Timid Froakie * 6 IV No Guard Quiet Honedge (31 Spe) * 6 IV Technician Adamant Smeargle * 5 IV Perfect Overgrow Bold Venusaur (EVs 252 HP / 252 Def / 4 SpD) * 5 IV Perfect Overgrow Bold Bulbasaur (with Giga Drain) * 5 IV Perfect Blaze Modest Charizard (with Bite, Dragon Dance, Flare Blitz, Outrage) * 5 IV Perfect Marvel Scale Adamant Dratini * 5 IV Perfect Levitate Timid Ghastly LF: * 5 IV Perfect Bold Rotom * 5 IV Perfect Staryu / Starmie * 5 IV Perfect Yamask / Cofagrigus (Bold or Quiet) * Any competitive legendary</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_23_0</DOCNO>
+            	<TEXT>Does 8 PM EST work?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_24_0</DOCNO>
+            	<TEXT>Well I may be home from work as early as 6 PM EST, but that is the soonest I could possibly trade.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_24_1</DOCNO>
+            	<TEXT>I guess there is always the weekend, if you're still interested then.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_25_0</DOCNO>
+            	<TEXT>Fine with me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_25_1</DOCNO>
+            	<TEXT>I'll get in touch then.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_26_0</DOCNO>
+            	<TEXT>Hello there!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_26_1</DOCNO>
+            	<TEXT>My FC: 4055-4626-0656 IGN: Eric.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_26_2</DOCNO>
+            	<TEXT>I just added you in case I see you online.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_27_0</DOCNO>
+            	<TEXT>[Here](https://docs.google.com/spreadsheet/ccc?key=0AmwPZEoce2B3dHpHQWtuMUh0bUtPQnh5SmgxUE5SV1E amp;usp=sharing) is a Google spread sheet with details on what I have and what I'm looking for.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_27_1</DOCNO>
+            	<TEXT>Highlights: FT: * 6 IV Protean Timid Froakie * 6 IV No Guard Quiet Honedge (31 Spe) * 6 IV Technician Adamant Smeargle * 5 IV Perfect Overgrow Bold Venusaur (EVs 252 HP / 252 Def / 4 SpD) * 5 IV Perfect Overgrow Bold Bulbasaur (with Giga Drain) * 5 IV Perfect Blaze Modest Charizard (with Bite, Dragon Dance, Flare Blitz, Outrage) * 5 IV Perfect Marvel Scale Adamant Dratini * 5 IV Perfect Levitate Timid Ghastly LF: * 5 IV Perfect Bold Rotom * 5 IV Perfect Staryu / Starmie * 5 IV Perfect Yamask / Cofagrigus (Bold or Quiet) * Any competitive legendary</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_28_0</DOCNO>
+            	<TEXT>I am online now with the two Quiet Honedge 31/x/31/31/31/31 and 31/x/31/31/31/31/0.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_29_0</DOCNO>
+            	<TEXT>I don't see you yet...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_30_0</DOCNO>
+            	<TEXT>Could you please post on my [reference page](http://www.reddit.com/r/poketradereferences/comments/1xrfr6/subject1040s_reference/)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_30_1</DOCNO>
+            	<TEXT>I will post on yours too if you'd like!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_31_0</DOCNO>
+            	<TEXT>I wish Notre Dame did this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_32_0</DOCNO>
+            	<TEXT>Linux users: HS stop working with today's (5/13) patch?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_32_1</DOCNO>
+            	<TEXT>I have been playing Hearthstone on Ubuntu 12.04.4 LTS using the tutorial [here](http://news.softpedia.com/news/How-to-Play-Blizzard-s-Hearthstone-Heroes-of-Warcraft-on-Linux-424410.shtml).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_32_2</DOCNO>
+            	<TEXT>However, after today's patch, this method seems to have stopped working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_32_3</DOCNO>
+            	<TEXT>Are any other Linux users experiencing this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_0</DOCNO>
+            	<TEXT>I'm Eric and I'm from good ol' Grand Rapids, Michigan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_1</DOCNO>
+            	<TEXT>Right now I'm living in South Bend as a graduate student studying theoretical chemistry at the University of Notre Dame.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_2</DOCNO>
+            	<TEXT>I'll be playing Destiny on the PS3 next week, but will upgrade to the PS4 sometime in the next couple months.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_3</DOCNO>
+            	<TEXT>Not sure if I'll be more PvP or PvE oriented yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_4</DOCNO>
+            	<TEXT>I played Halo with /u/DastardlyDanishh for awhile, but never at his level.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_5</DOCNO>
+            	<TEXT>That kid is nuts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_6</DOCNO>
+            	<TEXT>My competitive gaming history goes all the way back to Wolfenstein: Enemy Territory, SSBM, and currently DotA 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_7</DOCNO>
+            	<TEXT>MMO experience started with vanilla WoW, and I played until Cataclysm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_8</DOCNO>
+            	<TEXT>Led some raids back in the vanilla days.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_9</DOCNO>
+            	<TEXT>Right now I play a Scholar in FFXIV on the server Brynhildr.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_33_10</DOCNO>
+            	<TEXT>Oh yea, and seeing as there are several Ice and Fire fans here, I'm only partially through A Feast of Crows (reading them before watching the series), so don't spoil anything for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_0</DOCNO>
+            	<TEXT>How to Farm the Summoning Pit</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_1</DOCNO>
+            	<TEXT>Sadly, it seems like most of my pick up groups are really awful at the Summoning Pit, so here is some advice on how to survive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_2</DOCNO>
+            	<TEXT>Keep the map clear of dangers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_3</DOCNO>
+            	<TEXT>Knights and Wizards have to die ASAP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_4</DOCNO>
+            	<TEXT>Stay far apart from your other members of your fire team.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_5</DOCNO>
+            	<TEXT>Every now and then spray some bullets at the boss while you're constantly clearing the room.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_6</DOCNO>
+            	<TEXT>If the boss is getting too close to a buddy, be sure to shoot the boss to get him walking the other direction.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_7</DOCNO>
+            	<TEXT>It's usually better to leave teammates dead than risk running into the fire to revive them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_8</DOCNO>
+            	<TEXT>Currently, the room is glitched and many enemies will continue attacking their dead body anyway, leaving the remaining members more space to do whatever they have to do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_9</DOCNO>
+            	<TEXT>Did I mention don't group up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_10</DOCNO>
+            	<TEXT>Follow these rules and you'll enjoy all the easy blues you ever wanted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_11</DOCNO>
+            	<TEXT>ez game Edit: As /u/conundrumx pointed out, definitely do not use the entrance hallway as a choke point!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_12</DOCNO>
+            	<TEXT>Not only does it cause shriekers to spawn on top of you, it does some weird, glitchy things with the other spawns and the boss.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_13</DOCNO>
+            	<TEXT>I have noticed that it makes the boss break out of his chains sooner than usual and forces more adds to spawn.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_14</DOCNO>
+            	<TEXT>Also, it seems that eventually the adds eventually stop coming after killing them off for several waves. **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_34_15</DOCNO>
+            	<TEXT>Can anyone else confirm this?**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_35_0</DOCNO>
+            	<TEXT>One of my elementary school teachers used to give the students who did really well on tests a pack of Pokemon cards.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_35_1</DOCNO>
+            	<TEXT>An argument broke out when one student opened a holographic Charizard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_35_2</DOCNO>
+            	<TEXT>That same day he got beaten up and the card was stolen during recess.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_35_3</DOCNO>
+            	<TEXT>Banned Pokemon cards soon after.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_36_0</DOCNO>
+            	<TEXT>That is one possibility that might even be true for a few people.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_36_1</DOCNO>
+            	<TEXT>OR they will get pwned for the 1st 2-4 games because they can't follow their instincts, loose interest because of the cryptic leveling system, and go back to playing LoL, DotA2, HoN, etc.,</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_36_2</DOCNO>
+            	<TEXT>which don't have such requirements.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_37_0</DOCNO>
+            	<TEXT> gt; Imagine getting this game when it is finally released and having to go through talent gating!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_37_1</DOCNO>
+            	<TEXT>Yea, it sounds awful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_38_0</DOCNO>
+            	<TEXT>You can see the skills if you go to the Blizz shop and use their try out character mode.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_38_1</DOCNO>
+            	<TEXT>Still, I'd rather not have to go through with that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_39_0</DOCNO>
+            	<TEXT>Yes, yes, and yes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_40_0</DOCNO>
+            	<TEXT>Time is money.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_40_1</DOCNO>
+            	<TEXT>Practice mode is ultra boring.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_0</DOCNO>
+            	<TEXT>What amiibo figure would you like to see in the future?:**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_1</DOCNO>
+            	<TEXT>Zero Suit Samus **2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_2</DOCNO>
+            	<TEXT>What other types of amiibo functionality do you want?:**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_3</DOCNO>
+            	<TEXT>Free virtual console game?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_4</DOCNO>
+            	<TEXT>Ability to use Amiibo as a memory card for game saves! **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_5</DOCNO>
+            	<TEXT>Thoughts/Suggestions for /r/amiibo (if any):** Designate tags for people to use on their post.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_6</DOCNO>
+            	<TEXT>Like painted or modified amiibos would be [custom] or thoughts on amiibo capabilities would be [discussion].</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_7</DOCNO>
+            	<TEXT>Something like that would make searching easier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_41_8</DOCNO>
+            	<TEXT>Also add a button on the right side to filter for a specific tag.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_0</DOCNO>
+            	<TEXT>Transferring Roth IRA</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_1</DOCNO>
+            	<TEXT>I'm 25 and recently started my Roth IRA this May.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_2</DOCNO>
+            	<TEXT>I currently make 30K a year, but I can still get close to maxing out my Roth IRA each year because my cost of living is quite low.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_3</DOCNO>
+            	<TEXT>I wasn't sure where to start investing, but my father set me up with an American Funds account and adviser.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_4</DOCNO>
+            	<TEXT>Links to the funds below: https://www.americanfunds.com/individual/investments/fund/AIVSX https://www.americanfunds.com/individual/investments/fund/ANEFX https://www.americanfunds.com/individual/investments/fund/CWBFX https://www.americanfunds.com/individual/investments/fund/AGTHX While looking these over, it seems that the fees are rather high.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_5</DOCNO>
+            	<TEXT>Would anyone else agree with that statement?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_6</DOCNO>
+            	<TEXT>Instead of dumping more money into American Funds, I am strongly considering jumping ship and switching over to a Vanguard retirement fund, probably VFFVX: https://personal.vanguard.com/us/funds/snapshot?FundId=1487 amp;FundIntExt=INT I'm not sure if I should go all in with that retirement fund, or maybe add in a few other options Vanguard has.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_7</DOCNO>
+            	<TEXT>Does anyone have advice?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_8</DOCNO>
+            	<TEXT>Also, I'm not sure how transferring my Roth IRA between companies works, and I'm scared it's going to be a challenge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_9</DOCNO>
+            	<TEXT>Does anyone have advice or experience with moving your Roth IRA to a different company (or in this case, Vanguard)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_10</DOCNO>
+            	<TEXT>EDIT: As another thought, is it possible to split my Roth IRA between Vanguard and American Funds?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_42_11</DOCNO>
+            	<TEXT>Can I leave my American Funds account as is, and then also start investing into Vanguard for my Roth IRA?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_43_0</DOCNO>
+            	<TEXT>Thank you for that link!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_44_0</DOCNO>
+            	<TEXT>Do you live near LA?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_44_1</DOCNO>
+            	<TEXT>I have been a Club Nintendo Platinum member every year for awhile now, and I haven't heard anything about this or the Ambassador version of the New 3DS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_0</DOCNO>
+            	<TEXT>Heating repeatedly breaks in my apartment</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_1</DOCNO>
+            	<TEXT>Currently, the temperature in my apartment is 55 F, but it has been below 50 F during the past few days, and I can do nothing to raise the temperature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_2</DOCNO>
+            	<TEXT>I live in South Bend, Indiana.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_3</DOCNO>
+            	<TEXT>My apartment's maintenance has come through multiple times now to fix my heating, but the situation never improves.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_4</DOCNO>
+            	<TEXT>I believe that the issue is not the heating unit in my apartment, but the entire heating system that runs through our 300+ apartment complex.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_5</DOCNO>
+            	<TEXT>We happen to live in a particularly poorly insulated corner of the complex, which exaggerates our problems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_6</DOCNO>
+            	<TEXT>Right now, we are using space heaters to heat the areas we frequently use (near our bed at night, near my desk during the day).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_7</DOCNO>
+            	<TEXT>However, this is causing our electricity bill to cost ridiculous amounts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_8</DOCNO>
+            	<TEXT>I tried searching online for city laws that enforce apartments to be able to provide a minimum temperature, but I can't find anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_9</DOCNO>
+            	<TEXT>Can anyone help me?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_45_10</DOCNO>
+            	<TEXT>Is there some way I persuade the apartment complex's management to monetarily compensate me for my ridiculous electricity bills, which are a direct result of them being unable to adequately heat my apartment?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_46_0</DOCNO>
+            	<TEXT>Thank you for the advice!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_46_1</DOCNO>
+            	<TEXT>I've reported the problem 3x times now in the past 2 weeks (and the same problem last winter).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_46_2</DOCNO>
+            	<TEXT>I'm going to the County Building today to ask around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_46_3</DOCNO>
+            	<TEXT>If I can talk to my management knowing the heating requirements in this city, I think my case would be much stronger for them to give me a break on my rent this month or at least convince them to prioritize my problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_46_4</DOCNO>
+            	<TEXT>Thanks again!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_47_0</DOCNO>
+            	<TEXT>I literally just got the code in my email, so yes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_48_0</DOCNO>
+            	<TEXT>ND grad student here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_48_1</DOCNO>
+            	<TEXT>Fiddler's Hearth is the best pub around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_48_2</DOCNO>
+            	<TEXT>Excellent food too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_48_3</DOCNO>
+            	<TEXT>Located downtown South Bend.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_49_0</DOCNO>
+            	<TEXT>If that's not ND official enough for you, I don't know what is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_50_0</DOCNO>
+            	<TEXT>I forgot all about Evil Czech.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_50_1</DOCNO>
+            	<TEXT>Check that out too!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_50_2</DOCNO>
+            	<TEXT>Chucky is a pretty good DIPA if you're into IPA's.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_51_0</DOCNO>
+            	<TEXT>I think this is the funniest edit yet.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_52_0</DOCNO>
+            	<TEXT>I have 95 coins to go, and I am surely going to get to Platinum via whatever it takes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_53_0</DOCNO>
+            	<TEXT>I don't want a Toon Link card, I want a Toon Link figurine!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_54_0</DOCNO>
+            	<TEXT>How is difficulty adjusted?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_54_1</DOCNO>
+            	<TEXT>If I do a Gathering Hall quest solo, is it easier than if 4 people were with me?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_54_2</DOCNO>
+            	<TEXT>What if I have 3 vs. 4 people?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_55_0</DOCNO>
+            	<TEXT>Thank you for such a fast response!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_56_0</DOCNO>
+            	<TEXT>Seriously, you guys are great!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_56_1</DOCNO>
+            	<TEXT>Thanks for responding so fast!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_57_0</DOCNO>
+            	<TEXT>Yea, the coins went away about an hour after I ordered, so I deleted my post.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_57_1</DOCNO>
+            	<TEXT>Sure hope I get a confirmation email for the puzzle, but from what I can tell on this subreddit, it also appears that the timing for the confirmation emails is strange as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_58_0</DOCNO>
+            	<TEXT>GCN was indeed an outsider because they had many first party and even third party titles that were GCN exclusive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_58_1</DOCNO>
+            	<TEXT>Although, I think Xbox stood out the most for its revolutionary online support.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_58_2</DOCNO>
+            	<TEXT>No idea about the GCN ports.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_58_3</DOCNO>
+            	<TEXT>The GCN was amazing as far as the games it provided that were exclusive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_58_4</DOCNO>
+            	<TEXT>In that sense, the situation relying upon the software is very similar to the Wii U.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_59_0</DOCNO>
+            	<TEXT>I feel like pink should be closer to red, or at least before purple.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_59_1</DOCNO>
+            	<TEXT>Then again, trying to model all [colors](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/PlanckianLocus.png/250px-PlanckianLocus.png) isn't possible with a monochromatic spectrum, so problems like this can't really be avoided.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_59_2</DOCNO>
+            	<TEXT>I guess we'll just have to live with his subjective way of translating the color gamut.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_60_0</DOCNO>
+            	<TEXT>Mario Party 10 + Mario amiibo Bundle back on Amazon</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_61_0</DOCNO>
+            	<TEXT>That's good info for everyone to know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_61_1</DOCNO>
+            	<TEXT>I was just happy because I have Amazon Prime and no intentions of joining GCU.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_0</DOCNO>
+            	<TEXT>Advice on big data--currently running out of memory</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_1</DOCNO>
+            	<TEXT>I am working on some code for optimizing [molecular mechanics](https://en.wikipedia.org/wiki/Molecular_mechanics) (MM) parameters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_2</DOCNO>
+            	<TEXT>I have a project going on [GitHub](https://github.com/ericchansen/q2mm) (my first time using Git, be nice).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_3</DOCNO>
+            	<TEXT>Basic idea of how it works: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_4</DOCNO>
+            	<TEXT>I read a bunch of reference data generated from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) (QM) calculations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_5</DOCNO>
+            	<TEXT>Sometimes, this has as few as ten data points, but other times it has half a million data points.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_6</DOCNO>
+            	<TEXT>Each of those data points has some floating point value, but also other information (filename that the data originated from, etc.).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_7</DOCNO>
+            	<TEXT>Basically, each data point is really a bunch of floats, integers, and strings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_8</DOCNO>
+            	<TEXT>I calculate the same types of data, but this time using the MM force field (ex.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_9</DOCNO>
+            	<TEXT>I would now have the QM energy of molecule A and MM energy of molecule A).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_10</DOCNO>
+            	<TEXT>I compare the similarity of the two data sets using an arbitrary penalty function.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_11</DOCNO>
+            	<TEXT>This is where all that other information stored with the data points matters.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_12</DOCNO>
+            	<TEXT>I can't just use two lists of data (one QM and one MM) because there's no guarantee that the data points in those lists are in the right order.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_13</DOCNO>
+            	<TEXT>I have to first sort them based on their other information (source file, molecular conformation, etc.)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_14</DOCNO>
+            	<TEXT>before I can compare them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_15</DOCNO>
+            	<TEXT>Generate a new force field, and repeat steps 2 and 3 until some convergence criterion is met.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_16</DOCNO>
+            	<TEXT>In the act of generating a new force field, I have to do numerical central differentiation, so I end up generating up to a couple hundred MM force fields, each with their own list of data (again, these can be up to a million data points each, and they aren't just simple floats).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_17</DOCNO>
+            	<TEXT>I am trying to keep my memory usage below 2 GB.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_18</DOCNO>
+            	<TEXT>That hasn't been a problem until recently when I tried doing central differentiation on about ~ 200 parameters at once, which lead to a memory overflow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_19</DOCNO>
+            	<TEXT>Currently, each data point is actually an instance of this class: class Datum(object): ''' Class for a reference or calculated data point. ''' __</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_20</DOCNO>
+            	<TEXT>slots__ = ['_name', 'value', 'com', 'dtype', 'source', 'group', 'i', 'j', 'weight'] def __init__(self, value, com, dtype, source, group=None, i=None, j=None, weight=None): self._name = None self.value = value self.com = com self.dtype = dtype self.source = source self.group = group self.i = i self.j = j self.weight = weight def __repr__(self): return ('{}({})'.format(self.dtype, self.value)) @property def name(self): if self._name is None: self._name = '{}_{}_{}_{}'.format( self.com, name_from_source(self.source), name_from_index(self.i), name_from_index(self.j)) return self._name However, I see now that this clearly is inefficient as far as memory goes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_21</DOCNO>
+            	<TEXT>Does anyone have recommendations for how I should handle my data?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_22</DOCNO>
+            	<TEXT>Edit 3-24-2015 5:26 PM EST: I doubt that my class can honestly be improved much.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_23</DOCNO>
+            	<TEXT>I was more wondering if there was a better data architecture to use.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_24</DOCNO>
+            	<TEXT>I have heard of things like Pandas, PyTables, sqlite3, etc.,</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_25</DOCNO>
+            	<TEXT>but I have no idea what is suited for my task at hand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_26</DOCNO>
+            	<TEXT>Oh yes, and most of Datum's properties must be mutable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_27</DOCNO>
+            	<TEXT>Edit 3-24-2015 7:00 PM EST: My data comes from the output of [MacroModel](https://www.schrodinger.com/MacroModel/), [Jaguar](https://www.schrodinger.com/Jaguar/), various other Schrodinger applications, [Gaussian](http://www.gaussian.com/), [Tinker](http://dasher.wustl.edu/tinker/), etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_28</DOCNO>
+            	<TEXT>In other words, it is not neatly stored in some SQL database, CSV, or anything like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_29</DOCNO>
+            	<TEXT>My Python code parses through a myriad of different file types, particular to many different programs, and tries to assimilate all that data into instances of Datum.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_30</DOCNO>
+            	<TEXT>Edit 3-24-2015 7:41 PM EST: Anyone have a favorite SQLite/sqlite3 or Pandas tutorial?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_31</DOCNO>
+            	<TEXT>Edit 3-25-2015 1:19 PM EST: There seems to be a lot of confusion about the point of my code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_62_32</DOCNO>
+            	<TEXT>Please refer to my [response](https://www.reddit.com/r/learnpython/comments/305u5c/advice_on_big_datacurrently_running_out_of_memory/cpqebl2) to /u/iMightBeACunt and my [response](https://www.reddit.com/r/learnpython/comments/305u5c/advice_on_big_datacurrently_running_out_of_memory/cpqe4x0) to /u/nzwiztek.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_63_0</DOCNO>
+            	<TEXT>I am totally flexible with moving away from anything like my Datum class.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_63_1</DOCNO>
+            	<TEXT>That was just the best idea I had at the time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_63_2</DOCNO>
+            	<TEXT>For example, does anyone know if Pandas, PyTables, sqlite3, etc. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_63_3</DOCNO>
+            	<TEXT>just to name some things I heard of, but don't know how to use or their functionality) could help?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_64_0</DOCNO>
+            	<TEXT>Could a database like SQL handle the relations between data points that I need?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_64_1</DOCNO>
+            	<TEXT>I mean, I really just need to sort a long list containing many instances of the Datum class based upon a few of each instance's properties.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_64_2</DOCNO>
+            	<TEXT>And if so, do you recommend a particular Python library?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_64_3</DOCNO>
+            	<TEXT>Anything in the standard library by chance?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_65_0</DOCNO>
+            	<TEXT>I do like how concrete using a class is versus using a dictionary.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_65_1</DOCNO>
+            	<TEXT>With a class, people can look at Datum, and see all of its possible properties.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_65_2</DOCNO>
+            	<TEXT>Still, I guess I can live without that if a dictionary has performance benefits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_66_0</DOCNO>
+            	<TEXT>As I generate these two lists (QM vs. MM data--literally two lists of Datum instances), the instances get added in semi-random order.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_66_1</DOCNO>
+            	<TEXT>However, they still have the right properties (source, dtype, group, etc.),</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_66_2</DOCNO>
+            	<TEXT>which lets me sort the lists after they have been made, but before I compare the QM vs. MM data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_66_3</DOCNO>
+            	<TEXT>I can be sure that I am not accidentally comparing the length of a CC bond to a CO bond, for example.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_66_4</DOCNO>
+            	<TEXT> gt; But just sorting, then yes, you should be able to just put all the data points into a table in a database and use order by.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_66_5</DOCNO>
+            	<TEXT>Is there a particular module you would recommend?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_67_0</DOCNO>
+            	<TEXT>Do you recommend a particular database or Python module?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_0</DOCNO>
+            	<TEXT>First off, I will definitely try using the sqlite3 module.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_1</DOCNO>
+            	<TEXT>Thank you for that suggestion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_2</DOCNO>
+            	<TEXT>Anyway, I'm not sure what you mean by why must I sort the data here, but I can give you an example if that helps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_3</DOCNO>
+            	<TEXT>Say, the QM and MM lists are composed of ~ 100,000 Datum instances.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_4</DOCNO>
+            	<TEXT>Say that 75,000 of those are energies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_5</DOCNO>
+            	<TEXT>25,000 are for a two dimensional coordinate scan over molecule A, and 25,000 are for a two dimensional coordinate scan over molecule B. The other 25,000 are for a different 2D coordinate scan of molecule A. 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_6</DOCNO>
+            	<TEXT>Convert all the QM energies to relative energies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_7</DOCNO>
+            	<TEXT>I pick out all energies that belong to molecule A. The attribute "group" makes the distinction between A and B, and "source" makes the distinction between the two different coordinate scans on molecule A. 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_8</DOCNO>
+            	<TEXT>Find the minimum energy out of all the energies for molecule A, set it to zero, and adjust all the others energies accordingly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_9</DOCNO>
+            	<TEXT>Same process for B. Each minimum has a particular value for "i" and "j", which correspond to two dihedral angles that describe the geometry at a particular point in the 2D scan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_10</DOCNO>
+            	<TEXT>The corresponding MM data point with those same dihedral angles must be set to zero.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_11</DOCNO>
+            	<TEXT>All other energies must then be made relative to that zero (even if they go negative).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_12</DOCNO>
+            	<TEXT>Evaluate the [objective function](https://en.wikipedia.org/wiki/Loss_function).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_13</DOCNO>
+            	<TEXT>Evaluating requires both the MM and QM data to be in the same order, because I iteratively evaluate the sum using itertools.izip.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_68_14</DOCNO>
+            	<TEXT>It would be bad, for example, to compare the QM energy of source=A, group=1, i=20, j=30 to source=A, group=2, i=20, j=30.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_0</DOCNO>
+            	<TEXT>Amazing response.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_1</DOCNO>
+            	<TEXT>Looks like I have to learn some Pandas or SQL.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_2</DOCNO>
+            	<TEXT>Anyway, the "streaming" algorithm seems inconvenient because the generation of the MM data is done all at once via external software.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_3</DOCNO>
+            	<TEXT>I merely read the data from the output file.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_4</DOCNO>
+            	<TEXT>To do the suggested streaming method would require me to read and parse (regex and other time consuming stuff like that) very long output files multiple times.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_5</DOCNO>
+            	<TEXT>There are also times where I want the entire data set at once.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_6</DOCNO>
+            	<TEXT>Say for example, I generate a FF that has particularly excellent performance (low objective function value--similar results as the QM data).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_7</DOCNO>
+            	<TEXT>I don't know that it's good until after I have calculated the objective function for perhaps 100 different force fields, but once I know that it's good, I want to be able to manually inspect all the data at once.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_8</DOCNO>
+            	<TEXT>Possibly even make a nice lil' table for a publication or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_69_9</DOCNO>
+            	<TEXT>Anyway, I see where you guys are coming from the with the streaming data idea, but it's not very practical.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_0</DOCNO>
+            	<TEXT>My code is relatively fast--it uses NumPy/SciPy libraries for the heavy lifting--compared to the bottleneck.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_1</DOCNO>
+            	<TEXT>The bottle neck is using external software ([MacroModel](https://www.schrodinger.com/MacroModel/) for example) to actually run MD simulations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_2</DOCNO>
+            	<TEXT>For FF optimization, I have to do short tests on hundreds of FF's, each short test taking anywhere from a few seconds to a minute or two (again, those tests have to be run through external software).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_3</DOCNO>
+            	<TEXT>The whole point of my code is to have a flexible front end for optimizing FF's for whatever MD package you want to use.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_4</DOCNO>
+            	<TEXT>The MD package is where the time consumption comes into play.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_5</DOCNO>
+            	<TEXT>Too bad my code is in the early stages and currently only supports MacroModel FF's... Edit 3-25-2015 1:13 PM EST: Oh, and my code takes anywhere from an hour to about a week to run.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_6</DOCNO>
+            	<TEXT>It is heavily dependent on the number of parameters you are optimizing at once, and the type of data you to optimize to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_7</DOCNO>
+            	<TEXT>Think of it like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_8</DOCNO>
+            	<TEXT>Do you only want to optimize to energies from a QM structure?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_9</DOCNO>
+            	<TEXT>If so, you only need to do a single MM calculation of the energy, which is very fast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_10</DOCNO>
+            	<TEXT>Even for large systems, this takes a second max.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_11</DOCNO>
+            	<TEXT>However, maybe you want to compare the QM Hessian.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_12</DOCNO>
+            	<TEXT>Now you need to do a frequency calculation using MM--much more time consuming.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_13</DOCNO>
+            	<TEXT>Anyway, for each parameter you have, you have to move it up and down during central differentiation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_70_14</DOCNO>
+            	<TEXT>So I guess it takes this long (sorta): (Length of time to do MM calculation to get the data you need for a single FF) x (Number of parameters) x (2 for central differentiation) + (Small, unavoidable time delays and inefficiencies in my code) I guarantee that the last term in that expression is so small compared to the length of time it takes to do the MM calculations using external software, that the last term doesn't matter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_71_0</DOCNO>
+            	<TEXT>I don't run my simulations in Python.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_71_1</DOCNO>
+            	<TEXT>I run my simulations using efficient software developed for parallelization, such as [MacroModel](https://www.schrodinger.com/MacroModel/), [OpenMD](http://openmd.org/), [Tinker](http://dasher.wustl.edu/tinker/), etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_71_2</DOCNO>
+            	<TEXT>The point of my code is to optimize force fields for the external MD programs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_71_3</DOCNO>
+            	<TEXT>Each one usually has a differently formatted force field file, and each MD programs or force field has its own specialties.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_71_4</DOCNO>
+            	<TEXT>You can think of my code as the middle man, enabling you to use any MD program you want, whether or not it has the required parameters (because you are creating them yourself and optimizing them with my code).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_71_5</DOCNO>
+            	<TEXT>That is, as long as you want to use MacroModel because that's all I've had time to support so far lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_72_0</DOCNO>
+            	<TEXT>Does anyone have a link to the original video?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_73_0</DOCNO>
+            	<TEXT>Super awesome artwork!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_73_1</DOCNO>
+            	<TEXT>If only these were 1920 x 1080. :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_74_0</DOCNO>
+            	<TEXT>I will marry you if you make this for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_75_0</DOCNO>
+            	<TEXT>Thanks for that link!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_76_0</DOCNO>
+            	<TEXT>Well, I'm here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_77_0</DOCNO>
+            	<TEXT>Ben Folds sang, but the mayor played all the piano for Steven's Last Night in Town.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_78_0</DOCNO>
+            	<TEXT>This is the most WTF thing I have seen all day.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_79_0</DOCNO>
+            	<TEXT>Working towards a competitive community - Splat TV</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_79_1</DOCNO>
+            	<TEXT>http://www.twitch.tv/splat_tv Various members of [Squidboards](http://squidboards.com/) who are interested in developing a competitive Splatoon community are taking turns hosting on this Twitch channel today!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_79_2</DOCNO>
+            	<TEXT>Come check it out!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_79_3</DOCNO>
+            	<TEXT>There will be various giveaways throughout the day!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_0</DOCNO>
+            	<TEXT>Can anyone explain why copy.deepcopy doesn't work on an instance of my class?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_1</DOCNO>
+            	<TEXT>Here's the class I am trying to copy.deepcopy: class Param(object): ''' Class for a single parameter. _</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_2</DOCNO>
+            	<TEXT>allow_negative - None, True, or False. _</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_3</DOCNO>
+            	<TEXT>step_size - Float used as step size in numerical differentiation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_4</DOCNO>
+            	<TEXT>ptype - One of "ae", "af", "be", "bf", "df", "imp1", "imp2", "sb", or "q". _</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_5</DOCNO>
+            	<TEXT>value - Float, but don't use.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_6</DOCNO>
+            	<TEXT>value - Use this to manually change values. ''' __</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_7</DOCNO>
+            	<TEXT>slots__ = ['_allow_negative', '_step_size', 'ptype', '_value', 'value'] # __slots__ = ['_allow_negative', '_step_size', 'ptype', 'value'] def __init__(self, ptype=None, value=None): self._allow_negative = None self._step_size = None self.ptype = ptype self._value = None self.value = value def __repr__(self): return '{}[{}]({})'.format( self.__class__.__name__, self.ptype, self.value) @property def allow_negative(self): ''' Returns True or False, depending on whether the parameter is allowed to be negative values. '''</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_8</DOCNO>
+            	<TEXT>if self._allow_negative is None: if self.ptype in ['q', 'df']: self._allow_negative = True else: self._allow_negative = False return self._allow_negative @property def step_size(self): ''' Returns a float for the current step size that should be used.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_9</DOCNO>
+            	<TEXT>If _step_size is a string, return float(_step_size) * value.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_10</DOCNO>
+            	<TEXT>If _step_size is a float, simply return that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_11</DOCNO>
+            	<TEXT>Not sure how well the check for a step size of zero works. '''</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_12</DOCNO>
+            	<TEXT>if self._step_size is None: self._step_size = co.STEPS[self.ptype] if self._step_size == 0.:</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_13</DOCNO>
+            	<TEXT>return 0.1 elif isinstance(self._step_size, basestring): # return float(self._step_size) * self._value return float(self._step_size) * self.value else: return self._step_size @property def value(self): return self._value @value.setter def value(self, value): if not self.allow_negative and value  lt; 0.:</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_14</DOCNO>
+            	<TEXT>raise ParameterError( "{} isn't allowed to have a value of {}!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_15</DOCNO>
+            	<TEXT>.format( self, value)) else: self._value = value def check_value(self, value=None): ''' Checks if the current parameter value is allowed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_16</DOCNO>
+            	<TEXT>In the future, expand to include allowed parameter ranges. '''</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_17</DOCNO>
+            	<TEXT>if value is None: # value = self._value value = self.value if not self.allow_negative and value  lt; 0.0: raise ParameterError( "{} isn't allowed to have a value of {}!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_18</DOCNO>
+            	<TEXT>.format( self, value)) And here's what happens: Python 2.7.4 (default, Sep 26 2014, 09:48:31) [GCC 4.4.7 20120313 (Red Hat 4.4.7-4)] on linux2 Type "help", "copyright", "credits" or "license" for more information.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_19</DOCNO>
+            	<TEXT> gt; gt; gt; from copy import deepcopy  gt; gt; gt; from datatypes import Param  gt; gt; gt; a = Param(value=1)  gt; gt; gt; b = deepcopy(a) Traceback (most recent call last): File "
+    stdin", line 1, in 
+    moduleFile "/afs/crc.nd.edu/x86_64_linux/python/2.7.4/lib/python2.7/copy.py", line 190, in deepcopy y = _reconstruct(x, rv, 1, memo) File "/afs/crc.nd.edu/x86_64_linux/python/2.7.4/lib/python2.7/copy.py", line 346, in _reconstruct setattr(y, key, value) File "datatypes.py", line 75, in value if not self.allow_negative and value  lt; 0.:</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1070_80_20</DOCNO>
+            	<TEXT>File "datatypes.py", line 46, in allow_negative if self._allow_negative is None: AttributeError: _allow_negative 
+    </TEXT>
+        </DOC>

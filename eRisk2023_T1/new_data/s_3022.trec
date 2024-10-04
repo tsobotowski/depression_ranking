@@ -1,0 +1,348 @@
+        <DOC>
+            	<DOCNO>s_3022_0_0</DOCNO>
+            	<TEXT>Trouble with VM server, stuck at encrypting then crashes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_1</DOCNO>
+            	<TEXT>Host Machine: Windows 10 i7-8700K @ 3.70GHz and 32GB RAM Virtual Machine: CentOS 7 with 3 cores and 16GB RAM assigned. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_2</DOCNO>
+            	<TEXT>8GB as -Xmx and 1GB as -Xms) Server Created using the Pterodactyl Admin Panel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_3</DOCNO>
+            	<TEXT>Using self-signed certificates and adding an entry to the hosts file with the fake domain.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_4</DOCNO>
+            	<TEXT>Server jar is forge-1.15.2-31.2.33.jar Problem: I can start the server just fine but it gets stuck at "Encrypting" when I try to join and after a while it crashes with the "A single server tick took 60.01 seconds" error.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_5</DOCNO>
+            	<TEXT>It crashes even if I don't do anything, so if I let it be it just crashes and reboots in a loop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_6</DOCNO>
+            	<TEXT>Mods: [https://i.imgur.com/mkPVPsP.png](https://i.imgur.com/mkPVPsP.png) Any idea what could be happening?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_7</DOCNO>
+            	<TEXT> This server is just for me and my friend so I'm hosting it in my own computer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_0_8</DOCNO>
+            	<TEXT> Edit: RAM usage goes up to 7GB out of 8GB and stays there until it crashes and restarts ( not sure if this is new or I just didn't notice before )  Edit2: Crashes even without mods</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_1_0</DOCNO>
+            	<TEXT>You can never go wrong by having one, most people use iptables or firewalld 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_1_1</DOCNO>
+            	<TEXT>it's a program that constantly reads logs to check for malicious activities indicators.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_1_2</DOCNO>
+            	<TEXT>Because root can do anything and you don't need root to run the minecraft server so you don't use it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_1_3</DOCNO>
+            	<TEXT>I don't think you or your players can be affected just by connecting to the minecraft server.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_1_4</DOCNO>
+            	<TEXT>Cloudflare, [AWS](https://www.howtogeek.com/440752/protect-your-home-minecraft-server-from-ddos-attacks-with-aws/) or something like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_1_5</DOCNO>
+            	<TEXT>sudo mysql\_secure\_installation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_3_0</DOCNO>
+            	<TEXT>No one's trying to hack you, there's some people that just like to troll and use the "Send your Neopet" to spam other users. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_3_1</DOCNO>
+            	<TEXT>http://www.neopets.com/sendyourpet.phtml](http://www.neopets.com/sendyourpet.phtml) This has been abused in the past and TNT know about it, they just don't stop it because they are TNT.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_3_2</DOCNO>
+            	<TEXT> Seriously, Neopet's users love to scream "OMG Hax0r!!1!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_3_3</DOCNO>
+            	<TEXT>and "Cookie Grabber!!!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_3_4</DOCNO>
+            	<TEXT>at the drop of a pin.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_4_0</DOCNO>
+            	<TEXT>I ended up restarting the world but I saved a copy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_4_1</DOCNO>
+            	<TEXT>What logs should I keep next time I try?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_0</DOCNO>
+            	<TEXT>Server times out (60.01 seconds a tick)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_1</DOCNO>
+            	<TEXT>I only play with another friend so it's just 2 people in the server.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_2</DOCNO>
+            	<TEXT>My current server is on a VM, 6GBof RAM and 8GB or disk.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_3</DOCNO>
+            	<TEXT>Right now if I set themax-tick-time to 60000 it times out then it restarts, if I set it to -1 it still times out the client connection but it doesn't restart the server.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_4</DOCNO>
+            	<TEXT>The world was created with MC 1.15.2 and forgeforge-1.15.2-31.2.33. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_5</DOCNO>
+            	<TEXT>Here's the debug.log](https://pastebin.com/fLC2pJtf) I've also tried to launch a copy of the world in Single Player, with and without mods, and it gets stuck at 100% when loading the world.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_6</DOCNO>
+            	<TEXT> Edit: Don't know if it'll help but as you can see on the paste it never reaches the:  \[minecraft/ChunkManager\]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved  \[minecraft/ChunkManager\]: ThreadedAnvilChunkStorage (dungeon\_dimension): All chunks are saved  \[minecraft/ChunkManager\]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved   These are the mods in the server, until just yesterday it was working fine but after turning it on this morning it stopped working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_7</DOCNO>
+            	<TEXT>\[1.15.2\]+SecurityCraft+v1.8.19.1.jar 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_8</DOCNO>
+            	<TEXT>AppleSkin-mc1.15.2-forge-1.0.14.jar 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_9</DOCNO>
+            	<TEXT>backpacked-1.4.1-1.15.2.jar 4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_10</DOCNO>
+            	<TEXT>Clumps-5.0.2.4.jar 5.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_11</DOCNO>
+            	<TEXT>CreativeCore\_v2.0.5\_mc1.15.2.jar 6.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_12</DOCNO>
+            	<TEXT>dimdungeons-1.07-forge-1.15.2.jar 7.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_13</DOCNO>
+            	<TEXT>EyesInTheDarkness-1.15.2-0.4.0.jar 8.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_14</DOCNO>
+            	<TEXT>FastWorkbench-1.15.2-3.1.1.jar 9.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_15</DOCNO>
+            	<TEXT>Hwyla-forge-1.10.8-B72\_1.15.2.jar 10.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_16</DOCNO>
+            	<TEXT>jei-1.15.2-6.0.2.12.jar 11.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_17</DOCNO>
+            	<TEXT>journeymap-1.15.2-5.7.0b3.jar 12.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_18</DOCNO>
+            	<TEXT>Netherite1.15.2-0.1.6.jar 13.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_19</DOCNO>
+            	<TEXT>Placebo-1.15.2-3.1.0.jar 14.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_20</DOCNO>
+            	<TEXT>ruins-1.15.2.1.jar 15.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_21</DOCNO>
+            	<TEXT>ToolBelt-1.15.2-1.14.1.jar 16.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_22</DOCNO>
+            	<TEXT>TravelersBackpack-1.15.2-4.0.6.jar 17.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_5_23</DOCNO>
+            	<TEXT>valhelsia\_structures-15.0.3a.jar</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_6_0</DOCNO>
+            	<TEXT>I'll look into timings, my only reason not to use Paper or Spigot is that they don't have the kind of mods I me and my friend want.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_6_1</DOCNO>
+            	<TEXT> Or at least I can't find them easily like on curseforge</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_7_0</DOCNO>
+            	<TEXT>My CPU (i7-8700K) base frequency is 3.7GHz, I created the VM with VirtualBox and gave it 3 cores.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_7_1</DOCNO>
+            	<TEXT>In the VM /proc/cpuinfo gives "cpu MHz: 3696.006" for all 3 cores.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_7_2</DOCNO>
+            	<TEXT>In the host Task Manager gives 4.29 GHz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_8_0</DOCNO>
+            	<TEXT>LAN World with Hamachi VS Minecraft Server with Port Forwarding</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_8_1</DOCNO>
+            	<TEXT>Does anyone know what are the pros and cons of each approach considering that in both cases the world is on the same computer?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_0</DOCNO>
+            	<TEXT>Can't restore Minecraft backup [Linux]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_1</DOCNO>
+            	<TEXT>Just 2:45 hours ago a backup of /op/minecraft/server was done with: rcon "save-off" rcon "save-all" tar -cvpzf /opt/minecraft/backups/server-$(date +%F-%H-%M).tar.gz /opt/minecraft/server rcon "save-on" Now if I start the server the usual 0/5 players shows ??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_2</DOCNO>
+            	<TEXT>and if I try to connect it times out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_3</DOCNO>
+            	<TEXT>In the logs, just when it says that the server and RCON have been started and their ports it should say: [minecraft/ChunkManager]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved [minecraft/ChunkManager]: ThreadedAnvilChunkStorage (dungeon_dimension): All chunks are saved [minecraft/ChunkManager]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved But it never reaches that point.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_4</DOCNO>
+            	<TEXT>If I try to connect it add to the log: [17Aug2020 01:51:56.369] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.fml.network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_5</DOCNO>
+            	<TEXT>FMLHandshakeHandler/FMLHANDSHAKE]: Starting new modded network connection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_6</DOCNO>
+            	<TEXT>Found 24 messages to dispatch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_7</DOCNO>
+            	<TEXT>But that's it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_9_8</DOCNO>
+            	<TEXT> [debug.log](https://pastebin.com/7MRhW4PH)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_10_0</DOCNO>
+            	<TEXT>Did I see Fubuki commenting '88888' on the stream?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_11_0</DOCNO>
+            	<TEXT>I'm curious, what do you think of how John Jackson is handling this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_11_1</DOCNO>
+            	<TEXT>In my opinion he shouldn't publicly disclose this kind of stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_11_2</DOCNO>
+            	<TEXT>It was my understanding that researchers usually privately contacted the company to let them know about bugs and stuff so they can fix stuff, then after everything is fixed the researcher publishes a paper or a blog post explaining his work and how he found what.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_11_3</DOCNO>
+            	<TEXT>I've also seen him tag a news article writer, as if he cares more about clout and publicity than JUST doing the right thing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_11_4</DOCNO>
+            	<TEXT>Same with the screenshots and the posts of "OMG we have the databases, codebase, PII, etc..." Sure, it's as bad as it sounds but if this was a publicly traded company you'd just be economically hurting them and scaring investors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_12_0</DOCNO>
+            	<TEXT>He's already tweeted that he's in contact with the Dev team 2 hours ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_12_1</DOCNO>
+            	<TEXT>While I don't doubt that his intentions are good it does worries me to read "own all their DBs and code" and "we pulled everything, we own everything", pretty sure it's ilegal to download private information like that, even if you are pentesting (more so without permission).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_12_2</DOCNO>
+            	<TEXT>I mean, what if they themselves get hacked?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_12_3</DOCNO>
+            	<TEXT>They would be unintentionally spreading private code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_13_0</DOCNO>
+            	<TEXT>ESL What's the difference between "pulling all the code" and "downloading it"?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_13_1</DOCNO>
+            	<TEXT>Because the first thing that comes to mind is "git pull"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_14_0</DOCNO>
+            	<TEXT>Upgrading from old LCD</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_14_1</DOCNO>
+            	<TEXT>Maximum budget: 500 euros Inches: 43" ( I now have a Sony KDL-40BX400 that takes up 99cm and when I open the door it almost touches it) Usage: Connect the computer via HDMI and watch movies and TV series.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_14_2</DOCNO>
+            	<TEXT>Panel type: I don't care now I have a LCD, any change is good Accessories: None Purchase: Online Amazon.es Extra comments: I would watch TV from a little more than 3 meters away, from the bed, looking up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_14_3</DOCNO>
+            	<TEXT>As I said I have a full HD LCD now, so I'll consider anything an upgrade.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_14_4</DOCNO>
+            	<TEXT>Edit: Simple drawing to show the space I have (Not much).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_14_5</DOCNO>
+            	<TEXT>https://i.imgur.com/kjHuhX6.png</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_15_0</DOCNO>
+            	<TEXT>Looking to switch PSU. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_15_1</DOCNO>
+            	<TEXT>MARS Tacens MP700)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_15_2</DOCNO>
+            	<TEXT>I know it's supposed to be really bad but my father bought it for me when he gifted me my first gaming PC so it's what I've been using ever since (2016/2017).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_15_3</DOCNO>
+            	<TEXT>Now the KWh prices here are going up, 0.43849 /kWh on average and I don't usually turn off my PC .</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_15_4</DOCNO>
+            	<TEXT>So I'm on the lookout for getting an efficient PSU, if possible just enough W for my components, I don't plan to upgrade THAT MUCH in the future, no SLI/CF, if I change the GPU I'll take out the old one, don't plan on having 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_15_5</DOCNO>
+            	<TEXT> [This is my current build.](https://es.pcpartpicker.com/user/subject6309ou/saved/#view=4tJz6h)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_3022_16_0</DOCNO>
+            	<TEXT>I'm happy as long a it's under 100 The seasonic looks good.</TEXT>
+        </DOC>

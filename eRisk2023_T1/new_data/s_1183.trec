@@ -1,0 +1,948 @@
+        <DOC>
+            	<DOCNO>s_1183_1_0</DOCNO>
+            	<TEXT>Gaming pc question on Ram</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_1_1</DOCNO>
+            	<TEXT>I currently have a b350 mobo with 32 gb ddr4 ram clocked at 2400mhz (4x8gb).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_1_2</DOCNO>
+            	<TEXT>I was wondering if upgrading to 16gb ddr4 3200mhz (2x8) is better than 32gb 2400mhz.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_2_0</DOCNO>
+            	<TEXT>So 16gb 3200 is better than 32gb 2400?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_3_0</DOCNO>
+            	<TEXT>I bought a set of ram.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_3_1</DOCNO>
+            	<TEXT>2 of the sticks didn't work but the other 2 did so I'm using 2x 8gb 16gb ram I was wondering if I can buy a new set of 2x8gb same gen and clock speed and same manufacture just to fill in the empty slots (its an OCD thing) Will there be any issues or will it work fine?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_4_0</DOCNO>
+            	<TEXT>Yup, same speed, manufacture, company gen (ddr4)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_5_0</DOCNO>
+            	<TEXT>Would anyone recommend this on a b350 mobo?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_5_1</DOCNO>
+            	<TEXT>Or is there a better alternative?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_5_2</DOCNO>
+            	<TEXT>Ziyituod PCIe SATA Card, 4 Port with 4 SATA Cable, SATA Controller Expansion Card with Low Profile Bracket, Marvell 9215 Non-Raid, Boot as System Disk, Support 4 SATA 3.0 Devices(ZYT-SA3014) https://www.amazon.co.uk/dp/B07TD57RGZ/ref=cm_sw_r_u_apa_fabc_QEQS0ADT07N71Q8YPN8Y?_encoding=UTF8 amp;psc=1</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_6_0</DOCNO>
+            	<TEXT>Check the link plz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_7_0</DOCNO>
+            	<TEXT>https://www.amazon.co.uk/dp/B07TD57RGZ/ref=cm_sw_r_cp_awdb_imm_EKPB4M7DRFR9DNZXQ239?_encoding=UTF8 amp;psc=1</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_8_0</DOCNO>
+            	<TEXT>Ryzen 5 1600 (will be upgrading to ryzen 9 3900x) Gtx 1070 32 gb 2400 mhz (will be upgrading to 16gb 3200 ram) 600w psu</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_9_0</DOCNO>
+            	<TEXT>B350 pc mate Its a be quite 600w don't remember anymore of that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_10_0</DOCNO>
+            	<TEXT>Yes, 2 hdds 2 ssds 1 m.2 but its not in use.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_10_1</DOCNO>
+            	<TEXT>I'm tryna use it as a boot device</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_11_0</DOCNO>
+            	<TEXT>This is my current build, I'm upgrading to the ryzen 9 3900x soon</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_12_0</DOCNO>
+            	<TEXT>Ran out of space and sata ports lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_13_0</DOCNO>
+            	<TEXT>I have 2 3.5 hdd 1 is 2tb and the other is 1 tb I have 2 2.5 ssd both 250 gb M.2 is also 250</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_14_0</DOCNO>
+            	<TEXT>Lol no worries</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_15_0</DOCNO>
+            	<TEXT>All hdds are full m.2 isn't full, having trouble cloning my boot drive to it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_16_0</DOCNO>
+            	<TEXT>That is my plan, but I was just asking, didn't thing it would be this long of a thread lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_17_0</DOCNO>
+            	<TEXT>Thatd be great, later tho</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_18_0</DOCNO>
+            	<TEXT>I used macrium reflect to clone it, the new ssd was wiped clean before cloning but somehow after the clone the the is around 1gb extra in the new ssd than my current boot drive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_18_1</DOCNO>
+            	<TEXT>Also when booting the ssd from bios it says choose a appropriate boot device, (somma like that) even tho it was cloned to my knowledge properly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_18_2</DOCNO>
+            	<TEXT>I followed this video excluding the shrinking of the partitions as I have plenty of space in the new ssd https://youtu.be/7H7D1HcfY9o</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_19_0</DOCNO>
+            	<TEXT>Is a m.2 boot drive safe without a heatsink ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_19_1</DOCNO>
+            	<TEXT>As mine is under the gpu and not sure if its sufficiently cool</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_20_0</DOCNO>
+            	<TEXT>Not much room, not sure how big heatsinks are but donest look like itl fit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_20_1</DOCNO>
+            	<TEXT>My interpretation of safe was both performance and function as I heard they heat up alot, though its just a boot drive and various other programs which aren't used alot I don't see why it should heat up to the extent of performance loss or even dis function, am I right to say that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_21_0</DOCNO>
+            	<TEXT>Ye it makes sense, just thought I'd ask since its under the gpu, it gets pretty warm after a good amount of use on it not sure if it transfers, Another question, should I notice a big difference between the boot speeds?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_21_1</DOCNO>
+            	<TEXT>I had the Samsung 850 pro Upgraded to Samsung 970</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_22_0</DOCNO>
+            	<TEXT>Yes I remember my dads old pc I could make a full meal and still wait for it to boot up, fast af back then lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_23_0</DOCNO>
+            	<TEXT>So I installed 16 gb ram 2x8gb ddr4 3200mhz After confirming xmp is disabled And setting Dram to 3200 And memory try it !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_23_1</DOCNO>
+            	<TEXT>To ddr4 3200 16 18 18 18 36 It still only using 2133mhz according to cpuz and task manager Any ideas ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_24_0</DOCNO>
+            	<TEXT>My 3200mhz ram is not passing 2133 Ryzen 5 1600 Gtx 1070 B350 mate Corsair vengeance pro 2x8gb 3200mhz I have enabled xmp and chose profile 1 which also confirmed the dram frequency at 3200mhz and dram voltage 1.2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_25_0</DOCNO>
+            	<TEXT>I'm not getting more than 2133mhz from a ram capable of 32000, I have enabled xmp profile 1 it was set to 2900mhz I have changed it to 3200 but still no change, still reads 2133mhz on task manager, but when booting back into bio it claims its running at 3200</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_26_0</DOCNO>
+            	<TEXT>I loaded xmp prof 1 and never made any changes and its working at 2933, there is a prof 2 il give that a go again maybe I did somma</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_27_0</DOCNO>
+            	<TEXT>After loading prof 2 without changes it went back to 2133 If I do prof 1 and change freq to 3200 will it go to 2133 aswel?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_28_0</DOCNO>
+            	<TEXT>I cant change my voltage, its set to auto but doesn't change when changing frequency How to I edit my voltage?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_29_0</DOCNO>
+            	<TEXT>So I just defaulted my setting, enabled xmp prof 1 set it to 320pmhz and now the dram shows 1.344v auto Is that a stable frequency and voltage?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_30_0</DOCNO>
+            	<TEXT>It never worked, it was set to 2133 The highest iv been is 2933mhz at 1.344v (auto) successfully</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_31_0</DOCNO>
+            	<TEXT>How do I know the limit?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_32_0</DOCNO>
+            	<TEXT>I plan on upgrading my cpu to the ryzen 9 3900x but waiting on a gpu as the 1070 with the ryzen 9 is just a chocking bottle</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_33_0</DOCNO>
+            	<TEXT>What is memory try it !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_33_1</DOCNO>
+            	<TEXT>It says ddr 4 3200 14 16 6 16 38 and on on</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_34_0</DOCNO>
+            	<TEXT>Any help please ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_35_0</DOCNO>
+            	<TEXT>Anyone know what these are for?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_35_1</DOCNO>
+            	<TEXT>T 1 amd T2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_35_2</DOCNO>
+            	<TEXT>To use t2 should t1 be used?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_35_3</DOCNO>
+            	<TEXT>Or am I just over thinking?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_36_0</DOCNO>
+            	<TEXT>I read its for high power tools, not sure if I read it wrong</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_37_0</DOCNO>
+            	<TEXT>Under t2 https://www.diyelectriccar.com/threads/ryobi-40v-bms-troubleshooting-and-repair.197409/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_38_0</DOCNO>
+            	<TEXT>I did test it and the front terminal (t2) is a negative and outputs the same as the main terminals on the battery</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_39_0</DOCNO>
+            	<TEXT>I see, the battery i have claims 6ah, will; if drawn by a tool the 2 main contacts + - provide this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_40_0</DOCNO>
+            	<TEXT>That clears it up alot, thanks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_41_0</DOCNO>
+            	<TEXT>So what models will the NON HP batteries work with ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_42_0</DOCNO>
+            	<TEXT>But my battery doenst have hp as there is no pins on the rear of the battery correct?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_43_0</DOCNO>
+            	<TEXT>So its pushing 6ah with any pin?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_44_0</DOCNO>
+            	<TEXT>Just to recap, the 2 pins i circled (T1,T2)are charging terminals?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_44_1</DOCNO>
+            	<TEXT>The 2 pins on the rear (not on my battery) are the HP Finally the main 2 pins can give out the 6ah</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_45_0</DOCNO>
+            	<TEXT>Whats the name of number 5, also any good tips on how to get it back on easily?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_45_1</DOCNO>
+            	<TEXT>Keeps slipping</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_46_0</DOCNO>
+            	<TEXT>Any idea or tips on how to keep it from moving?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_46_1</DOCNO>
+            	<TEXT>Its a pain in the arse</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_47_0</DOCNO>
+            	<TEXT>I try, just wants to keep moving, got it in just a short while ago, not sure how but its truly annoying</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_48_0</DOCNO>
+            	<TEXT>Maybe a tool or something ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_49_0</DOCNO>
+            	<TEXT>Il give that a go next time</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_51_0</DOCNO>
+            	<TEXT>Intstalled msi afterburner, not sure if its permanent fix?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_52_0</DOCNO>
+            	<TEXT>I would follow him, kill him before he opens the next box camp his box and keep killing him,</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_53_0</DOCNO>
+            	<TEXT>https://discord.gg/Z7NbnJ6NFh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_54_0</DOCNO>
+            	<TEXT>https://discord.gg/Z7NbnJ6NFh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_55_0</DOCNO>
+            	<TEXT>https://discord.gg/Z7NbnJ6NFh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_56_0</DOCNO>
+            	<TEXT>https://discord.gg/Z7NbnJ6NFh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_57_0</DOCNO>
+            	<TEXT>https://discord.gg/Z7NbnJ6NFh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_58_0</DOCNO>
+            	<TEXT>https://discord.gg/Z7NbnJ6NFh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_60_0</DOCNO>
+            	<TEXT>Free whstsaap fb and twitter messages</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_60_1</DOCNO>
+            	<TEXT>I bought a sim only contract the other day and the details say free WhatsApp Facebook and twitter messaging How does that work?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_61_0</DOCNO>
+            	<TEXT>No idea how it happend, noticed high temps, looked and it was dangling.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_61_1</DOCNO>
+            	<TEXT>Never touched it or heard it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_61_2</DOCNO>
+            	<TEXT>Any help plz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_62_0</DOCNO>
+            	<TEXT>Other fan works i believe, no idea how it happend just looked since it was getting really hot and it was dangling, no cal lol or open case for that matter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_63_0</DOCNO>
+            	<TEXT>If I maybe super glue it will it work?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_63_1</DOCNO>
+            	<TEXT>Maybe if need to break the opposite blades that are currently broke to stop excessive vibration</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_64_0</DOCNO>
+            	<TEXT>No idea, I'm not sure how tf it happend</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_65_0</DOCNO>
+            	<TEXT>Ye but not really wanting to</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_67_0</DOCNO>
+            	<TEXT>Il ammend my post</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_68_0</DOCNO>
+            	<TEXT>The rise of Kuthulu?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_69_0</DOCNO>
+            	<TEXT>Drilled a hole in my hand, had to get surgery, cant feel my middle finger much anymore as I cut my nerve.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_70_0</DOCNO>
+            	<TEXT>Jason bourn?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_72_0</DOCNO>
+            	<TEXT>Works all the time</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_75_0</DOCNO>
+            	<TEXT>Time travel?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_77_0</DOCNO>
+            	<TEXT>The women were great (good looking and dressed quite nice), men wore suits Only issue is racism and sexism</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_78_0</DOCNO>
+            	<TEXT>I dont spend my money, if I was in need of such content I'd use the hub</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_79_0</DOCNO>
+            	<TEXT>Not to mention the cars that were made back then, absolutely beautiful</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_80_0</DOCNO>
+            	<TEXT>Howcast how not to die</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_81_0</DOCNO>
+            	<TEXT>The hub Emily willis and Adriana chechick</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_82_0</DOCNO>
+            	<TEXT>Jewish kid: : dad can I have 20p Dad: 20?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_82_1</DOCNO>
+            	<TEXT>What do you want 10p for Here's 5p share it with your sister No offence lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_83_0</DOCNO>
+            	<TEXT>Just beat it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_84_0</DOCNO>
+            	<TEXT>$ store vibrator</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_85_0</DOCNO>
+            	<TEXT>Is forplay expected before and or after c*ming</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_87_0</DOCNO>
+            	<TEXT>Sounds sexy af when you put it like that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_89_0</DOCNO>
+            	<TEXT>This is England</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_90_0</DOCNO>
+            	<TEXT>I think many of us inc my self have watched the hub and seen these monster cocks thinking its normal, I just wanna please my parter, 7" should do the trick?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_91_0</DOCNO>
+            	<TEXT>Tomboy a woman who identifies as a woman but dressed as a boy, so a cap and jeans and a leather jacket or somma, just like it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_93_0</DOCNO>
+            	<TEXT>Chokers are a big one for me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_94_0</DOCNO>
+            	<TEXT>Covid, I passed my mathematics GCSE without doing a test</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_95_0</DOCNO>
+            	<TEXT>Many, including the 10mm wood drill bit that drilled a hole in my hand</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_96_0</DOCNO>
+            	<TEXT>Relax, I'm just answering questions you are thinking about in that little brain of urs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_97_0</DOCNO>
+            	<TEXT>And its not spaming since its a place to ask questions... ya dick</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_98_0</DOCNO>
+            	<TEXT>1 or 2ice a week no time no more</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_99_0</DOCNO>
+            	<TEXT>Olive oil, was extra Virgin... I soon changed that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_100_0</DOCNO>
+            	<TEXT>Omsi 2, a bus simulator, I'm a real bus driver so not screwed</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_101_0</DOCNO>
+            	<TEXT>Worth anything?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_101_1</DOCNO>
+            	<TEXT>Made in 2017</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_102_0</DOCNO>
+            	<TEXT>Homemade glove toy, mesy tho</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_103_0</DOCNO>
+            	<TEXT>I really haven't seen them much</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_104_0</DOCNO>
+            	<TEXT>Worth anything?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_106_0</DOCNO>
+            	<TEXT>Hold my breath and swallow the air 1 or 2 times, usually goes away</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_107_0</DOCNO>
+            	<TEXT>I'm now traumatised</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_108_0</DOCNO>
+            	<TEXT>Actually I have, ya mum</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_109_0</DOCNO>
+            	<TEXT>21 [M4F] UK/anywhere, looking for women in her 20, preferably horney, want to talk dirty, nothing serious</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_109_1</DOCNO>
+            	<TEXT>I'm 21 About 250Ib 6.1 in both body and my down south I'm a bus driver so I'm usually busy and have no playtime any more Not the "healthiest" nor best looking of people lol I'm looking for a woman in her 20s or older (not over 35 plz) to talk dirty and possibly send photos/videos I'm into some kinks like braces, short skirts, chockers, Irish and Scottish accent and cosplay I like to watch TV shows and movies that are funny or action related 24 is a show I really enjoy and House Md I'm not a relationship person, this would be a virtual Friends with benefits situation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_110_0</DOCNO>
+            	<TEXT>As Muslim I support you being part of the LGBTQ community, Islam has nothing to do with terrorism</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_111_0</DOCNO>
+            	<TEXT>Worth anything?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_112_0</DOCNO>
+            	<TEXT>Janice griffeth sommat like that</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_113_0</DOCNO>
+            	<TEXT>Worth anything more than FV?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_114_0</DOCNO>
+            	<TEXT>(Serious) amazon delivery drivers, what happens if somone claimed their parcel hasn't been delivered?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_115_0</DOCNO>
+            	<TEXT>Name or source?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_116_0</DOCNO>
+            	<TEXT>Islam is the most feminist religion out here, the media and misinterpretation of the religion is what you have read or heard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_116_1</DOCNO>
+            	<TEXT>The arabs (before islam) would kill their daughters just become it was shameful to have a female also prostitution was a big thing, when Islam was revealed it abolished the killing of girls and taught women AND MEN modesty, to you or anyone else Islam doesn't need to be the right faith but it should not be overlooked because of misinformation or lack of knowledge</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_117_0</DOCNO>
+            	<TEXT>Ok you are very uneducated and need to educate yourself before saying things Ask any Muslim women if she is forced to cover up, we have free will she doesn't need to cover up, covering up protects her from the disgustingness of this world, women these day have to be half naked to be attractive, how is that not forcing Not sure what you mean by marital rape, if 2 people are happy in their manage intercose is expected no?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_117_1</DOCNO>
+            	<TEXT>The 9 year old you speak of i don't even want to get in to it, if you cant understand the basics then this will explode your mind Would you compare your 9 year old self to a 9 year old 1400 years ago?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_117_2</DOCNO>
+            	<TEXT>I hope not People in the UK not even 100 years ago allowed marriage of 9 year olds no one speaks of that You read the news and listen to the haters, listen to us we we tell you tue truth, you don't need to become a Muslim just don't mock what you don't understand</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_118_0</DOCNO>
+            	<TEXT>Women of reddit, how long should a man last in bed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_120_0</DOCNO>
+            	<TEXT>How to clean ink on shirt, and diy pocket protector?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_121_0</DOCNO>
+            	<TEXT>Worth anything?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_122_0</DOCNO>
+            	<TEXT>Kristen Scott</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_123_0</DOCNO>
+            	<TEXT>Id suggest getting a code reader obd2 It'd be great in the long run for diagnosing issues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_123_1</DOCNO>
+            	<TEXT>Can save big $$</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_124_0</DOCNO>
+            	<TEXT>Where did you get the pic?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_125_0</DOCNO>
+            	<TEXT>Are these worth anything?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_126_0</DOCNO>
+            	<TEXT>Pic 8 is tight winkle</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_127_0</DOCNO>
+            	<TEXT>Tardis from dr who</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_128_0</DOCNO>
+            	<TEXT>Worth more than FV?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_129_0</DOCNO>
+            	<TEXT>Worth more than FV?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_130_0</DOCNO>
+            	<TEXT>Do villagers sell Kelp?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_130_1</DOCNO>
+            	<TEXT>Which villagers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_131_0</DOCNO>
+            	<TEXT>Yes lol, need kelp to make water elevator to transport villagers into iron farm</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_133_0</DOCNO>
+            	<TEXT>I have 2 wandering traders, they not disappearing, both have names, should I kill them to get another trader?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_134_0</DOCNO>
+            	<TEXT>Three emerald?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_135_0</DOCNO>
+            	<TEXT>Is there a way to re hydrate dried kelp ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_136_0</DOCNO>
+            	<TEXT>I killed my wandering traders, hopefully I get more otherwise I'm FU##ED</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_137_0</DOCNO>
+            	<TEXT>Is there an alternative to kelp in the elevator?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_138_0</DOCNO>
+            	<TEXT>Il make it step by step i guess, its a pain bit oh well</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_139_0</DOCNO>
+            	<TEXT>In Skyblock is there a way to see all items that can possibly or will appear?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_140_0</DOCNO>
+            	<TEXT>I'm in the beginning of skyblock, I made a cob generator and want to go afk, rn I only have iron pickaxe, how do I afk and move to the next pickaxe after 1 breaks automatically?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_141_0</DOCNO>
+            	<TEXT>I'm playing 1 block skyblock, I got a Spawn egg for a stray, I believe its the Skelly from the snow biome, can I use this in my iron farm since I have no idea on how to get a zombie up there?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_142_0</DOCNO>
+            	<TEXT>No, I believe if I did my research correct 1 of the terminals is for high power equipment,( the 40v) the 20v is for small applications</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_143_0</DOCNO>
+            	<TEXT>Since updating to 1.17 my character at times when mining looks down for no reason anyone else?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_144_0</DOCNO>
+            	<TEXT>For a dripstone farm is dripstone block needed as the block to put the pointed dripstone on?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_144_1</DOCNO>
+            	<TEXT>Or can stone or amy other solid block be used ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_145_0</DOCNO>
+            	<TEXT>Commonwealth Scotland, worth more than fv?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_147_0</DOCNO>
+            	<TEXT>The godfather</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_148_0</DOCNO>
+            	<TEXT>Never sold at peak, how do I break even?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_149_0</DOCNO>
+            	<TEXT>Is there a way to check power draw of my pc?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_150_0</DOCNO>
+            	<TEXT>I want to afk fish farm for afew hrs while I'm at work, whats the best energy saving technique?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_151_0</DOCNO>
+            	<TEXT>How do I afk fish and multitask?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_151_1</DOCNO>
+            	<TEXT>Outside of minecraft ofcourse.... java</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_152_0</DOCNO>
+            	<TEXT>Can afk fish farms give enchanted books?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_152_1</DOCNO>
+            	<TEXT>Java edition</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_153_0</DOCNO>
+            	<TEXT>Its mainly for being afk lol, like when I'm at work or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_153_1</DOCNO>
+            	<TEXT>Are books still given?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_153_2</DOCNO>
+            	<TEXT>I think I heard somewhere they don't cone anymore</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_155_0</DOCNO>
+            	<TEXT>This afk fish farm i afk on top of my.mob farm which is also close to my iron farm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_155_1</DOCNO>
+            	<TEXT>Any other good afk farms?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_156_0</DOCNO>
+            	<TEXT>So I have an old cd which had family pics ect burned on it years ago, just found it recently and want to digitise it and free reccomend converters?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_157_0</DOCNO>
+            	<TEXT>Sorry ment its pics in vid like a montage lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_158_0</DOCNO>
+            	<TEXT>Super CHUFFED bought like 6</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_159_0</DOCNO>
+            	<TEXT>I'm playing 1 block skyblock, I need slime I mean stacks of it for multiple farms, there is a slime chunk I checked, wondering if slime farm will work ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_160_0</DOCNO>
+            	<TEXT>Can you link me a good tutorial vid to follow for efficient slime farm plz ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_161_0</DOCNO>
+            	<TEXT>Not sure is 1 block is a flat world, how can I check?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_162_0</DOCNO>
+            	<TEXT>It was downloaded lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_163_0</DOCNO>
+            	<TEXT>Me and my brother want to play minecraft on separate accounts, can we or do we have to buy 2 minecrafts?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_164_0</DOCNO>
+            	<TEXT>I'm playing 1 block skyblock and a pair turtles spawnd I bread them but they aren't laying the egg, does it take time or ??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_165_0</DOCNO>
+            	<TEXT>I have a small iron farm near my base, I want to make a bigger better one... how far do I need to be from my current one for there to not be any issues ie not working efficiently also do I need to be in a certain proximity for the farm to work properly?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_166_0</DOCNO>
+            	<TEXT>I'm playing 1 block skyblock is there a place i can check all the possible items i can get?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_167_0</DOCNO>
+            	<TEXT>Fountain in the centre and Angel sculptures in the 4 corners</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_168_0</DOCNO>
+            	<TEXT>Sorry for your loss</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_169_0</DOCNO>
+            	<TEXT>Issues with my 1 block skyblock</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_169_1</DOCNO>
+            	<TEXT>So when ever I log off or even shut down the pc when ever I come back my 1 block restarts as in my builds stay and my map etc but the actual block starts from the start again, anyoneelse have or had this?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_170_0</DOCNO>
+            	<TEXT>1.17 I think</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_172_0</DOCNO>
+            	<TEXT>If I hatched 2 turtle eggs will they breed in the location I hatched them in?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_172_1</DOCNO>
+            	<TEXT>If you know what I mean lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_173_0</DOCNO>
+            	<TEXT>Best method of getting magma block location etc ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_174_0</DOCNO>
+            	<TEXT>Is it possible to heal a zombie, not zom villager a zombie.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_174_1</DOCNO>
+            	<TEXT>I'm using it for my trading hall just hit im I think its weak af any way to increase its health?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_176_0</DOCNO>
+            	<TEXT>Is it cheating to kill the dragon with beds?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_177_0</DOCNO>
+            	<TEXT>Minecraft 1.18.1 crashing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_178_0</DOCNO>
+            	<TEXT>I got my minecraft 1.18 running but this is happening, no idea what it is</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_180_0</DOCNO>
+            	<TEXT>If I use the thorns enchantment will the dragon loose health when hurting me?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_181_0</DOCNO>
+            	<TEXT>How do people get the mods for like fortune 99999 or efficiency 9999 etc ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_182_0</DOCNO>
+            	<TEXT>Do you mind writing the full command for a fortune enchantment?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_183_0</DOCNO>
+            	<TEXT>Update on using Fin?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_184_0</DOCNO>
+            	<TEXT>Did it work in the past month or so of using it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_185_0</DOCNO>
+            	<TEXT>Does water fasting help loose weight?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_186_0</DOCNO>
+            	<TEXT>Where do I start?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_187_0</DOCNO>
+            	<TEXT>21 male advice?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_187_1</DOCNO>
+            	<TEXT>So I'm 21 and though I'm not shedding like other guys on here my genes and family history tells me I'm close to balding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_187_2</DOCNO>
+            	<TEXT>What is my best course of action to prevent it, should I start Fin?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_187_3</DOCNO>
+            	<TEXT>I'm willing to take on the side effects so long as it prevents my hair from falling out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_187_4</DOCNO>
+            	<TEXT>Or is there better more safer and effective methods ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_188_0</DOCNO>
+            	<TEXT>Diss track incoming</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_189_0</DOCNO>
+            	<TEXT>Kelp farm keeps making full block (of water) at the top so it floats instead of moving down to the hopper</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_190_0</DOCNO>
+            	<TEXT>So 1 more layer with flowing water?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_191_0</DOCNO>
+            	<TEXT>How long would it take to convert my fat too muscle?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_191_1</DOCNO>
+            	<TEXT>I'm about 220lb</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_192_0</DOCNO>
+            	<TEXT>What would lifting weights regularly do ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_193_0</DOCNO>
+            	<TEXT>I gave a villager a job and walked away, came back and he was gone, is that normal?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_193_1</DOCNO>
+            	<TEXT>I didn't buy anything from him</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_194_0</DOCNO>
+            	<TEXT>The collection is on the side where the chest is, there is supposed to be a flowing water source from the left to the right but it got filled since the kelp over grew</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_195_0</DOCNO>
+            	<TEXT>No I mean he disappeared</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_196_0</DOCNO>
+            	<TEXT>I barricaded him</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_198_0</DOCNO>
+            	<TEXT>I could do with some advise</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_199_0</DOCNO>
+            	<TEXT>My honey farm isn't working, is there a problem here?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_199_1</DOCNO>
+            	<TEXT>I'm on 1.163 java</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_200_0</DOCNO>
+            	<TEXT>So I want to replace my down lights, however the hole required needs to be bigger than the existing hole, I have seen jigs online and also a methoed using the old drill bit but I have misplaced that bit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_200_1</DOCNO>
+            	<TEXT>Any suggestion without damaging the ceiling</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_201_0</DOCNO>
+            	<TEXT>I'm playing 1 block skyblock now I'm mining for ancient debris, my portal is quite a distance away from where I'm mining, if I build a portal where I am where will I spawn?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_202_0</DOCNO>
+            	<TEXT>I got my answer, don't make a portal in 1 block skyblock nether</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_203_0</DOCNO>
+            	<TEXT>Yea, that was the tutorial, its for the item filter so only full honey glass bottles go through and nothing else</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_204_0</DOCNO>
+            	<TEXT>I want to join the gym, never been before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_204_1</DOCNO>
+            	<TEXT>Where should I start?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_205_0</DOCNO>
+            	<TEXT>In 5 months or so where will eating 1 meal a day and light walking get me?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_205_1</DOCNO>
+            	<TEXT>Just curious</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1183_206_0</DOCNO>
+            	<TEXT>My work isn't fixed its always different so I would need to work around it everyday, I think that's 1 of the reasons I havent started gym yet seems like too much work</TEXT>
+        </DOC>

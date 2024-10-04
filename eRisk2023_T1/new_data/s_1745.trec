@@ -1,0 +1,556 @@
+        <DOC>
+            	<DOCNO>s_1745_0_0</DOCNO>
+            	<TEXT>Visualizing activations with forward hooks (Video Tutorial)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_1_0</DOCNO>
+            	<TEXT>Checking array equality in NumPy (tutorial)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_2_0</DOCNO>
+            	<TEXT>[Python] Comparing arrays in NumPy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_3_0</DOCNO>
+            	<TEXT>Thank you for the nice words!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_4_0</DOCNO>
+            	<TEXT>Different ways of comparing NumPy arrays</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_5_0</DOCNO>
+            	<TEXT>Unit testing deep learning code</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_6_0</DOCNO>
+            	<TEXT>Comparing arrays (np.testing + others)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_7_0</DOCNO>
+            	<TEXT>Comparing NumPy arrays (hands-on tutorial)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_8_0</DOCNO>
+            	<TEXT>Implementing a custom optimizer (Video Tutorial)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_9_0</DOCNO>
+            	<TEXT>Visualizing activations in PyTorch (Video Tutorial)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_10_0</DOCNO>
+            	<TEXT>Writing an optimizer in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_11_0</DOCNO>
+            	<TEXT>Visualizing activations with forward hooks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_12_0</DOCNO>
+            	<TEXT>Forward hooks in PyTorch (Video tutorial)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_13_0</DOCNO>
+            	<TEXT>Writing optimizers - PyTorch (Python)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_14_0</DOCNO>
+            	<TEXT>Unit testing neural networks (BERT example)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_15_0</DOCNO>
+            	<TEXT>Gradient with respect to input (Integrated gradients + FGSM attack)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_16_0</DOCNO>
+            	<TEXT>Gradient with respect to input (Integrated gradients + FGSM attack)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_17_0</DOCNO>
+            	<TEXT>Gradient with respect to input (Integrated gradients + FGSM attack)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_17_1</DOCNO>
+            	<TEXT>[https://youtu.be/5lFiZTSsp40](https://youtu.be/5lFiZTSsp40) Hey all, In this video tutorial, I explain how one can compute gradients with respect to input in PyTorch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_17_2</DOCNO>
+            	<TEXT>Additionally, I implement (from scratch) 2 algorithms that are using them: * Fast Gradient Sign Method (adversarial attack) * Integrated Gradients (explainability tool) Hope some of you could find it useful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_17_3</DOCNO>
+            	<TEXT>Feel free to leave a comment or criticism:) I would be more than happy to reply!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_18_0</DOCNO>
+            	<TEXT>Gradient with respect to input (Integrated gradients + FGSM attack examples)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_19_0</DOCNO>
+            	<TEXT>Integrated Gradients and Fast Gradient Sign Method</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_20_0</DOCNO>
+            	<TEXT>Adversarial attacks and explainable AI (in PyTorch)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_21_0</DOCNO>
+            	<TEXT>Adversarial attacks and explainable AI (in PyTorch)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_22_0</DOCNO>
+            	<TEXT>[P] Gradient with respect to input in PyTorch (Integrated gradients + FGSM attack)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_23_0</DOCNO>
+            	<TEXT>Embedding explained (+ Character-level language model)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_24_0</DOCNO>
+            	<TEXT>Embedding explained</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_25_0</DOCNO>
+            	<TEXT>Embedding explained (+ Character-level language model)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_26_0</DOCNO>
+            	<TEXT>Embedding explained</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_27_0</DOCNO>
+            	<TEXT>Embedding explained (+ Character-level language model)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_28_0</DOCNO>
+            	<TEXT>Embedding explained</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_29_0</DOCNO>
+            	<TEXT>:) Thank you very much:) More videos coming!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_30_0</DOCNO>
+            	<TEXT>[P] Embedding in PyTorch dissected</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_30_1</DOCNO>
+            	<TEXT>I created a video where I talk about the \`torch.nn.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_30_2</DOCNO>
+            	<TEXT>Embedding\` module.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_30_3</DOCNO>
+            	<TEXT>I explain some of its functionalities like the padding index and maximum norm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_30_4</DOCNO>
+            	<TEXT>In the second part of this video, I use it to represent characters in the English alphabet and build a text generating model. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_30_5</DOCNO>
+            	<TEXT>https://youtu.be/euwN5DHfLEo](https://youtu.be/euwN5DHfLEo) Let me know if you have any feedback:) Just as a side note: If you feel like this post is too "beginner" I would more than appreciate your input on how to make my videos better suited for ML practitioners and researchers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_31_0</DOCNO>
+            	<TEXT>Vision Transformer implemented from scratch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_32_0</DOCNO>
+            	<TEXT>Vision Transformer - PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_33_0</DOCNO>
+            	<TEXT>Vision Transformer - PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_34_0</DOCNO>
+            	<TEXT>[P] Vision Transformer - PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_34_1</DOCNO>
+            	<TEXT>I created a video where I implement the Vision Transformer from scratch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_34_2</DOCNO>
+            	<TEXT>I focus solely on the architecture and inference and do not talk about training.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_34_3</DOCNO>
+            	<TEXT>I discuss all the relevant concepts that the Vision Transformer is using e.g. patch embedding, attention mechanism, layer normalization and many others. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_34_4</DOCNO>
+            	<TEXT>https://youtu.be/ovB0ddFtzzA](https://youtu.be/ovB0ddFtzzA) It is very much a clone of the implementation provided in [https://github.com/rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) with some minor modifications.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_34_5</DOCNO>
+            	<TEXT> Hope some of you find it helpful!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_35_0</DOCNO>
+            	<TEXT>You mean you cannot open YouTube?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_35_1</DOCNO>
+            	<TEXT>You can find all the code here: [https://github.com/jankrepl/subject246/tree/master/github\_adventures/vision\_transformer](https://github.com/jankrepl/subject246/tree/master/github_adventures/vision_transformer)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_36_0</DOCNO>
+            	<TEXT>Nice to hear that!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_37_0</DOCNO>
+            	<TEXT>Appreciate it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_38_0</DOCNO>
+            	<TEXT>As discussed on YT, I am definitely writing the idea down:) Even though I have never used those libraries:))</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_39_0</DOCNO>
+            	<TEXT>Glad to hear that!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_41_0</DOCNO>
+            	<TEXT>Vision Transformer from scratch in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_42_0</DOCNO>
+            	<TEXT>Vision Transformer in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_43_0</DOCNO>
+            	<TEXT>You are welcome!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_44_0</DOCNO>
+            	<TEXT>SIREN implemented from scratch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_45_0</DOCNO>
+            	<TEXT>SIREN implemented in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_46_0</DOCNO>
+            	<TEXT>SIREN - PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_47_0</DOCNO>
+            	<TEXT>I would definitely refer you to this amazing presentation video: [https://youtu.be/Q2fLWGBeaiI](https://youtu.be/Q2fLWGBeaiI)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_49_0</DOCNO>
+            	<TEXT>Haha, you think so?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_49_1</DOCNO>
+            	<TEXT>I was not doing any fancy things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_50_0</DOCNO>
+            	<TEXT>Point taken!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_51_0</DOCNO>
+            	<TEXT>SIREN from scratch in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_52_0</DOCNO>
+            	<TEXT>SIREN from scratch in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_53_0</DOCNO>
+            	<TEXT>SIREN implementation in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_54_0</DOCNO>
+            	<TEXT>Growing neural cellular automata in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_55_0</DOCNO>
+            	<TEXT>Growing neural cellular automata - Implementation from scratch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_56_0</DOCNO>
+            	<TEXT>Growing neural cellular automata - PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_57_0</DOCNO>
+            	<TEXT>CA are really interesting!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_57_1</DOCNO>
+            	<TEXT>I hope to learn more about them in the future:)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_58_0</DOCNO>
+            	<TEXT>[P] Growing Neural Cellular Automata - Implementation and explanation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_58_1</DOCNO>
+            	<TEXT>I made a video where I try to explain and implement the article "Growing neural cellular automata".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_58_2</DOCNO>
+            	<TEXT>It is a niche topic, however, I find it fascinating.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_58_3</DOCNO>
+            	<TEXT>Hope some of you could find it useful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_58_4</DOCNO>
+            	<TEXT> Original article: [https://distill.pub/2020/growing-ca/](https://distill.pub/2020/growing-ca/) My video: [https://youtu.be/21ACbWoF2Oo](https://youtu.be/21ACbWoF2Oo)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_59_0</DOCNO>
+            	<TEXT>I am not one of the authors.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_59_1</DOCNO>
+            	<TEXT>Actually, I am not affiliated with the authors in any way:).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_59_2</DOCNO>
+            	<TEXT>I just really enjoyed this article and thought I would try to implement it from scratch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_60_0</DOCNO>
+            	<TEXT>Growing neural cellular automata in PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_61_0</DOCNO>
+            	<TEXT>Growing neural cellular automata (PyTorch tutorial)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_62_0</DOCNO>
+            	<TEXT>Differentiable augmentation for GANs (using Kornia)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_63_0</DOCNO>
+            	<TEXT>Differentiable augmentation for GANs (using Kornia)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_64_0</DOCNO>
+            	<TEXT>Differentiable augmentation for GANs (using Kornia)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_65_0</DOCNO>
+            	<TEXT>Differentiable augmentation for GANs - Explained and implemented</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_66_0</DOCNO>
+            	<TEXT>Differentiable augmentation for GANs (using Kornia)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_67_0</DOCNO>
+            	<TEXT>MLP-Mixer in Flax and PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_68_0</DOCNO>
+            	<TEXT>MLP-Mixer in Flax and PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_69_0</DOCNO>
+            	<TEXT>MLP-Mixer in Flax and PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_70_0</DOCNO>
+            	<TEXT>Glad you liked it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_71_0</DOCNO>
+            	<TEXT>MLP-Mixer in Flax and PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_72_0</DOCNO>
+            	<TEXT>MLP-Mixer in Flax and PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_73_0</DOCNO>
+            	<TEXT>MLP-Mixer from scratch + Flax tutorial</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_74_0</DOCNO>
+            	<TEXT>MLP-Mixer in Flax and PyTorch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_75_0</DOCNO>
+            	<TEXT>[P][SP] MLP-Mixer implementation in Flax + PyTorch [Video]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_75_1</DOCNO>
+            	<TEXT>Hey there, I made a video where I implement the MLP-Mixer in both Flax and PyTorch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_75_2</DOCNO>
+            	<TEXT>Among other things, I try to discuss in what way it is similar to CNNs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_75_3</DOCNO>
+            	<TEXT>Also, if you have never used Flax before the video contains a quick tutorial on the most important concepts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_75_4</DOCNO>
+            	<TEXT> Original paper: [https://arxiv.org/pdf/2105.01601.pdf](https://arxiv.org/pdf/2105.01601.pdf) My video: [https://youtu.be/HqytB2GUbHA](https://youtu.be/HqytB2GUbHA)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_76_0</DOCNO>
+            	<TEXT>DINO - Emerging Properties in Self-Supervised Vision Transformers | Implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_77_0</DOCNO>
+            	<TEXT>DINO - Emerging Properties in Self-Supervised Vision Transformers | Implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_78_0</DOCNO>
+            	<TEXT>Much appreciated!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_79_0</DOCNO>
+            	<TEXT>[P][SP] DINO - PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_79_1</DOCNO>
+            	<TEXT>I created a video where I implemented DINO ([Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294)) "from scratch".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_79_2</DOCNO>
+            	<TEXT>I took the official code the authors open-sourced, made multiple modifications and finally used it to train a model.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_79_3</DOCNO>
+            	<TEXT>The video is relatively long, so feel free to use the timestamps I provide in the description.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_79_4</DOCNO>
+            	<TEXT>Lastly, the video also contains two short tutorials on weight normalization and buffers in PyTorch. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_79_5</DOCNO>
+            	<TEXT>https://youtu.be/psmMEWKk4Uk](https://youtu.be/psmMEWKk4Uk) Hope some of you find it helpful!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_80_0</DOCNO>
+            	<TEXT>Mixup: Implementation + Experiments</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_81_0</DOCNO>
+            	<TEXT>Input  amp; Manifold Mixup: Implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_82_0</DOCNO>
+            	<TEXT>Mixup: PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_83_0</DOCNO>
+            	<TEXT>Feel free to check out my channel:) [https://www.youtube.com/c/subject246](https://www.youtube.com/c/subject246) Very much focused on coding and PyTorch:) When it comes to the topics, I mostly try to code papers from scratch:)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_84_0</DOCNO>
+            	<TEXT>PonderNet - Paper implementation tutorial</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_85_0</DOCNO>
+            	<TEXT>PonderNet: PyTorch implementation</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_86_0</DOCNO>
+            	<TEXT>PonderNet - Implementation [Video]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_87_0</DOCNO>
+            	<TEXT>Integer embeddings (from scratch)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_88_0</DOCNO>
+            	<TEXT>Integer embeddings (live coding)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_89_0</DOCNO>
+            	<TEXT>Integer embeddings (LSTM vs GloVE vs BERT) [screencast tutorial]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_0</DOCNO>
+            	<TEXT>[R][SP] Integer embeddings - Paper implementation [screencast]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_1</DOCNO>
+            	<TEXT>Hey everybody!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_2</DOCNO>
+            	<TEXT>I created a video where I try to implement some of the ideas proposed in [Learning Mathematical Properties of Integers](https://arxiv.org/abs/2109.07230).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_3</DOCNO>
+            	<TEXT>Most notably, I extract GloVe and BERT integer embeddings and also create custom ones using the [The On-Line Encyclopedia of Integer Sequences](https://oeis.org/) as dataset.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_4</DOCNO>
+            	<TEXT>I then investigate whether these embeddings encode some common properties (e.g. divisibility by 2, primality, ...).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_5</DOCNO>
+            	<TEXT>Hope some of you find it interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_6</DOCNO>
+            	<TEXT>I would be more than happy to get any feedback or answer any questions!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_90_7</DOCNO>
+            	<TEXT>Video link: [https://youtu.be/bybuSBVzOdg](https://youtu.be/bybuSBVzOdg)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_91_0</DOCNO>
+            	<TEXT>The Sensory Neuron as a Transformer [Implementation]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_92_0</DOCNO>
+            	<TEXT>The Sensory Neuron as a Transformer in PyTorch [Paper implementation]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_0</DOCNO>
+            	<TEXT>[P][SP] The Sensory Neuron as a Transformer - Paper implementation [screencast]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_1</DOCNO>
+            	<TEXT>I created a video where I tried to implement the paper [The Sensory Neuron as a Transformer: Permutation-Invariant Neural Networks for Reinforcement Learning](https://arxiv.org/abs/2109.02869) "from scratch".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_2</DOCNO>
+            	<TEXT>It is very much based on the [official code](https://github.com/google/brain-tokyo-workshop/tree/master/AttentionNeuron), however, I introduced multiple modifications and simplifications to be able to fit it in a single YouTube video.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_3</DOCNO>
+            	<TEXT>Most notably, it only focuses on the CartPoleSwingUp environment.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_4</DOCNO>
+            	<TEXT>Lastly, I ran a couple of experiments to test the permutation invariance and robustness to noise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_5</DOCNO>
+            	<TEXT>Hope some of you could find it useful!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_6</DOCNO>
+            	<TEXT>I would be happy to get any feedback or answer any questions!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_93_7</DOCNO>
+            	<TEXT>Video link: [https://youtu.be/mi\_mzlhBGAU](https://youtu.be/mi_mzlhBGAU)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_95_0</DOCNO>
+            	<TEXT>Pruning + The Lottery Ticket Hypothesis [Video Tutorial]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_1745_96_0</DOCNO>
+            	<TEXT>Lottery Ticket Hypothesis + pruning [implementation video tutorial]</TEXT>
+        </DOC>

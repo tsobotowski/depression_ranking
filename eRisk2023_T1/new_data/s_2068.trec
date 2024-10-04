@@ -1,0 +1,2416 @@
+        <DOC>
+            	<DOCNO>s_2068_0_0</DOCNO>
+            	<TEXT>they dont stop coming</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_1_0</DOCNO>
+            	<TEXT>they dont stop coming</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_0</DOCNO>
+            	<TEXT>IWD - "resolve_systemd_set_dns() condition failed" on school WiFi, protocol WPA-PEAP</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_1</DOCNO>
+            	<TEXT>My school is not running eduroam, even though it uses the same protocol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_2</DOCNO>
+            	<TEXT>I got my config file set up and I can finally connect to the network without error.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_3</DOCNO>
+            	<TEXT>However, it seems DNS lookup is failing on the part of systemd or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_4</DOCNO>
+            	<TEXT>Not really sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_5</DOCNO>
+            	<TEXT>Can't post logs to text (obviously), but here's [systemctl status iwd](https://imgur.com/a/8H7lzyD) in Imgur format.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_6</DOCNO>
+            	<TEXT>Here's [my config file for the network.](https://imgur.com/gallery/19X3SHK) My school's IT department told me they don't verify CA Cert and to instruct my PC not to ask iwd for it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_7</DOCNO>
+            	<TEXT>I tried generating a private CA Cert key for myself and passing it to the network but that didn't work either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_8</DOCNO>
+            	<TEXT>Not quite sure where to go from here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_9</DOCNO>
+            	<TEXT>I tried adding the network's DNS I pulled from my phone manually in some config file or another.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_10</DOCNO>
+            	<TEXT>Edit: I fixed it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_11</DOCNO>
+            	<TEXT>systemd-resolved was not enabled on startup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_2_12</DOCNO>
+            	<TEXT>If you're having the same DNS lookup problem, try ```systemctl start systemd-resolved```</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_0</DOCNO>
+            	<TEXT>I think that's the fun of it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_1</DOCNO>
+            	<TEXT>I would call music it's own language, and each genre more or less a dialect of sorts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_2</DOCNO>
+            	<TEXT>The difficult part is, I'm still struggling to speak the language!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_3</DOCNO>
+            	<TEXT>There's the grammar, syntax, colloquialisms, slang, and, more importantly than all these things, tone, inflection and timbre!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_4</DOCNO>
+            	<TEXT>I think that's the wonderful part of *having* the theory and using it sparingly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_5</DOCNO>
+            	<TEXT>Some ideas are simply innate, and when you get stuck, the ruleset, the familiar roads, the GPS is right there to be used and abused.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_6</DOCNO>
+            	<TEXT>It's interesting how many jazz musicians talk about learning music by ear, and I've *always known* it was important, but only lately have I started to really appreciate *why*.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_7</DOCNO>
+            	<TEXT>They hate on stuff like the Omnibook, not because it bastardizes the work they used to do, like GPS versus navigating with a paper map, or even better yet, like the people who knew Bird, like Miles, who were able to hear nearly everything he played.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_8</DOCNO>
+            	<TEXT>That's like asking for directions when you're lost.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_9</DOCNO>
+            	<TEXT>It's confusing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_3_10</DOCNO>
+            	<TEXT>Philosophically perplexing, to say the least.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_0</DOCNO>
+            	<TEXT>And see, that's why I creatively don't like (straight ahead) jazz.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_1</DOCNO>
+            	<TEXT>Jazz has lost a lot of the originality and charm it once had.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_2</DOCNO>
+            	<TEXT>A modern bebop record consists of one of three things: licks you've heard a million times, incessant noodling with no sense of melody (IE an intense display of chops), or totally avant garde noise without the magic that makes guys like Ornette Coleman or whomever so interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_3</DOCNO>
+            	<TEXT>And originality is met with derision!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_4</DOCNO>
+            	<TEXT>It's like if you improvised your own solo over *Stairway*, you're not *really* playing Stairway.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_5</DOCNO>
+            	<TEXT>On the other hand, plenty of music needs* to conform to genre in order to communicate to an audience of non-native speakers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_6</DOCNO>
+            	<TEXT>Show someone who speaks Chinese an un-subbed American TV show, and as a result of their body language and choreography they'll get the gist of the show; they'd know who the bad guys and good guys are and so forth, and likely they'd be entertained, much like how music in other languages can be just as entertaining even when you don't know what the lyrics mean.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_7</DOCNO>
+            	<TEXT>How do you bridge the gap between originality and the tried and true?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_8</DOCNO>
+            	<TEXT>That's the hardest flipping part!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_9</DOCNO>
+            	<TEXT>It's a rare find when you find a musician who can bring one genre's dialect into another.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_10</DOCNO>
+            	<TEXT>Jazz used to be a process, now it's little more than a glorified dick measuring contest for many musicians.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_11</DOCNO>
+            	<TEXT>Very few modern cats are really, truly expressing themselves  gt;!(Jacob Collier, for example).!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_12</DOCNO>
+            	<TEXT>lt; So sure, the *page* isn't the *music*.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_13</DOCNO>
+            	<TEXT>But as far as untrained ears go, it's certainly a standard for what's *good* and what isn't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_14</DOCNO>
+            	<TEXT>There's still beautiful expression to be done inside playing by the rules.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_15</DOCNO>
+            	<TEXT>So that's where I'm struggling creatively.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_16</DOCNO>
+            	<TEXT>I'm trying to break the rules, but maybe I don't know them as well as I think.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_17</DOCNO>
+            	<TEXT>Or maybe I just know little more than what kind of paper the rules are written on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_18</DOCNO>
+            	<TEXT>Anyway, if you wanna start with jazz, find yourself a PDF of the Charlie Parker Omnibook!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_19</DOCNO>
+            	<TEXT>Since you like the blues, I'd start with the likes of Now's the Time, Billie's Bounce, and Blues for Alice (which has a really** strange blues form).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_20</DOCNO>
+            	<TEXT>Jazz blues is wholly unique but I think it really illuminates the genius of guys like BB King (who was very nearly a jazz musician).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_21</DOCNO>
+            	<TEXT>Jazz is really just blues with different form.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_22</DOCNO>
+            	<TEXT>Also check out Miles Davis.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_4_23</DOCNO>
+            	<TEXT>He was hella seeped in the blues, dare I say a blues musician before a jazz musician.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_0</DOCNO>
+            	<TEXT>I don't know if I necessarily agree.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_1</DOCNO>
+            	<TEXT>Well, I do and I don't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_2</DOCNO>
+            	<TEXT>On the one hand, not all music theory uses the more or less "collegiate terms", stuff like subdominant, the IV, even jazz terminology like sideslip or Barry Harris's diminished notes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_3</DOCNO>
+            	<TEXT>But plenty of cats had literally no knowledge of theory whatsoever.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_4</DOCNO>
+            	<TEXT>Kurt Cobain literally had no idea what he was doing other than that he wanted to express himself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_5</DOCNO>
+            	<TEXT>And I guess you could call knowledge of guitar effects and chord shapes a kind of theory.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_6</DOCNO>
+            	<TEXT>No doubt he had some kind of working knowledge of root motion (except he has slash chords all over his music that comes from him fitting basslines he heard over melodies he heard).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_7</DOCNO>
+            	<TEXT>And certainly song form is theoretical... There's also melody writing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_8</DOCNO>
+            	<TEXT>Either way, no formal training.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_9</DOCNO>
+            	<TEXT>I think the most interesting part is that the most intensely studied veins of music theory like the harmony and rhythm are really just a quarter to an eighth of the entirety of music theory.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_5_10</DOCNO>
+            	<TEXT>There's a whole theory to crafting beats, a whole theory to punk rock a whole theory to music production in general, and the language we use to communicate the intricacies of these genres with are unique.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_6_0</DOCNO>
+            	<TEXT>Great mix!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_6_1</DOCNO>
+            	<TEXT>Keep working hard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_6_2</DOCNO>
+            	<TEXT>Great ideas, great melodies, great tambre.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_0</DOCNO>
+            	<TEXT>Man this is great!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_1</DOCNO>
+            	<TEXT>Great voice, great guitar parts!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_2</DOCNO>
+            	<TEXT>I have some ideas: first, reverb on your voice.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_3</DOCNO>
+            	<TEXT>You've got a great voice but it just needs to fill everything up more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_4</DOCNO>
+            	<TEXT>A touch of room reverb on those drums.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_5</DOCNO>
+            	<TEXT>They sound synthy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_6</DOCNO>
+            	<TEXT>Or try opting for a drum machine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_7</DOCNO>
+            	<TEXT>Something like that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_8</DOCNO>
+            	<TEXT>Guitars need effects too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_9</DOCNO>
+            	<TEXT>The chorus works but literally give em a way longer effects chain.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_10</DOCNO>
+            	<TEXT>Try and beef the bass up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_11</DOCNO>
+            	<TEXT>Saturation would do it wonders.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_12</DOCNO>
+            	<TEXT>You know when you're on acid and you feel like you're two seconds ahead and two seconds behind?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_13</DOCNO>
+            	<TEXT>Maybe you don't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_7_14</DOCNO>
+            	<TEXT>But that's the feeling you want.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_8_0</DOCNO>
+            	<TEXT>Try autotune with hella reverb.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_8_1</DOCNO>
+            	<TEXT>Drums and guitar sound great but it needs that sheen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_9_0</DOCNO>
+            	<TEXT>Yeah saying it's "not commercial" comes off as weak and poser-ish.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_9_1</DOCNO>
+            	<TEXT>Let everyone else assign labels to your stuff and just be yourself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_10_0</DOCNO>
+            	<TEXT>Originality versus convention?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_10_1</DOCNO>
+            	<TEXT>In composition, how do you find a place between being original and appealing to convention?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_10_2</DOCNO>
+            	<TEXT>Many genres have unique aspects, but it seems hard to write originally when trying to conform to one genre or another.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_10_3</DOCNO>
+            	<TEXT>For instance, every time I hear someone come out with a trap song, I find it difficult to feel excited about music that sounds like it's been done a million times before.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_10_4</DOCNO>
+            	<TEXT>On the other hand, it's hard to appreciate unique trap music with interesting conception for the simple fact that it sounds "wrong".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_10_5</DOCNO>
+            	<TEXT>The conventions of a genre help it to communicate to an audience that doesn't know anything about music, but how do you conform without ending up swimming in a sea of people making music just like you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_0</DOCNO>
+            	<TEXT>what's the most progressive genre right now?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_1</DOCNO>
+            	<TEXT>I've been listening to jazz again to get back in touch with my roots.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_2</DOCNO>
+            	<TEXT>I feel like I've always gravitated towards the most daring and progressive music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_3</DOCNO>
+            	<TEXT>What I'm hunting for is the shit that's really futuristic, if that makes sense.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_4</DOCNO>
+            	<TEXT>Like when I hear Coltrane I feel like his records were waxed in the 4000s and sent back in time for us to enjoy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_5</DOCNO>
+            	<TEXT>I get the feeling the most progressive music is gonna come from some amalgamation of EDM, jazz and hip hop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_6</DOCNO>
+            	<TEXT>I feel like the most progressive thing I've heard till now was probably TPAB.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_11_7</DOCNO>
+            	<TEXT>I know there's more out there!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_12_0</DOCNO>
+            	<TEXT>I adamantly listen to both!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_12_1</DOCNO>
+            	<TEXT>Zappa is my goat</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_13_0</DOCNO>
+            	<TEXT>This guy should go to jail let alone keep hitting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_13_1</DOCNO>
+            	<TEXT>Get out now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_14_0</DOCNO>
+            	<TEXT>You don't deserve him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_14_1</DOCNO>
+            	<TEXT>Get out before you fuck his life up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_15_0</DOCNO>
+            	<TEXT>He's too good for you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_15_1</DOCNO>
+            	<TEXT>Don't ruin a good man's life by expecting more from somebody who you say is everything you want out of someone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_15_2</DOCNO>
+            	<TEXT>If your personalities don't gel, that's one thing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_15_3</DOCNO>
+            	<TEXT>Chemistry is fickle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_15_4</DOCNO>
+            	<TEXT>You don't have to be there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_16_0</DOCNO>
+            	<TEXT>Just meet people!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_16_1</DOCNO>
+            	<TEXT>Don't worry about dating, because relationships just happen man.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_16_2</DOCNO>
+            	<TEXT>Like you meet someone and the fireworks just start going off cuz the chemistry is just there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_16_3</DOCNO>
+            	<TEXT>Don't sweat it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_17_0</DOCNO>
+            	<TEXT>If you have to ask, she's not into you</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_18_0</DOCNO>
+            	<TEXT>I'm not even reading this Go to therapy and don't go too deep with your so until you do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_19_0</DOCNO>
+            	<TEXT>Don't wait.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_19_1</DOCNO>
+            	<TEXT>You see a cutie out there in the wild, talk to her.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_19_2</DOCNO>
+            	<TEXT>Don't think about the wedding and the babies, just talk to her.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_19_3</DOCNO>
+            	<TEXT>If she's not into you (you'll know) then move on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_20_0</DOCNO>
+            	<TEXT>Just talk to him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_20_1</DOCNO>
+            	<TEXT>You're a girl.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_20_2</DOCNO>
+            	<TEXT>The bar is so low for flirting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_20_3</DOCNO>
+            	<TEXT>Come up with any excuse to talk to him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_20_4</DOCNO>
+            	<TEXT>Harness your inner Elaine from Seinfeld and go in</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_21_0</DOCNO>
+            	<TEXT>But also because of the sex thing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_22_0</DOCNO>
+            	<TEXT>Talk to her my guy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_22_1</DOCNO>
+            	<TEXT>Get her snap, don't seem too excited.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_23_0</DOCNO>
+            	<TEXT>These two men in particular don't share our values.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_23_1</DOCNO>
+            	<TEXT>What about all the rapists in America?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_23_2</DOCNO>
+            	<TEXT>We don't deport them do we? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_23_3</DOCNO>
+            	<TEXT>We probably should, instead we elect them lol)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_24_0</DOCNO>
+            	<TEXT>I mean... She's not wrong is she?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_25_0</DOCNO>
+            	<TEXT>This is fuckin fire</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_26_0</DOCNO>
+            	<TEXT>Xfce is the only de that doesn't run like dogshit out of the box.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_26_1</DOCNO>
+            	<TEXT>It doesn't have too much bullshit and you can make it look really pretty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_26_2</DOCNO>
+            	<TEXT>Kde and gnome are both way too extra and take away from the linux experience instead of add to it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_27_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_28_0</DOCNO>
+            	<TEXT>It's just min/maj7.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_31_0</DOCNO>
+            	<TEXT>No no it outlines a7b13 over dmin7</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_0</DOCNO>
+            	<TEXT>Consumer grade Linux?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_1</DOCNO>
+            	<TEXT>This is probably a very controversial subject but I'm interested in everyone's ideas on it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_2</DOCNO>
+            	<TEXT>Please don't downvote: I'm here to learn!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_3</DOCNO>
+            	<TEXT>With the Steam Deck on the horizon, and Windows 11 cutting support for old gen hardware, we're definitely going to see more Linux talk on the horizon.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_4</DOCNO>
+            	<TEXT>Linux has basically taken over every computer market except the desktop market by many measures.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_5</DOCNO>
+            	<TEXT>I think it's a complicated issue, but I believe Linux could become a lot more popular this decade.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_6</DOCNO>
+            	<TEXT>With issues of consumer privacy on the minds of many, plus the simple fact that by and large Linux can offer great (often better) performance in many areas when tweaked and fiddled with, I think the average consumer would benefit greatly from open source.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_7</DOCNO>
+            	<TEXT>Let's say for discussion's sake that a Linux distro emerged as a direct competitor to Microsoft and Apple and it came on it's own hardware.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_8</DOCNO>
+            	<TEXT>Let's also assume there's no definitive features between it and other consumer desktop OS's; Wine can, in this future, perfectly run programs like Vegas and Photoshop, Ableton, basically all the stuff that keeps even the most advanced penguins with a dual boot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_9</DOCNO>
+            	<TEXT>It also features a robust app store that's basically a gui version of your favorite package manager, and basically all the power user type *stuff* that makes Linux less accessible to the average consumer has been abstracted (but you can still do it the fun way if you so choose).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_10</DOCNO>
+            	<TEXT>It sounds kinda great, but part of the beauty of linux lies in it's ecosystem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_11</DOCNO>
+            	<TEXT>It's more secure because Linux users simply aren't worth hacking like Microsoft users.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_12</DOCNO>
+            	<TEXT>I'd need to see someone make the case that Linux is *inherently* more secure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_13</DOCNO>
+            	<TEXT>It's faster because many features that people like, and a ton that they don't like or don't know about, have been left out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_14</DOCNO>
+            	<TEXT>It also has, yes dedicated and top notch, but nonetheless basically unpaid hobbyist development supporting it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_15</DOCNO>
+            	<TEXT>However, "selling out" might be really damaging for the community.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_16</DOCNO>
+            	<TEXT>I fear that it's almost inevitable that Linux takes over the desktop consumer market, but I also welcome it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_17</DOCNO>
+            	<TEXT>There's a lot of things that scare me, and a lot of things I'm excited about.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_32_18</DOCNO>
+            	<TEXT>This is long winded, ignorant at times, but I'm interested in the discussion!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_33_0</DOCNO>
+            	<TEXT>I knew it was being done somewhere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_33_1</DOCNO>
+            	<TEXT>But it's not a direct competitor to windows, so it's not a perfect example of my hypothetical.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_33_2</DOCNO>
+            	<TEXT>I'll look it up nonetheless!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_0</DOCNO>
+            	<TEXT>What worries me is that given the open source nature of the Linux kernel, you'd see firms emerging to spin Linux into what we run away from in the first place in a way that the average consumer is not aware of.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_1</DOCNO>
+            	<TEXT>Linux needs defaults, this much is certain.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_2</DOCNO>
+            	<TEXT>But as long as debates over emacs and vim live on, or xfce vs kde vs gnome (both of which I have VERY strong opinions about lmfao), the "community" will be it's own undoing for such a release.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_3</DOCNO>
+            	<TEXT>There's most certainly going to be detractors to a Linux evangelist movement; you see it when people get SHIT on for going to forums looking for basic help with stuff that's bread and butter to the average Linux user.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_4</DOCNO>
+            	<TEXT>This comes down to two things: nobody should have to RTWF to install Spotify, but the community is all too unforgiving and basically prides itself on how hard it is to do things that are basic to other ecosystems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_5</DOCNO>
+            	<TEXT>I personally love pulling up the arch wiki to get some shit running, and I'm certainly not going to use a more consumer grade OS, but I fear the damage that the community will do to itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_6</DOCNO>
+            	<TEXT>Think of the money that we could all be making doing tech support for Linux systems if they become more popular.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_7</DOCNO>
+            	<TEXT>I ran a little test last week: I put debian on my dad's home PC.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_8</DOCNO>
+            	<TEXT>He uses it for editing text for his job and browsing sports Reddit and Facebook.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_9</DOCNO>
+            	<TEXT>What I found is that... He loved it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_10</DOCNO>
+            	<TEXT>It did everything he wanted it to do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_11</DOCNO>
+            	<TEXT>I aimed for a Chromebook like model with less bullshit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_12</DOCNO>
+            	<TEXT>He told me, "I dunno what you did but my computer is faster."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_13</DOCNO>
+            	<TEXT>So it seems like linux could be great in a consumer space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_14</DOCNO>
+            	<TEXT>I'd love to see a $100 PC with like 2.5ghz and 4gb of ram emerge running a prebuilt version of Arch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_34_15</DOCNO>
+            	<TEXT>I think it'd totally fuck up the consumer computing market.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_35_0</DOCNO>
+            	<TEXT>Have they, though?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_35_1</DOCNO>
+            	<TEXT>Osx is unix-like but it's very far removed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_35_2</DOCNO>
+            	<TEXT>That's what worries me the most: would we end up with Unix like operating systems and circle back into the consumerist hell hole we all run from?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_36_0</DOCNO>
+            	<TEXT>I think it's certainly possible and it's been approaching for two decades at least.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_37_0</DOCNO>
+            	<TEXT>I believe you, but I wonder how true that would be if Macs were way cheaper.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_37_1</DOCNO>
+            	<TEXT>That's like saying sewing your own clothes is more popular than Gucci, to me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_38_0</DOCNO>
+            	<TEXT>No but I'm sure many consumers wish they could afford Macs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_38_1</DOCNO>
+            	<TEXT>It's not a perfect comparison but I think that despite not having the greatest market share I'd still argue apple products are more "popular".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_39_0</DOCNO>
+            	<TEXT>How does yours lmao My point is Linux is not the dominant cultural and economic force in the consumer tech market that it could be, and it seems to be picking up a ton of steam lately.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_39_1</DOCNO>
+            	<TEXT>I'm interested to see what people think about that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_39_2</DOCNO>
+            	<TEXT>I figured many users would outright reject the idea of a consumer Linux desktop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_39_3</DOCNO>
+            	<TEXT>But I see your point.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_39_4</DOCNO>
+            	<TEXT>ChromeOS is totally a consumer Linux desktop, but it's definitely not conforming to the ideals of the community as much as it could.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_40_0</DOCNO>
+            	<TEXT>Personally I think it's because big tech companies damage the tech world.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_40_1</DOCNO>
+            	<TEXT>Despite hardware getting better and better why does it feel like windows PC's and macs don't feel *faster*?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_40_2</DOCNO>
+            	<TEXT>Everybody knows they're being farmed for ad data and all sorts of other sketchy shit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_40_3</DOCNO>
+            	<TEXT>Logging into my Linux machine is amazing knowing I'm not getting pillaged for data, that almost everything I'm using and running is free and open source software that follows the simplicity and extensibility standard UNIX users champion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_40_4</DOCNO>
+            	<TEXT>With stuff like Brave taking off, and cryptocurrency, and all sorts of other privacy-oriented efforts in the consumer space, isn't Linux the ultimate champion of this mindset??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_40_5</DOCNO>
+            	<TEXT>It would simply make the world better, I think, if Linux as we know it became the standard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_41_0</DOCNO>
+            	<TEXT>I think it'll take a political movement for sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_41_1</DOCNO>
+            	<TEXT>And there also has to be an evangelical movement that makes it easy to adopt... Yeah evangelical... Totally reminiscent of the religious themes in the matrix.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_41_2</DOCNO>
+            	<TEXT>But am I wrong?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_41_3</DOCNO>
+            	<TEXT>Like Linux would set the average consumer free.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_42_0</DOCNO>
+            	<TEXT>I know lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_42_1</DOCNO>
+            	<TEXT>But I'm serious!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_43_0</DOCNO>
+            	<TEXT>I've been working hard on finding the flow state for quite some time, and it gets easier and easier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_43_1</DOCNO>
+            	<TEXT>I got the chance to spend about 9 hours cooking up music yesterday, and I found that, shit, I'm better than I was last week!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_43_2</DOCNO>
+            	<TEXT>It felt good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_43_3</DOCNO>
+            	<TEXT>The fun part is just sitting down and \*allowing yourself to churn out shitty ideas\*, throwing stuff out, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_43_4</DOCNO>
+            	<TEXT>What I'm looking for is that\* burst of creativity, that altered state where the music speaks more for me than words ever could.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_43_5</DOCNO>
+            	<TEXT>I think I found that yesterday just a bit, but it still wasn't, uh, good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_44_0</DOCNO>
+            	<TEXT>I'm just exploring different options.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_44_1</DOCNO>
+            	<TEXT>Like I said, I just want to experiment with different sounds besides amp sims and DI.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_44_2</DOCNO>
+            	<TEXT>My tube amp is really unique and I want to explore using it as much as possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_44_3</DOCNO>
+            	<TEXT>If I was making a beat or something more pop-oriented then DI would be the right fit, but for more rock oriented styles the grungier sound of a '57 some blazing tubes is more fitting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_44_4</DOCNO>
+            	<TEXT>I also just want to get a taste of all the possibilities.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_44_5</DOCNO>
+            	<TEXT>Of course not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_44_6</DOCNO>
+            	<TEXT>But it's fun!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_0</DOCNO>
+            	<TEXT>No, nobody outside the profession will give a single shit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_1</DOCNO>
+            	<TEXT>But I think substantial choices like this make great music as opposed to good music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_2</DOCNO>
+            	<TEXT>I'll give a totally tangential example: Kendrick Lamar's Hood Politics off TPAB.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_3</DOCNO>
+            	<TEXT>Notice the room reverb behind his vocals that's not present in any other track on the album.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_4</DOCNO>
+            	<TEXT>He sounds totally clean and professional elsewhere, but not on Hood Politics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_5</DOCNO>
+            	<TEXT>to me it sounds like a *deliberate choice* that calls back to his roots and the sound of S80 and GKMC, as well as other home brew rap tracks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_6</DOCNO>
+            	<TEXT>You don't pick up on little details like that unless you're a serious nerd AND you've heard TPAB 100+ times, and yet that one choice does SO MUCH to make that track hit hard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_7</DOCNO>
+            	<TEXT>My point is, it's fun to play around and have a lot of possibility at your disposal, because tiny choices can have a huge impact on the music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_8</DOCNO>
+            	<TEXT>I'm not a professional, I don't claim to be, and I'm more than privelidged and thankful that I can fuck around and have a good time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_45_9</DOCNO>
+            	<TEXT>Also I'm not spending a single dollar on this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_47_0</DOCNO>
+            	<TEXT>Where can I get a pair of Chucks in this color?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_48_0</DOCNO>
+            	<TEXT>Do Chucks come in this color?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_48_1</DOCNO>
+            	<TEXT>Grey is too light, black too dark?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_49_0</DOCNO>
+            	<TEXT>Saw these on eBay.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_49_1</DOCNO>
+            	<TEXT>They're worn and washed to hell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_49_2</DOCNO>
+            	<TEXT>The Converse grey are really light and the blacks are too dark.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_49_3</DOCNO>
+            	<TEXT>Can't find converse selling them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_49_4</DOCNO>
+            	<TEXT>Is there a way to modify a black pair for this look?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_50_0</DOCNO>
+            	<TEXT>You think you could modify a pair of blacks to get this color?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_51_0</DOCNO>
+            	<TEXT>Yeah that's what I was thinking, like a used eBay pair.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_52_0</DOCNO>
+            	<TEXT>I saw those and I loved them so much!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_0</DOCNO>
+            	<TEXT>Gotta go with utopian.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_1</DOCNO>
+            	<TEXT>As great as it is to imagine a perfect society I think many leftists believe an unrealistic and overly idealistic fantasy full of big words that alienates people from an ideology that is supposed to appeal to everyone, yes, EVEN right wingers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_2</DOCNO>
+            	<TEXT>Most people can't see outside of their lives going to work and earning a paycheck to pay for all their basic necessities, let alone establishing a stateless, classless, moneyless society.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_3</DOCNO>
+            	<TEXT>If you really want to speak to people, start with things that nobody disagrees on: the middle class and below assumes most of the tax burden in our economy, and the fed pisses away half that money away on our military.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_4</DOCNO>
+            	<TEXT>Instead, the money we pull from taxes should be given back to the people directly in the form of stuff that actually helps them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_5</DOCNO>
+            	<TEXT>That point alone will get you some cred from right wingers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_6</DOCNO>
+            	<TEXT>Another example, nobody who votes red disagrees that healthcare is too expensive, but we've been sucked into this gridlock where nothing gets done and everybody fights over something we all agree on, fueled by ignorance poisoning and strawmanning from both sides.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_7</DOCNO>
+            	<TEXT>My dad and I agree 100% on political theory nearly 100% despite the fact that he voted red.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_8</DOCNO>
+            	<TEXT>That just shows you how the *real* political divide in this country is between the true left wing, the 99%, and the right wing, the elite.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_9</DOCNO>
+            	<TEXT>I told him it's bullshit how much he pays in taxes, and how for all the platitudes both parties spit about what's right and wrong he continues to be a slave to taxes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_10</DOCNO>
+            	<TEXT>He agreed, and I said, "you know who'd agree with that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_11</DOCNO>
+            	<TEXT>Karl Marx."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_12</DOCNO>
+            	<TEXT>Marxism speaks to everyone in the 99%.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_13</DOCNO>
+            	<TEXT>Unfortunately my ideology basically encourages people not to vote, but I always emphasize that local politics matter far more than federal political theatre.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_14</DOCNO>
+            	<TEXT>Get out there and join the DSA instead of talking politics online.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_15</DOCNO>
+            	<TEXT>Speak to right wingers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_16</DOCNO>
+            	<TEXT>You'd be very surprised how many of them would agree with your ideas if you word things differently than how many leftists do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_53_17</DOCNO>
+            	<TEXT>And also, fuck the Democrats.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_0</DOCNO>
+            	<TEXT>This is true too!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_1</DOCNO>
+            	<TEXT>As much as I criticize radicalism, I only do so because the "radicals" are just angry Twitter people.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_2</DOCNO>
+            	<TEXT>I still fuck heavy with Marx, but not later period tankie marx as much.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_3</DOCNO>
+            	<TEXT>Leftists spend as much time fighting each other online as they do anything else.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_4</DOCNO>
+            	<TEXT>But the reason it's used as a pejorative is because leftism isn't being presented realistically.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_5</DOCNO>
+            	<TEXT>Many leftist ideas are totally utopian.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_6</DOCNO>
+            	<TEXT>We zero in on one single solution to a problem as the only way to solve said problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_7</DOCNO>
+            	<TEXT>I think radical sweeping change is great to talk about as a way of saying "we can do big stuff!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_8</DOCNO>
+            	<TEXT>We can make radical changes!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_9</DOCNO>
+            	<TEXT>But at the same time, you can't be overly idealistic and optimistic given how pessimism inducing our fucking retarded government is to everyone on every side.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_10</DOCNO>
+            	<TEXT>I pose this question, ironically very utopian in nature: what if we lowered the cost of healthcare with a series of regulations on insurance companies instead of M4A?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_11</DOCNO>
+            	<TEXT>What if we told every insurance company exactly what they had to price stuff at, but otherwise let the system run as is, making the industry less profitable and more equitable?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_12</DOCNO>
+            	<TEXT>let's just assume the cost of healthcare goes down for everybody.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_13</DOCNO>
+            	<TEXT>We could say the price of monthly insurance is directly proportional to yearly income, and it's always significantly lower than it is currently.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_14</DOCNO>
+            	<TEXT>Wouldn't that be a victory for leftism even if we didn't install m4a?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_15</DOCNO>
+            	<TEXT>Yet you'd find so many leftists calling bullshit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_16</DOCNO>
+            	<TEXT>That's why I hate "utopianism".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_54_17</DOCNO>
+            	<TEXT>I think there's so many ways to go about solving issues, and often the solutions we propose (inspired by other countries) come with their own set of issues that are fueled by the same exact 1%'rs!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_55_0</DOCNO>
+            	<TEXT>You like Ableton?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_55_1</DOCNO>
+            	<TEXT>Able to suck dis dick</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_57_0</DOCNO>
+            	<TEXT>thank you based foreskin</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_58_0</DOCNO>
+            	<TEXT>I'm inclined to say Miles... I don't really know why.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_58_1</DOCNO>
+            	<TEXT>It's just that when you hear a Miles record, everything sounds "right", especially the MDQT and Kind of Blue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_58_2</DOCNO>
+            	<TEXT>Everything sounds like it belongs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_58_3</DOCNO>
+            	<TEXT>Man was never afraid to lay back, swing, repeat ideas, leave space... and his bands sound like they're having a conversation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_58_4</DOCNO>
+            	<TEXT>My favorite thing Miles does is on tracks like Cannonballs Autumn Leaves and If I Were A Bell, Miles takes the head and at the end he ends with like an upward scale that kicks the band off with higher energy and let's his sax player come in without having to build their solo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_58_5</DOCNO>
+            	<TEXT>So friggin bad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_59_0</DOCNO>
+            	<TEXT>Couldn't agree more!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_59_1</DOCNO>
+            	<TEXT>Outside of jazz, everybody knew Bird and especially** Miles, from classical to rock n roll</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_60_0</DOCNO>
+            	<TEXT>This is true.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_60_1</DOCNO>
+            	<TEXT>Sinatra readily admitted he wasn't a "jazz" musician and showed immense respect for the cats who made his music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_61_0</DOCNO>
+            	<TEXT>Yeah, as far as *all* time greats, he's not there yet..give him 20 years and he could be up there with Brecker.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_61_1</DOCNO>
+            	<TEXT>He also broke into the popular music scene which is totally dope.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_61_2</DOCNO>
+            	<TEXT>To me TPAB has some of the same magic Kind of Blue does, so him being a part of that definitely makes him a contender for one of the greats.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_61_3</DOCNO>
+            	<TEXT>We haven't seen much from him though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_61_4</DOCNO>
+            	<TEXT>I loved The Epic, but it wasn't top tier material imo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_61_5</DOCNO>
+            	<TEXT>Don't downvote him!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_61_6</DOCNO>
+            	<TEXT>He's just asking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_62_0</DOCNO>
+            	<TEXT>Interesting take.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_62_1</DOCNO>
+            	<TEXT>Are you a keys player?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_62_2</DOCNO>
+            	<TEXT>Monk definitely brought jazz piano into the present.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_62_3</DOCNO>
+            	<TEXT>I think many people overlook how important keys is to jazz.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_62_4</DOCNO>
+            	<TEXT>They're like the communication point between the melody and rhythm section, 50% rhythm, 50% harmony.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_62_5</DOCNO>
+            	<TEXT>I think he also kind of opened the door for avant garde jazz.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_62_6</DOCNO>
+            	<TEXT>He also likely taught a lot of musicians the finer points of harmony which gave jazz more influence than just the blues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_63_0</DOCNO>
+            	<TEXT>The one thing I really hate is how easy it is to get banned on this sub.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_63_1</DOCNO>
+            	<TEXT>Questions that should* fit and provide good discussion get banned far too often.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_0</DOCNO>
+            	<TEXT>First of all, as far as sound design is concerned, what I like to do is create synths that have the effects of real instruments.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_1</DOCNO>
+            	<TEXT>Many synths have string and brass presets, and when I need that \*feeling\* of strings or brass, I use that synth.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_2</DOCNO>
+            	<TEXT>The other thing I think is really important is drawing direct inspiration for your music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_3</DOCNO>
+            	<TEXT>Most artists can tell you exactly where from their inspirations came for a track, and you'll see those similarities.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_4</DOCNO>
+            	<TEXT>You should try to do the same.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_5</DOCNO>
+            	<TEXT>The key to production is understanding sound design.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_6</DOCNO>
+            	<TEXT>Great sounds make a great song 100% of the time, and a great mix just brings all that together.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_7</DOCNO>
+            	<TEXT>Two things I'd recommend: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_8</DOCNO>
+            	<TEXT>pick your sounds first, write the song, don't use any compression or EQ at all when you're writing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_9</DOCNO>
+            	<TEXT>Just get everything down, since that's your strong suit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_10</DOCNO>
+            	<TEXT>Good recording practices do 90-95% of the work, and when you have an already amazing song before mixing, all you can do is get giddy with excitement as you comb through your track making everything knock even harder.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_11</DOCNO>
+            	<TEXT>Then start mixing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_12</DOCNO>
+            	<TEXT>Start in the lows then work your way up to the highs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_13</DOCNO>
+            	<TEXT>Get the kick drum to play against the bass using EQ and compression.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_14</DOCNO>
+            	<TEXT>If your kick and bass are occupying the same range then you'll need to swap one of them out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_15</DOCNO>
+            	<TEXT>In this phase, figure out what parts of the low/mids/highs your elements should occpy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_16</DOCNO>
+            	<TEXT>Basses don't make music noise in the 5k+ range and below the 50-100 range, so cut those out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_17</DOCNO>
+            	<TEXT>Then the mids.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_18</DOCNO>
+            	<TEXT>Mids are all about reduction because you'll need to make room for vocals, so focus on reducing the sounds of your chordal instruments in the midrange but not so deeply that you lose them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_19</DOCNO>
+            	<TEXT>Then the highs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_20</DOCNO>
+            	<TEXT>Hats and other cymbals and the higher harmonic information that makes your sounds have unique character to them occupy this space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_21</DOCNO>
+            	<TEXT>It's where distortion lives.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_22</DOCNO>
+            	<TEXT>It's also where reverb lives.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_23</DOCNO>
+            	<TEXT>Let your vocals dominate this space for vocal heavy music, or otherwise let the melody live here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_24</DOCNO>
+            	<TEXT>Reduce everything else.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_25</DOCNO>
+            	<TEXT>Most important audio effects are compression and EQ.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_26</DOCNO>
+            	<TEXT>Compression makes stuff louder and makes it possible to increase volume without hard clipping the loudest sounds.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_27</DOCNO>
+            	<TEXT>EQ lets you reduce harmonic content to only the bare necessities so everything can breathe together.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_28</DOCNO>
+            	<TEXT>For instance, a bass guitar gets hard low passed, guitars get hard high passed so none of their information conflicts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_29</DOCNO>
+            	<TEXT>Side chain compression is used when two sounds occupy the same space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_30</DOCNO>
+            	<TEXT>You can also use EQ to remove imperfections in recording quality.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_31</DOCNO>
+            	<TEXT>You can use it to remove room resonance by "sweeping" the signal for frequencies that ring out no matter what note is being played.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_32</DOCNO>
+            	<TEXT>Compression is the meat, EQ is the potatoes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_33</DOCNO>
+            	<TEXT>Production is reduction.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_34</DOCNO>
+            	<TEXT>Take away, lower and remove, don't keep adding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_35</DOCNO>
+            	<TEXT>Finally, I'd recommend some advice one of my non-musician friends gave: nobody really listens to \*what you have to say\*, they absorb what a track \*sounds\* like.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_36</DOCNO>
+            	<TEXT>Many artists write melodies and rappers feel the flow before they fit their bars to them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_37</DOCNO>
+            	<TEXT>Focus on the actual tone of your voice and sounds before you even think about what you're playing, and if that's something you struggle with, it's important to sit down for a whole week and fuck with sounds until you're hearing what you hear in your head.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_38</DOCNO>
+            	<TEXT>Check out r/synthrecipes and clone some of those and ask questions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_39</DOCNO>
+            	<TEXT>When you practice, work on the same thing for a week straight.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_40</DOCNO>
+            	<TEXT>Don't get distracted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_41</DOCNO>
+            	<TEXT>As for my own music, I'm the opposite as you, I think.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_42</DOCNO>
+            	<TEXT>I'm a two bit guitar player, singer, keys, guitar and bass player.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_43</DOCNO>
+            	<TEXT>I know a mountain of music theory from studying jazz and my ear is pure iron, to the point where I don't even have to think about theory when I write melodies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_44</DOCNO>
+            	<TEXT>But my mixing skills are great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_45</DOCNO>
+            	<TEXT>I know my way around Ableton, can get anything to sound good together, it's just \*what exactly\* I'm getting to sound good isn't ever any good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_46</DOCNO>
+            	<TEXT>I struggle to make compelling music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_47</DOCNO>
+            	<TEXT>I come off childish and lame most of the time, and I think a lot of that comes from feeling alienated and emotionally disconnected in life.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_48</DOCNO>
+            	<TEXT>I'm not really sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_64_49</DOCNO>
+            	<TEXT>I'm hurting a lot, and despite my love of music, it's so, so scary to be myself in music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_0</DOCNO>
+            	<TEXT>I've posted several times asking about artistic process and how to overcome the balance between conventionality and originality and I've had my post removed because it wasn't about "making music".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_1</DOCNO>
+            	<TEXT>I've also asked about practice methods and learning new instruments and for music recommendations and how to bring together the sounds of various artists I like... all banned.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_2</DOCNO>
+            	<TEXT>I was more welcome over on r/musictheory for topics like these.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_3</DOCNO>
+            	<TEXT>The thing is, this subreddit is one of the nicer music subs (looking at you r/audioengineering), and I really thought such a topic would lead to some interesting discussion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_4</DOCNO>
+            	<TEXT>Maybe I deserved it, not sure, but I've had a lot more posts banned than approved on this sub.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_5</DOCNO>
+            	<TEXT>Maybe that's for the better.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_6</DOCNO>
+            	<TEXT>I know moderation is hard and generally unrewarding for the time you put in, and this is a \*very\* popular subreddit that has a lot of low effort content, but sometimes it feels like the bar is a little too high when this community is so uniquely amazing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_7</DOCNO>
+            	<TEXT>As a 6-year follower over various accounts I feel like the subreddit doesn't have the same kind of discussion you can find in older posts (threads like (this one)\[[https://www.reddit.com/r/WeAreTheMusicMakers/comments/3mrwt1/why\_does\_my\_music\_suck\_so\_much/](https://www.reddit.com/r/WeAreTheMusicMakers/comments/3mrwt1/why_does_my_music_suck_so_much/)\], (this one)\[[https://www.reddit.com/r/WeAreTheMusicMakers/comments/9aovd/tips\_for\_learning\_multiple\_instruments/](https://www.reddit.com/r/WeAreTheMusicMakers/comments/9aovd/tips_for_learning_multiple_instruments/)\], and (this one)\[[https://www.reddit.com/r/WeAreTheMusicMakers/comments/61z5m8/starting\_a\_band\_as\_someone\_with\_no\_band\_experience/](https://www.reddit.com/r/WeAreTheMusicMakers/comments/61z5m8/starting_a_band_as_someone_with_no_band_experience/)\]).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_8</DOCNO>
+            	<TEXT>Again, maybe they're low-effort.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_9</DOCNO>
+            	<TEXT>Maybe they've been done to death.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_10</DOCNO>
+            	<TEXT>Not really sure!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_11</DOCNO>
+            	<TEXT>But honestly, the fact that you asked at all is really great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_65_12</DOCNO>
+            	<TEXT>I can't wait to see where this sub goes!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_66_0</DOCNO>
+            	<TEXT>Honestly, I probably deserved it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_66_1</DOCNO>
+            	<TEXT>But I was just suggesting that it sometimes feel like it's hard to get past the review process and I wonder how many others feel the same.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_67_0</DOCNO>
+            	<TEXT>Plugins that emulate guitar pedal effects?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_67_1</DOCNO>
+            	<TEXT>I'm looking for clues on some plugins that emulate older hardware, stuff like the Vulf Compressor, or plugins that are greatly inspired by the algorithms from hardware like Valhalla's lineup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_68_0</DOCNO>
+            	<TEXT>LMAO wait till you're in the car with your kids and that song comes on and be like, "oh yeah.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_68_1</DOCNO>
+            	<TEXT>I proposed to your mother during her divorce party to this song...... also you were an accident."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_69_0</DOCNO>
+            	<TEXT>You can put the pin back in</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_70_0</DOCNO>
+            	<TEXT>That's where chord subs start!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_70_1</DOCNO>
+            	<TEXT>Now try playing 7th chords over different chords... And play a chord with the same quality as the root over the fifth.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_70_2</DOCNO>
+            	<TEXT>Then you can get into diminished chords over dominants.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_70_3</DOCNO>
+            	<TEXT>You can also sub chords over the ii and vi and resolve into the root for spicy harmonies!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_70_4</DOCNO>
+            	<TEXT>The reason 7th chords are so cool is because you add a depth of emotion on top of "happy" or "sad".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_70_5</DOCNO>
+            	<TEXT>Add a maj7 to a major chord and suddenly you're in love!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_70_6</DOCNO>
+            	<TEXT>you've got a minor chord mixed in on top of a major chord.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_71_0</DOCNO>
+            	<TEXT>u/savevideo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_72_0</DOCNO>
+            	<TEXT>Where's ableton</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_73_0</DOCNO>
+            	<TEXT>Is that a norm McDonald joke? ;(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_75_0</DOCNO>
+            	<TEXT>i love hello kitty strat but they're like $600</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_76_0</DOCNO>
+            	<TEXT>[poop cum](https://reverb.com/p/squier-hello-kitty-stratocaster?hfid=40151854 amp;utm_source=google amp;utm_medium=cpc amp;utm_campaign=12293041828 amp;utm_content=campaignid=12293041828_adgroupid=114838717622_productpartitionid=1193497328314=merchantid=386893785_productid=40151854_keyword=_device=m_adposition=_matchtype=_creative=497275814538 amp;gclid=CjwKCAjwk6-LBhBZEiwAOUUDpyiBTHAac7G_058mCgpgbXWORQZFDmLG-Hbnyj2znAeVhCrJHUISrxoCJBUQAvD_BwE)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_77_0</DOCNO>
+            	<TEXT>I heard the final chapters were pretty bad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_77_1</DOCNO>
+            	<TEXT>Did you like them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_78_0</DOCNO>
+            	<TEXT>"Capitalism means that the free market is allowed to exist as-is with no government involvement whatsoever."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_78_1</DOCNO>
+            	<TEXT>C'mon you can do better than that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_78_2</DOCNO>
+            	<TEXT>Venezuela is suffering because of decades upon decades of viscous dictatorship (that our government supported!).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_78_3</DOCNO>
+            	<TEXT>Their economy was shit before they were socialist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_78_4</DOCNO>
+            	<TEXT>The USSR was dirt fucking poor before communism, so was China; now they're both world superpowers, sacrificing human rights for prosperity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_78_5</DOCNO>
+            	<TEXT>As they both introduce free market reforms (especially Russia) human rights continue to be massively shitty, although Russia doesn't use the gulags anymore.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_78_6</DOCNO>
+            	<TEXT>Sounds to me like authoritarianism is the issue, not socialism.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_79_0</DOCNO>
+            	<TEXT>t h e r a p y</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_80_0</DOCNO>
+            	<TEXT>True, I made a generalization, but literally I don't care about semantics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_80_1</DOCNO>
+            	<TEXT>They're influenced by leftist ideas.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_80_2</DOCNO>
+            	<TEXT> gt; as a South African Don't let me overstep through a lens of privelidge, but wasn't South Africa suffering *long* before socialism?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_80_3</DOCNO>
+            	<TEXT>As I see it apartheid did more damage to the economy than socialism ever could.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_80_4</DOCNO>
+            	<TEXT>Sounds like the lies they tell us as well: they'd rather you believe it's leftism than racism fucking up your economy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_0</DOCNO>
+            	<TEXT> gt;socialism means workers own the means of production Yeah and capitalism is when absolutely everything is privately owned.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_1</DOCNO>
+            	<TEXT>Shitty ass strawman, try harder.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_2</DOCNO>
+            	<TEXT>Social safety nets are a bandaid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_3</DOCNO>
+            	<TEXT>They're mainly supported by the middle class (cuz rich people don't pay taxes) so the rich can get away with not paying fair wages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_4</DOCNO>
+            	<TEXT>We should not need social safety nets, and we wouldn't if basic necessities like housing and healthcare weren't outrageously expensive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_5</DOCNO>
+            	<TEXT>So in that regard, no, I don't think they're socialist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_6</DOCNO>
+            	<TEXT>I think many are yet another vehicle of economic slavery, propped up so the government can sit around pissing in their own mouths and keep their stash away from the working man.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_81_7</DOCNO>
+            	<TEXT>The things I mentioned though *are* socialist.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_82_0</DOCNO>
+            	<TEXT>Let's stop arguing definitions already</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_83_0</DOCNO>
+            	<TEXT>braves fan here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_83_1</DOCNO>
+            	<TEXT>just saying, you guys looked like this last season and won the series sooooo none of us are hopeful lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_84_0</DOCNO>
+            	<TEXT>Fellas is it gay to have sleep apnea</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_85_0</DOCNO>
+            	<TEXT>Ok so Mac Demarco hired jazz musicians???</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_85_1</DOCNO>
+            	<TEXT>I already loved him, AND THEN he brought out the funk/jazz fusion??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_85_2</DOCNO>
+            	<TEXT>Bass player laying it down dirty and funky then ripping a solo like Jaco????!!!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_85_3</DOCNO>
+            	<TEXT>Every time I see anything related to him I love him even more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_85_4</DOCNO>
+            	<TEXT>KILLER SET.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_86_0</DOCNO>
+            	<TEXT>Listen to psychedelic music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_86_1</DOCNO>
+            	<TEXT>Notice how they overuse reverb and shit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_87_0</DOCNO>
+            	<TEXT>I wrote a command line tool for making shorthand macros for cd</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_87_1</DOCNO>
+            	<TEXT>I got tired of having to *paaaaainstakingly* cd around my system so I wrote a lil c program that quickly makes and modifies aliases in your .bashrc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_87_2</DOCNO>
+            	<TEXT>This is my first github commit and I'd love some feedback!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_87_3</DOCNO>
+            	<TEXT>It's got a few features you can read about in the readme, but basically, run: cdx [macro] to bind cd[macro] to your current directory cdx [macro] (directory) binds cd[macro] to the directory you give it and cdx [macro] -r removes said alias Check it out!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_87_4</DOCNO>
+            	<TEXT>https://github.com/soundsbyjs/cdx</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_88_0</DOCNO>
+            	<TEXT>Sorry bot, I can put it on FOSSHub if you'd like :/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_89_0</DOCNO>
+            	<TEXT>You know what?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_89_1</DOCNO>
+            	<TEXT>I might be able to write a bot that does that... every time you write a post or leave a comment it sends you a reminder to get off Reddit and get back to work lololol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_90_0</DOCNO>
+            	<TEXT> gt;How do I find the motivation to get my work done Ask yourself why you're at college in the first place.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_90_1</DOCNO>
+            	<TEXT>If your answer is "I dunno, that's what I've always been told I should do" then you're not there for the right reasons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_90_2</DOCNO>
+            	<TEXT>You should go into college with a career in mind that you want to achieve.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_90_3</DOCNO>
+            	<TEXT>You should want it so bad you will bear every bit of bullshit this fucking awful education system will force you to endure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_91_0</DOCNO>
+            	<TEXT>are you on acid?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_0</DOCNO>
+            	<TEXT>That's the thing about us boys... we typically don't do communication well because nobody takes us seriously when we complain about stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_1</DOCNO>
+            	<TEXT>If you ever show any serious negative emotion it has to be with the pretense that you're going to do something about it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_2</DOCNO>
+            	<TEXT>Women can complain non-stop about their day, if men complain about something that happened in their day the first thing you get asked is "well what am I supposed to do about it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_3</DOCNO>
+            	<TEXT>You complained about the same person last week."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_4</DOCNO>
+            	<TEXT>So we don't open up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_5</DOCNO>
+            	<TEXT>I used to be a really expressive person.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_6</DOCNO>
+            	<TEXT>Now, I keep to myself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_7</DOCNO>
+            	<TEXT>I realized that my last two girlfriends didn't really give a damn despite taking more than they give.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_8</DOCNO>
+            	<TEXT>But, to be honest, I think it's a strength-building exercise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_9</DOCNO>
+            	<TEXT>Strength is swallowing your demons and moving on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_10</DOCNO>
+            	<TEXT>I think women should be held to close to the same standards.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_92_11</DOCNO>
+            	<TEXT>Sitting around complaining is no good for anybody.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_93_0</DOCNO>
+            	<TEXT>I'm gonna go out against the norm and say that you *know* when somebody likes you, because you can *feel the chemistry*.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_93_1</DOCNO>
+            	<TEXT>It's this electricity that happens between two people who really vibe with each other.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_94_0</DOCNO>
+            	<TEXT>Personally, I think Ableton's midi roll is actually less powerful than FL's.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_94_1</DOCNO>
+            	<TEXT>I found on Ableton that I get the best workflow using a Midi keyboard, versus on FL it's better to click/drag.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_95_0</DOCNO>
+            	<TEXT>Sounds like a sample of something like an ocarina or a wood flute or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_95_1</DOCNO>
+            	<TEXT>I'd start by pulling audio off of videos of people playing instruments like that!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_96_0</DOCNO>
+            	<TEXT>As far as I can tell, the intro sounds like some kind of Synth1 preset, like accordion or oboe or something.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_96_1</DOCNO>
+            	<TEXT>Then you warp/delay/room reverb/whatever the sound till it sounds all fucky.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_96_2</DOCNO>
+            	<TEXT>There's some crispy string patches in the middle, as well as some winds too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_96_3</DOCNO>
+            	<TEXT>Strawberry Guy describes himself as making "symphonies", so I assume he's picking instruments that more or less bring together an orchestral sound.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_97_0</DOCNO>
+            	<TEXT>I think it's a sample of him whistling with chorus and phaser run through a reverb buss, possibly melodyne'd.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_97_1</DOCNO>
+            	<TEXT>Nothin to it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_0</DOCNO>
+            	<TEXT>I seem to remember a part in Naruto where a person with the sharingan can inject their enemy with their own chakra to put them under a genjutsu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_1</DOCNO>
+            	<TEXT>Would need a source for that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_2</DOCNO>
+            	<TEXT>That said, with prep, Roshi stomps on pure power level alone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_3</DOCNO>
+            	<TEXT>If he knows about the Mangekyo's power there's nothing sauske can do because Roshi can sense sauske with his eyes closed and would likely be able to undergo mental prep to handle the effects of the genjutsu.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_4</DOCNO>
+            	<TEXT>I also think it's a 50/50 if he doesn't have prep, again on power level alone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_5</DOCNO>
+            	<TEXT>Without the Mangekyo, Sauske has the Chidori which doesn't have enough power to fuck with roshi (he's too fast).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_6</DOCNO>
+            	<TEXT>Roshi is a notoriously patient fighter and could certainly outlast the effects of the mangekyo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_98_7</DOCNO>
+            	<TEXT>I'm not even sure sauske's sword could kill him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_0</DOCNO>
+            	<TEXT>Rick Sanchez (pre season 3) vs Iron Man</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_1</DOCNO>
+            	<TEXT>This isn't "smartest man in the universe" Rick Sanchez.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_2</DOCNO>
+            	<TEXT>Pre season 3 before he started asspulling and took all the danger out of the show.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_3</DOCNO>
+            	<TEXT>Prep time: Rick knows he's going to be fighting Iron Man but all he's seen are a few of the MCU movies cuz "comic books are for nerds."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_4</DOCNO>
+            	<TEXT>Tony has seen a few episodes of Rick and Morty and he's preparing for the worst.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_5</DOCNO>
+            	<TEXT>They get one week.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_6</DOCNO>
+            	<TEXT>Rick obviously has no qualms killing Tony but Tony probably wouldn't unless he had to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_7</DOCNO>
+            	<TEXT>It happens inside Iron Man's timeline which Rick travels to with his portal gun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_8</DOCNO>
+            	<TEXT>Also Tony doesn't have the infinity gauntlet, can't have the help of the other Avengers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_99_9</DOCNO>
+            	<TEXT>It's all Rick, no help from Morty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_100_0</DOCNO>
+            	<TEXT>Richard surrounded by "the one"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_101_0</DOCNO>
+            	<TEXT>He's done more for the good of this country writing Seinfeld and Curb than he did serving in the army lolol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_102_0</DOCNO>
+            	<TEXT>Adrenochrome</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_103_0</DOCNO>
+            	<TEXT>Personally I never gave a shit about the fame.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_103_1</DOCNO>
+            	<TEXT>I have always wanted to make music that resonates with people and shares my experiences with them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_103_2</DOCNO>
+            	<TEXT>I've always dreamed of making something and getting a few thousand views on it or something, a couple "yeah mans!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_103_3</DOCNO>
+            	<TEXT>and a high five, but I guess I'm taking my sweet time working on that part.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_103_4</DOCNO>
+            	<TEXT>Until then, I appreciate the time I get to make art, unburdened by a need to make any money off of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_104_0</DOCNO>
+            	<TEXT>You know, sometimes I hear a song and I think, "you know, if I used that snare, I'd nitpick the hell out of it."</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_104_1</DOCNO>
+            	<TEXT>At the end of the day, what matters is that you're making something that you're proud of.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_104_2</DOCNO>
+            	<TEXT>If you don't like it, who's to say you should keep it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_104_3</DOCNO>
+            	<TEXT>I personally think when your music is good enough, you'll know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_0</DOCNO>
+            	<TEXT>I think that Linux has been gaining a lot of traction very slowly (and exponentially) for the last year and change, namely since all that stuff with Zuckieberg, since Snowden, and basically everything else that's happened in the wake of internet privacy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_1</DOCNO>
+            	<TEXT>It's no secret that if you want to get private on the internet, the first thing you should do is get off of maineline desktop distros.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_2</DOCNO>
+            	<TEXT>Then, people get on Linux and realize, wait, I can *install everything with a simple command???*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_3</DOCNO>
+            	<TEXT>I can *uninstall literally everything I don't use*???</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_4</DOCNO>
+            	<TEXT>and my computer is faster??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_5</DOCNO>
+            	<TEXT>I go back to windows cursing microsoft for burdening me with a bunch of bullshit I will never use.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_6</DOCNO>
+            	<TEXT>Add in that Windows 11 requires bluetooth, gen 8 processors and a bunch of other bullshit in an age where computers literally aren't getting faster despite hardware getting better, and suddenly.... Linux seems like it solves all that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_7</DOCNO>
+            	<TEXT>The linux kernel has improved immensely since the first time I installed it way back in 2013 as a wee lad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_8</DOCNO>
+            	<TEXT>Windows... has not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_9</DOCNO>
+            	<TEXT>Windows is still the bloated piece of shit it was back then, and it's only gotten worse.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_10</DOCNO>
+            	<TEXT>Microsoft Office is fucking *massive*, and what does it offer the user for all that extra harddrive space??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_11</DOCNO>
+            	<TEXT>Absolutely nothing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_105_12</DOCNO>
+            	<TEXT>At the same time, linux has tools that do the exact same stuff without all the bloat that are free.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_106_0</DOCNO>
+            	<TEXT>Just don't install Ubuntu...........</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_107_0</DOCNO>
+            	<TEXT>The hard part is that it's hard to get out there and help every single user.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_107_1</DOCNO>
+            	<TEXT>The other hard part is that there's a ton of issues that I just can't be bothered to help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_107_2</DOCNO>
+            	<TEXT>If somebody accidentally uninstalls their DE, ok, that's fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_107_3</DOCNO>
+            	<TEXT>Somebody can't get connected to the internet, I'm there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_107_4</DOCNO>
+            	<TEXT>But trying to install Nvidia graphics drivers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_107_5</DOCNO>
+            	<TEXT>Sorry bucko, here's an arch wiki page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_107_6</DOCNO>
+            	<TEXT>I usually tell people not to come to linux looking for a gaming platform, not yet anyway.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_108_0</DOCNO>
+            	<TEXT>I love linus lol</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_109_0</DOCNO>
+            	<TEXT>Looks like you dodged a bullet with that cunt my guy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_109_1</DOCNO>
+            	<TEXT>Why are you letting her get the best of you like that?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_109_2</DOCNO>
+            	<TEXT>Why are you hurting over someone who's clearly a total POS?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_0</DOCNO>
+            	<TEXT>This is the most relateable shit I've ever seen lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_1</DOCNO>
+            	<TEXT>Bro, it won't be that bad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_2</DOCNO>
+            	<TEXT>First, you'll probably have to toss all your dishes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_3</DOCNO>
+            	<TEXT>Put em in a big garbage bag and toss em out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_4</DOCNO>
+            	<TEXT>Then you'll disinfect the entire dishwasher with some kind of disinfectant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_5</DOCNO>
+            	<TEXT>Run a couple empty cycles and she'll be all clean.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_6</DOCNO>
+            	<TEXT>It won't be so bad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_110_7</DOCNO>
+            	<TEXT>Don't let your mistakes pile up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_111_0</DOCNO>
+            	<TEXT>the fresh prince of all caps</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_112_0</DOCNO>
+            	<TEXT>[XFCE] I heard you guys like anime girl wallpapers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_113_0</DOCNO>
+            	<TEXT>WM: xfce4 Panel: xfce4-panel with xfce4-docklike-panel Terminal: Guake Neovim: [my init.vim](https://github.com/soundsbyjs/js_nvim_confs) Terminal: zsh, don't have a zshrc to post yet</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_114_0</DOCNO>
+            	<TEXT>that's how q anon started</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_115_0</DOCNO>
+            	<TEXT>what if girl but still small penis</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_116_0</DOCNO>
+            	<TEXT>and also with you comrade o7</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_117_0</DOCNO>
+            	<TEXT>g[otchu](https://imgur.com/AIM4D2h)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_118_0</DOCNO>
+            	<TEXT>the Russian video!!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_118_1</DOCNO>
+            	<TEXT>I was 13 years old when I first saw that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_118_2</DOCNO>
+            	<TEXT>what a beautiful soul he was, and I love how he perfectly comps for that guy too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_118_3</DOCNO>
+            	<TEXT>that part where the violinist plays a downward scale and Brubeck follows him...!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_118_4</DOCNO>
+            	<TEXT>that's the spirit of jazz right there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_118_5</DOCNO>
+            	<TEXT>some jazz musicians are hard to communicate with, and some, like Dave, could reach out and speak without trying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_118_6</DOCNO>
+            	<TEXT>it's a lost art.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_119_0</DOCNO>
+            	<TEXT>For anyone curious, the thing with My Favorite Things is that black musicians are taking *very* white music and, erm, African American-izing the fuck out of it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_119_1</DOCNO>
+            	<TEXT>that's why summertime is especially grating.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_119_2</DOCNO>
+            	<TEXT>it's supposed to be fucking awful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_119_3</DOCNO>
+            	<TEXT>downright **horrendous** Elvin Jones was an absolute monster as always, but I think this is peak McCoy Tyner.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_119_4</DOCNO>
+            	<TEXT>he was made for how he played on My Favorite Things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_119_5</DOCNO>
+            	<TEXT>rest in peace :/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_120_0</DOCNO>
+            	<TEXT>I've always wanted to try LFS on an old phone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_120_1</DOCNO>
+            	<TEXT>Maybe that's worth a shot, op?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_121_0</DOCNO>
+            	<TEXT>They need Chris Avellone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_121_1</DOCNO>
+            	<TEXT>He *needs* another Star Wars game, but with Disney budgets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_122_0</DOCNO>
+            	<TEXT>[XFCE] First rice.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_122_1</DOCNO>
+            	<TEXT>I call it "Listerine"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_123_0</DOCNO>
+            	<TEXT>DE: XFCE WM theme: Tokyo Night with [chr buttons](https://www.linux-apps.com/p/1165642) Panel: XFCE4's panel with [xfce4 docklike plugin](https://github.com/nsz32/docklike-plugin), circle icons for active windows Deskbar: xfce4 panel with a bunch of launchers Icons: [Tela Circle](https://github.com/vinceliuice/Tela-circle-icon-theme) Neovim: [my init.vim](https://github.com/soundsbyjs/js_nvim_confs) Source code: [an implementation of Conway's Game of Life using OLC::PixelGameEngine!](https://github.com/soundsbyjs/olc-gameoflife) Wallpaper: I made it in gimp!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_123_1</DOCNO>
+            	<TEXT>I put a few up in [this repo](https://github.com/soundsbyjs/nerd-wallpapers).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_123_2</DOCNO>
+            	<TEXT>The anime girl comes from this repo of [anime girls holding programming books](https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books) Terminal: Guake, font is Roboto Mono Medium.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_123_3</DOCNO>
+            	<TEXT>You toggle it to drop down with f12 and tile it with super left and down.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_123_4</DOCNO>
+            	<TEXT>I've never been a fan of i3 and the like, but I do like a tiling terminal emu Shell: zsh.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_123_5</DOCNO>
+            	<TEXT>my config file is still messy but its basically stock with the arrow theme from oh my zsh.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_124_0</DOCNO>
+            	<TEXT>Very fresh!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_124_1</DOCNO>
+            	<TEXT>I like the weather widget in the corner, and the windows 11 style center icons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_125_0</DOCNO>
+            	<TEXT>Honestly, Coc turns vim into basically a fully functional IDE.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_125_1</DOCNO>
+            	<TEXT>That, and learn how to use its tiling/tab functions or get yourself a tiling WM.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_125_2</DOCNO>
+            	<TEXT>But once you go Coc, you never go back.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_125_3</DOCNO>
+            	<TEXT>It's seriously amazing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_125_4</DOCNO>
+            	<TEXT>What I do is I keep my Vim raw and my Neovim modded up, since nvim can take a second to load up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_125_5</DOCNO>
+            	<TEXT>But honestly, you'll never get this kind of unmatched speed on VS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_126_0</DOCNO>
+            	<TEXT> gt;:) I added a link to the repo of the code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_126_1</DOCNO>
+            	<TEXT>It's an implementation of Conway's Game of Life using olc's engine!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_127_0</DOCNO>
+            	<TEXT>this isn't unix porn, this is downright unix bdsm</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_128_0</DOCNO>
+            	<TEXT>oh boy have I got a [video](https://youtu.be/jdUXfsMTv7o)for you</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_129_0</DOCNO>
+            	<TEXT>well I wrote the game today.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_129_1</DOCNO>
+            	<TEXT>that wasn't too hard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_129_2</DOCNO>
+            	<TEXT>I kind of want to challenge myself to take it to the next level</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_130_0</DOCNO>
+            	<TEXT>Definitely show off some RPI things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_130_1</DOCNO>
+            	<TEXT>There's a billion dope RPI projects on youtube.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_130_2</DOCNO>
+            	<TEXT>There's also the fact that Android, ChromeOS, fire sticks, Rokus and such run Linux, sure, but what's cooler is that airport kiosks, gas station terminals, car computers and other things like that run heavily configured gentoo builds with custom code more often than not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_130_3</DOCNO>
+            	<TEXT>I'm not sure of any videos, but that might be a place to start.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_131_0</DOCNO>
+            	<TEXT>There's no hannah montana linux.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_131_1</DOCNO>
+            	<TEXT>doesn't count.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_132_0</DOCNO>
+            	<TEXT>and yet Ubuntu is on here........ /s but seriously, amazing work!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_133_0</DOCNO>
+            	<TEXT>well that's why sid exists.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_133_1</DOCNO>
+            	<TEXT>Debian uses old software because it's a *server* distro first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_0</DOCNO>
+            	<TEXT>Well, Butters is a victim of his own ignorance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_1</DOCNO>
+            	<TEXT>Kyle is a direct stand-in for South Park as a show, and I think the point that they always make is to show society as it is rather than make prescriptive points about how things should be.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_2</DOCNO>
+            	<TEXT>Stan is the cynical side of the show, Kyle is the optimistic one, more or less, so it makes sense that he'd only comment on it and let Butters continue to suffer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_3</DOCNO>
+            	<TEXT>Maybe that's an in depth dive, but Matt and Trey are certainly very thoughtful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_4</DOCNO>
+            	<TEXT>I think that's why they had Kyle quit doing speeches at the end of episodes; it's like matt and trey admitting their own lack of expertise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_5</DOCNO>
+            	<TEXT>I don't think Kyle is a villain, far from it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_6</DOCNO>
+            	<TEXT>Cartman's most manipulative side came out even when he was a rabbi, and that is in no way Kyle's fault.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_7</DOCNO>
+            	<TEXT>Cartman totally doesn't deserve a happy ending; he's the shows villain, and Matt and Trey giving him the ending he truly deserves is a recognition that the show has grown up and changed since it aired.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_8</DOCNO>
+            	<TEXT>They purposefully put the worst possible shit on tv for views and they had to reconcile with that in a post PC world.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_9</DOCNO>
+            	<TEXT>That's why Jimmy can tell racial jokes, but Cartman's life sucks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_134_10</DOCNO>
+            	<TEXT>He totally deserved it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_135_0</DOCNO>
+            	<TEXT>They most certainly did not enable him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_135_1</DOCNO>
+            	<TEXT>He had the power to change himself, as evidenced by him *actually changing himself*.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_135_2</DOCNO>
+            	<TEXT>At the end he's screaming "fuck you Kyle" over and over again while Kyle is literally doing nothing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_135_3</DOCNO>
+            	<TEXT>He started acting selfishly when he realized he'd lose his family... but he's acting selfishly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_135_4</DOCNO>
+            	<TEXT>He's a narcissist and always will be and he totally got what he deserved.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_136_0</DOCNO>
+            	<TEXT>wellllll we shouldn't be smoking it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_136_1</DOCNO>
+            	<TEXT>that has to go.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_137_0</DOCNO>
+            	<TEXT>fucking 900 MILLION DOLLARS but the beauty is, I feel like they'd do it for free!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_138_0</DOCNO>
+            	<TEXT>see I can't just outright say these things because 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_138_1</DOCNO>
+            	<TEXT>she already knows, and 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_138_2</DOCNO>
+            	<TEXT>she knows that I know, and 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_138_3</DOCNO>
+            	<TEXT>telling her doesn't help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_138_4</DOCNO>
+            	<TEXT>listening, empathizing, those things help, but she can't just be *told* what to do.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_139_0</DOCNO>
+            	<TEXT>Linus tech tipz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_140_0</DOCNO>
+            	<TEXT>when Hasan abi</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_141_0</DOCNO>
+            	<TEXT>Battery sucks in used thinkpad t450s.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_141_1</DOCNO>
+            	<TEXT>Running Arch Linux I'm getting about 2 hours if I'm conservative.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_141_2</DOCNO>
+            	<TEXT>Obviously this laptop is about six years old, so of course the battery would be bad.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_141_3</DOCNO>
+            	<TEXT>Can anyone recommend a place to get a replacement, for both the internal battery and the external one?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_142_0</DOCNO>
+            	<TEXT>well yes but it's heavily modified.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2068_142_1</DOCNO>
+            	<TEXT>I'm interested, out of morbid curiosity, the ramifications of building my own version of Linux/somebody else's version on my phone, and in projects like kde mobile.</TEXT>
+        </DOC>

@@ -1,0 +1,1368 @@
+        <DOC>
+            	<DOCNO>s_2003_0_0</DOCNO>
+            	<TEXT>He has a new project called Earlham Mystics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_0_1</DOCNO>
+            	<TEXT>Sounding quite minimalist from what I've heard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_1_0</DOCNO>
+            	<TEXT>Useful for reverse engineering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_2_0</DOCNO>
+            	<TEXT>Hi Nathan, the new album is fat with a ph.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_2_1</DOCNO>
+            	<TEXT>Any recommendations for under the radar/up and coming producers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_2_2</DOCNO>
+            	<TEXT>Best trousers?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_3_0</DOCNO>
+            	<TEXT>Pigeon's in slow motion</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_3_1</DOCNO>
+            	<TEXT>Was very lucky to be pointing my phone at some pigeons with slow mo engaged when this happened: [https://youtu.be/e1-7NHDFCrQ](https://youtu.be/e1-7NHDFCrQ)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_4_0</DOCNO>
+            	<TEXT>A few that haven't been mentioned yet: Well, well Cornelius by Howard Skempton Selected Ambient Works Volume 2 by Aphex Twin Colours by DOM IV</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_5_0</DOCNO>
+            	<TEXT>Like your choice of timbres for the synths but the beat is weak and mechanical.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_5_1</DOCNO>
+            	<TEXT>Could be helped by betters samples + compression + saturation + swing/moving some hits off the grid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_7_0</DOCNO>
+            	<TEXT>This is great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_7_1</DOCNO>
+            	<TEXT>Really vibey and perfect colours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_8_0</DOCNO>
+            	<TEXT>Hi there, I"m new here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_8_1</DOCNO>
+            	<TEXT>Lots of cool stuff to look at.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_8_2</DOCNO>
+            	<TEXT>This is Ventre being born: [Orthographic](https://www.infinitevibes.net/vault/Birth%20of%20Ventre%20ortho.png) [Hi](https://www.infinitevibes.net/vault/Birth%20of%20Ventre%20facing.png) [Profile](https://www.infinitevibes.net/vault/Birth%20of%20Ventre%20side.png) Luxcore renderer. (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_8_3</DOCNO>
+            	<TEXT>edit: changed the links as they weren't working on mobile)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_9_0</DOCNO>
+            	<TEXT>A little loop made with the Tissue add on</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_10_0</DOCNO>
+            	<TEXT>Nice colours</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_11_0</DOCNO>
+            	<TEXT>Unfortunately not but you can render the viewport in evee.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_12_0</DOCNO>
+            	<TEXT>Shower Time!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_13_0</DOCNO>
+            	<TEXT>Thanks for the tip!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_14_0</DOCNO>
+            	<TEXT>Such great colours and style.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_14_1</DOCNO>
+            	<TEXT>I'm getting Moebius, Zelda and Ghibli vibes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_15_0</DOCNO>
+            	<TEXT>I feel your pain!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_15_1</DOCNO>
+            	<TEXT>Had a very similar experience before realising I could at least do some viewport rendering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_16_0</DOCNO>
+            	<TEXT>Infinite Vibes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_17_0</DOCNO>
+            	<TEXT>City Liquid</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_18_0</DOCNO>
+            	<TEXT>[https://i.imgur.com/rjRJvgV.png](https://i.imgur.com/rjRJvgV.png) Texture tab (bottom one).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_19_0</DOCNO>
+            	<TEXT>Happy to help - Blender is magik but not always intuitive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_20_0</DOCNO>
+            	<TEXT>Iridescence is easy - connect 'facing' from a layer weight node to a colour ramp set to hsv, far and with the same bright colour (purple in this case) on the each end of the picker.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_20_1</DOCNO>
+            	<TEXT>Connect the out of the colour ramp to whatever you like et voil.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_20_2</DOCNO>
+            	<TEXT>Edit: The above example looks like the hue is being keyframed after the colour ramp too too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_21_0</DOCNO>
+            	<TEXT>Any major differences between RealFlow and Flip Fluids (if you've used that too)?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_23_0</DOCNO>
+            	<TEXT>I wouldn't even know how to go about making a tutorial on my 8 year old laptop... It's pretty much just fooling around with Flip Fluids and then reversing it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_24_0</DOCNO>
+            	<TEXT>Afraid I've already deleted the fluid cache as they take up loads of space so I can only do one of these projects at a time</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_26_0</DOCNO>
+            	<TEXT># Champagne Essex Surreal, murky, hip-hoppy, ambienty, idmy... [https://infinitevibes.bandcamp.com/album/champagne-essex](https://infinitevibes.bandcamp.com/album/champagne-essex)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_27_0</DOCNO>
+            	<TEXT>Shoobi - Car Hole</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_28_0</DOCNO>
+            	<TEXT>You know ;)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_29_0</DOCNO>
+            	<TEXT>Animation test for a music video</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_30_0</DOCNO>
+            	<TEXT>Liquid Gemz (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_31_0</DOCNO>
+            	<TEXT>It's not on youtube but is on insta: [https://www.instagram.com/infinite\_\_\_\_\_vibes/](https://www.instagram.com/infinite_____vibes/) I've just recently got into Blender and want to make images and animations to go along with my music.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_33_0</DOCNO>
+            	<TEXT>80s Ident (Blender + pp in PP, sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_34_0</DOCNO>
+            	<TEXT>The whole thing is reversed in Premier and some of the vhs elements (channel blur + wave warp) are from there too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_34_1</DOCNO>
+            	<TEXT>There's lots of vhs effect tutorials on youtube .</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_34_2</DOCNO>
+            	<TEXT>The mesh of the head has lots of ripped edges, added a cloth modifier and keyed the pressure to a high number to make it explode into pieces.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_34_3</DOCNO>
+            	<TEXT>The writing is a fluid sim.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_34_4</DOCNO>
+            	<TEXT>Both were remeshed in block mode to make everything pixelated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_36_0</DOCNO>
+            	<TEXT>Meet me at the Interdimensional Bath House</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_36_1</DOCNO>
+            	<TEXT> https://preview.redd.it/jvhyw91ym2161.png?width=2048 amp;format=png amp;auto=webp amp;s=593cb5685232884c1b5c6041d05e37beb821ea2a</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_37_0</DOCNO>
+            	<TEXT>I tried to do something similar a while back but the metaball particle system wouldn't show up in the render (viewport was fine), did you have the same problem?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_37_1</DOCNO>
+            	<TEXT>Whole thing is super classy, well done.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_38_0</DOCNO>
+            	<TEXT>Getting clean</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_39_0</DOCNO>
+            	<TEXT>Just a lil' loop with Radeon pro render</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_40_0</DOCNO>
+            	<TEXT>Sweet dreams</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_41_0</DOCNO>
+            	<TEXT>I'll ask him to be more modest next time</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_42_0</DOCNO>
+            	<TEXT>Oh boy, this is the stuff I love</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_43_0</DOCNO>
+            	<TEXT>Belle Douche</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_45_0</DOCNO>
+            	<TEXT>Probably...though I made this a while ago so would have to check it's not been recycled</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_46_0</DOCNO>
+            	<TEXT>Thanks for replying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_46_1</DOCNO>
+            	<TEXT>It's not either of those things - I got round it by doing a viewport render as I was in Evee but it seems like it might be a bug.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_48_0</DOCNO>
+            	<TEXT>An original.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_48_1</DOCNO>
+            	<TEXT>Keep an eye on https://www.instagram.com/infinite_____vibes/ for full length stuff</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_49_0</DOCNO>
+            	<TEXT>Big Lad needed to get cleaned up</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_50_0</DOCNO>
+            	<TEXT>*You must not fear*.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_50_1</DOCNO>
+            	<TEXT>Fear is the mind-killer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_50_2</DOCNO>
+            	<TEXT>Fear is the little-death that brings total obliteration.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_52_0</DOCNO>
+            	<TEXT>An original, check here for more bits of stuff [https://www.instagram.com/infinite\_\_\_\_\_vibes/](https://www.instagram.com/infinite_____vibes/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_53_0</DOCNO>
+            	<TEXT>I've been doing sound for much longer than I've been doing pictures</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_54_0</DOCNO>
+            	<TEXT>Thanks again and enjoy the ride of learning sound</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_55_0</DOCNO>
+            	<TEXT>Inspired by that nice infinity cube ()</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_56_0</DOCNO>
+            	<TEXT>Looks like the BGVC node tree to me: [https://www.youtube.com/watch?v=n-zZMiMCTYo](https://www.youtube.com/watch?v=n-zZMiMCTYo)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_57_0</DOCNO>
+            	<TEXT>You put a lighty thing in a shiny thing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_58_0</DOCNO>
+            	<TEXT>Sure thing, there's really not much to it - The reflective container is a glass shader mixed with a glossy shader and there's a wireframe cube inside with an emissive shader.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_59_0</DOCNO>
+            	<TEXT>You're welcome.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_60_0</DOCNO>
+            	<TEXT>Oh nice, didn't even realise there was differences between the versions (though you can input your own distortion in the v I'm using).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_60_1</DOCNO>
+            	<TEXT>Just watched your shading tutorial using viewport colours, very cool, thanks for sharing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_61_0</DOCNO>
+            	<TEXT>You should give credit when posting from a followed tutorial.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_61_1</DOCNO>
+            	<TEXT>Ducky 3D: [https://www.youtube.com/watch?v=icMn25j2yy0](https://www.youtube.com/watch?v=icMn25j2yy0)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_62_0</DOCNO>
+            	<TEXT>This is exactly the sort of information I've been craving.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_62_1</DOCNO>
+            	<TEXT>Excited to delve into your videos.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_62_2</DOCNO>
+            	<TEXT>Thanks for sharing the knowledge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_63_0</DOCNO>
+            	<TEXT>I'm just big on credit where it's due when it comes to creativity.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_63_1</DOCNO>
+            	<TEXT>You did a nice take on it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_64_0</DOCNO>
+            	<TEXT>I would buy rats</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_65_0</DOCNO>
+            	<TEXT>Good for them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_65_1</DOCNO>
+            	<TEXT>A bit of cold is excellent for you, just ask Wim Hof.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_66_0</DOCNO>
+            	<TEXT>Finally got a PC so made some high res renders for wallpaper</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_67_0</DOCNO>
+            	<TEXT>You're not wrong!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_68_0</DOCNO>
+            	<TEXT>Love the dispersion :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_69_0</DOCNO>
+            	<TEXT>**Magician** [Animation](https://www.instagram.com/p/CI5MeDzjAFy/) [Still](https://i.imgur.com/tsrCaIy.jpg) [S](https://www.youtube.com/watch?v=dQw4w9WgXcQ) Cycles, flip fluids, bvgc vhs nodes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_70_0</DOCNO>
+            	<TEXT>I've meditated a couple of times in lucid dreams, both times it sent me into another dream which felt 'deeper' but I wasn't able to stabilise for very long.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_70_1</DOCNO>
+            	<TEXT>Well worth trying though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_71_0</DOCNO>
+            	<TEXT>Purpose built PC simulating slower than my old iMac, plz help!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_71_1</DOCNO>
+            	<TEXT>Wonder if anyone here can help me figure something out... I recently built a PC for Blender: AMD Ryzen 7 3800X (8 cores) 32gb RAM NVME SSDs RTX 3070 It's baking simulations around 5% slower than my 2017 iMac: 3.4GHz Intel i5 (4 cores) 8gb RAM Radeon Pro 570 Regular HDD Anyone know why this could be and/or how I can improve the performance of my PC?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_71_2</DOCNO>
+            	<TEXT>The CPU is running between 30-50% during simulations and the GPU at around 20%.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_71_3</DOCNO>
+            	<TEXT>Feeling rather disappointed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_71_4</DOCNO>
+            	<TEXT>Any help would be much appreciated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_72_0</DOCNO>
+            	<TEXT>Man that's bad news but at least it stops me chasing shadows around the OS and BIOS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_72_1</DOCNO>
+            	<TEXT>Looks like I'll be selling the AMD asap.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_72_2</DOCNO>
+            	<TEXT>Thanks for the info.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_73_0</DOCNO>
+            	<TEXT>Yeah I considered overclocking but think I'll just buy an i7 or i9 instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_74_0</DOCNO>
+            	<TEXT>Interesting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_74_1</DOCNO>
+            	<TEXT>Any idea how I can diagnose?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_74_2</DOCNO>
+            	<TEXT>I've run benchmarks and everything seems in good shape.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_74_3</DOCNO>
+            	<TEXT>I've been using macs for the past 15 years so a bit stuck on how to proceed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_74_4</DOCNO>
+            	<TEXT>Will check the CPU model when I get home after lunch</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_75_0</DOCNO>
+            	<TEXT>It's an Intel core i5-7500 running at 3.4ghz, boosting to 3.8ghz</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_76_0</DOCNO>
+            	<TEXT>Interestingly it was auto-detecting 16 but if I set it manually to 8 I get a 17% improvement in bake time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_76_1</DOCNO>
+            	<TEXT>Manually setting it to 16 gets the same results as auto-detection.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_76_2</DOCNO>
+            	<TEXT>It's not lightening fast but it's now at least a bit faster than the Mac so doesn't feel like a fat waste of money.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_76_3</DOCNO>
+            	<TEXT>Thanks for the tip.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_77_0</DOCNO>
+            	<TEXT>Yeah 4 seems to be the sweet spot - I tested every number from 0-16.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_77_1</DOCNO>
+            	<TEXT>It's Flip Fluids I'm running the tests with, find it much more usable than mantaflow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_77_2</DOCNO>
+            	<TEXT>I've had a 33% bake speed increase since initial tests last night so am feeling pretty damn relieved.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_77_3</DOCNO>
+            	<TEXT>Thanks again for the tip, saved me a lot of stress.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_78_0</DOCNO>
+            	<TEXT>Roy Keane is that you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_79_0</DOCNO>
+            	<TEXT>I love Roy Keane.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_79_1</DOCNO>
+            	<TEXT>It was a joke and not intended to be insulting at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_79_2</DOCNO>
+            	<TEXT>He's a pundit these days and is known for his direct communication style, when other pundits complement a player on something he'll look annoyed and say "That's his job!".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_79_3</DOCNO>
+            	<TEXT>Re your original post it's not a zero sum game, people being nice to couriers doesn't mean they can't be nice to doctors, firefighters etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_79_4</DOCNO>
+            	<TEXT>Their workload has been insane due to the pandemic and now the holiday season, showing gratitude to someone doing their job is a good thing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_80_0</DOCNO>
+            	<TEXT>Make sure you're in object mode. .</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_81_0</DOCNO>
+            	<TEXT>View  gt; viewport render</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_82_0</DOCNO>
+            	<TEXT>Rendering crashes Blender (even when all objects excluded from render!)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_82_1</DOCNO>
+            	<TEXT>Has anyone experienced this before?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_82_2</DOCNO>
+            	<TEXT>Is it a corrupt file or something?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_83_0</DOCNO>
+            	<TEXT>GPU  amp; CPU, Optix  amp; CUDA, Cycles  amp; Evee all the same result - either crashes on first frame or manages a few.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_83_1</DOCNO>
+            	<TEXT>Blender 2.91 RTX 3070, AMD R7 3800x, 32gb RAM Default cube renders okay.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_83_2</DOCNO>
+            	<TEXT>This isn't a busy scene at all (small flip fluid sim with particles) but I get a GPU spike and it crash quits.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_83_3</DOCNO>
+            	<TEXT>Just managed to get the scene rendered by running a script but it's not ideal...want to get to the bottom of it and fix it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_84_0</DOCNO>
+            	<TEXT>I'll take a look this afternoon</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_85_0</DOCNO>
+            	<TEXT>250 in both sim and scene.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_85_1</DOCNO>
+            	<TEXT>There's some overclocking - I'm still learning about it (just built my first pc after years on a mac) so have an AMD pre-set going.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_86_0</DOCNO>
+            	<TEXT>It's running at 3200 and seems healthy, it's not getting at all taxed in task manager.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_86_1</DOCNO>
+            	<TEXT>I'll look into lowering GPU speed but I should have more than enough over head on my PSU and according to task manager and Ryzen Master it's not being pushed at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_86_2</DOCNO>
+            	<TEXT>Having the same problem with some scenes with no sims...can't detect a pattern on which scenes are crashing and which aren't.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_87_0</DOCNO>
+            	<TEXT>How would I go about testing/fixing the RAM?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_87_1</DOCNO>
+            	<TEXT>I've run benchmarks but all seems fine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_87_2</DOCNO>
+            	<TEXT>Just tried rendering the scene again and this time CPU didn't crash, GPU crashing as usual.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_87_3</DOCNO>
+            	<TEXT>Couple of relevant images here: [https://imgur.com/a/6wMaMJs](https://imgur.com/a/6wMaMJs)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_88_0</DOCNO>
+            	<TEXT>I'm running the studio drivers already but will experiment and see if it makes a difference.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_88_1</DOCNO>
+            	<TEXT>Thanks for the tips and the link - looking into that now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_89_0</DOCNO>
+            	<TEXT>A Goop Loop (with sound)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_90_0</DOCNO>
+            	<TEXT>Wishing everyone a nice time in 2021</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_91_0</DOCNO>
+            	<TEXT>It emanates from deep within the Hairy Golden Orb.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_91_1</DOCNO>
+            	<TEXT>^((i made it))</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_92_0</DOCNO>
+            	<TEXT>I love molecular but the lack of rotation really bugs me if you're viewing close-up</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_93_0</DOCNO>
+            	<TEXT>Just testing out some of the new force field features in Flip Fluids</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_94_0</DOCNO>
+            	<TEXT>In the latest version of Flip Fluids you can use force fields to attract the liquid towards a point, volume, curve or surface.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_94_1</DOCNO>
+            	<TEXT>Thid is a quick and dirty test with a surface attractor on a sphere and a volume attractor on a cube.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_95_0</DOCNO>
+            	<TEXT>I Flipping love Fluids</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_96_0</DOCNO>
+            	<TEXT>Thanks and have a nice cake</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_97_0</DOCNO>
+            	<TEXT>Give credit when you're posting from a tutorial: [https://www.youtube.com/watch?v=zUYjVAsIpwM](https://www.youtube.com/watch?v=zUYjVAsIpwM)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_98_0</DOCNO>
+            	<TEXT>Force fields in Flip Fluids.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_102_0</DOCNO>
+            	<TEXT>FFFFF (Flip Fluids Force Fields Fun)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_103_0</DOCNO>
+            	<TEXT>SOPHIE's irreplaceable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_103_1</DOCNO>
+            	<TEXT>Many people influenced by SOPHIE's music will continue to follow their own paths but the future that SOPHIE was going to take us to has disappeared forever.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_104_0</DOCNO>
+            	<TEXT>I missed this but loved the Southbank concert (each Sophie performance I was lucky enough to attend was so different, such an incredibly multifaceted artist).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_104_1</DOCNO>
+            	<TEXT>Would love to know more about the talk if your friend remembers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_104_2</DOCNO>
+            	<TEXT>Judging from Nabibah's insta post the classical piece is the Largo from Xerxes by Handel: [https://www.youtube.com/watch?v=72adT\_JbRRs](https://www.youtube.com/watch?v=72adT_JbRRs)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_105_0</DOCNO>
+            	<TEXT>Another artist I've been told she liked is Squarepusher (I guess the late 90s/early 00s Warp stuff was a big influence on lots of people of a similar age).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_105_1</DOCNO>
+            	<TEXT>Source was a friend that met Sophie at an airport.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_106_0</DOCNO>
+            	<TEXT>Some fun with the latest Flip Fluids add-on</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_107_0</DOCNO>
+            	<TEXT>Looks like an NS-10 to me too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_107_1</DOCNO>
+            	<TEXT>Do you think Sophie wrote in mono and worked on the stereo elements later (just noticing the lack of a right speaker).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_109_0</DOCNO>
+            	<TEXT>iirc Sophie bought a Monomachine after hearing Autechre play at a Numbers night in Glasgow in 2005</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_110_0</DOCNO>
+            	<TEXT>Every night since Saturday</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_111_0</DOCNO>
+            	<TEXT>Shake shake Shake shake Shake shake Shake shake</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_112_0</DOCNO>
+            	<TEXT>You're hearing something that's not there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_113_0</DOCNO>
+            	<TEXT>Hi lads, how's it going?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_113_1</DOCNO>
+            	<TEXT>Hope you're well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_114_0</DOCNO>
+            	<TEXT>I'm alright thanks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_114_1</DOCNO>
+            	<TEXT>Just gonna pop out and get some noodles.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_114_2</DOCNO>
+            	<TEXT>Have a nice eve</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_115_0</DOCNO>
+            	<TEXT>It's not a remix but How I Roll by Britney is a proto-pc bop</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_116_0</DOCNO>
+            	<TEXT>This really puts things in perspective</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_117_0</DOCNO>
+            	<TEXT>Do the Brits age at a different rate from everyone else?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_118_0</DOCNO>
+            	<TEXT>*Life's a Beach* - I made the visuals in Blender and the sound in Logic</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_119_0</DOCNO>
+            	<TEXT>*Life's a Beach* (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_121_0</DOCNO>
+            	<TEXT>Thanks - the transition loopback thing in this is p much me trying to copy a thing I saw on Adult Swim so that makes sense</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_123_0</DOCNO>
+            	<TEXT>Oh you know...not much</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_124_0</DOCNO>
+            	<TEXT>Life's a Beach (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_126_0</DOCNO>
+            	<TEXT>Encounter (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_127_0</DOCNO>
+            	<TEXT>Encounter (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_128_0</DOCNO>
+            	<TEXT>I remember your video in a similar style from a few months back - really love the whole mood and aesthetic of these pieces.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_129_0</DOCNO>
+            	<TEXT>Not sure exactly as there was a crash in the middle of rendering but the first frames took around 40secs each and the later ones took close to 4mins each.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_130_0</DOCNO>
+            	<TEXT>There's a lot of subdivision surface, subsurface scattering and transparency so it eats up the the render time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_130_1</DOCNO>
+            	<TEXT>It's done in Blender mostly using cloth sims.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_131_0</DOCNO>
+            	<TEXT>Hang in there buddy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_132_0</DOCNO>
+            	<TEXT>I'd like to learn Houdini, this is Blender</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_134_0</DOCNO>
+            	<TEXT>I did super basic sculpts and then used the remesh modifier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_134_1</DOCNO>
+            	<TEXT>You can get variations on the look using different techniques - the first ones I did were just shit loads of hand places and extruded cubes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_135_0</DOCNO>
+            	<TEXT>Glad you enjoy it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_136_0</DOCNO>
+            	<TEXT>Niiiiiiiice</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_137_0</DOCNO>
+            	<TEXT>Swimming Lessons (Blender flip fluids) [sound on]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_138_0</DOCNO>
+            	<TEXT>Swimming Lessons (Blender flip fluids) [sound on]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_140_0</DOCNO>
+            	<TEXT>One of the few people making 3D stuff that I really love.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_140_1</DOCNO>
+            	<TEXT>Always enjoy the sound design too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_141_0</DOCNO>
+            	<TEXT>Thanks :) Feelings are what it's all about for me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_142_0</DOCNO>
+            	<TEXT>[Sound on] Testing out PIFuHD for making human models out of a single photo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_143_0</DOCNO>
+            	<TEXT>[https://www.instagram.com/infinite\_\_\_\_\_vibes/](https://www.instagram.com/infinite_____vibes/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_144_0</DOCNO>
+            	<TEXT>Either weight paint or vertex group the area you want the hair particle simulation, then play with the settings and grooming until it looks as beautiful as his face</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_145_0</DOCNO>
+            	<TEXT>Yep that's the ESX24 sampler but according to one of the guys from KKB she liked making kicks with the ES2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_146_0</DOCNO>
+            	<TEXT>A strange loop with sound and some flip fluids</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_147_0</DOCNO>
+            	<TEXT>Hair, flip fluids and forces [SOUND ON]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_148_0</DOCNO>
+            	<TEXT>Thanks :\^)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_149_0</DOCNO>
+            	<TEXT>Smile [sound on]</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_150_0</DOCNO>
+            	<TEXT>Yep I've been doing sound for a long time, visuals is just a new side-hobby.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_150_1</DOCNO>
+            	<TEXT>Lots more audio-visual bits here if you like this sort of thing: [https://www.instagram.com/infinite\_\_\_\_\_vibes/](https://www.instagram.com/infinite_____vibes/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_151_0</DOCNO>
+            	<TEXT>It's strictly frame by frame right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_151_1</DOCNO>
+            	<TEXT>No interpolation between keyframes?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_154_0</DOCNO>
+            	<TEXT>There's so much potentially for combining Blender with sound.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_154_1</DOCNO>
+            	<TEXT>Bad timing because I made almost everything private yesterday as I want a clean slate but keep an eye on [https://infinitevibes.bandcamp.com/](https://infinitevibes.bandcamp.com/) (there's links to other socials there).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_154_2</DOCNO>
+            	<TEXT>Lots of good stuff in the pipeline.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_154_3</DOCNO>
+            	<TEXT>I also do commercial work as [toot!](http://tootdotcom.com/) but haven't updated the website or socials in years as it doesn't help with work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_155_0</DOCNO>
+            	<TEXT>*SMILE* don't you just love flip fluids?!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_156_0</DOCNO>
+            	<TEXT>Not op but it's fairly simple to set up stuff like this (baking/trial and error is the painful bit).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_156_1</DOCNO>
+            	<TEXT>Create a cube and set to it to be a flip fluids 'domain'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_156_2</DOCNO>
+            	<TEXT>Inside the domain make a sphere and duplicate it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_156_3</DOCNO>
+            	<TEXT>Make one sphere a flip fluids 'fluid' and one a flip fluids 'force', either surface or volume attractor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_156_4</DOCNO>
+            	<TEXT>Make some bullet objects and set them to be a flip fluids 'obstacle'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_156_5</DOCNO>
+            	<TEXT>Animate the bullets to pass through the sphere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_156_6</DOCNO>
+            	<TEXT>Set gravity to zero and bake.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_157_0</DOCNO>
+            	<TEXT>His most recent EP is great</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_158_0</DOCNO>
+            	<TEXT>This project crashed before I could save it but at least I got an evee render first</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_159_0</DOCNO>
+            	<TEXT>I'm usually pretty good with that but have got a little bit slack with Blender because if the software crashes you can recover an autosaved backup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_159_1</DOCNO>
+            	<TEXT>Unfortunately this time the whole laptop froze up and the recovery files aren't there after restart.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_160_0</DOCNO>
+            	<TEXT>file gt;recover gt;autosave</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_161_0</DOCNO>
+            	<TEXT>Unfortunately autosave has made me a bit slack with manual saving and as my laptop froze I had to completely restart the computer which wipes the autosave folder :-/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_162_0</DOCNO>
+            	<TEXT>Smart idea.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_162_1</DOCNO>
+            	<TEXT>They were being saved into a temp folder that gets cleared on reboot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_163_0</DOCNO>
+            	<TEXT>[https://www.instagram.com/infinite\_\_\_\_\_vibes/](https://www.instagram.com/infinite_____vibes/) for more surreal blends and sound design</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_164_0</DOCNO>
+            	<TEXT>Aside from improved render times how is it different from the previous iteration of Cycles?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_165_0</DOCNO>
+            	<TEXT>Thanks for the response.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_165_1</DOCNO>
+            	<TEXT>I finally started playing around in Octane for Blender a few days ago and I'm pretty hooked because I love dispersion, caustics etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_165_2</DOCNO>
+            	<TEXT>was wondering if that stuff was coming to Cycles but I guess not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_166_0</DOCNO>
+            	<TEXT>Thanks!I can't remember for sure but it's either a hue sweep in Premiere or in the Blender compositor while rendering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_166_1</DOCNO>
+            	<TEXT>edit: there's definitely changes to the material of the liquid throughout too...colour, transparency, bump map etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_167_0</DOCNO>
+            	<TEXT>[https://en.wikipedia.org/wiki/Peter\_Cook\_(architect)](https://en.wikipedia.org/wiki/Peter_Cook_(architect))</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_168_0</DOCNO>
+            	<TEXT>Having some fun with fluids sims, curves and cloth</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_169_0</DOCNO>
+            	<TEXT>Having some fun with fluid  amp; cloth sims</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_170_0</DOCNO>
+            	<TEXT>The rooty bit is done with curves</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_171_0</DOCNO>
+            	<TEXT>Bon appetit!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_172_0</DOCNO>
+            	<TEXT>Having a nice time with the Tissue add-on</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_173_0</DOCNO>
+            	<TEXT>It does so much great stuff, highly recommend watching some tuts</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_174_0</DOCNO>
+            	<TEXT>How to Make a Flower (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_175_0</DOCNO>
+            	<TEXT>How did you place all the pieces?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_176_0</DOCNO>
+            	<TEXT>Like the style, keep at it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_178_0</DOCNO>
+            	<TEXT>I recommend a nice cup of camomile tea</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_179_0</DOCNO>
+            	<TEXT>Accidentally made this with a GAN (using innocent prompts) last night and then couldn't sleep</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_180_0</DOCNO>
+            	<TEXT>Unless it's about opening champagne bottles there's no way in hell I'm visiting that subreddit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_181_0</DOCNO>
+            	<TEXT>I imagine it's pretty easy to generate horrifying stuff if you're trying, the extra cursed thing about this image is that the prompt was just my real name.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_181_1</DOCNO>
+            	<TEXT>Hope your gf wasn't too disturbed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_182_0</DOCNO>
+            	<TEXT>Blender combined with 29mm analog film photos from before the pandemic (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_183_0</DOCNO>
+            	<TEXT>Infinite Cathedral (VQGAN+CLIP with original soundtrack)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_185_0</DOCNO>
+            	<TEXT>Basically: Create material from photograph  gt; make blocky stuff  gt; have an orthographic camera point straight at it  gt; select a face  gt; select similar by normals (shift + G)  gt; UV project from view  gt; line the UV up with your photo how you like it  gt; in the materials tab click Assign to have the material applied to the faces you have selected  gt; repeat from different angles.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_187_0</DOCNO>
+            	<TEXT>Thanks - agreed, being able to create movement makes the VQGAN+CLIP thing waaay more expressive</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_188_0</DOCNO>
+            	<TEXT>Infinite Cathedral (VQGAN+CLIP with original soundtrack)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_189_0</DOCNO>
+            	<TEXT>Yes buddy, right here: https://colab.research.google.com/gist/chigozienri/7c802ba40842914914494dc9d763c1e8/zooming-vqgan-clip-z-quantize-method-with-additions.ipynb</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_190_0</DOCNO>
+            	<TEXT>**This isn't even his final form**</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_191_0</DOCNO>
+            	<TEXT>A few recent abstract organic renders</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_192_0</DOCNO>
+            	<TEXT>The first 2 use the tissue add-on that comes with Blender, the 3rd is just a super basic sculpt.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_192_1</DOCNO>
+            	<TEXT>All textures are procedural.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_193_0</DOCNO>
+            	<TEXT>Finally a roast!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_194_0</DOCNO>
+            	<TEXT>Not a GPU in site.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_194_1</DOCNO>
+            	<TEXT>These were done on a mid-2012 MacBook Pro with integrated graphics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_196_0</DOCNO>
+            	<TEXT>Good good, feels is what it's all about imo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_197_0</DOCNO>
+            	<TEXT>Fair play - 3rd one is definitely low effort but I like the colours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_198_0</DOCNO>
+            	<TEXT>Nothing special, just a combination of lighting/volume/DOF and either glare in the compositor or Evee bloom (can't remember which engine I used).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_199_0</DOCNO>
+            	<TEXT>Thanks - I'm definitely aiming for an 'otherworldly life' type vibe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_200_0</DOCNO>
+            	<TEXT>Many thanks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_201_0</DOCNO>
+            	<TEXT>Wow, that's strong praise, thanks so much.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_201_1</DOCNO>
+            	<TEXT>I tend to just open up Blender and start fiddling around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_201_2</DOCNO>
+            	<TEXT>More into intuition than planning things out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_202_0</DOCNO>
+            	<TEXT>This made my brain itch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_202_1</DOCNO>
+            	<TEXT>I feel like a dog watching a magic trick.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_203_0</DOCNO>
+            	<TEXT>Sorry, we're closed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_204_0</DOCNO>
+            	<TEXT>Looks like a few Quixel Mixer assets to me (I've used the same bag but I made it shinier).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_205_0</DOCNO>
+            	<TEXT>Some recent renders inspired by nature</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_206_0</DOCNO>
+            	<TEXT>**I eat roasts for lunch** (on Sundays, during Autumn and Winter).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_207_0</DOCNO>
+            	<TEXT>In case anyone's interested: I used flipfluids add-on and/or tissue add-on for most of these.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_207_1</DOCNO>
+            	<TEXT>The caustics are rendered with Luxcore (the rest are Cycles or Eevee) and I have an [Instagram](https://www.instagram.com/infinite_____vibes/) if you wanna look at more stuff.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_208_0</DOCNO>
+            	<TEXT>Love this + look forward to perusing the nodes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_209_0</DOCNO>
+            	<TEXT>Delightful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_209_1</DOCNO>
+            	<TEXT>I want the whole book.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_210_0</DOCNO>
+            	<TEXT>Thanks for your kind words.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_210_1</DOCNO>
+            	<TEXT>Nothing fancy going on with the nodes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_210_2</DOCNO>
+            	<TEXT>I tend to work intuitively and just fiddle around until I like what I see.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_210_3</DOCNO>
+            	<TEXT>Noise, voronoi, colour ramp  amp; mix RGB got used a bunch on these.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_212_0</DOCNO>
+            	<TEXT>Thanks, that's my fav too :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_213_0</DOCNO>
+            	<TEXT>I have a bunch of different versions installed (started with 2.83) but remember Luxcore was crashing one of the newer versions consistently so I use it on 2.83 only (though I think the bug's been fixed).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_213_1</DOCNO>
+            	<TEXT>Also recommend trying Octane for Blender.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_213_2</DOCNO>
+            	<TEXT>There's a free version and it renders caustics etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_213_3</DOCNO>
+            	<TEXT>beautifully.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_214_0</DOCNO>
+            	<TEXT>Aesthetically I don't know of any tuts but on the technical side I recommend getting familiar with tissue tools and fluids sims.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_215_0</DOCNO>
+            	<TEXT>Oh...erm...lots of money please</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_216_0</DOCNO>
+            	<TEXT>They were all super quick except from the first one and the Luxcore caustics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_217_0</DOCNO>
+            	<TEXT>I'd love people to be able to get these as prints.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_217_1</DOCNO>
+            	<TEXT>Need to find a good print on demand service.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_218_0</DOCNO>
+            	<TEXT>Arca's dad was a wealthy investment banker.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_218_1</DOCNO>
+            	<TEXT>All of the original PC Music gang come from very wealthy families and as mentioned elsewhere in the thread Sophie's dad is a juice entrepreneur.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_219_0</DOCNO>
+            	<TEXT>That's not sampled.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_220_0</DOCNO>
+            	<TEXT>Also it's not sampling AFX it's from a DJ set and being mixed into Reunion 2</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_221_0</DOCNO>
+            	<TEXT>Try the dice.fm waiting list, I managed to get a couple of tickets that way</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_222_0</DOCNO>
+            	<TEXT>I didn't consider their sight at all, that's a really interesting and thoughtful view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_222_1</DOCNO>
+            	<TEXT>Much appreciated.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_223_0</DOCNO>
+            	<TEXT>The results can be a bit milky/painty but it's the best thing I've found and free (+has a funny name).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_224_0</DOCNO>
+            	<TEXT>Happy to help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_224_1</DOCNO>
+            	<TEXT>I also steered clear for a while due to the name but it's proved really useful and there're versions that work on video too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_224_2</DOCNO>
+            	<TEXT>Definitely test the different modes to see what works best on your imagery.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_225_0</DOCNO>
+            	<TEXT>Surprised to see this so far down the page.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_225_1</DOCNO>
+            	<TEXT>I still regularly listen to it and have introduced it to many friends that enjoy it despite never playing the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_225_2</DOCNO>
+            	<TEXT>Nothing beats Corridors of Time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_226_0</DOCNO>
+            	<TEXT>A splash when the red ball hits the water</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_227_0</DOCNO>
+            	<TEXT>The real tragedy is that he overcooked it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_227_1</DOCNO>
+            	<TEXT>Such a waste of a delicious juicy cock.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_228_0</DOCNO>
+            	<TEXT>Wow...just wow</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_229_0</DOCNO>
+            	<TEXT>It is though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_229_1</DOCNO>
+            	<TEXT>Decimate  gt; planar</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_230_0</DOCNO>
+            	<TEXT>Maybe this is doing something else too, would love for OP to chime in and explain how it's different</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_231_0</DOCNO>
+            	<TEXT>Yooooo, this is great.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_231_1</DOCNO>
+            	<TEXT>Nice to see some GAN artwork with effort put in.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_232_0</DOCNO>
+            	<TEXT>You should mention it if made from a tutorial</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_233_0</DOCNO>
+            	<TEXT>Didn't surprise me at all, he was a ripe old age for a crocodile hunter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_234_0</DOCNO>
+            	<TEXT>Found my first ever sim from May last year</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_236_0</DOCNO>
+            	<TEXT>This guy wrecks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_237_0</DOCNO>
+            	<TEXT>I don't always come in but when I do</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_239_0</DOCNO>
+            	<TEXT>Blender + datamoshing + AI (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_240_0</DOCNO>
+            	<TEXT>No I don't think that's possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_240_1</DOCNO>
+            	<TEXT>I recently bought the aftereffects plugin but before that was using the free Avidemux method</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_241_0</DOCNO>
+            	<TEXT>Shoobi Dreams of The Interdimensional Bath House (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_242_0</DOCNO>
+            	<TEXT>Maybe her stuff is being mixed in ProTools but very few people use it to write/produce</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_244_0</DOCNO>
+            	<TEXT>Real-time voice transfer already exists, check out Holly Herndon and Mat Dryhurst: https://www.instagram.com/p/CV3umsnoGu-/?utm_medium=copy_link</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_245_0</DOCNO>
+            	<TEXT>Memory Garden (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_246_0</DOCNO>
+            	<TEXT>Ponder The Orb (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_247_0</DOCNO>
+            	<TEXT>It's original</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_249_0</DOCNO>
+            	<TEXT>Thanks, that's what I was going for</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_250_0</DOCNO>
+            	<TEXT>Thanks bruh</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_251_0</DOCNO>
+            	<TEXT>Ponder The Orb (sound on)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_252_0</DOCNO>
+            	<TEXT>Which sound specifically?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2003_253_0</DOCNO>
+            	<TEXT>Been obsessively generating flowery things for some time, here are 2 of my favourites</TEXT>
+        </DOC>

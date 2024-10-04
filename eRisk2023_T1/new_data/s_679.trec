@@ -1,0 +1,121 @@
+        <DOC>
+            	<DOCNO>s_679_0_0</DOCNO>
+            	<TEXT> Well, I think I'm saved now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_0_1</DOCNO>
+            	<TEXT> Also I've just gorged my ears out, is there a recommended subreddit for first aid?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_1_0</DOCNO>
+            	<TEXT> Whats with all the stuff above the wall?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_1_1</DOCNO>
+            	<TEXT> Shouldn't it be a roman no go zone?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_2_0</DOCNO>
+            	<TEXT> Buy a SSD they said, never have a disk crash again they said...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_3_0</DOCNO>
+            	<TEXT> Slowing moving the VM to the cluster rather than mess around as a reboot will fix it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_4_0</DOCNO>
+            	<TEXT> Nope, reset that from the console with no luck.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_0</DOCNO>
+            	<TEXT> Host dropping out of cluster and refusing to connect again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_1</DOCNO>
+            	<TEXT> Can anyone help with an issue with a 5.0 host?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_2</DOCNO>
+            	<TEXT>A blade dropped out of vsphere a few days ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_3</DOCNO>
+            	<TEXT>
+
+Ive tried the normal restart of the management agent from the console and ssh but the host refuses to connect again.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_4</DOCNO>
+            	<TEXT>Connecting directly to the host with the vsphere client also fails.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_5</DOCNO>
+            	<TEXT>
+
+All the vm on the blade are still working as normal, its just I cant get the blade back in the cluster to vmotion everything off.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_6</DOCNO>
+            	<TEXT>A number of the vm are very important production servers that cant currently be shut-down.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_5_7</DOCNO>
+            	<TEXT>Ive logged a number of calls with HP and their current solution is to reboot the blade, which doesnt help getting the vm off the blade or what the cause of the original issue is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_6_0</DOCNO>
+            	<TEXT> Found a cute mouse today.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_6_1</DOCNO>
+            	<TEXT> Let it go in the big field.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_7_0</DOCNO>
+            	<TEXT> Are you interested in anyone who has a bit of Linux skill but not enough to put on a CV and wants to cross train from a standard window 3rd level admin?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_8_0</DOCNO>
+            	<TEXT> Just to add as I forgot to say but this is a Rover K series engine that was in a Lotus Elise.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_8_1</DOCNO>
+            	<TEXT> It was a very tuned engine giving over 200bhp.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_8_2</DOCNO>
+            	<TEXT> I'm going to estimate around $15k to build a new engine with the same output.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_9_0</DOCNO>
+            	<TEXT> What happens when you go from fifth to second at the wrong speed...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_10_0</DOCNO>
+            	<TEXT> Poundland now only offer 3 cans of Pepsi for a pound instead of 4.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_10_1</DOCNO>
+            	<TEXT> Poundland sugary drink inflation hurts :(</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_11_0</DOCNO>
+            	<TEXT> Do you live in that Amish town and have a horse drawn buggy?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_12_0</DOCNO>
+            	<TEXT> Oh deer!!!!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_13_0</DOCNO>
+            	<TEXT> Someones sister is also their mother...
+ </TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_14_0</DOCNO>
+            	<TEXT>Its getting colder.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_679_14_1</DOCNO>
+            	<TEXT> Your bed is warmer than the rest of the house...</TEXT>
+        </DOC>

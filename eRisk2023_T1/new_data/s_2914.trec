@@ -1,0 +1,816 @@
+        <DOC>
+            	<DOCNO>s_2914_0_0</DOCNO>
+            	<TEXT>Servus aus Wien!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_0_1</DOCNO>
+            	<TEXT>Looking forward to rides like that when my bike arrives.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_1_0</DOCNO>
+            	<TEXT>Ive ordered a similar one, should arrive end of March.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_1_1</DOCNO>
+            	<TEXT>Until then will fap to your pics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_2_0</DOCNO>
+            	<TEXT>Do you like that bike stand?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_2_1</DOCNO>
+            	<TEXT>I was thinking to buy it yesterday</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_0</DOCNO>
+            	<TEXT>Live View won't start</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_1</DOCNO>
+            	<TEXT>Dear fellow Ring doorbell users, I have a Ring Doorbell 2 installed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_2</DOCNO>
+            	<TEXT>My internet connection is 150 Mbps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_3</DOCNO>
+            	<TEXT>The network is a Linksys Velop wifi mesh.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_4</DOCNO>
+            	<TEXT>Measured speed is 141 Mbps download and 20 Mbps upload, 6 ms ping.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_5</DOCNO>
+            	<TEXT>The node to which the doorbell is connected to is placed approx.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_6</DOCNO>
+            	<TEXT>5 meters away from the doorbell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_7</DOCNO>
+            	<TEXT>However it is placed on a small cupboard around a corner + the door itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_8</DOCNO>
+            	<TEXT>The signal strength is RSSI -63.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_9</DOCNO>
+            	<TEXT>Here is my problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_10</DOCNO>
+            	<TEXT>When the motion is detected by the device I of course want to access the camera via Live View.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_11</DOCNO>
+            	<TEXT>I would say it works 50/50 of the times.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_12</DOCNO>
+            	<TEXT>When it works, then everything is instantly loaded.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_13</DOCNO>
+            	<TEXT>But sometimes, when I try to load the Live View it changes between Establishing session and Activating camera like every half of a second but doesn't actually load the live view.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_14</DOCNO>
+            	<TEXT>I have noticed that the RSSI has changed from -58 to -63 within a few days.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_15</DOCNO>
+            	<TEXT>I haven't been monitoring this variable before, therefore cannot say whether it is a standard deviation for my setup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_16</DOCNO>
+            	<TEXT>However, I have a feeling that the live view is able to turn on less than earlier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_17</DOCNO>
+            	<TEXT>There's a lot of different stuff on the cupboard where the node stands, perhaps that gives some kind of interference, but I really dont understand how, since other more demanding devices are connected to it work without any problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_18</DOCNO>
+            	<TEXT>The motion detecting seems to work fine though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_19</DOCNO>
+            	<TEXT>I currently dont have a protection plan because activating the live view seemed enough for me at the time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_20</DOCNO>
+            	<TEXT>I am going to subscribe for a protection plan now, but I am thinking whether I should fix this problem first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_21</DOCNO>
+            	<TEXT>Also thinking about buying the Chime Pro since it would supposingly improve the signal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_3_22</DOCNO>
+            	<TEXT>If I understand correctly, there is some problem with the transmitted signal?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_4_0</DOCNO>
+            	<TEXT>I will try that out, thanks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_4_1</DOCNO>
+            	<TEXT>However, since my wifi is ethernet backhaul based and I am supposed to finish the cable work, there will be only 1 place where I can connect the node to the network on the same floor with the doorbell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_4_2</DOCNO>
+            	<TEXT>But since at the moment I still have a temporary solution (cable lying on the floor), I could try out whether moving the node closer helps at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_4_3</DOCNO>
+            	<TEXT>I was thinking whether buying a Chime Pro would help as it works as a network extender and I have a power outlet right next to the door.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_4_4</DOCNO>
+            	<TEXT>Could that help?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_5_0</DOCNO>
+            	<TEXT>What type of router do you have?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_6_0</DOCNO>
+            	<TEXT>Yea have tried it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_6_1</DOCNO>
+            	<TEXT>Similar thing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_7_0</DOCNO>
+            	<TEXT>Well Ring says more than 1Mbps should be enough.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_7_1</DOCNO>
+            	<TEXT>How about your upload speed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_8_0</DOCNO>
+            	<TEXT>Ok so the only thing you changed is the router brand?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_8_1</DOCNO>
+            	<TEXT>Perhaps your router has some unique feature why it is so successful?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_9_0</DOCNO>
+            	<TEXT>By qos you mean that the doorbell should have priority, right?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_10_0</DOCNO>
+            	<TEXT>Ive turned it on, but simultaneously I have also subscribed for the protect plan.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_10_1</DOCNO>
+            	<TEXT>Lets see what that will bring.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_10_2</DOCNO>
+            	<TEXT>The signal strength is however same.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_10_3</DOCNO>
+            	<TEXT>I thought prioritization would change it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_11_0</DOCNO>
+            	<TEXT>This is boss.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_11_1</DOCNO>
+            	<TEXT>Merry Christmas!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_12_0</DOCNO>
+            	<TEXT>I think the most important thing for a newbie, like me, is to get a bike fit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_12_1</DOCNO>
+            	<TEXT>You can try doing it yourself with the help of google or YouTube, or go to a professional to let him do his job.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_12_2</DOCNO>
+            	<TEXT>This will allow you to avoid any unwanted pain or fatigue during a long ride.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_12_3</DOCNO>
+            	<TEXT>Once I will receive my bike i will try to find a professional nearby.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_12_4</DOCNO>
+            	<TEXT>If I will not find, i will try to do it myself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_12_5</DOCNO>
+            	<TEXT>Other than that is just hardware, which is 100% individual, imho.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_13_0</DOCNO>
+            	<TEXT>Patch panel pins 3 and 6 are not working</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_13_1</DOCNO>
+            	<TEXT>I am connecting my cat6 wires to a patch panel at home and the tester shows that pins 3 and 6 dont work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_13_2</DOCNO>
+            	<TEXT>The sockets in the walls were mounted by the electrician who worked in the house.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_13_3</DOCNO>
+            	<TEXT>I didnt know if he connected the sockets on the other end according to 578A or 568B standards, so Ive asked him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_13_4</DOCNO>
+            	<TEXT>He says its A. Ive connected 2 ports and both are showing that pins 3 and 6 are not lighting up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_13_5</DOCNO>
+            	<TEXT>Do I understand correctly that the other ends are actually 568B?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_13_6</DOCNO>
+            	<TEXT>Can I remove the punched cables somehow and repunch them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_14_0</DOCNO>
+            	<TEXT>Do I understand correctly that if one of the ends is according to 568A and the other one is according to 568B and no cables are damaged and correctly punched, then all the pins would light up, just the order would be incorrect?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_15_0</DOCNO>
+            	<TEXT>Yes, now I get it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_15_1</DOCNO>
+            	<TEXT>Thanks a lot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_15_2</DOCNO>
+            	<TEXT>So the only option is that at the socket end pins 3 and 6 (according to 568A) is not properly connected... Ive tried punching the 3,6 several times.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_15_3</DOCNO>
+            	<TEXT>Additionally for the neighboring port I have pulled out the cables and reterminated to 568B and just the order has changed, but 2 pins are still not functioning.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_15_4</DOCNO>
+            	<TEXT>The wire is actually a wire of 2 wires to connect 2 sockets, because I have 2 Ethernet sockets on each room.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_15_5</DOCNO>
+            	<TEXT>Both of them have the same problem</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_16_0</DOCNO>
+            	<TEXT>Ive done that, thx.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_16_1</DOCNO>
+            	<TEXT>A standard cat6 cable shows all 1-8 pins working in correct order</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_17_0</DOCNO>
+            	<TEXT>UPDATE: Ive connected 2 more sockets to the patch panel and the problem is the same, but now its 7,8 pins instead of previously 3,6 that are not working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_17_1</DOCNO>
+            	<TEXT>The cables in the walls are actually in plastic pipes so I doubt that there is damage to at least 4 cables.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_17_2</DOCNO>
+            	<TEXT>Furthermore it seems strange that both times 2 cables have similar pins malfunctioning.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_17_3</DOCNO>
+            	<TEXT>Is there a way to test the patch panel?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_17_4</DOCNO>
+            	<TEXT>I am also thinking to check the sockets...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_18_0</DOCNO>
+            	<TEXT>If the cable is flawed, the the electrician will come and put a new cable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_18_1</DOCNO>
+            	<TEXT>Im still under warranty.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_18_2</DOCNO>
+            	<TEXT>So the problem is to determine whether it is really the cables.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_18_3</DOCNO>
+            	<TEXT>I doubt that after connecting 2 pairs of cables and both pairs have exactly 2 pins each that are not working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_19_0</DOCNO>
+            	<TEXT>Ive done something similar.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_19_1</DOCNO>
+            	<TEXT>I have 2 neighboring ports that both had 1,2,4,5,7,8 pins working and 3,6 not working.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_19_2</DOCNO>
+            	<TEXT>Ive bridged the 2 cables on the socket (female) side by a cat6 wire and on the patch panel side instead of connecting the orange pin, Ive just connected the 6 pin on two neighboring ports by a single orange wire.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_19_3</DOCNO>
+            	<TEXT>So not via the cable, but directly on the Patchpanel.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_19_4</DOCNO>
+            	<TEXT>This way the 6 pin lighted up when I tested it with the tester.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_19_5</DOCNO>
+            	<TEXT>So it seems that the Panel is OK.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_0</DOCNO>
+            	<TEXT>UPDATE: Ok... this I could have not foreseen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_1</DOCNO>
+            	<TEXT>So my electrician came today and checked my work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_2</DOCNO>
+            	<TEXT>Everything was ok.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_3</DOCNO>
+            	<TEXT>Then they noticed that the socket side had 2 cables interchanged.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_4</DOCNO>
+            	<TEXT>So the sockets come in pairs, so you have left and right.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_5</DOCNO>
+            	<TEXT>The orange wire of cable 1 was connected for the left socked, but all other wires to the right socket and vice versa with cable 2 and left socket.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_6</DOCNO>
+            	<TEXT>That is why the tester did not receive any signal for those wires.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_7</DOCNO>
+            	<TEXT>That is why other rooms have similar problems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_8</DOCNO>
+            	<TEXT>Because the person who mounted the sockets did it wrong, most probably everywhere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_20_9</DOCNO>
+            	<TEXT>Thanks for the support everyone!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_21_0</DOCNO>
+            	<TEXT>Wim Hof method</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_22_0</DOCNO>
+            	<TEXT>Could you please provide a more accurate address?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_22_1</DOCNO>
+            	<TEXT>I found only a Mittagskogel near Baden.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_22_2</DOCNO>
+            	<TEXT>As far as I understand, its far from Carinthia :))).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_22_3</DOCNO>
+            	<TEXT>Would love to check this trail out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_22_4</DOCNO>
+            	<TEXT>Also soon to be a canyon grail owner and also based in Austria, near Vienna though</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_23_0</DOCNO>
+            	<TEXT>Vielen Dank!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_24_0</DOCNO>
+            	<TEXT>Yo do take a shower every day, dont you?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_24_1</DOCNO>
+            	<TEXT>Just finish it with a cold one</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_25_0</DOCNO>
+            	<TEXT>So cool that you asked that guy if everything was ok with him.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_26_0</DOCNO>
+            	<TEXT>Up 1 vote for the queen!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_27_0</DOCNO>
+            	<TEXT>It will change your life in a good way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_27_1</DOCNO>
+            	<TEXT>For me it was nothing but positive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_27_2</DOCNO>
+            	<TEXT>Just dont push it too hard too fast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_28_0</DOCNO>
+            	<TEXT>Im in a similar situation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_28_1</DOCNO>
+            	<TEXT>What I have found out is that one would need: pedals, thing to clean your chain, lube for chain and the cassette, repair kit for your tires, minimalistic repair toolkit (to change the height of the saddle for example), pump for tires small and big or go for the small CO2 cartridge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_28_2</DOCNO>
+            	<TEXT>Im also thinking to buy a rack to service the bike comfortably.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_28_3</DOCNO>
+            	<TEXT>These days they dont cost that much.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_29_0</DOCNO>
+            	<TEXT>I was thinking to buy road pedals because the terrain around me is pretty flat, just fields and forests.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_29_1</DOCNO>
+            	<TEXT>I would also break it down to a 70/30 gravel/road ratio.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_29_2</DOCNO>
+            	<TEXT>Additionally I already have road shoes so I thought its ok.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_29_3</DOCNO>
+            	<TEXT>However, now that I think about it, maybe it makes more sense indeed to invest into mtb shoes...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_30_0</DOCNO>
+            	<TEXT>Whats this city?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_31_0</DOCNO>
+            	<TEXT>What a great video!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_31_1</DOCNO>
+            	<TEXT>Could watch this on repeat.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_31_2</DOCNO>
+            	<TEXT>Where was this shot?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_31_3</DOCNO>
+            	<TEXT>And what is the bag your mate in the front has?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_32_0</DOCNO>
+            	<TEXT>I have now subscribed to their plan and it connects every time... Im really happy it solved the problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_32_1</DOCNO>
+            	<TEXT>However it doesnt seem to be fair to the consumer, in my opinion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_33_0</DOCNO>
+            	<TEXT>Its just I initially thought to buy a road bike and already had road shoes gifted to me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_33_1</DOCNO>
+            	<TEXT>However, after take a bike from a friend to check out the neighborhood, I understood that I should opt for the gravel bike.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_33_2</DOCNO>
+            	<TEXT>Since I already have the shoes and the terrain is mainly field roads and paved roads I figured that its still ok.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_33_3</DOCNO>
+            	<TEXT>Ive since then decided to buy mtb pedals and use an adapter for the road shoes for the first times.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_33_4</DOCNO>
+            	<TEXT>Later will buy proper mtb shoes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_34_0</DOCNO>
+            	<TEXT>I believe that canyon does not have distribution.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_34_1</DOCNO>
+            	<TEXT>As far as I know, they only sell them online on their official website.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_34_2</DOCNO>
+            	<TEXT>So you always get a bike directly from them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_35_0</DOCNO>
+            	<TEXT>Waiting for mine earliest 29.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_35_1</DOCNO>
+            	<TEXT>So excited!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_36_0</DOCNO>
+            	<TEXT>My neighborhood near Gnserndorf looks exactly like this!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_37_0</DOCNO>
+            	<TEXT>What is water temperature at the moment?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_38_0</DOCNO>
+            	<TEXT>Need to step up my cold showers game :)))</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_39_0</DOCNO>
+            	<TEXT>Every body says that after a few falls you learn very fast how to unclip :))).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_39_1</DOCNO>
+            	<TEXT>Btw, where are you riding?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_39_2</DOCNO>
+            	<TEXT>Im still waiting for my gravel bike to rock some N terrain :).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_40_0</DOCNO>
+            	<TEXT>Ich bin schon gespannt den Dampfross Radweg zu fahren wenn mein Fahrrad endlich kommt...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_42_0</DOCNO>
+            	<TEXT>Are you training or just leisure riding?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_0</DOCNO>
+            	<TEXT>Grease for pedals</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_1</DOCNO>
+            	<TEXT>Few days ago received my new gravel bike.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_2</DOCNO>
+            	<TEXT>I have already assembled it together, just the pedals are still to go.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_3</DOCNO>
+            	<TEXT>In the assembly manual it says that you need to grease the thread of the pedals before mounting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_4</DOCNO>
+            	<TEXT>Since the bike supplier does not include pedals in the delivery, the grease is also unfortunately not there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_5</DOCNO>
+            	<TEXT>I have searched online and theres like a gazillion of greases, fats, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_6</DOCNO>
+            	<TEXT>Could someone point me in the direction?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_43_7</DOCNO>
+            	<TEXT>Would appreciate it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_44_0</DOCNO>
+            	<TEXT>It seems that wd40 is lithium grease, correct?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_45_0</DOCNO>
+            	<TEXT>My first ride</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_47_0</DOCNO>
+            	<TEXT>Very informative</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_48_0</DOCNO>
+            	<TEXT>I think a gps tracker for a bike could be an option.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_48_1</DOCNO>
+            	<TEXT>I dont know how easy would it be to get the bike back even with the help of local police, but I guess it is possible.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_49_0</DOCNO>
+            	<TEXT>The trail is really amazing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_50_0</DOCNO>
+            	<TEXT>Shell structures are so cool.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_50_1</DOCNO>
+            	<TEXT>We have studied them in the Uni</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_51_0</DOCNO>
+            	<TEXT>This is so rad</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_52_0</DOCNO>
+            	<TEXT>I am from Tallinn and have the same bike, 2by tho.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_52_1</DOCNO>
+            	<TEXT>It seems to be perfect for the Baltics</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_53_0</DOCNO>
+            	<TEXT>Didnt you get such transparent stickers with your delivery?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_54_0</DOCNO>
+            	<TEXT>A ride after work on Friday was awesome</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_56_0</DOCNO>
+            	<TEXT>Yea the ride was really good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_57_0</DOCNO>
+            	<TEXT>Can you tell me where exactly?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_57_1</DOCNO>
+            	<TEXT>Im going to Waldviertel on Tuesday, Wednesday.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_57_2</DOCNO>
+            	<TEXT>Thinking of taking my bike with me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_58_0</DOCNO>
+            	<TEXT>Im going further northwest</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_59_0</DOCNO>
+            	<TEXT>Like this type of a bag much more than the upper frame bags.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_59_1</DOCNO>
+            	<TEXT>Much cleaner imo</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_60_0</DOCNO>
+            	<TEXT>The area I live in is so flat, I didnt think about it:))))</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_61_0</DOCNO>
+            	<TEXT>That is one sick frame geometry!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_61_1</DOCNO>
+            	<TEXT>Looks really cool</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_62_0</DOCNO>
+            	<TEXT>A msg Id definitely respond to if Id be living in Berlin.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_62_1</DOCNO>
+            	<TEXT>Maybe in my cycling gear I would finally get into Berghain :)))</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_63_0</DOCNO>
+            	<TEXT>Happy birthday!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_64_0</DOCNO>
+            	<TEXT>I had a similar question and was suggested to buy PD m520.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_64_1</DOCNO>
+            	<TEXT>So far, very satisfied</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_65_0</DOCNO>
+            	<TEXT>Be ready for long delivery times for certain models</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_66_0</DOCNO>
+            	<TEXT>Actually the grizl has the special saddle pipe which is split in half and acts like a damper.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_66_1</DOCNO>
+            	<TEXT>It is designed for compliance, plus the tires.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_67_0</DOCNO>
+            	<TEXT>I really like this bike.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_67_1</DOCNO>
+            	<TEXT>I have a grail al 6 and if grizl would have been on the market at that time Id have a hard time choosing between the two.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_67_2</DOCNO>
+            	<TEXT>The grail fits my needs a bit more, the grizl though has such amazing looks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_67_3</DOCNO>
+            	<TEXT>Dont get me wrong, I really like my grail as well, but the grizl is really something special.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_67_4</DOCNO>
+            	<TEXT>Congrats on the new bike!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_69_0</DOCNO>
+            	<TEXT>For grizl my nizl!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_70_0</DOCNO>
+            	<TEXT>Are you happy with the quad lock?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_70_1</DOCNO>
+            	<TEXT>Thinking of buying one</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_71_0</DOCNO>
+            	<TEXT>Im also opting for quad lock instead of a computer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_71_1</DOCNO>
+            	<TEXT>Just makes more sense for my type of riding.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_71_2</DOCNO>
+            	<TEXT>And is cheaper for sure :))).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_71_3</DOCNO>
+            	<TEXT>The only problem I see is that in winter if the temperature is low the computer will be more robust than the smart phone</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_72_0</DOCNO>
+            	<TEXT>Decentralized ventilation system</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_72_1</DOCNO>
+            	<TEXT>I am interested in a decentralized ventilation system for my home.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_72_2</DOCNO>
+            	<TEXT>I was wondering if somebody has experience with one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_72_3</DOCNO>
+            	<TEXT>Would really appreciate some usage reviews.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_73_0</DOCNO>
+            	<TEXT>Decentralized meaning that there is not 1 ventilation machine and a net of pipes, but a number of small fans that are mounted into the wall directly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_73_1</DOCNO>
+            	<TEXT>They are programmed to work together, so that fans on one side of the house suck in the air, while the fans on the other side of the house blow the air outside.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_73_2</DOCNO>
+            	<TEXT>At the end of the cycle (for example 90 seconds after) the direction of the fans change and the ones which sucked before start to blow and vice-versa.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_73_3</DOCNO>
+            	<TEXT>For example: [https://bossplast.com/en/solutions/ventilation-of-houses-and-residential-units/decentralized-ventilation/](https://bossplast.com/en/solutions/ventilation-of-houses-and-residential-units/decentralized-ventilation/) I live in Austria.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_73_4</DOCNO>
+            	<TEXT>Here the climate is very smooth, so humidity is actually not a problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_73_5</DOCNO>
+            	<TEXT>That's why houses are historically do not have any centralized ventilation system.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2914_73_6</DOCNO>
+            	<TEXT>Only windows.</TEXT>
+        </DOC>

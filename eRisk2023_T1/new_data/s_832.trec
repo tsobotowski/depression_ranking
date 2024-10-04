@@ -1,0 +1,266 @@
+        <DOC>
+            	<DOCNO>s_832_0_0</DOCNO>
+            	<TEXT>Introducing DifferentialEquations.jl</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_1_0</DOCNO>
+            	<TEXT>Machine Learning and Visualization in Julia</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_2_0</DOCNO>
+            	<TEXT>7 Julia Gotchas and How to Handle Them</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_3_0</DOCNO>
+            	<TEXT>Pkg Update: Your Window to the Julia Package Ecosystem</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_4_0</DOCNO>
+            	<TEXT>Modular Algorithms for Scientific Computing in Julia</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_5_0</DOCNO>
+            	<TEXT>6 Months of DifferentialEquations.jl: Where We Are and Where We Are Going</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_6_0</DOCNO>
+            	<TEXT>Building a Web App in Julia: DifferentialEquations.jl Online</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_7_0</DOCNO>
+            	<TEXT>Yes, functions are constant global variables.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_7_1</DOCNO>
+            	<TEXT>This is why you can call a function without importing into a local scope!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_7_2</DOCNO>
+            	<TEXT>Because they are considered constant, there isn't a performance problem though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_7_3</DOCNO>
+            	<TEXT>The fact that they are constant, plus other code showing how constants compile, is what led to the infamous issue 265 which was solved in Julia v0.6.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_7_4</DOCNO>
+            	<TEXT>Remember, in Julia functions are just variables.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_7_5</DOCNO>
+            	<TEXT>`f(x)=2; g=f` is fine!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_8_0</DOCNO>
+            	<TEXT>That would work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_8_1</DOCNO>
+            	<TEXT>And it would do quite well too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_8_2</DOCNO>
+            	<TEXT>I always forget about it because it's not the best idea to have such a big dependency for library development.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_8_3</DOCNO>
+            	<TEXT>But if you're coding up a script for yourself: ParallelAccelerator.jl would do this job pretty much instantly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_9_0</DOCNO>
+            	<TEXT>`Values .= muladd.(beta,EVals,flowvals)`</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_10_0</DOCNO>
+            	<TEXT>Abstract types aren't based off of conversions, it's based off of actions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_10_1</DOCNO>
+            	<TEXT>For all intents and purposes, for mathematics (arithmetic, linear algebra), a `Float64` "has the same actions" as a `Float32`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_10_2</DOCNO>
+            	<TEXT>So if you replace a `Float32` with a `Float64` in most functions, it will act the same, and just have a difference in precision.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_10_3</DOCNO>
+            	<TEXT>In Julia, I find that it is better to think about types by their traits and actions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_10_4</DOCNO>
+            	<TEXT>How do they behave?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_10_5</DOCNO>
+            	<TEXT>Thinking about "what they have" fits object-oriented programming more (i.e. classifying by fields, and here, number of bits), while thinking about how their actions work fits multiple dispatch because duck-typed functions will "just work" if the actions are defined.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_11_0</DOCNO>
+            	<TEXT>You shouldn't need to do much at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_11_1</DOCNO>
+            	<TEXT>Type-stability is just something that usually happens naturally: just don't change the type of the argument.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_11_2</DOCNO>
+            	<TEXT>And pre-allocating when you work with big arrays is something you have to do in any language to get good performance, and pretty much guarentees type-stability.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_11_3</DOCNO>
+            	<TEXT>If you just put `.`s around then devectorization isn't needed in v0.6.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_11_4</DOCNO>
+            	<TEXT>Quite frankly, I don't know what you're talking about, at least when it comes to scientific computing and data science (outside of this domain, the same principles still hold, but there might not be as many built-in language shortcuts).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_0</DOCNO>
+            	<TEXT> gt;but some of it seems rather obscure like pre-allocating outputs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_1</DOCNO>
+            	<TEXT>You have to pre-allocate the vectors in C to get top speed there too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_2</DOCNO>
+            	<TEXT>In general, if you write type-stable code your code will compile to pretty much the same thing as the C code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_3</DOCNO>
+            	<TEXT>In fact, if you compile the C-code with clang, it should be almost exactly the same (if you're compiling with gcc and your code is nice and type-stable, then you're essentially measuring the difference between how well LLVM and gcc optimize code).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_4</DOCNO>
+            	<TEXT>Make sure you rebuild your system image though to get FMA and AVX working properly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_5</DOCNO>
+            	<TEXT>So if you don't use dynamic typing, yes you'll get about the results.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_6</DOCNO>
+            	<TEXT>If you do use dynamic typing, it will slow down.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_12_7</DOCNO>
+            	<TEXT>So just don't use dynamic typing in your main loops.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_13_0</DOCNO>
+            	<TEXT>Cross-posted.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_13_1</DOCNO>
+            	<TEXT>http://stackoverflow.com/questions/43403791/scipy-using-pycall-in-julia The answer is that the last two need to allocate the vector first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_13_2</DOCNO>
+            	<TEXT>function H(x) f = similar(x) f[1]=1 - x[1] - x[2] f[2]=8 - x[1] - 3*x[2] return f end</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_14_0</DOCNO>
+            	<TEXT>It is supported on Windows, but the latest update to the Pkg resolver is having issues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_0</DOCNO>
+            	<TEXT> gt;This is not accurate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_1</DOCNO>
+            	<TEXT>It's the dependencies between packages that have become more complex and harder to solve recently.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_2</DOCNO>
+            	<TEXT>The latest updates to the solver have actually fixed some of the issues, but most changes are in julia 0.6 only, and haven't been backported to 0.5.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_3</DOCNO>
+            	<TEXT>On 0.6, there were no issues reported as far as I can tell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_4</DOCNO>
+            	<TEXT>No, this is not accurate.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_5</DOCNO>
+            	<TEXT>One of the backported v0.5.1 fixes introduced a bug.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_6</DOCNO>
+            	<TEXT>This is already known: https://discourse.julialang.org/t/differentialequations-pkg-wont-be-added/3194/22 Unless you take the latest to be the unreleased version, then yes there's a fix there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_7</DOCNO>
+            	<TEXT>But most people likely shouldn't be using the unreleased v0.6 version.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_15_8</DOCNO>
+            	<TEXT>That should go into pre-release any day now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_16_0</DOCNO>
+            	<TEXT>I would open it from Julia.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_16_1</DOCNO>
+            	<TEXT>using IJulia notebook() That should work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_16_2</DOCNO>
+            	<TEXT>Maybe you have a different Jupyter notebook installation that's called by the command line?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_17_0</DOCNO>
+            	<TEXT> gt;The Julia documentation encourages the use of constants instead of globals for well-known reasons, but it's not clear if it's just better or optimal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_17_1</DOCNO>
+            	<TEXT>It's optimal.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_17_2</DOCNO>
+            	<TEXT>It will be a compile-time constant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_17_3</DOCNO>
+            	<TEXT>It will inline into functions, and if a function is all constants, it can compile to a constant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_17_4</DOCNO>
+            	<TEXT>They are a good tool to use, and feel free to use them when you want without worrying about performance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_0</DOCNO>
+            	<TEXT>That's quite a lot of parameters!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_1</DOCNO>
+            	<TEXT>Using constants like this is probably fine for what you're doing.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_2</DOCNO>
+            	<TEXT>The standard old trick is to use closures.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_3</DOCNO>
+            	<TEXT>`f(x,p)` is a function with parameters, `g = (x) - gt; f(x,p)` wraps the parameters in there, given that `p` is already defined.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_4</DOCNO>
+            	<TEXT>But lots of parameters can make this messy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_5</DOCNO>
+            	<TEXT>Another option is https://github.com/mauro3/Parameters.jl.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_6</DOCNO>
+            	<TEXT>You can wrap all of this into a type.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_832_18_7</DOCNO>
+            	<TEXT>You can use my function parameterization trick (well, thank ihnorton for the idea) instead with a parameterized type: p_type = MyParameters() # Assuming you used Parameters.jl type MyFunction{P} 
+    : Function="" p::P="" f="LotkaVolterra(p_type)" p.b="" end="" Now="" contains="" all="" your="" parameters.="" You="" also="" enclose="" arrays="" want.="" put="" any="" so="" worry.="" And="" if="" immutable="" an="" zero-cost="" abstraction="" mutable="" parameters="" still="" extremely="" cheap="" believe="" able="" even="" measure="" DiffEqBase="" automates="" any-type="" function="" parameterization="" wrapper:="" pf="ParameterizedFunction(f,params)" Then="" essentially="" what="" showed="" function.="" This="" made="" specifically="" but="" difficult="" one="" optimization="" problems.="" it="" in="" DifferentialEquations.jl="" plan="" supporting="" this="" thing="" better:="" Feel="" free="" request="" there.="" We="" added="" PyDSTool="" wrapper="" bifurcation="" now="" want="" make="" solving="" more="" automatic.="" Note="" directly="" using="" nonlinear="" solver="" great...="" are="" much="" better="" methods="" get="" dynamic="" equations.="" I="" am="" thinking="" there="" should="" where="" ODE="" is="" the="" initial="" we="" just="" extend="" have="" algorithms="" give="" back="" steady="" states="" for="" this.="" could="" you="" suggest="" design="" would="" be="" helpful="" to="" some="" macro="" makes="" things="" easy="" Parameters.jl="" kind="" of="" generation="" from="" DataFrames="" or="" Maybe="" something="" that="" can="" read="" file="" and="" build="" a="" type="" which="" has="" those=""
+      </TEXT>
+        </DOC>

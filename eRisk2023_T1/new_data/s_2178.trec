@@ -1,0 +1,1203 @@
+        <DOC>
+            	<DOCNO>s_2178_0_0</DOCNO>
+            	<TEXT>Release and renew your local IP.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_0_1</DOCNO>
+            	<TEXT>If using Windows this can be done from the command line using `ipconfig /release` followed with `ipconfig /renew`.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_0_2</DOCNO>
+            	<TEXT>If this does not work then reset your network adapter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_0_3</DOCNO>
+            	<TEXT>More often than not, the diagnostic and troubleshooting tools included in Windows are able to solve similar issues.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_0</DOCNO>
+            	<TEXT>Smoke and steam are two completely different things.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_1</DOCNO>
+            	<TEXT>With fluids, total contamination isn't going to happen immediately.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_2</DOCNO>
+            	<TEXT>Oil needs time to cycle, and same goes for coolant.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_3</DOCNO>
+            	<TEXT>Contaminated fluids are also a poor metric for determining whether a head gasket has failed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_4</DOCNO>
+            	<TEXT>Not every head gasket failure is going to connect coolant and oil passages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_5</DOCNO>
+            	<TEXT>If you are truly worried about it, continue driving the truck but keep a close eye on fluids and temperature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_6</DOCNO>
+            	<TEXT>When driving, keep activity light, no burnouts, racing, towing, etc.. After a couple of days you can begin inspecting fluids while also doing basic troubleshooting such as testing your coolant for the presence of exhaust gas.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_7</DOCNO>
+            	<TEXT>Truly, the best way to determine whether a head gasket has failed or whether a head has been warped is by removing the head gasket and inspecting it as well for the head.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_8</DOCNO>
+            	<TEXT>Also, head gaskets need a reason to fail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_9</DOCNO>
+            	<TEXT>So, unless your head gasket is just awful and old, it would require a great deal of heat to cause it to fail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_1_10</DOCNO>
+            	<TEXT>Same goes for piston rings.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_2_0</DOCNO>
+            	<TEXT>It's just an intake.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_2_1</DOCNO>
+            	<TEXT>You can remove it from the air box pretty easily and get your socket back.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_2_2</DOCNO>
+            	<TEXT>Even if you couldn't get your socket back, it would never make its way past the air filter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_2_3</DOCNO>
+            	<TEXT>Additionally, you can use a wire snake with a magnet on the end to fish it back out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_3_0</DOCNO>
+            	<TEXT>Wherever the socket is at now will most likely be where it returns once finished driving.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_3_1</DOCNO>
+            	<TEXT>I would need your year, make, and model, to look at its intake diagram to be sure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_4_0</DOCNO>
+            	<TEXT>Have you tried picking the car up and giving it a couple good shakes upside down?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_4_1</DOCNO>
+            	<TEXT>The socket should eventually fall out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_5_0</DOCNO>
+            	<TEXT>Have you tried looking on GitHub?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_5_1</DOCNO>
+            	<TEXT>There are a plethora of open source projects made for this and are showcased in almost every YouTube video showing off sorting algorithm visualizations.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_5_2</DOCNO>
+            	<TEXT>For example: *https://github.com/w0rthy/ArrayVisualizer* The linked repository may be considered deprecated but if you look through its 100+ forks you will find plenty of actively maintained repositories.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_0</DOCNO>
+            	<TEXT>First of all, how big are your structs?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_1</DOCNO>
+            	<TEXT>16 bytes is what Microsoft recommends because remember, structs are value types, which are passed by value.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_2</DOCNO>
+            	<TEXT>However, Microsoft made the 16 byte recommendation almost a decade ago, maybe even more, a time when copying and passing larger sets of data around was taxing, especially for performance critical applications.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_3</DOCNO>
+            	<TEXT>With classes, they are reference types, you are simply just passing the pointer for wherever they exist in memory.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_4</DOCNO>
+            	<TEXT>You may not even get a full or exact answer on this without taking the AOT or JIT compiler into consideration.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_5</DOCNO>
+            	<TEXT>Inspecting IL generated by an AOT compiler or the disassembled machine code from the JIT compiler will give you your answer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_6</DOCNO>
+            	<TEXT>This is why it is important that you benchmark across numerous versions of .NET, as newer versions remove a wide variety of code optimizations from the AOT compiler and make them exclusively handled by the JIT compiler.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_7</DOCNO>
+            	<TEXT>Remember, you are executing on a runtime which outputs different code for each hardware configuration it is executing on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_8</DOCNO>
+            	<TEXT>This isn't C++ where you can compile your code AOT against a specific architecture or instruction set.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_6_9</DOCNO>
+            	<TEXT>So not only should you be benchmarking numerous versions of the runtime, but you should also be benchmarking on numerous machines with different CPUs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_7_0</DOCNO>
+            	<TEXT>Okay, try to look at things from a CPUs perspective.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_7_1</DOCNO>
+            	<TEXT>A copy operation requires the CPU to access the data in memory from an address it is given and then copy the data while allocating it somewhere else in memory which requires even more checks, such as seeing if there is sufficient address space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_7_2</DOCNO>
+            	<TEXT>Whereas referencing an object via a pointer only requires a CPU to access the data in memory from an address.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_7_3</DOCNO>
+            	<TEXT>There are less operations required.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_7_4</DOCNO>
+            	<TEXT>I am also quite certain there are CPUs out there with specialized instructions for optimizing these sorts of tasks and are used extensively in graphics programming and real-time rendering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_0</DOCNO>
+            	<TEXT>Yes, as well for a wide variety of other horror and non-horror games.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_1</DOCNO>
+            	<TEXT>Looking through Nintendo's lawsuit history, I did not see any notable lawsuits initiated by Nintendo for other games using it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_2</DOCNO>
+            	<TEXT>So it may very well be that Nintendo patented it in order to protect themselves from early patent trolls since sanity systems in Nintendo games tend to be a heavily used core feature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_3</DOCNO>
+            	<TEXT>Having to remove such a feature in a game from the result of a lawsuit would seriously impact the playability of the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_4</DOCNO>
+            	<TEXT>They also probably filed it for protecting their IPs from being copied which cuts down on competition.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_5</DOCNO>
+            	<TEXT>Horror games are not a competition for Nintendo because they are a different player base and marketing demograph, most are not even available on Nintendo platforms.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_6</DOCNO>
+            	<TEXT>For example, nowhere on the internet are you going to find an article titled "Luigi's Mansion VS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_7</DOCNO>
+            	<TEXT>Outlast", nor are kids ever going to receive a delicious copy of Outlast in their Nintendo Halloween Humble Bundle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_8</DOCNO>
+            	<TEXT>Nor have the developers of any major horror game, such as Capcom with Resident Evil 7, ever had to establish a meeting to discuss why they are losing sales to Luigi's Mansion.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_9</DOCNO>
+            	<TEXT>It is also worth mentioning that patenting certain things today is considerably more difficult, if not impossible, compared to how it was a long time ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_10</DOCNO>
+            	<TEXT>For example, if id Software wanted to patent the idea of rendering guns from a first person perspective on a computer screen they most certainly could have done so.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_8_11</DOCNO>
+            	<TEXT>If you try to do that today it would never be approved by a patent office because the use and mechanic has become so mainstream that it is open domain for everyone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_9_0</DOCNO>
+            	<TEXT>Short answer, yes, and you wouldn't be the first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_10_0</DOCNO>
+            	<TEXT> gt; My problem is Unity's performance as my game would be very technically complex and Unity is best for relatively simple 2d games I do not know why you think this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_10_1</DOCNO>
+            	<TEXT>Unity is both an editor and an engine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_10_2</DOCNO>
+            	<TEXT>When Unity isn't busy being an editor it is busy being an engine that follows the same principles as every other engine when it comes to hardware accelerated rendering.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_10_3</DOCNO>
+            	<TEXT>The only caveat with Unity, compared to something such as CryEngine or Unreal, is that you are writing scripts in C# which either targets a runtime and executes on a virtual machine with a JIT compiler or gets compiled AOT into IL code then transpiled into C++ which then gets compiled and assembled into machine code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_10_4</DOCNO>
+            	<TEXT>If you are running into performance problems then start learning how to benchmark and profile code, because you and your code will most likely be the culprit outside of authoring unnecessarily heavy assets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_10_5</DOCNO>
+            	<TEXT>There is absolutely no reason that Unity can deliver high-fidelity 3D games but cannot do the same for 2D games, because both get rendered the same way.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_10_6</DOCNO>
+            	<TEXT>This applies to every engine.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_11_0</DOCNO>
+            	<TEXT>First of all you should be figuring out how so much oil is getting into your intake because that is the biggest problem here.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_11_1</DOCNO>
+            	<TEXT>A little bit of oil getting past a PCV and into the intake is normal for just about any engine, but for it to actually clog a manifold, that's pretty severe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_12_0</DOCNO>
+            	<TEXT>The commentor made an ICP reference, they weren't actually asking lol.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_0</DOCNO>
+            	<TEXT>This has absolutely nothing to do with technology, however, I'll bite...  gt; That is when they continued the harassment and I reached out to the authorities without having any luck whatsoever for somebody coming to my rescue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_1</DOCNO>
+            	<TEXT>I'm calling bullshit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_2</DOCNO>
+            	<TEXT> gt; My cell phones were disabled, outgoing calls from the room I was in were disabled, and any attempts for me to raise some sort of attention thats some thing out of the ordinary was happening around me was failed because nobody came to help.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_3</DOCNO>
+            	<TEXT>How convenient, a classical clich horror trope.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_4</DOCNO>
+            	<TEXT> gt; I was left with no choice but to break a fire sprinkler in the room with the hopes of rescue finally being able to come to my aid.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_5</DOCNO>
+            	<TEXT>You had plenty of choices, especially being in a well populated area.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_6</DOCNO>
+            	<TEXT>This has got to be the dumbest last resort I have ever heard.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_7</DOCNO>
+            	<TEXT> gt; Instead of the police department looking into my plea for help, I was arrested on the spot and transported to Palm Beach Gardens Hospital.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_8</DOCNO>
+            	<TEXT>If you actually did break a fire sprinkler then yeah no shit you're getting arrested.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_9</DOCNO>
+            	<TEXT>Doing so trips the alarm for the entire building, I know this because I've seen it happen.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_10</DOCNO>
+            	<TEXT>Inducing panic as well for criminal damaging, what the fuck did you think was going to happen?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_11</DOCNO>
+            	<TEXT>Moving forward, I doubt you were hospitalized, especially so quickly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_12</DOCNO>
+            	<TEXT>You are telling me the police never took you into the station for processing, made you speak with a detective, or even fill out a report?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_13</DOCNO>
+            	<TEXT> gt; I was admitted into the hospital a few hours later and was put in a four-point handcuffs and shackles to the bed naked for the next five days.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_14</DOCNO>
+            	<TEXT>No you were not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_15</DOCNO>
+            	<TEXT>You are telling me the police magically had the restraints with them?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_16</DOCNO>
+            	<TEXT>Also, to even be admitted you need to be pink slipped, which requires the opinion of a medical professional.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_17</DOCNO>
+            	<TEXT>Unless you are a threat to yourself, you are not going to be admitted into a psychiatric care unit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_18</DOCNO>
+            	<TEXT>You mean to tell me no one even bothered performing a psychological evaluation?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_19</DOCNO>
+            	<TEXT>No you were not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_20</DOCNO>
+            	<TEXT>Officers can be there to supervise you but they are not going to restrain you unless it is absolutely necessary.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_21</DOCNO>
+            	<TEXT>They take your clothes and belongings yes, but they give you a gown as well for blankets.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_22</DOCNO>
+            	<TEXT> gt; I was forced to undergo a procedure that I did not want but was told that I wouldnt be able to call anybody unless I went along with what they were describing is to be a medical necessity procedure.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_23</DOCNO>
+            	<TEXT>You're a fucking liar.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_24</DOCNO>
+            	<TEXT>First of all, no doctor is ever going to force you into a procedure without the consent of you or a power of attorney.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_25</DOCNO>
+            	<TEXT>When pink slipped, the most the hospital can do without your consent is run routine blood work, examinations, and administer medication.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_26</DOCNO>
+            	<TEXT>Anything more than that, such as an operation, is considered extra care.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_27</DOCNO>
+            	<TEXT>You would have to schedule that on your own and have the opinion of a neurologist or psychiatrist, none of which you have mentioned.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_28</DOCNO>
+            	<TEXT>This isn't the Twilight Zone, hospitals can be sued for millions for medical malpractice.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_29</DOCNO>
+            	<TEXT>Anyone that was involved would also lose their medical license, not many doctors are willing to throw something away so easily which costed them years of schooling and tens of thousands of dollars.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_30</DOCNO>
+            	<TEXT>Also, never would an operation happen so quickly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_31</DOCNO>
+            	<TEXT>It usually takes at least 24 hours for your initial visit with hospitals psychologist and it is their say what your care plan will be or if you will just be discharged.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_32</DOCNO>
+            	<TEXT>Also, they wouldn't lie about you getting to make a phone call because when admitted you are only allowed to make phone calls during permitted times and are only allowed to use the phone which the hospital provides.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_33</DOCNO>
+            	<TEXT>Also, the fact that you didn't even name the procedure or even go into detail just spells out bullshit even more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_34</DOCNO>
+            	<TEXT> gt; I went along with it in the hopes that I would be released shortly afterwards, but that was not the case.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_35</DOCNO>
+            	<TEXT>This has never been the case, ever.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_36</DOCNO>
+            	<TEXT>You think anyone that needs a medical procedure is just released immediately afterwards?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_37</DOCNO>
+            	<TEXT>You think surgeons are putting hearts in people and sending them on their merry way the moment they wake up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_38</DOCNO>
+            	<TEXT>You think people who are pink slipped are immediately discharged the first moment they follow along with something?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_39</DOCNO>
+            	<TEXT>No, you are constantly evaluated until the hospital believes you are able to be discharged or transferred to a facility where more intensive care is required.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_40</DOCNO>
+            	<TEXT> gt; I was told by the 28 different Palm Beach County deputies that came to watch over me every eight hours that I wasnt allowed to even make a phone call to anyone because I did not have my first appearance for the charge of arson first degree.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_41</DOCNO>
+            	<TEXT>You are in the psychiatric care unit, there are no police there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_42</DOCNO>
+            	<TEXT>The moment you are admitted it is where their job ends and the hospital's begins.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_43</DOCNO>
+            	<TEXT>You are transferred once care has been completed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_44</DOCNO>
+            	<TEXT>The police can't deny you a phone call, at this point no one but the hospital can.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_45</DOCNO>
+            	<TEXT>And arson of the first degree?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_46</DOCNO>
+            	<TEXT>Seriously, come on now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_47</DOCNO>
+            	<TEXT>You criminally damaged private property, not set fire to it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_48</DOCNO>
+            	<TEXT>You were not being charged with arson and not even the police are going to tell you that because it is not up to them but the courts.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_49</DOCNO>
+            	<TEXT>The only time the police know what you are being charged with is if they have a warrant for your arrest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_50</DOCNO>
+            	<TEXT> gt; I found out later on that I was assigned a public defender and the public defender did however represent me a few hours after the arrest for my first appearance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_51</DOCNO>
+            	<TEXT>You said you found out later yet state he introduced himself hours later, mhm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_52</DOCNO>
+            	<TEXT>Also, he would have been then one to tell the police you are allowed to have a phone call, but still, you're in the psychiatric care unit, which is out of his jurisdiction.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_53</DOCNO>
+            	<TEXT> gt; After five days of being chained to a bed naked, starved, deprived of water, and was belittled nonstop by the deputies, I was finally transported to Gun Club Road which is Palm Beach County Jail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_54</DOCNO>
+            	<TEXT>Even more bullshit.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_55</DOCNO>
+            	<TEXT>You were not chained, you were not starved, and you were not deprived of water.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_56</DOCNO>
+            	<TEXT>When in the hospital the police have no say what doctors can and cannot give you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_57</DOCNO>
+            	<TEXT>They are not medically qualified nor are they legally allowed to manipulate your medical care.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_58</DOCNO>
+            	<TEXT>And once again, there were no deputies there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_59</DOCNO>
+            	<TEXT>Police are not paid to babysit you, the hospital staff are.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_60</DOCNO>
+            	<TEXT>The police will come and pick you up to be transferred upon being discharged.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_61</DOCNO>
+            	<TEXT> gt; Now keep in mind this is a time when the jails are being emptied except for violent offenders and I was the only one in the booking area.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_62</DOCNO>
+            	<TEXT>If you were actually being charged with arson, which is a felony, then that is a violent crime...  gt; From there I was put into solitary confinement for 14 days and was not allowed to make any phone calls to anyone important that would help me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_63</DOCNO>
+            	<TEXT>Unless you are a convicted murderer that poses a threat to anyone that breathes in your direction, you would get your phone calls.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_64</DOCNO>
+            	<TEXT>Arson is a felony and serious, but it is not as serious as committing murder.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_65</DOCNO>
+            	<TEXT>You would have been given ample opportunity during commissary hours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_66</DOCNO>
+            	<TEXT> gt; Shortly after I complained enough to the medication nurses that I was being wrongfully held against my will for a charge of a crime that never even happened I was then transferred to the psychiatric ward in the jail.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_67</DOCNO>
+            	<TEXT>That isn't how that works, at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_68</DOCNO>
+            	<TEXT>You need to be screened and psychologically evaluated first, then it must be approved in most cases.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_69</DOCNO>
+            	<TEXT>It isn't musical chairs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_70</DOCNO>
+            	<TEXT>Also, that jail doesn't have a psychiatric ward, the most they have are special units to house those who are trying to harm themselves.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_71</DOCNO>
+            	<TEXT>In order to receive medical treatment if criminally insane you would have to be shipped to Georgia and you would have to admit yourself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_72</DOCNO>
+            	<TEXT>Florida shutdown most of its facilities and not many admit themselves either.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_73</DOCNO>
+            	<TEXT>Also, you would never be able to be transferred during or before a pre-trial, you have to be convicted first, which you were not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_74</DOCNO>
+            	<TEXT> gt; After finding out that the main charge of Arson in the first degree was dropped and I was only being held on a criminal mischief charge I was able to reach my mother to have her bail me out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_75</DOCNO>
+            	<TEXT>It was not arson and it was not criminal mischief either, you were not harassing people outside of a liquor store or going through peoples trash, you destroyed private property.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_76</DOCNO>
+            	<TEXT>Also, you wouldn't need bailed out, you would have been released immediately afterwards with a fine and possibly probation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_13_77</DOCNO>
+            	<TEXT>With all that being said, show me the police report, or I will just pull it myself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_14_0</DOCNO>
+            	<TEXT>Wireshark isn't going to do anything for you unless you are actually trying to sniff and analyze packet contents.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_14_1</DOCNO>
+            	<TEXT>If you want to troubleshoot connection issues then pinging and tracerouting are your two options.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_15_0</DOCNO>
+            	<TEXT>If targeting .NET or Mono then ILSpy or DotPeek can be used to translate the IL code back into C# or VB.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_15_1</DOCNO>
+            	<TEXT>If the game is using IL2CPP, then you will need to use Ghidra or similar which requires you know assembly code, and machine code in certain circumstances.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_15_2</DOCNO>
+            	<TEXT>If wanting to extract shaders then Intel GPA or RenderDoc will be of great assistance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_16_0</DOCNO>
+            	<TEXT>Just buy a damn wrench bro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_17_0</DOCNO>
+            	<TEXT>Just use the damn wrench bro.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_0</DOCNO>
+            	<TEXT> gt; Why some company can get away with creating all their engine in house and not use Unreal or another like Crysis?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_1</DOCNO>
+            	<TEXT>First, you mean CryEngine, and lastly, not many studios are writing engines from scratch.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_2</DOCNO>
+            	<TEXT>Most studios began writing their engines or modifying existing engines with special licenses a long time ago, when it cost almost nothing compared to today.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_3</DOCNO>
+            	<TEXT>These engines are then modified to stay up to date with current hardware and technology.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_4</DOCNO>
+            	<TEXT>Most engines today, AAA that is, are mainly comprised of middleware, which includes physics, occlusion culling, automatic LOD, audio, video playback, input, and more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_5</DOCNO>
+            	<TEXT>Take all the 3rd party libraries out and you just have a heap of code that is unusable, typically less than 500K LoC. Some engines today are heavily modified id Tech derivatives which includes Source, IW (Call of Duty), and more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_6</DOCNO>
+            	<TEXT>Both Frostbite and CryEngine began heavily inspired by id Tech which you can see from how both engines include and implement a CVar system.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_7</DOCNO>
+            	<TEXT>Dunia, Ubisoft FarCry engine, was a heavily modified build of CryEngine which Ubisoft got the rights to after acquiring the FarCry title from Crytek.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_8</DOCNO>
+            	<TEXT>Ubisoft then took all of this knowledge and began working on Snowdrop, which is used for The Division.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_9</DOCNO>
+            	<TEXT>Halo games prior to the new Slipspace Engine were all based on Bungie's Blam!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_10</DOCNO>
+            	<TEXT>engine, which began development in the 90's.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_18_11</DOCNO>
+            	<TEXT>Bethesda's Creation Engine evolved from the Gamebryo engine, which has an entire history of its own.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_19_0</DOCNO>
+            	<TEXT>How do you think it normally works?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_19_1</DOCNO>
+            	<TEXT>Dynamically?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_19_2</DOCNO>
+            	<TEXT>No, it is pulled from a dataset.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_19_3</DOCNO>
+            	<TEXT>Fortunately for you, new countries aren't constantly being created.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_20_0</DOCNO>
+            	<TEXT>Depends on how the data is structured as it sits now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_20_1</DOCNO>
+            	<TEXT>If the data is a single file, which would be ridiculous, you can just stream the bytes into separate files, applying filters and checks as you go in order to organize the data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_20_2</DOCNO>
+            	<TEXT>From there you can have files dedicated to certain years, names, events, etc.. From here, doing any sort of processing or manipulation will be much more efficient, especially when working with limited address space.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_20_3</DOCNO>
+            	<TEXT>For files that are still too large, you can break them down further similar to pagination.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_20_4</DOCNO>
+            	<TEXT>If you need to be able to perform quick lookups then you will want to index the least amount of data necessary, making sure that the index maps to the full set of data.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_21_0</DOCNO>
+            	<TEXT>If you want to go the hard route you can configure clients to use static local IPs or you can setup a DHCP server which will assign IPs to network clients in whatever range and fashion you like.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_21_1</DOCNO>
+            	<TEXT>The easy route?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_21_2</DOCNO>
+            	<TEXT>Read the manufacturer manual.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_22_0</DOCNO>
+            	<TEXT>Have you checked your subnet masks?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_23_0</DOCNO>
+            	<TEXT>What you are after is called end-to-end encryption (E2E).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_23_1</DOCNO>
+            	<TEXT>If you want to encrypt traffic then you need to ensure the contents are already encrypted prior to sending over the network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_23_2</DOCNO>
+            	<TEXT>This isn't the difficult part, key exchange is typically the first step for any threat actor who sniffs your network and notices the contents of your packets cannot be ciphered.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_23_3</DOCNO>
+            	<TEXT>Attackers will continue analyzing contents or wait for contact to be initiated in order to intercept the handshake containing encryption keys.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_23_4</DOCNO>
+            	<TEXT>This is the primary problem with symmetrical encryption.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_23_5</DOCNO>
+            	<TEXT>TLS solves this issue by using asymmetrical encryption, where public keys are exchanged but the primary client or server contains a private key.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_23_6</DOCNO>
+            	<TEXT>For you, implementing your own system or using a pre-existing system offering similar capabilities would be worth looking into.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_24_0</DOCNO>
+            	<TEXT>Not every device has the same port setup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_24_1</DOCNO>
+            	<TEXT>Some ports are single channel (mono) while other ports provide multiple channels (stereo), such as L and R, microphone, and more.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_24_2</DOCNO>
+            	<TEXT>Look at the difference between TRS and TRRS.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_25_0</DOCNO>
+            	<TEXT>And your default gateway is?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_26_0</DOCNO>
+            	<TEXT>If you are restricted to using the software mentioned in your post then for security you are going to need to refer to documentation or ask the developers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_26_1</DOCNO>
+            	<TEXT>If wanting to go low level, you are going to need to be able to intercept operating system calls, also known as system call hooking.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_26_2</DOCNO>
+            	<TEXT>This way you can detect if a system call is being made to send data over the network.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_26_3</DOCNO>
+            	<TEXT>Capturing the contents you can then encrypt them and resubmit the system call in your own code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_26_4</DOCNO>
+            	<TEXT>Not the best setup, and is also going to require a lot of tweaking to ensure you are not mucking up any other outbound messages.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_27_0</DOCNO>
+            	<TEXT>I really suggest you look into what a default gateway and subnet mask is, you will easily find your answer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_28_0</DOCNO>
+            	<TEXT>The point of splitting the content is yes, you are going to have to do a lot of preliminary processing, but afterwards you will never have to again because the data is now organized however you want it to be, which makes searching and manipulating the data much easier and efficient.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_28_1</DOCNO>
+            	<TEXT>Imagine loading a 10 GB file into memory and manipulating it, not going to be a fun time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_28_2</DOCNO>
+            	<TEXT>Now imagine we break that file into 20 separate files at 500 MB, much easier and quicker to load into memory and perform processing on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_28_3</DOCNO>
+            	<TEXT>I am assuming you have no programming experience?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_29_0</DOCNO>
+            	<TEXT>The documentation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_30_0</DOCNO>
+            	<TEXT>If it is broke then replace it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_30_1</DOCNO>
+            	<TEXT>Replacing them are pretty easy, just undo a pillar, some bolts, a connector, and reverse your steps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_31_0</DOCNO>
+            	<TEXT>It would help your case if you knew exactly what to lookup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_31_1</DOCNO>
+            	<TEXT>You are trying to perform a splatmap lookup at a specific location, which Unity exposes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_32_0</DOCNO>
+            	<TEXT>No, the documentation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_33_0</DOCNO>
+            	<TEXT>Fix your brackets and learn how to create method bodies.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_34_0</DOCNO>
+            	<TEXT>We are here to help you with C# problems, not career problems.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_34_1</DOCNO>
+            	<TEXT>This is better suited for r/cscareerquestions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_0</DOCNO>
+            	<TEXT> gt; Question 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_1</DOCNO>
+            	<TEXT>Should I handle the print event in the backend or the frontend?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_2</DOCNO>
+            	<TEXT>Backend, never trust anything from a client for starters, and lastly this is logic you do not want to expose.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_3</DOCNO>
+            	<TEXT> gt; What are the frameworks/modules that are best for this scenario?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_4</DOCNO>
+            	<TEXT>You need to research them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_5</DOCNO>
+            	<TEXT>You obviously have two problems which you need to tackle one at a time.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_6</DOCNO>
+            	<TEXT>Communication API and sending data to a printer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_35_7</DOCNO>
+            	<TEXT> gt; How do I implement it as I am new to this kind of programming (printing) This is r/learnprogramming not r/domyhomework.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_36_0</DOCNO>
+            	<TEXT>So I am unhelpful because I am not spoon-feeding them or doing their own homework?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_37_0</DOCNO>
+            	<TEXT> gt; I want to contribute to society by writing an open source library.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_37_1</DOCNO>
+            	<TEXT> gt; I can only justify the time if I can also get paid for it What?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_38_0</DOCNO>
+            	<TEXT>That rotor is worn thin, replace it,</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_39_0</DOCNO>
+            	<TEXT>Earlier Call of Duty Zombie installments were built upon the same principle, but instead of having a fully-featured campaign the lore is spread through loading sequences and inside the levels as small side objectives and easter eggs.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_39_1</DOCNO>
+            	<TEXT>As the map is loading you could play a news clip that describes the current situation and why players are being deployed into the area.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_40_0</DOCNO>
+            	<TEXT>You do not need Visual Studio, you can just use Visual Studio Code and install the necessary plugins to enable features you specifically need.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_40_1</DOCNO>
+            	<TEXT>I have been using Visual Studio for over a decade now and just last year I started using Visual Studio Code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_40_2</DOCNO>
+            	<TEXT>Outside of making GUI applications, Visual Studio Code always wins.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_41_0</DOCNO>
+            	<TEXT>Assuming you took a proper reading, no, it is not safe to drive.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_42_0</DOCNO>
+            	<TEXT>From my years of changing rotors I most certainly can.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_43_0</DOCNO>
+            	<TEXT>If they cannot put forth the effort of performing basic research then why should I put forth the effort of explaining it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_43_1</DOCNO>
+            	<TEXT>It is like asking someone how to [insert goal], what have you already tried?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_44_0</DOCNO>
+            	<TEXT>You create a tool that automates it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_44_1</DOCNO>
+            	<TEXT>Iterate each row and move them into separate files based on your own rules.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_44_2</DOCNO>
+            	<TEXT>If the file is small enough to fit into memory then just load it into memory.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_44_3</DOCNO>
+            	<TEXT>If not, you are going to have to stream it into memory.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_0</DOCNO>
+            	<TEXT>Algorithms exist to solve a specific problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_1</DOCNO>
+            	<TEXT>You want to sort an array?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_2</DOCNO>
+            	<TEXT>Perform a complex math problem?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_3</DOCNO>
+            	<TEXT>Draw a certain shape using pixels?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_4</DOCNO>
+            	<TEXT>Perform path-finding with the result being the shortest path?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_5</DOCNO>
+            	<TEXT>Learn from data?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_6</DOCNO>
+            	<TEXT>These are all common problems in the various fields of computer science that are solved by algorithms.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_7</DOCNO>
+            	<TEXT>Before you can begin solving the problem (writing the algorithm), you must first fully understand the problem.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_8</DOCNO>
+            	<TEXT>People who write algorithms are not doing it from muscle memory nor are they geniuses hiding their craft.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_9</DOCNO>
+            	<TEXT>They are professional problem solvers, some more creative than others.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_45_10</DOCNO>
+            	<TEXT>But what they all have in common is that they know exactly what the problem is and can break it down into steps.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_46_0</DOCNO>
+            	<TEXT>There is a difference between game design patterns and your typical OOP guidelines and design patterns.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_46_1</DOCNO>
+            	<TEXT>Game design patterns are specific to programming games, but guidelines and patterns such as SOLID and more apply everywhere in OOP, regardless if you are making a game or not.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_46_2</DOCNO>
+            	<TEXT>With any code, you should be planning out and creating diagrams of your systems before writing a single line of code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_46_3</DOCNO>
+            	<TEXT>This is hard for beginners but as you gain experience it becomes second nature.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_46_4</DOCNO>
+            	<TEXT>You should always plan on creating code that is efficient, compact, readable, and scalable.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_46_5</DOCNO>
+            	<TEXT>If not, you will be spending more time modifying and refactoring old code as a workaround for implementing new code, which is the absolute worst thing you can do if adhering to a deadline.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_46_6</DOCNO>
+            	<TEXT>Take things slow, and just think about how you want things to work and how the flow of execution should be directed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_47_0</DOCNO>
+            	<TEXT>Let me save you guys a click, the title of this post was intentionally selected to serve as clickbait.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_47_1</DOCNO>
+            	<TEXT>Anyone who knows anything about assembly obviously knows it is the most optimal way of programming anything, but also the most tedious.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_48_0</DOCNO>
+            	<TEXT>Would much rather it be near the caliper than to have it be an entire brake line needing replaced.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_48_1</DOCNO>
+            	<TEXT>Just don't use compression fittings and you'll be good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_0</DOCNO>
+            	<TEXT>After being downvoted for spending my time helping you out?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_1</DOCNO>
+            	<TEXT>No, I have no resources that teach you how to be a better problem solver, nor would they apply everywhere and for everything as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_2</DOCNO>
+            	<TEXT>You want to get better at writing path-finding algorithms?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_3</DOCNO>
+            	<TEXT>Begin studying path-finding and fully understand what it is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_4</DOCNO>
+            	<TEXT>You want to get better at creating math algorithms?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_5</DOCNO>
+            	<TEXT>Begin learning math.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_6</DOCNO>
+            	<TEXT>To solve a problem you have to understand the problem, and to understand the problem you have to know what the problem is.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_49_7</DOCNO>
+            	<TEXT>Breaking down path-finding step by step without full knowledge of what path-finding is simply wont cut it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_0</DOCNO>
+            	<TEXT>I didn't take classes nor did I go to school for this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_1</DOCNO>
+            	<TEXT>I learned how to program in my basement when I was 15 and have been doing it for 10 years now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_2</DOCNO>
+            	<TEXT>However, I had a very technical background prior to that and understand that if you do not know how to use something then you refer to a manual made by the manufacturer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_3</DOCNO>
+            	<TEXT>In programming, manuals are called documentation, and they are written by the developers of whatever language or library you are using.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_4</DOCNO>
+            	<TEXT>Also, when I come across a word I do not know, I take the time to research it before having someone explain it to me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_5</DOCNO>
+            	<TEXT>I will only ask questions if all of my options have been exhausted, which has not happened once in my entire decade of programming.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_6</DOCNO>
+            	<TEXT>Everything you need to know is free and available online, you just have to put the effort into looking for it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_50_7</DOCNO>
+            	<TEXT>Kind of like if you put the effort into looking for things online you would see that this question gets asked and answered a lot.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_51_0</DOCNO>
+            	<TEXT>You have done plenty of research but don't know what documentation is?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_51_1</DOCNO>
+            	<TEXT>Or even bother looking it up?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_52_0</DOCNO>
+            	<TEXT>You're not being dramatic, you're being logical.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_52_1</DOCNO>
+            	<TEXT>Which not many people here seem to be.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_52_2</DOCNO>
+            	<TEXT>Keep being you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_53_0</DOCNO>
+            	<TEXT>id Tech for starters is open source, but a majority of the codebase is engine code and not game code, for obvious reasons.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_53_1</DOCNO>
+            	<TEXT>But still, it is very good code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_0</DOCNO>
+            	<TEXT>Can you go into more detail?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_1</DOCNO>
+            	<TEXT>Is it always doing this even when driving?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_2</DOCNO>
+            	<TEXT>Does the sound stop when the motor reaches temp?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_3</DOCNO>
+            	<TEXT>Does driving over bumps make the same sound appear?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_4</DOCNO>
+            	<TEXT>What does it sound like when starting the engine?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_5</DOCNO>
+            	<TEXT>Typically most things that smooth out with more RPMs or vibration are either loose or unbalanced.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_6</DOCNO>
+            	<TEXT>So at this point, not knowing anything about your vehicle and engine because you did not list it, it could be anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_54_7</DOCNO>
+            	<TEXT>For example, a loose heatshield, a pulley bearing, noisy lifters, all the way up to pushrods, rocker arms, valves, etc..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_55_0</DOCNO>
+            	<TEXT>Send them a C amp;D letter via mail or email, letting them know that hosting the game is a violation of the terms of service and EULA thus fore nullifying any license or privilege of having the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_55_1</DOCNO>
+            	<TEXT>It would be best to do so in mail that way you can get a receipt which will be handy in court.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_55_2</DOCNO>
+            	<TEXT>Give them 2 weeks to take down the content and delete any files they have.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_55_3</DOCNO>
+            	<TEXT>If they do not do so, get a lawyer and bring them and your receipt to court.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_55_4</DOCNO>
+            	<TEXT>Additionally, you can get in contact with their webhost if applicable and report it to their abuse team.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_55_5</DOCNO>
+            	<TEXT>You should be able to find who their webhost is by doing a WHOIS lookup through ICANN.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_56_0</DOCNO>
+            	<TEXT>Couldn't tell you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_56_1</DOCNO>
+            	<TEXT>Ever since Apple got rid of my 3.5mm port I stopped giving a shit about them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_57_0</DOCNO>
+            	<TEXT>By no functions they mean the classes only purpose is for containing data which can either be manipulated or simply readonly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_57_1</DOCNO>
+            	<TEXT>What you are thinking of is called a collection, which can very easily be confusing as the term "data structure" is interchangeable and varies based on context.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_57_2</DOCNO>
+            	<TEXT>The commentor is referring to using a class just to store values of varying types while you are referring to using a class with an underlying array to store multiple values of a specified type.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_58_0</DOCNO>
+            	<TEXT>**C#:** - **Your list:** *[List
+    T](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-6.0)* - *Represents a strongly typed list of objects that can be accessed by index.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_58_1</DOCNO>
+            	<TEXT>Provides methods to search, sort, and manipulate lists.* - **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_58_2</DOCNO>
+            	<TEXT>Your stack:** *[Stack
+    T](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1?view=net-6.0)* - *Represents a variable size last-in-first-out (LIFO) collection of instances of the same specified type.* - **</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_58_3</DOCNO>
+            	<TEXT>Your map:** *[Dictionary
+    TKey TValue=""](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-6.0)* - *Represents a collection of keys and values.*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_58_4</DOCNO>
+            	<TEXT>You can find more collection types under the System.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_58_5</DOCNO>
+            	<TEXT>Collections.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2178_58_6</DOCNO>
+            	<TEXT>Generic namespace *[here](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=net-6.0)*.</TEXT>
+        </DOC>

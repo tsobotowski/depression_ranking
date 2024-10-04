@@ -1,0 +1,1296 @@
+        <DOC>
+            	<DOCNO>s_2374_0_0</DOCNO>
+            	<TEXT>Yeah that's from a mod, think it's called New Bosses and Enemies</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_1_0</DOCNO>
+            	<TEXT>The enemy you shot was the Master of Exchange.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_1_1</DOCNO>
+            	<TEXT>Damaging it will cause it to swap places with you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_1_2</DOCNO>
+            	<TEXT>It swapped you into your own explosion</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_0</DOCNO>
+            	<TEXT>Continuing work on my functional systems language [Clamn](https://github.com/eashanhatti/clamn).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_1</DOCNO>
+            	<TEXT>I'd taken the last few weeks to fix a bunch of performance issues in the elaborator, but now it's finally back to implementing features: record types.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_2</DOCNO>
+            	<TEXT>I've got dependent types in my lang, which means I can get a bunch of more exciting features for free by implementing records, ADTs for instance.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_3</DOCNO>
+            	<TEXT>For the more theoretical stuff, I've been catching up with Andrs Kovcs's work on staging.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_4</DOCNO>
+            	<TEXT>I'm also going to implement staging in my lang for things like guaranteeing monomorphization, control over data layout, etc.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_5</DOCNO>
+            	<TEXT>All for achieving the "systems" part of "functional systems language".</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_6</DOCNO>
+            	<TEXT>It's been pretty exciting to see the different directions that staging can be taken.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_2_7</DOCNO>
+            	<TEXT>I've written some rough notes on the system I'm going to implement [here](https://github.com/eashanhatti/clamn/blob/master/writing/staging_notes.md).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_3_0</DOCNO>
+            	<TEXT>All of the devs are Finnish</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_4_0</DOCNO>
+            	<TEXT>All of the new stuff is currently going to the beta branch, which is probably why you think that there's nothing going on.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_4_1</DOCNO>
+            	<TEXT>I do wish it was made a bit more clear.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_4_2</DOCNO>
+            	<TEXT>Anyway, the devs have no plans to set the game down.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_4_3</DOCNO>
+            	<TEXT>Once they get all the stuff on the beta figured out it'll come to the main branch as an update</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_5_0</DOCNO>
+            	<TEXT>Haha, that's what I did too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_5_1</DOCNO>
+            	<TEXT>I wasn't sure what it did and the name was scary enough, so I decided to cast it at the end where I knew I was going to die anyway.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_6_0</DOCNO>
+            	<TEXT>No need to be rude.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_6_1</DOCNO>
+            	<TEXT>A lot of players catch up without outside information</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_7_0</DOCNO>
+            	<TEXT>Nope, you just ran into a Taikasauva, or 'Living Wand'.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_7_1</DOCNO>
+            	<TEXT>They're wands that want to kill you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_7_2</DOCNO>
+            	<TEXT>You were pretty unlucky, running into a Taikasauva with speedy Firebolts... Here's the wiki page: [https://noita.gamepedia.com/Taikasauva](https://noita.gamepedia.com/Taikasauva)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_8_0</DOCNO>
+            	<TEXT> gt; my only perk was glass cannon Glass Cannon not only triples your damage, but *quintuples* the radius of your explosions</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_9_0</DOCNO>
+            	<TEXT>Theres two different ways Ive found of understanding types: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_9_1</DOCNO>
+            	<TEXT>As restrictions on what a term can be 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_9_2</DOCNO>
+            	<TEXT>As restrictions on what *operations* can be performed on a term The first is set-like and a little easier to understand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_9_3</DOCNO>
+            	<TEXT>Types are sets, a term of a type T can only be an element of T. For instance, the type `Int` is the set of all integers (lets assume bigints), so a term of type `Int` can only be an integer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_9_4</DOCNO>
+            	<TEXT>I prefer the second way of understanding though, it makes the more advanced concepts of type theory a little easier to understand.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_10_0</DOCNO>
+            	<TEXT>I remember someone had made a flying rock using death crosses a while ago, great to know we can control them much more easily now Now imagine, we could make this even better by exploiting the new glue hiisi...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_11_0</DOCNO>
+            	<TEXT>One of the devs is active on the discord server, and IIRC, they haven't said anything.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_11_1</DOCNO>
+            	<TEXT>I'd expect it to hit stable soon though, with the massive amount of new content they've now added.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_11_2</DOCNO>
+            	<TEXT>In the meantime, play the beta!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_12_0</DOCNO>
+            	<TEXT>Another soul almost falls into the clutches of Hmis Gang.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_12_1</DOCNO>
+            	<TEXT>You've escaped, for now...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_13_0</DOCNO>
+            	<TEXT>The skeleton sits on a small ledge.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_13_1</DOCNO>
+            	<TEXT>They'll be here for a while. "</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_13_2</DOCNO>
+            	<TEXT>Should have just shot that wolf instead of running away... Guess I didn't have the **guts** for it.*"*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_14_0</DOCNO>
+            	<TEXT>Wow, that's exceedingly rare.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_15_0</DOCNO>
+            	<TEXT>Accelerating Bouncing Burst can in general get pretty ridiculous.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_15_1</DOCNO>
+            	<TEXT>IIRC, Divide By Ten - gt; Accelerating Shot - gt; ... (repeat that as much as needed) - gt; Bouncing Burst is actually a viable way to kill 33 Orb Kolmisilm.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_16_0</DOCNO>
+            	<TEXT>u/aaazedoOficial They actually changed this recently, the trigger is now lower.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_16_1</DOCNO>
+            	<TEXT>Theres still a way to avoid summoning squiddy, but I dont remember it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_16_2</DOCNO>
+            	<TEXT>Edit: Heres one way https://www.reddit.com/r/noita/comments/mdyhvo/comment/gscslwa</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_17_0</DOCNO>
+            	<TEXT>Everyone else got to the "say something completely incorrect" joke before me</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_18_0</DOCNO>
+            	<TEXT>Looks like something out of Doom</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_19_0</DOCNO>
+            	<TEXT>Cozy vibes right there.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_20_0</DOCNO>
+            	<TEXT>I'd say the Master of Masters is harder than Squiddy.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_20_1</DOCNO>
+            	<TEXT>And of course there's the boss to end all bosses: 33 Orb Kolmisilm...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_21_0</DOCNO>
+            	<TEXT>The Blood Orbs where what made the Master of Masters difficult for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_21_1</DOCNO>
+            	<TEXT>I didn't know anything about the boss beforehand, I actually stumbled upon it by accident.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_21_2</DOCNO>
+            	<TEXT>Shot a Blood Orb and boom, 90% of my health gone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_21_3</DOCNO>
+            	<TEXT>If I knew about those before going into the fight then yeah, it probably would have been easier.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_21_4</DOCNO>
+            	<TEXT>An aside: Stumbling upon it on my own was *so* fun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_22_0</DOCNO>
+            	<TEXT>Oh wow, that appears to not even be a regular worm at all.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_22_1</DOCNO>
+            	<TEXT>Rather it seems to have been summoned by the [Worm Launcher](https://noita.fandom.com/wiki/Worm_Launcher) spell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_23_0</DOCNO>
+            	<TEXT>That right there is the Omega Sawblade spell, which is unlocked after finishing a difficult quest.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_23_1</DOCNO>
+            	<TEXT>It's probably one of the most dangerous single spells in the game, with the other being the End of Everything (which funnily enough, you unlock from the same quest).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_23_2</DOCNO>
+            	<TEXT>It both has piercing and does enormous slice damage, meaning that you cannot become immune to it *and* it deals damage every frame.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_23_3</DOCNO>
+            	<TEXT>Alongside that, it can dig through any material in the game, meaning you can't even hide behind something to escape it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_23_4</DOCNO>
+            	<TEXT> Oh yeah, and it's a boomerang.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_24_0</DOCNO>
+            	<TEXT>Huh, yeah that could have been phrased better</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_25_0</DOCNO>
+            	<TEXT>Its speed increases the farther away it is from you, so as long as you stand still it should be enough</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_26_0</DOCNO>
+            	<TEXT>I believe that is the Khulu miniboss from the New Bosses and Enemies mod</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_27_0</DOCNO>
+            	<TEXT>Clean's uniqueness types come to mind.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_27_1</DOCNO>
+            	<TEXT>The idea is that whenever you have a variable of a unique type, you may only use that variable once.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_27_2</DOCNO>
+            	<TEXT>This is used in Clean for things like guaranteeing mutation as an optimization, enforcing resource protocols, and tracking effects.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_28_0</DOCNO>
+            	<TEXT>They're slightly different.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_28_1</DOCNO>
+            	<TEXT>Rust implements what's called an *affine* type system, which is a system where variables must be used one time *or* zero times.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_28_2</DOCNO>
+            	<TEXT>Uniqueness types do not allow for zero-use, a unique variable must be used exactly once.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_28_3</DOCNO>
+            	<TEXT>But yes, Clean's system is a little more general/powerful.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_29_0</DOCNO>
+            	<TEXT>*Almost*, uniqueness types and linear types also have a subtle difference.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_29_1</DOCNO>
+            	<TEXT>A function that takes a linear value must use that value once, but it has no guarantee that the value was also used only once in the calling context.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_29_2</DOCNO>
+            	<TEXT>In other words, linear functions do not *consume* their argument.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_29_3</DOCNO>
+            	<TEXT>Uniqueness types add that notion of consumption to a linear type system.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_29_4</DOCNO>
+            	<TEXT>Note that that explanation glosses over a few details, heres a more in-depth resource: http://edsko.net/2017/01/08/linearity-in-haskell/ And if youre interested in less obscure languages that have them (read: languages with documentation, haha, Cleans docs are virtually nonexistent), Idris 1 also has an experimental implementation: http://docs.idris-lang.org/en/latest/reference/uniqueness-types.html</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_0</DOCNO>
+            	<TEXT>You are correct on both of those definitions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_1</DOCNO>
+            	<TEXT>However, the definition of unique type is also used exactly once!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_2</DOCNO>
+            	<TEXT>Thats usually where the confusion between linear types and uniqueness types come from.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_3</DOCNO>
+            	<TEXT>Roughly, the difference is that uniqueness types add a notion of *consumption*.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_4</DOCNO>
+            	<TEXT>For example, if you pass a unique value to a function, that value may not be used anywhere else in the calling context.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_5</DOCNO>
+            	<TEXT>This is usually called move semantics.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_6</DOCNO>
+            	<TEXT>Rust uses them, if youd like a concrete example to look at.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_7</DOCNO>
+            	<TEXT>Note that the above glosses over a bunch of details, since the precise difference between the two is pretty subtle.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_30_8</DOCNO>
+            	<TEXT>Heres a very good resource on them: http://edsko.net/2017/01/08/linearity-in-haskell/. As a little overview: uniqueness types and linear types have a weak duality and are different ways of enforcing only use once, uniqueness is a guarantee about variable usage, while linearity is a restriction on variable usage.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_31_0</DOCNO>
+            	<TEXT> gt; The difference is that the person *converting to a unique type* must have first proved that no one has done that Yeah, thats what I was trying to get across with the value may not be used anywhere else in the calling context.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_32_0</DOCNO>
+            	<TEXT>Thats the Nullifying Altar.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_32_1</DOCNO>
+            	<TEXT>Each of the three bowls on it is marked with an alchemical symbol, filling each bowl with the substance indicated by the symbol will cause the altar to remove all your perks</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_33_0</DOCNO>
+            	<TEXT>The California update</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_34_0</DOCNO>
+            	<TEXT>Yeah, I agree.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_34_1</DOCNO>
+            	<TEXT>Fun fact: theyre actually a holdover from one of the earliest versions of the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_34_2</DOCNO>
+            	<TEXT>These things and the Tree have been there for a while, Im guessing thats why they were never removed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_35_0</DOCNO>
+            	<TEXT>Did you have a brown stone called "Hidenkivi" in your inventory?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_35_1</DOCNO>
+            	<TEXT>That's what it was.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_35_2</DOCNO>
+            	<TEXT>Holding it turns everything around you to soil, but it also makes your kicks trigger earthquakes - even if you aren't holding it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_36_0</DOCNO>
+            	<TEXT>Very cool, love the dwarf hall vibe</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_37_0</DOCNO>
+            	<TEXT>That's pretty cool that you figured out Fungal Shift in your first run  gt; I don't even view death as a setback, more like "Oh goodie, more spells to fuck around with!"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_37_1</DOCNO>
+            	<TEXT>That's the perfect attitude to have with this game, haha</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_38_0</DOCNO>
+            	<TEXT>If the enemies are actually ghosts, there's probably a Cursed Eye around somewhere.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_38_1</DOCNO>
+            	<TEXT>If they're getting revived, there's a Necrobot around</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_0</DOCNO>
+            	<TEXT>Necrobots can be rarely found in The Vault and The Tower.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_1</DOCNO>
+            	<TEXT>They almost instantly revive anything that died near them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_2</DOCNO>
+            	<TEXT>And 'near' for them is pretty big, not sure of their precise range.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_3</DOCNO>
+            	<TEXT>Cursed Eyes can be found in the Frozen Chasm and again in The Tower.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_4</DOCNO>
+            	<TEXT>They spawn ghostly enemies that cannot be killed.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_5</DOCNO>
+            	<TEXT>The only way to get rid of the ghosts is to kill the Cursed Eye itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_6</DOCNO>
+            	<TEXT>Suffice it to say that they're both extremely deadly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_7</DOCNO>
+            	<TEXT>Luckily the areas you find them in are pretty end-game, with the exception of The Vault for Necrobots.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_8</DOCNO>
+            	<TEXT>That bug ghost that follows you is called an Houre.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_39_9</DOCNO>
+            	<TEXT>It's tethered to something and can't travel too far away from it, find that thing to kill it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_40_0</DOCNO>
+            	<TEXT>Something like a crystal, yes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_41_0</DOCNO>
+            	<TEXT>Thats Stevari, the guardian of shop.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_41_1</DOCNO>
+            	<TEXT>If you break one of the shops, it will spawn in the next one you enter</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_42_0</DOCNO>
+            	<TEXT>In the possession of the faceless one is the voiceless one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_42_1</DOCNO>
+            	<TEXT>Remind the voiceless one of the music by showing it songs from around the world</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_43_0</DOCNO>
+            	<TEXT>That's the New Sun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_43_1</DOCNO>
+            	<TEXT>It's a long and complicate process to bring it about...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_44_0</DOCNO>
+            	<TEXT>I would decouple the idea of borrowing from pointers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_44_1</DOCNO>
+            	<TEXT>IIUC, you can't express that some data is shared without also putting it behind a pointer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_44_2</DOCNO>
+            	<TEXT>ATS's views and viewtypes are something I would more like Rust to be based around.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_45_0</DOCNO>
+            	<TEXT>It's actually not pheromone, but rather, the Peace with the Gods perk.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_45_1</DOCNO>
+            	<TEXT>You can see it at the bottom of OP's perk list.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_45_2</DOCNO>
+            	<TEXT>Taking it makes all Steves and Scotts in the world friendly to you, as well as any that spawn after the fact.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_46_0</DOCNO>
+            	<TEXT>You may have gotten me there, my bad for posting a half-baked idea haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_46_1</DOCNO>
+            	<TEXT>FWIW, I was thinking about the return type of `get` in `HashMap` forcing me to return pointers to `usize`s.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_46_2</DOCNO>
+            	<TEXT>Still would like for Rust to use something more like ATS though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_47_0</DOCNO>
+            	<TEXT>This subreddit is for developing programming languages rather than programming in of itself.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_47_1</DOCNO>
+            	<TEXT>You could ask in r/programming or r/AskProgramming instead.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_48_0</DOCNO>
+            	<TEXT>This game is pretty open ended, so the win to death ratio seems to be all over the place.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_48_1</DOCNO>
+            	<TEXT>I've seen people that beat the game after 30 tries and people that took 500.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_48_2</DOCNO>
+            	<TEXT>I personally took 100 to beat the boss.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_48_3</DOCNO>
+            	<TEXT> gt;This game is pretty open ended Take this as a hint, hehe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_48_4</DOCNO>
+            	<TEXT>Explore the surface</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_49_0</DOCNO>
+            	<TEXT>Oh my, very pretty!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_49_1</DOCNO>
+            	<TEXT>The third reminds me of [those long dragon kites](https://www.youtube.com/watch?v=pvCIeWlJdms)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_50_0</DOCNO>
+            	<TEXT>Great Chests can drop nearly anything, this includes the Sampo.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_50_1</DOCNO>
+            	<TEXT>The chance of one dropping is incredibly small, *but* luckily seed dependent.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_50_2</DOCNO>
+            	<TEXT>That means if you can find a seed with the Sampo in a Great Chest, you can just use a seed changing mod to retry that seed as many times as you like, practicing until you can get this crazy one minute speedrun.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_50_3</DOCNO>
+            	<TEXT>Note that this seed was found by a program, not by a human.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_50_4</DOCNO>
+            	<TEXT>It would take an enormous amount of time to manually check every seed until you find one like this.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_51_0</DOCNO>
+            	<TEXT>Currently working on implementing pattern matching.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_51_1</DOCNO>
+            	<TEXT>As always, dependent types complicate things somewhat, haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_51_2</DOCNO>
+            	<TEXT>Pattern matching with them mostly works now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_51_3</DOCNO>
+            	<TEXT>For instance, this example now typechecks: record Maybe a where tag: enum { Just, Nothing } data: case tag of Just = gt; a Nothing = gt; () fromMaybe : Maybe a - gt; a - gt; a fromMaybe maybe default = case maybe of -- matching with dependent types [Just, data] - gt; data [Nothing, ()] - gt; default</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_52_0</DOCNO>
+            	<TEXT>They do seem to have a rare chance of spawning in the Pyramid, I saw one last time I went there</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_53_0</DOCNO>
+            	<TEXT>Your mad scramble away from the spell as it tears Kolmi to shreds makes this even more amazing</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_54_0</DOCNO>
+            	<TEXT>It looks like a Plasma Cutter with a *ton* of Plasma Beam Enhancers on it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_54_1</DOCNO>
+            	<TEXT>I'm not sure if you could get that insane amount of damage with just enhancers though.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_54_2</DOCNO>
+            	<TEXT>The emitter itself might have had damage added to it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_54_3</DOCNO>
+            	<TEXT>Edit: Ah, here's OP's words: [https://www.reddit.com/r/noita/comments/n2ynla/gotta\_go\_fast/gwphd7m?utm\_source=share amp;utm\_medium=web2x amp;context=3](https://www.reddit.com/r/noita/comments/n2ynla/gotta_go_fast/gwphd7m?utm_source=share amp;utm_medium=web2x amp;context=3)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_55_0</DOCNO>
+            	<TEXT>Oh wow, you got naturally occurring Draught of Midas, incredibly rare</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_56_0</DOCNO>
+            	<TEXT>Creepy Liquids slightly more violent sibling</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_57_0</DOCNO>
+            	<TEXT>This is a perfect horror setup.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_57_1</DOCNO>
+            	<TEXT>Imagine the Hell Worm toying with you, nibbling off bits of your health while the blindness is in effect</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_58_0</DOCNO>
+            	<TEXT>The best place is the probably [the Discord server](https://discord.gg/GSXEhrVdzH), the devs looks at it fairly often</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_59_0</DOCNO>
+            	<TEXT>A shotgun Hiisi had a wand, probably found it on the ledge above.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_59_1</DOCNO>
+            	<TEXT>Looks like the wand had a Magic Missile with Sawblade Orbit on it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_60_0</DOCNO>
+            	<TEXT>Congratulations!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_60_1</DOCNO>
+            	<TEXT>Youve found Travis</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_61_0</DOCNO>
+            	<TEXT>Seeing that the background is gone, I'm guess your game crashed at some point?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_61_1</DOCNO>
+            	<TEXT>Crashes can sometimes change the color of objects, the one I've seen is gold becoming green.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_62_0</DOCNO>
+            	<TEXT>Noita D amp;D is a great idea!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_0</DOCNO>
+            	<TEXT>Funnily enough, it's actually even easier to make endless monsters than that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_1</DOCNO>
+            	<TEXT>There's a third type of polymorphine called "Unstable Polymorphine" which turns creatures specifically into Hiisi.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_2</DOCNO>
+            	<TEXT>Twice I've seen a monster fall into a pool of the stuff and do: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_3</DOCNO>
+            	<TEXT>Turn into a Hiisi Chieftan 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_4</DOCNO>
+            	<TEXT>Be dealt damage and summon more Hiisi 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_5</DOCNO>
+            	<TEXT>Repeat on the summoned Hiisi And if you really wanted to, you can actually summon endless monsters even more easily than that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_6</DOCNO>
+            	<TEXT>Simply get the Unlimited Spells perk and use the Summon Egg spell.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_63_7</DOCNO>
+            	<TEXT>Alternatively - and even more effectively - you could set up an persistent Projectile Transmutation Field and shoot a machine gun wand at it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_64_0</DOCNO>
+            	<TEXT>FYI, Parallel Worlds are *a lot* more stable as of late, so you shouldn't have to worry as much about crashing your game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_64_1</DOCNO>
+            	<TEXT>And yes, going to NG+ unloads parallel worlds.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_65_0</DOCNO>
+            	<TEXT>Still not enough paper to detail the Saga of the Mug Brothers</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_66_0</DOCNO>
+            	<TEXT>Looks like a trigger spell into an electric circle with drilling shot, piercing shot, some damage modifiers, and accelerative homing on it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_66_1</DOCNO>
+            	<TEXT>Added to that, seems like OP has glass cannon</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_67_0</DOCNO>
+            	<TEXT>You can gain temporary polymorphine immunity by eating the flesh of a Master of Polymorph.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_67_1</DOCNO>
+            	<TEXT>The duration of the immunity is dependent on how much flesh you eat</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_68_0</DOCNO>
+            	<TEXT>Wait what the- wow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_68_1</DOCNO>
+            	<TEXT>Yeah I've got no clue then lol Edit: Ah here: [OP's explanation](https://www.reddit.com/r/noita/comments/nkrbwd/this_will_give_you_anxiety_no_immunities/gzey8ig?utm_source=share amp;utm_medium=web2x amp;context=3)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_69_0</DOCNO>
+            	<TEXT>Ahh, just read your explanation.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_69_1</DOCNO>
+            	<TEXT>Didn't think about that, cool!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_70_0</DOCNO>
+            	<TEXT>Oh wow, this is so cool!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_70_1</DOCNO>
+            	<TEXT>Reminds me of [this scene](https://youtu.be/1b2CtgkwJQA?t=53), haha</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_71_0</DOCNO>
+            	<TEXT>You need to have 35 or greater deaths on unmodded runs</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_72_0</DOCNO>
+            	<TEXT>Im a genius! *</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_72_1</DOCNO>
+            	<TEXT>Angry Ghost starts copying nukes* Oh no!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_72_2</DOCNO>
+            	<TEXT>I take that perk every time I see it, even thought I know for sure Im going to die to it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_73_0</DOCNO>
+            	<TEXT>Completing The Work.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_73_1</DOCNO>
+            	<TEXT>There are many different ways to do that, which lead to different endings each.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_73_2</DOCNO>
+            	<TEXT>Funny thing: killing the final boss isnt a requirement for beating the game.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_74_0</DOCNO>
+            	<TEXT>Omega Sawblade, cant seem to figure out how to make it safe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_75_0</DOCNO>
+            	<TEXT>Man, imagine doing PvP in that tunnel, that would make for an epic fight</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_76_0</DOCNO>
+            	<TEXT>The Kummitus, or "Player Ghost", is a rare enemy that spawns with a wand you had in a previous run.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_76_1</DOCNO>
+            	<TEXT>Seems like OP had a rapid-fire pollen wand sometime in the past.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_77_0</DOCNO>
+            	<TEXT>Just wait until you find the *Omega* Black Hole, then you're in for a trip</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_78_0</DOCNO>
+            	<TEXT>Pattern matching in [Clamn](https://github.com/eashanhatti/clamn) almost works now, there's just a few more bugs to fix up.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_78_1</DOCNO>
+            	<TEXT>I spent the last two weeks reimplementing sections of it so that it works when matching on dependent types.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_78_2</DOCNO>
+            	<TEXT>Once this is done, I'll be able to move on to implementing either partial evaluation or type inference - not sure which I'll do first.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_79_0</DOCNO>
+            	<TEXT>Erm, arent those orbs in the exact configuration they spawn in when using CheatGUI?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_79_1</DOCNO>
+            	<TEXT>If Im correct (Apologies if Im not of course) Im not sure what you believe the point of tricking people into thinking youve found a secret is..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_80_0</DOCNO>
+            	<TEXT>Its actually nothing, hehe.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_80_1</DOCNO>
+            	<TEXT>I never noticed that looks like a save icon!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_81_0</DOCNO>
+            	<TEXT>It's because you have the Bouncing Spells perk.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_81_1</DOCNO>
+            	<TEXT>It makes spells bounce, but it also has the hidden benefit of increasing all your spells' lifetimes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_82_0</DOCNO>
+            	<TEXT>Talk about overkill oh wait, this is Noita</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_83_0</DOCNO>
+            	<TEXT>Always nice to see these old and interesting languages get a facelift</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_84_0</DOCNO>
+            	<TEXT>Take the Curse of Greed when you start a run, then go looking for those dice.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_84_1</DOCNO>
+            	<TEXT>They become.. *extra interesting*</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_85_0</DOCNO>
+            	<TEXT>Hahaha I love this game so much.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_85_1</DOCNO>
+            	<TEXT>This is perfect comedy</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_86_0</DOCNO>
+            	<TEXT>As many as needed to kill you.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_87_0</DOCNO>
+            	<TEXT>Those matos are more minibosses than bosses.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_87_1</DOCNO>
+            	<TEXT>Trust me, when you find an actual boss, you'll know...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_88_0</DOCNO>
+            	<TEXT>Er, did you make sure to transform all *three* types of polymorphine?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_89_0</DOCNO>
+            	<TEXT>V is a strange case.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_89_1</DOCNO>
+            	<TEXT>People were quite angry at the author in the beginning, we all know the reasons by now so I wont repeat them, haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_89_2</DOCNO>
+            	<TEXT>I think that anger was justified back then, but Im not sure whether that holds in the present as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_89_3</DOCNO>
+            	<TEXT>From what Ive seen, its been steadily improving - although quite slowly.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_89_4</DOCNO>
+            	<TEXT>The amount of false claims and unachievable goals made by the author also seems to have decreased.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_89_5</DOCNO>
+            	<TEXT>All in all, I would never use V. However, I think its important for everyone to consider whether we need to curb our anger and just see where the project goes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_90_0</DOCNO>
+            	<TEXT>The mirror one is actually super cute, hehe</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_91_0</DOCNO>
+            	<TEXT>Didnt know Doctor Strange plays Noita</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_92_0</DOCNO>
+            	<TEXT>Yeah, you need the drops from a certain boss in order to make spells like that infinite</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_93_0</DOCNO>
+            	<TEXT>Oh man, that was beautiful</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_94_0</DOCNO>
+            	<TEXT>Working on a rewrite of [Konna](https://github.com/eashanhatti/konna) (formerly Clamn).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_94_1</DOCNO>
+            	<TEXT>After using Rust for a little over a year in the original implementation, I decided I wasn't enjoying it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_94_2</DOCNO>
+            	<TEXT>I'm using Haskell for the rewrite - I'd always wanted to write a big project in Haskell anyway haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_94_3</DOCNO>
+            	<TEXT>Definitely enjoying the higher-level conveniences it offers.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_94_4</DOCNO>
+            	<TEXT>The rewrite has been underway for about two weeks now, and so far I've got basic dependent types and partial evaluation implemented.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_95_0</DOCNO>
+            	<TEXT>[TOMT] Book about people with three eyes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_95_1</DOCNO>
+            	<TEXT>The other day I seemed to remember a book I read years ago.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_95_2</DOCNO>
+            	<TEXT>The only details I can recall is that there's a prophecy about a man with three eyes.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_95_3</DOCNO>
+            	<TEXT>You're introduced to the three eyed man as a villain - he rules over some land.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_95_4</DOCNO>
+            	<TEXT>The main character travels with an older man who is an unnaturally skilled fighter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_95_5</DOCNO>
+            	<TEXT>By the end of the book, it's revealed that the prophecy was actually about your travelling companion, who turns out to have an eye in the back of his head.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_96_0</DOCNO>
+            	<TEXT>Is this an actual book or just a weird dream I had?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_98_0</DOCNO>
+            	<TEXT>Taking Gold is Forever in NG+++ and beyond</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_99_0</DOCNO>
+            	<TEXT>That second GIF is terrifying.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_99_1</DOCNO>
+            	<TEXT>Also, how the hell did this happen?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_99_2</DOCNO>
+            	<TEXT>Is this a secret ending I dont know about?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_100_0</DOCNO>
+            	<TEXT>He actually isn't the hardest, although he certainly was for a while.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_100_1</DOCNO>
+            	<TEXT>There are bosses tougher than him in the game now.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_100_2</DOCNO>
+            	<TEXT>Certainly still a challenge though!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_100_3</DOCNO>
+            	<TEXT>Have fun with him :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_101_0</DOCNO>
+            	<TEXT>Aww thats great!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_101_1</DOCNO>
+            	<TEXT>So happy for the two :)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_102_0</DOCNO>
+            	<TEXT>It's called Infinity Train</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_103_0</DOCNO>
+            	<TEXT>The Dex Programming Language: "Getting to the Point.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_103_1</DOCNO>
+            	<TEXT>Index Sets and Parallelism-Preserving Autodiff for Pointful Array Programming"</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_104_0</DOCNO>
+            	<TEXT>ATS is probably the closest to what you're looking for.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_104_1</DOCNO>
+            	<TEXT>Koka has also been suggested, but it does have a runtime - it's still super cool though, I recommend checking it out. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_104_2</DOCNO>
+            	<TEXT>http://www.ats-lang.org/](http://www.ats-lang.org/)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_105_0</DOCNO>
+            	<TEXT>You actually don't have to make use of proofs when writing ATS code - the language can totally be functional C if you want it to haha [https://www.youtube.com/watch?v=zt0OQb1DBko](https://www.youtube.com/watch?v=zt0OQb1DBko) In this talk the speaker links to some external C functions and gradually makes them safe with proofs  gt;So ATS can totally mimic C, bugs and all!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_105_1</DOCNO>
+            	<TEXT>You can port your C code to the highest fidelity, you can port it line by line if you want to.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_105_2</DOCNO>
+            	<TEXT>The type system goes to 11, but it can also go all the way down to C.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_0</DOCNO>
+            	<TEXT>Man, thats so tough.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_1</DOCNO>
+            	<TEXT>Going by how interesting the character is to study: Jake was always a favorite of mine for his dual rule as father figure and cool bro to Finn.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_2</DOCNO>
+            	<TEXT>I also really love Finns progression of maturity over the course of the series - seeing him grow up is really cool.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_3</DOCNO>
+            	<TEXT>But Marceline is my favorite out of the three - her dynamics with Ice King and PB, personality, and backstory serve to create a super interesting character.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_4</DOCNO>
+            	<TEXT>Jake is my least favorite by a *very* slim margin, sorry Jake!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_5</DOCNO>
+            	<TEXT>Now if were going by how much I *like* the character.. gah, still very hard to choose.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_6</DOCNO>
+            	<TEXT>Finn is my least favorite this time, again by a very slim margin.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_106_7</DOCNO>
+            	<TEXT>Marceline is my favorite here as well.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_107_0</DOCNO>
+            	<TEXT>Zero Cost Effect Handlers By Staging</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_108_0</DOCNO>
+            	<TEXT>First Class Patterns</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_109_0</DOCNO>
+            	<TEXT>A Haskell implementation of first class patterns is available here: https://github.com/kowainik/first-class-patterns</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_110_0</DOCNO>
+            	<TEXT>No, first class patterns are patterns expressed as functions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_110_1</DOCNO>
+            	<TEXT>Logic language rules are a more powerful version of pattern matching *in general* - first class and traditional.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_110_2</DOCNO>
+            	<TEXT>I wonder if rules could be made first class as well!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_111_0</DOCNO>
+            	<TEXT>Multi-level Contextual Type Theory</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_112_0</DOCNO>
+            	<TEXT>I recommend checking out this paper: https://arxiv.org/pdf/2111.08099.pdf.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_112_1</DOCNO>
+            	<TEXT>It can serve as an introduction to contextual type theory.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_112_2</DOCNO>
+            	<TEXT>The first segment contains code samples(!),</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_112_3</DOCNO>
+            	<TEXT>although unfortunately the section on pattern matching lacks them.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_0</DOCNO>
+            	<TEXT>Continuing work on my functional language [Konna](https://github.com/eashanhatti/konna).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_1</DOCNO>
+            	<TEXT>The structured editor has progressed a whole lot recently - the most glaring bugs have been fixed and you can work with the entire language in it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_2</DOCNO>
+            	<TEXT>The language itself is going well too, I'm currently thinking through: 1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_3</DOCNO>
+            	<TEXT>Stage polymorphism.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_4</DOCNO>
+            	<TEXT>I think I have a solid plan on how it should work, but issues always crop up in implementation of course, so I'm getting to that as soon as possible 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_5</DOCNO>
+            	<TEXT>Dependent pattern matching.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_6</DOCNO>
+            	<TEXT>Currently working through [Elaborating dependent (co)pattern matching](https://dl.acm.org/doi/10.1145/3236770) to figure it out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_7</DOCNO>
+            	<TEXT>There's a lot of subtle complexities with it!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_8</DOCNO>
+            	<TEXT>I'm also wondering whether I should skip implementing pattern matching altogether and put it entirely in userspace, something like [first class patterns](https://hackage.haskell.org/package/first-class-patterns) \- can you have *dependent* first class patterns?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_9</DOCNO>
+            	<TEXT>That's the deciding factor on whether I implement the former or the latter.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_10</DOCNO>
+            	<TEXT>Perhaps there's another alternative: Patterns still being first class objects, but the `case` expression is still special - as in, patterns are not functions, unlike that first class patterns package linked above 3.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_11</DOCNO>
+            	<TEXT>Dependent types in the runtime language.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_12</DOCNO>
+            	<TEXT>Currently the compile time language is dependently typed and the runtime language is simply typed (Konna is based upon two level type theory).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_13</DOCNO>
+            	<TEXT>However, I'd still like to have dependent types in the runtime language in some limited form.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_14</DOCNO>
+            	<TEXT>Perhaps the runtime lang can permit dependent types as long as the depended-upon data can be erased?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_15</DOCNO>
+            	<TEXT>That's my current plan, I also have to implement that and see how it turns out.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_16</DOCNO>
+            	<TEXT>Compilation to native code.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_17</DOCNO>
+            	<TEXT>This is the most fun one.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_18</DOCNO>
+            	<TEXT>The one major language feature needed for this is `extern` functions.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_19</DOCNO>
+            	<TEXT>I've never made a backend for a more featureful language before, so I'm excited for this!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_20</DOCNO>
+            	<TEXT>Text editor integration for the structured editor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_21</DOCNO>
+            	<TEXT>Currently the editor is a terminal app, which kinda sucks.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_22</DOCNO>
+            	<TEXT>Not many thoughts about this, as it's less of a theory problem and more a "figure out the tech" issue.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_23</DOCNO>
+            	<TEXT>Mouse functionality for the structured editor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_24</DOCNO>
+            	<TEXT>In text editors you can point and click to move the cursor around the program.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_25</DOCNO>
+            	<TEXT>You currently can't do this in Konna's editor.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_26</DOCNO>
+            	<TEXT>This is difficult because it requires calculating screen location information when the AST is rendered.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_27</DOCNO>
+            	<TEXT>Perhaps that's not too difficult, but I've never implemented it before, nor do I have any thoughts on it at the moment.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_28</DOCNO>
+            	<TEXT>This one is on the backburner.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_29</DOCNO>
+            	<TEXT>Documentation!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_30</DOCNO>
+            	<TEXT>Explaining what Konna actually is, haha.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_31</DOCNO>
+            	<TEXT>I currently have [a single example program](https://github.com/eashanhatti/konna/blob/master/examples/pow.md) which only shows off a tiny portion of the language's planned features.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_113_32</DOCNO>
+            	<TEXT>I keep putting this off, perhaps I'll do it when the planned features have actually been implemented..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_114_0</DOCNO>
+            	<TEXT>Modular Implicits</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_115_0</DOCNO>
+            	<TEXT>Wow, this actually feels like a scene you would see in the show.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_115_1</DOCNO>
+            	<TEXT>Imagine a wacky dream sequence or something of the sort.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_116_0</DOCNO>
+            	<TEXT>The Fire Triangle: How to mix substitution, dependent elimination, and effects</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_117_0</DOCNO>
+            	<TEXT>Algebraic Effects and Effect Handlers for Idioms (Applicative functors) and Arrows</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_118_0</DOCNO>
+            	<TEXT>There are three main kinds of dependence: Values depending on values, types depending on types, and types depending on values.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_118_1</DOCNO>
+            	<TEXT>The first is just functions!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_118_2</DOCNO>
+            	<TEXT>The body of a function cannot be computed without the value of its argument.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_118_3</DOCNO>
+            	<TEXT>The second is type families - type families are essentially functions from types to types.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_118_4</DOCNO>
+            	<TEXT>The third is dependent types - perhaps calling them "value dependent types" would make things clearer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_118_5</DOCNO>
+            	<TEXT>TL;DR: type families are closer to ordinary functions than they are to dependent types.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_119_0</DOCNO>
+            	<TEXT>Type Inference By Example may be what you're looking for. [</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_119_1</DOCNO>
+            	<TEXT>https://github.com/Ahnfelt/type-inference-by-example](https://github.com/Ahnfelt/type-inference-by-example)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_120_0</DOCNO>
+            	<TEXT>Really cool!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_120_1</DOCNO>
+            	<TEXT>Gives me Adventure times vibes</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2374_121_0</DOCNO>
+            	<TEXT>Embedding effect systems in Haskell</TEXT>
+        </DOC>

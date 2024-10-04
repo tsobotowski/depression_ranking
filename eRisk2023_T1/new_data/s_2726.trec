@@ -1,0 +1,144 @@
+        <DOC>
+            	<DOCNO>s_2726_0_0</DOCNO>
+            	<TEXT>Have you tried lawnchair lawncher ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_0_1</DOCNO>
+            	<TEXT>I've been using it a lot recently, give it a try, version 1 and 2, but 2 is still in beta yet, at the time of this post</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_1_0</DOCNO>
+            	<TEXT>Best mkw controller ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_1_1</DOCNO>
+            	<TEXT>Hey everyone !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_1_2</DOCNO>
+            	<TEXT>Just wondering what you all thought was the best Mario kart Wii controller ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_2_0</DOCNO>
+            	<TEXT>How does the GameCube controller work ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_2_1</DOCNO>
+            	<TEXT>Is it counted as a separate Wii controller ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_2_2</DOCNO>
+            	<TEXT>Or is it an accessory ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_3_0</DOCNO>
+            	<TEXT>You NEED ios 13 now for it..</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_4_0</DOCNO>
+            	<TEXT>Combinig list program w/noob</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_4_1</DOCNO>
+            	<TEXT>I'm kind of new to the programming world and have a challenge that i would like to realize, wondering if anyone could help ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_4_2</DOCNO>
+            	<TEXT>i have huge list files ( some are in the tens of gigs) that i have to combine and i have no idea how, i would need to check if there is no copies of one word in list, get the numbers in front of word in list out and if possible organize them alphabetically, i have no idea of what I'm doing and wondering if anyone have suggestions with what language, and give me some indications of what to do or have a github maybe they could point me too or something ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_4_3</DOCNO>
+            	<TEXT>Thanks in advance for help !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_5_0</DOCNO>
+            	<TEXT>could you elaborate ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_6_0</DOCNO>
+            	<TEXT>i looked and can't seem to import files like i have, do you have ant idea of what i can do to not import every line manually ?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_7_0</DOCNO>
+            	<TEXT>How is this so beautiful ??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_7_1</DOCNO>
+            	<TEXT>Can i have a tutorial ??</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_8_0</DOCNO>
+            	<TEXT>https://0bin.net/paste/n12nCM70#g9R1pRrf6R-7RDgi6vcQRQutWcc+wuAPOjRx6kaSrWE</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_9_0</DOCNO>
+            	<TEXT>OK, with a bit of tinkering (and with the help of the automods).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_9_1</DOCNO>
+            	<TEXT>I've come to a different model, copying the Thrash Guides docker tutorial.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_9_2</DOCNO>
+            	<TEXT>Here's my new Docker-Compose : [https://0bin.net/paste/pu--MJ2V#ujThewsPrwWFnpCE6ROZVjH8CZ0KOMYInbJSxUgyD4J](https://0bin.net/paste/pu--MJ2V#ujThewsPrwWFnpCE6ROZVjH8CZ0KOMYInbJSxUgyD4J) I am now trying to put as root folder /data/media/tv but still nothing When I select the folder, the menu goes away as if it has done the job, but I can clearly see that it hasn't</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_10_0</DOCNO>
+            	<TEXT>Root folder not selecting</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_10_1</DOCNO>
+            	<TEXT>So, I'm having problems with selecting a default root folder in Sonarr (and Radarr, but I guess if I fix one, ill maybe fix another so Sonarr first).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_10_2</DOCNO>
+            	<TEXT>When I select the default root folder in either the Media management or when I add a new show, the folder just doesn't select.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_10_3</DOCNO>
+            	<TEXT>I do click it, but it doesn't get selected.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_10_4</DOCNO>
+            	<TEXT>I am using docker, but I first tried using it directly with Sonarr hard installed on my computer.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_10_5</DOCNO>
+            	<TEXT>Here's my docker-compose based on Trash Guides, the digital life YouTube (and git), a bit of [linuxserver.io](https://linuxserver.io) default configs and my own tinkering: [https://0bin.net/paste/0dbZ5szi#4+BQRdn+vhhL2cabv9unGPHMpnUwTcEOwnEO27msGS9](https://0bin.net/paste/0dbZ5szi#4+BQRdn+vhhL2cabv9unGPHMpnUwTcEOwnEO27msGS9)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_11_0</DOCNO>
+            	<TEXT>solved it for me !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_11_1</DOCNO>
+            	<TEXT>I fixed paths, switched everything to Hotio, made a group for all the containers, modified the owners (my username and the new group I created), put 775 rights on the /data folder on my system and now everything is working !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_11_2</DOCNO>
+            	<TEXT>Thanks for the help, continue the hard work, this project is great !</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_12_0</DOCNO>
+            	<TEXT>Here's my new Docker-compose if anyone needs it or want to help [https://0bin.net/paste/0f3xdVkp#ZJ2Q1UUhXysIGgBObYVWuT4Z7khHeWZqekDwwtSJSvP](https://0bin.net/paste/0f3xdVkp#ZJ2Q1UUhXysIGgBObYVWuT4Z7khHeWZqekDwwtSJSvP)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_13_0</DOCNO>
+            	<TEXT>Best router option</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_13_1</DOCNO>
+            	<TEXT>I have a question about what router to get, I curently am using my ISP modem as my router (really not ideal) and I'd like to chage to a more open, configurable and privacy oriented router.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_13_2</DOCNO>
+            	<TEXT>Do you have any hardware/software suggestion right now ? (</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_13_3</DOCNO>
+            	<TEXT>I know OpenWRT is a good software, and has a hardware list, but the list is so long and confusing) I'm open to any suggestions (even less cheap ones), I'm going to be going with self-hosting everything I have soon (storage with Next cloud, either a Keypass or Bitwarden selfhost and maybe even e-mail), I'm doing all this as a project for experience and to increase my privacy (I'm probably going to screw up security because of self-hosting but I'll do my best) I'm kind of lost of what to do HardWare whise, I can figure out the software side of things later.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_2726_13_4</DOCNO>
+            	<TEXT>And also, if possible i need a quiet and compact solution since i only have (for now) a one room apartment and I'd like to be able to store (at least kind of) easily and be quiet (for sleeping reasons lol)</TEXT>
+        </DOC>

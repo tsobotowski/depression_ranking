@@ -1,0 +1,325 @@
+        <DOC>
+            	<DOCNO>s_986_0_0</DOCNO>
+            	<TEXT>Best video ever :D</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_1_0</DOCNO>
+            	<TEXT>Well, that's a begging 2.0 isn't it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_2_0</DOCNO>
+            	<TEXT>haha that's cool</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_3_0</DOCNO>
+            	<TEXT>that was pretty cool</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_4_0</DOCNO>
+            	<TEXT>Oh man so cute</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_6_0</DOCNO>
+            	<TEXT>please ask reddit moderators</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_7_0</DOCNO>
+            	<TEXT>Now it's for 239.99 USD</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_8_0</DOCNO>
+            	<TEXT>Give me a link to Convoy C8+ with SST40 LED for 12 dollars (or at least below $16.99).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_8_1</DOCNO>
+            	<TEXT>I will buy it immediately</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_9_0</DOCNO>
+            	<TEXT>Price alert is available though</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_10_0</DOCNO>
+            	<TEXT>Welp... I will fix this</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_11_0</DOCNO>
+            	<TEXT>It works for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_12_0</DOCNO>
+            	<TEXT>Try to restart router if you have dynamic IP</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_13_0</DOCNO>
+            	<TEXT>Yes, Banggood has changed model.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_13_1</DOCNO>
+            	<TEXT>It was QQ27G1.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_13_2</DOCNO>
+            	<TEXT>I've changed name in database and added 189.99 USD as the lowest price (same price on amazon).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_14_0</DOCNO>
+            	<TEXT>Info: Website is migrating to faster server (theoretically) and account is not suspended.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_14_1</DOCNO>
+            	<TEXT>Couponsfromchina should be online in 24-48 hours.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_16_0</DOCNO>
+            	<TEXT>Some people say that this camera is very good and others have different opinion like yours, so I don't get it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_17_0</DOCNO>
+            	<TEXT>That is true - most reviews are sponsored by someone.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_18_0</DOCNO>
+            	<TEXT>Can you give me some evidence like order screenshot or sth?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_19_0</DOCNO>
+            	<TEXT>Thank my bot ;)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_20_0</DOCNO>
+            	<TEXT>Here you can send screenshots links</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_22_0</DOCNO>
+            	<TEXT>It WAS brutal price :P</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_24_0</DOCNO>
+            	<TEXT>What about chinese warehouse?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_25_0</DOCNO>
+            	<TEXT>Sorry about that.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_25_1</DOCNO>
+            	<TEXT>I think there is no way for you to order bikes from Banggood (from China or EU warehouse)</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_29_0</DOCNO>
+            	<TEXT>try again tomorrow morning</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_30_0</DOCNO>
+            	<TEXT>What about post updating time (similar time to searching ( gt; 10 seconds))?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_30_1</DOCNO>
+            	<TEXT>It's not related to search, is it?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_30_2</DOCNO>
+            	<TEXT>I think there's something wrong with database, but I don't know how to check it.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_31_0</DOCNO>
+            	<TEXT>What about 96/100 score on Pagespeed?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_31_1</DOCNO>
+            	<TEXT>https://i.imgur.com/PwxeMIX.png Website is fast.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_31_2</DOCNO>
+            	<TEXT>Only searching and post updating is slow.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_32_0</DOCNO>
+            	<TEXT>I have caching and CDN.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_32_1</DOCNO>
+            	<TEXT>I've changed wp_posts table to MyIsam (from InnoDB (also optimized and repaired it)) and searching is faster now: https://couponsfromchina.com/?s=viofo It takes like 2-3 seconds.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_32_2</DOCNO>
+            	<TEXT>The weird thing is that searching via Ajax Search Lite plugin is still slow (10 seconds~).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_32_3</DOCNO>
+            	<TEXT>Post updating (via REST API or manually wp-admin/post.php?post=x amp;action=edit ) is still slow though (10 seconds or so).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_32_4</DOCNO>
+            	<TEXT>Do you have any idea what else I can do?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_32_5</DOCNO>
+            	<TEXT>Normally it took 2-3 seconds to update post.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_34_0</DOCNO>
+            	<TEXT>How could I know that it's only for 1 person?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_35_0</DOCNO>
+            	<TEXT>No, I just found it here https://www.banggood.com/promotion-2020_spring_easter_brands_sale-11303.html</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_36_0</DOCNO>
+            	<TEXT>Ok, they don't ship worldwide though</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_37_0</DOCNO>
+            	<TEXT>It's working for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_37_1</DOCNO>
+            	<TEXT>What is an error?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_38_0</DOCNO>
+            	<TEXT>https://couponsfromchina.com/lumintop-gt-mini-pro-xhp50-2-flashlight-coupon-price/ 2.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_38_1</DOCNO>
+            	<TEXT>https://couponsfromchina.com/lumintop-fw1a-pro-xhp50-2-flashlight-coupon-price/</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_39_0</DOCNO>
+            	<TEXT>I didn't save this price in database (too extreme).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_40_0</DOCNO>
+            	<TEXT>This coupon should work up to 30.04.2020.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_40_1</DOCNO>
+            	<TEXT>Try again next day</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_41_0</DOCNO>
+            	<TEXT>Maybe it doesn't work for US warehouse.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_41_1</DOCNO>
+            	<TEXT>I know it works for ES wh.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_42_0</DOCNO>
+            	<TEXT>Haha, it's not normal retail price.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_42_1</DOCNO>
+            	<TEXT>It's average price that I'm posting.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_44_0</DOCNO>
+            	<TEXT>Roborock is the best</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_45_0</DOCNO>
+            	<TEXT>Well, there're still black ones</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_46_0</DOCNO>
+            	<TEXT>I don't know</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_47_0</DOCNO>
+            	<TEXT>Oh shit, I think we need to wait for firmware update.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_48_0</DOCNO>
+            	<TEXT>Let us know if camera is working OK</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_49_0</DOCNO>
+            	<TEXT>From EU or China?</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_50_0</DOCNO>
+            	<TEXT>can't find it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_51_0</DOCNO>
+            	<TEXT>well, previous one had 0.5 GB</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_52_0</DOCNO>
+            	<TEXT>Just get a refund</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_55_0</DOCNO>
+            	<TEXT>Sorry, too late.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_55_1</DOCNO>
+            	<TEXT>Amazfit smart watches are pretty good.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_56_0</DOCNO>
+            	<TEXT>Yes, it's not working for all countries...</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_58_0</DOCNO>
+            	<TEXT>Let me know if they send it</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_59_0</DOCNO>
+            	<TEXT>Yeah, I prefer 5000 [K] too.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_60_0</DOCNO>
+            	<TEXT>For Banggood and Gearbest - yes (also manually).</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_60_1</DOCNO>
+            	<TEXT>For Aliexpress - only manually</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_61_0</DOCNO>
+            	<TEXT>Same for me.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_62_0</DOCNO>
+            	<TEXT>it seems to be working</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_63_0</DOCNO>
+            	<TEXT>I think until 21.06</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_64_0</DOCNO>
+            	<TEXT>Link works, but coupon doesn't</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_65_0</DOCNO>
+            	<TEXT>I don't know.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_65_1</DOCNO>
+            	<TEXT>Tomorrow Summer Sale is over.</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_66_0</DOCNO>
+            	<TEXT>I don't think so</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_67_0</DOCNO>
+            	<TEXT>Oups, my bad</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_69_0</DOCNO>
+            	<TEXT>It should be 6/128GB!</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_72_0</DOCNO>
+            	<TEXT>It's actually one knife</TEXT>
+        </DOC>
+        <DOC>
+            	<DOCNO>s_986_73_0</DOCNO>
+            	<TEXT>In the link  gt;60W Soldering Iron
+    .</TEXT>
+        </DOC>
