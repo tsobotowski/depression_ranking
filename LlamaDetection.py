@@ -6,13 +6,15 @@ import transformers
 import torch
 import pandas as pd
 
+print(torch.cuda.is_available())
+
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 pipeline = transformers.pipeline(
     "text-generation",
     model=model_id,
     model_kwargs={"torch_dtype": torch.bfloat16},
-    device_map="auto",
+    device_map=0,
 )
 
 terminators = [
@@ -38,7 +40,7 @@ def predict(statement):
     #Initialize output data frame
     eval = pd.DataFrame(output)
     #Evaluate each catagory
-    for i in range(1, 22):
+    for i in range(1, 21):
         messages = [
         {"role": "system", "content": "You're going to read a social media post and return only the integer index corrosponding to the most relevant of these statements. Do not return anything other than the appropriate integer index. An example of a valid answer is \"0\", \"1\", \"2\", or \"3\", an example of an invalid answer would be \"Based on the user statement, the most relevant index is 3\". If no statments are applicable, default to \"0\". Here are the statements: " + bdi.getQuestion(i)},
         {"role": "user", "content": statement},
@@ -51,7 +53,7 @@ def predict(statement):
         temperature=0.1,
         top_p=0.9,
         )
-        print('Evaluating question '+ str(i) + "/21.")
+        print('Evaluating question '+ str(i) + "/20.")
         raw =  (outputs[0]["generated_text"][-1])
         result = raw['content']
         new_row = {'Catagory': [str(bdi.getCategory(i))], 'Rating': [str(result)]}
