@@ -15,6 +15,6 @@ def trecEval(path):
     return(results)
     
 path = 'C:/Users/Thad/TextMiningProject3/eRisk2023_T1/new_data/test.trec'
-path=sys.argv[1]
+#path=sys.argv[1]
 test = trecEval(path)
 print(test)
