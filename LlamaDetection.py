@@ -82,7 +82,7 @@ def rate(text):
     elif score > 18:
         return 1
 
-
+print(predict(''))
 
 
 

@@ -7,14 +7,17 @@ import pandas as pd
 def trecEval(path):
     results = {}
     texts = trec.parse_trec_file(path)
-    results = texts['doc_id']
     for index, row in texts.iterrows():
         results[row['doc_id']] = LlamaDetection.rate(row['text'])
-    df = pd.DataFrame(results)
+        print(results)
+    df = pd.DataFrame(results.items(), columns=['doc_id', 'rating'])
+    print(df.head())
     df.to_csv('trec_eval_results.csv')
     return(results)
     
-path = 'C:/Users/Thad/TextMiningProject3/eRisk2023_T1/new_data/test.trec'
+def analyze():
+    golden = pd.read_csv('C:/Users/Thad/TextMiningProject3/eRisk2023_T1/g_rels_consenso.csv')
+path = 'C:/Users/Thad/TextMiningProject3/eRisk2023_T1/new_data/s_12.trec'
 #path=sys.argv[1]
 test = trecEval(path)
 print(test)
